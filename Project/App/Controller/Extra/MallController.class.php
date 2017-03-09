@@ -26,7 +26,7 @@ class MallController extends Controller
 
 	public function getConsume()
 	{
-		$table = D('mall_consum');
+		$table = D('mall_consume');
 		$uuid = post('uuid');
 		$where['uuid'] = $uuid;
 		$result = $table->where($where)->select();
@@ -53,14 +53,14 @@ class MallController extends Controller
 		$sum = post('sum');
 		$datetime = currentTime();
 		/*修改积分余额*/
-		$table = ('user');
+		$table = D('user');
 		$where['uuid'] = $uuid;
 		$integral = $table->where($where)->select()[0]['integral'];
 		$set['integral'] = redAsInt($integral,$sum);
-		$table->where['uuid']->save($set);
+		$table->where($where)->save($set);
 		/*记录积分明细*/
 		$table = D('mall_goods');
-		$where['goods_id'] = $goods_id;
+		$where['id'] = $goods_id;
 		$goods_name = $table->where($where)->select()[0]['name'];
 		$content = "兑换礼品：".$goods_name;
 		$table = D('mall_consume');
