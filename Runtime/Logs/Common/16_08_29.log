@@ -1,0 +1,6 @@
+[ 2016-08-29T17:52:24+08:00 ] 113.132.9.207 /cnconsum/MerchantType/commodity/del
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+ERR: 无法加载模块:MerchantType
+

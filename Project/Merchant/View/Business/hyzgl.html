@@ -1,0 +1,54 @@
+<!--    页面头部        -->
+<include file = "Public/header" />
+
+<meta http-equiv="Page-Enter" content="blendTrans(Duration=2.0)" />
+<!--	资源文件	-->
+<link rel="stylesheet" href="__PUBLIC__/css/merchant/workcenter.css">
+<script src="__PUBLIC__/js/merchant/jquery.placeholder.min.js"></script>
+<script src="__PUBLIC__/js/merchant/pages.js"></script>
+<script>
+$(function(){
+	$('input[type=text]').placeholder();
+})
+</script>
+<div class="container clearfix">
+	
+	<!--        左侧菜单        -->
+    <include file = "Public/menu" />
+	
+	<div class="con">
+    	<div class="navinfo"><img src="__PUBLIC__/image/merchant/info.png" />&nbsp;&nbsp;会员卡管理</div>
+    	<div class="cmain">
+    		<div class="cinfo" style="margin-top: 20px;">
+    			<a href="turnURL?url=../card/addView" class="abtn-op ftd">添加会员卡</a>&nbsp;&nbsp;
+    		</div>
+            <div class="cinfo" id="content" style="margin-top: 20px;">
+            	
+                 <table class ='ctable'>
+                        <tr>
+                                <volist name='table_head' id='head'>
+                                    <th>{$head}</th>
+                                </volist>
+                        </tr>
+
+                        <volist name='table_data' id='data'>
+                            <tr>
+                                <volist name='data_index' id='index'>
+                                    <td>{$data.$index}</td>
+                                </volist>
+                                <td><a class='abtn' href="turnURL?url=../card/showView">查看</a></td>
+                            </tr>
+                        </volist>
+                </table>
+                
+                <div class="page text-align-r margtop47">
+            		{$page}
+            	</div>
+
+            </div>
+      </div>
+    </div>
+</div>
+
+<!--    页面尾部        -->
+<include file = "Public/footer" />

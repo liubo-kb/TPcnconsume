@@ -1,0 +1,12 @@
+[ 2017-02-11T14:58:52+08:00 ] 221.11.61.106 /cnconsum/Public/Uploads/insert/(null)
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+ERR: 无法加载模块:Public
+
+[ 2017-02-11T19:15:08+08:00 ] 49.221.62.124 /cnconsum/Public/Uploads/insert/(null)
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+ERR: 无法加载模块:Public
+

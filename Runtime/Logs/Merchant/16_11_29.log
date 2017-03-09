@@ -1,0 +1,3330 @@
+[ 2016-11-29T09:11:07+08:00 ] 1.80.218.189 /cnconsum/Merchant/merchant/loginView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+
+[ 2016-11-29T09:11:11+08:00 ] 1.80.218.189 /cnconsum/Merchant/merchant/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+
+[ 2016-11-29T09:11:14+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/Business/hyzgl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+
+[ 2016-11-29T09:22:27+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/Vip/vip
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+
+[ 2016-11-29T09:22:28+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/Commodity/commodity
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000486s ]
+
+[ 2016-11-29T09:22:32+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/Business/zjtx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+
+[ 2016-11-29T09:22:36+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/Business/glysz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+
+[ 2016-11-29T09:22:38+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/Business/sjjs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+
+[ 2016-11-29T09:22:41+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/Business/sjjs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+
+[ 2016-11-29T09:22:43+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/Business/hyzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+
+[ 2016-11-29T09:22:45+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/Business/sxed
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+
+[ 2016-11-29T09:22:50+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+
+[ 2016-11-29T09:32:53+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+
+[ 2016-11-29T09:33:48+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+
+[ 2016-11-29T09:34:12+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+
+[ 2016-11-29T09:34:36+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+
+[ 2016-11-29T09:36:40+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+
+[ 2016-11-29T09:54:08+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+
+[ 2016-11-29T09:54:33+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000449s ]
+
+[ 2016-11-29T10:04:59+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+
+[ 2016-11-29T10:05:01+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/record_buy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000533s ]
+ERR: 非法操作:record_buy
+
+[ 2016-11-29T10:05:03+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/record_buy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000353s ]
+ERR: 非法操作:record_buy
+
+[ 2016-11-29T10:05:32+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+
+[ 2016-11-29T10:05:34+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/record_buy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000462s ]
+ERR: 非法操作:record_buy
+
+[ 2016-11-29T10:05:35+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/record_buy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000427s ]
+ERR: 非法操作:record_buy
+
+[ 2016-11-29T10:05:38+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/record_buy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000436s ]
+ERR: 非法操作:record_buy
+
+[ 2016-11-29T10:05:39+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/record_buy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000356s ]
+ERR: 非法操作:record_buy
+
+[ 2016-11-29T10:10:54+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+
+[ 2016-11-29T10:10:59+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/record_buy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000557s ]
+ERR: 非法操作:record_buy
+
+[ 2016-11-29T10:11:01+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/record_buy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000413s ]
+ERR: 非法操作:record_buy
+
+[ 2016-11-29T10:12:09+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+
+[ 2016-11-29T10:12:11+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/record_buy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000421s ]
+ERR: 非法操作:record_buy
+
+[ 2016-11-29T10:12:13+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/record_buy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000357s ]
+ERR: 非法操作:record_buy
+
+[ 2016-11-29T10:12:51+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+
+[ 2016-11-29T10:13:01+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/record_buy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000470s ]
+ERR: 非法操作:record_buy
+
+[ 2016-11-29T10:13:25+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+
+[ 2016-11-29T10:13:29+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/record_buy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000447s ]
+ERR: 非法操作:record_buy
+
+[ 2016-11-29T10:13:31+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+
+[ 2016-11-29T10:13:34+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/record_buy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000458s ]
+ERR: 非法操作:record_buy
+
+[ 2016-11-29T10:13:38+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+
+[ 2016-11-29T10:13:42+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/record_buy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000464s ]
+ERR: 非法操作:record_buy
+
+[ 2016-11-29T10:14:17+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000382s ]
+
+[ 2016-11-29T10:15:19+08:00 ] 1.80.218.189 /cnconsum/Merchant/merchant/loginView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+
+[ 2016-11-29T10:15:21+08:00 ] 1.80.218.189 /cnconsum/Merchant/merchant/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+
+[ 2016-11-29T10:15:24+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/Business/hyzgl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+
+[ 2016-11-29T10:15:27+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+
+[ 2016-11-29T10:15:31+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000357s ]
+SQL: SHOW COLUMNS FROM `cn_record_buy` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_buy` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] strpos() expects parameter 1 to be string, object given /var/www/html/cnconsum/ThinkPHP/Library/Think/Model.class.php 第 1845 行.
+NOTIC: [8] Object of class Think\AjaxPage could not be converted to int /var/www/html/cnconsum/ThinkPHP/Library/Think/Model.class.php 第 1848 行.
+SQL: SELECT cn_record_buy.*,cn_user.phone,`headImage` FROM `cn_record_buy` INNER JOIN cn_user ON cn_user.uuid = cn_record_buy.user   LIMIT 0,20   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: table_head /var/www/html/cnconsum/Project/Merchant/Controller/DataReportController.class.php 第 108 行.
+
+[ 2016-11-29T10:15:37+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000517s ]
+SQL: SHOW COLUMNS FROM `cn_record_buy` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_buy` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] strpos() expects parameter 1 to be string, object given /var/www/html/cnconsum/ThinkPHP/Library/Think/Model.class.php 第 1845 行.
+NOTIC: [8] Object of class Think\AjaxPage could not be converted to int /var/www/html/cnconsum/ThinkPHP/Library/Think/Model.class.php 第 1848 行.
+SQL: SELECT cn_record_buy.*,cn_user.phone,`headImage` FROM `cn_record_buy` INNER JOIN cn_user ON cn_user.uuid = cn_record_buy.user   LIMIT 0,20   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: table_head /var/www/html/cnconsum/Project/Merchant/Controller/DataReportController.class.php 第 108 行.
+
+[ 2016-11-29T10:15:40+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000397s ]
+SQL: SHOW COLUMNS FROM `cn_record_buy` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_buy` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] strpos() expects parameter 1 to be string, object given /var/www/html/cnconsum/ThinkPHP/Library/Think/Model.class.php 第 1845 行.
+NOTIC: [8] Object of class Think\AjaxPage could not be converted to int /var/www/html/cnconsum/ThinkPHP/Library/Think/Model.class.php 第 1848 行.
+SQL: SELECT cn_record_buy.*,cn_user.phone,`headImage` FROM `cn_record_buy` INNER JOIN cn_user ON cn_user.uuid = cn_record_buy.user   LIMIT 0,20   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: table_head /var/www/html/cnconsum/Project/Merchant/Controller/DataReportController.class.php 第 108 行.
+
+[ 2016-11-29T10:16:07+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+
+[ 2016-11-29T10:16:12+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000446s ]
+SQL: SHOW COLUMNS FROM `cn_record_buy` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_buy` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] strpos() expects parameter 1 to be string, object given /var/www/html/cnconsum/ThinkPHP/Library/Think/Model.class.php 第 1845 行.
+NOTIC: [8] Object of class Think\AjaxPage could not be converted to int /var/www/html/cnconsum/ThinkPHP/Library/Think/Model.class.php 第 1848 行.
+SQL: SELECT cn_record_buy.*,cn_user.phone,`headImage` FROM `cn_record_buy` INNER JOIN cn_user ON cn_user.uuid = cn_record_buy.user   LIMIT 0,20   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: table_head /var/www/html/cnconsum/Project/Merchant/Controller/DataReportController.class.php 第 108 行.
+
+[ 2016-11-29T10:16:57+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+
+[ 2016-11-29T10:17:00+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000431s ]
+SQL: SHOW COLUMNS FROM `cn_record_buy` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_buy` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] strpos() expects parameter 1 to be string, object given /var/www/html/cnconsum/ThinkPHP/Library/Think/Model.class.php 第 1845 行.
+NOTIC: [8] Object of class Think\AjaxPage could not be converted to int /var/www/html/cnconsum/ThinkPHP/Library/Think/Model.class.php 第 1848 行.
+SQL: SELECT cn_record_buy.*,cn_user.phone,`headImage` FROM `cn_record_buy` INNER JOIN cn_user ON cn_user.uuid = cn_record_buy.user   LIMIT 0,20   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: table_head /var/www/html/cnconsum/Project/Merchant/Controller/DataReportController.class.php 第 108 行.
+
+[ 2016-11-29T10:18:00+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+
+[ 2016-11-29T10:18:02+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000399s ]
+SQL: SHOW COLUMNS FROM `cn_record_buy` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_buy` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] strpos() expects parameter 1 to be string, object given /var/www/html/cnconsum/ThinkPHP/Library/Think/Model.class.php 第 1845 行.
+NOTIC: [8] Object of class Think\AjaxPage could not be converted to int /var/www/html/cnconsum/ThinkPHP/Library/Think/Model.class.php 第 1848 行.
+SQL: SELECT cn_record_buy.*,cn_user.phone,`headImage` FROM `cn_record_buy` INNER JOIN cn_user ON cn_user.uuid = cn_record_buy.user   LIMIT 0,20   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: table_head /var/www/html/cnconsum/Project/Merchant/Controller/DataReportController.class.php 第 108 行.
+
+[ 2016-11-29T10:18:06+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000367s ]
+SQL: SHOW COLUMNS FROM `cn_record_buy` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_buy` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] strpos() expects parameter 1 to be string, object given /var/www/html/cnconsum/ThinkPHP/Library/Think/Model.class.php 第 1845 行.
+NOTIC: [8] Object of class Think\AjaxPage could not be converted to int /var/www/html/cnconsum/ThinkPHP/Library/Think/Model.class.php 第 1848 行.
+SQL: SELECT cn_record_buy.*,cn_user.phone,`headImage` FROM `cn_record_buy` INNER JOIN cn_user ON cn_user.uuid = cn_record_buy.user   LIMIT 0,20   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: table_head /var/www/html/cnconsum/Project/Merchant/Controller/DataReportController.class.php 第 108 行.
+
+[ 2016-11-29T10:18:11+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000363s ]
+SQL: SHOW COLUMNS FROM `cn_record_buy` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_buy` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] strpos() expects parameter 1 to be string, object given /var/www/html/cnconsum/ThinkPHP/Library/Think/Model.class.php 第 1845 行.
+NOTIC: [8] Object of class Think\AjaxPage could not be converted to int /var/www/html/cnconsum/ThinkPHP/Library/Think/Model.class.php 第 1848 行.
+SQL: SELECT cn_record_buy.*,cn_user.phone,`headImage` FROM `cn_record_buy` INNER JOIN cn_user ON cn_user.uuid = cn_record_buy.user   LIMIT 0,20   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: table_head /var/www/html/cnconsum/Project/Merchant/Controller/DataReportController.class.php 第 108 行.
+
+[ 2016-11-29T10:18:19+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000366s ]
+SQL: SHOW COLUMNS FROM `cn_record_buy` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_buy` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] strpos() expects parameter 1 to be string, object given /var/www/html/cnconsum/ThinkPHP/Library/Think/Model.class.php 第 1845 行.
+NOTIC: [8] Object of class Think\AjaxPage could not be converted to int /var/www/html/cnconsum/ThinkPHP/Library/Think/Model.class.php 第 1848 行.
+SQL: SELECT cn_record_buy.*,cn_user.phone,`headImage` FROM `cn_record_buy` INNER JOIN cn_user ON cn_user.uuid = cn_record_buy.user   LIMIT 0,20   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: table_head /var/www/html/cnconsum/Project/Merchant/Controller/DataReportController.class.php 第 108 行.
+
+[ 2016-11-29T10:18:27+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000465s ]
+SQL: SHOW COLUMNS FROM `cn_record_buy` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_buy` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] strpos() expects parameter 1 to be string, object given /var/www/html/cnconsum/ThinkPHP/Library/Think/Model.class.php 第 1845 行.
+NOTIC: [8] Object of class Think\AjaxPage could not be converted to int /var/www/html/cnconsum/ThinkPHP/Library/Think/Model.class.php 第 1848 行.
+SQL: SELECT cn_record_buy.*,cn_user.phone,`headImage` FROM `cn_record_buy` INNER JOIN cn_user ON cn_user.uuid = cn_record_buy.user   LIMIT 0,20   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: table_head /var/www/html/cnconsum/Project/Merchant/Controller/DataReportController.class.php 第 108 行.
+
+[ 2016-11-29T10:18:31+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000603s ]
+SQL: SHOW COLUMNS FROM `cn_record_buy` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_buy` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] strpos() expects parameter 1 to be string, object given /var/www/html/cnconsum/ThinkPHP/Library/Think/Model.class.php 第 1845 行.
+NOTIC: [8] Object of class Think\AjaxPage could not be converted to int /var/www/html/cnconsum/ThinkPHP/Library/Think/Model.class.php 第 1848 行.
+SQL: SELECT cn_record_buy.*,cn_user.phone,`headImage` FROM `cn_record_buy` INNER JOIN cn_user ON cn_user.uuid = cn_record_buy.user   LIMIT 0,20   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: table_head /var/www/html/cnconsum/Project/Merchant/Controller/DataReportController.class.php 第 108 行.
+
+[ 2016-11-29T10:20:25+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+
+[ 2016-11-29T10:20:27+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000445s ]
+SQL: SHOW COLUMNS FROM `cn_record_buy` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_buy` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] strpos() expects parameter 1 to be string, object given /var/www/html/cnconsum/ThinkPHP/Library/Think/Model.class.php 第 1845 行.
+NOTIC: [8] Object of class Think\AjaxPage could not be converted to int /var/www/html/cnconsum/ThinkPHP/Library/Think/Model.class.php 第 1848 行.
+SQL: SELECT cn_record_buy.*,cn_user.phone,`headImage` FROM `cn_record_buy` INNER JOIN cn_user ON cn_user.uuid = cn_record_buy.user   LIMIT 0,20   [ RunTime:0.0004s ]
+
+[ 2016-11-29T10:20:33+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000482s ]
+SQL: SHOW COLUMNS FROM `cn_record_buy` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_buy` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] strpos() expects parameter 1 to be string, object given /var/www/html/cnconsum/ThinkPHP/Library/Think/Model.class.php 第 1845 行.
+NOTIC: [8] Object of class Think\AjaxPage could not be converted to int /var/www/html/cnconsum/ThinkPHP/Library/Think/Model.class.php 第 1848 行.
+SQL: SELECT cn_record_buy.*,cn_user.phone,`headImage` FROM `cn_record_buy` INNER JOIN cn_user ON cn_user.uuid = cn_record_buy.user   LIMIT 0,20   [ RunTime:0.0004s ]
+
+[ 2016-11-29T10:21:34+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+
+[ 2016-11-29T10:21:36+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000428s ]
+SQL: SHOW COLUMNS FROM `cn_record_buy` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_buy` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] strpos() expects parameter 1 to be string, object given /var/www/html/cnconsum/ThinkPHP/Library/Think/Model.class.php 第 1845 行.
+NOTIC: [8] Object of class Think\AjaxPage could not be converted to int /var/www/html/cnconsum/ThinkPHP/Library/Think/Model.class.php 第 1848 行.
+SQL: SELECT cn_record_buy.*,cn_user.phone,`headImage` FROM `cn_record_buy` INNER JOIN cn_user ON cn_user.uuid = cn_record_buy.user   LIMIT 0,20   [ RunTime:0.0004s ]
+
+[ 2016-11-29T10:21:37+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000448s ]
+SQL: SHOW COLUMNS FROM `cn_record_buy` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_buy` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] strpos() expects parameter 1 to be string, object given /var/www/html/cnconsum/ThinkPHP/Library/Think/Model.class.php 第 1845 行.
+NOTIC: [8] Object of class Think\AjaxPage could not be converted to int /var/www/html/cnconsum/ThinkPHP/Library/Think/Model.class.php 第 1848 行.
+SQL: SELECT cn_record_buy.*,cn_user.phone,`headImage` FROM `cn_record_buy` INNER JOIN cn_user ON cn_user.uuid = cn_record_buy.user   LIMIT 0,20   [ RunTime:0.0004s ]
+
+[ 2016-11-29T10:21:38+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000458s ]
+SQL: SHOW COLUMNS FROM `cn_record_buy` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_buy` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] strpos() expects parameter 1 to be string, object given /var/www/html/cnconsum/ThinkPHP/Library/Think/Model.class.php 第 1845 行.
+NOTIC: [8] Object of class Think\AjaxPage could not be converted to int /var/www/html/cnconsum/ThinkPHP/Library/Think/Model.class.php 第 1848 行.
+SQL: SELECT cn_record_buy.*,cn_user.phone,`headImage` FROM `cn_record_buy` INNER JOIN cn_user ON cn_user.uuid = cn_record_buy.user   LIMIT 0,20   [ RunTime:0.0005s ]
+
+[ 2016-11-29T10:21:38+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000358s ]
+SQL: SHOW COLUMNS FROM `cn_record_buy` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_buy` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] strpos() expects parameter 1 to be string, object given /var/www/html/cnconsum/ThinkPHP/Library/Think/Model.class.php 第 1845 行.
+NOTIC: [8] Object of class Think\AjaxPage could not be converted to int /var/www/html/cnconsum/ThinkPHP/Library/Think/Model.class.php 第 1848 行.
+SQL: SELECT cn_record_buy.*,cn_user.phone,`headImage` FROM `cn_record_buy` INNER JOIN cn_user ON cn_user.uuid = cn_record_buy.user   LIMIT 0,20   [ RunTime:0.0004s ]
+
+[ 2016-11-29T10:21:40+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000355s ]
+SQL: SHOW COLUMNS FROM `cn_record_buy` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_buy` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] strpos() expects parameter 1 to be string, object given /var/www/html/cnconsum/ThinkPHP/Library/Think/Model.class.php 第 1845 行.
+NOTIC: [8] Object of class Think\AjaxPage could not be converted to int /var/www/html/cnconsum/ThinkPHP/Library/Think/Model.class.php 第 1848 行.
+SQL: SELECT cn_record_buy.*,cn_user.phone,`headImage` FROM `cn_record_buy` INNER JOIN cn_user ON cn_user.uuid = cn_record_buy.user   LIMIT 0,20   [ RunTime:0.0004s ]
+
+[ 2016-11-29T10:21:40+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000422s ]
+SQL: SHOW COLUMNS FROM `cn_record_buy` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_buy` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] strpos() expects parameter 1 to be string, object given /var/www/html/cnconsum/ThinkPHP/Library/Think/Model.class.php 第 1845 行.
+NOTIC: [8] Object of class Think\AjaxPage could not be converted to int /var/www/html/cnconsum/ThinkPHP/Library/Think/Model.class.php 第 1848 行.
+SQL: SELECT cn_record_buy.*,cn_user.phone,`headImage` FROM `cn_record_buy` INNER JOIN cn_user ON cn_user.uuid = cn_record_buy.user   LIMIT 0,20   [ RunTime:0.0004s ]
+
+[ 2016-11-29T10:21:43+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000609s ]
+SQL: SHOW COLUMNS FROM `cn_record_buy` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_buy` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] strpos() expects parameter 1 to be string, object given /var/www/html/cnconsum/ThinkPHP/Library/Think/Model.class.php 第 1845 行.
+NOTIC: [8] Object of class Think\AjaxPage could not be converted to int /var/www/html/cnconsum/ThinkPHP/Library/Think/Model.class.php 第 1848 行.
+SQL: SELECT cn_record_buy.*,cn_user.phone,`headImage` FROM `cn_record_buy` INNER JOIN cn_user ON cn_user.uuid = cn_record_buy.user   LIMIT 0,20   [ RunTime:0.0004s ]
+
+[ 2016-11-29T10:21:52+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000429s ]
+SQL: SHOW COLUMNS FROM `cn_record_buy` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_buy` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] strpos() expects parameter 1 to be string, object given /var/www/html/cnconsum/ThinkPHP/Library/Think/Model.class.php 第 1845 行.
+NOTIC: [8] Object of class Think\AjaxPage could not be converted to int /var/www/html/cnconsum/ThinkPHP/Library/Think/Model.class.php 第 1848 行.
+SQL: SELECT cn_record_buy.*,cn_user.phone,`headImage` FROM `cn_record_buy` INNER JOIN cn_user ON cn_user.uuid = cn_record_buy.user   LIMIT 0,20   [ RunTime:0.0004s ]
+
+[ 2016-11-29T10:21:53+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000385s ]
+SQL: SHOW COLUMNS FROM `cn_record_buy` [ RunTime:0.0142s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_buy` LIMIT 1   [ RunTime:0.0016s ]
+NOTIC: [2] strpos() expects parameter 1 to be string, object given /var/www/html/cnconsum/ThinkPHP/Library/Think/Model.class.php 第 1845 行.
+NOTIC: [8] Object of class Think\AjaxPage could not be converted to int /var/www/html/cnconsum/ThinkPHP/Library/Think/Model.class.php 第 1848 行.
+SQL: SELECT cn_record_buy.*,cn_user.phone,`headImage` FROM `cn_record_buy` INNER JOIN cn_user ON cn_user.uuid = cn_record_buy.user   LIMIT 0,20   [ RunTime:0.0024s ]
+
+[ 2016-11-29T10:21:54+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000375s ]
+SQL: SHOW COLUMNS FROM `cn_record_buy` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_buy` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] strpos() expects parameter 1 to be string, object given /var/www/html/cnconsum/ThinkPHP/Library/Think/Model.class.php 第 1845 行.
+NOTIC: [8] Object of class Think\AjaxPage could not be converted to int /var/www/html/cnconsum/ThinkPHP/Library/Think/Model.class.php 第 1848 行.
+SQL: SELECT cn_record_buy.*,cn_user.phone,`headImage` FROM `cn_record_buy` INNER JOIN cn_user ON cn_user.uuid = cn_record_buy.user   LIMIT 0,20   [ RunTime:0.0004s ]
+
+[ 2016-11-29T10:21:55+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000383s ]
+SQL: SHOW COLUMNS FROM `cn_record_buy` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_buy` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] strpos() expects parameter 1 to be string, object given /var/www/html/cnconsum/ThinkPHP/Library/Think/Model.class.php 第 1845 行.
+NOTIC: [8] Object of class Think\AjaxPage could not be converted to int /var/www/html/cnconsum/ThinkPHP/Library/Think/Model.class.php 第 1848 行.
+SQL: SELECT cn_record_buy.*,cn_user.phone,`headImage` FROM `cn_record_buy` INNER JOIN cn_user ON cn_user.uuid = cn_record_buy.user   LIMIT 0,20   [ RunTime:0.0004s ]
+
+[ 2016-11-29T10:21:56+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000435s ]
+SQL: SHOW COLUMNS FROM `cn_record_buy` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_buy` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] strpos() expects parameter 1 to be string, object given /var/www/html/cnconsum/ThinkPHP/Library/Think/Model.class.php 第 1845 行.
+NOTIC: [8] Object of class Think\AjaxPage could not be converted to int /var/www/html/cnconsum/ThinkPHP/Library/Think/Model.class.php 第 1848 行.
+SQL: SELECT cn_record_buy.*,cn_user.phone,`headImage` FROM `cn_record_buy` INNER JOIN cn_user ON cn_user.uuid = cn_record_buy.user   LIMIT 0,20   [ RunTime:0.0004s ]
+
+[ 2016-11-29T10:26:24+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000405s ]
+SQL: SHOW COLUMNS FROM `cn_record_buy` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_buy` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] strpos() expects parameter 1 to be string, object given /var/www/html/cnconsum/ThinkPHP/Library/Think/Model.class.php 第 1845 行.
+NOTIC: [8] Object of class Think\AjaxPage could not be converted to int /var/www/html/cnconsum/ThinkPHP/Library/Think/Model.class.php 第 1848 行.
+SQL: SELECT cn_record_buy.*,cn_user.phone,`headImage` FROM `cn_record_buy` INNER JOIN cn_user ON cn_user.uuid = cn_record_buy.user   LIMIT 0,20   [ RunTime:0.0006s ]
+
+[ 2016-11-29T10:26:25+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000678s ]
+SQL: SHOW COLUMNS FROM `cn_record_buy` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_buy` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] strpos() expects parameter 1 to be string, object given /var/www/html/cnconsum/ThinkPHP/Library/Think/Model.class.php 第 1845 行.
+NOTIC: [8] Object of class Think\AjaxPage could not be converted to int /var/www/html/cnconsum/ThinkPHP/Library/Think/Model.class.php 第 1848 行.
+SQL: SELECT cn_record_buy.*,cn_user.phone,`headImage` FROM `cn_record_buy` INNER JOIN cn_user ON cn_user.uuid = cn_record_buy.user   LIMIT 0,20   [ RunTime:0.0004s ]
+
+[ 2016-11-29T10:26:26+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000495s ]
+SQL: SHOW COLUMNS FROM `cn_record_buy` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_buy` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] strpos() expects parameter 1 to be string, object given /var/www/html/cnconsum/ThinkPHP/Library/Think/Model.class.php 第 1845 行.
+NOTIC: [8] Object of class Think\AjaxPage could not be converted to int /var/www/html/cnconsum/ThinkPHP/Library/Think/Model.class.php 第 1848 行.
+SQL: SELECT cn_record_buy.*,cn_user.phone,`headImage` FROM `cn_record_buy` INNER JOIN cn_user ON cn_user.uuid = cn_record_buy.user   LIMIT 0,20   [ RunTime:0.0004s ]
+
+[ 2016-11-29T10:26:28+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000459s ]
+SQL: SHOW COLUMNS FROM `cn_record_buy` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_buy` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] strpos() expects parameter 1 to be string, object given /var/www/html/cnconsum/ThinkPHP/Library/Think/Model.class.php 第 1845 行.
+NOTIC: [8] Object of class Think\AjaxPage could not be converted to int /var/www/html/cnconsum/ThinkPHP/Library/Think/Model.class.php 第 1848 行.
+SQL: SELECT cn_record_buy.*,cn_user.phone,`headImage` FROM `cn_record_buy` INNER JOIN cn_user ON cn_user.uuid = cn_record_buy.user   LIMIT 0,20   [ RunTime:0.0004s ]
+
+[ 2016-11-29T10:26:29+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000422s ]
+SQL: SHOW COLUMNS FROM `cn_record_buy` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_buy` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] strpos() expects parameter 1 to be string, object given /var/www/html/cnconsum/ThinkPHP/Library/Think/Model.class.php 第 1845 行.
+NOTIC: [8] Object of class Think\AjaxPage could not be converted to int /var/www/html/cnconsum/ThinkPHP/Library/Think/Model.class.php 第 1848 行.
+SQL: SELECT cn_record_buy.*,cn_user.phone,`headImage` FROM `cn_record_buy` INNER JOIN cn_user ON cn_user.uuid = cn_record_buy.user   LIMIT 0,20   [ RunTime:0.0004s ]
+
+[ 2016-11-29T10:27:14+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+
+[ 2016-11-29T10:27:17+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000401s ]
+SQL: SHOW COLUMNS FROM `cn_record_buy` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_buy` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] strpos() expects parameter 1 to be string, object given /var/www/html/cnconsum/ThinkPHP/Library/Think/Model.class.php 第 1845 行.
+NOTIC: [8] Object of class Think\AjaxPage could not be converted to int /var/www/html/cnconsum/ThinkPHP/Library/Think/Model.class.php 第 1848 行.
+SQL: SELECT cn_record_buy.*,cn_user.phone,`headImage` FROM `cn_record_buy` INNER JOIN cn_user ON cn_user.uuid = cn_record_buy.user   LIMIT 0,20   [ RunTime:0.0005s ]
+
+[ 2016-11-29T10:27:19+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000380s ]
+SQL: SHOW COLUMNS FROM `cn_record_buy` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_buy` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] strpos() expects parameter 1 to be string, object given /var/www/html/cnconsum/ThinkPHP/Library/Think/Model.class.php 第 1845 行.
+NOTIC: [8] Object of class Think\AjaxPage could not be converted to int /var/www/html/cnconsum/ThinkPHP/Library/Think/Model.class.php 第 1848 行.
+SQL: SELECT cn_record_buy.*,cn_user.phone,`headImage` FROM `cn_record_buy` INNER JOIN cn_user ON cn_user.uuid = cn_record_buy.user   LIMIT 0,20   [ RunTime:0.0004s ]
+
+[ 2016-11-29T10:27:41+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+
+[ 2016-11-29T10:28:04+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000464s ]
+SQL: SHOW COLUMNS FROM `cn_record_buy` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_buy` LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] strpos() expects parameter 1 to be string, object given /var/www/html/cnconsum/ThinkPHP/Library/Think/Model.class.php 第 1845 行.
+NOTIC: [8] Object of class Think\AjaxPage could not be converted to int /var/www/html/cnconsum/ThinkPHP/Library/Think/Model.class.php 第 1848 行.
+SQL: SELECT cn_record_buy.*,cn_user.phone,`headImage` FROM `cn_record_buy` INNER JOIN cn_user ON cn_user.uuid = cn_record_buy.user   LIMIT 0,20   [ RunTime:0.0004s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /var/www/html/cnconsum/ThinkPHP/Common/functions.php:850) /var/www/html/cnconsum/ThinkPHP/Library/Think/Controller.class.php 第 215 行.
+
+[ 2016-11-29T10:31:35+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+
+[ 2016-11-29T10:31:45+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000541s ]
+SQL: SHOW COLUMNS FROM `cn_record_buy` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_buy` WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_buy.datetime <= '2016-12-31 23:59:59' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] strpos() expects parameter 1 to be string, object given /var/www/html/cnconsum/ThinkPHP/Library/Think/Model.class.php 第 1845 行.
+NOTIC: [8] Object of class Think\AjaxPage could not be converted to int /var/www/html/cnconsum/ThinkPHP/Library/Think/Model.class.php 第 1848 行.
+SQL: SELECT cn_record_buy.*,cn_user.phone,`headImage` FROM `cn_record_buy` INNER JOIN cn_user ON cn_user.uuid = cn_record_buy.user   WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_buy.datetime <= '2016-12-31 23:59:59' LIMIT 0,20   [ RunTime:0.0004s ]
+
+[ 2016-11-29T10:31:47+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000508s ]
+SQL: SHOW COLUMNS FROM `cn_record_buy` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_buy` WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_buy.datetime <= '2016-12-31 23:59:59' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] strpos() expects parameter 1 to be string, object given /var/www/html/cnconsum/ThinkPHP/Library/Think/Model.class.php 第 1845 行.
+NOTIC: [8] Object of class Think\AjaxPage could not be converted to int /var/www/html/cnconsum/ThinkPHP/Library/Think/Model.class.php 第 1848 行.
+SQL: SELECT cn_record_buy.*,cn_user.phone,`headImage` FROM `cn_record_buy` INNER JOIN cn_user ON cn_user.uuid = cn_record_buy.user   WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_buy.datetime <= '2016-12-31 23:59:59' LIMIT 0,20   [ RunTime:0.0005s ]
+
+[ 2016-11-29T10:31:48+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000399s ]
+SQL: SHOW COLUMNS FROM `cn_record_buy` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_buy` WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_buy.datetime <= '2016-12-31 23:59:59' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] strpos() expects parameter 1 to be string, object given /var/www/html/cnconsum/ThinkPHP/Library/Think/Model.class.php 第 1845 行.
+NOTIC: [8] Object of class Think\AjaxPage could not be converted to int /var/www/html/cnconsum/ThinkPHP/Library/Think/Model.class.php 第 1848 行.
+SQL: SELECT cn_record_buy.*,cn_user.phone,`headImage` FROM `cn_record_buy` INNER JOIN cn_user ON cn_user.uuid = cn_record_buy.user   WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_buy.datetime <= '2016-12-31 23:59:59' LIMIT 0,20   [ RunTime:0.0004s ]
+
+[ 2016-11-29T10:34:45+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+
+[ 2016-11-29T10:38:30+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+
+[ 2016-11-29T10:39:26+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+
+[ 2016-11-29T10:42:31+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+
+[ 2016-11-29T10:42:41+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000505s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000507s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000566s ]
+SQL: SHOW COLUMNS FROM `cn_record_buy` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_buy` WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_buy.datetime <= '2016-12-31 23:59:59' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] strpos() expects parameter 1 to be string, object given /var/www/html/cnconsum/ThinkPHP/Library/Think/Model.class.php 第 1845 行.
+NOTIC: [8] Object of class Think\AjaxPage could not be converted to int /var/www/html/cnconsum/ThinkPHP/Library/Think/Model.class.php 第 1848 行.
+SQL: SELECT cn_record_buy.*,cn_user.phone,`headImage` FROM `cn_record_buy` INNER JOIN cn_user ON cn_user.uuid = cn_record_buy.user   WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_buy.datetime <= '2016-12-31 23:59:59' LIMIT 0,20   [ RunTime:0.0003s ]
+
+[ 2016-11-29T10:43:58+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+
+[ 2016-11-29T10:44:00+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000419s ]
+SQL: SHOW COLUMNS FROM `cn_record_buy` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_buy` WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_buy.datetime <= '2016-12-31 23:59:59' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT cn_record_buy.*,cn_user.phone,`headImage` FROM `cn_record_buy` INNER JOIN cn_user ON cn_user.uuid = cn_record_buy.user   WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_buy.datetime <= '2016-12-31 23:59:59' LIMIT 1,1   [ RunTime:0.0003s ]
+
+[ 2016-11-29T10:44:01+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000432s ]
+SQL: SHOW COLUMNS FROM `cn_record_buy` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_buy` WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_buy.datetime <= '2016-12-31 23:59:59' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT cn_record_buy.*,cn_user.phone,`headImage` FROM `cn_record_buy` INNER JOIN cn_user ON cn_user.uuid = cn_record_buy.user   WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_buy.datetime <= '2016-12-31 23:59:59' LIMIT 2,1   [ RunTime:0.0003s ]
+
+[ 2016-11-29T10:44:02+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000425s ]
+SQL: SHOW COLUMNS FROM `cn_record_buy` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_buy` WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_buy.datetime <= '2016-12-31 23:59:59' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT cn_record_buy.*,cn_user.phone,`headImage` FROM `cn_record_buy` INNER JOIN cn_user ON cn_user.uuid = cn_record_buy.user   WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_buy.datetime <= '2016-12-31 23:59:59' LIMIT 1,1   [ RunTime:0.0003s ]
+
+[ 2016-11-29T10:44:03+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000400s ]
+SQL: SHOW COLUMNS FROM `cn_record_buy` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_buy` WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_buy.datetime <= '2016-12-31 23:59:59' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT cn_record_buy.*,cn_user.phone,`headImage` FROM `cn_record_buy` INNER JOIN cn_user ON cn_user.uuid = cn_record_buy.user   WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_buy.datetime <= '2016-12-31 23:59:59' LIMIT 0,1   [ RunTime:0.0004s ]
+
+[ 2016-11-29T10:44:05+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000436s ]
+SQL: SHOW COLUMNS FROM `cn_record_buy` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_buy` WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_buy.datetime <= '2016-12-31 23:59:59' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT cn_record_buy.*,cn_user.phone,`headImage` FROM `cn_record_buy` INNER JOIN cn_user ON cn_user.uuid = cn_record_buy.user   WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_buy.datetime <= '2016-12-31 23:59:59' LIMIT 1,1   [ RunTime:0.0003s ]
+
+[ 2016-11-29T10:44:05+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+SQL: SHOW COLUMNS FROM `cn_record_buy` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_buy` WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_buy.datetime <= '2016-12-31 23:59:59' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT cn_record_buy.*,cn_user.phone,`headImage` FROM `cn_record_buy` INNER JOIN cn_user ON cn_user.uuid = cn_record_buy.user   WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_buy.datetime <= '2016-12-31 23:59:59' LIMIT 2,1   [ RunTime:0.0006s ]
+
+[ 2016-11-29T10:44:06+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000393s ]
+SQL: SHOW COLUMNS FROM `cn_record_buy` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_buy` WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_buy.datetime <= '2016-12-31 23:59:59' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT cn_record_buy.*,cn_user.phone,`headImage` FROM `cn_record_buy` INNER JOIN cn_user ON cn_user.uuid = cn_record_buy.user   WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_buy.datetime <= '2016-12-31 23:59:59' LIMIT 1,1   [ RunTime:0.0004s ]
+
+[ 2016-11-29T10:44:08+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000427s ]
+SQL: SHOW COLUMNS FROM `cn_record_buy` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_buy` WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_buy.datetime <= '2016-12-31 23:59:59' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT cn_record_buy.*,cn_user.phone,`headImage` FROM `cn_record_buy` INNER JOIN cn_user ON cn_user.uuid = cn_record_buy.user   WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_buy.datetime <= '2016-12-31 23:59:59' LIMIT 0,1   [ RunTime:0.0004s ]
+
+[ 2016-11-29T10:44:35+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+
+[ 2016-11-29T10:44:37+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000646s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000642s ]
+SQL: SHOW COLUMNS FROM `cn_record_buy` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_buy` WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_buy.datetime <= '2016-12-31 23:59:59' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT cn_record_buy.*,cn_user.phone,`headImage` FROM `cn_record_buy` INNER JOIN cn_user ON cn_user.uuid = cn_record_buy.user   WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_buy.datetime <= '2016-12-31 23:59:59' LIMIT 2,2   [ RunTime:0.0003s ]
+
+[ 2016-11-29T10:44:38+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000355s ]
+SQL: SHOW COLUMNS FROM `cn_record_buy` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_buy` WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_buy.datetime <= '2016-12-31 23:59:59' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT cn_record_buy.*,cn_user.phone,`headImage` FROM `cn_record_buy` INNER JOIN cn_user ON cn_user.uuid = cn_record_buy.user   WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_buy.datetime <= '2016-12-31 23:59:59' LIMIT 0,2   [ RunTime:0.0003s ]
+
+[ 2016-11-29T10:45:00+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000606s ]
+SQL: SHOW COLUMNS FROM `cn_record_buy` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_buy` WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_buy.datetime <= '2016-12-31 23:59:59' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT cn_record_buy.*,cn_user.phone,`headImage` FROM `cn_record_buy` INNER JOIN cn_user ON cn_user.uuid = cn_record_buy.user   WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_buy.datetime <= '2016-12-31 23:59:59' LIMIT 2,2   [ RunTime:0.0003s ]
+
+[ 2016-11-29T10:45:01+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+SQL: SHOW COLUMNS FROM `cn_record_buy` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_buy` WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_buy.datetime <= '2016-12-31 23:59:59' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT cn_record_buy.*,cn_user.phone,`headImage` FROM `cn_record_buy` INNER JOIN cn_user ON cn_user.uuid = cn_record_buy.user   WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_buy.datetime <= '2016-12-31 23:59:59' LIMIT 0,2   [ RunTime:0.0003s ]
+
+[ 2016-11-29T10:48:20+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+
+[ 2016-11-29T10:48:30+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+SQL: SHOW COLUMNS FROM `cn_record_buy` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_buy` WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_buy.datetime <= '2016-12-31 23:59:59' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT cn_record_buy.*,cn_user.phone,`headImage` FROM `cn_record_buy` INNER JOIN cn_user ON cn_user.uuid = cn_record_buy.user   WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_buy.datetime <= '2016-12-31 23:59:59' LIMIT 2,2   [ RunTime:0.0005s ]
+
+[ 2016-11-29T10:48:31+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000569s ]
+SQL: SHOW COLUMNS FROM `cn_record_buy` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_buy` WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_buy.datetime <= '2016-12-31 23:59:59' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT cn_record_buy.*,cn_user.phone,`headImage` FROM `cn_record_buy` INNER JOIN cn_user ON cn_user.uuid = cn_record_buy.user   WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_buy.datetime <= '2016-12-31 23:59:59' LIMIT 0,2   [ RunTime:0.0004s ]
+
+[ 2016-11-29T10:49:54+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+
+[ 2016-11-29T10:49:54+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+
+[ 2016-11-29T10:49:55+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+
+[ 2016-11-29T10:49:57+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000540s ]
+SQL: SHOW COLUMNS FROM `cn_record_buy` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_buy` WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_buy.datetime <= '2016-12-31 23:59:59' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT cn_record_buy.*,cn_user.phone,`headImage` FROM `cn_record_buy` INNER JOIN cn_user ON cn_user.uuid = cn_record_buy.user   WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_buy.datetime <= '2016-12-31 23:59:59' LIMIT 2,2   [ RunTime:0.0004s ]
+
+[ 2016-11-29T10:49:58+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000470s ]
+SQL: SHOW COLUMNS FROM `cn_record_buy` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_buy` WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_buy.datetime <= '2016-12-31 23:59:59' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT cn_record_buy.*,cn_user.phone,`headImage` FROM `cn_record_buy` INNER JOIN cn_user ON cn_user.uuid = cn_record_buy.user   WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_buy.datetime <= '2016-12-31 23:59:59' LIMIT 0,2   [ RunTime:0.0004s ]
+
+[ 2016-11-29T10:50:00+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000443s ]
+SQL: SHOW COLUMNS FROM `cn_record_buy` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_buy` WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_buy.datetime <= '2016-12-31 23:59:59' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT cn_record_buy.*,cn_user.phone,`headImage` FROM `cn_record_buy` INNER JOIN cn_user ON cn_user.uuid = cn_record_buy.user   WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_buy.datetime <= '2016-12-31 23:59:59' LIMIT 2,2   [ RunTime:0.0003s ]
+
+[ 2016-11-29T10:50:01+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000363s ]
+SQL: SHOW COLUMNS FROM `cn_record_buy` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_buy` WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_buy.datetime <= '2016-12-31 23:59:59' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT cn_record_buy.*,cn_user.phone,`headImage` FROM `cn_record_buy` INNER JOIN cn_user ON cn_user.uuid = cn_record_buy.user   WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_buy.datetime <= '2016-12-31 23:59:59' LIMIT 0,2   [ RunTime:0.0004s ]
+
+[ 2016-11-29T10:56:09+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+
+[ 2016-11-29T10:56:13+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000565s ]
+SQL: SHOW COLUMNS FROM `cn_record_buy` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_buy` WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_buy.datetime <= '2016-12-31 23:59:59' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT cn_record_buy.*,cn_user.phone,`headImage` FROM `cn_record_buy` INNER JOIN cn_user ON cn_user.uuid = cn_record_buy.user   WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_buy.datetime <= '2016-12-31 23:59:59' LIMIT 2,2   [ RunTime:0.0004s ]
+
+[ 2016-11-29T10:56:15+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000588s ]
+SQL: SHOW COLUMNS FROM `cn_record_buy` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_buy` WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_buy.datetime <= '2016-12-31 23:59:59' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT cn_record_buy.*,cn_user.phone,`headImage` FROM `cn_record_buy` INNER JOIN cn_user ON cn_user.uuid = cn_record_buy.user   WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_buy.datetime <= '2016-12-31 23:59:59' LIMIT 0,2   [ RunTime:0.0003s ]
+
+[ 2016-11-29T10:57:45+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+
+[ 2016-11-29T10:57:47+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000354s ]
+SQL: SHOW COLUMNS FROM `cn_record_buy` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_buy` WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_buy.datetime <= '2016-12-31 23:59:59' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT cn_record_buy.*,cn_user.phone,`headImage` FROM `cn_record_buy` INNER JOIN cn_user ON cn_user.uuid = cn_record_buy.user   WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_buy.datetime <= '2016-12-31 23:59:59' LIMIT 2,2   [ RunTime:0.0003s ]
+
+[ 2016-11-29T10:57:48+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000359s ]
+SQL: SHOW COLUMNS FROM `cn_record_buy` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_buy` WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_buy.datetime <= '2016-12-31 23:59:59' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT cn_record_buy.*,cn_user.phone,`headImage` FROM `cn_record_buy` INNER JOIN cn_user ON cn_user.uuid = cn_record_buy.user   WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_buy.datetime <= '2016-12-31 23:59:59' LIMIT 0,2   [ RunTime:0.0003s ]
+
+[ 2016-11-29T10:57:51+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000438s ]
+SQL: SHOW COLUMNS FROM `cn_record_buy` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_buy` WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_buy.datetime <= '2016-12-31 23:59:59' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT cn_record_buy.*,cn_user.phone,`headImage` FROM `cn_record_buy` INNER JOIN cn_user ON cn_user.uuid = cn_record_buy.user   WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_buy.datetime <= '2016-12-31 23:59:59' LIMIT 2,2   [ RunTime:0.0004s ]
+
+[ 2016-11-29T10:57:52+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000436s ]
+SQL: SHOW COLUMNS FROM `cn_record_buy` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_buy` WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_buy.datetime <= '2016-12-31 23:59:59' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT cn_record_buy.*,cn_user.phone,`headImage` FROM `cn_record_buy` INNER JOIN cn_user ON cn_user.uuid = cn_record_buy.user   WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_buy.datetime <= '2016-12-31 23:59:59' LIMIT 0,2   [ RunTime:0.0004s ]
+
+[ 2016-11-29T10:58:56+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+
+[ 2016-11-29T10:58:58+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000553s ]
+SQL: SHOW COLUMNS FROM `cn_record_buy` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_buy` WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_buy.datetime <= '2016-12-31 23:59:59' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT cn_record_buy.*,cn_user.phone,`headImage` FROM `cn_record_buy` INNER JOIN cn_user ON cn_user.uuid = cn_record_buy.user   WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_buy.datetime <= '2016-12-31 23:59:59' LIMIT 2,2   [ RunTime:0.0003s ]
+
+[ 2016-11-29T10:58:59+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000357s ]
+SQL: SHOW COLUMNS FROM `cn_record_buy` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_buy` WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_buy.datetime <= '2016-12-31 23:59:59' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT cn_record_buy.*,cn_user.phone,`headImage` FROM `cn_record_buy` INNER JOIN cn_user ON cn_user.uuid = cn_record_buy.user   WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_buy.datetime <= '2016-12-31 23:59:59' LIMIT 0,2   [ RunTime:0.0003s ]
+
+[ 2016-11-29T11:12:50+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000533s ]
+SQL: SHOW COLUMNS FROM `cn_record_buy` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_buy` WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_buy.datetime <= '2016-12-31 23:59:59' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT cn_record_buy.*,cn_user.phone,`headImage` FROM `cn_record_buy` INNER JOIN cn_user ON cn_user.uuid = cn_record_buy.user   WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_buy.datetime <= '2016-12-31 23:59:59' LIMIT 2,2   [ RunTime:0.0003s ]
+
+[ 2016-11-29T11:12:51+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000350s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000504s ]
+SQL: SHOW COLUMNS FROM `cn_record_buy` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_buy` WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_buy.datetime <= '2016-12-31 23:59:59' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT cn_record_buy.*,cn_user.phone,`headImage` FROM `cn_record_buy` INNER JOIN cn_user ON cn_user.uuid = cn_record_buy.user   WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_buy.datetime <= '2016-12-31 23:59:59' LIMIT 0,2   [ RunTime:0.0003s ]
+
+[ 2016-11-29T11:15:57+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000382s ]
+
+[ 2016-11-29T11:17:12+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+
+[ 2016-11-29T11:17:14+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000386s ]
+SQL: SHOW COLUMNS FROM `cn_record_buy` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_buy` WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_buy.datetime <= '2016-12-31 23:59:59' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT cn_record_buy.*,cn_user.phone,`headImage` FROM `cn_record_buy` INNER JOIN cn_user ON cn_user.uuid = cn_record_buy.user   WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_buy.datetime <= '2016-12-31 23:59:59' LIMIT 2,2   [ RunTime:0.0003s ]
+
+[ 2016-11-29T11:17:15+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000399s ]
+SQL: SHOW COLUMNS FROM `cn_record_buy` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_buy` WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_buy.datetime <= '2016-12-31 23:59:59' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT cn_record_buy.*,cn_user.phone,`headImage` FROM `cn_record_buy` INNER JOIN cn_user ON cn_user.uuid = cn_record_buy.user   WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_buy.datetime <= '2016-12-31 23:59:59' LIMIT 0,2   [ RunTime:0.0003s ]
+
+[ 2016-11-29T11:17:50+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+
+[ 2016-11-29T11:17:52+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000458s ]
+SQL: SHOW COLUMNS FROM `cn_record_buy` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_buy` WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_buy.datetime <= '2016-12-31 23:59:59' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT cn_record_buy.*,cn_user.phone,`headImage` FROM `cn_record_buy` INNER JOIN cn_user ON cn_user.uuid = cn_record_buy.user   WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_buy.datetime <= '2016-12-31 23:59:59' LIMIT 2,2   [ RunTime:0.0008s ]
+
+[ 2016-11-29T11:17:53+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000499s ]
+SQL: SHOW COLUMNS FROM `cn_record_buy` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_buy` WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_buy.datetime <= '2016-12-31 23:59:59' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT cn_record_buy.*,cn_user.phone,`headImage` FROM `cn_record_buy` INNER JOIN cn_user ON cn_user.uuid = cn_record_buy.user   WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_buy.datetime <= '2016-12-31 23:59:59' LIMIT 0,2   [ RunTime:0.0003s ]
+
+[ 2016-11-29T11:17:54+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000395s ]
+SQL: SHOW COLUMNS FROM `cn_record_buy` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_buy` WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_buy.datetime <= '2016-12-31 23:59:59' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT cn_record_buy.*,cn_user.phone,`headImage` FROM `cn_record_buy` INNER JOIN cn_user ON cn_user.uuid = cn_record_buy.user   WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_buy.datetime <= '2016-12-31 23:59:59' LIMIT 2,2   [ RunTime:0.0003s ]
+
+[ 2016-11-29T11:17:55+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000673s ]
+SQL: SHOW COLUMNS FROM `cn_record_buy` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_buy` WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_buy.datetime <= '2016-12-31 23:59:59' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT cn_record_buy.*,cn_user.phone,`headImage` FROM `cn_record_buy` INNER JOIN cn_user ON cn_user.uuid = cn_record_buy.user   WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_buy.datetime <= '2016-12-31 23:59:59' LIMIT 0,2   [ RunTime:0.0004s ]
+
+[ 2016-11-29T11:18:52+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+
+[ 2016-11-29T11:18:58+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001026s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000499s ]
+SQL: SHOW COLUMNS FROM `cn_record_buy` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_buy` WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_buy.datetime <= '2016-12-31 23:59:59' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT cn_record_buy.*,cn_user.phone,`headImage` FROM `cn_record_buy` INNER JOIN cn_user ON cn_user.uuid = cn_record_buy.user   WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_buy.datetime <= '2016-12-31 23:59:59' LIMIT 2,2   [ RunTime:0.0005s ]
+
+[ 2016-11-29T11:19:00+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000576s ]
+SQL: SHOW COLUMNS FROM `cn_record_buy` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_buy` WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_buy.datetime <= '2016-12-31 23:59:59' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT cn_record_buy.*,cn_user.phone,`headImage` FROM `cn_record_buy` INNER JOIN cn_user ON cn_user.uuid = cn_record_buy.user   WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_buy.datetime <= '2016-12-31 23:59:59' LIMIT 0,2   [ RunTime:0.0003s ]
+
+[ 2016-11-29T11:36:23+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+
+[ 2016-11-29T11:38:23+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+
+[ 2016-11-29T11:38:30+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+
+[ 2016-11-29T11:38:34+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+
+[ 2016-11-29T11:41:16+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+
+[ 2016-11-29T13:14:57+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/Vip/vip
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+
+[ 2016-11-29T13:15:16+08:00 ] 101.226.125.16 /cnconsum/index.php/Merchant/Vip/vip
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+
+[ 2016-11-29T13:19:57+08:00 ] 58.208.16.151 /cnconsum/index.php/Merchant/Business/hyzgl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+
+[ 2016-11-29T13:32:57+08:00 ] 42.156.251.194 /cnconsum/index.php/Merchant/Business/hyzgl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+
+[ 2016-11-29T13:32:57+08:00 ] 42.156.251.194 /cnconsum/index.php/Merchant/Business/hyzgl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+
+[ 2016-11-29T13:36:04+08:00 ] 121.42.0.56 /cnconsum/index.php/Merchant/Business/hyzgl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+
+[ 2016-11-29T13:36:29+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+
+[ 2016-11-29T13:36:32+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+
+[ 2016-11-29T13:36:35+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+
+[ 2016-11-29T13:36:37+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+
+[ 2016-11-29T13:36:39+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+
+[ 2016-11-29T13:36:43+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+
+[ 2016-11-29T13:36:45+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+
+[ 2016-11-29T13:36:46+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+
+[ 2016-11-29T13:36:48+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000427s ]
+SQL: SHOW COLUMNS FROM `cn_record_buy` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_buy` WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_buy.datetime <= '2016-12-31 23:59:59' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT cn_record_buy.*,cn_user.phone,`headImage` FROM `cn_record_buy` INNER JOIN cn_user ON cn_user.uuid = cn_record_buy.user   WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_buy.datetime <= '2016-12-31 23:59:59' LIMIT 2,2   [ RunTime:0.0003s ]
+
+[ 2016-11-29T13:36:49+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000403s ]
+SQL: SHOW COLUMNS FROM `cn_record_buy` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_buy` WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_buy.datetime <= '2016-12-31 23:59:59' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT cn_record_buy.*,cn_user.phone,`headImage` FROM `cn_record_buy` INNER JOIN cn_user ON cn_user.uuid = cn_record_buy.user   WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_buy.datetime <= '2016-12-31 23:59:59' LIMIT 0,2   [ RunTime:0.0004s ]
+
+[ 2016-11-29T13:43:51+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+
+[ 2016-11-29T13:43:52+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=year
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+
+[ 2016-11-29T13:44:08+08:00 ] 101.226.61.207 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=year
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+
+[ 2016-11-29T13:45:57+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=year
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000554s ]
+
+[ 2016-11-29T13:46:46+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=year
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+
+[ 2016-11-29T13:46:50+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=year
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+
+[ 2016-11-29T13:46:52+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=year
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+
+[ 2016-11-29T13:47:56+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=year
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+
+[ 2016-11-29T13:48:00+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=week
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000777s ]
+
+[ 2016-11-29T13:48:03+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=season
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+
+[ 2016-11-29T13:48:10+08:00 ] 180.153.214.178 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=week
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+
+[ 2016-11-29T13:48:13+08:00 ] 101.226.66.173 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=season
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+
+[ 2016-11-29T13:48:21+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=week
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+
+[ 2016-11-29T13:48:23+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=month
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+
+[ 2016-11-29T13:48:26+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=season
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+
+[ 2016-11-29T13:48:29+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=year
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+
+[ 2016-11-29T13:48:33+08:00 ] 180.153.211.190 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=month
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+
+[ 2016-11-29T13:49:20+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=year
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+
+[ 2016-11-29T13:49:26+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=week
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000382s ]
+
+[ 2016-11-29T13:49:32+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=month
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+
+[ 2016-11-29T13:49:34+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=season
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+
+[ 2016-11-29T13:49:36+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=year
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+
+[ 2016-11-29T13:49:51+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=month
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+
+[ 2016-11-29T14:14:28+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=month
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+
+[ 2016-11-29T14:14:37+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=day
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+
+[ 2016-11-29T14:14:40+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=week
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+
+[ 2016-11-29T14:14:42+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=day
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+
+[ 2016-11-29T14:14:47+08:00 ] 140.207.185.112 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=day
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000574s ]
+
+[ 2016-11-29T14:15:03+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=day
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+
+[ 2016-11-29T14:17:02+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=day
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+
+[ 2016-11-29T14:17:07+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=week
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+
+[ 2016-11-29T14:18:34+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=week
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+
+[ 2016-11-29T14:18:41+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=day
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+
+[ 2016-11-29T14:18:44+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=week
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+
+[ 2016-11-29T14:18:46+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=day
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+
+[ 2016-11-29T14:19:08+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=day
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+
+[ 2016-11-29T14:27:53+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=day
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+
+[ 2016-11-29T14:29:11+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=day
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+
+[ 2016-11-29T14:29:18+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=week
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+
+[ 2016-11-29T14:29:20+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=month
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+
+[ 2016-11-29T14:29:21+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=season
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+
+[ 2016-11-29T14:29:23+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=year
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+
+[ 2016-11-29T14:29:25+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=day
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+
+[ 2016-11-29T14:29:28+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=week
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+
+[ 2016-11-29T14:29:30+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=season
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+
+[ 2016-11-29T14:29:32+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=year
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000492s ]
+
+[ 2016-11-29T14:29:39+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=week
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+
+[ 2016-11-29T14:34:13+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=week
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+
+[ 2016-11-29T14:34:15+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=season
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+
+[ 2016-11-29T14:35:05+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=season
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+
+[ 2016-11-29T14:37:36+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=season
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+
+[ 2016-11-29T14:38:01+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=season
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+
+[ 2016-11-29T14:41:09+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=season
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000566s ]
+
+[ 2016-11-29T14:41:24+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=season
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+
+[ 2016-11-29T14:42:16+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=season
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+
+[ 2016-11-29T14:42:21+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=season
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+
+[ 2016-11-29T14:42:21+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=season
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000350s ]
+
+[ 2016-11-29T14:42:21+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=season
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+
+[ 2016-11-29T14:42:21+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=season
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+
+[ 2016-11-29T14:42:29+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=season
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+
+[ 2016-11-29T14:43:36+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=season
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+
+[ 2016-11-29T14:44:19+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=season
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+
+[ 2016-11-29T14:44:31+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=week
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+
+[ 2016-11-29T14:44:34+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=day
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+
+[ 2016-11-29T14:44:36+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=year
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+
+[ 2016-11-29T14:44:39+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=month
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+
+[ 2016-11-29T14:44:45+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=season
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+
+[ 2016-11-29T14:45:45+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=season
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+
+[ 2016-11-29T14:46:29+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=season
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+
+[ 2016-11-29T14:46:35+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=year
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+
+[ 2016-11-29T14:47:31+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=day
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+
+[ 2016-11-29T14:48:07+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=day
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000615s ]
+
+[ 2016-11-29T14:48:44+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=day
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+
+[ 2016-11-29T14:48:46+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=month
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+
+[ 2016-11-29T14:48:48+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=season
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+
+[ 2016-11-29T14:48:50+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=day
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+
+[ 2016-11-29T14:49:00+08:00 ] 101.226.33.216 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=day
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+
+[ 2016-11-29T14:49:56+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=day
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+
+[ 2016-11-29T14:50:00+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=week
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000436s ]
+
+[ 2016-11-29T14:50:02+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=month
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+
+[ 2016-11-29T14:50:04+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=season
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+
+[ 2016-11-29T14:50:07+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=year
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000408s ]
+
+[ 2016-11-29T14:50:09+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=month
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+
+[ 2016-11-29T14:50:10+08:00 ] 101.226.65.104 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=week
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+
+[ 2016-11-29T14:50:11+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=week
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+
+[ 2016-11-29T14:52:24+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=week
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+
+[ 2016-11-29T14:52:45+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=week
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+
+[ 2016-11-29T14:52:49+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=month
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+
+[ 2016-11-29T14:52:51+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=year
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+
+[ 2016-11-29T14:52:52+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=day
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+
+[ 2016-11-29T14:54:37+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=month
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+
+[ 2016-11-29T14:54:50+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+
+[ 2016-11-29T14:54:54+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=week
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+
+[ 2016-11-29T14:54:56+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=day
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+
+[ 2016-11-29T14:54:59+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+
+[ 2016-11-29T14:57:47+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=month
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+
+[ 2016-11-29T14:57:50+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=season
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+
+[ 2016-11-29T14:57:52+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=week
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+
+[ 2016-11-29T14:57:53+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=day
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+
+[ 2016-11-29T15:04:11+08:00 ] 1.80.218.189 /cnconsum/Merchant/merchant/loginView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+
+[ 2016-11-29T15:04:19+08:00 ] 180.153.206.18 /cnconsum/Merchant/merchant/loginView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+
+[ 2016-11-29T15:04:19+08:00 ] 180.153.206.21 /cnconsum/Merchant/merchant/loginView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+
+[ 2016-11-29T15:04:19+08:00 ] 180.153.206.18 /cnconsum/Merchant/merchant/%20/cnconsum/Public/js/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+ERR: 非法操作: 
+
+[ 2016-11-29T15:04:19+08:00 ] 180.153.206.18 /cnconsum/Merchant/merchant/%20/cnconsum/Public/js/login.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+ERR: 非法操作: 
+
+[ 2016-11-29T15:04:19+08:00 ] 180.153.206.18 /cnconsum/Merchant/merchant/%20/cnconsum/Public/js/jquery.luara.0.0.1.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+ERR: 非法操作: 
+
+[ 2016-11-29T15:04:19+08:00 ] 180.153.206.21 /cnconsum/Merchant/merchant/%20/cnconsum/Public/js/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+ERR: 非法操作: 
+
+[ 2016-11-29T15:04:19+08:00 ] 180.153.206.21 /cnconsum/Merchant/merchant/%20/cnconsum/Public/js/login.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+ERR: 非法操作: 
+
+[ 2016-11-29T15:04:20+08:00 ] 180.153.206.21 /cnconsum/Merchant/merchant/%20/cnconsum/Public/js/jquery.luara.0.0.1.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+ERR: 非法操作: 
+
+[ 2016-11-29T15:04:24+08:00 ] 180.153.205.252 /cnconsum/Merchant/merchant/loginView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+
+[ 2016-11-29T15:04:25+08:00 ] 180.153.205.252 /cnconsum/Merchant/merchant/%20/cnconsum/Public/js/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+ERR: 非法操作: 
+
+[ 2016-11-29T15:04:25+08:00 ] 180.153.205.252 /cnconsum/Merchant/merchant/%20/cnconsum/Public/js/login.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+ERR: 非法操作: 
+
+[ 2016-11-29T15:04:25+08:00 ] 180.153.205.252 /cnconsum/Merchant/merchant/%20/cnconsum/Public/js/jquery.luara.0.0.1.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+ERR: 非法操作: 
+
+[ 2016-11-29T15:04:28+08:00 ] 180.153.201.66 /cnconsum/Merchant/merchant/loginView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+
+[ 2016-11-29T15:04:29+08:00 ] 180.153.201.66 /cnconsum/Merchant/merchant/%20/cnconsum/Public/js/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+ERR: 非法操作: 
+
+[ 2016-11-29T15:04:29+08:00 ] 180.153.201.66 /cnconsum/Merchant/merchant/%20/cnconsum/Public/js/login.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+ERR: 非法操作: 
+
+[ 2016-11-29T15:04:29+08:00 ] 180.153.201.66 /cnconsum/Merchant/merchant/%20/cnconsum/Public/js/jquery.luara.0.0.1.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+ERR: 非法操作: 
+
+[ 2016-11-29T15:33:21+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=day
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+ERR: 1054:Unknown column 'cn_.datetime' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `cn_record_buy` WHERE `merchant` = 'm_6d4e76ca11' AND cn_.datetime <= '2016-11-29 23:59:59' LIMIT 1  
+
+[ 2016-11-29T15:34:21+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=day
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+ERR: 模板不存在:./Project/Merchant/View/DataReport/data_bk.html
+
+[ 2016-11-29T15:34:58+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=day
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000649s ]
+ERR: 模板不存在:./Project/Merchant/View/DataReport/data-bk.html
+
+[ 2016-11-29T15:35:30+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=day
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000644s ]
+
+[ 2016-11-29T15:35:32+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=week
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000644s ]
+
+[ 2016-11-29T15:35:34+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=month
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+
+[ 2016-11-29T15:35:40+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=season
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+
+[ 2016-11-29T15:38:56+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=season
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+
+[ 2016-11-29T15:38:59+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=month
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+
+[ 2016-11-29T15:39:00+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=year
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+
+[ 2016-11-29T15:39:02+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=week
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+
+[ 2016-11-29T15:39:04+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=day
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000485s ]
+
+[ 2016-11-29T15:39:16+08:00 ] 101.226.51.227 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=year
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+
+[ 2016-11-29T15:41:04+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=day
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+
+[ 2016-11-29T15:41:07+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=week
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+
+[ 2016-11-29T15:41:08+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000459s ]
+SQL: SHOW COLUMNS FROM `cn_record_buy` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_buy` WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_buy.datetime <= '2016-11-29 23:59:59' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT cn_record_buy.*,cn_user.phone,`headImage` FROM `cn_record_buy` INNER JOIN cn_user ON cn_user.uuid = cn_record_buy.user   WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_buy.datetime <= '2016-11-29 23:59:59' LIMIT 2,2   [ RunTime:0.0005s ]
+
+[ 2016-11-29T15:41:10+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000497s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000637s ]
+SQL: SHOW COLUMNS FROM `cn_record_buy` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_buy` WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_buy.datetime <= '2016-11-29 23:59:59' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT cn_record_buy.*,cn_user.phone,`headImage` FROM `cn_record_buy` INNER JOIN cn_user ON cn_user.uuid = cn_record_buy.user   WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_buy.datetime <= '2016-11-29 23:59:59' LIMIT 0,2   [ RunTime:0.0003s ]
+
+[ 2016-11-29T15:41:11+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000354s ]
+SQL: SHOW COLUMNS FROM `cn_record_buy` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_buy` WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_buy.datetime <= '2016-11-29 23:59:59' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT cn_record_buy.*,cn_user.phone,`headImage` FROM `cn_record_buy` INNER JOIN cn_user ON cn_user.uuid = cn_record_buy.user   WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_buy.datetime <= '2016-11-29 23:59:59' LIMIT 2,2   [ RunTime:0.0003s ]
+
+[ 2016-11-29T15:41:12+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000873s ]
+SQL: SHOW COLUMNS FROM `cn_record_buy` [ RunTime:0.0018s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_buy` WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_buy.datetime <= '2016-11-29 23:59:59' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT cn_record_buy.*,cn_user.phone,`headImage` FROM `cn_record_buy` INNER JOIN cn_user ON cn_user.uuid = cn_record_buy.user   WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_buy.datetime <= '2016-11-29 23:59:59' LIMIT 0,2   [ RunTime:0.0005s ]
+
+[ 2016-11-29T15:41:23+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+
+[ 2016-11-29T15:41:25+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=week
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000382s ]
+
+[ 2016-11-29T15:41:27+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=month
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+
+[ 2016-11-29T15:41:28+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=season
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+
+[ 2016-11-29T15:41:29+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=day
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+
+[ 2016-11-29T15:52:27+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=day
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000662s ]
+ERR: 模板不存在:./Project/Merchant/View/DataReport/data-bk.html
+
+[ 2016-11-29T15:53:20+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=day
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+
+[ 2016-11-29T15:53:22+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=week
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+
+[ 2016-11-29T15:53:24+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=month
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+
+[ 2016-11-29T15:53:26+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=season
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+
+[ 2016-11-29T15:53:27+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=year
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+
+[ 2016-11-29T15:53:29+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=day
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+
+[ 2016-11-29T15:55:44+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=day
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+
+[ 2016-11-29T16:07:31+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=day
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+
+[ 2016-11-29T16:07:33+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_xk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+
+[ 2016-11-29T16:07:40+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data-xk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+ERR: 非法操作:data-xk
+
+[ 2016-11-29T16:07:41+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data-xk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000435s ]
+ERR: 非法操作:data-xk
+
+[ 2016-11-29T16:07:42+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data-xk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000506s ]
+ERR: 非法操作:data-xk
+
+[ 2016-11-29T16:07:43+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data-xk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000361s ]
+ERR: 非法操作:data-xk
+
+[ 2016-11-29T16:07:50+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=month
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000445s ]
+
+[ 2016-11-29T16:07:53+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=year
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+
+[ 2016-11-29T16:07:54+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=season
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000445s ]
+
+[ 2016-11-29T16:07:56+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data-bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000419s ]
+ERR: 非法操作:data-bk
+
+[ 2016-11-29T16:07:57+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data-bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000423s ]
+ERR: 非法操作:data-bk
+
+[ 2016-11-29T16:08:31+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_xk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+
+[ 2016-11-29T16:08:37+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=week
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+
+[ 2016-11-29T16:10:52+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+
+[ 2016-11-29T16:10:54+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=week
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+
+[ 2016-11-29T16:10:57+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=season
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+
+[ 2016-11-29T16:10:59+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=year
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+
+[ 2016-11-29T16:11:02+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=season
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+
+[ 2016-11-29T16:11:03+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=day
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+
+[ 2016-11-29T16:11:05+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=week
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+
+[ 2016-11-29T16:11:07+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_xk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+
+[ 2016-11-29T16:11:10+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=week
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+
+[ 2016-11-29T16:11:27+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+
+[ 2016-11-29T16:11:29+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data-bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000454s ]
+ERR: 非法操作:data-bk
+
+[ 2016-11-29T16:11:30+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data-bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000704s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000776s ]
+ERR: 非法操作:data-bk
+
+[ 2016-11-29T16:11:31+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data-bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000759s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000829s ]
+ERR: 非法操作:data-bk
+
+[ 2016-11-29T16:11:32+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data-bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000419s ]
+ERR: 非法操作:data-bk
+
+[ 2016-11-29T16:11:32+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data-bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000571s ]
+ERR: 非法操作:data-bk
+
+[ 2016-11-29T16:11:33+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_xk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+
+[ 2016-11-29T16:11:36+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=month
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+
+[ 2016-11-29T16:13:03+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=month
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+
+[ 2016-11-29T16:13:07+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_xk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+
+[ 2016-11-29T16:13:11+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_xk?date_type=week
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+
+[ 2016-11-29T16:13:14+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_xk?date_type=month
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+
+[ 2016-11-29T16:13:16+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_xk?date_type=season
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+
+[ 2016-11-29T16:13:18+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_xk?date_type=year
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+
+[ 2016-11-29T16:13:20+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_xk?date_type=week
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+
+[ 2016-11-29T16:13:22+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+
+[ 2016-11-29T16:13:24+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=week
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+
+[ 2016-11-29T16:13:26+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=month
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+
+[ 2016-11-29T16:13:26+08:00 ] 180.153.214.199 /cnconsum/index.php/Merchant/DataReport/data_xk?date_type=week
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+
+[ 2016-11-29T16:13:27+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=season
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+
+[ 2016-11-29T16:13:29+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=year
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+
+[ 2016-11-29T16:13:31+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=season
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+
+[ 2016-11-29T16:13:33+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data-bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000354s ]
+ERR: 非法操作:data-bk
+
+[ 2016-11-29T16:13:33+08:00 ] 180.153.212.13 /cnconsum/index.php/Merchant/DataReport/data_xk?date_type=month
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+
+[ 2016-11-29T16:13:33+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data-bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000565s ]
+ERR: 非法操作:data-bk
+
+[ 2016-11-29T16:13:35+08:00 ] 101.226.68.213 /cnconsum/index.php/Merchant/DataReport/data_xk?date_type=season
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+
+[ 2016-11-29T16:13:36+08:00 ] 180.153.214.191 /cnconsum/index.php/Merchant/DataReport/data_xk?date_type=year
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+
+[ 2016-11-29T16:15:16+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=season
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+
+[ 2016-11-29T16:15:20+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001120s ]
+SQL: SHOW COLUMNS FROM `cn_record_buy` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_buy` WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_buy.datetime <= '2016-11-29 23:59:59' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT cn_record_buy.*,cn_user.phone,`headImage` FROM `cn_record_buy` INNER JOIN cn_user ON cn_user.uuid = cn_record_buy.user   WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_buy.datetime <= '2016-11-29 23:59:59' LIMIT 2,2   [ RunTime:0.0003s ]
+
+[ 2016-11-29T16:15:21+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000926s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001029s ]
+SQL: SHOW COLUMNS FROM `cn_record_buy` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_buy` WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_buy.datetime <= '2016-11-29 23:59:59' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT cn_record_buy.*,cn_user.phone,`headImage` FROM `cn_record_buy` INNER JOIN cn_user ON cn_user.uuid = cn_record_buy.user   WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_buy.datetime <= '2016-11-29 23:59:59' LIMIT 0,2   [ RunTime:0.0004s ]
+
+[ 2016-11-29T16:15:23+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_xk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+
+[ 2016-11-29T16:15:25+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_xk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000456s ]
+SQL: SHOW COLUMNS FROM `cn_record_renew` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_renew` WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_renew.datetime <= '2016-11-29 23:59:59' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT cn_record_renew.*,cn_user.phone,`headImage` FROM `cn_record_renew` INNER JOIN cn_user ON cn_user.uuid = cn_record_renew.user   WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_renew.datetime <= '2016-11-29 23:59:59' LIMIT 2,2   [ RunTime:0.0004s ]
+
+[ 2016-11-29T16:15:26+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_xk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000526s ]
+SQL: SHOW COLUMNS FROM `cn_record_renew` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_renew` WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_renew.datetime <= '2016-11-29 23:59:59' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT cn_record_renew.*,cn_user.phone,`headImage` FROM `cn_record_renew` INNER JOIN cn_user ON cn_user.uuid = cn_record_renew.user   WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_renew.datetime <= '2016-11-29 23:59:59' LIMIT 4,2   [ RunTime:0.0004s ]
+
+[ 2016-11-29T16:15:27+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_xk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000556s ]
+SQL: SHOW COLUMNS FROM `cn_record_renew` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_renew` WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_renew.datetime <= '2016-11-29 23:59:59' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT cn_record_renew.*,cn_user.phone,`headImage` FROM `cn_record_renew` INNER JOIN cn_user ON cn_user.uuid = cn_record_renew.user   WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_renew.datetime <= '2016-11-29 23:59:59' LIMIT 6,2   [ RunTime:0.0005s ]
+
+[ 2016-11-29T16:15:27+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_xk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000387s ]
+SQL: SHOW COLUMNS FROM `cn_record_renew` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_renew` WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_renew.datetime <= '2016-11-29 23:59:59' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT cn_record_renew.*,cn_user.phone,`headImage` FROM `cn_record_renew` INNER JOIN cn_user ON cn_user.uuid = cn_record_renew.user   WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_renew.datetime <= '2016-11-29 23:59:59' LIMIT 4,2   [ RunTime:0.0005s ]
+
+[ 2016-11-29T16:15:28+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_xk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000375s ]
+SQL: SHOW COLUMNS FROM `cn_record_renew` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_renew` WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_renew.datetime <= '2016-11-29 23:59:59' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT cn_record_renew.*,cn_user.phone,`headImage` FROM `cn_record_renew` INNER JOIN cn_user ON cn_user.uuid = cn_record_renew.user   WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_renew.datetime <= '2016-11-29 23:59:59' LIMIT 2,2   [ RunTime:0.0004s ]
+
+[ 2016-11-29T16:15:29+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_xk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000433s ]
+SQL: SHOW COLUMNS FROM `cn_record_renew` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_renew` WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_renew.datetime <= '2016-11-29 23:59:59' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT cn_record_renew.*,cn_user.phone,`headImage` FROM `cn_record_renew` INNER JOIN cn_user ON cn_user.uuid = cn_record_renew.user   WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_renew.datetime <= '2016-11-29 23:59:59' LIMIT 0,2   [ RunTime:0.0004s ]
+
+[ 2016-11-29T16:15:38+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_xk?date_type=week
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+
+[ 2016-11-29T16:15:39+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_xk?date_type=month
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+
+[ 2016-11-29T16:15:41+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_xk?date_type=season
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+
+[ 2016-11-29T16:15:43+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_xk?date_type=year
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+
+[ 2016-11-29T16:15:44+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_xk?date_type=season
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+
+[ 2016-11-29T16:15:46+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_xk?date_type=month
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000436s ]
+
+[ 2016-11-29T16:15:47+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_xk?date_type=week
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+
+[ 2016-11-29T16:15:48+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_xk?date_type=day
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000101s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+
+[ 2016-11-29T16:15:58+08:00 ] 101.226.66.174 /cnconsum/index.php/Merchant/DataReport/data_xk?date_type=day
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+
+[ 2016-11-29T16:16:28+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_xk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+
+[ 2016-11-29T16:16:29+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+
+[ 2016-11-29T16:16:30+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_xk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+
+[ 2016-11-29T16:23:21+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_xk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+
+[ 2016-11-29T16:23:23+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+
+[ 2016-11-29T16:23:25+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_xk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+
+[ 2016-11-29T16:23:26+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_sj
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+
+[ 2016-11-29T16:23:29+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_sj?date_type=week
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+
+[ 2016-11-29T16:23:31+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_sj?date_type=season
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+
+[ 2016-11-29T16:23:33+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_xf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+
+[ 2016-11-29T16:23:37+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_xf?date_type=season
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+
+[ 2016-11-29T16:23:38+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_xf?date_type=month
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+
+[ 2016-11-29T16:23:41+08:00 ] 101.226.89.123 /cnconsum/index.php/Merchant/DataReport/data_sj?date_type=season
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+
+[ 2016-11-29T16:23:44+08:00 ] 180.153.211.172 /cnconsum/index.php/Merchant/DataReport/data_sj
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+
+[ 2016-11-29T16:23:44+08:00 ] 180.153.211.172 /cnconsum/index.php/Merchant/DataReport/data_sj?date_type=week
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+
+[ 2016-11-29T16:23:52+08:00 ] 101.226.89.119 /cnconsum/index.php/Merchant/DataReport/data_xf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+
+[ 2016-11-29T16:23:53+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_xk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+
+[ 2016-11-29T16:23:54+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_sj
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+
+[ 2016-11-29T16:23:55+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_xf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+
+[ 2016-11-29T16:23:56+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_xj
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+
+[ 2016-11-29T16:23:56+08:00 ] 180.153.206.24 /cnconsum/index.php/Merchant/DataReport/data_xf?date_type=season
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+
+[ 2016-11-29T16:23:57+08:00 ] 180.153.205.254 /cnconsum/index.php/Merchant/DataReport/data_xf?date_type=month
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+
+[ 2016-11-29T16:24:15+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+
+[ 2016-11-29T16:24:17+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_xk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000492s ]
+
+[ 2016-11-29T16:24:18+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_sj
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+
+[ 2016-11-29T16:24:20+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+
+[ 2016-11-29T16:24:29+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_xj
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+
+[ 2016-11-29T16:42:06+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_xj
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+
+[ 2016-11-29T16:43:29+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_xj
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+
+[ 2016-11-29T16:43:48+08:00 ] 101.226.33.202 /cnconsum/index.php/Merchant/DataReport/data_xj
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+
+[ 2016-11-29T16:44:52+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_xj
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+
+[ 2016-11-29T16:44:56+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_xj
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000591s ]
+SQL: SHOW COLUMNS FROM `cn_record_tally` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_tally` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cn_record_tally` LIMIT 1,1   [ RunTime:0.0002s ]
+
+[ 2016-11-29T16:44:59+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_xj
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000483s ]
+SQL: SHOW COLUMNS FROM `cn_record_tally` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_tally` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cn_record_tally` LIMIT 2,1   [ RunTime:0.0002s ]
+
+[ 2016-11-29T16:45:00+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_xj
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000381s ]
+SQL: SHOW COLUMNS FROM `cn_record_tally` [ RunTime:0.0031s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_tally` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cn_record_tally` LIMIT 3,1   [ RunTime:0.0004s ]
+
+[ 2016-11-29T16:45:00+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_xj
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000372s ]
+SQL: SHOW COLUMNS FROM `cn_record_tally` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_tally` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cn_record_tally` LIMIT 4,1   [ RunTime:0.0002s ]
+
+[ 2016-11-29T16:45:01+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_xj
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000433s ]
+SQL: SHOW COLUMNS FROM `cn_record_tally` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_tally` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cn_record_tally` LIMIT 3,1   [ RunTime:0.0002s ]
+
+[ 2016-11-29T16:45:02+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_xj
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000449s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000392s ]
+SQL: SHOW COLUMNS FROM `cn_record_tally` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_tally` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cn_record_tally` LIMIT 0,1   [ RunTime:0.0002s ]
+
+[ 2016-11-29T16:45:04+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=week
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+
+[ 2016-11-29T16:45:46+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=week
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+
+[ 2016-11-29T16:45:48+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_xj
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+
+[ 2016-11-29T16:45:51+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_xj
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000638s ]
+SQL: SHOW COLUMNS FROM `cn_record_tally` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_tally` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cn_record_tally` LIMIT 1,1   [ RunTime:0.0002s ]
+
+[ 2016-11-29T16:45:53+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_xj?date_type=week
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+
+[ 2016-11-29T16:45:56+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_xj?date_type=season
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+
+[ 2016-11-29T16:45:58+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_xj?date_type=week
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+
+[ 2016-11-29T16:46:01+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_xj
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000467s ]
+SQL: SHOW COLUMNS FROM `cn_record_tally` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_tally` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cn_record_tally` LIMIT 1,1   [ RunTime:0.0002s ]
+
+[ 2016-11-29T16:46:01+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_xj
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000355s ]
+SQL: SHOW COLUMNS FROM `cn_record_tally` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_tally` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cn_record_tally` LIMIT 2,1   [ RunTime:0.0002s ]
+
+[ 2016-11-29T16:46:02+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_xj
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000477s ]
+SQL: SHOW COLUMNS FROM `cn_record_tally` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_tally` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cn_record_tally` LIMIT 3,1   [ RunTime:0.0002s ]
+
+[ 2016-11-29T16:46:02+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_xj
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000403s ]
+SQL: SHOW COLUMNS FROM `cn_record_tally` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_tally` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cn_record_tally` LIMIT 4,1   [ RunTime:0.0004s ]
+
+[ 2016-11-29T16:46:03+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_xj
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000358s ]
+SQL: SHOW COLUMNS FROM `cn_record_tally` [ RunTime:0.0025s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_tally` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cn_record_tally` LIMIT 3,1   [ RunTime:0.0002s ]
+
+[ 2016-11-29T16:46:04+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_xj
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000449s ]
+SQL: SHOW COLUMNS FROM `cn_record_tally` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_tally` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cn_record_tally` LIMIT 2,1   [ RunTime:0.0002s ]
+
+[ 2016-11-29T16:46:04+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_xj
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000379s ]
+SQL: SHOW COLUMNS FROM `cn_record_tally` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_tally` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cn_record_tally` LIMIT 1,1   [ RunTime:0.0002s ]
+
+[ 2016-11-29T16:46:05+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_xj
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000383s ]
+SQL: SHOW COLUMNS FROM `cn_record_tally` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_tally` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cn_record_tally` LIMIT 0,1   [ RunTime:0.0002s ]
+
+[ 2016-11-29T16:46:07+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+
+[ 2016-11-29T16:46:08+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_xk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+
+[ 2016-11-29T16:46:09+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_sj
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+
+[ 2016-11-29T16:46:10+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_xf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+
+[ 2016-11-29T16:46:10+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_xj
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+
+[ 2016-11-29T16:46:14+08:00 ] 180.163.2.119 /cnconsum/index.php/Merchant/DataReport/data_xj?date_type=season
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+
+[ 2016-11-29T16:46:17+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/Commodity/commodity
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+
+[ 2016-11-29T16:46:18+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/Vip/vip
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+
+[ 2016-11-29T16:46:19+08:00 ] 101.226.65.102 /cnconsum/index.php/Merchant/DataReport/data_sj
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+
+[ 2016-11-29T16:46:19+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/Commodity/commodity
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+
+[ 2016-11-29T16:46:22+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/Account/account
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+
+[ 2016-11-29T16:46:32+08:00 ] 101.226.125.111 /cnconsum/index.php/Merchant/Account/account
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+
+[ 2016-11-29T16:46:38+08:00 ] 180.153.81.212 /cnconsum/index.php/Merchant/Account/account
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+
+[ 2016-11-29T16:46:39+08:00 ] 180.153.201.66 /cnconsum/index.php/Merchant/Account/account
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+
+[ 2016-11-29T16:46:41+08:00 ] 180.153.201.79 /cnconsum/index.php/Merchant/Account/account
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+
+[ 2016-11-29T16:48:31+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/Commodity/commodity
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+
+[ 2016-11-29T16:48:32+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/Vip/vip
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+
+[ 2016-11-29T16:48:33+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/Commodity/commodity
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+
+[ 2016-11-29T16:48:38+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+
+[ 2016-11-29T16:48:40+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_xk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+
+[ 2016-11-29T16:48:42+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_sj
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+
+[ 2016-11-29T16:48:43+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_xf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+
+[ 2016-11-29T16:48:44+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_xj
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+
+[ 2016-11-29T16:49:26+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+
+[ 2016-11-29T16:50:20+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_xk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+
+[ 2016-11-29T16:50:22+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_xk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000584s ]
+SQL: SHOW COLUMNS FROM `cn_record_renew` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_renew` WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_renew.datetime <= '2016-11-29 23:59:59' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT cn_record_renew.*,cn_user.phone,`headImage` FROM `cn_record_renew` INNER JOIN cn_user ON cn_user.uuid = cn_record_renew.user   WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_renew.datetime <= '2016-11-29 23:59:59' LIMIT 2,2   [ RunTime:0.0004s ]
+
+[ 2016-11-29T16:50:24+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_sj
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+
+[ 2016-11-29T16:50:25+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_xf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+
+[ 2016-11-29T16:50:27+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000408s ]
+
+[ 2016-11-29T16:53:24+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=month
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+
+[ 2016-11-29T16:53:25+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=week
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+
+[ 2016-11-29T16:53:27+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=season
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+
+[ 2016-11-29T16:53:29+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=year
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+
+[ 2016-11-29T16:54:58+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=year
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+
+[ 2016-11-29T16:55:00+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=week
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+
+[ 2016-11-29T16:55:02+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=season
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+
+[ 2016-11-29T16:55:03+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=week
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+
+[ 2016-11-29T16:55:05+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=day
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+
+[ 2016-11-29T16:55:06+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=week
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+
+[ 2016-11-29T16:55:07+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=month
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+
+[ 2016-11-29T16:55:08+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=season
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+
+[ 2016-11-29T17:07:40+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=season
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+
+[ 2016-11-29T17:07:42+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=season
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+
+[ 2016-11-29T17:08:33+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=season
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+
+[ 2016-11-29T17:08:35+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_detail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+
+[ 2016-11-29T17:08:42+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_detail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+
+[ 2016-11-29T17:08:45+08:00 ] 101.226.33.220 /cnconsum/index.php/Merchant/DataReport/data_detail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+
+[ 2016-11-29T17:09:38+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=season
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+
+[ 2016-11-29T17:09:41+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_detail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+
+[ 2016-11-29T17:10:28+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_detail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+
+[ 2016-11-29T17:10:30+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000351s ]
+SQL: SHOW COLUMNS FROM `cn_record_buy` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_buy` WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_buy.datetime <= '2016-11-29 23:59:59' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT cn_record_buy.*,cn_user.phone,`headImage` FROM `cn_record_buy` INNER JOIN cn_user ON cn_user.uuid = cn_record_buy.user   WHERE `merchant` = 'm_6d4e76ca11' AND cn_record_buy.datetime <= '2016-11-29 23:59:59' LIMIT 2,2   [ RunTime:0.0003s ]
+
+[ 2016-11-29T17:11:28+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=month
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+
+[ 2016-11-29T17:11:31+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_detail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+
+[ 2016-11-29T17:18:34+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=month
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+
+[ 2016-11-29T17:18:38+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_detail?$
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+
+[ 2016-11-29T17:24:43+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=month
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+
+[ 2016-11-29T17:24:45+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_detail?user=u_eac19cca87&merchant=m_6d4e76ca11&datetime=2016-11-22%2016:57:38
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+
+[ 2016-11-29T17:24:53+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_detail?user=u_eac19cca87&merchant=m_6d4e76ca11&datetime=2016-11-22%2016:52:32
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+
+[ 2016-11-29T17:24:55+08:00 ] 101.226.89.123 /cnconsum/index.php/Merchant/DataReport/data_detail?merchant=m_6d4e76ca11&datetime=2016-11-2216:57:38
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+
+[ 2016-11-29T17:24:58+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_detail?user=u_eac19cca87&merchant=m_6d4e76ca11&datetime=2016-11-22%2016:57:38
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+
+[ 2016-11-29T17:25:03+08:00 ] 117.185.27.113 /cnconsum/index.php/Merchant/DataReport/data_detail?merchant=m_6d4e76ca11&datetime=2016-11-2216:52:32
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+
+[ 2016-11-29T17:25:10+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_detail?user=u_eac19cca87&merchant=m_6d4e76ca11&datetime=2016-11-22%2016:57:38
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+
+[ 2016-11-29T17:27:39+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=month
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+
+[ 2016-11-29T17:27:42+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_detail?table=bk&user=u_eac19cca87&merchant=m_6d4e76ca11&datetime=2016-11-22%2016:57:38
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+
+[ 2016-11-29T17:27:52+08:00 ] 140.207.124.105 /cnconsum/index.php/Merchant/DataReport/data_detail?table=bk&merchant=m_6d4e76ca11&datetime=2016-11-2216:57:38
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+
+[ 2016-11-29T17:52:07+08:00 ] 1.80.218.189 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000382s ]
+

@@ -1,0 +1,86 @@
+<!--	页面头部	-->
+<include file = "Public/header" />
+
+<!--	资源文件	-->
+<link rel="stylesheet" href="__PUBLIC__/css/workcenter.css">
+
+<div class="container clearfix">
+	<!--	左侧菜单	-->     	
+    <include file = "Public/menu" />	
+	
+    <!--        页面内容        -->     
+    <div class="con">
+    	<p class="navinfo"><img src="__PUBLIC__/image/isjbb.png" />&nbsp;&nbsp;数据报表</p>
+        <div class="cmain">
+        	<div class="cinfo1">
+        		<p class="ftdt">
+        			<label class="slct">
+		            <select name="time">
+		            	<option>本日</option>
+						<option>本周</option>
+						<option>本月</option>
+						<option>本季</option>
+						<option>本年</option>
+		            </select>
+		            </label>
+		            <label class="pdlr1">金额：<span class="fnum">225.00</span>元</label>
+		            <label>笔数：<span class="fnum">16</span>笔</label>
+        		</p>
+        	</div>
+        	<hr class="hr-grey-mg" />
+            <div class="cinfo" id="content" style="margin-top: 20px;">
+            	<!--<table class ='gridtable' cellpadding = '10'>
+				        <tr>
+				                <volist name='table_head' id='head'>
+				                	<th>{$head}</th>
+				                </volist>
+				        </tr>
+				        <volist name='table_data' id='data'>
+							<tr>
+								<volist name='data_index' id='index'>
+				                	<td>{$data.$index}</td>
+				                </volist>
+							</tr>
+				        </volist>
+				</table>
+				<div>
+				        {$page}
+				</div>-->
+            	<table class="ctable">
+                  <tr class="alt">
+                  	<td><img src="__PUBLIC__/image/user.gif" /></td>
+                    <td>记录编号：TX1456054523 </td>
+                    <td>消费日期：2016-11-03 14:20</td>
+                    <td>18元</td>
+                    <td><a href="datamore.html" class="abtn">详细信息</a></td>
+                  </tr>
+                  <tr>
+                  	<td><img src="__PUBLIC__/image/user.gif" /></td>
+                    <td>记录编号：TX1456054523 </td>
+                    <td>消费日期：2016-11-03 14:20</td>
+                    <td>18元</td>
+                    <td><a href="datamore.html" class="abtn">详细信息</a></td>
+                  </tr>
+                  <tr class="alt">
+                  	<td><img src="__PUBLIC__/image/user.gif" /></td>
+                    <td>记录编号：TX1456054523 </td>
+                    <td>消费日期：2016-11-03 14:20</td>
+                    <td>18元</td>
+                    <td><a href="datamore.html" class="abtn">详细信息</a></td>
+                  </tr>
+              </table>
+            	<div class="page text-align-r margtop47">
+            		<div>  
+            			<a class="current">1</a>
+            			<a class="num" onclick="javascript:dopage(&quot;2&amp;glysz&amp;glysz&quot;)">2</a>
+            			<a class="next" onclick="javascript:dopage(&quot;2&amp;glysz&amp;glysz&quot;)">下一页</a>
+            			  共5个管理员
+            		</div>
+            	</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--	页面尾部	-->     
+<include file = "Public/footer" />

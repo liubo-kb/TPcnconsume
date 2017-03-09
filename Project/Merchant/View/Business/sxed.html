@@ -1,0 +1,67 @@
+<!--    页面头部        -->
+<include file = "Public/header" />
+
+<!--	资源文件	-->
+<link rel="stylesheet" href="__PUBLIC__/css/merchant/workcenter.css">
+<link rel="stylesheet" href="__PUBLIC__/css/merchant/jquery.range.css">
+<script src="__PUBLIC__/js/merchant/jquery.range.js"></script>
+<script>
+$(function(){
+        $('.single-slider').jRange({
+                from: 5000,
+                to: 25000,
+                step: 100,
+                scale: [5000,15000,25000],
+                format: '%s元',
+                width: 330,
+                showLabels: true,
+                showScale: true
+        });
+});
+</script>
+
+<div class="container clearfix">
+	
+	<!--        左侧菜单        -->
+    <include file = "Public/menu" />
+	
+    <div class="con">
+    	<p class="navinfo"><img src="__PUBLIC__/image/merchant/sxed.png" />&nbsp;&nbsp;授信额度</p>
+        <div class="cmain">
+            <div class="cinfo1">
+            	<form action="" method="post" id="form-sxed">
+            	<div class="tr-mbt">
+            		<img src="__PUBLIC__/image/merchant/isxed.png" class="img-sxed" />&nbsp;<span class="ftd">授信额度：</span>&nbsp;&nbsp;
+            		<span class="fnum">10000.00</span>&nbsp;元
+            	</div>
+            	<div class="tr-mbt">
+            		<img src="__PUBLIC__/image/merchant/isyed.png" class="img-sxed" />&nbsp; <span class="ftd">剩余额度：</span>&nbsp;&nbsp;
+            		<span class="fnum">2658.00</span>&nbsp;元
+            	</div>
+            	<div style="margin-top: 30px; height: 70px;">
+            		<label><img src="__PUBLIC__/image/merchant/iwyte.png" class="img-sxed" />&nbsp; <span class="ftd">我要提额：</span></label>
+            		<div class="slidbox">
+                		<input type="hidden" name="getmoney" id="getmoney" class="single-slider" value="5000" />
+                	</div>
+            	</div>
+            	<div class="tr-mbt mgor">
+            		<div class="tipbar">
+            			<label>温馨提示：</label>
+            			<p>
+            				1.xxxxxxxxxxxxxxxxxxxxxxxx<br />
+            				2.xxxxxxxxxxxxxxxxxxxxxxxx<br />
+            				3.xxxxxxxxxxxxxxxxxxxxxxxx<br />
+            			</p>
+            		</div>
+            	</div>
+            	<div class="tr-mbt mgsub">
+            		<input type="submit" value="提交申请" class="btn-ilg" />
+            	</div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--    页面尾部        -->
+<include file = "Public/footer" />

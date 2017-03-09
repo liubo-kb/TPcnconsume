@@ -1,0 +1,971 @@
+[ 2016-12-10T18:04:34+08:00 ] 113.200.205.167 /cnconsum/App/MerchantType/advert/leadGet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000432s ]
+SQL: SHOW COLUMNS FROM `cn_advert_lead` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cn_advert_lead` WHERE `area` = '西安市雁塔区' AND `state` = 'ONLINE' ORDER BY start_time asc  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000411s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000474s ]
+
+[ 2016-12-10T18:04:34+08:00 ] 113.200.205.167 /cnconsum/App/Extra/source/version
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000346s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000408s ]
+
+[ 2016-12-10T18:04:36+08:00 ] 113.200.205.167 /cnconsum/App/UserType/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000471s ]
+SQL: SHOW COLUMNS FROM `cn_user` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_user` WHERE `phone` = '18710681974' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cn_user` WHERE `phone` = '18710681974'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000472s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000526s ]
+
+[ 2016-12-10T18:04:38+08:00 ] 113.200.205.167 /cnconsum/App/MerchantType/advert/popupGet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000520s ]
+SQL: SHOW COLUMNS FROM `cn_advert_popup` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cn_advert_popup` WHERE `area` = '渭南市蒲城县' AND `state` = 'ONLINE' ORDER BY start_time asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 0 /var/www/html/cnconsum/Project/App/Controller/MerchantType/AdvertController.class.php 第 112 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000393s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000441s ]
+
+[ 2016-12-10T18:04:38+08:00 ] 113.200.205.167 /cnconsum/App/Extra/Source/tradeIconGet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000364s ]
+SQL: SHOW COLUMNS FROM `cn_trade_icon` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cn_trade_icon`  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000366s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000416s ]
+
+[ 2016-12-10T18:04:38+08:00 ] 113.200.205.167 /cnconsum/App/MerchantType/activity/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000490s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\ActivityController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/ActivityController.class.php 第 127 行.
+SQL: SHOW COLUMNS FROM `cn_activity` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `cn_activity` WHERE `eare` = '西安市雁塔区' AND `state` = 'ONLINE'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000455s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000505s ]
+
+[ 2016-12-10T18:04:40+08:00 ] 113.200.205.167 /cnconsum/App/MerchantType/advert/headlineGet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000356s ]
+SQL: SHOW COLUMNS FROM `cn_advert_headline` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cn_advert_headline` WHERE `area` = '渭南市蒲城县' AND `state` = 'ONLINE' ORDER BY place asc  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000596s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000655s ]
+
+[ 2016-12-10T18:04:40+08:00 ] 113.200.205.167 /cnconsum/App/MerchantType/advert/insertGet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000362s ]
+SQL: SHOW COLUMNS FROM `cn_advert_insert` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cn_advert_insert` WHERE `area` = '渭南市蒲城县' AND `place` = 0 AND `state` = 'ONLINE' ORDER BY start_time asc  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000428s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000467s ]
+
+[ 2016-12-10T18:04:42+08:00 ] 113.200.205.167 /cnconsum/App/MerchantType/advert/leadGet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000421s ]
+SQL: SHOW COLUMNS FROM `cn_advert_lead` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cn_advert_lead` WHERE `area` = '西安市雁塔区' AND `state` = 'ONLINE' ORDER BY start_time asc  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000699s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000750s ]
+
+[ 2016-12-10T18:04:44+08:00 ] 113.200.205.167 /cnconsum/App/Extra/source/version
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000468s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000480s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000526s ]
+
+[ 2016-12-10T18:04:46+08:00 ] 113.200.205.167 /cnconsum/App/UserType/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000478s ]
+SQL: SHOW COLUMNS FROM `cn_user` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_user` WHERE `phone` = '18710681974' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cn_user` WHERE `phone` = '18710681974'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000400s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000440s ]
+
+[ 2016-12-10T18:04:46+08:00 ] 113.200.205.167 /cnconsum/App/MerchantType/advert/popupGet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000353s ]
+SQL: SHOW COLUMNS FROM `cn_advert_popup` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cn_advert_popup` WHERE `area` = '渭南市蒲城县' AND `state` = 'ONLINE' ORDER BY start_time asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 0 /var/www/html/cnconsum/Project/App/Controller/MerchantType/AdvertController.class.php 第 112 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000387s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000425s ]
+
+[ 2016-12-10T18:04:46+08:00 ] 113.200.205.167 /cnconsum/App/Extra/Source/tradeIconGet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000361s ]
+SQL: SHOW COLUMNS FROM `cn_trade_icon` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `cn_trade_icon`  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000465s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000513s ]
+
+[ 2016-12-10T18:04:47+08:00 ] 113.200.205.167 /cnconsum/App/MerchantType/activity/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000385s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\ActivityController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/ActivityController.class.php 第 127 行.
+SQL: SHOW COLUMNS FROM `cn_activity` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cn_activity` WHERE `eare` = '西安市雁塔区' AND `state` = 'ONLINE'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000483s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000526s ]
+
+[ 2016-12-10T18:04:47+08:00 ] 113.200.205.167 /cnconsum/App/MerchantType/advert/headlineGet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000356s ]
+SQL: SHOW COLUMNS FROM `cn_advert_headline` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `cn_advert_headline` WHERE `area` = '渭南市蒲城县' AND `state` = 'ONLINE' ORDER BY place asc  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000388s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000442s ]
+
+[ 2016-12-10T18:04:47+08:00 ] 113.200.205.167 /cnconsum/App/MerchantType/advert/insertGet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000357s ]
+SQL: SHOW COLUMNS FROM `cn_advert_insert` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `cn_advert_insert` WHERE `area` = '渭南市蒲城县' AND `place` = 0 AND `state` = 'ONLINE' ORDER BY start_time asc  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000416s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000468s ]
+
+[ 2016-12-10T18:04:49+08:00 ] 113.200.205.167 /cnconsum/App/MerchantType/advert/leadGet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000366s ]
+SQL: SHOW COLUMNS FROM `cn_advert_lead` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `cn_advert_lead` WHERE `area` = '西安市雁塔区' AND `state` = 'ONLINE' ORDER BY start_time asc  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000449s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000495s ]
+
+[ 2016-12-10T18:04:50+08:00 ] 113.200.205.167 /cnconsum/App/Extra/source/version
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000395s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000435s ]
+
+[ 2016-12-10T18:04:53+08:00 ] 113.200.205.167 /cnconsum/App/UserType/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000358s ]
+SQL: SHOW COLUMNS FROM `cn_user` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_user` WHERE `phone` = '18710681974' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cn_user` WHERE `phone` = '18710681974'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000402s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000449s ]
+
+[ 2016-12-10T18:04:53+08:00 ] 113.200.205.167 /cnconsum/App/MerchantType/advert/popupGet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000404s ]
+SQL: SHOW COLUMNS FROM `cn_advert_popup` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cn_advert_popup` WHERE `area` = '渭南市蒲城县' AND `state` = 'ONLINE' ORDER BY start_time asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 0 /var/www/html/cnconsum/Project/App/Controller/MerchantType/AdvertController.class.php 第 112 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000361s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000402s ]
+
+[ 2016-12-10T18:04:53+08:00 ] 113.200.205.167 /cnconsum/App/Extra/Source/tradeIconGet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000486s ]
+SQL: SHOW COLUMNS FROM `cn_trade_icon` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cn_trade_icon`  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000467s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000535s ]
+
+[ 2016-12-10T18:04:53+08:00 ] 113.200.205.167 /cnconsum/App/MerchantType/activity/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000417s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\ActivityController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/ActivityController.class.php 第 127 行.
+SQL: SHOW COLUMNS FROM `cn_activity` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cn_activity` WHERE `eare` = '西安市雁塔区' AND `state` = 'ONLINE'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000497s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000545s ]
+
+[ 2016-12-10T18:04:53+08:00 ] 113.200.205.167 /cnconsum/App/MerchantType/advert/headlineGet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000359s ]
+SQL: SHOW COLUMNS FROM `cn_advert_headline` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `cn_advert_headline` WHERE `area` = '渭南市蒲城县' AND `state` = 'ONLINE' ORDER BY place asc  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000541s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000607s ]
+
+[ 2016-12-10T18:04:53+08:00 ] 113.200.205.167 /cnconsum/App/MerchantType/advert/insertGet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000437s ]
+SQL: SHOW COLUMNS FROM `cn_advert_insert` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `cn_advert_insert` WHERE `area` = '渭南市蒲城县' AND `place` = 0 AND `state` = 'ONLINE' ORDER BY start_time asc  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000444s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000489s ]
+
+[ 2016-12-10T20:38:18+08:00 ] 1.81.71.89 /cnconsum/App/MerchantType/advert/leadGet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000364s ]
+SQL: SHOW COLUMNS FROM `cn_advert_lead` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cn_advert_lead` WHERE `area` = '西安市雁塔区' AND `state` = 'ONLINE' ORDER BY start_time asc  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000558s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000600s ]
+
+[ 2016-12-10T20:38:19+08:00 ] 1.81.71.89 /cnconsum/App/Extra/source/version
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000327s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000366s ]
+
+[ 2016-12-10T20:38:23+08:00 ] 1.81.71.89 /cnconsum/App/MerchantType/activity/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000404s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\ActivityController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/ActivityController.class.php 第 127 行.
+SQL: SHOW COLUMNS FROM `cn_activity` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `cn_activity` WHERE `eare` = '西安市雁塔区' AND `state` = 'ONLINE'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000575s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000640s ]
+
+[ 2016-12-10T20:38:23+08:00 ] 1.81.71.89 /cnconsum/App/MerchantType/advert/popupGet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000538s ]
+SQL: SHOW COLUMNS FROM `cn_advert_popup` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `cn_advert_popup` WHERE `area` = '北京市海淀区' AND `state` = 'ONLINE' ORDER BY start_time asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 0 /var/www/html/cnconsum/Project/App/Controller/MerchantType/AdvertController.class.php 第 112 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000353s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000389s ]
+
+[ 2016-12-10T20:38:23+08:00 ] 1.81.71.89 /cnconsum/App/Extra/Source/tradeIconGet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001965s ]
+SQL: SHOW COLUMNS FROM `cn_trade_icon` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `cn_trade_icon`  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000362s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000402s ]
+
+[ 2016-12-10T20:38:23+08:00 ] 1.81.71.89 /cnconsum/App/UserType/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000378s ]
+SQL: SHOW COLUMNS FROM `cn_user` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_user` WHERE `phone` = '18710681974' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cn_user` WHERE `phone` = '18710681974'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000369s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000410s ]
+
+[ 2016-12-10T20:38:23+08:00 ] 1.81.71.89 /cnconsum/App/MerchantType/advert/insertGet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+SQL: SHOW COLUMNS FROM `cn_advert_insert` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `cn_advert_insert` WHERE `area` = '北京市海淀区' AND `place` = 0 AND `state` = 'ONLINE' ORDER BY start_time asc  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000613s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000683s ]
+
+[ 2016-12-10T20:38:23+08:00 ] 1.81.71.89 /cnconsum/App/MerchantType/advert/headlineGet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000645s ]
+SQL: SHOW COLUMNS FROM `cn_advert_headline` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `cn_advert_headline` WHERE `area` = '北京市海淀区' AND `state` = 'ONLINE' ORDER BY place asc  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000646s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000712s ]
+
+[ 2016-12-10T20:38:23+08:00 ] 1.81.71.89 /cnconsum/App/MerchantType/merchant/listGet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000424s ]
+SQL: SHOW COLUMNS FROM `cn_merchant` [ RunTime:0.0009s ]
+SQL: SELECT `muid`,`phone`,`store`,`image_url`,`longtitude`,`latitude` FROM `cn_merchant` WHERE `address` LIKE '%北京市海淀区%' LIMIT 0,1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000450s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000491s ]
+
+[ 2016-12-10T20:38:25+08:00 ] 1.81.71.89 /cnconsum/App/MerchantType/advert/leadGet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000409s ]
+SQL: SHOW COLUMNS FROM `cn_advert_lead` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cn_advert_lead` WHERE `area` = '西安市雁塔区' AND `state` = 'ONLINE' ORDER BY start_time asc  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000403s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000444s ]
+
+[ 2016-12-10T20:38:27+08:00 ] 1.81.71.89 /cnconsum/App/Extra/source/version
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000408s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000326s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000366s ]
+
+[ 2016-12-10T20:38:29+08:00 ] 1.81.71.89 /cnconsum/App/UserType/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000409s ]
+SQL: SHOW COLUMNS FROM `cn_user` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_user` WHERE `phone` = '18710681974' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cn_user` WHERE `phone` = '18710681974'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000431s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000475s ]
+
+[ 2016-12-10T20:38:29+08:00 ] 1.81.71.89 /cnconsum/App/MerchantType/advert/popupGet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000440s ]
+SQL: SHOW COLUMNS FROM `cn_advert_popup` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `cn_advert_popup` WHERE `area` = '北京市海淀区' AND `state` = 'ONLINE' ORDER BY start_time asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 0 /var/www/html/cnconsum/Project/App/Controller/MerchantType/AdvertController.class.php 第 112 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000373s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000444s ]
+
+[ 2016-12-10T20:38:29+08:00 ] 1.81.71.89 /cnconsum/App/MerchantType/activity/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000388s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\ActivityController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/ActivityController.class.php 第 127 行.
+SQL: SHOW COLUMNS FROM `cn_activity` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `cn_activity` WHERE `eare` = '西安市雁塔区' AND `state` = 'ONLINE'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000530s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000576s ]
+
+[ 2016-12-10T20:38:29+08:00 ] 1.81.71.89 /cnconsum/App/Extra/Source/tradeIconGet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006992s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000418s ]
+SQL: SHOW COLUMNS FROM `cn_trade_icon` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `cn_trade_icon`  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000488s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000536s ]
+
+[ 2016-12-10T20:38:29+08:00 ] 1.81.71.89 /cnconsum/App/MerchantType/advert/insertGet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000436s ]
+SQL: SHOW COLUMNS FROM `cn_advert_insert` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cn_advert_insert` WHERE `area` = '北京市海淀区' AND `place` = 0 AND `state` = 'ONLINE' ORDER BY start_time asc  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000586s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000658s ]
+
+[ 2016-12-10T20:38:29+08:00 ] 1.81.71.89 /cnconsum/App/MerchantType/advert/headlineGet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000583s ]
+SQL: SHOW COLUMNS FROM `cn_advert_headline` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cn_advert_headline` WHERE `area` = '北京市海淀区' AND `state` = 'ONLINE' ORDER BY place asc  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000517s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000561s ]
+
+[ 2016-12-10T20:38:29+08:00 ] 1.81.71.89 /cnconsum/App/MerchantType/merchant/listGet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000413s ]
+SQL: SHOW COLUMNS FROM `cn_merchant` [ RunTime:0.0010s ]
+SQL: SELECT `muid`,`phone`,`store`,`image_url`,`longtitude`,`latitude` FROM `cn_merchant` WHERE `address` LIKE '%北京市海淀区%' LIMIT 0,1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000527s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000583s ]
+
+[ 2016-12-10T20:38:33+08:00 ] 1.81.71.89 /cnconsum/App/MerchantType/advert/leadGet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000432s ]
+SQL: SHOW COLUMNS FROM `cn_advert_lead` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `cn_advert_lead` WHERE `area` = '西安市雁塔区' AND `state` = 'ONLINE' ORDER BY start_time asc  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000430s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000478s ]
+
+[ 2016-12-10T20:38:36+08:00 ] 1.81.71.89 /cnconsum/App/Extra/source/version
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000408s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000387s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000427s ]
+
+[ 2016-12-10T20:38:37+08:00 ] 1.81.71.89 /cnconsum/App/UserType/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000397s ]
+SQL: SHOW COLUMNS FROM `cn_user` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_user` WHERE `phone` = '18710681974' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cn_user` WHERE `phone` = '18710681974'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000379s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000420s ]
+
+[ 2016-12-10T20:38:38+08:00 ] 1.81.71.89 /cnconsum/App/Extra/Source/tradeIconGet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000462s ]
+SQL: SHOW COLUMNS FROM `cn_trade_icon` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cn_trade_icon`  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000381s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000440s ]
+
+[ 2016-12-10T20:38:38+08:00 ] 1.81.71.89 /cnconsum/App/MerchantType/activity/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000356s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\ActivityController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/ActivityController.class.php 第 127 行.
+SQL: SHOW COLUMNS FROM `cn_activity` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `cn_activity` WHERE `eare` = '西安市雁塔区' AND `state` = 'ONLINE'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000401s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000444s ]
+
+[ 2016-12-10T20:38:38+08:00 ] 1.81.71.89 /cnconsum/App/MerchantType/advert/popupGet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000353s ]
+SQL: SHOW COLUMNS FROM `cn_advert_popup` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `cn_advert_popup` WHERE `area` = '北京市海淀区' AND `state` = 'ONLINE' ORDER BY start_time asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 0 /var/www/html/cnconsum/Project/App/Controller/MerchantType/AdvertController.class.php 第 112 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000448s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000489s ]
+
+[ 2016-12-10T20:38:38+08:00 ] 1.81.71.89 /cnconsum/App/MerchantType/advert/headlineGet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000388s ]
+SQL: SHOW COLUMNS FROM `cn_advert_headline` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cn_advert_headline` WHERE `area` = '北京市海淀区' AND `state` = 'ONLINE' ORDER BY place asc  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000514s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000556s ]
+
+[ 2016-12-10T20:38:38+08:00 ] 1.81.71.89 /cnconsum/App/MerchantType/advert/insertGet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000359s ]
+SQL: SHOW COLUMNS FROM `cn_advert_insert` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `cn_advert_insert` WHERE `area` = '北京市海淀区' AND `place` = 0 AND `state` = 'ONLINE' ORDER BY start_time asc  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000542s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000592s ]
+
+[ 2016-12-10T20:38:48+08:00 ] 1.81.71.89 /cnconsum/App/MerchantType/advert/leadGet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000382s ]
+SQL: SHOW COLUMNS FROM `cn_advert_lead` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cn_advert_lead` WHERE `area` = '西安市雁塔区' AND `state` = 'ONLINE' ORDER BY start_time asc  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000497s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000538s ]
+
+[ 2016-12-10T20:38:51+08:00 ] 1.81.71.89 /cnconsum/App/Extra/source/version
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000390s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000430s ]
+
+[ 2016-12-10T20:38:53+08:00 ] 1.81.71.89 /cnconsum/App/UserType/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000502s ]
+SQL: SHOW COLUMNS FROM `cn_user` [ RunTime:0.0029s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_user` WHERE `phone` = '18710681974' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cn_user` WHERE `phone` = '18710681974'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000552s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000616s ]
+
+[ 2016-12-10T20:38:53+08:00 ] 1.81.71.89 /cnconsum/App/Extra/Source/tradeIconGet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000436s ]
+SQL: SHOW COLUMNS FROM `cn_trade_icon` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `cn_trade_icon`  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000524s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000592s ]
+
+[ 2016-12-10T20:38:53+08:00 ] 1.81.71.89 /cnconsum/App/MerchantType/advert/popupGet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000360s ]
+SQL: SHOW COLUMNS FROM `cn_advert_popup` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `cn_advert_popup` WHERE `area` = '北京市海淀区' AND `state` = 'ONLINE' ORDER BY start_time asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 0 /var/www/html/cnconsum/Project/App/Controller/MerchantType/AdvertController.class.php 第 112 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000425s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000471s ]
+
+[ 2016-12-10T20:38:53+08:00 ] 1.81.71.89 /cnconsum/App/MerchantType/activity/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000457s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\ActivityController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/ActivityController.class.php 第 127 行.
+SQL: SHOW COLUMNS FROM `cn_activity` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `cn_activity` WHERE `eare` = '西安市雁塔区' AND `state` = 'ONLINE'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000563s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000623s ]
+
+[ 2016-12-10T20:38:54+08:00 ] 1.81.71.89 /cnconsum/App/MerchantType/advert/headlineGet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000384s ]
+SQL: SHOW COLUMNS FROM `cn_advert_headline` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cn_advert_headline` WHERE `area` = '北京市海淀区' AND `state` = 'ONLINE' ORDER BY place asc  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000454s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000496s ]
+
+[ 2016-12-10T20:38:54+08:00 ] 1.81.71.89 /cnconsum/App/MerchantType/advert/insertGet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000630s ]
+SQL: SHOW COLUMNS FROM `cn_advert_insert` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cn_advert_insert` WHERE `area` = '北京市海淀区' AND `place` = 0 AND `state` = 'ONLINE' ORDER BY start_time asc  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000409s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000456s ]
+
+[ 2016-12-10T20:39:05+08:00 ] 1.81.71.89 /cnconsum/App/MerchantType/advert/leadGet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000386s ]
+SQL: SHOW COLUMNS FROM `cn_advert_lead` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `cn_advert_lead` WHERE `area` = '西安市雁塔区' AND `state` = 'ONLINE' ORDER BY start_time asc  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000422s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000463s ]
+
+[ 2016-12-10T20:39:08+08:00 ] 1.81.71.89 /cnconsum/App/Extra/source/version
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000399s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000439s ]
+
+[ 2016-12-10T20:39:12+08:00 ] 1.81.71.89 /cnconsum/App/UserType/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000388s ]
+SQL: SHOW COLUMNS FROM `cn_user` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_user` WHERE `phone` = '18710681974' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cn_user` WHERE `phone` = '18710681974'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000388s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000431s ]
+
+[ 2016-12-10T20:39:12+08:00 ] 1.81.71.89 /cnconsum/App/MerchantType/advert/popupGet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000404s ]
+SQL: SHOW COLUMNS FROM `cn_advert_popup` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cn_advert_popup` WHERE `area` = '北京市海淀区' AND `state` = 'ONLINE' ORDER BY start_time asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 0 /var/www/html/cnconsum/Project/App/Controller/MerchantType/AdvertController.class.php 第 112 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000384s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000434s ]
+
+[ 2016-12-10T20:39:12+08:00 ] 1.81.71.89 /cnconsum/App/Extra/Source/tradeIconGet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000355s ]
+SQL: SHOW COLUMNS FROM `cn_trade_icon` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `cn_trade_icon`  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000361s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000401s ]
+
+[ 2016-12-10T20:39:12+08:00 ] 1.81.71.89 /cnconsum/App/MerchantType/activity/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000385s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\ActivityController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/ActivityController.class.php 第 127 行.
+SQL: SHOW COLUMNS FROM `cn_activity` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `cn_activity` WHERE `eare` = '西安市雁塔区' AND `state` = 'ONLINE'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000422s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000476s ]
+
+[ 2016-12-10T20:39:13+08:00 ] 1.81.71.89 /cnconsum/App/MerchantType/advert/headlineGet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000384s ]
+SQL: SHOW COLUMNS FROM `cn_advert_headline` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cn_advert_headline` WHERE `area` = '北京市海淀区' AND `state` = 'ONLINE' ORDER BY place asc  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000367s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000407s ]
+
+[ 2016-12-10T20:39:13+08:00 ] 1.81.71.89 /cnconsum/App/MerchantType/advert/insertGet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000355s ]
+SQL: SHOW COLUMNS FROM `cn_advert_insert` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `cn_advert_insert` WHERE `area` = '北京市海淀区' AND `place` = 0 AND `state` = 'ONLINE' ORDER BY start_time asc  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000394s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000436s ]
+
+[ 2016-12-10T21:35:19+08:00 ] 36.45.21.251 /cnconsum/App/MerchantType/advert/leadGet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000652s ]
+SQL: SHOW COLUMNS FROM `cn_advert_lead` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `cn_advert_lead` WHERE `area` = '西安市雁塔区' AND `state` = 'ONLINE' ORDER BY start_time asc  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000374s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000417s ]
+
+[ 2016-12-10T21:35:21+08:00 ] 36.45.21.251 /cnconsum/App/Extra/source/version
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000330s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000368s ]
+
+[ 2016-12-10T21:35:23+08:00 ] 36.45.21.251 /cnconsum/App/Extra/Source/tradeIconGet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000359s ]
+SQL: SHOW COLUMNS FROM `cn_trade_icon` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cn_trade_icon`  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000389s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000432s ]
+
+[ 2016-12-10T21:35:23+08:00 ] 36.45.21.251 /cnconsum/App/UserType/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000357s ]
+SQL: SHOW COLUMNS FROM `cn_user` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_user` WHERE `phone` = '18710681974' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cn_user` WHERE `phone` = '18710681974'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000406s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000447s ]
+
+[ 2016-12-10T21:35:23+08:00 ] 36.45.21.251 /cnconsum/App/MerchantType/activity/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000386s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\ActivityController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/ActivityController.class.php 第 127 行.
+SQL: SHOW COLUMNS FROM `cn_activity` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `cn_activity` WHERE `eare` = '西安市雁塔区' AND `state` = 'ONLINE'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000438s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000480s ]
+
+[ 2016-12-10T21:35:23+08:00 ] 36.45.21.251 /cnconsum/App/MerchantType/advert/popupGet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000357s ]
+SQL: SHOW COLUMNS FROM `cn_advert_popup` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `cn_advert_popup` WHERE `area` = '北京市海淀区' AND `state` = 'ONLINE' ORDER BY start_time asc  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 0 /var/www/html/cnconsum/Project/App/Controller/MerchantType/AdvertController.class.php 第 112 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000411s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000454s ]
+
+[ 2016-12-10T21:35:23+08:00 ] 36.45.21.251 /cnconsum/App/MerchantType/advert/headlineGet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000357s ]
+SQL: SHOW COLUMNS FROM `cn_advert_headline` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cn_advert_headline` WHERE `area` = '北京市海淀区' AND `state` = 'ONLINE' ORDER BY place asc  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000365s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000404s ]
+
+[ 2016-12-10T21:35:23+08:00 ] 36.45.21.251 /cnconsum/App/MerchantType/advert/insertGet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000396s ]
+SQL: SHOW COLUMNS FROM `cn_advert_insert` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cn_advert_insert` WHERE `area` = '北京市海淀区' AND `place` = 0 AND `state` = 'ONLINE' ORDER BY start_time asc  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000357s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000398s ]
+

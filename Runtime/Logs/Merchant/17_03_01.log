@@ -1,0 +1,39 @@
+[ 2017-03-01T11:35:52+08:00 ] 117.22.24.98 /cnconsum/Merchant/merchant/loginView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+
+[ 2017-03-01T11:36:02+08:00 ] 101.226.89.115 /cnconsum/Merchant/merchant/loginView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+
+[ 2017-03-01T11:36:02+08:00 ] 101.226.89.115 /cnconsum/Merchant/merchant/%20/cnconsum/Public/js/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+ERR: 非法操作: 
+
+[ 2017-03-01T11:36:02+08:00 ] 101.226.89.115 /cnconsum/Merchant/merchant/%20/cnconsum/Public/js/login.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+ERR: 非法操作: 
+
+[ 2017-03-01T11:36:02+08:00 ] 101.226.89.115 /cnconsum/Merchant/merchant/%20/cnconsum/Public/js/ajaxcheck.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+ERR: 非法操作: 
+
+[ 2017-03-01T11:36:02+08:00 ] 101.226.89.115 /cnconsum/Merchant/merchant/%20/cnconsum/Public/js/jquery.luara.0.0.1.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+ERR: 非法操作: 
+
+[ 2017-03-01T11:37:12+08:00 ] 117.22.24.98 /cnconsum/Merchant/merchant/loginView?winzoom=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+

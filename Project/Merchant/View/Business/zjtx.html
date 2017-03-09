@@ -1,0 +1,66 @@
+<!--	页面头部	-->
+<include file="Public/header"/>
+
+<!--	资源文件	-->
+<link rel="stylesheet" href="__PUBLIC__/css/merchant/workcenter.css">
+<script>
+        $('#form-pickcash').submit(function(){
+                var balance = $('#balance').val();
+
+                if(isNaN(balance) || balance <= 0){
+                        $('.form-msg').html('请填写提取余额（例如：1000.00）！');
+                        return false;
+                }
+                $('.form-msg').html('');
+                return false;
+        });
+</script>
+
+<div class="container clearfix">
+
+    <!--	左侧菜单	-->
+    <include file="Public/menu"/>
+
+    <!--	页面内容	-->
+    <div class="con">
+    	<p class="navinfo"><img src="__PUBLIC__/image/merchant/zjtx.png" />&nbsp;&nbsp;资金提现</p>
+        <div class="cmain">
+        	<div class="cinfo1">
+        		<div class="tr-mbt ftdt">
+            		账户余额：&nbsp;&nbsp;<span class="fnum">{$data.remain}</span>&nbsp;&nbsp;元
+            	</div>
+	            <div class="mgsx">
+	            	<a href="../withdraw/txmx" class="abtn-op">账单明细</a>
+	            </div>
+	            <div class="ftdt">
+	            	<label class="pdr"><img src="__PUBLIC__/image/merchant/ibzj.png"  class="img-zjtx" />&nbsp;保证金：<span class="numl">{$data.deposit}</span>元</label>
+	            	<label class="pdr"><img src="__PUBLIC__/image/merchant/ijlje.png"  class="img-zjtx" />&nbsp;奖励金额：<span class="numl">{$data.award}</span>元</label>
+	            </div>
+	        </div>
+	        <hr class="hr-grey" />
+	        <div class="cinfo1" style="margin-top: 0;">
+            	<form action="../withdraw/withdraw" method="post" id="form-pickcash">
+            	<p class="ftdt">提取余额到银行卡：</p>
+            	<div class="mgsx1">
+            		<span class="ftdt">提取余额：</span>&nbsp;<input type="text" name="sum" id="balance" value="" style="width: 165px;" class="txtdb" />&nbsp;&nbsp;元<br>
+            		<p class="fcl paddleft85">
+	            		余额：<span id="money">{$data.remain}</span>元，&nbsp;&nbsp;&nbsp;
+	            		<span style="cursor: pointer;" class="maincolor" onclick="setInputVal('money','balance')">全部提取</span>
+            		</p>
+            	</div>
+            	<p class="fcl mgb20">银行卡：{$data.bank}&nbsp;&nbsp;&nbsp;&nbsp;尾号（{$data.account}）</p>
+            	<p class="ftdt">预计3个工作日内到账</p>
+            	<div style="margin: 50px 0;">
+            		<p class="form-msg" style="margin-bottom: 10px;">&nbsp;</p>
+            		<input type="submit" value="确定" class="btn-fsub" />&nbsp;&nbsp;&nbsp;&nbsp;
+                	<input type="reset" class="btn-freset" value="取消" />
+            	</div>
+            	</form>
+	        </div>
+        </div>
+    </div>
+</div>
+
+<!--	页面尾部	-->
+<include file = "Public/footer"/>
+

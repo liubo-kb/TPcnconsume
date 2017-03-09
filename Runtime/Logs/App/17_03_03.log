@@ -1,0 +1,1798 @@
+[ 2017-03-03T18:03:44+08:00 ] 117.22.25.50 /cnconsum/App/MerchantType/record/getNewRecord
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000358s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\RecordController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/RecordController.class.php 第 146 行.
+SQL: SHOW COLUMNS FROM `cn_record_consum` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000425s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000471s ]
+
+[ 2017-03-03T18:03:45+08:00 ] 117.22.25.50 /cnconsum/App/MerchantType/record/getNewRecord
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000418s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\RecordController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/RecordController.class.php 第 146 行.
+SQL: SHOW COLUMNS FROM `cn_record_consum` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000446s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000502s ]
+
+[ 2017-03-03T18:03:46+08:00 ] 117.22.25.50 /cnconsum/App/MerchantType/record/getNewRecord
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000691s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000845s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\RecordController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/RecordController.class.php 第 146 行.
+SQL: SHOW COLUMNS FROM `cn_record_consum` [ RunTime:0.0032s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000698s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000767s ]
+
+[ 2017-03-03T18:03:47+08:00 ] 117.22.25.50 /cnconsum/App/MerchantType/record/getNewRecord
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000366s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\RecordController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/RecordController.class.php 第 146 行.
+SQL: SHOW COLUMNS FROM `cn_record_consum` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000519s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000563s ]
+
+[ 2017-03-03T18:03:48+08:00 ] 117.22.25.50 /cnconsum/App/MerchantType/record/getNewRecord
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000366s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\RecordController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/RecordController.class.php 第 146 行.
+SQL: SHOW COLUMNS FROM `cn_record_consum` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000461s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000513s ]
+
+[ 2017-03-03T18:03:49+08:00 ] 117.22.25.50 /cnconsum/App/MerchantType/record/getNewRecord
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000399s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\RecordController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/RecordController.class.php 第 146 行.
+SQL: SHOW COLUMNS FROM `cn_record_consum` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000393s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000452s ]
+
+[ 2017-03-03T18:03:50+08:00 ] 117.22.25.50 /cnconsum/App/MerchantType/record/getNewRecord
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000411s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\RecordController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/RecordController.class.php 第 146 行.
+SQL: SHOW COLUMNS FROM `cn_record_consum` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000428s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000478s ]
+
+[ 2017-03-03T18:03:51+08:00 ] 117.22.25.50 /cnconsum/App/MerchantType/record/getNewRecord
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000412s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\RecordController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/RecordController.class.php 第 146 行.
+SQL: SHOW COLUMNS FROM `cn_record_consum` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000406s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000455s ]
+
+[ 2017-03-03T18:03:52+08:00 ] 117.22.25.50 /cnconsum/App/MerchantType/record/getNewRecord
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000380s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\RecordController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/RecordController.class.php 第 146 行.
+SQL: SHOW COLUMNS FROM `cn_record_consum` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000441s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000507s ]
+
+[ 2017-03-03T18:03:53+08:00 ] 117.22.25.50 /cnconsum/App/MerchantType/record/getNewRecord
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000421s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\RecordController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/RecordController.class.php 第 146 行.
+SQL: SHOW COLUMNS FROM `cn_record_consum` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000674s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000768s ]
+
+[ 2017-03-03T18:03:54+08:00 ] 117.22.25.50 /cnconsum/App/MerchantType/record/getNewRecord
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000398s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\RecordController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/RecordController.class.php 第 146 行.
+SQL: SHOW COLUMNS FROM `cn_record_consum` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000464s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000509s ]
+
+[ 2017-03-03T18:03:55+08:00 ] 117.22.25.50 /cnconsum/App/MerchantType/record/getNewRecord
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000411s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\RecordController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/RecordController.class.php 第 146 行.
+SQL: SHOW COLUMNS FROM `cn_record_consum` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000397s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000438s ]
+
+[ 2017-03-03T18:03:56+08:00 ] 117.22.25.50 /cnconsum/App/MerchantType/record/getNewRecord
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000425s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\RecordController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/RecordController.class.php 第 146 行.
+SQL: SHOW COLUMNS FROM `cn_record_consum` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000497s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000565s ]
+
+[ 2017-03-03T18:03:57+08:00 ] 117.22.25.50 /cnconsum/App/MerchantType/record/getNewRecord
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000367s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\RecordController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/RecordController.class.php 第 146 行.
+SQL: SHOW COLUMNS FROM `cn_record_consum` [ RunTime:0.0028s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000400s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000442s ]
+
+[ 2017-03-03T18:03:58+08:00 ] 117.22.25.50 /cnconsum/App/MerchantType/record/getNewRecord
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000408s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\RecordController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/RecordController.class.php 第 146 行.
+SQL: SHOW COLUMNS FROM `cn_record_consum` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000430s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000475s ]
+
+[ 2017-03-03T18:03:59+08:00 ] 117.22.25.50 /cnconsum/App/MerchantType/record/getNewRecord
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000423s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\RecordController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/RecordController.class.php 第 146 行.
+SQL: SHOW COLUMNS FROM `cn_record_consum` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000663s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000717s ]
+
+[ 2017-03-03T18:04:00+08:00 ] 117.22.25.50 /cnconsum/App/MerchantType/record/getNewRecord
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000372s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\RecordController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/RecordController.class.php 第 146 行.
+SQL: SHOW COLUMNS FROM `cn_record_consum` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000644s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000748s ]
+
+[ 2017-03-03T18:04:01+08:00 ] 117.22.25.50 /cnconsum/App/MerchantType/record/getNewRecord
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000414s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\RecordController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/RecordController.class.php 第 146 行.
+SQL: SHOW COLUMNS FROM `cn_record_consum` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000432s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000525s ]
+
+[ 2017-03-03T18:04:02+08:00 ] 117.22.25.50 /cnconsum/App/MerchantType/record/getNewRecord
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000404s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\RecordController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/RecordController.class.php 第 146 行.
+SQL: SHOW COLUMNS FROM `cn_record_consum` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000545s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000597s ]
+
+[ 2017-03-03T18:04:03+08:00 ] 117.22.25.50 /cnconsum/App/MerchantType/record/getNewRecord
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000361s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\RecordController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/RecordController.class.php 第 146 行.
+SQL: SHOW COLUMNS FROM `cn_record_consum` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000421s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000471s ]
+
+[ 2017-03-03T18:04:04+08:00 ] 117.22.25.50 /cnconsum/App/MerchantType/record/getNewRecord
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000404s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\RecordController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/RecordController.class.php 第 146 行.
+SQL: SHOW COLUMNS FROM `cn_record_consum` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000581s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000651s ]
+
+[ 2017-03-03T18:04:05+08:00 ] 117.22.25.50 /cnconsum/App/MerchantType/record/getNewRecord
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000414s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\RecordController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/RecordController.class.php 第 146 行.
+SQL: SHOW COLUMNS FROM `cn_record_consum` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000414s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000462s ]
+
+[ 2017-03-03T18:04:06+08:00 ] 117.22.25.50 /cnconsum/App/MerchantType/record/getNewRecord
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\RecordController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/RecordController.class.php 第 146 行.
+SQL: SHOW COLUMNS FROM `cn_record_consum` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000414s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000490s ]
+
+[ 2017-03-03T18:04:07+08:00 ] 117.22.25.50 /cnconsum/App/MerchantType/record/getNewRecord
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000454s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\RecordController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/RecordController.class.php 第 146 行.
+SQL: SHOW COLUMNS FROM `cn_record_consum` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000414s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000460s ]
+
+[ 2017-03-03T18:04:08+08:00 ] 117.22.25.50 /cnconsum/App/MerchantType/record/getNewRecord
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000469s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\RecordController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/RecordController.class.php 第 146 行.
+SQL: SHOW COLUMNS FROM `cn_record_consum` [ RunTime:0.0031s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000427s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000499s ]
+
+[ 2017-03-03T18:04:09+08:00 ] 117.22.25.50 /cnconsum/App/MerchantType/record/getNewRecord
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000397s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\RecordController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/RecordController.class.php 第 146 行.
+SQL: SHOW COLUMNS FROM `cn_record_consum` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000479s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000529s ]
+
+[ 2017-03-03T18:04:10+08:00 ] 117.22.25.50 /cnconsum/App/MerchantType/record/getNewRecord
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000452s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\RecordController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/RecordController.class.php 第 146 行.
+SQL: SHOW COLUMNS FROM `cn_record_consum` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000435s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000479s ]
+
+[ 2017-03-03T18:04:11+08:00 ] 117.22.25.50 /cnconsum/App/MerchantType/record/getNewRecord
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000386s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\RecordController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/RecordController.class.php 第 146 行.
+SQL: SHOW COLUMNS FROM `cn_record_consum` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000687s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000749s ]
+
+[ 2017-03-03T18:04:12+08:00 ] 117.22.25.50 /cnconsum/App/MerchantType/record/getNewRecord
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000390s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\RecordController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/RecordController.class.php 第 146 行.
+SQL: SHOW COLUMNS FROM `cn_record_consum` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000753s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000826s ]
+
+[ 2017-03-03T18:04:13+08:00 ] 117.22.25.50 /cnconsum/App/MerchantType/record/getNewRecord
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000418s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000582s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\RecordController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/RecordController.class.php 第 146 行.
+SQL: SHOW COLUMNS FROM `cn_record_consum` [ RunTime:0.0029s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000579s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000640s ]
+
+[ 2017-03-03T18:04:14+08:00 ] 117.22.25.50 /cnconsum/App/MerchantType/record/getNewRecord
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000372s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\RecordController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/RecordController.class.php 第 146 行.
+SQL: SHOW COLUMNS FROM `cn_record_consum` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000404s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000445s ]
+
+[ 2017-03-03T18:04:15+08:00 ] 117.22.25.50 /cnconsum/App/MerchantType/record/getNewRecord
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000683s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\RecordController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/RecordController.class.php 第 146 行.
+SQL: SHOW COLUMNS FROM `cn_record_consum` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000582s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000625s ]
+
+[ 2017-03-03T18:04:16+08:00 ] 117.22.25.50 /cnconsum/App/MerchantType/record/getNewRecord
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000366s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\RecordController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/RecordController.class.php 第 146 行.
+SQL: SHOW COLUMNS FROM `cn_record_consum` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000678s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000751s ]
+
+[ 2017-03-03T18:04:17+08:00 ] 117.22.25.50 /cnconsum/App/MerchantType/record/getNewRecord
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000408s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000428s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\RecordController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/RecordController.class.php 第 146 行.
+SQL: SHOW COLUMNS FROM `cn_record_consum` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000406s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000453s ]
+
+[ 2017-03-03T18:04:18+08:00 ] 117.22.25.50 /cnconsum/App/MerchantType/record/getNewRecord
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000417s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\RecordController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/RecordController.class.php 第 146 行.
+SQL: SHOW COLUMNS FROM `cn_record_consum` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000384s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000438s ]
+
+[ 2017-03-03T18:04:19+08:00 ] 117.22.25.50 /cnconsum/App/MerchantType/record/getNewRecord
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\RecordController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/RecordController.class.php 第 146 行.
+SQL: SHOW COLUMNS FROM `cn_record_consum` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000388s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000455s ]
+
+[ 2017-03-03T18:04:20+08:00 ] 117.22.25.50 /cnconsum/App/MerchantType/record/getNewRecord
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000416s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\RecordController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/RecordController.class.php 第 146 行.
+SQL: SHOW COLUMNS FROM `cn_record_consum` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000774s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000819s ]
+
+[ 2017-03-03T18:04:21+08:00 ] 117.22.25.50 /cnconsum/App/MerchantType/record/getNewRecord
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000387s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\RecordController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/RecordController.class.php 第 146 行.
+SQL: SHOW COLUMNS FROM `cn_record_consum` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000423s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000529s ]
+
+[ 2017-03-03T18:04:22+08:00 ] 117.22.25.50 /cnconsum/App/MerchantType/record/getNewRecord
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000393s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\RecordController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/RecordController.class.php 第 146 行.
+SQL: SHOW COLUMNS FROM `cn_record_consum` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000477s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000533s ]
+
+[ 2017-03-03T18:04:23+08:00 ] 117.22.25.50 /cnconsum/App/MerchantType/record/getNewRecord
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000732s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\RecordController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/RecordController.class.php 第 146 行.
+SQL: SHOW COLUMNS FROM `cn_record_consum` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000558s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000623s ]
+
+[ 2017-03-03T18:04:24+08:00 ] 117.22.25.50 /cnconsum/App/MerchantType/record/getNewRecord
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000373s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\RecordController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/RecordController.class.php 第 146 行.
+SQL: SHOW COLUMNS FROM `cn_record_consum` [ RunTime:0.0022s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000429s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000471s ]
+
+[ 2017-03-03T18:04:25+08:00 ] 117.22.25.50 /cnconsum/App/MerchantType/record/getNewRecord
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000367s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\RecordController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/RecordController.class.php 第 146 行.
+SQL: SHOW COLUMNS FROM `cn_record_consum` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000356s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000398s ]
+
+[ 2017-03-03T18:04:26+08:00 ] 117.22.25.50 /cnconsum/App/MerchantType/record/getNewRecord
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000423s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\RecordController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/RecordController.class.php 第 146 行.
+SQL: SHOW COLUMNS FROM `cn_record_consum` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000361s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000410s ]
+
+[ 2017-03-03T18:04:27+08:00 ] 117.22.25.50 /cnconsum/App/MerchantType/record/getNewRecord
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000414s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\RecordController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/RecordController.class.php 第 146 行.
+SQL: SHOW COLUMNS FROM `cn_record_consum` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000465s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000532s ]
+
+[ 2017-03-03T18:04:28+08:00 ] 117.22.25.50 /cnconsum/App/MerchantType/record/getNewRecord
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000499s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\RecordController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/RecordController.class.php 第 146 行.
+SQL: SHOW COLUMNS FROM `cn_record_consum` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000502s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000573s ]
+
+[ 2017-03-03T18:04:29+08:00 ] 117.22.25.50 /cnconsum/App/MerchantType/record/getNewRecord
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000586s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\RecordController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/RecordController.class.php 第 146 行.
+SQL: SHOW COLUMNS FROM `cn_record_consum` [ RunTime:0.0025s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000696s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000805s ]
+
+[ 2017-03-03T18:04:30+08:00 ] 117.22.25.50 /cnconsum/App/MerchantType/record/getNewRecord
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000540s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\RecordController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/RecordController.class.php 第 146 行.
+SQL: SHOW COLUMNS FROM `cn_record_consum` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000648s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000716s ]
+
+[ 2017-03-03T18:04:31+08:00 ] 117.22.25.50 /cnconsum/App/MerchantType/record/getNewRecord
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000425s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\RecordController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/RecordController.class.php 第 146 行.
+SQL: SHOW COLUMNS FROM `cn_record_consum` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000447s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000488s ]
+
+[ 2017-03-03T18:04:32+08:00 ] 117.22.25.50 /cnconsum/App/MerchantType/record/getNewRecord
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000415s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\RecordController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/RecordController.class.php 第 146 行.
+SQL: SHOW COLUMNS FROM `cn_record_consum` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000589s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000650s ]
+
+[ 2017-03-03T18:04:33+08:00 ] 117.22.25.50 /cnconsum/App/MerchantType/record/getNewRecord
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000366s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\RecordController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/RecordController.class.php 第 146 行.
+SQL: SHOW COLUMNS FROM `cn_record_consum` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000579s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000624s ]
+
+[ 2017-03-03T18:04:34+08:00 ] 117.22.25.50 /cnconsum/App/MerchantType/record/getNewRecord
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000686s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\RecordController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/RecordController.class.php 第 146 行.
+SQL: SHOW COLUMNS FROM `cn_record_consum` [ RunTime:0.0026s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000445s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000489s ]
+
+[ 2017-03-03T18:04:35+08:00 ] 117.22.25.50 /cnconsum/App/MerchantType/record/getNewRecord
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000380s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\RecordController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/RecordController.class.php 第 146 行.
+SQL: SHOW COLUMNS FROM `cn_record_consum` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000393s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000434s ]
+
+[ 2017-03-03T18:04:36+08:00 ] 117.22.25.50 /cnconsum/App/MerchantType/record/getNewRecord
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000484s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\RecordController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/RecordController.class.php 第 146 行.
+SQL: SHOW COLUMNS FROM `cn_record_consum` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000359s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000405s ]
+
+[ 2017-03-03T18:04:37+08:00 ] 117.22.25.50 /cnconsum/App/MerchantType/record/getNewRecord
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000388s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\RecordController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/RecordController.class.php 第 146 行.
+SQL: SHOW COLUMNS FROM `cn_record_consum` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000528s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000584s ]
+
+[ 2017-03-03T18:04:38+08:00 ] 117.22.25.50 /cnconsum/App/MerchantType/record/getNewRecord
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000396s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\RecordController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/RecordController.class.php 第 146 行.
+SQL: SHOW COLUMNS FROM `cn_record_consum` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000430s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000473s ]
+
+[ 2017-03-03T18:04:40+08:00 ] 117.22.25.50 /cnconsum/App/MerchantType/record/getNewRecord
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000360s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\RecordController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/RecordController.class.php 第 146 行.
+SQL: SHOW COLUMNS FROM `cn_record_consum` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000450s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2017-03-03T18:04:42+08:00 ] 117.22.25.50 /cnconsum/App/MerchantType/record/getNewRecord
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\RecordController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/RecordController.class.php 第 146 行.
+SQL: SHOW COLUMNS FROM `cn_record_consum` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000479s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000552s ]
+
+[ 2017-03-03T18:04:42+08:00 ] 117.22.25.50 /cnconsum/App/MerchantType/record/getNewRecord
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000476s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\RecordController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/RecordController.class.php 第 146 行.
+SQL: SHOW COLUMNS FROM `cn_record_consum` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000379s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000429s ]
+
+[ 2017-03-03T18:04:42+08:00 ] 117.22.25.50 /cnconsum/App/MerchantType/record/getNewRecord
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000409s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\RecordController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/RecordController.class.php 第 146 行.
+SQL: SHOW COLUMNS FROM `cn_record_consum` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000509s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000574s ]
+
+[ 2017-03-03T18:04:50+08:00 ] 117.22.25.50 /cnconsum/App/MerchantType/record/getNewRecord
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000361s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\RecordController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/RecordController.class.php 第 146 行.
+SQL: SHOW COLUMNS FROM `cn_record_consum` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000391s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000435s ]
+
+[ 2017-03-03T18:04:50+08:00 ] 117.22.25.50 /cnconsum/App/MerchantType/record/getNewRecord
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000376s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\RecordController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/RecordController.class.php 第 146 行.
+SQL: SHOW COLUMNS FROM `cn_record_consum` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000702s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000773s ]
+
+[ 2017-03-03T18:04:51+08:00 ] 117.22.25.50 /cnconsum/App/MerchantType/record/getNewRecord
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000401s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\RecordController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/RecordController.class.php 第 146 行.
+SQL: SHOW COLUMNS FROM `cn_record_consum` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000657s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000725s ]
+
+[ 2017-03-03T18:04:52+08:00 ] 117.22.25.50 /cnconsum/App/MerchantType/record/getNewRecord
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000415s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\RecordController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/RecordController.class.php 第 146 行.
+SQL: SHOW COLUMNS FROM `cn_record_consum` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000695s ]
+
+[ 2017-03-03T18:04:53+08:00 ] 117.22.25.50 /cnconsum/App/MerchantType/record/getNewRecord
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000414s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\RecordController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/RecordController.class.php 第 146 行.
+SQL: SHOW COLUMNS FROM `cn_record_consum` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000432s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000487s ]
+
+[ 2017-03-03T18:04:54+08:00 ] 117.22.25.50 /cnconsum/App/MerchantType/record/getNewRecord
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000415s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\RecordController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/RecordController.class.php 第 146 行.
+SQL: SHOW COLUMNS FROM `cn_record_consum` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000373s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000423s ]
+
+[ 2017-03-03T18:04:56+08:00 ] 117.22.25.50 /cnconsum/App/MerchantType/record/getNewRecord
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000360s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\RecordController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/RecordController.class.php 第 146 行.
+SQL: SHOW COLUMNS FROM `cn_record_consum` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000456s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2017-03-03T18:04:56+08:00 ] 117.22.25.50 /cnconsum/App/MerchantType/record/getNewRecord
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000428s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\RecordController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/RecordController.class.php 第 146 行.
+SQL: SHOW COLUMNS FROM `cn_record_consum` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000469s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000525s ]
+
+[ 2017-03-03T18:04:57+08:00 ] 117.22.25.50 /cnconsum/App/MerchantType/record/getNewRecord
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000428s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\RecordController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/RecordController.class.php 第 146 行.
+SQL: SHOW COLUMNS FROM `cn_record_consum` [ RunTime:0.0023s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000425s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000467s ]
+
+[ 2017-03-03T18:04:58+08:00 ] 117.22.25.50 /cnconsum/App/MerchantType/record/getNewRecord
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000366s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\RecordController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/RecordController.class.php 第 146 行.
+SQL: SHOW COLUMNS FROM `cn_record_consum` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000432s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000483s ]
+
+[ 2017-03-03T18:04:58+08:00 ] 117.22.25.50 /cnconsum/App/MerchantType/record/getNewRecord
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000397s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\RecordController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/RecordController.class.php 第 146 行.
+SQL: SHOW COLUMNS FROM `cn_record_consum` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000344s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000382s ]
+
+[ 2017-03-03T18:04:58+08:00 ] 117.22.25.50 /cnconsum/App/MerchantType/record/getNewRecord
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000581s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\RecordController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/RecordController.class.php 第 146 行.
+SQL: SHOW COLUMNS FROM `cn_record_consum` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000502s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000577s ]
+
+[ 2017-03-03T18:04:59+08:00 ] 117.22.25.50 /cnconsum/App/MerchantType/record/getNewRecord
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000443s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\RecordController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/RecordController.class.php 第 146 行.
+SQL: SHOW COLUMNS FROM `cn_record_consum` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000402s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000441s ]
+
+[ 2017-03-03T18:04:59+08:00 ] 117.22.25.50 /cnconsum/App/MerchantType/record/getNewRecord
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000360s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\RecordController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/RecordController.class.php 第 146 行.
+SQL: SHOW COLUMNS FROM `cn_record_consum` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000434s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000474s ]
+
+[ 2017-03-03T18:04:59+08:00 ] 117.22.25.50 /cnconsum/App/MerchantType/record/getNewRecord
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000484s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\RecordController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/RecordController.class.php 第 146 行.
+SQL: SHOW COLUMNS FROM `cn_record_consum` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000432s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000508s ]
+
+[ 2017-03-03T18:05:00+08:00 ] 117.22.25.50 /cnconsum/App/MerchantType/record/getNewRecord
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000419s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\RecordController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/RecordController.class.php 第 146 行.
+SQL: SHOW COLUMNS FROM `cn_record_consum` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000603s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000659s ]
+
+[ 2017-03-03T18:05:00+08:00 ] 117.22.25.50 /cnconsum/App/MerchantType/record/getNewRecord
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000447s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\RecordController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/RecordController.class.php 第 146 行.
+SQL: SHOW COLUMNS FROM `cn_record_consum` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000488s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000548s ]
+
+[ 2017-03-03T18:05:01+08:00 ] 117.22.25.50 /cnconsum/App/MerchantType/record/getNewRecord
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000408s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\RecordController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/RecordController.class.php 第 146 行.
+SQL: SHOW COLUMNS FROM `cn_record_consum` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000704s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000773s ]
+
+[ 2017-03-03T18:05:01+08:00 ] 117.22.25.50 /cnconsum/App/MerchantType/record/getNewRecord
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000419s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\RecordController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/RecordController.class.php 第 146 行.
+SQL: SHOW COLUMNS FROM `cn_record_consum` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000513s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000565s ]
+
+[ 2017-03-03T18:05:02+08:00 ] 117.22.25.50 /cnconsum/App/MerchantType/record/getNewRecord
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000398s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\RecordController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/RecordController.class.php 第 146 行.
+SQL: SHOW COLUMNS FROM `cn_record_consum` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000458s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000508s ]
+
+[ 2017-03-03T18:05:03+08:00 ] 117.22.25.50 /cnconsum/App/MerchantType/record/getNewRecord
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000401s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\RecordController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/RecordController.class.php 第 146 行.
+SQL: SHOW COLUMNS FROM `cn_record_consum` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000661s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000726s ]
+
+[ 2017-03-03T18:05:04+08:00 ] 117.22.25.50 /cnconsum/App/MerchantType/record/getNewRecord
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000462s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\RecordController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/RecordController.class.php 第 146 行.
+SQL: SHOW COLUMNS FROM `cn_record_consum` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000572s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000620s ]
+
+[ 2017-03-03T18:05:05+08:00 ] 117.22.25.50 /cnconsum/App/MerchantType/record/getNewRecord
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000378s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\RecordController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/RecordController.class.php 第 146 行.
+SQL: SHOW COLUMNS FROM `cn_record_consum` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000423s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000474s ]
+
+[ 2017-03-03T18:05:06+08:00 ] 117.22.25.50 /cnconsum/App/MerchantType/record/getNewRecord
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000428s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\RecordController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/RecordController.class.php 第 146 行.
+SQL: SHOW COLUMNS FROM `cn_record_consum` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000452s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000504s ]
+
+[ 2017-03-03T18:05:07+08:00 ] 117.22.25.50 /cnconsum/App/MerchantType/record/getNewRecord
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000402s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\RecordController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/RecordController.class.php 第 146 行.
+SQL: SHOW COLUMNS FROM `cn_record_consum` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000502s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000556s ]
+
+[ 2017-03-03T18:05:08+08:00 ] 117.22.25.50 /cnconsum/App/MerchantType/record/getNewRecord
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000390s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\RecordController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/RecordController.class.php 第 146 行.
+SQL: SHOW COLUMNS FROM `cn_record_consum` [ RunTime:0.0026s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000414s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000456s ]
+
+[ 2017-03-03T18:05:09+08:00 ] 117.22.25.50 /cnconsum/App/MerchantType/record/getNewRecord
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000359s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\RecordController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/RecordController.class.php 第 146 行.
+SQL: SHOW COLUMNS FROM `cn_record_consum` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000613s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000663s ]
+
+[ 2017-03-03T18:05:10+08:00 ] 117.22.25.50 /cnconsum/App/MerchantType/record/getNewRecord
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000438s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\RecordController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/RecordController.class.php 第 146 行.
+SQL: SHOW COLUMNS FROM `cn_record_consum` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'null'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000712s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000788s ]
+
+[ 2017-03-03T19:25:02+08:00 ] 123.139.57.194 /cnconsum/App/Extra/share/share?phone=13309206465&from=singlemessage&isappinstalled=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000455s ]
+SQL: SHOW COLUMNS FROM `cn_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cn_user` WHERE `phone` = '13309206465'  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005198s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005248s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000123s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000490s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000543s ]
+
+[ 2017-03-03T19:25:39+08:00 ] 123.139.57.194 /cnconsum/App/Extra/share/registerView?referrer=13309206465
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000422s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007114s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007180s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000199s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000574s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000641s ]
+
+[ 2017-03-03T19:26:52+08:00 ] 123.139.57.194 /cnconsum/App/Extra/share/register?type=user&phone=15229239170&passwd=ls900917&referrer=13309206465
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000398s ]
+SQL: SHOW COLUMNS FROM `cn_user` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_user` WHERE `phone` = '15229239170' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_user` WHERE `phone` = '13309206465' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cn_user` WHERE `phone` = '13309206465'  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `cn_referrer` [ RunTime:0.0005s ]
+SQL: INSERT INTO `cn_referrer` (`referrer`,`recommend`,`type`,`sum`,`state`) VALUES ('u_uuid025','u_5a271b22a7','u','0','ONLINE') [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `cn_referrer` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_referrer` WHERE `referrer` = 'u_uuid025' AND `type` = 'u' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_referrer` WHERE `referrer` = 'u_uuid025' AND `type` = 'm' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `cn_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `cn_user` WHERE `uuid` = 'u_uuid025'  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cn_user` WHERE `uuid` = 'u_uuid025'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `cn_user_classify` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cn_user_classify` WHERE `date` <= '0000-00-00 00:00:00' AND `level` = 'VIP' ORDER BY date desc  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 0 /var/www/html/cnconsum/Project/App/Common/function.php 第 24 行.
+SQL: SELECT * FROM `cn_user_classify` WHERE `date` <= '0000-00-00 00:00:00' AND `level` = 'SVIP' ORDER BY date desc  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 0 /var/www/html/cnconsum/Project/App/Common/function.php 第 30 行.
+SQL: UPDATE `cn_user` SET `user_level`='SVIP' WHERE `uuid` = 'u_uuid025' [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `cn_reward_svip` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cn_reward_svip` WHERE `date` <= '0000-00-00 00:00:00' ORDER BY date desc  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 0 /var/www/html/cnconsum/Project/App/Common/function.php 第 11 行.
+SQL: SHOW COLUMNS FROM `cn_red_packet` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_red_packet` WHERE `user` = 'u_uuid025' LIMIT 1   [ RunTime:0.0002s ]
+ERR: 1048:Column 'sum' cannot be null
+ [ SQL语句 ] : INSERT INTO `cn_red_packet` (`user`,`sum`) VALUES ('u_uuid025',NULL)
+ERR: 1048:Column 'sum' cannot be null
+ [ SQL语句 ] : INSERT INTO `cn_red_packet` (`user`,`sum`) VALUES ('u_uuid025',NULL)
+
+[ 2017-03-03T19:27:05+08:00 ] 123.139.57.194 /cnconsum/App/Extra/share/registerView?referrer=13309206465
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000375s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004906s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004947s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000362s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000399s ]
+
+[ 2017-03-03T19:27:10+08:00 ] 123.139.57.194 /cnconsum/App/Extra/share/register?type=user&phone=15229239170&passwd=ls900917&referrer=13309206465
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000447s ]
+SQL: SHOW COLUMNS FROM `cn_user` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_user` WHERE `phone` = '15229239170' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_user` WHERE `phone` = '13309206465' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cn_user` WHERE `phone` = '13309206465'  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `cn_referrer` [ RunTime:0.0006s ]
+SQL: INSERT INTO `cn_referrer` (`referrer`,`recommend`,`type`,`sum`,`state`) VALUES ('u_uuid025','u_6374a354e4','u','0','ONLINE') [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `cn_referrer` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_referrer` WHERE `referrer` = 'u_uuid025' AND `type` = 'u' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_referrer` WHERE `referrer` = 'u_uuid025' AND `type` = 'm' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `cn_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `cn_user` WHERE `uuid` = 'u_uuid025'  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cn_user` WHERE `uuid` = 'u_uuid025'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `cn_user_classify` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cn_user_classify` WHERE `date` <= '0000-00-00 00:00:00' AND `level` = 'VIP' ORDER BY date desc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 0 /var/www/html/cnconsum/Project/App/Common/function.php 第 24 行.
+SQL: SELECT * FROM `cn_user_classify` WHERE `date` <= '0000-00-00 00:00:00' AND `level` = 'SVIP' ORDER BY date desc  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 0 /var/www/html/cnconsum/Project/App/Common/function.php 第 30 行.
+SQL: SHOW COLUMNS FROM `cn_reward_referrer` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cn_reward_referrer` WHERE `date` <= '17-03-03 19:27:10' ORDER BY date desc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `cn_red_packet` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_red_packet` WHERE `user` = 'u_uuid025' LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `cn_red_packet` (`user`,`sum`) VALUES ('u_uuid025','10') [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_referrer` WHERE `recommend` = 'u_uuid025' AND `type` = 'u' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cn_referrer` WHERE `recommend` = 'u_uuid025' AND `type` = 'u'  [ RunTime:0.0002s ]
+NOTIC: [2] Illegal offset type in isset or empty /var/www/html/cnconsum/ThinkPHP/Library/Think/Model.class.php 第 445 行.
+SQL: UPDATE `cn_referrer` SET `sum`='10' WHERE `recommend` = 'u_uuid025' AND `type` = 'u' [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `cn_record_income` [ RunTime:0.0005s ]
+SQL: INSERT INTO `cn_record_income` (`datetime`,`tip`,`sum`,`type`,`id`) VALUES ('17-03-03 19:27:10','推荐用户奖励','10','u','u_uuid025') [ RunTime:0.0012s ]
+SQL: INSERT INTO `cn_user` (`uuid`,`phone`,`nickname`,`passwd`,`referrer`,`datetime`,`user_level`) VALUES ('u_6374a354e4','15229239170','15229239170','ls900917','u_uuid025','17-03-03 19:27:10','ORD') [ RunTime:0.0011s ]
+NOTIC: [2] Missing argument 1 for Org\Im\ImConnect::__construct(), called in /var/www/html/cnconsum/Project/App/Controller/Extra/ShareController.class.php on line 230 and defined /var/www/html/cnconsum/ThinkPHP/Library/Org/IM/ImConnect.class.php 第 28 行.
+SQL: SELECT * FROM `cn_reward_referrer` WHERE `date` <= '17-03-03 19:27:10' ORDER BY date desc  [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_red_packet` WHERE `user` = 'u_6374a354e4' LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `cn_red_packet` (`user`,`sum`) VALUES ('u_6374a354e4','10') [ RunTime:0.0016s ]
+SQL: INSERT INTO `cn_record_income` (`datetime`,`tip`,`sum`,`type`,`id`) VALUES ('17-03-03 19:27:10','注册奖励','10','u','u_6374a354e4') [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005641s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005696s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000145s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000192s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000440s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000697s ]
+
+[ 2017-03-03T19:27:10+08:00 ] 61.151.218.119 /cnconsum/App/Extra/share/register?type=user&phone=15229239170&passwd=ls900917&referrer=13309206465
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000422s ]
+SQL: SHOW COLUMNS FROM `cn_user` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_user` WHERE `phone` = '15229239170' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000711s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000789s ]
+
+[ 2017-03-03T19:28:33+08:00 ] 123.139.57.194 /cnconsum/App/Extra/share/registerView?referrer=13309206465
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000438s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000210s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006527s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006573s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000156s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000190s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000358s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000394s ]
+
+[ 2017-03-03T19:28:47+08:00 ] 123.139.57.194 /cnconsum/App/Extra/share/register?type=user&phone=15229239170&passwd=ls900917&referrer=13309206465
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000398s ]
+SQL: SHOW COLUMNS FROM `cn_user` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_user` WHERE `phone` = '15229239170' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000466s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000535s ]
+
+[ 2017-03-03T19:28:49+08:00 ] 123.139.57.194 /cnconsum/App/Extra/share/registerView?referrer=13309206465
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000420s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004865s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004905s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000108s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000441s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000492s ]
+
+[ 2017-03-03T19:28:57+08:00 ] 123.139.57.194 /cnconsum/App/Extra/share/register?type=user&phone=15229239170&passwd=ls900917&referrer=13309206465
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000416s ]
+SQL: SHOW COLUMNS FROM `cn_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_user` WHERE `phone` = '15229239170' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000486s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000542s ]
+
+[ 2017-03-03T19:28:58+08:00 ] 123.139.57.194 /cnconsum/App/Extra/share/registerView?referrer=13309206465
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000383s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004975s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005026s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000120s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000163s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000386s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000433s ]
+
+[ 2017-03-03T19:29:01+08:00 ] 123.139.57.194 /cnconsum/App/Extra/share/share?phone=13309206465&from=singlemessage&isappinstalled=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000412s ]
+SQL: SHOW COLUMNS FROM `cn_user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `cn_user` WHERE `phone` = '13309206465'  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005594s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005672s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000166s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000494s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000554s ]
+
+[ 2017-03-03T22:53:23+08:00 ] 117.33.93.171 /cnconsum/App/Extra/source/version
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000329s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000369s ]
+
+[ 2017-03-03T22:53:23+08:00 ] 117.33.93.171 /cnconsum/App/Extra/Source/tradeIconGet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000392s ]
+SQL: SHOW COLUMNS FROM `cn_trade_icon` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cn_trade_icon`  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000510s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000555s ]
+
+[ 2017-03-03T22:53:23+08:00 ] 117.33.93.171 /cnconsum/App/MerchantType/advert/headlineGet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000415s ]
+SQL: SHOW COLUMNS FROM `cn_advert_headline` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cn_advert_headline` WHERE `area` = 'San Francisco' AND `state` = 'ONLINE' ORDER BY place asc  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000461s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000512s ]
+
+[ 2017-03-03T22:53:23+08:00 ] 117.33.93.171 /cnconsum/App/MerchantType/activity/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000391s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\ActivityController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/ActivityController.class.php 第 127 行.
+SQL: SHOW COLUMNS FROM `cn_activity` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cn_activity` WHERE `eare` = '西安市雁塔区' AND `state` = 'ONLINE'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000542s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000588s ]
+
+[ 2017-03-03T22:53:23+08:00 ] 117.33.93.171 /cnconsum/App/MerchantType/advert/insertGet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000391s ]
+SQL: SHOW COLUMNS FROM `cn_advert_insert` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `cn_advert_insert` WHERE `area` = 'San Francisco' AND `place` = 1 AND `state` = 'ONLINE' ORDER BY start_time asc  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000426s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000470s ]
+
+[ 2017-03-03T22:53:24+08:00 ] 117.33.93.171 /cnconsum/App/MerchantType/merchant/listGet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000409s ]
+SQL: SHOW COLUMNS FROM `cn_merchant` [ RunTime:0.0009s ]
+SQL: SELECT `muid`,`phone`,`store`,`image_url`,`longtitude`,`latitude` FROM `cn_merchant` WHERE `address` LIKE '%San Francisco%' LIMIT 0,5   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000479s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000537s ]
+
+[ 2017-03-03T23:51:34+08:00 ] 117.33.93.171 /cnconsum/App/MerchantType/merchant/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000419s ]
+SQL: SHOW COLUMNS FROM `cn_merchant` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `cn_merchant` WHERE `phone` = '111'  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant` WHERE `muid` = 'm_d7c116a9cc' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cn_merchant` WHERE `muid` = 'm_d7c116a9cc'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000511s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000560s ]
+
+[ 2017-03-03T23:51:34+08:00 ] 117.33.93.171 /cnconsum/App/MerchantType/advert/leadGet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000444s ]
+SQL: SHOW COLUMNS FROM `cn_advert_lead` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `cn_advert_lead` WHERE `area` = '西安市雁塔区' AND `state` = 'ONLINE' ORDER BY start_time asc  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000381s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000439s ]
+
+[ 2017-03-03T23:51:35+08:00 ] 117.33.93.171 /cnconsum/App/MerchantType/record/getNewRecord
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\RecordController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/RecordController.class.php 第 146 行.
+SQL: SHOW COLUMNS FROM `cn_record_consum` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'm_d7c116a9cc' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'm_d7c116a9cc'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000626s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000702s ]
+
+[ 2017-03-03T23:51:36+08:00 ] 117.33.93.171 /cnconsum/App/MerchantType/record/getNewRecord
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000535s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000632s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\RecordController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/RecordController.class.php 第 146 行.
+SQL: SHOW COLUMNS FROM `cn_record_consum` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'm_d7c116a9cc' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'm_d7c116a9cc'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000602s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000704s ]
+
+[ 2017-03-03T23:51:37+08:00 ] 117.33.93.171 /cnconsum/App/Extra/source/version
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000530s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000463s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000528s ]
+
+[ 2017-03-03T23:51:37+08:00 ] 117.33.93.171 /cnconsum/App/MerchantType/record/getNewRecord
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000680s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\RecordController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/RecordController.class.php 第 146 行.
+SQL: SHOW COLUMNS FROM `cn_record_consum` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'm_d7c116a9cc' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'm_d7c116a9cc'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000728s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000803s ]
+
+[ 2017-03-03T23:51:38+08:00 ] 117.33.93.171 /cnconsum/App/MerchantType/record/getNewRecord
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000368s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\RecordController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/RecordController.class.php 第 146 行.
+SQL: SHOW COLUMNS FROM `cn_record_consum` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'm_d7c116a9cc' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'm_d7c116a9cc'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000463s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000525s ]
+
+[ 2017-03-03T23:51:39+08:00 ] 117.33.93.171 /cnconsum/App/MerchantType/record/getNewRecord
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000416s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\RecordController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/RecordController.class.php 第 146 行.
+SQL: SHOW COLUMNS FROM `cn_record_consum` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'm_d7c116a9cc' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'm_d7c116a9cc'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000417s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000470s ]
+
+[ 2017-03-03T23:51:40+08:00 ] 117.33.93.171 /cnconsum/App/MerchantType/record/getNewRecord
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000399s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\RecordController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/RecordController.class.php 第 146 行.
+SQL: SHOW COLUMNS FROM `cn_record_consum` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'm_d7c116a9cc' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'm_d7c116a9cc'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000674s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000734s ]
+
+[ 2017-03-03T23:51:41+08:00 ] 117.33.93.171 /cnconsum/App/MerchantType/record/getNewRecord
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000425s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\RecordController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/RecordController.class.php 第 146 行.
+SQL: SHOW COLUMNS FROM `cn_record_consum` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'm_d7c116a9cc' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cn_record_consum` WHERE `state` = 'false' AND `merchant` = 'm_d7c116a9cc'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000420s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000473s ]
+

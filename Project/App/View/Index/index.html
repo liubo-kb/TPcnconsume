@@ -1,0 +1,60 @@
+<html>
+	<head>
+		<title>hello {$name}</title>
+	</head>
+
+	<body>
+		
+		<!--  循环输出 -->
+		<volist name='person' id='data' offset='0' length='4' empty='没有数据'>
+                        {$data['name']}------{$data['age']}<br/>
+                </volist>
+		<br/>
+
+
+		<!--<for start='1' end='10' comparison='elt' name='k'>
+			{$k}<br/>
+		</for>-->
+
+		<!--  条件语句 -->
+		<if condition='$num gt 10'> num 大于10
+		<elseif condition='$num lt 10'/> num 小于10
+		<else/> num 等于10
+		</if>		
+		<br/>
+	
+
+		<!--  switch语句 -->
+		<switch name='num'>
+			<case value='10'>数字10</case>
+			<case value='20'>数字20</case>
+			<case value='30'>数字30</case>
+			<default/>默认数字
+		</switch>	
+		<br/>
+
+		<!--  比较 -->
+		<eq name='num' value='10'>
+			num = 10
+			<else/> num = {$num}
+		</eq>
+
+		<br/>
+
+		<compare name='num' value='10' type='eq'>num eq 10
+		<else/>num eq {$num}
+		</compare>
+		</br>
+		
+		<!--  区间 -->
+		<in name='num' value='10,20,30'>在这个区间
+		<else/>不在这个区间
+		</in>
+		<br/>
+
+		<between name='num' value='10,30'>在10-30之间
+		<else/>不在10-30之间
+		</between>
+	
+	</body>
+</html> 

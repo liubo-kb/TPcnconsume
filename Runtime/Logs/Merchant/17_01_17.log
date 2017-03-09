@@ -1,0 +1,111 @@
+[ 2017-01-17T11:04:18+08:00 ] 117.22.24.108 /cnconsum/index.php/Merchant/Business/hyzgl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+
+[ 2017-01-17T11:04:23+08:00 ] 117.22.24.108 /cnconsum/index.php/Merchant/merchant/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+
+[ 2017-01-17T11:04:26+08:00 ] 117.22.24.108 /cnconsum/index.php/Merchant/merchant/loginView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+
+[ 2017-01-17T11:04:28+08:00 ] 117.22.24.108 /cnconsum/index.php/Merchant/merchant/registerView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+
+[ 2017-01-17T11:04:33+08:00 ] 117.22.24.108 /cnconsum/index.php/Merchant/merchant/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+
+[ 2017-01-17T11:04:33+08:00 ] 101.226.33.205 /cnconsum/index.php/merchant/business/hyzgl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+
+[ 2017-01-17T11:04:38+08:00 ] 101.226.33.240 /cnconsum/index.php/Merchant/merchant/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+
+[ 2017-01-17T11:04:38+08:00 ] 101.226.33.240 /cnconsum/index.php/merchant/merchant/loginview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+
+[ 2017-01-17T11:04:38+08:00 ] 180.153.212.13 /cnconsum/index.php/merchant/merchant/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+
+[ 2017-01-17T11:04:38+08:00 ] 101.226.33.240 /cnconsum/index.php/merchant/merchant/%20/cnconsum/Public/js/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+ERR: 非法操作: 
+
+[ 2017-01-17T11:04:38+08:00 ] 101.226.33.240 /cnconsum/index.php/merchant/merchant/%20/cnconsum/Public/js/login.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+ERR: 非法操作: 
+
+[ 2017-01-17T11:04:39+08:00 ] 101.226.33.240 /cnconsum/index.php/merchant/merchant/%20/cnconsum/Public/js/ajaxcheck.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+ERR: 非法操作: 
+
+[ 2017-01-17T11:04:39+08:00 ] 101.226.33.240 /cnconsum/index.php/merchant/merchant/%20/cnconsum/Public/js/jquery.luara.0.0.1.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+ERR: 非法操作: 
+
+[ 2017-01-17T11:04:41+08:00 ] 117.22.24.108 /cnconsum/index.php/Merchant/merchant/loginView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+
+[ 2017-01-17T11:04:45+08:00 ] 101.226.89.120 /cnconsum/index.php/merchant/merchant/registerview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+
+[ 2017-01-17T11:04:46+08:00 ] 101.226.89.120 /cnconsum/index.php/merchant/merchant/%20/cnconsum/Public/js/jquery-1.9.1.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+ERR: 非法操作: 
+
+[ 2017-01-17T11:04:46+08:00 ] 101.226.89.120 /cnconsum/index.php/merchant/merchant/%20/cnconsum/Public/js/script.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+ERR: 非法操作: 
+
+[ 2017-01-17T11:04:48+08:00 ] 117.22.24.108 /cnconsum/index.php/Merchant/merchant/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+
+[ 2017-01-17T11:04:51+08:00 ] 117.22.24.108 /cnconsum/index.php/Merchant/merchant/loginView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+
+[ 2017-01-17T11:04:53+08:00 ] 101.226.99.195 /cnconsum/index.php/merchant/merchant/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+
+[ 2017-01-17T11:11:26+08:00 ] 119.147.146.60 /cnconsum/index.php/merchant/merchant/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+

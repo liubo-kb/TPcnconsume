@@ -1,0 +1,74 @@
+﻿Home模块框架
+	1,Common 公共函数目录
+		1.1,function.php 公共函数
+	2,Conf 配置文件目录
+		2.1,config.php 模块配置
+		2.2,app_config.php app 资源配置
+		2.3,debug,php 调试配置
+	3,Controller 控制器目录
+		3.1,UserType 用户控制器
+			3.1.1,AppointController.class.php 预约处理
+			3.1.2,BankController.class.php 银行卡处理
+			3.1.3,CardController.class.php 会员卡业务
+			3.1.4,CollectController.class.php 店铺收藏
+			3.1.5,EvaluateController.class.php 评论处理
+			3.1.6,ReferrerController.class.php 推荐人处理
+			3.1.7,UserController.class.php 用户信息
+		3.2,MerchantType 商户控制器
+			3.2.1,AdminController.class.php 管理员设置
+			3.2.2,AdvertLay1Controller.class.php 一级广告处理
+			3.2.3,AdvertLay2Controller.class.php 二级广告处理
+			3.2.3,AdvertLay3Controller.class.php 三级广告处理
+			3.2.4,AdvertSboController.class.php 搜索广告处理
+			3.2.5,CardController.class.php 	会员卡处理
+			3.2.6,CommodityController.class.php 商品处理
+			3.2.7,ImgtxtController.class.php 图文详情处理
+			3.2.8,InfoController.class.php 	商户信息处理
+			3.2.9,MerchantController.class.php 商户信息
+			3.2.10,StoreController.class.php 店铺收藏处理
+		3.3,Extra 其它控制器
+			3.3.1,SourceController.class.php 资源展示
+			3.3.2,UploadController.class.php 文件上传处理
+	4,Model 模型目录（ 与控制器名称对应 ）
+		4.1,AdminModel.class.php 							
+		4.2,AdvertLay1Model.class.php	
+		4.3,AdvertLay2Model.class.php
+		4.4,AdvertLay3Model.class.php
+		4.5,AdvertSboModel.class.php
+		4.6,AppointModel.class.php
+		4.7,CommodityModel.class.php
+		4.8,CommonModel.class.php
+		4.9,EvaluateModel.class.php
+		4.10,MerchantCardModel.class.php
+		4.11,MerchantImgtxtModel.class.php
+		4.12,MerchantInfoModel.class.php
+		4.13,MerchantModel.class.php
+		4.14,ReferrerModel.class.php
+		4.15,StoreManageModel.class.php
+		4.16,UserBankModel.class.php
+		4.17,UserCardModel.class.php
+		4.18,UserCollectModel.class.php
+		4.19,UserModel.class.php
+	5,View 视图文件目录
+		5.1,Protocol 协议视图
+			5.1.1,merchant_protocol.html 商户协议视图
+			5.1.2,user_protocol.html 用户协议视图
+		5.2,Source 资源视图
+			5.2.1,integral.html 积分视图
+			5.2.2,risk_control.html 安全控制视图
+			5.2.3,voucher.html 代金券视图
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

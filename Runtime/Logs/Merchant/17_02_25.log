@@ -1,0 +1,80 @@
+[ 2017-02-25T11:03:03+08:00 ] 117.22.24.252 /cnconsum/Merchant/merchant/loginView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+
+[ 2017-02-25T11:03:09+08:00 ] 117.22.24.252 /cnconsum/Merchant/merchant/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000365s ]
+SQL: SHOW COLUMNS FROM `cn_merchant` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `cn_merchant` WHERE `phone` = '111'  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant` WHERE `muid` = 'm_d7c116a9cc' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cn_merchant` WHERE `muid` = 'm_d7c116a9cc'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000424s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000464s ]
+
+[ 2017-02-25T11:03:29+08:00 ] 117.22.24.252 /cnconsum/Merchant/merchant/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000472s ]
+SQL: SHOW COLUMNS FROM `cn_merchant` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `cn_merchant` WHERE `phone` = '111'  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant` WHERE `muid` = 'm_d7c116a9cc' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cn_merchant` WHERE `muid` = 'm_d7c116a9cc'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000397s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000461s ]
+
+[ 2017-02-25T11:03:31+08:00 ] 117.22.24.252 /cnconsum/Merchant/merchant/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000363s ]
+SQL: SHOW COLUMNS FROM `cn_merchant` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `cn_merchant` WHERE `phone` = '111'  [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant` WHERE `muid` = 'm_d7c116a9cc' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cn_merchant` WHERE `muid` = 'm_d7c116a9cc'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000472s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000520s ]
+
+[ 2017-02-25T11:03:37+08:00 ] 117.22.24.252 /cnconsum/Merchant/merchant/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000416s ]
+SQL: SHOW COLUMNS FROM `cn_merchant` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `cn_merchant` WHERE `phone` = '111'  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant` WHERE `muid` = 'm_d7c116a9cc' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cn_merchant` WHERE `muid` = 'm_d7c116a9cc'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000456s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000502s ]
+
+[ 2017-02-25T11:03:38+08:00 ] 117.22.24.252 /cnconsum/Merchant/merchant/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000406s ]
+SQL: SHOW COLUMNS FROM `cn_merchant` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `cn_merchant` WHERE `phone` = '111'  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant` WHERE `muid` = 'm_d7c116a9cc' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cn_merchant` WHERE `muid` = 'm_d7c116a9cc'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000430s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000471s ]
+

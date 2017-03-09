@@ -1,0 +1,236 @@
+<?php if (!defined('THINK_PATH')) exit();?><!--    页面头部        -->
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<title><?php echo ($header["title"]); ?></title>
+	<link rel="stylesheet" href="/cnconsum/Public/css/merchant/global.css">
+	<script src="/cnconsum/Public/js/merchant/jquery-1.9.1.min.js"></script>
+	<script src="/cnconsum/Public/js/zDrag.js" type="text/javascript"></script>
+	<script src="/cnconsum/Public/js/zDialog.js" type="text/javascript"></script>
+	<script src="/cnconsum/Public/js/merchant/script.js"></script>
+	<script src="/cnconsum/Public/js/ajaxcheck.js"></script>
+</head>
+
+<body>
+
+<div class="header-f" style="border: 0;">
+    <img src="/cnconsum/Public/image/merchant/logo.png" width="119" height="48" />
+    <span class="font22kai">商户中心</span>
+    <div class="accountbar">
+        <span class="uname">您好，<?php echo ($header["account"]); ?></span>
+        <a href="" class="maincolor" style="display:none">账户设置</a>&nbsp;&nbsp;
+        <a href="../merchant/logout" class="maincolor">退出</a>
+    </div>
+</div>
+
+
+<!--	资源文件	-->
+<link rel="stylesheet" href="/cnconsum/Public/css/merchant/global.css">
+<link rel="stylesheet" href="/cnconsum/Public/css/merchant/workcenter.css">
+<link rel="stylesheet" href="/cnconsum/Public/css/merchant/select2.min.css">
+<script src="/cnconsum/Public/js/merchant/jquery-1.9.1.min.js"></script>
+<script src="/cnconsum/Public/js/merchant/script.js"></script>
+<script src="/cnconsum/Public/js/merchant/select2.min.js"></script>
+<script>
+$(function(){
+	$(".radio").click(function(){
+		$('.radio span').attr('class','rbd');
+		$(this).children('span').attr('class','rbd-c');
+	});
+	
+	$('#submit').click(function(){
+		var account = $('#account').val();
+		var pwd = $('#password').val();
+		var contact = $('#contact').val();
+		var power = $('#position').val();
+		var sex = $('input[name="sex"]:checked').val();
+		
+		if(account.trim().length == 0){
+			$('.form-msg').html('请填写管理员账号！');
+			return false;
+		}
+		if(pwd.trim().length == 0){
+			$('.form-msg').html('请填写密码！');
+			return false;
+		}
+		if(contact.trim().length == 0){
+			$('.form-msg').html('请填写联系方式！');
+			return false;
+		}
+		if(sex == undefined){
+			$('.form-msg').html('请填写选择性别！');
+			return false;
+		}
+		$('.form-msg').html('');
+		var url = '../admin/add';
+		var subdata = {account:account,passwd:pwd,phone:contact,position:power,sex:sex};
+		formcheck(url, subdata, 'form-manager');		
+	});
+	$('select').select2({
+		width: '90px',
+		minimumResultsForSearch: -1
+	});
+});
+</script>
+
+<div class="container clearfix">
+	<!--        左侧菜单        -->
+    <div class="menu">
+        <h1 class="<?php echo ($press_vip?'msub':'no'); ?>">
+		<a href="<?php echo ($menu["vip_href"]); ?>">
+			<img src="/cnconsum/Public/image/merchant/huiyuan.png" class="icon-menu" />&nbsp;我的会员
+		</a>
+	</h1>
+
+        <h1 class="<?php echo ($press_commodity?'msub':'no'); ?>">
+		<a href="<?php echo ($menu["commodity_href"]); ?>">
+			<img src="/cnconsum/Public/image/merchant/shangpin.png" class="icon-menu" />&nbsp;我的商品
+		</a>
+	</h1>
+
+        <h1 onClick="showsubmenu(this)" class="<?php echo ($press_jszx?'msub':'no'); ?>">
+		<img src="/cnconsum/Public/image/merchant/jiesuan.png" class="icon-menu" />&nbsp;结算中心
+		<span class="ic-v">&gt;</span>
+	</h1>
+
+	<ul class="submenu" style="display:<?php echo ($fold_js?'block':'none'); ?>">
+            <li><a href="<?php echo ($menu["qrcode"]); ?>" class="<?php echo ($press_qrcode?'xz':'no'); ?>">收款码</a></li>
+            <li><a href="<?php echo ($menu["xjrz"]); ?>" class="<?php echo ($press_xjrz?'xz':'no'); ?>">现金入账</a></li>
+        </ul>
+
+        <h1 onClick="showsubmenu(this)" class="<?php echo ($press_ywzx?'msub':'no'); ?>">
+		<img src="/cnconsum/Public/image/merchant/yewu.png" class="icon-menu" />&nbsp;业务中心
+		<span class="ic-v">&gt;</span>
+	</h1>
+	
+	
+        <ul class="submenu" style="display: <?php echo ($fold_yw?'block':'none'); ?>">
+            <li style='display:none'><a href="<?php echo ($menu["hyyq_href"]); ?>">会员延期</a></li>
+            <li style='display:none'><a href="<?php echo ($menu["yycl_href"]); ?>">预约处理</a></li>
+            <li><a href="<?php echo ($menu["ggts_href"]); ?>">广告推送</a></li>
+            <li><a href="<?php echo ($menu["dpgl_href"]); ?>" class="<?php echo ($press_dpgl?'xz':'no'); ?>">店铺管理</a></li>
+            <li><a href="<?php echo ($menu["zjtx_href"]); ?>" class="<?php echo ($press_zjtx?'xz':'no'); ?>">资金提现</a></li>
+            <li><a href="<?php echo ($menu["glysz_href"]); ?>" class="<?php echo ($press_glysz?'xz':'no'); ?>">管理员设置</a></li>
+            <li><a href="<?php echo ($menu["sjjs_href"]); ?>" class="<?php echo ($press_sjjs?'xz':'no'); ?>">商家介绍</a></li>
+            <li><a href="<?php echo ($menu["hyzgl_href"]); ?>" class="<?php echo ($press_hyzgl?'xz':'no'); ?>">会员卡管理</a></li>
+            <li><a href="<?php echo ($menu["sxed_href"]); ?>" class="<?php echo ($press_sxed?'xz':'no'); ?>">授信额度</a></li>
+        </ul>
+
+        <h1 onClick="showsubmenu(this)" class="<?php echo ($press_sjbb?'msub':'no'); ?>">
+		<img src="/cnconsum/Public/image/merchant/idata.png" class="icon-menu" />&nbsp;数据报表
+		<span class="ic-v">∨</span>
+	</h1>
+
+        <ul class="submenu" style="display:<?php echo ($fold_sj?'block':'none'); ?>">
+            <li><a href="<?php echo ($menu["data_bk_href"]); ?>" class="<?php echo ($press_bk?'xz':'no'); ?>">办卡记录</a></li>
+            <li><a href="<?php echo ($menu["data_xk_href"]); ?>" class="<?php echo ($press_xk?'xz':'no'); ?>">续卡记录</a></li>
+	    <li><a href="<?php echo ($menu["data_sj_href"]); ?>" class="<?php echo ($press_xk?'xz':'no'); ?>">升级记录</a></li>
+            <li><a href="<?php echo ($menu["data_xf_href"]); ?>" class="<?php echo ($press_xf?'xz':'no'); ?>">消费记录</a></li>
+	    <li><a href="<?php echo ($menu["data_xj_href"]); ?>" class="<?php echo ($press_xj?'xz':'no'); ?>">现金记录</a></li>
+        </ul>
+
+        <h1 class="<?php echo ($press_account?'msub':'no'); ?>">
+		<a href="<?php echo ($menu["account_href"]); ?>">
+			<img src="/cnconsum/Public/image/merchant/zhanghu.png" class="icon-menu" />&nbsp;我的账户
+		</a>
+	</h1>
+</div>
+
+	
+    <div class="con">
+    	<p class="navinfo"><img src="/cnconsum/Public/image/merchant/glysz.png" />&nbsp;&nbsp;管理员设置</p>
+        <div class="cinfo">
+    		<form action="<?php echo ($action); ?>" method="post" id="form-manager">
+    		<div class="tbtit titpd1"><img src="/cnconsum/Public/image/merchant/add-lg.png" width="22" height="22" />&nbsp;<?php echo ($adminTip); ?></div>
+    		<div class="tr-add">
+		        <label>管理员账号：</label>
+		        <div>
+		            <input type="text" name="account" id="account" class="txtadd" style="width: 170px;" value="<?php echo ($info["account"]); ?>"/>
+			    <input type="text" name="account_old" value="<?php echo ($info["account"]); ?>" style="display:none"/>
+		        </div>
+		    </div>
+		    <div class="tr-add">
+		        <label>密码：</label>
+		        <div>
+		            <input type="text" name="passwd" id="password" class="txtadd" style="width: 170px;" value="<?php echo ($info["passwd"]); ?>"/>
+		        </div>
+		    </div>
+		    <div class="tr-add">
+		        <label>联系方式：</label>
+		        <div>
+		            <input type="text" name="phone" id="contact" class="txtadd" style="width: 170px;" value="<?php echo ($info["phone"]); ?>"/>
+		        </div>
+		    </div>
+		    <div class="tr-add">
+		        <label>权限：</label>
+		        <div>
+		            <select name="position" id="position">
+				<?php if(is_array($pri)): $i = 0; $__LIST__ = $pri;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$pri): $mod = ($i % 2 );++$i; if($info["position"] == $pri): ?><option selected="true"><?php echo ($pri); ?></option>
+					<?php else: ?>
+					<option><?php echo ($pri); ?></option><?php endif; endforeach; endif; else: echo "" ;endif; ?>
+		            </select>
+		        </div>
+		    </div>
+		    <div class="tr-add">
+		        <label>性别：</label>
+		        <div>
+		        	<label class="radio" for="sex1">
+					<?php if($info["sex"] == '男'): ?><span class="rbd-c"><input type="radio" name="sex" value="男" id="sex1" checked="checked" /></span>&nbsp;&nbsp;男
+					<?php else: ?>
+					<span class="rbd"><input type="radio" name="sex" value="男" id="sex1"/></span>&nbsp;&nbsp;男<?php endif; ?>
+				</label>
+				<label class="radio" for="sex2">
+					<?php if($info["sex"] == '女'): ?><span class="rbd-c"><input type="radio" name="sex" value="女" id="sex2" checked="checked"/></span>&nbsp;&nbsp;女
+					<?php else: ?>
+					<span class="rbd"><input type="radio" name="sex" value="女" id="sex2" /></span>&nbsp;&nbsp;女<?php endif; ?>
+				</label>
+		        </div>
+		    </div>
+		    <div class="tr-add fl">
+		        <label>&nbsp;</label>
+		        <div>
+		        	<p class="form-msg">&nbsp;</p>
+		        </div>
+		    </div>
+		    <div class="tr-add" style="margin-top: 40px;">
+		        <label>&nbsp;</label>
+		        <div>
+		        	<input type="button" id="submit" class="btn-fsub" value="确定" />&nbsp;&nbsp;&nbsp;&nbsp;
+    				<input type="button" class="btn-freset" value="取消" onclick="javascript:window.location='glysz.html'" />
+		        </div>
+		    </div>
+    		</form>
+        </div>
+    </div>
+</div>
+
+<!--    页面尾部        -->
+<div class="footmagt">
+</div>
+
+<div class="footer">
+        <ul class="footbar">
+                <li>咨询电话<br><span class="color53">400-876-5213</span></li>
+                <li>微博账号<br><span class="color53">ggxc@cnconsum.com</span></li>
+                <li>客服邮箱<br><span class="color53">kf@cnconsum.com</span></li>
+		<li style="width: 170px;">
+			公众号&nbsp;
+			<img src="/cnconsum/Public/image/merchant/rqcode.png" width="70" height="70" />
+		</li>
+		<li style="width: 170px;">
+			下载链接&nbsp;
+			<img src="/cnconsum/Public/image/merchant/download.jpg" width="70" height="70" />
+		</li>
+        </ul>
+        <p class="aboutbar">
+                <a href="">关于商消乐</a>|
+                <a href="">常见问题</a>|
+                <a href="">给商消乐提建议</a>
+        </p>
+        <p class="color38">©2016 cnconsun.com 京ICP备16045900号</p>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,18 @@
+[ 2016-10-11T10:39:36+08:00 ] 113.132.8.207 /cnconsum/Home/MerchantType/Protocol/protocolGet?store=&address=&phone=1234567
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000461s ]
+ERR: 无法加载控制器:MerchantType
+
+[ 2016-10-11T10:40:18+08:00 ] 113.132.8.207 /cnconsum/Home/MerchantType/Protocol/protocolGet?store=&address=&phone=1234567
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000447s ]
+ERR: 无法加载控制器:MerchantType
+

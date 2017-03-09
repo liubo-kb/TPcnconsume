@@ -1,0 +1,71 @@
+<!--	页面头部	-->
+<include file = "Public/header" />
+
+<!--	资源文件	-->
+<link rel="stylesheet" href="__PUBLIC__/css/merchant/myaccount.css">
+
+<div class="container clearfix">
+	<!--	左侧菜单	-->     	
+    <include file = "Public/menu" />	
+	
+    <!--        页面内容        -->     
+	
+    <div class="con">
+    	<div class="navinfo">&nbsp;&nbsp;我的账户</div>
+    		<div class="cmain">
+            	<div class="cinfo" id="content">
+	            	<div class="jbxx" style="display:none">
+	                	<span class="txt_info">基本信息&nbsp;:</span>
+	                </div>
+                
+	                <div class="cont_xx">
+		                <img class="image_lt" src="__PUBLIC__/image/merchant/ncheng.png">&nbsp;<span class="txt_size">昵称&nbsp;:</span>
+		                <span class="txt_size" style="margin-left:50px;">{$info.name}</span>
+	                </div>
+                
+	                <div class="cont_xx">
+		                <img class="image_lt" src="__PUBLIC__/image/merchant/dpm.png">&nbsp;<span  class="txt_size">店铺名&nbsp;:</span>
+		                <span class="txt_size" style="margin-left:36px;">{$info.store}</span>
+	                </div>
+                
+	                <div class="cont_xx" style="display:none">
+		                <img class="image_lt" src="__PUBLIC__/image/merchant/password.png">&nbsp;<span  class="txt_size">密码&nbsp;:</span>
+		                <span class="txt_size" style="margin-left:50px;">********</span>
+		                <a  style="margin-left:80px" href="#" class="abt">修改密码</a>
+	                </div>
+                
+	                <div class="cont_lxx" style="display:none">
+	                	<span class="txt_info">联系信息&nbsp;:</span>
+	                </div>
+	                
+	                <div class="cont_xx">
+		                <img class="image_lt" src="__PUBLIC__/image/merchant/phone.png">&nbsp;<span  class="txt_size">手机号&nbsp;:</span>
+		                <span  class="txt_size" style="margin-left:35px;">{$info.phone}</span>
+	                </div>
+                
+	                <div class="cont_xx">
+		                <img class="image_lt" src="__PUBLIC__/image/merchant/address.png">&nbsp;<span  class="txt_size">地址&nbsp;:</span>
+		                <span class="txt_size" style="margin-left:50px;">{$info.address}</span>
+	                </div>
+                
+	                <div class="cont_lxx" style="display:none">
+	                	<span class="txt_info">业务信息&nbsp;:</span>
+	                </div>
+                
+	                <div class="cont_xx">
+		                <img class="image_lt" src="__PUBLIC__/image/merchant/phone.png">&nbsp;<span  class="txt_size">保证金&nbsp;:</span>
+		                <span class="txt_size" style="margin-left:37px;">0.00元</span>
+	                </div>
+	                
+	                <div class="cont_xx">
+		                <img class="image_lt" src="__PUBLIC__/image/merchant/rzxy.png">&nbsp;<span  class="txt_size">入驻协议&nbsp;:</span>
+		                <a href="protocol" class="abt" style="margin-left:25px">协议详情</a>
+	                </div>
+            	</div>
+      	</div>
+    </div>
+</div>
+
+<!--	页面尾部	-->     
+<include file = "Public/footer" />
+

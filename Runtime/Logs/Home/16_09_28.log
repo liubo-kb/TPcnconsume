@@ -1,0 +1,35 @@
+[ 2016-09-28T13:59:05+08:00 ] 113.132.11.227 /cnconsum/Home/Extra/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000571s ]
+
+[ 2016-09-28T16:18:07+08:00 ] 113.132.11.227 /cnconsum/index.php/Home/MerchantType/Protocol/protocolGet?store=%E5%88%98%E5%88%98%E9%82%A3%E9%82%A3&address=%E9%99%95%E8%A5%BF%E7%9C%81%E8%A5%BF%E5%AE%89%E5%B8%82%E9%9B%81%E5%A1%94%E5%8C%BA%E7%A7%91%E6%8A%80%E4%BA%8C%E8%B7%AF66%E5%8F%B7&phone=111222333
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+
+[ 2016-09-28T16:18:49+08:00 ] 113.132.11.227 /cnconsum/index.php/Home/MerchantType/Protocol/protocolGet?store=%E5%88%98%E5%88%98%E9%82%A3%E9%82%A3&address=%E9%99%95%E8%A5%BF%E7%9C%81%E8%A5%BF%E5%AE%89%E5%B8%82%E9%9B%81%E5%A1%94%E5%8C%BA%E7%A7%91%E6%8A%80%E4%BA%8C%E8%B7%AF66%E5%8F%B7&phone=111222333
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+
+[ 2016-09-28T16:19:38+08:00 ] 113.132.11.227 /cnconsum/index.php/Home/MerchantType/Protocol/protocolGet?store=%E5%88%98%E5%88%98%E9%82%A3%E9%82%A3&address=%E9%99%95%E8%A5%BF%E7%9C%81%E8%A5%BF%E5%AE%89%E5%B8%82%E9%9B%81%E5%A1%94%E5%8C%BA%E7%A7%91%E6%8A%80%E4%BA%8C%E8%B7%AF66%E5%8F%B7&phone=111222333
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+
+[ 2016-09-28T16:20:34+08:00 ] 113.132.11.227 /cnconsum/index.php/Home/MerchantType/Protocol/protocolGet?store=%E5%B0%8F%E9%AA%86%E9%A9%BC&address=%E9%99%95%E8%A5%BF%E7%9C%81%E8%A5%BF%E5%AE%89%E5%B8%82%E9%9B%81%E5%A1%94%E5%8C%BA%E7%A7%91%E6%8A%80%E4%BA%8C%E8%B7%AF&phone=18710681974
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+
+[ 2016-09-28T16:20:47+08:00 ] 113.132.11.227 /cnconsum/index.php/Home/MerchantType/Protocol/protocolGet?store=%E5%B0%8F%E9%AA%86%E9%A9%BC&address=%E9%99%95%E8%A5%BF%E7%9C%81%E8%A5%BF%E5%AE%89%E5%B8%82%E9%9B%81%E5%A1%94%E5%8C%BA%E7%A7%91%E6%8A%80%E4%BA%8C%E8%B7%AF&phone=18710681974
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+
+[ 2016-09-28T16:49:38+08:00 ] 113.132.11.227 /cnconsum/Home/Extra/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+

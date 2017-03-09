@@ -1,0 +1,33 @@
+[ 2016-09-30T09:18:18+08:00 ] 101.226.33.206 /cnconsum/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+
+[ 2016-09-30T09:21:24+08:00 ] 101.226.89.116 /cnconsum/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000408s ]
+
+[ 2016-09-30T10:38:51+08:00 ] 113.132.8.164 /cnconsum/Admin/table
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+ERR: 无法加载控制器:Table
+
+[ 2016-09-30T10:41:44+08:00 ] 113.132.8.164 /cnconsum/Admin/table
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+ERR: 无法加载控制器:Table
+
+[ 2016-09-30T10:41:46+08:00 ] 113.132.8.164 /cnconsum/Admin/table
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+ERR: 无法加载控制器:Table
+
+[ 2016-09-30T10:44:25+08:00 ] 113.132.8.164 /cnconsum/Admin/table
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+

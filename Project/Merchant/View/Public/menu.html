@@ -1,0 +1,60 @@
+<div class="menu">
+        <h1 class="{$press_vip?'msub':'no'}">
+		<a href="{$menu.vip_href}">
+			<img src="__PUBLIC__/image/merchant/huiyuan.png" class="icon-menu" />&nbsp;我的会员
+		</a>
+	</h1>
+
+        <h1 class="{$press_commodity?'msub':'no'}">
+		<a href="{$menu.commodity_href}">
+			<img src="__PUBLIC__/image/merchant/shangpin.png" class="icon-menu" />&nbsp;我的商品
+		</a>
+	</h1>
+
+        <h1 onClick="showsubmenu(this)" class="{$press_jszx?'msub':'no'}">
+		<img src="__PUBLIC__/image/merchant/jiesuan.png" class="icon-menu" />&nbsp;结算中心
+		<span class="ic-v">&gt;</span>
+	</h1>
+
+	<ul class="submenu" style="display:{$fold_js?'block':'none'}">
+            <li><a href="{$menu.qrcode}" class="{$press_qrcode?'xz':'no'}">收款码</a></li>
+            <li><a href="{$menu.xjrz}" class="{$press_xjrz?'xz':'no'}">现金入账</a></li>
+        </ul>
+
+        <h1 onClick="showsubmenu(this)" class="{$press_ywzx?'msub':'no'}">
+		<img src="__PUBLIC__/image/merchant/yewu.png" class="icon-menu" />&nbsp;业务中心
+		<span class="ic-v">&gt;</span>
+	</h1>
+	
+	
+        <ul class="submenu" style="display: {$fold_yw?'block':'none'}">
+            <li style='display:none'><a href="{$menu.hyyq_href}">会员延期</a></li>
+            <li style='display:none'><a href="{$menu.yycl_href}">预约处理</a></li>
+            <li><a href="{$menu.ggts_href}">广告推送</a></li>
+            <li><a href="{$menu.dpgl_href}" class="{$press_dpgl?'xz':'no'}">店铺管理</a></li>
+            <li><a href="{$menu.zjtx_href}" class="{$press_zjtx?'xz':'no'}">资金提现</a></li>
+            <li><a href="{$menu.glysz_href}" class="{$press_glysz?'xz':'no'}">管理员设置</a></li>
+            <li><a href="{$menu.sjjs_href}" class="{$press_sjjs?'xz':'no'}">商家介绍</a></li>
+            <li><a href="{$menu.hyzgl_href}" class="{$press_hyzgl?'xz':'no'}">会员卡管理</a></li>
+            <li><a href="{$menu.sxed_href}" class="{$press_sxed?'xz':'no'}">授信额度</a></li>
+        </ul>
+
+        <h1 onClick="showsubmenu(this)" class="{$press_sjbb?'msub':'no'}">
+		<img src="__PUBLIC__/image/merchant/idata.png" class="icon-menu" />&nbsp;数据报表
+		<span class="ic-v">∨</span>
+	</h1>
+
+        <ul class="submenu" style="display:{$fold_sj?'block':'none'}">
+            <li><a href="{$menu.data_bk_href}" class="{$press_bk?'xz':'no'}">办卡记录</a></li>
+            <li><a href="{$menu.data_xk_href}" class="{$press_xk?'xz':'no'}">续卡记录</a></li>
+	    <li><a href="{$menu.data_sj_href}" class="{$press_xk?'xz':'no'}">升级记录</a></li>
+            <li><a href="{$menu.data_xf_href}" class="{$press_xf?'xz':'no'}">消费记录</a></li>
+	    <li><a href="{$menu.data_xj_href}" class="{$press_xj?'xz':'no'}">现金记录</a></li>
+        </ul>
+
+        <h1 class="{$press_account?'msub':'no'}">
+		<a href="{$menu.account_href}">
+			<img src="__PUBLIC__/image/merchant/zhanghu.png" class="icon-menu" />&nbsp;我的账户
+		</a>
+	</h1>
+</div>

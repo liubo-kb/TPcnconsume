@@ -1,0 +1,5 @@
+[ 2016-11-22T15:10:39+08:00 ] 112.90.82.196 /cnconsum/Merchant/merchant/loginView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+

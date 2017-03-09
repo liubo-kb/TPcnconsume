@@ -1,0 +1,83 @@
+<!--	页面头部	-->
+<include file = "Public/header" />
+
+<!--	资源文件	-->
+<link rel="stylesheet" href="__PUBLIC__/css/merchant/workcenter.css">
+<link rel="stylesheet" href="__PUBLIC__/css/merchant/select2.min.css">
+<script src="__PUBLIC__/js/merchant/pages.js" type="text/javascript"></script>
+<script src="__PUBLIC__/js/merchant/select.js" type="text/javascript"></script>
+<script src="__PUBLIC__/js/merchant/select2.min.js" type="text/javascript"></script>
+<script>
+$(function(){
+	$('select').select2({
+		width: '90px',
+		minimumResultsForSearch: -1
+	});
+})
+</script>
+
+<div class="container clearfix">
+	<!--	左侧菜单	-->     	
+    <include file = "Public/menu" />	
+	
+    <!--        页面内容        -->     
+    <div class="con">
+    	<p class="navinfo"><img src="__PUBLIC__/image/merchant/isjbb.png" />&nbsp;&nbsp;升级记录</p>
+        <div class="cmain">
+        	<div class="cinfo1">
+        		<p class="ftdt">
+		            <select name="time" id="date_select" onchange="dateChange('data_sj')">
+		            	<volist name='date_type_list' id='data'>
+						<if condition = "$data eq $date_type ">
+							 <option value="{$data}" selected="selected">{$text.$data}</option>
+						<else/>
+							 <option value="{$data}">{$text.$data}</option>
+						</if>
+					</volist>	
+		            </select>
+		            <label class="pdlr1">金额：<span class="fnum">{$sum}</span>元</label>
+		            <label>笔数：<span class="fnum">{$num}</span>笔</label>
+        		</p>
+        	</div>
+        	<hr class="hr-grey-mg" />
+            <div class="cinfo" id="content" style="margin-top: 20px;">
+				<table class ='ctable'>
+				
+					<tr>
+						<volist name='table_head' id='head'>
+							<th>{$head}</th>
+						</volist>
+					</tr>
+					
+					<volist name='table_data' id='data'>
+						<tr>
+							<volist name='data_index' id='index'>
+								<if condition="$index eq 'user'">
+								<elseif condition="$index eq 'merchant'"/>
+								<elseif condition="$index eq 'headimage'"/>
+									<td>
+										<img class="img-data" src='__PUBLIC__/Uploads/headImage/{$data.$index}'/>
+									</td>
+								<else/>
+									<td>
+										{$data.$index}
+									</td>
+								</if>
+							</volist>
+							<td><a class='abtn' href="data_detail?table=sj&user={$data.user}&merchant={$data.merchant}&datetime={$data.datetime}">详细信息</a></td>
+						</tr>
+					</volist>
+					
+				</table>
+		
+				<div class="page text-align-r margtop47">
+					{$page}
+				</div>
+				
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--	页面尾部	-->     
+<include file = "Public/footer" />

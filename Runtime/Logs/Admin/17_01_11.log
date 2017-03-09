@@ -1,0 +1,25 @@
+[ 2017-01-11T09:33:01+08:00 ] 117.22.25.155 /cnconsum/Admin/export/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+
+[ 2017-01-11T09:33:04+08:00 ] 117.22.25.155 /cnconsum/Admin/export/excel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+
+[ 2017-01-11T09:34:29+08:00 ] 117.22.25.155 /cnconsum/Admin/export/excel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+
+[ 2017-01-11T09:35:56+08:00 ] 117.22.25.155 /cnconsum/Admin/export/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+
+[ 2017-01-11T09:35:59+08:00 ] 117.22.25.155 /cnconsum/Admin/export/excel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+

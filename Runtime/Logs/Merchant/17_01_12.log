@@ -1,0 +1,2044 @@
+[ 2017-01-12T08:19:53+08:00 ] 42.156.251.185 /cnconsum/index.php/Merchant/merchant/loginView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+
+[ 2017-01-12T09:48:26+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/hyzgl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+
+[ 2017-01-12T09:48:29+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/merchant/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+
+[ 2017-01-12T09:48:32+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/merchant/loginView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+
+[ 2017-01-12T09:48:37+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/merchant/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000374s ]
+SQL: SHOW COLUMNS FROM `cn_merchant` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `cn_merchant` WHERE `phone` = '111'  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant` WHERE `muid` = 'm_d7c116a9cc' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cn_merchant` WHERE `muid` = 'm_d7c116a9cc'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000628s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000684s ]
+
+[ 2017-01-12T09:48:37+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/hyzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+
+[ 2017-01-12T09:48:40+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/glysz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+
+[ 2017-01-12T09:48:42+08:00 ] 101.226.33.239 /cnconsum/index.php/merchant/merchant/loginview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+
+[ 2017-01-12T09:48:42+08:00 ] 101.226.33.239 /cnconsum/index.php/merchant/merchant/%20/cnconsum/Public/js/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+ERR: 非法操作: 
+
+[ 2017-01-12T09:48:42+08:00 ] 101.226.33.239 /cnconsum/index.php/merchant/merchant/%20/cnconsum/Public/js/login.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+ERR: 非法操作: 
+
+[ 2017-01-12T09:48:42+08:00 ] 101.226.33.239 /cnconsum/index.php/merchant/merchant/%20/cnconsum/Public/js/ajaxcheck.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+ERR: 非法操作: 
+
+[ 2017-01-12T09:48:43+08:00 ] 101.226.33.239 /cnconsum/index.php/merchant/merchant/%20/cnconsum/Public/js/jquery.luara.0.0.1.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+ERR: 非法操作: 
+
+[ 2017-01-12T09:48:43+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/hyzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+
+[ 2017-01-12T09:52:25+08:00 ] 117.22.24.198 /cnconsum/Merchant/merchant/loginView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+
+[ 2017-01-12T09:54:38+08:00 ] 117.22.24.198 /cnconsum/Merchant/merchant/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000448s ]
+SQL: SHOW COLUMNS FROM `cn_merchant` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `cn_merchant` WHERE `phone` = '111'  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant` WHERE `muid` = 'm_d7c116a9cc' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cn_merchant` WHERE `muid` = 'm_d7c116a9cc'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000395s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000443s ]
+
+[ 2017-01-12T09:54:43+08:00 ] 117.22.24.198 /cnconsum/Merchant/merchant/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000363s ]
+SQL: SHOW COLUMNS FROM `cn_merchant` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `cn_merchant` WHERE `phone` = '11'  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 /var/www/html/cnconsum/Project/Merchant/Controller/MerchantController.class.php 第 154 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant` WHERE `muid` = null LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000410s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000460s ]
+
+[ 2017-01-12T09:54:51+08:00 ] 117.22.24.198 /cnconsum/Merchant/merchant/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000401s ]
+SQL: SHOW COLUMNS FROM `cn_merchant` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `cn_merchant` WHERE `phone` = '111'  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant` WHERE `muid` = 'm_d7c116a9cc' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cn_merchant` WHERE `muid` = 'm_d7c116a9cc'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000415s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000454s ]
+
+[ 2017-01-12T09:54:52+08:00 ] 117.22.24.198 /cnconsum/Merchant/Business/hyzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+
+[ 2017-01-12T09:54:53+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/dpgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+
+[ 2017-01-12T09:54:54+08:00 ] 117.22.24.198 /cnconsum/Merchant/Business/dpgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+
+[ 2017-01-12T09:54:54+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/shopAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+
+[ 2017-01-12T09:54:56+08:00 ] 117.22.24.198 /cnconsum/Merchant/Business/glysz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+
+[ 2017-01-12T09:54:58+08:00 ] 117.22.24.198 /cnconsum/Merchant/Business/glysz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+
+[ 2017-01-12T09:54:59+08:00 ] 117.22.24.198 /cnconsum/Merchant/Business/zjtx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+
+[ 2017-01-12T09:55:00+08:00 ] 117.22.24.198 /cnconsum/Merchant/Business/glysz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+
+[ 2017-01-12T09:55:02+08:00 ] 117.22.24.198 /cnconsum/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+
+[ 2017-01-12T09:55:02+08:00 ] 180.153.206.20 /cnconsum/Merchant/Business/hyzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+
+[ 2017-01-12T09:55:04+08:00 ] 101.226.33.227 /cnconsum/Merchant/Business/dpgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+
+[ 2017-01-12T09:55:09+08:00 ] 101.226.66.191 /cnconsum/Merchant/Business/zjtx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+
+[ 2017-01-12T09:55:12+08:00 ] 101.226.33.218 /cnconsum/Merchant/Business/glysz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+
+[ 2017-01-12T09:55:12+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/glysz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+
+[ 2017-01-12T09:55:13+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+
+[ 2017-01-12T09:57:05+08:00 ] 117.22.24.198 /cnconsum/Merchant/Business/glysz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+
+[ 2017-01-12T09:57:07+08:00 ] 117.22.24.198 /cnconsum/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+
+[ 2017-01-12T09:57:15+08:00 ] 117.22.24.198 /cnconsum/Merchant/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+
+[ 2017-01-12T09:57:18+08:00 ] 117.22.24.198 /cnconsum/Merchant/Business/glysz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+
+[ 2017-01-12T09:57:21+08:00 ] 117.22.24.198 /cnconsum/Merchant/Business/image/window.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+
+[ 2017-01-12T09:57:21+08:00 ] 117.22.24.198 /cnconsum/Merchant/Business/image/dialog_cb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+
+[ 2017-01-12T09:57:22+08:00 ] 117.22.24.198 /cnconsum/Merchant/admin/del?account=111
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+
+[ 2017-01-12T09:57:26+08:00 ] 117.22.24.198 /cnconsum/Merchant/Business/glysz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+
+[ 2017-01-12T09:57:27+08:00 ] 117.22.24.198 /cnconsum/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+
+[ 2017-01-12T09:57:32+08:00 ] 101.226.33.240 /cnconsum/Merchant/admin/del?account=111
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+
+[ 2017-01-12T09:57:40+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/merchant/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+
+[ 2017-01-12T09:57:43+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/merchant/loginView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+
+[ 2017-01-12T10:02:04+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/merchant/loginView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+
+[ 2017-01-12T10:02:13+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/merchant/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000435s ]
+SQL: SHOW COLUMNS FROM `cn_merchant` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `cn_merchant` WHERE `phone` = '111'  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant` WHERE `muid` = 'm_d7c116a9cc' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cn_merchant` WHERE `muid` = 'm_d7c116a9cc'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000354s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000394s ]
+
+[ 2017-01-12T10:02:13+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/hyzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+
+[ 2017-01-12T10:02:15+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Vip/vip
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+
+[ 2017-01-12T10:02:20+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Vip/vip
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+SQL: SHOW COLUMNS FROM `cn_user_card` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_user_card` INNER JOIN cn_user ON cn_user.uuid = cn_user_card.user  LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `nickname`,`sex`,`phone`,`card_code`,`card_level`,`card_remain`,`address`,`headImage` FROM `cn_user_card` INNER JOIN cn_user ON cn_user.uuid = cn_user_card.user  LIMIT 2,2   [ RunTime:0.0003s ]
+
+[ 2017-01-12T10:02:28+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Commodity/commodity
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+
+[ 2017-01-12T10:02:32+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Gather/qrcode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+
+[ 2017-01-12T10:02:34+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Gather/xjrz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+
+[ 2017-01-12T10:02:44+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/dpgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+
+[ 2017-01-12T10:02:45+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/shopAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+
+[ 2017-01-12T10:02:49+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Vip/vip
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+
+[ 2017-01-12T10:02:50+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Account/account
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+
+[ 2017-01-12T10:02:52+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Account/protocol
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+
+[ 2017-01-12T10:03:01+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Vip/vip
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+
+[ 2017-01-12T10:03:04+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/merchant/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+
+[ 2017-01-12T10:03:07+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/merchant/loginView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+
+[ 2017-01-12T10:03:13+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/merchant/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000376s ]
+SQL: SHOW COLUMNS FROM `cn_merchant` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `cn_merchant` WHERE `phone` = '111'  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant` WHERE `muid` = 'm_d7c116a9cc' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cn_merchant` WHERE `muid` = 'm_d7c116a9cc'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000374s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000415s ]
+
+[ 2017-01-12T10:03:13+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/hyzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+
+[ 2017-01-12T10:06:49+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/merchant/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000377s ]
+SQL: SHOW COLUMNS FROM `cn_merchant` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `cn_merchant` WHERE `phone` = '111'  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant` WHERE `muid` = 'm_d7c116a9cc' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cn_merchant` WHERE `muid` = 'm_d7c116a9cc'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000381s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000421s ]
+
+[ 2017-01-12T10:06:50+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/hyzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+
+[ 2017-01-12T10:06:54+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/glysz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+
+[ 2017-01-12T10:06:58+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+
+[ 2017-01-12T10:07:14+08:00 ] 101.226.99.197 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+
+[ 2017-01-12T10:08:16+08:00 ] 117.22.24.198 /cnconsum/Merchant/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+
+[ 2017-01-12T10:08:20+08:00 ] 117.22.24.198 /cnconsum/Merchant/Business/glysz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+
+[ 2017-01-12T10:08:29+08:00 ] 117.22.24.198 /cnconsum/Merchant/Business/image/dialog_cb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+
+[ 2017-01-12T10:08:29+08:00 ] 117.22.24.198 /cnconsum/Merchant/Business/image/window.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+
+[ 2017-01-12T10:08:31+08:00 ] 117.22.24.198 /cnconsum/Merchant/admin/del?account=111
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+
+[ 2017-01-12T10:08:34+08:00 ] 117.22.24.198 /cnconsum/Merchant/Business/glysz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+
+[ 2017-01-12T10:12:28+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+
+[ 2017-01-12T10:12:43+08:00 ] 101.226.33.237 /cnconsum/index.php/merchant/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+
+[ 2017-01-12T10:13:18+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+
+[ 2017-01-12T10:13:20+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+
+[ 2017-01-12T10:15:24+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+
+[ 2017-01-12T10:15:47+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+
+[ 2017-01-12T10:16:57+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+
+[ 2017-01-12T10:16:57+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+
+[ 2017-01-12T10:17:00+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+
+[ 2017-01-12T10:18:24+08:00 ] 117.22.24.198 /cnconsum/Merchant/Business/zjtx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+
+[ 2017-01-12T10:18:26+08:00 ] 117.22.24.198 /cnconsum/Merchant/Business/hyzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+
+[ 2017-01-12T10:18:27+08:00 ] 117.22.24.198 /cnconsum/Merchant/Business/sjjs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+
+[ 2017-01-12T10:18:30+08:00 ] 117.22.24.198 /cnconsum/Merchant/Business/hyzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+
+[ 2017-01-12T10:18:37+08:00 ] 101.226.33.217 /cnconsum/Merchant/Business/sjjs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+
+[ 2017-01-12T10:19:51+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+
+[ 2017-01-12T10:23:32+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+
+[ 2017-01-12T10:36:31+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+
+[ 2017-01-12T10:49:40+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+
+[ 2017-01-12T10:51:48+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+
+[ 2017-01-12T10:53:16+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000457s ]
+SQL: SHOW COLUMNS FROM `cn_admin` [ RunTime:0.0007s ]
+ERR: 1048:Column 'merchant' cannot be null
+ [ SQL语句 ] : INSERT INTO `cn_admin` (`merchant`,`account`,`privi`,`sex`,`phone`,`passwd`,`position`) VALUES (NULL,'zhangsan','shopAs','女','13311112222','111','店员')
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000550s ]
+
+[ 2017-01-12T10:53:49+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/hyzgl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+
+[ 2017-01-12T10:53:52+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/glysz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+
+[ 2017-01-12T10:53:53+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+
+[ 2017-01-12T10:58:14+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/image/dialog_cb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+
+[ 2017-01-12T10:58:14+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/image/window.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+
+[ 2017-01-12T10:58:29+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000360s ]
+SQL: SHOW COLUMNS FROM `cn_admin` [ RunTime:0.0008s ]
+ERR: 1048:Column 'merchant' cannot be null
+ [ SQL语句 ] : INSERT INTO `cn_admin` (`merchant`,`account`,`privi`,`sex`,`phone`,`passwd`,`position`) VALUES (NULL,'zhangsan','shopAs','女','13311112222','111','店员')
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000398s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000448s ]
+
+[ 2017-01-12T10:58:32+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/image/dialog_cb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+
+[ 2017-01-12T10:58:39+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/image/window.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+
+[ 2017-01-12T10:59:34+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000374s ]
+SQL: SHOW COLUMNS FROM `cn_admin` [ RunTime:0.0007s ]
+ERR: 1048:Column 'merchant' cannot be null
+ [ SQL语句 ] : INSERT INTO `cn_admin` (`merchant`,`account`,`privi`,`sex`,`phone`,`passwd`,`position`) VALUES (NULL,'zhangsan','shopAs','女','13311112222','111','店员')
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000349s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000393s ]
+
+[ 2017-01-12T10:59:59+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000428s ]
+SQL: SHOW COLUMNS FROM `cn_admin` [ RunTime:0.0009s ]
+ERR: 1048:Column 'merchant' cannot be null
+ [ SQL语句 ] : INSERT INTO `cn_admin` (`merchant`,`account`,`privi`,`sex`,`phone`,`passwd`,`position`) VALUES (NULL,'zhangsan','shopAs','女','13311112222','111','店员')
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000347s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000390s ]
+
+[ 2017-01-12T11:00:38+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000424s ]
+SQL: SHOW COLUMNS FROM `cn_admin` [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000388s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000435s ]
+
+[ 2017-01-12T11:00:56+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/image/dialog_cb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+
+[ 2017-01-12T11:00:56+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/image/window.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+
+[ 2017-01-12T11:01:02+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/merchant/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+
+[ 2017-01-12T11:01:05+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/merchant/loginView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+
+[ 2017-01-12T11:01:09+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/merchant/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000382s ]
+SQL: SHOW COLUMNS FROM `cn_merchant` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `cn_merchant` WHERE `phone` = '111'  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant` WHERE `muid` = 'm_d7c116a9cc' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cn_merchant` WHERE `muid` = 'm_d7c116a9cc'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000443s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000507s ]
+
+[ 2017-01-12T11:01:09+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/hyzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+
+[ 2017-01-12T11:01:13+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/glysz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+
+[ 2017-01-12T11:01:14+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+
+[ 2017-01-12T11:01:48+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000428s ]
+SQL: SHOW COLUMNS FROM `cn_admin` [ RunTime:0.0006s ]
+SQL: INSERT INTO `cn_admin` (`merchant`,`account`,`privi`,`sex`,`phone`,`passwd`,`position`) VALUES ('m_d7c116a9cc','zhangsan','shopAs','女','13311112222','111','店员') [ RunTime:0.0016s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000330s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000393s ]
+
+[ 2017-01-12T11:01:51+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/image/dialog_cb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+
+[ 2017-01-12T11:01:52+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/image/window.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000241s ]
+
+[ 2017-01-12T11:02:46+08:00 ] 117.22.24.198 /cnconsum/Merchant/Business/glysz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+
+[ 2017-01-12T11:03:05+08:00 ] 117.22.24.198 /cnconsum/Merchant/Business/glysz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+
+[ 2017-01-12T11:03:17+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+
+[ 2017-01-12T11:03:32+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000415s ]
+SQL: SHOW COLUMNS FROM `cn_admin` [ RunTime:0.0007s ]
+SQL: INSERT INTO `cn_admin` (`merchant`,`account`,`privi`,`sex`,`phone`,`passwd`,`position`) VALUES ('m_d7c116a9cc','lisi','shopAs','null','13311112222','111','店员') [ RunTime:0.0026s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000394s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000438s ]
+
+[ 2017-01-12T11:03:32+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/image/dialog_cb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+
+[ 2017-01-12T11:03:32+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/image/window.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+
+[ 2017-01-12T11:03:43+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/glysz.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+
+[ 2017-01-12T11:03:45+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+
+[ 2017-01-12T11:03:53+08:00 ] 101.226.99.195 /cnconsum/index.php/Merchant/Business/glysz.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+
+[ 2017-01-12T11:03:53+08:00 ] 101.226.89.119 /cnconsum/index.php/merchant/business/glysz.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+
+[ 2017-01-12T11:03:55+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/glysz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+
+[ 2017-01-12T11:03:59+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+
+[ 2017-01-12T11:05:15+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+
+[ 2017-01-12T11:07:31+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+
+[ 2017-01-12T11:09:08+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+
+[ 2017-01-12T11:09:37+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000421s ]
+SQL: SHOW COLUMNS FROM `cn_admin` [ RunTime:0.0007s ]
+SQL: INSERT INTO `cn_admin` (`merchant`,`account`,`privi`,`sex`,`phone`,`passwd`,`position`) VALUES ('m_d7c116a9cc','aaa','shopAs','女','13311112222','aaa','店员') [ RunTime:0.0015s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000400s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000449s ]
+
+[ 2017-01-12T11:09:37+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/image/dialog_cb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+
+[ 2017-01-12T11:09:37+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/image/window.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+
+[ 2017-01-12T11:10:31+08:00 ] 119.147.146.60 /cnconsum/index.php/Merchant/Business/glysz.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+
+[ 2017-01-12T11:12:36+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+
+[ 2017-01-12T11:12:46+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000357s ]
+SQL: SHOW COLUMNS FROM `cn_admin` [ RunTime:0.0008s ]
+SQL: INSERT INTO `cn_admin` (`merchant`,`account`,`privi`,`sex`,`phone`,`passwd`,`position`) VALUES ('m_d7c116a9cc','bbb','shopAs','男','13311112222','bbb','店员') [ RunTime:0.0019s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000414s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000456s ]
+
+[ 2017-01-12T11:12:46+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/image/dialog_cb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000240s ]
+
+[ 2017-01-12T11:12:46+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/image/window.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+
+[ 2017-01-12T11:14:30+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+
+[ 2017-01-12T11:15:52+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/glysz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+
+[ 2017-01-12T11:16:04+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/glysz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+
+[ 2017-01-12T11:16:18+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/glysz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000456s ]
+SQL: SHOW COLUMNS FROM `cn_admin` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_admin` WHERE `merchant` = 'm_d7c116a9cc' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cn_admin` WHERE `merchant` = 'm_d7c116a9cc' LIMIT 3,3   [ RunTime:0.0002s ]
+
+[ 2017-01-12T11:16:23+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/glysz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000393s ]
+SQL: SHOW COLUMNS FROM `cn_admin` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_admin` WHERE `merchant` = 'm_d7c116a9cc' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cn_admin` WHERE `merchant` = 'm_d7c116a9cc' LIMIT 0,3   [ RunTime:0.0002s ]
+
+[ 2017-01-12T11:16:26+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/adminMod?account=aaa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+
+[ 2017-01-12T11:16:29+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/glysz.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+
+[ 2017-01-12T11:16:40+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+
+[ 2017-01-12T11:16:53+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/glysz.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+
+[ 2017-01-12T11:17:14+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/glysz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+
+[ 2017-01-12T11:17:20+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/dpgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+
+[ 2017-01-12T11:17:26+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/shopAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+
+[ 2017-01-12T11:17:43+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/hyzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+
+[ 2017-01-12T11:17:43+08:00 ] 117.22.24.198 /cnconsum/Merchant/Business/hyzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+
+[ 2017-01-12T11:17:45+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/turnURL?url=../card/addView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+
+[ 2017-01-12T11:17:45+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/card/addView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+
+[ 2017-01-12T11:17:46+08:00 ] 117.22.24.198 /cnconsum/Merchant/Business/hyzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+
+[ 2017-01-12T11:17:46+08:00 ] 117.22.24.198 /cnconsum/Merchant/Business/hyzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+
+[ 2017-01-12T11:17:47+08:00 ] 117.22.24.198 /cnconsum/Merchant/Business/hyzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+
+[ 2017-01-12T11:17:48+08:00 ] 117.22.24.198 /cnconsum/Merchant/Business/hyzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+
+[ 2017-01-12T11:17:50+08:00 ] 117.22.24.198 /cnconsum/Merchant/Business/turnURL?url=../card/addView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+
+[ 2017-01-12T11:17:50+08:00 ] 117.22.24.198 /cnconsum/Merchant/card/addView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+
+[ 2017-01-12T11:17:53+08:00 ] 101.226.33.218 /cnconsum/Merchant/Business/hyzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+
+[ 2017-01-12T11:17:53+08:00 ] 101.226.51.229 /cnconsum/Merchant/Business/hyzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+
+[ 2017-01-12T11:17:53+08:00 ] 101.226.66.192 /cnconsum/Merchant/Business/hyzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+
+[ 2017-01-12T11:17:55+08:00 ] 180.153.214.180 /cnconsum/index.php/Merchant/card/addView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+
+[ 2017-01-12T11:18:00+08:00 ] 101.226.125.100 /cnconsum/Merchant/card/addView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+
+[ 2017-01-12T11:18:07+08:00 ] 117.22.24.198 /cnconsum/Merchant/Business/glysz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+
+[ 2017-01-12T11:18:09+08:00 ] 101.226.33.240 /cnconsum/Merchant/Business/turnURL?url=../card/addView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+
+[ 2017-01-12T11:18:09+08:00 ] 101.226.33.240 /cnconsum/Merchant/card/addView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000232s ]
+
+[ 2017-01-12T11:18:16+08:00 ] 117.22.24.198 /cnconsum/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+
+[ 2017-01-12T11:18:17+08:00 ] 140.207.185.107 /cnconsum/Merchant/Business/glysz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+
+[ 2017-01-12T11:18:22+08:00 ] 117.22.24.198 /cnconsum/Merchant/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000416s ]
+SQL: SHOW COLUMNS FROM `cn_admin` [ RunTime:0.0007s ]
+SQL: INSERT INTO `cn_admin` (`merchant`,`account`,`privi`,`sex`,`phone`,`passwd`,`position`) VALUES ('m_d7c116a9cc','222','shopMg','男','222','333','店长') [ RunTime:0.0014s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000492s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000550s ]
+
+[ 2017-01-12T11:18:22+08:00 ] 117.22.24.198 /cnconsum/Merchant/Business/image/dialog_cb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+
+[ 2017-01-12T11:18:22+08:00 ] 117.22.24.198 /cnconsum/Merchant/Business/image/window.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000235s ]
+
+[ 2017-01-12T11:18:29+08:00 ] 117.22.24.198 /cnconsum/Merchant/Business/glysz.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+
+[ 2017-01-12T11:18:31+08:00 ] 117.22.24.198 /cnconsum/Merchant/Business/glysz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000462s ]
+SQL: SHOW COLUMNS FROM `cn_admin` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_admin` WHERE `merchant` = 'm_d7c116a9cc' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cn_admin` WHERE `merchant` = 'm_d7c116a9cc' LIMIT 3,3   [ RunTime:0.0003s ]
+
+[ 2017-01-12T11:18:34+08:00 ] 117.22.24.198 /cnconsum/Merchant/Business/adminMod?account=lisi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+
+[ 2017-01-12T11:18:36+08:00 ] 117.22.24.198 /cnconsum/Merchant/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000394s ]
+SQL: SHOW COLUMNS FROM `cn_admin` [ RunTime:0.0009s ]
+ERR: 1062:Duplicate entry 'm_d7c116a9cc-lisi' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `cn_admin` (`merchant`,`account`,`privi`,`sex`,`phone`,`passwd`,`position`) VALUES ('m_d7c116a9cc','lisi','shopAs','男','13311112222','111','店员')
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000560s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000628s ]
+
+[ 2017-01-12T11:18:36+08:00 ] 117.22.24.198 /cnconsum/Merchant/Business/image/dialog_cb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+
+[ 2017-01-12T11:18:36+08:00 ] 117.22.24.198 /cnconsum/Merchant/Business/image/window.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+
+[ 2017-01-12T11:18:39+08:00 ] 140.207.185.107 /cnconsum/Merchant/Business/glysz.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+
+[ 2017-01-12T11:18:44+08:00 ] 117.22.24.198 /cnconsum/Merchant/Business/adminMod?account=222
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+
+[ 2017-01-12T11:18:49+08:00 ] 117.22.24.198 /cnconsum/Merchant/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000458s ]
+SQL: SHOW COLUMNS FROM `cn_admin` [ RunTime:0.0008s ]
+ERR: 1062:Duplicate entry 'm_d7c116a9cc-222' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `cn_admin` (`merchant`,`account`,`privi`,`sex`,`phone`,`passwd`,`position`) VALUES ('m_d7c116a9cc','222','shopMg','女','222','333','店长')
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000468s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000512s ]
+
+[ 2017-01-12T11:18:49+08:00 ] 117.22.24.198 /cnconsum/Merchant/Business/image/dialog_cb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+
+[ 2017-01-12T11:18:49+08:00 ] 117.22.24.198 /cnconsum/Merchant/Business/image/window.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+
+[ 2017-01-12T11:18:54+08:00 ] 101.226.69.246 /cnconsum/Merchant/Business/adminMod?account=222
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+
+[ 2017-01-12T11:19:38+08:00 ] 117.22.24.198 /cnconsum/Merchant/Business/glysz.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+
+[ 2017-01-12T11:19:40+08:00 ] 117.22.24.198 /cnconsum/Merchant/Business/image/dialog_cb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+
+[ 2017-01-12T11:19:40+08:00 ] 117.22.24.198 /cnconsum/Merchant/Business/image/window.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+
+[ 2017-01-12T11:19:42+08:00 ] 117.22.24.198 /cnconsum/Merchant/admin/del?account=222
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+
+[ 2017-01-12T11:19:50+08:00 ] 117.22.24.198 /cnconsum/Merchant/admin/del?account=222
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+
+[ 2017-01-12T11:19:52+08:00 ] 180.153.214.189 /cnconsum/Merchant/admin/del?account=222
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+
+[ 2017-01-12T11:19:54+08:00 ] 117.22.24.198 /cnconsum/Merchant/Business/glysz.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+
+[ 2017-01-12T11:19:56+08:00 ] 117.22.24.198 /cnconsum/Merchant/Business/glysz.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+
+[ 2017-01-12T11:20:05+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/card/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+
+[ 2017-01-12T11:20:06+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/card/addView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+
+[ 2017-01-12T11:21:00+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/hyzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+
+[ 2017-01-12T11:21:01+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/turnURL?url=../card/addView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+
+[ 2017-01-12T11:21:01+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/card/addView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+
+[ 2017-01-12T11:21:11+08:00 ] 140.207.185.107 /cnconsum/index.php/merchant/business/turnurl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+
+[ 2017-01-12T11:21:11+08:00 ] 140.207.185.107 /cnconsum/index.php/merchant/business/null
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+ERR: 非法操作:null
+
+[ 2017-01-12T11:22:52+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/glysz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+
+[ 2017-01-12T11:22:54+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+
+[ 2017-01-12T11:23:15+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/hyzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+
+[ 2017-01-12T11:23:16+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/turnURL?url=../card/addView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+
+[ 2017-01-12T11:23:16+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/card/addView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+
+[ 2017-01-12T11:33:20+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/card/addView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+
+[ 2017-01-12T11:38:04+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/card/addView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+
+[ 2017-01-12T11:47:51+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/card/addView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+
+[ 2017-01-12T13:40:56+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/glysz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+
+[ 2017-01-12T13:40:57+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+
+[ 2017-01-12T13:41:43+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+SQL: SHOW COLUMNS FROM `cn_admin` [ RunTime:0.0007s ]
+ERR: 1062:Duplicate entry 'm_d7c116a9cc-aaa' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `cn_admin` (`merchant`,`account`,`privi`,`sex`,`phone`,`passwd`,`position`) VALUES ('m_d7c116a9cc','aaa','shopAs','男','13311112222','bbb','店员')
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000347s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000389s ]
+
+[ 2017-01-12T13:41:57+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/image/dialog_cb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+
+[ 2017-01-12T13:41:57+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/image/window.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000248s ]
+
+[ 2017-01-12T13:46:24+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+
+[ 2017-01-12T13:46:25+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+
+[ 2017-01-12T13:46:31+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+
+[ 2017-01-12T13:48:13+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+
+[ 2017-01-12T13:48:32+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000446s ]
+SQL: SHOW COLUMNS FROM `cn_admin` [ RunTime:0.0007s ]
+ERR: 1062:Duplicate entry 'm_d7c116a9cc-aaa' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `cn_admin` (`merchant`,`account`,`privi`,`sex`,`phone`,`passwd`,`position`) VALUES ('m_d7c116a9cc','aaa','shopAs','男','13311112222','aaa','店员')
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000417s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000467s ]
+
+[ 2017-01-12T13:48:32+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/image/dialog_cb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+
+[ 2017-01-12T13:48:34+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/image/window.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+
+[ 2017-01-12T13:49:00+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000466s ]
+SQL: SHOW COLUMNS FROM `cn_admin` [ RunTime:0.0008s ]
+SQL: INSERT INTO `cn_admin` (`merchant`,`account`,`privi`,`sex`,`phone`,`passwd`,`position`) VALUES ('m_d7c116a9cc','ccc','shopAs','男','13311112222','ccc','店员') [ RunTime:0.0016s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000385s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000427s ]
+
+[ 2017-01-12T13:49:01+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/image/dialog_cb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+
+[ 2017-01-12T13:49:01+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/image/window.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+
+[ 2017-01-12T13:49:06+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/glysz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+
+[ 2017-01-12T13:49:25+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/glysz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+
+[ 2017-01-12T14:04:09+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/card/addView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+
+[ 2017-01-12T14:05:34+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/hyzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+
+[ 2017-01-12T14:05:35+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/turnURL?url=../card/addView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+
+[ 2017-01-12T14:05:35+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/card/addView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+
+[ 2017-01-12T14:06:02+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/glysz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+
+[ 2017-01-12T14:06:16+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/hyzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+
+[ 2017-01-12T14:06:17+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/turnURL?url=../card/addView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+
+[ 2017-01-12T14:06:17+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/card/addView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+
+[ 2017-01-12T14:07:20+08:00 ] 117.22.24.198 /cnconsum/Merchant/merchant/loginView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+
+[ 2017-01-12T14:07:29+08:00 ] 117.22.24.198 /cnconsum/Merchant/merchant/loginView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+
+[ 2017-01-12T14:07:30+08:00 ] 117.22.24.198 /cnconsum/Merchant/merchant/loginView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+
+[ 2017-01-12T14:07:31+08:00 ] 117.22.24.198 /cnconsum/Merchant/merchant/loginView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+
+[ 2017-01-12T14:08:04+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/card/addView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+
+[ 2017-01-12T14:08:24+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/card/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000376s ]
+SQL: SHOW COLUMNS FROM `cn_merchant_card` [ RunTime:0.0007s ]
+SQL: INSERT INTO `cn_merchant_card` (`merchant`,`code`,`level`,`type`,`content`,`price`,`indate`,`rule`,`state`,`addition_sum`,`card_temp_color`) VALUES ('m_d7c116a9cc','1','普卡','储值卡','1','1','0.5','1','true','1','0') [ RunTime:0.0014s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000449s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000491s ]
+
+[ 2017-01-12T14:08:24+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/card/image/dialog_cb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+
+[ 2017-01-12T14:08:24+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/card/image/window.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+
+[ 2017-01-12T14:08:31+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/hyzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+
+[ 2017-01-12T14:08:57+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/turnURL?url=../card/showView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+
+[ 2017-01-12T14:08:57+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/card/showView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+
+[ 2017-01-12T14:09:04+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/hyzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+
+[ 2017-01-12T14:09:07+08:00 ] 180.153.211.190 /cnconsum/index.php/Merchant/Business/turnURL?url=../card/showView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+
+[ 2017-01-12T14:09:07+08:00 ] 180.153.211.190 /cnconsum/index.php/Merchant/card/showView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+
+[ 2017-01-12T14:09:07+08:00 ] 180.153.211.172 /cnconsum/index.php/Merchant/card/showView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+
+[ 2017-01-12T14:09:32+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/turnURL?url=../card/addView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+
+[ 2017-01-12T14:09:32+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/card/addView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+
+[ 2017-01-12T14:09:35+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/hyzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+
+[ 2017-01-12T14:09:37+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/turnURL?url=../card/showView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+
+[ 2017-01-12T14:09:37+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/card/showView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+
+[ 2017-01-12T14:09:41+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/hyzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+
+[ 2017-01-12T14:09:43+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/turnURL?url=../card/addView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+
+[ 2017-01-12T14:09:44+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/card/addView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+
+[ 2017-01-12T14:09:52+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/card/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000353s ]
+SQL: SHOW COLUMNS FROM `cn_merchant_card` [ RunTime:0.0007s ]
+SQL: INSERT INTO `cn_merchant_card` (`merchant`,`code`,`level`,`type`,`content`,`price`,`indate`,`rule`,`state`,`addition_sum`,`card_temp_color`) VALUES ('m_d7c116a9cc','111','普卡','储值卡','1','1','0.5','1','true','1','0') [ RunTime:0.0024s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000524s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000573s ]
+
+[ 2017-01-12T14:09:52+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/card/image/dialog_cb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+
+[ 2017-01-12T14:09:52+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/card/image/window.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+
+[ 2017-01-12T14:09:57+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/hyzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+
+[ 2017-01-12T14:09:59+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/turnURL?url=../card/addView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+
+[ 2017-01-12T14:09:59+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/card/addView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+
+[ 2017-01-12T14:10:20+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/card/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000416s ]
+SQL: SHOW COLUMNS FROM `cn_merchant_card` [ RunTime:0.0008s ]
+ERR: 1062:Duplicate entry 'm_d7c116a9cc-1-普卡' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `cn_merchant_card` (`merchant`,`code`,`level`,`type`,`content`,`price`,`indate`,`rule`,`state`,`addition_sum`,`card_temp_color`) VALUES ('m_d7c116a9cc','1','普卡','储值卡','1','1','0.5','1','true','1','0')
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000414s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000461s ]
+
+[ 2017-01-12T14:10:21+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/card/image/dialog_cb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+
+[ 2017-01-12T14:10:21+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/card/image/window.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+
+[ 2017-01-12T14:10:37+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/card/hyzgl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+ERR: 非法操作:hyzgl
+
+[ 2017-01-12T14:10:39+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/card/addView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+
+[ 2017-01-12T14:10:44+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/hyzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+
+[ 2017-01-12T14:10:47+08:00 ] 140.207.124.105 /cnconsum/index.php/Merchant/card/hyzgl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+ERR: 非法操作:hyzgl
+
+[ 2017-01-12T14:10:51+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/turnURL?url=../card/addView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000408s ]
+
+[ 2017-01-12T14:10:51+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/card/addView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000248s ]
+
+[ 2017-01-12T14:10:59+08:00 ] 42.227.125.175 /cnconsum/index.php/Merchant/card/hyzgl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+ERR: 非法操作:hyzgl
+
+[ 2017-01-12T14:11:04+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/card/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+SQL: SHOW COLUMNS FROM `cn_merchant_card` [ RunTime:0.0007s ]
+SQL: INSERT INTO `cn_merchant_card` (`merchant`,`code`,`level`,`type`,`content`,`price`,`indate`,`rule`,`state`,`addition_sum`,`card_temp_color`) VALUES ('m_d7c116a9cc','2','普卡','储值卡','2','2','0.5','2','true','2','0') [ RunTime:0.0015s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000386s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000428s ]
+
+[ 2017-01-12T14:11:04+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/card/image/dialog_cb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+
+[ 2017-01-12T14:11:04+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/card/image/window.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+
+[ 2017-01-12T14:15:47+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/hyzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+
+[ 2017-01-12T14:16:33+08:00 ] 117.22.24.198 /cnconsum/Merchant/merchant/loginView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+
+[ 2017-01-12T14:16:33+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/merchant/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+
+[ 2017-01-12T14:16:36+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/merchant/loginView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+
+[ 2017-01-12T14:16:38+08:00 ] 117.22.24.198 /cnconsum/Merchant/merchant/loginView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+
+[ 2017-01-12T14:16:40+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/merchant/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+SQL: SHOW COLUMNS FROM `cn_merchant` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `cn_merchant` WHERE `phone` = '111'  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant` WHERE `muid` = 'm_d7c116a9cc' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cn_merchant` WHERE `muid` = 'm_d7c116a9cc'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000551s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000611s ]
+
+[ 2017-01-12T14:16:40+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/hyzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+
+[ 2017-01-12T14:17:12+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/merchant/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+
+[ 2017-01-12T14:17:15+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/merchant/loginView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+
+[ 2017-01-12T14:17:21+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/merchant/loginView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+
+[ 2017-01-12T14:17:26+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/merchant/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000396s ]
+SQL: SHOW COLUMNS FROM `cn_merchant` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `cn_merchant` WHERE `phone` = '111'  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant` WHERE `muid` = 'm_d7c116a9cc' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cn_merchant` WHERE `muid` = 'm_d7c116a9cc'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000434s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000478s ]
+
+[ 2017-01-12T14:17:26+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/hyzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+
+[ 2017-01-12T14:17:41+08:00 ] 117.22.24.198 /cnconsum/Merchant/merchant/loginView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+
+[ 2017-01-12T14:17:47+08:00 ] 117.22.24.198 /cnconsum/Merchant/merchant/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000414s ]
+SQL: SHOW COLUMNS FROM `cn_merchant` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `cn_merchant` WHERE `phone` = '111'  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant` WHERE `muid` = 'm_d7c116a9cc' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cn_merchant` WHERE `muid` = 'm_d7c116a9cc'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000418s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000469s ]
+
+[ 2017-01-12T14:17:47+08:00 ] 117.22.24.198 /cnconsum/Merchant/Business/hyzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+
+[ 2017-01-12T14:17:52+08:00 ] 117.22.24.198 /cnconsum/Merchant/Commodity/commodity
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+
+[ 2017-01-12T14:17:56+08:00 ] 117.22.24.198 /cnconsum/Merchant/Commodity/addView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+
+[ 2017-01-12T14:17:56+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/hyzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+
+[ 2017-01-12T14:18:02+08:00 ] 101.226.66.193 /cnconsum/Merchant/Commodity/commodity
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+
+[ 2017-01-12T14:18:02+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Commodity/commodity
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+
+[ 2017-01-12T14:18:04+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Commodity/addView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+
+[ 2017-01-12T14:18:08+08:00 ] 117.22.24.198 /cnconsum/Merchant/Business/sjjs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+
+[ 2017-01-12T14:18:14+08:00 ] 180.153.206.17 /cnconsum/Merchant/Commodity/addView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+
+[ 2017-01-12T16:05:00+08:00 ] 117.22.24.198 /cnconsum/Merchant/Commodity/commodity
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+
+[ 2017-01-12T16:05:02+08:00 ] 117.22.24.198 /cnconsum/Merchant/Commodity/addView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+
+[ 2017-01-12T16:05:08+08:00 ] 117.22.24.198 /cnconsum/Merchant/Commodity/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+
+[ 2017-01-12T16:05:18+08:00 ] 117.22.24.198 /cnconsum/Merchant/Commodity/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+
+[ 2017-01-12T16:20:46+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Commodity/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+
+[ 2017-01-12T16:20:57+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Commodity/addView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+
+[ 2017-01-12T16:23:04+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Commodity/addView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+
+[ 2017-01-12T16:27:19+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Commodity/addView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000457s ]
+
+[ 2017-01-12T16:28:53+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Commodity/addView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+
+[ 2017-01-12T16:43:46+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Commodity/addView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+
+[ 2017-01-12T16:45:55+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Commodity/addView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+
+[ 2017-01-12T16:46:40+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Commodity/addView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+
+[ 2017-01-12T16:48:25+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/hyzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+
+[ 2017-01-12T16:48:26+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Business/turnURL?url=../card/addView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+
+[ 2017-01-12T16:48:26+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/card/addView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+
+[ 2017-01-12T16:48:55+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Commodity/commodity
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+
+[ 2017-01-12T16:50:09+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Commodity/addView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+
+[ 2017-01-12T16:50:47+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Commodity/commodity
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+
+[ 2017-01-12T16:50:50+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Commodity/addView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+
+[ 2017-01-12T16:53:24+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Commodity/addView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+
+[ 2017-01-12T16:55:39+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Commodity/addView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+
+[ 2017-01-12T16:56:01+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Commodity/addView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+
+[ 2017-01-12T16:56:01+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Commodity/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000587s ]
+SQL: SHOW COLUMNS FROM `cn_commodity` [ RunTime:0.0006s ]
+ERR: 1062:Duplicate entry 'm_d7c116a9cc' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `cn_commodity` (`merchant`,`name`,`number`,`price`,`remain`) VALUES ('m_d7c116a9cc','','','','')
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000387s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000430s ]
+
+[ 2017-01-12T16:56:02+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Commodity/image/window.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+
+[ 2017-01-12T16:56:02+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Commodity/image/dialog_cb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+
+[ 2017-01-12T16:56:14+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Commodity/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000392s ]
+SQL: SHOW COLUMNS FROM `cn_commodity` [ RunTime:0.0007s ]
+SQL: INSERT INTO `cn_commodity` (`merchant`,`name`,`number`,`price`,`remain`) VALUES ('m_d7c116a9cc','222','222','222','222') [ RunTime:0.0014s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000425s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000469s ]
+
+[ 2017-01-12T16:56:14+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Commodity/image/dialog_cb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+
+[ 2017-01-12T16:56:14+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Commodity/image/window.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+
+[ 2017-01-12T16:56:23+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Commodity/commodity
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+
+[ 2017-01-12T16:56:27+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Commodity/addView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+
+[ 2017-01-12T16:56:39+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Commodity/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000549s ]
+SQL: SHOW COLUMNS FROM `cn_commodity` [ RunTime:0.0007s ]
+ERR: 1062:Duplicate entry '222-m_d7c116a9cc' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `cn_commodity` (`merchant`,`name`,`number`,`price`,`remain`) VALUES ('m_d7c116a9cc','222','222','222','222')
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000424s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000475s ]
+
+[ 2017-01-12T16:56:39+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Commodity/image/window.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+
+[ 2017-01-12T16:56:39+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Commodity/image/dialog_cb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+
+[ 2017-01-12T16:58:26+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Commodity/addView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+
+[ 2017-01-12T16:58:35+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Commodity/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000667s ]
+SQL: SHOW COLUMNS FROM `cn_commodity` [ RunTime:0.0007s ]
+SQL: INSERT INTO `cn_commodity` (`merchant`,`name`,`number`,`price`,`remain`) VALUES ('m_d7c116a9cc','aaa','aaa','1','1') [ RunTime:0.0013s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000462s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000526s ]
+
+[ 2017-01-12T16:58:35+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Commodity/image/dialog_cb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+
+[ 2017-01-12T16:58:35+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Commodity/image/window.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+
+[ 2017-01-12T16:59:30+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Commodity/commodity
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+
+[ 2017-01-12T16:59:34+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Commodity/addView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+
+[ 2017-01-12T16:59:42+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Commodity/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000434s ]
+SQL: SHOW COLUMNS FROM `cn_commodity` [ RunTime:0.0007s ]
+SQL: INSERT INTO `cn_commodity` (`merchant`,`name`,`number`,`price`,`remain`) VALUES ('m_d7c116a9cc','bbb','bbb','1','1') [ RunTime:0.0016s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000383s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000437s ]
+
+[ 2017-01-12T16:59:42+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Commodity/image/dialog_cb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+
+[ 2017-01-12T16:59:42+08:00 ] 117.22.24.198 /cnconsum/index.php/Merchant/Commodity/image/window.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+

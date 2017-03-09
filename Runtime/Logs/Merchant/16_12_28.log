@@ -1,0 +1,10 @@
+[ 2016-12-28T06:55:47+08:00 ] 183.136.203.37 /cnconsum/index.php/Merchant/Imgtxt/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+
+[ 2016-12-28T08:23:33+08:00 ] 42.156.251.185 /cnconsum/Merchant/merchant/loginView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+

@@ -1,0 +1,2874 @@
+[ 2017-01-19T09:20:31+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+
+[ 2017-01-19T09:20:41+08:00 ] 117.22.27.162 /cnconsum/Admin/main/auditing
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+
+[ 2017-01-19T09:21:50+08:00 ] 117.22.27.162 /cnconsum/Admin/main/settle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+
+[ 2017-01-19T09:21:52+08:00 ] 117.22.27.162 /cnconsum/Admin/main/settle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000375s ]
+SQL: SHOW COLUMNS FROM `cn_merchant` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cn_merchant` LIMIT 6,6   [ RunTime:0.0003s ]
+
+[ 2017-01-19T09:21:53+08:00 ] 117.22.27.162 /cnconsum/Admin/main/settle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000494s ]
+SQL: SHOW COLUMNS FROM `cn_merchant` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cn_merchant` LIMIT 12,6   [ RunTime:0.0003s ]
+
+[ 2017-01-19T09:21:54+08:00 ] 117.22.27.162 /cnconsum/Admin/main/settle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000363s ]
+SQL: SHOW COLUMNS FROM `cn_merchant` [ RunTime:0.0034s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cn_merchant` LIMIT 18,6   [ RunTime:0.0004s ]
+
+[ 2017-01-19T09:21:54+08:00 ] 117.22.27.162 /cnconsum/Admin/main/settle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000395s ]
+SQL: SHOW COLUMNS FROM `cn_merchant` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cn_merchant` LIMIT 24,6   [ RunTime:0.0003s ]
+
+[ 2017-01-19T09:21:55+08:00 ] 117.22.27.162 /cnconsum/Admin/main/settle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000438s ]
+SQL: SHOW COLUMNS FROM `cn_merchant` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cn_merchant` LIMIT 30,6   [ RunTime:0.0005s ]
+
+[ 2017-01-19T09:21:55+08:00 ] 117.22.27.162 /cnconsum/Admin/main/settle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000438s ]
+SQL: SHOW COLUMNS FROM `cn_merchant` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cn_merchant` LIMIT 36,6   [ RunTime:0.0003s ]
+
+[ 2017-01-19T09:21:56+08:00 ] 117.22.27.162 /cnconsum/Admin/main/settle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000401s ]
+SQL: SHOW COLUMNS FROM `cn_merchant` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cn_merchant` LIMIT 42,6   [ RunTime:0.0005s ]
+
+[ 2017-01-19T09:21:58+08:00 ] 117.22.27.162 /cnconsum/Admin/main/auditing
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+
+[ 2017-01-19T09:22:02+08:00 ] 117.22.27.162 /cnconsum/Admin/main/settle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+
+[ 2017-01-19T09:22:03+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000418s ]
+
+[ 2017-01-19T09:37:13+08:00 ] 117.22.27.162 /cnconsum/Admin/main/settle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+
+[ 2017-01-19T09:37:33+08:00 ] 117.22.27.162 /cnconsum/Admin/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+
+[ 2017-01-19T09:37:51+08:00 ] 101.226.99.195 /cnconsum/Admin/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+
+[ 2017-01-19T09:37:59+08:00 ] 117.22.27.162 /cnconsum/Admin/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+
+[ 2017-01-19T09:38:07+08:00 ] 117.22.27.162 /cnconsum/Admin/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+
+[ 2017-01-19T09:38:11+08:00 ] 117.22.27.162 /cnconsum/Admin/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+
+[ 2017-01-19T10:21:06+08:00 ] 117.22.27.162 /cnconsum/Admin/index/settle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+ERR: 非法操作:settle
+
+[ 2017-01-19T10:21:15+08:00 ] 117.22.27.162 /cnconsum/Admin/main/settle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+
+[ 2017-01-19T10:21:16+08:00 ] 117.185.27.115 /cnconsum/Admin/index/settle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+ERR: 非法操作:settle
+
+[ 2017-01-19T10:32:15+08:00 ] 117.22.27.162 /cnconsum/Admin/main/settle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+
+[ 2017-01-19T10:32:18+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+
+[ 2017-01-19T10:32:23+08:00 ] 117.22.27.162 /cnconsum/Admin/main/settle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+
+[ 2017-01-19T10:32:25+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_online01
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+
+[ 2017-01-19T10:32:27+08:00 ] 117.22.27.162 /cnconsum/Admin/main/settle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+
+[ 2017-01-19T10:32:28+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_online02
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+
+[ 2017-01-19T10:32:30+08:00 ] 117.22.27.162 /cnconsum/Admin/main/settle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+
+[ 2017-01-19T10:32:34+08:00 ] 101.226.33.237 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+
+[ 2017-01-19T10:32:38+08:00 ] 180.163.2.116 /cnconsum/Admin/main/handleAudit?muid=m_online02
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+
+[ 2017-01-19T10:32:44+08:00 ] 101.226.89.116 /cnconsum/Admin/main/handleAudit?muid=m_online01
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+
+[ 2017-01-19T10:39:12+08:00 ] 117.22.27.162 /cnconsum/Admin/main/settle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+
+[ 2017-01-19T10:39:13+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+
+[ 2017-01-19T10:39:21+08:00 ] 117.22.27.162 /cnconsum/Admin/main/settle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+
+[ 2017-01-19T10:39:28+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_online01
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+
+[ 2017-01-19T10:39:36+08:00 ] 117.22.27.162 /cnconsum/Admin/main/settle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+
+[ 2017-01-19T10:39:38+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_online02
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+
+[ 2017-01-19T10:39:43+08:00 ] 117.22.27.162 /cnconsum/Admin/main/settle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+
+[ 2017-01-19T10:39:54+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_test00
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+
+[ 2017-01-19T10:39:56+08:00 ] 117.22.27.162 /cnconsum/Admin/main/settle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+
+[ 2017-01-19T10:40:08+08:00 ] 117.22.27.162 /cnconsum/Admin/main/settle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+
+[ 2017-01-19T10:40:09+08:00 ] 117.22.27.162 /cnconsum/Admin/main/settle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000364s ]
+SQL: SHOW COLUMNS FROM `cn_merchant` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cn_merchant` LIMIT 6,6   [ RunTime:0.0003s ]
+
+[ 2017-01-19T10:40:12+08:00 ] 101.226.33.228 /cnconsum/Admin/main/handleAudit?muid=m_test00
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+
+[ 2017-01-19T10:40:14+08:00 ] 117.22.27.162 /cnconsum/Admin/main/settle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000402s ]
+SQL: SHOW COLUMNS FROM `cn_merchant` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cn_merchant` LIMIT 0,6   [ RunTime:0.0003s ]
+
+[ 2017-01-19T10:42:59+08:00 ] 117.22.27.162 /cnconsum/Admin/main/settle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+
+[ 2017-01-19T10:43:01+08:00 ] 117.22.27.162 /cnconsum/Admin/main/settle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000387s ]
+SQL: SHOW COLUMNS FROM `cn_merchant` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cn_merchant` LIMIT 6,6   [ RunTime:0.0003s ]
+
+[ 2017-01-19T10:43:04+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=muid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+
+[ 2017-01-19T10:43:08+08:00 ] 117.22.27.162 /cnconsum/Admin/main/settle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+
+[ 2017-01-19T10:43:14+08:00 ] 101.226.66.193 /cnconsum/Admin/main/handleAudit?muid=muid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+
+[ 2017-01-19T10:43:46+08:00 ] 117.22.27.162 /cnconsum/Admin/main/settle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+
+[ 2017-01-19T10:43:48+08:00 ] 117.22.27.162 /cnconsum/Admin/main/settle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000386s ]
+SQL: SHOW COLUMNS FROM `cn_merchant` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cn_merchant` LIMIT 6,6   [ RunTime:0.0003s ]
+
+[ 2017-01-19T10:43:50+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_test01
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+
+[ 2017-01-19T10:43:56+08:00 ] 117.22.27.162 /cnconsum/Admin/main/settle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+
+[ 2017-01-19T10:44:00+08:00 ] 61.151.218.118 /cnconsum/Admin/main/handleAudit?muid=m_test01
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+
+[ 2017-01-19T10:49:21+08:00 ] 117.22.27.162 /cnconsum/Admin/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+
+[ 2017-01-19T10:49:24+08:00 ] 117.22.27.162 /cnconsum/Admin/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+
+[ 2017-01-19T10:49:29+08:00 ] 117.22.27.162 /cnconsum/Admin/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+
+[ 2017-01-19T10:53:25+08:00 ] 117.22.27.162 /cnconsum/Admin/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+
+[ 2017-01-19T10:53:30+08:00 ] 117.22.27.162 /cnconsum/Admin/index/enter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000425s ]
+ERR: 模板不存在:./Project/Admin/View/Index/enter.html
+
+[ 2017-01-19T10:53:30+08:00 ] 117.22.27.162 /cnconsum/Admin/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+
+[ 2017-01-19T10:53:32+08:00 ] 117.22.27.162 /cnconsum/Admin/index/enter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000620s ]
+ERR: 模板不存在:./Project/Admin/View/Index/enter.html
+
+[ 2017-01-19T10:53:32+08:00 ] 117.22.27.162 /cnconsum/Admin/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+
+[ 2017-01-19T10:54:06+08:00 ] 117.22.27.162 /cnconsum/Admin/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+
+[ 2017-01-19T10:54:10+08:00 ] 117.22.27.162 /cnconsum/Admin/index/enter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000397s ]
+ERR: 模板不存在:./Project/Admin/View/Index/enter.html
+
+[ 2017-01-19T10:54:10+08:00 ] 117.22.27.162 /cnconsum/Admin/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+
+[ 2017-01-19T10:54:11+08:00 ] 117.22.27.162 /cnconsum/Admin/index/enter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000573s ]
+ERR: 模板不存在:./Project/Admin/View/Index/enter.html
+
+[ 2017-01-19T10:54:11+08:00 ] 117.22.27.162 /cnconsum/Admin/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+
+[ 2017-01-19T10:55:52+08:00 ] 117.22.27.162 /cnconsum/Admin/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+
+[ 2017-01-19T10:55:56+08:00 ] 117.22.27.162 /cnconsum/Admin/index/enter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000545s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000602s ]
+
+[ 2017-01-19T10:55:56+08:00 ] 117.22.27.162 /cnconsum/Admin/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+
+[ 2017-01-19T10:55:57+08:00 ] 117.22.27.162 /cnconsum/Admin/index/enter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000360s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000408s ]
+
+[ 2017-01-19T10:55:57+08:00 ] 117.22.27.162 /cnconsum/Admin/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+
+[ 2017-01-19T10:56:02+08:00 ] 117.22.27.162 /cnconsum/Admin/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+
+[ 2017-01-19T10:56:05+08:00 ] 117.22.27.162 /cnconsum/Admin/index/enter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000409s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000481s ]
+
+[ 2017-01-19T10:56:05+08:00 ] 117.22.27.162 /cnconsum/Admin/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+
+[ 2017-01-19T10:56:58+08:00 ] 117.22.27.162 /cnconsum/Admin/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+
+[ 2017-01-19T10:57:01+08:00 ] 117.22.27.162 /cnconsum/Admin/index/enter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000334s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000380s ]
+
+[ 2017-01-19T10:57:01+08:00 ] 117.22.27.162 /cnconsum/Admin/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000248s ]
+
+[ 2017-01-19T10:57:59+08:00 ] 117.22.27.162 /cnconsum/Admin/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+
+[ 2017-01-19T10:58:03+08:00 ] 117.22.27.162 /cnconsum/Admin/index/enter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000397s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000436s ]
+
+[ 2017-01-19T10:58:03+08:00 ] 117.22.27.162 /cnconsum/Admin/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+
+[ 2017-01-19T10:58:41+08:00 ] 117.22.27.162 /cnconsum/Admin/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+
+[ 2017-01-19T10:58:46+08:00 ] 117.22.27.162 /cnconsum/Admin/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000382s ]
+
+[ 2017-01-19T10:58:46+08:00 ] 117.22.27.162 /cnconsum/Admin/index/enter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000571s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000411s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000466s ]
+
+[ 2017-01-19T11:00:57+08:00 ] 117.22.27.162 /cnconsum/Admin/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+
+[ 2017-01-19T11:01:00+08:00 ] 117.22.27.162 /cnconsum/Admin/index/enter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000349s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000387s ]
+
+[ 2017-01-19T11:01:00+08:00 ] 117.22.27.162 /cnconsum/Admin/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+
+[ 2017-01-19T11:03:33+08:00 ] 117.22.27.162 /cnconsum/Admin/index/enter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000422s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000461s ]
+
+[ 2017-01-19T11:03:33+08:00 ] 117.22.27.162 /cnconsum/Admin/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+
+[ 2017-01-19T11:04:26+08:00 ] 117.22.27.162 /cnconsum/Admin/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+
+[ 2017-01-19T11:04:30+08:00 ] 117.22.27.162 /cnconsum/Admin/index/enter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000589s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000543s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000604s ]
+
+[ 2017-01-19T11:04:31+08:00 ] 117.22.27.162 /cnconsum/Admin/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+
+[ 2017-01-19T11:04:34+08:00 ] 117.22.27.162 /cnconsum/Admin/index/enter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000440s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000480s ]
+
+[ 2017-01-19T11:04:34+08:00 ] 117.22.27.162 /cnconsum/Admin/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+
+[ 2017-01-19T11:04:55+08:00 ] 117.22.27.162 /cnconsum/Admin/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+
+[ 2017-01-19T11:04:55+08:00 ] 117.22.27.162 /cnconsum/Admin/index/enter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000630s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000345s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000384s ]
+
+[ 2017-01-19T11:06:53+08:00 ] 117.22.27.162 /cnconsum/Admin/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+
+[ 2017-01-19T11:06:57+08:00 ] 117.22.27.162 /cnconsum/Admin/index/enter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000337s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000375s ]
+
+[ 2017-01-19T11:06:57+08:00 ] 117.22.27.162 /cnconsum/Admin/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+
+[ 2017-01-19T11:07:10+08:00 ] 117.22.27.162 /cnconsum/Admin/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+
+[ 2017-01-19T11:07:13+08:00 ] 117.22.27.162 /cnconsum/Admin/index/enter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000507s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000519s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000578s ]
+
+[ 2017-01-19T11:07:13+08:00 ] 117.22.27.162 /cnconsum/Admin/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+
+[ 2017-01-19T11:13:59+08:00 ] 117.22.27.162 /cnconsum/Admin/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+
+[ 2017-01-19T11:14:04+08:00 ] 117.22.27.162 /cnconsum/Admin/index/enter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000388s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000427s ]
+
+[ 2017-01-19T11:14:04+08:00 ] 117.22.27.162 /cnconsum/Admin/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+
+[ 2017-01-19T11:14:24+08:00 ] 117.22.27.162 /cnconsum/Admin/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+
+[ 2017-01-19T11:14:29+08:00 ] 117.22.27.162 /cnconsum/Admin/index/enter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000452s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000372s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000410s ]
+
+[ 2017-01-19T11:14:29+08:00 ] 117.22.27.162 /cnconsum/Admin/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+
+[ 2017-01-19T11:14:50+08:00 ] 117.22.27.162 /cnconsum/Admin/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+
+[ 2017-01-19T11:14:50+08:00 ] 117.22.27.162 /cnconsum/Admin/index/enter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000451s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000501s ]
+
+[ 2017-01-19T11:14:50+08:00 ] 117.22.27.162 /cnconsum/Admin/index/main/settle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+ERR: 非法操作:main
+
+[ 2017-01-19T11:15:00+08:00 ] 117.185.27.115 /cnconsum/Admin/index/main/settle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+ERR: 非法操作:main
+
+[ 2017-01-19T11:15:39+08:00 ] 117.22.27.162 /cnconsum/Admin/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+
+[ 2017-01-19T11:15:39+08:00 ] 117.22.27.162 /cnconsum/Admin/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+
+[ 2017-01-19T11:15:41+08:00 ] 117.22.27.162 /cnconsum/Admin/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+
+[ 2017-01-19T11:15:45+08:00 ] 117.22.27.162 /cnconsum/Admin/index/enter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000453s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000511s ]
+
+[ 2017-01-19T11:15:45+08:00 ] 117.22.27.162 /cnconsum/Admin/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+
+[ 2017-01-19T11:15:45+08:00 ] 117.22.27.162 /cnconsum/Admin/main/settle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+
+[ 2017-01-19T11:15:54+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+
+[ 2017-01-19T11:15:58+08:00 ] 117.22.27.162 /cnconsum/Admin/main/settle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+
+[ 2017-01-19T11:26:01+08:00 ] 117.22.27.162 /cnconsum/Admin/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+
+[ 2017-01-19T11:26:01+08:00 ] 117.22.27.162 /cnconsum/Admin/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+
+[ 2017-01-19T11:26:04+08:00 ] 117.22.27.162 /cnconsum/Admin/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+
+[ 2017-01-19T11:26:10+08:00 ] 117.22.27.162 /cnconsum/Admin/index/enter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000423s ]
+SQL: SHOW COLUMNS FROM `cn_auditor` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_auditor` WHERE `account` = '111' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cn_auditor` WHERE `account` = '111'  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant passwd - assumed 'passwd' /var/www/html/cnconsum/Project/Admin/Controller/IndexController.class.php 第 26 行.
+NOTIC: [8] Array to string conversion /var/www/html/cnconsum/Project/Admin/Controller/IndexController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000399s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000448s ]
+
+[ 2017-01-19T11:26:10+08:00 ] 117.22.27.162 /cnconsum/Admin/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+
+[ 2017-01-19T11:26:14+08:00 ] 117.22.27.162 /cnconsum/Admin/index/enter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000599s ]
+SQL: SHOW COLUMNS FROM `cn_auditor` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_auditor` WHERE `account` = '11' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000441s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000482s ]
+
+[ 2017-01-19T11:26:14+08:00 ] 117.22.27.162 /cnconsum/Admin/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+
+[ 2017-01-19T11:26:18+08:00 ] 117.22.27.162 /cnconsum/Admin/index/enter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000609s ]
+SQL: SHOW COLUMNS FROM `cn_auditor` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_auditor` WHERE `account` = '111' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cn_auditor` WHERE `account` = '111'  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant passwd - assumed 'passwd' /var/www/html/cnconsum/Project/Admin/Controller/IndexController.class.php 第 26 行.
+NOTIC: [8] Array to string conversion /var/www/html/cnconsum/Project/Admin/Controller/IndexController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000369s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000406s ]
+
+[ 2017-01-19T11:26:18+08:00 ] 117.22.27.162 /cnconsum/Admin/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+
+[ 2017-01-19T11:26:20+08:00 ] 117.22.27.162 /cnconsum/Admin/index/enter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000567s ]
+SQL: SHOW COLUMNS FROM `cn_auditor` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_auditor` WHERE `account` = '111' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cn_auditor` WHERE `account` = '111'  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant passwd - assumed 'passwd' /var/www/html/cnconsum/Project/Admin/Controller/IndexController.class.php 第 26 行.
+NOTIC: [8] Array to string conversion /var/www/html/cnconsum/Project/Admin/Controller/IndexController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000476s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000515s ]
+
+[ 2017-01-19T11:26:20+08:00 ] 117.22.27.162 /cnconsum/Admin/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+
+[ 2017-01-19T11:27:04+08:00 ] 117.22.27.162 /cnconsum/Admin/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+
+[ 2017-01-19T11:27:10+08:00 ] 117.22.27.162 /cnconsum/Admin/index/enter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000399s ]
+SQL: SHOW COLUMNS FROM `cn_auditor` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_auditor` WHERE `account` = '111' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cn_auditor` WHERE `account` = '111'  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant passwd - assumed 'passwd' /var/www/html/cnconsum/Project/Admin/Controller/IndexController.class.php 第 26 行.
+NOTIC: [8] Array to string conversion /var/www/html/cnconsum/Project/Admin/Controller/IndexController.class.php 第 26 行.
+
+[ 2017-01-19T11:27:10+08:00 ] 117.22.27.162 /cnconsum/Admin/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+
+[ 2017-01-19T11:27:12+08:00 ] 117.22.27.162 /cnconsum/Admin/index/enter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000477s ]
+SQL: SHOW COLUMNS FROM `cn_auditor` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_auditor` WHERE `account` = '111' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cn_auditor` WHERE `account` = '111'  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant passwd - assumed 'passwd' /var/www/html/cnconsum/Project/Admin/Controller/IndexController.class.php 第 26 行.
+NOTIC: [8] Array to string conversion /var/www/html/cnconsum/Project/Admin/Controller/IndexController.class.php 第 26 行.
+
+[ 2017-01-19T11:27:12+08:00 ] 117.22.27.162 /cnconsum/Admin/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+
+[ 2017-01-19T11:27:12+08:00 ] 117.22.27.162 /cnconsum/Admin/index/enter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+SQL: SHOW COLUMNS FROM `cn_auditor` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_auditor` WHERE `account` = '111' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `cn_auditor` WHERE `account` = '111'  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant passwd - assumed 'passwd' /var/www/html/cnconsum/Project/Admin/Controller/IndexController.class.php 第 26 行.
+NOTIC: [8] Array to string conversion /var/www/html/cnconsum/Project/Admin/Controller/IndexController.class.php 第 26 行.
+
+[ 2017-01-19T11:27:12+08:00 ] 117.22.27.162 /cnconsum/Admin/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+
+[ 2017-01-19T11:27:52+08:00 ] 117.22.27.162 /cnconsum/Admin/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+
+[ 2017-01-19T11:27:55+08:00 ] 117.22.27.162 /cnconsum/Admin/index/enter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000719s ]
+SQL: SHOW COLUMNS FROM `cn_auditor` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_auditor` WHERE `account` = '111' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cn_auditor` WHERE `account` = '111'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000510s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000550s ]
+
+[ 2017-01-19T11:27:55+08:00 ] 117.22.27.162 /cnconsum/Admin/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+
+[ 2017-01-19T11:27:55+08:00 ] 117.22.27.162 /cnconsum/Admin/main/settle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+
+[ 2017-01-19T11:28:01+08:00 ] 117.22.27.162 /cnconsum/Admin/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+
+[ 2017-01-19T11:28:01+08:00 ] 117.22.27.162 /cnconsum/Admin/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+
+[ 2017-01-19T11:28:05+08:00 ] 117.22.27.162 /cnconsum/Admin/index/enter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000384s ]
+SQL: SHOW COLUMNS FROM `cn_auditor` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_auditor` WHERE `account` = '111' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cn_auditor` WHERE `account` = '111'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000567s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000609s ]
+
+[ 2017-01-19T11:28:06+08:00 ] 117.22.27.162 /cnconsum/Admin/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+
+[ 2017-01-19T11:28:09+08:00 ] 117.22.27.162 /cnconsum/Admin/index/enter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000582s ]
+SQL: SHOW COLUMNS FROM `cn_auditor` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_auditor` WHERE `account` = '1113' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000580s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000637s ]
+
+[ 2017-01-19T11:28:09+08:00 ] 117.22.27.162 /cnconsum/Admin/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+
+[ 2017-01-19T11:28:15+08:00 ] 117.22.27.162 /cnconsum/Admin/index/enter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000385s ]
+SQL: SHOW COLUMNS FROM `cn_auditor` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_auditor` WHERE `account` = '111' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cn_auditor` WHERE `account` = '111'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000381s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000428s ]
+
+[ 2017-01-19T11:28:15+08:00 ] 117.22.27.162 /cnconsum/Admin/main/settle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+
+[ 2017-01-19T11:28:15+08:00 ] 117.22.27.162 /cnconsum/Admin/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+
+[ 2017-01-19T11:29:12+08:00 ] 117.22.27.162 /cnconsum/Admin/main/settle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+
+[ 2017-01-19T11:29:20+08:00 ] 117.22.27.162 /cnconsum/Admin/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+
+[ 2017-01-19T11:29:26+08:00 ] 117.22.27.162 /cnconsum/Admin/index/enter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000511s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000428s ]
+SQL: SHOW COLUMNS FROM `cn_auditor` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_auditor` WHERE `account` = '111' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cn_auditor` WHERE `account` = '111'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000426s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000470s ]
+
+[ 2017-01-19T11:29:26+08:00 ] 117.22.27.162 /cnconsum/Admin/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+
+[ 2017-01-19T11:29:26+08:00 ] 117.22.27.162 /cnconsum/Admin/main/settle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+
+[ 2017-01-19T11:29:29+08:00 ] 117.22.27.162 /cnconsum/Admin/main/auditing
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+
+[ 2017-01-19T11:29:31+08:00 ] 117.22.27.162 /cnconsum/Admin/main/settle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+
+[ 2017-01-19T11:33:21+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+
+[ 2017-01-19T11:33:25+08:00 ] 117.22.27.162 /cnconsum/Admin/main/settle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+
+[ 2017-01-19T11:33:27+08:00 ] 117.22.27.162 /cnconsum/Admin/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+
+[ 2017-01-19T11:33:32+08:00 ] 117.22.27.162 /cnconsum/Admin/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+
+[ 2017-01-19T11:33:32+08:00 ] 117.22.27.162 /cnconsum/Admin/index/enter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000482s ]
+SQL: SHOW COLUMNS FROM `cn_auditor` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_auditor` WHERE `account` = '111' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cn_auditor` WHERE `account` = '111'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000366s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000405s ]
+
+[ 2017-01-19T11:33:32+08:00 ] 117.22.27.162 /cnconsum/Admin/main/settle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000418s ]
+
+[ 2017-01-19T11:33:38+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+
+[ 2017-01-19T11:39:01+08:00 ] 117.22.27.162 /cnconsum/Admin/main/settle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+
+[ 2017-01-19T11:39:04+08:00 ] 117.22.27.162 /cnconsum/Admin/main/settle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+
+[ 2017-01-19T11:39:06+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+
+[ 2017-01-19T11:46:55+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+
+[ 2017-01-19T11:47:04+08:00 ] 117.22.27.162 /cnconsum/Admin/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+
+[ 2017-01-19T11:47:44+08:00 ] 117.22.27.162 /cnconsum/Admin/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+
+[ 2017-01-19T11:47:48+08:00 ] 117.22.27.162 /cnconsum/Admin/index/enter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000400s ]
+SQL: SHOW COLUMNS FROM `cn_auditor` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_auditor` WHERE `account` = '111' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cn_auditor` WHERE `account` = '111'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000386s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000424s ]
+
+[ 2017-01-19T11:47:48+08:00 ] 117.22.27.162 /cnconsum/Admin/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+
+[ 2017-01-19T11:47:48+08:00 ] 117.22.27.162 /cnconsum/Admin/main/settle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+
+[ 2017-01-19T11:47:53+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+
+[ 2017-01-19T11:47:55+08:00 ] 117.22.27.162 /cnconsum/Admin/main/settle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+
+[ 2017-01-19T11:47:56+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_online01
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+
+[ 2017-01-19T11:47:58+08:00 ] 117.22.27.162 /cnconsum/Admin/main/settle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+
+[ 2017-01-19T11:49:42+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+
+[ 2017-01-19T11:49:44+08:00 ] 117.22.27.162 /cnconsum/Admin/main/settle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+
+[ 2017-01-19T11:49:45+08:00 ] 117.22.27.162 /cnconsum/Admin/main/settle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+
+[ 2017-01-19T11:49:46+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+
+[ 2017-01-19T11:50:43+08:00 ] 117.22.27.162 /cnconsum/Admin/main/settle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+
+[ 2017-01-19T11:50:44+08:00 ] 117.22.27.162 /cnconsum/Admin/main/settle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+
+[ 2017-01-19T11:50:46+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+
+[ 2017-01-19T11:51:58+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+
+[ 2017-01-19T13:37:15+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+
+[ 2017-01-19T13:40:31+08:00 ] 117.22.27.162 /cnconsum/Admin/main/settle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+
+[ 2017-01-19T13:40:32+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_online01
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+
+[ 2017-01-19T13:40:35+08:00 ] 117.22.27.162 /cnconsum/Admin/main/settle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+
+[ 2017-01-19T13:40:37+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+
+[ 2017-01-19T13:44:39+08:00 ] 117.22.27.162 /cnconsum/Admin/main/settle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+
+[ 2017-01-19T13:44:40+08:00 ] 117.22.27.162 /cnconsum/Admin/main/settle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+
+[ 2017-01-19T13:44:42+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+
+[ 2017-01-19T13:44:49+08:00 ] 117.22.27.162 /cnconsum/Admin/main/_PUBLIC__/Uploads/tenancyImage/m_d7c116a9cc_02.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+
+[ 2017-01-19T13:44:53+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+
+[ 2017-01-19T13:44:57+08:00 ] 117.22.27.162 /cnconsum/Admin/main/_PUBLIC__/Uploads/tenancyImage/m_d7c116a9cc_02.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+
+[ 2017-01-19T13:44:59+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+
+[ 2017-01-19T13:45:33+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+
+[ 2017-01-19T13:45:44+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_online01
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+
+[ 2017-01-19T13:45:52+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_online01
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+
+[ 2017-01-19T13:45:55+08:00 ] 117.22.27.162 /cnconsum/Admin/main/settle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+
+[ 2017-01-19T13:45:56+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+
+[ 2017-01-19T13:46:57+08:00 ] 117.22.27.162 /cnconsum/Admin/main/settle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+
+[ 2017-01-19T13:47:00+08:00 ] 117.22.27.162 /cnconsum/Admin/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+
+[ 2017-01-19T13:47:04+08:00 ] 117.22.27.162 /cnconsum/Admin/index/enter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000569s ]
+SQL: SHOW COLUMNS FROM `cn_auditor` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_auditor` WHERE `account` = '111' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cn_auditor` WHERE `account` = '111'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000413s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000465s ]
+
+[ 2017-01-19T13:47:04+08:00 ] 117.22.27.162 /cnconsum/Admin/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+
+[ 2017-01-19T13:47:07+08:00 ] 117.22.27.162 /cnconsum/Admin/index/enter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000377s ]
+SQL: SHOW COLUMNS FROM `cn_auditor` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_auditor` WHERE `account` = '111' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cn_auditor` WHERE `account` = '111'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000346s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000384s ]
+
+[ 2017-01-19T13:47:07+08:00 ] 117.22.27.162 /cnconsum/Admin/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+
+[ 2017-01-19T13:47:07+08:00 ] 117.22.27.162 /cnconsum/Admin/main/settle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+
+[ 2017-01-19T13:47:35+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+
+[ 2017-01-19T14:09:59+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+
+[ 2017-01-19T14:10:35+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+
+[ 2017-01-19T14:10:38+08:00 ] 117.22.27.162 /cnconsum/Admin/main/image/dialog_cb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+
+[ 2017-01-19T14:10:38+08:00 ] 117.22.27.162 /cnconsum/Admin/main/image/window.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+
+[ 2017-01-19T14:10:38+08:00 ] 117.22.27.162 /cnconsum/Admin/main/Public/failDialog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+ERR: 非法操作:Public
+
+[ 2017-01-19T14:10:58+08:00 ] 180.153.211.190 /cnconsum/Admin/main/Public/failDialog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+ERR: 非法操作:Public
+
+[ 2017-01-19T14:11:27+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+
+[ 2017-01-19T14:11:29+08:00 ] 117.22.27.162 /cnconsum/Admin/Public/failDialog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-01-19T14:11:29+08:00 ] 117.22.27.162 /cnconsum/Admin/main/image/dialog_cb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+
+[ 2017-01-19T14:11:29+08:00 ] 117.22.27.162 /cnconsum/Admin/main/image/window.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+
+[ 2017-01-19T14:11:39+08:00 ] 180.153.206.24 /cnconsum/Admin/Public/failDialog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-01-19T14:12:10+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+
+[ 2017-01-19T14:12:12+08:00 ] 117.22.27.162 /cnconsum/Admin/main/image/window.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+
+[ 2017-01-19T14:12:12+08:00 ] 117.22.27.162 /cnconsum/Admin/View/Public/failDialog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+ERR: 无法加载控制器:View
+
+[ 2017-01-19T14:12:12+08:00 ] 117.22.27.162 /cnconsum/Admin/main/image/dialog_cb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+
+[ 2017-01-19T14:12:22+08:00 ] 180.163.2.118 /cnconsum/Admin/View/Public/failDialog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+ERR: 无法加载控制器:View
+
+[ 2017-01-19T14:13:47+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+
+[ 2017-01-19T14:13:48+08:00 ] 117.22.27.162 /cnconsum/Admin/main/showFailDialog
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+
+[ 2017-01-19T14:13:48+08:00 ] 117.22.27.162 /cnconsum/Admin/main/image/window.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+
+[ 2017-01-19T14:13:48+08:00 ] 117.22.27.162 /cnconsum/Admin/main/image/dialog_cb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+
+[ 2017-01-19T14:14:06+08:00 ] 101.226.89.122 /cnconsum/Admin/main/showFailDialog
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+
+[ 2017-01-19T14:15:31+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+
+[ 2017-01-19T14:15:32+08:00 ] 117.22.27.162 /cnconsum/Admin/main/image/dialog_cb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+
+[ 2017-01-19T14:15:32+08:00 ] 117.22.27.162 /cnconsum/Admin/main/image/window.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+
+[ 2017-01-19T14:15:32+08:00 ] 117.22.27.162 /cnconsum/Admin/main/127.0.0.1/cnconsum/Admin/View/Public/failDialog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+ERR: 非法操作:127.0.0.1
+
+[ 2017-01-19T14:16:04+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+
+[ 2017-01-19T14:16:07+08:00 ] 117.22.27.162 /cnconsum/Admin/main/image/dialog_cb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+
+[ 2017-01-19T14:16:07+08:00 ] 117.22.27.162 /cnconsum/Admin/main/image/window.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+
+[ 2017-01-19T14:16:36+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+
+[ 2017-01-19T14:16:37+08:00 ] 117.22.27.162 /cnconsum/Admin/main/image/dialog_cb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+
+[ 2017-01-19T14:16:37+08:00 ] 117.22.27.162 /cnconsum/Admin/main/image/window.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+
+[ 2017-01-19T14:16:37+08:00 ] 117.22.27.162 /cnconsum/Admin/View/Public/failDialog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+ERR: 无法加载控制器:View
+
+[ 2017-01-19T14:18:19+08:00 ] 117.22.27.162 /cnconsum/Admin/main/image/window.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+
+[ 2017-01-19T14:18:38+08:00 ] 117.22.27.162 /cnconsum/Admin/main/image/dialog_cb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+
+[ 2017-01-19T14:18:38+08:00 ] 117.22.27.162 /cnconsum/Admin/View/Public/failDialog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+ERR: 无法加载控制器:View
+
+[ 2017-01-19T14:18:38+08:00 ] 117.22.27.162 /cnconsum/Admin/main/image/window.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+
+[ 2017-01-19T14:20:49+08:00 ] 117.22.27.162 /cnconsum/Admin/main/image/dialog_cb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+
+[ 2017-01-19T14:20:49+08:00 ] 117.22.27.162 /cnconsum/Admin/main/image/window.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+
+[ 2017-01-19T14:20:49+08:00 ] 117.22.27.162 /cnconsum/Admin/View/Public/failDialog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+ERR: 无法加载控制器:View
+
+[ 2017-01-19T14:22:55+08:00 ] 117.22.27.162 /cnconsum/Admin/main/settle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+
+[ 2017-01-19T14:22:57+08:00 ] 117.22.27.162 /cnconsum/Admin/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+
+[ 2017-01-19T14:23:02+08:00 ] 117.22.27.162 /cnconsum/Admin/index/enter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000373s ]
+SQL: SHOW COLUMNS FROM `cn_auditor` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_auditor` WHERE `account` = '111' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cn_auditor` WHERE `account` = '111'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000389s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000461s ]
+
+[ 2017-01-19T14:23:02+08:00 ] 117.22.27.162 /cnconsum/Admin/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+
+[ 2017-01-19T14:23:02+08:00 ] 117.22.27.162 /cnconsum/Admin/main/settle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+
+[ 2017-01-19T14:23:06+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+
+[ 2017-01-19T14:23:24+08:00 ] 117.22.27.162 /cnconsum/Admin/main/auditing
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+
+[ 2017-01-19T14:23:40+08:00 ] 117.22.27.162 /cnconsum/Admin/main/settle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+
+[ 2017-01-19T14:23:42+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+
+[ 2017-01-19T14:23:52+08:00 ] 117.22.27.162 /cnconsum/Admin/main/auditing
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+
+[ 2017-01-19T14:23:59+08:00 ] 117.22.27.162 /cnconsum/Admin/main/audited
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+
+[ 2017-01-19T14:24:00+08:00 ] 117.22.27.162 /cnconsum/Admin/main/auditing
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+
+[ 2017-01-19T14:24:01+08:00 ] 117.22.27.162 /cnconsum/Admin/main/audited
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+
+[ 2017-01-19T14:24:08+08:00 ] 117.22.27.162 /cnconsum/Admin/main/auditing
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+
+[ 2017-01-19T14:24:11+08:00 ] 117.22.27.162 /cnconsum/Admin/main/audited
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+
+[ 2017-01-19T14:24:24+08:00 ] 117.22.27.162 /cnconsum/Admin/main/settle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+
+[ 2017-01-19T14:24:27+08:00 ] 117.22.27.162 /cnconsum/Admin/main/auditing
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+
+[ 2017-01-19T14:24:37+08:00 ] 117.22.27.162 /cnconsum/Admin/main/settle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+
+[ 2017-01-19T14:24:42+08:00 ] 117.22.27.162 /cnconsum/Admin/main/auditing
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+
+[ 2017-01-19T14:24:51+08:00 ] 117.22.27.162 /cnconsum/Admin/main/settle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+
+[ 2017-01-19T14:24:54+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+
+[ 2017-01-19T14:25:01+08:00 ] 117.22.27.162 /cnconsum/Admin/main/settle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+
+[ 2017-01-19T14:25:18+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+
+[ 2017-01-19T14:25:22+08:00 ] 117.22.27.162 /cnconsum/Admin/main/settle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+
+[ 2017-01-19T14:26:06+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+
+[ 2017-01-19T14:26:10+08:00 ] 117.22.27.162 /cnconsum/Admin/main/settle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+
+[ 2017-01-19T14:26:15+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+
+[ 2017-01-19T14:26:37+08:00 ] 117.22.27.162 /cnconsum/Admin/main/settle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+
+[ 2017-01-19T14:27:17+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+
+[ 2017-01-19T14:29:06+08:00 ] 117.22.27.162 /cnconsum/Admin/main/settle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+
+[ 2017-01-19T14:31:10+08:00 ] 117.22.27.162 /cnconsum/Admin/main/settle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000368s ]
+SQL: SHOW COLUMNS FROM `cn_merchant` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cn_merchant` LIMIT 6,6   [ RunTime:0.0003s ]
+
+[ 2017-01-19T14:31:14+08:00 ] 117.22.27.162 /cnconsum/Admin/main/settle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000521s ]
+SQL: SHOW COLUMNS FROM `cn_merchant` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cn_merchant` LIMIT 12,6   [ RunTime:0.0003s ]
+
+[ 2017-01-19T14:31:25+08:00 ] 117.22.27.162 /cnconsum/Admin/main/auditing
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+
+[ 2017-01-19T14:31:36+08:00 ] 117.22.27.162 /cnconsum/Admin/main/settle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+
+[ 2017-01-19T14:31:37+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+
+[ 2017-01-19T14:33:22+08:00 ] 117.22.27.162 /cnconsum/Admin/main/image/dialog_cb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+
+[ 2017-01-19T14:33:22+08:00 ] 117.22.27.162 /cnconsum/Admin/main/image/window.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+
+[ 2017-01-19T14:33:22+08:00 ] 117.22.27.162 /cnconsum/Admin/View/Public/failDialog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+ERR: 无法加载控制器:View
+
+[ 2017-01-19T14:33:32+08:00 ] 101.226.66.187 /cnconsum/Admin/View/Public/failDialog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+ERR: 无法加载控制器:View
+
+[ 2017-01-19T14:34:53+08:00 ] 117.22.27.162 /cnconsum/Admin/main/auditing
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+
+[ 2017-01-19T14:34:57+08:00 ] 117.22.27.162 /cnconsum/Admin/main/audited
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+
+[ 2017-01-19T14:35:54+08:00 ] 117.22.27.162 /cnconsum/Admin/main/settle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+
+[ 2017-01-19T14:35:56+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+
+[ 2017-01-19T14:37:13+08:00 ] 117.22.27.162 /cnconsum/Admin/main/audited
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+
+[ 2017-01-19T14:37:16+08:00 ] 117.22.27.162 /cnconsum/Admin/main/settle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+
+[ 2017-01-19T14:37:18+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+
+[ 2017-01-19T14:39:22+08:00 ] 117.22.27.162 /cnconsum/Admin/main/settle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+
+[ 2017-01-19T14:39:40+08:00 ] 117.22.27.162 /cnconsum/Admin/main/settle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+
+[ 2017-01-19T14:40:27+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+
+[ 2017-01-19T14:44:42+08:00 ] 117.22.27.162 /cnconsum/Admin/main/settle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+
+[ 2017-01-19T14:44:45+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+
+[ 2017-01-19T14:44:46+08:00 ] 117.22.27.162 /cnconsum/Admin/main/settle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+
+[ 2017-01-19T14:48:13+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+
+[ 2017-01-19T14:50:32+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+
+[ 2017-01-19T14:50:34+08:00 ] 117.22.27.162 /cnconsum/Admin/main/image/window.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+
+[ 2017-01-19T14:50:34+08:00 ] 117.22.27.162 /cnconsum/Admin/main/image/dialog_cb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+
+[ 2017-01-19T14:51:15+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+
+[ 2017-01-19T14:51:16+08:00 ] 117.22.27.162 /cnconsum/Admin/main/image/window.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+
+[ 2017-01-19T14:51:16+08:00 ] 117.22.27.162 /cnconsum/Admin/main/image/dialog_cb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+
+[ 2017-01-19T14:51:28+08:00 ] 117.22.27.162 /cnconsum/Admin/main/image/window.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+
+[ 2017-01-19T14:51:28+08:00 ] 117.22.27.162 /cnconsum/Admin/main/image/dialog_cb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+
+[ 2017-01-19T14:51:31+08:00 ] 117.22.27.162 /cnconsum/Admin/main/image/dialog_cb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000350s ]
+
+[ 2017-01-19T14:51:31+08:00 ] 117.22.27.162 /cnconsum/Admin/main/image/window.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+
+[ 2017-01-19T14:51:33+08:00 ] 117.22.27.162 /cnconsum/Admin/main/image/dialog_cb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+
+[ 2017-01-19T14:51:33+08:00 ] 117.22.27.162 /cnconsum/Admin/main/image/window.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+
+[ 2017-01-19T15:05:35+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+
+[ 2017-01-19T15:05:37+08:00 ] 117.22.27.162 /cnconsum/Admin/main/image/dialog_cb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+
+[ 2017-01-19T15:05:37+08:00 ] 117.22.27.162 /cnconsum/Admin/main/image/window.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+
+[ 2017-01-19T15:07:00+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+
+[ 2017-01-19T15:07:02+08:00 ] 117.22.27.162 /cnconsum/Admin/main/image/window.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+
+[ 2017-01-19T15:07:02+08:00 ] 117.22.27.162 /cnconsum/Admin/main/image/dialog_cb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+
+[ 2017-01-19T15:07:16+08:00 ] 117.22.27.162 /cnconsum/Admin/main/image/window.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+
+[ 2017-01-19T15:07:16+08:00 ] 117.22.27.162 /cnconsum/Admin/main/image/dialog_cb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+
+[ 2017-01-19T15:08:35+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+
+[ 2017-01-19T15:08:38+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+
+[ 2017-01-19T15:08:39+08:00 ] 117.22.27.162 /cnconsum/Admin/main/image/window.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+
+[ 2017-01-19T15:08:39+08:00 ] 117.22.27.162 /cnconsum/Admin/main/image/dialog_cb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+
+[ 2017-01-19T15:08:46+08:00 ] 117.22.27.162 /cnconsum/Admin/main/settle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+
+[ 2017-01-19T15:08:50+08:00 ] 117.22.27.162 /cnconsum/Admin/main/settle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+
+[ 2017-01-19T15:08:51+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+
+[ 2017-01-19T15:08:55+08:00 ] 117.22.27.162 /cnconsum/Admin/main/image/window.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+
+[ 2017-01-19T15:08:55+08:00 ] 117.22.27.162 /cnconsum/Admin/main/image/dialog_cb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+
+[ 2017-01-19T15:10:33+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+
+[ 2017-01-19T15:10:35+08:00 ] 117.22.27.162 /cnconsum/Admin/main/image/dialog_cb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+
+[ 2017-01-19T15:10:35+08:00 ] 117.22.27.162 /cnconsum/Admin/main/image/window.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+
+[ 2017-01-19T15:10:35+08:00 ] 117.22.27.162 /cnconsum/Admin/main/image/dialog_cb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+
+[ 2017-01-19T15:10:36+08:00 ] 117.22.27.162 /cnconsum/Admin/main/image/window.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+
+[ 2017-01-19T15:11:44+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+
+[ 2017-01-19T15:11:45+08:00 ] 117.22.27.162 /cnconsum/Admin/main/image/dialog_cb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+
+[ 2017-01-19T15:11:45+08:00 ] 117.22.27.162 /cnconsum/Admin/main/image/window.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+
+[ 2017-01-19T15:11:45+08:00 ] 117.22.27.162 /cnconsum/Admin/main/image/window.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+
+[ 2017-01-19T15:11:45+08:00 ] 117.22.27.162 /cnconsum/Admin/main/image/dialog_cb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000241s ]
+
+[ 2017-01-19T15:12:27+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+
+[ 2017-01-19T15:12:29+08:00 ] 117.22.27.162 /cnconsum/Admin/main/image/dialog_cb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+
+[ 2017-01-19T15:12:29+08:00 ] 117.22.27.162 /cnconsum/Admin/main/image/window.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+
+[ 2017-01-19T15:12:29+08:00 ] 117.22.27.162 /cnconsum/Admin/main/image/dialog_cb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+
+[ 2017-01-19T15:12:29+08:00 ] 117.22.27.162 /cnconsum/Admin/main/image/window.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+
+[ 2017-01-19T15:12:50+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+
+[ 2017-01-19T15:12:51+08:00 ] 117.22.27.162 /cnconsum/Admin/main/image/window.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+
+[ 2017-01-19T15:12:51+08:00 ] 117.22.27.162 /cnconsum/Admin/main/image/dialog_cb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+
+[ 2017-01-19T15:12:51+08:00 ] 117.22.27.162 /cnconsum/Admin/main/image/window.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+
+[ 2017-01-19T15:12:51+08:00 ] 117.22.27.162 /cnconsum/Admin/main/image/dialog_cb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000250s ]
+
+[ 2017-01-19T15:14:07+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+
+[ 2017-01-19T15:14:08+08:00 ] 117.22.27.162 /cnconsum/Admin/main/image/dialog_cb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+
+[ 2017-01-19T15:14:08+08:00 ] 117.22.27.162 /cnconsum/Admin/main/image/window.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+
+[ 2017-01-19T15:14:08+08:00 ] 117.22.27.162 /cnconsum/Admin/main/image/dialog_cb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+
+[ 2017-01-19T15:14:08+08:00 ] 117.22.27.162 /cnconsum/Admin/main/image/window.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+
+[ 2017-01-19T15:14:37+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+
+[ 2017-01-19T15:14:39+08:00 ] 117.22.27.162 /cnconsum/Admin/main/image/dialog_cb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+
+[ 2017-01-19T15:14:39+08:00 ] 117.22.27.162 /cnconsum/Admin/main/image/window.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+
+[ 2017-01-19T15:14:39+08:00 ] 117.22.27.162 /cnconsum/Admin/main/image/window.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+
+[ 2017-01-19T15:14:39+08:00 ] 117.22.27.162 /cnconsum/Admin/main/image/dialog_cb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+
+[ 2017-01-19T15:15:30+08:00 ] 117.22.27.162 /cnconsum/Admin/main/image/dialog_cb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+
+[ 2017-01-19T15:15:30+08:00 ] 117.22.27.162 /cnconsum/Admin/main/image/window.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+
+[ 2017-01-19T15:15:30+08:00 ] 117.22.27.162 /cnconsum/Admin/main/image/dialog_cb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+
+[ 2017-01-19T15:15:30+08:00 ] 117.22.27.162 /cnconsum/Admin/main/image/window.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+
+[ 2017-01-19T15:15:58+08:00 ] 117.22.27.162 /cnconsum/Admin/main/image/window.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+
+[ 2017-01-19T15:15:58+08:00 ] 117.22.27.162 /cnconsum/Admin/main/image/dialog_cb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+
+[ 2017-01-19T15:15:58+08:00 ] 117.22.27.162 /cnconsum/Admin/main/image/window.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+
+[ 2017-01-19T15:15:59+08:00 ] 117.22.27.162 /cnconsum/Admin/main/image/dialog_cb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+
+[ 2017-01-19T15:16:46+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+
+[ 2017-01-19T15:16:47+08:00 ] 117.22.27.162 /cnconsum/Admin/main/image/window.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+
+[ 2017-01-19T15:16:47+08:00 ] 117.22.27.162 /cnconsum/Admin/main/image/dialog_cb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+
+[ 2017-01-19T15:16:47+08:00 ] 117.22.27.162 /cnconsum/Admin/main/image/window.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+
+[ 2017-01-19T15:16:47+08:00 ] 117.22.27.162 /cnconsum/Admin/main/image/dialog_cb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+
+[ 2017-01-19T15:17:32+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+
+[ 2017-01-19T15:17:34+08:00 ] 117.22.27.162 /cnconsum/Admin/main/image/window.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+
+[ 2017-01-19T15:17:34+08:00 ] 117.22.27.162 /cnconsum/Admin/main/image/dialog_cb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+
+[ 2017-01-19T15:17:34+08:00 ] 117.22.27.162 /cnconsum/Admin/main/image/window.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+
+[ 2017-01-19T15:17:34+08:00 ] 117.22.27.162 /cnconsum/Admin/main/image/dialog_cb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+
+[ 2017-01-19T15:18:20+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+
+[ 2017-01-19T15:18:21+08:00 ] 117.22.27.162 /cnconsum/Admin/main/image/dialog_cb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+
+[ 2017-01-19T15:18:21+08:00 ] 117.22.27.162 /cnconsum/Admin/main/image/window.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+
+[ 2017-01-19T15:18:21+08:00 ] 117.22.27.162 /cnconsum/Admin/main/image/dialog_cb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+
+[ 2017-01-19T15:18:21+08:00 ] 117.22.27.162 /cnconsum/Admin/main/image/window.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+
+[ 2017-01-19T15:19:47+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+
+[ 2017-01-19T15:19:49+08:00 ] 117.22.27.162 /cnconsum/Admin/main/image/window.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+
+[ 2017-01-19T15:19:49+08:00 ] 117.22.27.162 /cnconsum/Admin/main/image/dialog_cb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+
+[ 2017-01-19T15:19:49+08:00 ] 117.22.27.162 /cnconsum/Admin/main/image/window.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+
+[ 2017-01-19T15:19:49+08:00 ] 117.22.27.162 /cnconsum/Admin/main/image/dialog_cb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+
+[ 2017-01-19T15:20:10+08:00 ] 117.22.27.162 /cnconsum/Admin/main/image/window.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+
+[ 2017-01-19T15:20:10+08:00 ] 117.22.27.162 /cnconsum/Admin/main/image/dialog_cb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+
+[ 2017-01-19T15:24:07+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+
+[ 2017-01-19T15:24:08+08:00 ] 117.22.27.162 /cnconsum/Admin/main/image/dialog_cb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+
+[ 2017-01-19T15:24:08+08:00 ] 117.22.27.162 /cnconsum/Admin/main/image/window.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+
+[ 2017-01-19T15:29:07+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+
+[ 2017-01-19T15:30:00+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+
+[ 2017-01-19T15:30:03+08:00 ] 117.22.27.162 /cnconsum/Admin/main/image/window.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+
+[ 2017-01-19T15:30:03+08:00 ] 117.22.27.162 /cnconsum/Admin/main/image/dialog_cb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+
+[ 2017-01-19T15:30:57+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+
+[ 2017-01-19T15:30:58+08:00 ] 117.22.27.162 /cnconsum/Admin/main/image/dialog_cb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+
+[ 2017-01-19T15:30:58+08:00 ] 117.22.27.162 /cnconsum/Admin/main/image/window.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+
+[ 2017-01-19T15:31:05+08:00 ] 117.22.27.162 /cnconsum/Admin/main/image/window.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+
+[ 2017-01-19T15:39:34+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+
+[ 2017-01-19T15:40:04+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+
+[ 2017-01-19T15:40:37+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+
+[ 2017-01-19T15:40:38+08:00 ] 117.22.27.162 /cnconsum/Admin/image/merchant/dialog_cb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+
+[ 2017-01-19T15:40:38+08:00 ] 117.22.27.162 /cnconsum/Admin/image/merchant/window.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+
+[ 2017-01-19T15:41:22+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+
+[ 2017-01-19T15:41:37+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+
+[ 2017-01-19T15:41:49+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+
+[ 2017-01-19T15:43:31+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+
+[ 2017-01-19T15:43:57+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+
+[ 2017-01-19T15:44:11+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+
+[ 2017-01-19T15:49:32+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+
+[ 2017-01-19T15:50:05+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+
+[ 2017-01-19T15:50:54+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+
+[ 2017-01-19T15:51:47+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+
+[ 2017-01-19T16:11:24+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+
+[ 2017-01-19T16:27:01+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+
+[ 2017-01-19T16:49:53+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+
+[ 2017-01-19T16:53:07+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+
+[ 2017-01-19T16:53:14+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+
+[ 2017-01-19T16:53:27+08:00 ] 117.22.27.162 /cnconsum/Admin/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+
+[ 2017-01-19T16:53:30+08:00 ] 117.22.27.162 /cnconsum/Admin/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+
+[ 2017-01-19T16:53:30+08:00 ] 117.22.27.162 /cnconsum/Admin/index/enter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000365s ]
+SQL: SHOW COLUMNS FROM `cn_auditor` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_auditor` WHERE `account` = '111' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cn_auditor` WHERE `account` = '111'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000401s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000442s ]
+
+[ 2017-01-19T16:53:30+08:00 ] 117.22.27.162 /cnconsum/Admin/main/settle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+
+[ 2017-01-19T16:53:32+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+
+[ 2017-01-19T16:54:03+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+
+[ 2017-01-19T16:55:00+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+
+[ 2017-01-19T16:55:45+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+
+[ 2017-01-19T16:56:30+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+
+[ 2017-01-19T16:57:03+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+
+[ 2017-01-19T16:59:02+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+
+[ 2017-01-19T16:59:22+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+
+[ 2017-01-19T17:03:03+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+
+[ 2017-01-19T17:03:39+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+
+[ 2017-01-19T17:03:55+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+
+[ 2017-01-19T17:05:49+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+
+[ 2017-01-19T17:06:47+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+
+[ 2017-01-19T17:08:08+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+
+[ 2017-01-19T17:09:02+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+
+[ 2017-01-19T17:09:51+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+
+[ 2017-01-19T17:10:47+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+
+[ 2017-01-19T17:12:22+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+
+[ 2017-01-19T17:12:45+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+
+[ 2017-01-19T17:12:53+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+
+[ 2017-01-19T17:13:51+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+
+[ 2017-01-19T17:14:11+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+
+[ 2017-01-19T17:15:14+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+
+[ 2017-01-19T17:15:34+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+
+[ 2017-01-19T17:17:26+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+
+[ 2017-01-19T17:18:06+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+
+[ 2017-01-19T17:19:04+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+
+[ 2017-01-19T17:19:23+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+
+[ 2017-01-19T17:20:11+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+
+[ 2017-01-19T17:21:28+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+
+[ 2017-01-19T17:21:47+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+
+[ 2017-01-19T17:22:06+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+
+[ 2017-01-19T17:22:23+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+
+[ 2017-01-19T17:22:40+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+
+[ 2017-01-19T17:23:21+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+
+[ 2017-01-19T17:24:03+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+
+[ 2017-01-19T17:24:05+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+
+[ 2017-01-19T17:24:43+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+
+[ 2017-01-19T17:26:27+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+
+[ 2017-01-19T17:27:05+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+
+[ 2017-01-19T17:36:40+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+
+[ 2017-01-19T17:37:00+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+
+[ 2017-01-19T17:38:10+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+
+[ 2017-01-19T17:39:17+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+
+[ 2017-01-19T17:39:43+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+
+[ 2017-01-19T17:41:53+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+
+[ 2017-01-19T17:43:00+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+
+[ 2017-01-19T17:46:56+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+
+[ 2017-01-19T17:52:16+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+
+[ 2017-01-19T17:52:59+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+
+[ 2017-01-19T17:53:00+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+
+[ 2017-01-19T17:55:03+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+
+[ 2017-01-19T17:56:00+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+
+[ 2017-01-19T17:56:43+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+
+[ 2017-01-19T17:56:52+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+
+[ 2017-01-19T17:57:20+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+
+[ 2017-01-19T17:58:01+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+
+[ 2017-01-19T17:59:19+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+
+[ 2017-01-19T17:59:35+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+
+[ 2017-01-19T17:59:50+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+
+[ 2017-01-19T18:00:03+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+
+[ 2017-01-19T18:00:44+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+
+[ 2017-01-19T18:01:15+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+
+[ 2017-01-19T18:01:56+08:00 ] 117.22.27.162 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+
+[ 2017-01-19T20:49:01+08:00 ] 123.139.16.97 /cnconsum/Admin/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+
+[ 2017-01-19T20:49:13+08:00 ] 123.139.16.97 /cnconsum/Admin/index/enter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000415s ]
+SQL: SHOW COLUMNS FROM `cn_auditor` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_auditor` WHERE `account` = '111' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cn_auditor` WHERE `account` = '111'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000522s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000580s ]
+
+[ 2017-01-19T20:49:13+08:00 ] 123.139.16.97 /cnconsum/Admin/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+
+[ 2017-01-19T20:49:13+08:00 ] 123.139.16.97 /cnconsum/Admin/main/settle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+
+[ 2017-01-19T20:49:18+08:00 ] 123.139.16.97 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+
+[ 2017-01-19T20:49:28+08:00 ] 180.153.163.190 /cnconsum/Admin/main/handleAudit?muid=m_d7c116a9cc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+

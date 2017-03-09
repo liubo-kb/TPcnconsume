@@ -1,0 +1,821 @@
+[ 2017-02-02T13:33:17+08:00 ] 113.200.81.84 /cnconsum/App/MerchantType/advert/leadGet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000400s ]
+SQL: SHOW COLUMNS FROM `cn_advert_lead` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `cn_advert_lead` WHERE `area` = '西安市雁塔区' AND `state` = 'ONLINE' ORDER BY start_time asc  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000511s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000555s ]
+
+[ 2017-02-02T13:33:19+08:00 ] 113.200.81.84 /cnconsum/App/Extra/source/version
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000462s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000321s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000360s ]
+
+[ 2017-02-02T13:33:21+08:00 ] 113.200.81.84 /cnconsum/App/Extra/source/version
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000370s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000412s ]
+
+[ 2017-02-02T13:33:21+08:00 ] 113.200.81.84 /cnconsum/App/Extra/Source/tradeIconGet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000376s ]
+SQL: SHOW COLUMNS FROM `cn_trade_icon` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cn_trade_icon`  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000483s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000536s ]
+
+[ 2017-02-02T13:33:21+08:00 ] 113.200.81.84 /cnconsum/App/MerchantType/advert/popupGet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000486s ]
+SQL: SHOW COLUMNS FROM `cn_advert_popup` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cn_advert_popup` WHERE `area` = '西安市雁塔区' AND `state` = 'ONLINE' ORDER BY start_time asc  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000367s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000406s ]
+
+[ 2017-02-02T13:33:21+08:00 ] 113.200.81.84 /cnconsum/App/MerchantType/advert/headlineGet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000478s ]
+SQL: SHOW COLUMNS FROM `cn_advert_headline` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `cn_advert_headline` WHERE `area` = '西安市雁塔区' AND `state` = 'ONLINE' ORDER BY place asc  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000434s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000476s ]
+
+[ 2017-02-02T13:33:21+08:00 ] 113.200.81.84 /cnconsum/App/MerchantType/activity/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000378s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\ActivityController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/ActivityController.class.php 第 127 行.
+SQL: SHOW COLUMNS FROM `cn_activity` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cn_activity` WHERE `eare` = '西安市雁塔区' AND `state` = 'ONLINE'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000435s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000477s ]
+
+[ 2017-02-02T13:33:21+08:00 ] 113.200.81.84 /cnconsum/App/MerchantType/advert/insertGet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000394s ]
+SQL: SHOW COLUMNS FROM `cn_advert_insert` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cn_advert_insert` WHERE `area` = '西安市雁塔区' AND `place` = 1 AND `state` = 'ONLINE' ORDER BY start_time asc  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000444s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000488s ]
+
+[ 2017-02-02T13:33:22+08:00 ] 113.200.81.84 /cnconsum/App/MerchantType/merchant/listGet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000372s ]
+SQL: SHOW COLUMNS FROM `cn_merchant` [ RunTime:0.0008s ]
+SQL: SELECT `muid`,`phone`,`store`,`image_url`,`longtitude`,`latitude` FROM `cn_merchant` WHERE `address` LIKE '%西安市雁塔区%' LIMIT 0,5   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `cn_evaluate` [ RunTime:0.0006s ]
+SQL: SELECT AVG(stars) AS tp_avg FROM `cn_evaluate` WHERE `merchant` = 'm_d7c116a9cc' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `cn_user_card` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_user_card` WHERE `merchant` = 'm_d7c116a9cc' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `cn_merchant_card` [ RunTime:0.0004s ]
+SQL: SELECT MIN(rule) AS tp_min FROM `cn_merchant_card` WHERE `merchant` = 'm_d7c116a9cc' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT MAX(addition_sum) AS tp_max FROM `cn_merchant_card` WHERE `merchant` = 'm_d7c116a9cc' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT AVG(stars) AS tp_avg FROM `cn_evaluate` WHERE `merchant` = 'm_online01' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_user_card` WHERE `merchant` = 'm_online01' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT MIN(rule) AS tp_min FROM `cn_merchant_card` WHERE `merchant` = 'm_online01' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT MAX(addition_sum) AS tp_max FROM `cn_merchant_card` WHERE `merchant` = 'm_online01' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT AVG(stars) AS tp_avg FROM `cn_evaluate` WHERE `merchant` = 'm_online04' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_user_card` WHERE `merchant` = 'm_online04' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT MIN(rule) AS tp_min FROM `cn_merchant_card` WHERE `merchant` = 'm_online04' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT MAX(addition_sum) AS tp_max FROM `cn_merchant_card` WHERE `merchant` = 'm_online04' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT AVG(stars) AS tp_avg FROM `cn_evaluate` WHERE `merchant` = 'm_test01' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_user_card` WHERE `merchant` = 'm_test01' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT MIN(rule) AS tp_min FROM `cn_merchant_card` WHERE `merchant` = 'm_test01' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT MAX(addition_sum) AS tp_max FROM `cn_merchant_card` WHERE `merchant` = 'm_test01' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT AVG(stars) AS tp_avg FROM `cn_evaluate` WHERE `merchant` = 'm_test013' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_user_card` WHERE `merchant` = 'm_test013' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT MIN(rule) AS tp_min FROM `cn_merchant_card` WHERE `merchant` = 'm_test013' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT MAX(addition_sum) AS tp_max FROM `cn_merchant_card` WHERE `merchant` = 'm_test013' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000424s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000498s ]
+
+[ 2017-02-02T13:33:40+08:00 ] 113.200.81.84 /cnconsum/App/MerchantType/search/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000586s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\SearchController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/SearchController.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `cn_merchant` [ RunTime:0.0011s ]
+SQL: SELECT `muid`,`phone`,`store`,`image_url`,`longtitude`,`latitude` FROM `cn_merchant` WHERE `address` LIKE '%西安市长安区%' AND `trade` LIKE '%%' LIMIT 0,10   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `cn_evaluate` [ RunTime:0.0006s ]
+SQL: SELECT AVG(stars) AS tp_avg FROM `cn_evaluate` WHERE `merchant` = 'm_test018' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `cn_user_card` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_user_card` WHERE `merchant` = 'm_test018' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `cn_merchant_card` [ RunTime:0.0005s ]
+SQL: SELECT MIN(rule) AS tp_min FROM `cn_merchant_card` WHERE `merchant` = 'm_test018' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT MAX(addition_sum) AS tp_max FROM `cn_merchant_card` WHERE `merchant` = 'm_test018' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT AVG(stars) AS tp_avg FROM `cn_evaluate` WHERE `merchant` = 'm_test040' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_user_card` WHERE `merchant` = 'm_test040' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT MIN(rule) AS tp_min FROM `cn_merchant_card` WHERE `merchant` = 'm_test040' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT MAX(addition_sum) AS tp_max FROM `cn_merchant_card` WHERE `merchant` = 'm_test040' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT AVG(stars) AS tp_avg FROM `cn_evaluate` WHERE `merchant` = 'm_test07' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_user_card` WHERE `merchant` = 'm_test07' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT MIN(rule) AS tp_min FROM `cn_merchant_card` WHERE `merchant` = 'm_test07' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT MAX(addition_sum) AS tp_max FROM `cn_merchant_card` WHERE `merchant` = 'm_test07' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000508s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000577s ]
+
+[ 2017-02-02T13:33:40+08:00 ] 113.200.81.84 /cnconsum/App/MerchantType/search/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000753s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\SearchController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/SearchController.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `cn_merchant` [ RunTime:0.0008s ]
+SQL: SELECT `muid`,`phone`,`store`,`image_url`,`longtitude`,`latitude` FROM `cn_merchant` WHERE `address` LIKE '%西安市长安区%' AND `trade` LIKE '%%' LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `cn_evaluate` [ RunTime:0.0005s ]
+SQL: SELECT AVG(stars) AS tp_avg FROM `cn_evaluate` WHERE `merchant` = 'm_test018' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `cn_user_card` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_user_card` WHERE `merchant` = 'm_test018' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `cn_merchant_card` [ RunTime:0.0005s ]
+SQL: SELECT MIN(rule) AS tp_min FROM `cn_merchant_card` WHERE `merchant` = 'm_test018' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT MAX(addition_sum) AS tp_max FROM `cn_merchant_card` WHERE `merchant` = 'm_test018' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT AVG(stars) AS tp_avg FROM `cn_evaluate` WHERE `merchant` = 'm_test040' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_user_card` WHERE `merchant` = 'm_test040' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT MIN(rule) AS tp_min FROM `cn_merchant_card` WHERE `merchant` = 'm_test040' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT MAX(addition_sum) AS tp_max FROM `cn_merchant_card` WHERE `merchant` = 'm_test040' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT AVG(stars) AS tp_avg FROM `cn_evaluate` WHERE `merchant` = 'm_test07' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_user_card` WHERE `merchant` = 'm_test07' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT MIN(rule) AS tp_min FROM `cn_merchant_card` WHERE `merchant` = 'm_test07' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT MAX(addition_sum) AS tp_max FROM `cn_merchant_card` WHERE `merchant` = 'm_test07' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000449s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000491s ]
+
+[ 2017-02-02T13:33:41+08:00 ] 113.200.81.84 /cnconsum/App/UserType/CardMarket/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000374s ]
+NOTIC: [2048] Declaration of App\Controller\UserType\CardMarketController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/UserType/CardMarketController.class.php 第 241 行.
+SQL: SHOW COLUMNS FROM `cn_card_market` [ RunTime:0.0007s ]
+SQL: SELECT `rule`,`card_code`,`headimage`,cn_merchant.muid,cn_user.uuid,`method`,`nickname`,cn_card_market.datetime,`store`,`card_remain`,`card_level`,`card_type`,`rate`,cn_merchant.address FROM `cn_card_market` INNER JOIN cn_user ON cn_user.uuid = cn_card_market.uuid INNER JOIN cn_merchant ON cn_merchant.muid = cn_card_market.muid  WHERE `method` = 'transfer' AND cn_merchant.address LIKE '%西安市%' LIMIT 0,1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000484s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000533s ]
+
+[ 2017-02-02T13:33:43+08:00 ] 113.200.81.84 /cnconsum/App/Extra/source/share
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000440s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000389s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000431s ]
+
+[ 2017-02-02T13:33:47+08:00 ] 113.200.81.84 /cnconsum/App/UserType/CardMarket/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000432s ]
+NOTIC: [2048] Declaration of App\Controller\UserType\CardMarketController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/UserType/CardMarketController.class.php 第 241 行.
+SQL: SHOW COLUMNS FROM `cn_card_market` [ RunTime:0.0007s ]
+SQL: SELECT `rule`,`card_code`,`headimage`,cn_merchant.muid,cn_user.uuid,`method`,`nickname`,cn_card_market.datetime,`store`,`card_remain`,`card_level`,`card_type`,`rate`,cn_merchant.address FROM `cn_card_market` INNER JOIN cn_user ON cn_user.uuid = cn_card_market.uuid INNER JOIN cn_merchant ON cn_merchant.muid = cn_card_market.muid  WHERE `method` = 'transfer' AND cn_merchant.address LIKE '%西安市%' LIMIT 0,1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000397s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000445s ]
+
+[ 2017-02-02T13:33:57+08:00 ] 113.200.81.84 /cnconsum/App/UserType/CardMarket/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000411s ]
+NOTIC: [2048] Declaration of App\Controller\UserType\CardMarketController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/UserType/CardMarketController.class.php 第 241 行.
+SQL: SHOW COLUMNS FROM `cn_card_market` [ RunTime:0.0008s ]
+SQL: SELECT `rule`,`card_code`,`headimage`,cn_merchant.muid,cn_user.uuid,`method`,`nickname`,cn_card_market.datetime,`store`,`card_remain`,`card_level`,`card_type`,`rate`,cn_merchant.address FROM `cn_card_market` INNER JOIN cn_user ON cn_user.uuid = cn_card_market.uuid INNER JOIN cn_merchant ON cn_merchant.muid = cn_card_market.muid  WHERE `method` = 'share' AND cn_merchant.address LIKE '%西安市%' LIMIT 0,1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000447s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000504s ]
+
+[ 2017-02-02T13:33:58+08:00 ] 113.200.81.84 /cnconsum/App/UserType/CardMarket/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000420s ]
+NOTIC: [2048] Declaration of App\Controller\UserType\CardMarketController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/UserType/CardMarketController.class.php 第 241 行.
+SQL: SHOW COLUMNS FROM `cn_card_market` [ RunTime:0.0027s ]
+SQL: SELECT `rule`,`card_code`,`headimage`,cn_merchant.muid,cn_user.uuid,`method`,`nickname`,cn_card_market.datetime,`store`,`card_remain`,`card_level`,`card_type`,`rate`,cn_merchant.address FROM `cn_card_market` INNER JOIN cn_user ON cn_user.uuid = cn_card_market.uuid INNER JOIN cn_merchant ON cn_merchant.muid = cn_card_market.muid  WHERE `method` = 'transfer' AND cn_merchant.address LIKE '%西安市%' LIMIT 0,1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000407s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000450s ]
+
+[ 2017-02-02T13:34:04+08:00 ] 113.200.81.84 /cnconsum/App/MerchantType/search/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000586s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\SearchController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/SearchController.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `cn_merchant` [ RunTime:0.0009s ]
+SQL: SELECT `muid`,`phone`,`store`,`image_url`,`longtitude`,`latitude` FROM `cn_merchant` WHERE `address` LIKE '%西安%' AND `trade` LIKE '%%' LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `cn_evaluate` [ RunTime:0.0006s ]
+SQL: SELECT AVG(stars) AS tp_avg FROM `cn_evaluate` WHERE `merchant` = 'm_d7c116a9cc' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `cn_user_card` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_user_card` WHERE `merchant` = 'm_d7c116a9cc' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `cn_merchant_card` [ RunTime:0.0005s ]
+SQL: SELECT MIN(rule) AS tp_min FROM `cn_merchant_card` WHERE `merchant` = 'm_d7c116a9cc' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT MAX(addition_sum) AS tp_max FROM `cn_merchant_card` WHERE `merchant` = 'm_d7c116a9cc' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT AVG(stars) AS tp_avg FROM `cn_evaluate` WHERE `merchant` = 'm_online01' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_user_card` WHERE `merchant` = 'm_online01' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT MIN(rule) AS tp_min FROM `cn_merchant_card` WHERE `merchant` = 'm_online01' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT MAX(addition_sum) AS tp_max FROM `cn_merchant_card` WHERE `merchant` = 'm_online01' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT AVG(stars) AS tp_avg FROM `cn_evaluate` WHERE `merchant` = 'm_online03' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_user_card` WHERE `merchant` = 'm_online03' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT MIN(rule) AS tp_min FROM `cn_merchant_card` WHERE `merchant` = 'm_online03' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT MAX(addition_sum) AS tp_max FROM `cn_merchant_card` WHERE `merchant` = 'm_online03' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT AVG(stars) AS tp_avg FROM `cn_evaluate` WHERE `merchant` = 'm_online04' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_user_card` WHERE `merchant` = 'm_online04' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT MIN(rule) AS tp_min FROM `cn_merchant_card` WHERE `merchant` = 'm_online04' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT MAX(addition_sum) AS tp_max FROM `cn_merchant_card` WHERE `merchant` = 'm_online04' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT AVG(stars) AS tp_avg FROM `cn_evaluate` WHERE `merchant` = 'm_test00' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_user_card` WHERE `merchant` = 'm_test00' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT MIN(rule) AS tp_min FROM `cn_merchant_card` WHERE `merchant` = 'm_test00' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT MAX(addition_sum) AS tp_max FROM `cn_merchant_card` WHERE `merchant` = 'm_test00' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT AVG(stars) AS tp_avg FROM `cn_evaluate` WHERE `merchant` = 'm_test01' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_user_card` WHERE `merchant` = 'm_test01' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT MIN(rule) AS tp_min FROM `cn_merchant_card` WHERE `merchant` = 'm_test01' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT MAX(addition_sum) AS tp_max FROM `cn_merchant_card` WHERE `merchant` = 'm_test01' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT AVG(stars) AS tp_avg FROM `cn_evaluate` WHERE `merchant` = 'm_test010' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_user_card` WHERE `merchant` = 'm_test010' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT MIN(rule) AS tp_min FROM `cn_merchant_card` WHERE `merchant` = 'm_test010' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT MAX(addition_sum) AS tp_max FROM `cn_merchant_card` WHERE `merchant` = 'm_test010' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT AVG(stars) AS tp_avg FROM `cn_evaluate` WHERE `merchant` = 'm_test011' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_user_card` WHERE `merchant` = 'm_test011' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT MIN(rule) AS tp_min FROM `cn_merchant_card` WHERE `merchant` = 'm_test011' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT MAX(addition_sum) AS tp_max FROM `cn_merchant_card` WHERE `merchant` = 'm_test011' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT AVG(stars) AS tp_avg FROM `cn_evaluate` WHERE `merchant` = 'm_test012' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_user_card` WHERE `merchant` = 'm_test012' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT MIN(rule) AS tp_min FROM `cn_merchant_card` WHERE `merchant` = 'm_test012' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT MAX(addition_sum) AS tp_max FROM `cn_merchant_card` WHERE `merchant` = 'm_test012' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT AVG(stars) AS tp_avg FROM `cn_evaluate` WHERE `merchant` = 'm_test013' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_user_card` WHERE `merchant` = 'm_test013' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT MIN(rule) AS tp_min FROM `cn_merchant_card` WHERE `merchant` = 'm_test013' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT MAX(addition_sum) AS tp_max FROM `cn_merchant_card` WHERE `merchant` = 'm_test013' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000468s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000513s ]
+
+[ 2017-02-02T13:34:04+08:00 ] 113.200.81.84 /cnconsum/App/MerchantType/search/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000580s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\SearchController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/SearchController.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `cn_merchant` [ RunTime:0.0007s ]
+SQL: SELECT `muid`,`phone`,`store`,`image_url`,`longtitude`,`latitude` FROM `cn_merchant` WHERE `address` LIKE '%西安%' AND `trade` LIKE '%%' LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `cn_evaluate` [ RunTime:0.0005s ]
+SQL: SELECT AVG(stars) AS tp_avg FROM `cn_evaluate` WHERE `merchant` = 'm_d7c116a9cc' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `cn_user_card` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_user_card` WHERE `merchant` = 'm_d7c116a9cc' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `cn_merchant_card` [ RunTime:0.0005s ]
+SQL: SELECT MIN(rule) AS tp_min FROM `cn_merchant_card` WHERE `merchant` = 'm_d7c116a9cc' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT MAX(addition_sum) AS tp_max FROM `cn_merchant_card` WHERE `merchant` = 'm_d7c116a9cc' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT AVG(stars) AS tp_avg FROM `cn_evaluate` WHERE `merchant` = 'm_online01' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_user_card` WHERE `merchant` = 'm_online01' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT MIN(rule) AS tp_min FROM `cn_merchant_card` WHERE `merchant` = 'm_online01' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT MAX(addition_sum) AS tp_max FROM `cn_merchant_card` WHERE `merchant` = 'm_online01' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT AVG(stars) AS tp_avg FROM `cn_evaluate` WHERE `merchant` = 'm_online03' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_user_card` WHERE `merchant` = 'm_online03' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT MIN(rule) AS tp_min FROM `cn_merchant_card` WHERE `merchant` = 'm_online03' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT MAX(addition_sum) AS tp_max FROM `cn_merchant_card` WHERE `merchant` = 'm_online03' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT AVG(stars) AS tp_avg FROM `cn_evaluate` WHERE `merchant` = 'm_online04' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_user_card` WHERE `merchant` = 'm_online04' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT MIN(rule) AS tp_min FROM `cn_merchant_card` WHERE `merchant` = 'm_online04' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT MAX(addition_sum) AS tp_max FROM `cn_merchant_card` WHERE `merchant` = 'm_online04' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT AVG(stars) AS tp_avg FROM `cn_evaluate` WHERE `merchant` = 'm_test00' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_user_card` WHERE `merchant` = 'm_test00' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT MIN(rule) AS tp_min FROM `cn_merchant_card` WHERE `merchant` = 'm_test00' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT MAX(addition_sum) AS tp_max FROM `cn_merchant_card` WHERE `merchant` = 'm_test00' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT AVG(stars) AS tp_avg FROM `cn_evaluate` WHERE `merchant` = 'm_test01' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_user_card` WHERE `merchant` = 'm_test01' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT MIN(rule) AS tp_min FROM `cn_merchant_card` WHERE `merchant` = 'm_test01' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT MAX(addition_sum) AS tp_max FROM `cn_merchant_card` WHERE `merchant` = 'm_test01' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT AVG(stars) AS tp_avg FROM `cn_evaluate` WHERE `merchant` = 'm_test010' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_user_card` WHERE `merchant` = 'm_test010' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT MIN(rule) AS tp_min FROM `cn_merchant_card` WHERE `merchant` = 'm_test010' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT MAX(addition_sum) AS tp_max FROM `cn_merchant_card` WHERE `merchant` = 'm_test010' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT AVG(stars) AS tp_avg FROM `cn_evaluate` WHERE `merchant` = 'm_test011' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_user_card` WHERE `merchant` = 'm_test011' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT MIN(rule) AS tp_min FROM `cn_merchant_card` WHERE `merchant` = 'm_test011' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT MAX(addition_sum) AS tp_max FROM `cn_merchant_card` WHERE `merchant` = 'm_test011' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT AVG(stars) AS tp_avg FROM `cn_evaluate` WHERE `merchant` = 'm_test012' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_user_card` WHERE `merchant` = 'm_test012' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT MIN(rule) AS tp_min FROM `cn_merchant_card` WHERE `merchant` = 'm_test012' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT MAX(addition_sum) AS tp_max FROM `cn_merchant_card` WHERE `merchant` = 'm_test012' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT AVG(stars) AS tp_avg FROM `cn_evaluate` WHERE `merchant` = 'm_test013' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_user_card` WHERE `merchant` = 'm_test013' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT MIN(rule) AS tp_min FROM `cn_merchant_card` WHERE `merchant` = 'm_test013' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT MAX(addition_sum) AS tp_max FROM `cn_merchant_card` WHERE `merchant` = 'm_test013' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000511s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000556s ]
+
+[ 2017-02-02T13:34:12+08:00 ] 113.200.81.84 /cnconsum/App/Extra/Source/tradeIconGet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000426s ]
+SQL: SHOW COLUMNS FROM `cn_trade_icon` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cn_trade_icon`  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000371s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000419s ]
+
+[ 2017-02-02T13:34:12+08:00 ] 113.200.81.84 /cnconsum/App/MerchantType/advert/headlineGet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000388s ]
+SQL: SHOW COLUMNS FROM `cn_advert_headline` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `cn_advert_headline` WHERE `area` = '西安市雁塔区' AND `state` = 'ONLINE' ORDER BY place asc  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000472s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000515s ]
+
+[ 2017-02-02T13:34:12+08:00 ] 113.200.81.84 /cnconsum/App/MerchantType/activity/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000408s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000607s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\ActivityController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/ActivityController.class.php 第 127 行.
+SQL: SHOW COLUMNS FROM `cn_activity` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cn_activity` WHERE `eare` = '西安市雁塔区' AND `state` = 'ONLINE'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000418s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000467s ]
+
+[ 2017-02-02T13:34:12+08:00 ] 113.200.81.84 /cnconsum/App/MerchantType/advert/insertGet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000505s ]
+SQL: SHOW COLUMNS FROM `cn_advert_insert` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `cn_advert_insert` WHERE `area` = '西安市雁塔区' AND `place` = 1 AND `state` = 'ONLINE' ORDER BY start_time asc  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000646s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000713s ]
+
+[ 2017-02-02T13:34:12+08:00 ] 113.200.81.84 /cnconsum/App/MerchantType/merchant/listGet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000603s ]
+SQL: SHOW COLUMNS FROM `cn_merchant` [ RunTime:0.0012s ]
+SQL: SELECT `muid`,`phone`,`store`,`image_url`,`longtitude`,`latitude` FROM `cn_merchant` WHERE `address` LIKE '%西安市雁塔区%' LIMIT 0,5   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `cn_evaluate` [ RunTime:0.0006s ]
+SQL: SELECT AVG(stars) AS tp_avg FROM `cn_evaluate` WHERE `merchant` = 'm_d7c116a9cc' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `cn_user_card` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_user_card` WHERE `merchant` = 'm_d7c116a9cc' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `cn_merchant_card` [ RunTime:0.0006s ]
+SQL: SELECT MIN(rule) AS tp_min FROM `cn_merchant_card` WHERE `merchant` = 'm_d7c116a9cc' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT MAX(addition_sum) AS tp_max FROM `cn_merchant_card` WHERE `merchant` = 'm_d7c116a9cc' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT AVG(stars) AS tp_avg FROM `cn_evaluate` WHERE `merchant` = 'm_online01' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_user_card` WHERE `merchant` = 'm_online01' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT MIN(rule) AS tp_min FROM `cn_merchant_card` WHERE `merchant` = 'm_online01' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT MAX(addition_sum) AS tp_max FROM `cn_merchant_card` WHERE `merchant` = 'm_online01' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT AVG(stars) AS tp_avg FROM `cn_evaluate` WHERE `merchant` = 'm_online04' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_user_card` WHERE `merchant` = 'm_online04' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT MIN(rule) AS tp_min FROM `cn_merchant_card` WHERE `merchant` = 'm_online04' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT MAX(addition_sum) AS tp_max FROM `cn_merchant_card` WHERE `merchant` = 'm_online04' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT AVG(stars) AS tp_avg FROM `cn_evaluate` WHERE `merchant` = 'm_test01' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_user_card` WHERE `merchant` = 'm_test01' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT MIN(rule) AS tp_min FROM `cn_merchant_card` WHERE `merchant` = 'm_test01' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT MAX(addition_sum) AS tp_max FROM `cn_merchant_card` WHERE `merchant` = 'm_test01' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT AVG(stars) AS tp_avg FROM `cn_evaluate` WHERE `merchant` = 'm_test013' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_user_card` WHERE `merchant` = 'm_test013' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT MIN(rule) AS tp_min FROM `cn_merchant_card` WHERE `merchant` = 'm_test013' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT MAX(addition_sum) AS tp_max FROM `cn_merchant_card` WHERE `merchant` = 'm_test013' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000643s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000718s ]
+
+[ 2017-02-02T13:34:13+08:00 ] 113.200.81.84 /cnconsum/App/Extra/Source/tradeIconGet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000532s ]
+SQL: SHOW COLUMNS FROM `cn_trade_icon` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cn_trade_icon`  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000363s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000412s ]
+
+[ 2017-02-02T13:34:13+08:00 ] 113.200.81.84 /cnconsum/App/MerchantType/advert/headlineGet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000364s ]
+SQL: SHOW COLUMNS FROM `cn_advert_headline` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cn_advert_headline` WHERE `area` = '西安市雁塔区' AND `state` = 'ONLINE' ORDER BY place asc  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000377s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000424s ]
+
+[ 2017-02-02T13:34:13+08:00 ] 113.200.81.84 /cnconsum/App/MerchantType/activity/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000376s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\ActivityController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/ActivityController.class.php 第 127 行.
+SQL: SHOW COLUMNS FROM `cn_activity` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `cn_activity` WHERE `eare` = '西安市雁塔区' AND `state` = 'ONLINE'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000454s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000496s ]
+
+[ 2017-02-02T13:34:14+08:00 ] 113.200.81.84 /cnconsum/App/MerchantType/advert/insertGet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000366s ]
+SQL: SHOW COLUMNS FROM `cn_advert_insert` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `cn_advert_insert` WHERE `area` = '西安市雁塔区' AND `place` = 1 AND `state` = 'ONLINE' ORDER BY start_time asc  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000433s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000479s ]
+
+[ 2017-02-02T13:34:14+08:00 ] 113.200.81.84 /cnconsum/App/MerchantType/merchant/listGet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000362s ]
+SQL: SHOW COLUMNS FROM `cn_merchant` [ RunTime:0.0009s ]
+SQL: SELECT `muid`,`phone`,`store`,`image_url`,`longtitude`,`latitude` FROM `cn_merchant` WHERE `address` LIKE '%西安市雁塔区%' LIMIT 0,5   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `cn_evaluate` [ RunTime:0.0005s ]
+SQL: SELECT AVG(stars) AS tp_avg FROM `cn_evaluate` WHERE `merchant` = 'm_d7c116a9cc' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `cn_user_card` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_user_card` WHERE `merchant` = 'm_d7c116a9cc' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `cn_merchant_card` [ RunTime:0.0005s ]
+SQL: SELECT MIN(rule) AS tp_min FROM `cn_merchant_card` WHERE `merchant` = 'm_d7c116a9cc' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT MAX(addition_sum) AS tp_max FROM `cn_merchant_card` WHERE `merchant` = 'm_d7c116a9cc' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT AVG(stars) AS tp_avg FROM `cn_evaluate` WHERE `merchant` = 'm_online01' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_user_card` WHERE `merchant` = 'm_online01' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT MIN(rule) AS tp_min FROM `cn_merchant_card` WHERE `merchant` = 'm_online01' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT MAX(addition_sum) AS tp_max FROM `cn_merchant_card` WHERE `merchant` = 'm_online01' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT AVG(stars) AS tp_avg FROM `cn_evaluate` WHERE `merchant` = 'm_online04' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_user_card` WHERE `merchant` = 'm_online04' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT MIN(rule) AS tp_min FROM `cn_merchant_card` WHERE `merchant` = 'm_online04' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT MAX(addition_sum) AS tp_max FROM `cn_merchant_card` WHERE `merchant` = 'm_online04' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT AVG(stars) AS tp_avg FROM `cn_evaluate` WHERE `merchant` = 'm_test01' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_user_card` WHERE `merchant` = 'm_test01' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT MIN(rule) AS tp_min FROM `cn_merchant_card` WHERE `merchant` = 'm_test01' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT MAX(addition_sum) AS tp_max FROM `cn_merchant_card` WHERE `merchant` = 'm_test01' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT AVG(stars) AS tp_avg FROM `cn_evaluate` WHERE `merchant` = 'm_test013' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_user_card` WHERE `merchant` = 'm_test013' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT MIN(rule) AS tp_min FROM `cn_merchant_card` WHERE `merchant` = 'm_test013' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT MAX(addition_sum) AS tp_max FROM `cn_merchant_card` WHERE `merchant` = 'm_test013' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000402s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000452s ]
+
+[ 2017-02-02T13:34:15+08:00 ] 113.200.81.84 /cnconsum/App/Extra/Source/tradeIconGet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000388s ]
+SQL: SHOW COLUMNS FROM `cn_trade_icon` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cn_trade_icon`  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000409s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000450s ]
+
+[ 2017-02-02T13:34:15+08:00 ] 113.200.81.84 /cnconsum/App/MerchantType/advert/headlineGet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000402s ]
+SQL: SHOW COLUMNS FROM `cn_advert_headline` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `cn_advert_headline` WHERE `area` = '西安市雁塔区' AND `state` = 'ONLINE' ORDER BY place asc  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000498s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000563s ]
+
+[ 2017-02-02T13:34:15+08:00 ] 113.200.81.84 /cnconsum/App/MerchantType/activity/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000375s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\ActivityController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/ActivityController.class.php 第 127 行.
+SQL: SHOW COLUMNS FROM `cn_activity` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `cn_activity` WHERE `eare` = '西安市雁塔区' AND `state` = 'ONLINE'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000535s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000591s ]
+
+[ 2017-02-02T13:34:15+08:00 ] 113.200.81.84 /cnconsum/App/MerchantType/advert/insertGet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+SQL: SHOW COLUMNS FROM `cn_advert_insert` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cn_advert_insert` WHERE `area` = '西安市雁塔区' AND `place` = 1 AND `state` = 'ONLINE' ORDER BY start_time asc  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000454s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000498s ]
+
+[ 2017-02-02T13:34:16+08:00 ] 113.200.81.84 /cnconsum/App/MerchantType/merchant/listGet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000402s ]
+SQL: SHOW COLUMNS FROM `cn_merchant` [ RunTime:0.0009s ]
+SQL: SELECT `muid`,`phone`,`store`,`image_url`,`longtitude`,`latitude` FROM `cn_merchant` WHERE `address` LIKE '%西安市雁塔区%' LIMIT 0,5   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `cn_evaluate` [ RunTime:0.0005s ]
+SQL: SELECT AVG(stars) AS tp_avg FROM `cn_evaluate` WHERE `merchant` = 'm_d7c116a9cc' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `cn_user_card` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_user_card` WHERE `merchant` = 'm_d7c116a9cc' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `cn_merchant_card` [ RunTime:0.0005s ]
+SQL: SELECT MIN(rule) AS tp_min FROM `cn_merchant_card` WHERE `merchant` = 'm_d7c116a9cc' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT MAX(addition_sum) AS tp_max FROM `cn_merchant_card` WHERE `merchant` = 'm_d7c116a9cc' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT AVG(stars) AS tp_avg FROM `cn_evaluate` WHERE `merchant` = 'm_online01' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_user_card` WHERE `merchant` = 'm_online01' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT MIN(rule) AS tp_min FROM `cn_merchant_card` WHERE `merchant` = 'm_online01' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT MAX(addition_sum) AS tp_max FROM `cn_merchant_card` WHERE `merchant` = 'm_online01' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT AVG(stars) AS tp_avg FROM `cn_evaluate` WHERE `merchant` = 'm_online04' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_user_card` WHERE `merchant` = 'm_online04' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT MIN(rule) AS tp_min FROM `cn_merchant_card` WHERE `merchant` = 'm_online04' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT MAX(addition_sum) AS tp_max FROM `cn_merchant_card` WHERE `merchant` = 'm_online04' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT AVG(stars) AS tp_avg FROM `cn_evaluate` WHERE `merchant` = 'm_test01' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_user_card` WHERE `merchant` = 'm_test01' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT MIN(rule) AS tp_min FROM `cn_merchant_card` WHERE `merchant` = 'm_test01' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT MAX(addition_sum) AS tp_max FROM `cn_merchant_card` WHERE `merchant` = 'm_test01' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT AVG(stars) AS tp_avg FROM `cn_evaluate` WHERE `merchant` = 'm_test013' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_user_card` WHERE `merchant` = 'm_test013' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT MIN(rule) AS tp_min FROM `cn_merchant_card` WHERE `merchant` = 'm_test013' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT MAX(addition_sum) AS tp_max FROM `cn_merchant_card` WHERE `merchant` = 'm_test013' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000554s ]
+
+[ 2017-02-02T13:34:18+08:00 ] 113.200.81.84 /cnconsum/App/Extra/Source/tradeIconGet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000428s ]
+SQL: SHOW COLUMNS FROM `cn_trade_icon` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cn_trade_icon`  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000409s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000499s ]
+
+[ 2017-02-02T13:34:18+08:00 ] 113.200.81.84 /cnconsum/App/MerchantType/advert/headlineGet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000395s ]
+SQL: SHOW COLUMNS FROM `cn_advert_headline` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cn_advert_headline` WHERE `area` = '西安市雁塔区' AND `state` = 'ONLINE' ORDER BY place asc  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000362s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000403s ]
+
+[ 2017-02-02T13:34:18+08:00 ] 113.200.81.84 /cnconsum/App/MerchantType/activity/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000404s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\ActivityController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/ActivityController.class.php 第 127 行.
+SQL: SHOW COLUMNS FROM `cn_activity` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `cn_activity` WHERE `eare` = '西安市雁塔区' AND `state` = 'ONLINE'  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000412s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000465s ]
+
+[ 2017-02-02T13:34:18+08:00 ] 113.200.81.84 /cnconsum/App/MerchantType/advert/insertGet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000366s ]
+SQL: SHOW COLUMNS FROM `cn_advert_insert` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `cn_advert_insert` WHERE `area` = '西安市雁塔区' AND `place` = 1 AND `state` = 'ONLINE' ORDER BY start_time asc  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000413s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000456s ]
+
+[ 2017-02-02T13:34:18+08:00 ] 113.200.81.84 /cnconsum/App/MerchantType/merchant/listGet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000366s ]
+SQL: SHOW COLUMNS FROM `cn_merchant` [ RunTime:0.0008s ]
+SQL: SELECT `muid`,`phone`,`store`,`image_url`,`longtitude`,`latitude` FROM `cn_merchant` WHERE `address` LIKE '%西安市雁塔区%' LIMIT 0,5   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `cn_evaluate` [ RunTime:0.0005s ]
+SQL: SELECT AVG(stars) AS tp_avg FROM `cn_evaluate` WHERE `merchant` = 'm_d7c116a9cc' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `cn_user_card` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_user_card` WHERE `merchant` = 'm_d7c116a9cc' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `cn_merchant_card` [ RunTime:0.0005s ]
+SQL: SELECT MIN(rule) AS tp_min FROM `cn_merchant_card` WHERE `merchant` = 'm_d7c116a9cc' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT MAX(addition_sum) AS tp_max FROM `cn_merchant_card` WHERE `merchant` = 'm_d7c116a9cc' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT AVG(stars) AS tp_avg FROM `cn_evaluate` WHERE `merchant` = 'm_online01' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_user_card` WHERE `merchant` = 'm_online01' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT MIN(rule) AS tp_min FROM `cn_merchant_card` WHERE `merchant` = 'm_online01' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT MAX(addition_sum) AS tp_max FROM `cn_merchant_card` WHERE `merchant` = 'm_online01' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT AVG(stars) AS tp_avg FROM `cn_evaluate` WHERE `merchant` = 'm_online04' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_user_card` WHERE `merchant` = 'm_online04' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT MIN(rule) AS tp_min FROM `cn_merchant_card` WHERE `merchant` = 'm_online04' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT MAX(addition_sum) AS tp_max FROM `cn_merchant_card` WHERE `merchant` = 'm_online04' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT AVG(stars) AS tp_avg FROM `cn_evaluate` WHERE `merchant` = 'm_test01' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_user_card` WHERE `merchant` = 'm_test01' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT MIN(rule) AS tp_min FROM `cn_merchant_card` WHERE `merchant` = 'm_test01' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT MAX(addition_sum) AS tp_max FROM `cn_merchant_card` WHERE `merchant` = 'm_test01' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT AVG(stars) AS tp_avg FROM `cn_evaluate` WHERE `merchant` = 'm_test013' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_user_card` WHERE `merchant` = 'm_test013' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT MIN(rule) AS tp_min FROM `cn_merchant_card` WHERE `merchant` = 'm_test013' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT MAX(addition_sum) AS tp_max FROM `cn_merchant_card` WHERE `merchant` = 'm_test013' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000360s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000427s ]
+
+[ 2017-02-02T13:34:24+08:00 ] 113.200.81.84 /cnconsum/App/Extra/Source/tradeIconGet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000371s ]
+SQL: SHOW COLUMNS FROM `cn_trade_icon` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cn_trade_icon`  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000508s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000562s ]
+
+[ 2017-02-02T13:34:24+08:00 ] 113.200.81.84 /cnconsum/App/MerchantType/advert/headlineGet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000364s ]
+SQL: SHOW COLUMNS FROM `cn_advert_headline` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cn_advert_headline` WHERE `area` = '西安市雁塔区' AND `state` = 'ONLINE' ORDER BY place asc  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000384s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000426s ]
+
+[ 2017-02-02T13:34:24+08:00 ] 113.200.81.84 /cnconsum/App/MerchantType/activity/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000378s ]
+NOTIC: [2048] Declaration of App\Controller\MerchantType\ActivityController::get() should be compatible with Think\Controller::get($name = '') /var/www/html/cnconsum/Project/App/Controller/MerchantType/ActivityController.class.php 第 127 行.
+SQL: SHOW COLUMNS FROM `cn_activity` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cn_activity` WHERE `eare` = '西安市雁塔区' AND `state` = 'ONLINE'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000414s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000461s ]
+
+[ 2017-02-02T13:34:24+08:00 ] 113.200.81.84 /cnconsum/App/MerchantType/advert/insertGet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000372s ]
+SQL: SHOW COLUMNS FROM `cn_advert_insert` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cn_advert_insert` WHERE `area` = '西安市雁塔区' AND `place` = 1 AND `state` = 'ONLINE' ORDER BY start_time asc  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000398s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000460s ]
+
+[ 2017-02-02T13:34:24+08:00 ] 113.200.81.84 /cnconsum/App/MerchantType/merchant/listGet
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000411s ]
+SQL: SHOW COLUMNS FROM `cn_merchant` [ RunTime:0.0008s ]
+SQL: SELECT `muid`,`phone`,`store`,`image_url`,`longtitude`,`latitude` FROM `cn_merchant` WHERE `address` LIKE '%西安市雁塔区%' LIMIT 0,5   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `cn_evaluate` [ RunTime:0.0005s ]
+SQL: SELECT AVG(stars) AS tp_avg FROM `cn_evaluate` WHERE `merchant` = 'm_d7c116a9cc' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `cn_user_card` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_user_card` WHERE `merchant` = 'm_d7c116a9cc' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `cn_merchant_card` [ RunTime:0.0005s ]
+SQL: SELECT MIN(rule) AS tp_min FROM `cn_merchant_card` WHERE `merchant` = 'm_d7c116a9cc' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT MAX(addition_sum) AS tp_max FROM `cn_merchant_card` WHERE `merchant` = 'm_d7c116a9cc' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT AVG(stars) AS tp_avg FROM `cn_evaluate` WHERE `merchant` = 'm_online01' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_user_card` WHERE `merchant` = 'm_online01' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT MIN(rule) AS tp_min FROM `cn_merchant_card` WHERE `merchant` = 'm_online01' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT MAX(addition_sum) AS tp_max FROM `cn_merchant_card` WHERE `merchant` = 'm_online01' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT AVG(stars) AS tp_avg FROM `cn_evaluate` WHERE `merchant` = 'm_online04' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_user_card` WHERE `merchant` = 'm_online04' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT MIN(rule) AS tp_min FROM `cn_merchant_card` WHERE `merchant` = 'm_online04' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT MAX(addition_sum) AS tp_max FROM `cn_merchant_card` WHERE `merchant` = 'm_online04' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT AVG(stars) AS tp_avg FROM `cn_evaluate` WHERE `merchant` = 'm_test01' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_user_card` WHERE `merchant` = 'm_test01' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT MIN(rule) AS tp_min FROM `cn_merchant_card` WHERE `merchant` = 'm_test01' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT MAX(addition_sum) AS tp_max FROM `cn_merchant_card` WHERE `merchant` = 'm_test01' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT AVG(stars) AS tp_avg FROM `cn_evaluate` WHERE `merchant` = 'm_test013' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_user_card` WHERE `merchant` = 'm_test013' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT MIN(rule) AS tp_min FROM `cn_merchant_card` WHERE `merchant` = 'm_test013' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT MAX(addition_sum) AS tp_max FROM `cn_merchant_card` WHERE `merchant` = 'm_test013' AND `type` = '储值卡' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000432s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000479s ]
+

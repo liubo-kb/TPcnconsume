@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=uft-8" />
+<title>商户审核</title>
+<load href="__PUBLIC__/css/table.css"/>
+</head>
+<body>
+<div>
+	<h1 align='center'>商户列表</h1>
+	<table class ='gridtable' cellpadding = '10'>
+	<tr>
+		<volist name='table_head' id='head'>	
+			<th>{$head}</th>
+		</volist> 
+	</tr>
+
+	<volist name='list' id='merchant'>
+	<tr>	
+		<volist name='row_index' id='row'>
+		<td>{$merchant.$row}</td>
+		</volist>
+	</tr>
+	</volist>
+	</table>
+	<br/>
+	<div>
+		{$page}
+	</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,6 @@
+[ 2016-08-25T00:01:16+08:00 ] 113.200.27.30 /MyThinkPHP/index.php/m=home&a=merchant
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+ERR: 无法加载模块:M=home&a=merchant
+

@@ -1,0 +1,150 @@
+<!--    页面头部        -->
+<include file = "Public/header" />
+
+<!--	资源文件	-->
+<link rel="stylesheet" href="__PUBLIC__/css/merchant/uploadify.css">
+<link rel="stylesheet" href="__PUBLIC__/css/merchant/workcenter.css">
+<script src="__PUBLIC__/js/merchant/jquery.uploadify.min.js"></script>
+<script src="__PUBLIC__/js/merchant/upload.js"></script>
+<script src="__PUBLIC__/js/merchant/script.js"></script>
+<script>
+$(function(){
+	$(".formatbar label *").click(function(){
+		$(".formatbar label").attr('class','lb-fm');
+		$(this).parents('label').attr('class','lb-fm-c');
+		$(this).parents('label').find('input').attr('checked','checked');
+	});
+	
+	$('#imgfile').uploadify({
+		'width': 95,
+		'height': 30,
+		'buttonClass': 'btn-up1',
+		'buttonText':'点击上传',
+		'auto': true,
+		'fileTypeExts'  : '*.jpg;*.jpge;*.gif;*.png',
+		'fileSizeLimit' : '2MB',
+		'queueID' : 'list1',
+		'swf'      : '__PUBLIC__/swf/uploadify.swf',
+		'uploader' : '../upload/upload',
+		//上传时携带的数据
+                'formData' : { 'name' : '{$img}' , 'type' : 'merchantInfo'},
+
+		'overrideEvents': ['onSelectError','onDialogClose'],
+		'onSelectError':function(file, errorCode, errorMsg){
+            switch(errorCode) {
+                case -110:
+                    alert("文件大小超出系统限制");
+                    break;
+                case -120:
+                    alert("文件大小异常！");
+                    break;
+                case -130:
+                    alert("文件类型不正确！");
+                    break;
+            }
+        },
+        'onUploadSuccess':function(file,data,response){
+        	$('#list1').html('');
+        	$('#picfile').val(1);
+        	$('#imgview').attr('src','__PUBLIC__/Uploads/merchantInfoImage/{$img}.png');
+        }
+	});
+})
+</script>
+
+<div class="container clearfix">
+	<!--        左侧菜单        -->
+    <include file = "Public/menu" />
+	
+    <div class="con">
+    	<p class="navinfo"><img src="__PUBLIC__/image/merchant/isjjs.png" />&nbsp;&nbsp;商家介绍</p>
+        <div class="cinfo" style="margin-top: 55px;">
+    		<form action="../Imgtxt/add" method="post" id="form-infos">
+    		<div class="tr-tal">
+    			<label>选择版式：</label>
+    			<div>
+    				<div class="formatbar clearfix">
+    					<label for="fm1" class="lb-fm-c">
+    						<p class="fmbox">
+    							<span class="fup">版式</span><br>
+    							<span class="fdw">01</span><br>
+    							<input type="radio" name="type" id="fm1" value="0" checked="checked" />
+    						</p>
+    						<p class="imgf">
+    							<img src="__PUBLIC__/image/merchant/bs01.gif" class="img-fm1" />
+    							<span>商户是指有实体经营场所的商家；如知识营销、网络营销、绿色营销、个性化营销、创新营销、整合营销、消费联盟营销、等营销商家。 </span>
+    						</p>
+    					</label>
+    					<label for="fm2" class="lb-fm">
+    						<p class="fmbox">
+    							<span class="fup">版式</span><br>
+    							<span class="fdw">02</span><br>
+    							<input type="radio" name="type" id="fm2" value="1" />
+    						</p>
+    						<p class="imgf">
+    							<img src="__PUBLIC__/image/merchant/bs02.gif" class="img-fm2" />
+    							<span>商户是指有实体经营场所的商家；如知识营销、网络营销、绿色营销、个性化营销、创新营销、整合营销、消费联盟营销、等营销商家。 </span>
+    						</p>
+    					</label>
+    					<label for="fm3" class="lb-fm">
+    						<p class="fmbox">
+    							<span class="fup">版式</span><br>
+    							<span class="fdw">03</span><br>
+    							<input type="radio" name="type" id="fm3" value="2" />
+    						</p>
+    						<p class="imgf">
+    							<img src="__PUBLIC__/image/merchant/bs03.gif" class="img-fm3" /><br>
+    							<span>商户是指有实体经营场所的商家。</span>
+    						</p>
+    					</label>
+    					<label for="fm4" class="lb-fm">
+    						<p class="fmbox">
+    							<span class="fup">版式</span><br>
+    							<span class="fdw">04</span><br>
+    							<input type="radio" name="type" id="fm4" value="3" />
+    						</p>
+    						<p class="imgf">
+    							<img src="__PUBLIC__/image/merchant/bs04.gif" class="img-fm4" />
+    						</p>
+    					</label>
+    				</div>
+    			</div>
+		    </div>
+		    <div class="tr-tal">
+		        <label>上传图片：</label>
+		        <div>
+		        	<div class="box-up clearfix">
+					<div class="box-up-intro">
+						<div class="box-view">
+							<img src="__PUBLIC__/image/merchant/loadup.jpg" id="imgview" width="145" height="82" />
+							<div id="list1" class="queuew"></div>
+						</div>
+						<div class="box-upbtn">
+							<input id="imgfile" type="file" multiple="false">
+							<input type="hidden" name="picfile" id="picfile" />
+						</div>
+					</div>
+					</div>
+		        </div>
+		    </div>
+		    <div class="tr-tal">
+		        <label>简介：</label>
+		        <div>
+		            <textarea name="content" class="txtarea" rows="4" cols="42"></textarea>
+			    <input name='image_url' value='{$img}.png' style="display:none"/>
+		        </div>
+		    </div>
+		    <div class="tr-tal" style="margin-top: 50px;">
+		        <label>&nbsp;</label>
+		        <div>
+		        	<input type="submit" class="btn-fsub" value="确定" />&nbsp;&nbsp;&nbsp;&nbsp;
+    				<input type="button" class="btn-freset" value="返回" onclick="javascript:window.location='../Business/sjjs'" />
+		        </div>
+		    </div>
+    		</form>
+        </div>
+    </div>
+</div>
+
+<!--    页面尾部        -->
+<include file = "Public/footer" />

@@ -1,0 +1,66 @@
+<!--    页面头部        -->
+<include file = "Public/header" />
+
+<!--	资源文件	-->
+<link rel="stylesheet" href="__PUBLIC__/css/merchant/workcenter.css"/>
+
+<div class="container clearfix">
+
+	<!--        左侧菜单        -->
+    <include file = "Public/menu" />
+	
+    <div class="con">
+    	<p class="navinfo"><img src="__PUBLIC__/image/merchant/isjjs.png" />&nbsp;&nbsp;商家介绍</p>
+        <div class="cinfo" style="margin-top: 55px;">
+    		<form action="../info/mod" method="post" id="form-intro">
+    		<div class="tr-tal">
+    			<label>商家简介：</label>
+    			<div>
+    				<textarea name="intro" class="txtarea" rows="5" cols="70" >{$info.intro}</textarea>
+    			</div>
+		    </div>
+		    <div class="tr-tal">
+		        <label>营业时间：</label>
+		        <div>
+		            <input type="text" name="stime" class="txtadd" style="width: 90px;"  value="{$info.stime}"/>
+		            &nbsp;&nbsp;至&nbsp;&nbsp;
+		            <input type="text" name="etime" class="txtadd" style="width: 90px;"   value="{$info.etime}"/>
+		        </div>
+		    </div>
+		    <div class="tr-tal">
+		        <label>门店服务：</label>
+		        <div>
+		            <textarea name="service" class="txtarea" rows="4" cols="70" >{$info.service}</textarea>
+		        </div>
+		    </div>
+		    <div class="tr-tal">
+		        <label>购买须知：</label>
+		        <div>
+		            <textarea name="notice" class="txtarea" rows="3" cols="70" >{$info.notice}</textarea>
+		        </div>
+		    </div>
+		    <div class="tr-tal">
+		        <label>温馨提示：</label>
+		        <div>
+		        	<textarea name="tip" class="txtarea" rows="3" cols="70" >{$info.tip}</textarea>
+		        </div>
+		    </div>
+		    <div class="tr-tal">
+		        <label>图文详情：</label>
+		        <div style="padding: 5px 0;">
+		        	<a href="twxq" class="btn-freset">设置</a>
+		        </div>
+		    </div>
+		    <div class="tr-tal" style="margin-top: 50px;">
+		        <label>&nbsp;</label>
+		        <div>
+		        	<input type="submit" class="btn-xlg-r" value="提交" />
+		        </div>
+		    </div>
+    		</form>
+        </div>
+    </div>
+</div>
+
+<!--    页面尾部        -->
+<include file = "Public/footer" />

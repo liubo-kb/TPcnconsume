@@ -1,0 +1,35 @@
+<!--	页面头部	-->
+<include file = "Public/header" />
+
+<!--	资源文件	-->
+<link rel="stylesheet" href="__PUBLIC__/css/merchant/workcenter.css">
+
+<div class="container clearfix">
+	<!--	左侧菜单	-->     	
+    <include file = "Public/menu" />	
+	
+    <!--        页面内容        -->     
+    <div class="con">
+    	<p class="navinfo"><img src="__PUBLIC__/image/merchant/isjbb.png" />&nbsp;&nbsp;数据报表</p>
+        <div class="cmain">
+        	<p class="cinfo1 ftdt"><b class="paddleft30">详细信息</b></p>
+        	<hr class="hr-grey-mg" />
+            <div class="cinfo" id="content" style="margin-top: 20px;">
+            	<table class="ctable tbinfo">
+						<volist name='index' id='index'>
+							<tr class='alt'>
+								<td>
+									<span style='text-size:60px;font-weight:bold;'>{$text.$index}</span>
+									:
+									<span style='text-size:20px'>{$result.$index}</span>
+								</td>
+							</tr>
+						</volist>
+				</table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--	页面尾部	-->     
+<include file = "Public/footer" />

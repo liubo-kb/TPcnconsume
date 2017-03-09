@@ -1,0 +1,41 @@
+<!--    页面头部        -->
+<include file = "Public/header" />
+
+<!--	资源文件	-->
+<link rel="stylesheet" href="__PUBLIC__/css/merchant/workcenter.css">
+
+<div class="container clearfix">
+	<!--        左侧菜单        -->
+    <include file = "Public/menu" />
+	
+    <div class="con">
+    	<p class="navinfo"><img src="__PUBLIC__/image/merchant/idpgl.gif" />&nbsp;&nbsp;店铺管理</p>
+        <div class="cmain">
+        	<div class="cinfo" id="content">
+        		<volist name='table_data' id='data'>
+					<table class="tb-blend">
+					  <tr>
+						<td class="td-pic" width="15%">
+							<img src="__PUBLIC__/Uploads/addImage/{$data.image_url}" class="img-shop" /><br>
+						</td>
+						<td align="left">{$data.store}<br>申请管理您的店铺</td>
+						<td width="15%" style="line-height: 30px;">
+							<a href="../store/set?merchant={$data.muid}&state=access" class="abtn-h">同意申请</a><br>
+							<a href="../store/set?merchant={$data.muid}&state=fail" class="abtn-j">拒绝申请</a>
+						</td>
+					  </tr>
+					</table>
+				</volist>
+
+				<div class='page text-align-r margtop47'>
+				        {$page}
+				</div>
+				
+				
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--    页面尾部        -->
+<include file = "Public/footer" />

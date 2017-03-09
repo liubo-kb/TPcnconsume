@@ -1,0 +1,279 @@
+[ 2016-10-09T15:21:44+08:00 ] 223.104.11.109 /cnconsum/index.php/Home/MerchantType/Protocol/protocolGet?store=%E5%BE%A1%E6%B8%A9%E6%B3%89&address=%E9%99%95%E8%A5%BF%E7%9C%81%E8%A5%BF%E5%AE%89%E5%B8%82%E9%9B%81%E5%A1%94%E5%8C%BA&phone=111
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000419s ]
+ERR: 无法加载控制器:MerchantType
+
+[ 2016-10-09T15:21:56+08:00 ] 223.104.11.109 /cnconsum/index.php/Home/MerchantType/Protocol/protocolGet?store=%E5%BE%A1%E6%B8%A9%E6%B3%89&address=%E9%99%95%E8%A5%BF%E7%9C%81%E8%A5%BF%E5%AE%89%E5%B8%82%E9%9B%81%E5%A1%94%E5%8C%BA&phone=111
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000455s ]
+ERR: 无法加载控制器:MerchantType
+
+[ 2016-10-09T15:22:04+08:00 ] 223.104.11.109 /cnconsum/index.php/Home/MerchantType/Protocol/protocolGet?store=%E5%BE%A1%E6%B8%A9%E6%B3%89&address=%E9%99%95%E8%A5%BF%E7%9C%81%E8%A5%BF%E5%AE%89%E5%B8%82%E9%9B%81%E5%A1%94%E5%8C%BA&phone=111
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000390s ]
+ERR: 无法加载控制器:MerchantType
+
+[ 2016-10-09T15:22:13+08:00 ] 223.104.11.109 /cnconsum/index.php/Home/MerchantType/Protocol/protocolGet?store=%E5%BE%A1%E6%B8%A9%E6%B3%89&address=%E9%99%95%E8%A5%BF%E7%9C%81%E8%A5%BF%E5%AE%89%E5%B8%82%E9%9B%81%E5%A1%94%E5%8C%BA&phone=111
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000585s ]
+ERR: 无法加载控制器:MerchantType
+
+[ 2016-10-09T15:22:34+08:00 ] 223.104.11.109 /cnconsum/index.php/Home/MerchantType/Protocol/protocolGet?store=%E5%BE%A1%E6%B8%A9%E6%B3%89&address=%E9%99%95%E8%A5%BF%E7%9C%81%E8%A5%BF%E5%AE%89%E5%B8%82%E9%9B%81%E5%A1%94%E5%8C%BA&phone=111
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000438s ]
+ERR: 无法加载控制器:MerchantType
+
+[ 2016-10-09T15:22:41+08:00 ] 223.104.11.109 /cnconsum/index.php/Home/MerchantType/Protocol/protocolGet?store=%E5%BE%A1%E6%B8%A9%E6%B3%89&address=%E9%99%95%E8%A5%BF%E7%9C%81%E8%A5%BF%E5%AE%89%E5%B8%82%E9%9B%81%E5%A1%94%E5%8C%BA&phone=111
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000537s ]
+ERR: 无法加载控制器:MerchantType
+
+[ 2016-10-09T15:25:40+08:00 ] 113.200.156.211 /cnconsum/index.php/Home/MerchantType/Protocol/protocolGet?store=%E5%BE%A1%E6%B8%A9%E6%B3%89&address=%E9%99%95%E8%A5%BF%E7%9C%81%E8%A5%BF%E5%AE%89%E5%B8%82%E9%9B%81%E5%A1%94%E5%8C%BA&phone=111
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000459s ]
+ERR: 无法加载控制器:MerchantType
+
+[ 2016-10-09T15:25:54+08:00 ] 113.200.156.211 /cnconsum/index.php/Home/MerchantType/Protocol/protocolGet?store=%E5%BE%A1%E6%B8%A9%E6%B3%89&address=%E9%99%95%E8%A5%BF%E7%9C%81%E8%A5%BF%E5%AE%89%E5%B8%82%E9%9B%81%E5%A1%94%E5%8C%BA&phone=111
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000660s ]
+ERR: 无法加载控制器:MerchantType
+
+[ 2016-10-09T15:26:58+08:00 ] 113.200.156.211 /cnconsum/index.php/Home/MerchantType/Protocol/protocolGet?store=%E5%BE%A1%E6%B8%A9%E6%B3%89&address=%E9%99%95%E8%A5%BF%E7%9C%81%E8%A5%BF%E5%AE%89%E5%B8%82%E9%9B%81%E5%A1%94%E5%8C%BA&phone=111
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000502s ]
+ERR: 无法加载控制器:MerchantType
+
+[ 2016-10-09T15:27:01+08:00 ] 113.200.156.211 /cnconsum/index.php/Home/MerchantType/Protocol/protocolGet?store=%E5%BE%A1%E6%B8%A9%E6%B3%89&address=%E9%99%95%E8%A5%BF%E7%9C%81%E8%A5%BF%E5%AE%89%E5%B8%82%E9%9B%81%E5%A1%94%E5%8C%BA&phone=111
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000601s ]
+ERR: 无法加载控制器:MerchantType
+
+[ 2016-10-09T15:27:45+08:00 ] 223.104.11.109 /cnconsum/index.php/Home/MerchantType/Protocol/protocolGet?store=%E5%BE%A1%E6%B8%A9%E6%B3%89&address=%E9%99%95%E8%A5%BF%E7%9C%81%E8%A5%BF%E5%AE%89%E5%B8%82%E9%9B%81%E5%A1%94%E5%8C%BA&phone=111
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000383s ]
+ERR: 无法加载控制器:MerchantType
+
+[ 2016-10-09T15:27:53+08:00 ] 223.104.11.109 /cnconsum/index.php/Home/MerchantType/Protocol/protocolGet?store=%E5%BE%A1%E6%B8%A9%E6%B3%89&address=%E9%99%95%E8%A5%BF%E7%9C%81%E8%A5%BF%E5%AE%89%E5%B8%82%E9%9B%81%E5%A1%94%E5%8C%BA&phone=111
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000395s ]
+ERR: 无法加载控制器:MerchantType
+
+[ 2016-10-09T16:33:39+08:00 ] 113.132.10.106 /cnconsum/index.php/Home/MerchantType/Protocol/protocolGet?store=%E5%B0%8F%E9%AA%86%E9%A9%BC&address=%E9%99%95%E8%A5%BF%E7%9C%81%E8%A5%BF%E5%AE%89%E5%B8%82%E9%9B%81%E5%A1%94%E5%8C%BA%E5%92%AF%E5%98%BB%E5%98%BB&phone=1234560
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000519s ]
+ERR: 无法加载控制器:MerchantType
+
+[ 2016-10-09T16:33:48+08:00 ] 113.132.10.106 /cnconsum/index.php/Home/MerchantType/Protocol/protocolGet?store=%E5%BE%A1%E6%B8%A9%E6%B3%89&address=%E9%99%95%E8%A5%BF%E7%9C%81%E8%A5%BF%E5%AE%89%E5%B8%82%E9%9B%81%E5%A1%94%E5%8C%BA&phone=111
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000693s ]
+ERR: 无法加载控制器:MerchantType
+
+[ 2016-10-09T16:33:54+08:00 ] 113.132.10.106 /cnconsum/index.php/Home/MerchantType/Protocol/protocolGet?store=%E5%B0%8F%E9%AA%86%E9%A9%BC&address=%E9%99%95%E8%A5%BF%E7%9C%81%E8%A5%BF%E5%AE%89%E5%B8%82%E9%9B%81%E5%A1%94%E5%8C%BA%E5%92%AF%E5%98%BB%E5%98%BB&phone=1234560
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000415s ]
+ERR: 无法加载控制器:MerchantType
+
+[ 2016-10-09T16:34:13+08:00 ] 113.132.10.106 /cnconsum/index.php/Home/MerchantType/Protocol/protocolGet?store=%E5%B0%8F%E9%AA%86%E9%A9%BC&address=%E9%99%95%E8%A5%BF%E7%9C%81%E8%A5%BF%E5%AE%89%E5%B8%82%E9%9B%81%E5%A1%94%E5%8C%BA%E5%92%AF%E5%98%BB%E5%98%BB&phone=1234560
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000392s ]
+ERR: 无法加载控制器:MerchantType
+
+[ 2016-10-09T16:34:18+08:00 ] 113.132.10.106 /cnconsum/index.php/Home/MerchantType/Protocol/protocolGet?store=%E5%B0%8F%E9%AA%86%E9%A9%BC&address=%E9%99%95%E8%A5%BF%E7%9C%81%E8%A5%BF%E5%AE%89%E5%B8%82%E9%9B%81%E5%A1%94%E5%8C%BA%E5%92%AF%E5%98%BB%E5%98%BB&phone=1234560
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000530s ]
+ERR: 无法加载控制器:MerchantType
+
+[ 2016-10-09T16:34:24+08:00 ] 113.132.10.106 /cnconsum/index.php/Home/MerchantType/Protocol/protocolGet?store=%E5%B0%8F%E9%AA%86%E9%A9%BC&address=%E9%99%95%E8%A5%BF%E7%9C%81%E8%A5%BF%E5%AE%89%E5%B8%82%E9%9B%81%E5%A1%94%E5%8C%BA%E5%92%AF%E5%98%BB%E5%98%BB&phone=1234560
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000491s ]
+ERR: 无法加载控制器:MerchantType
+
+[ 2016-10-09T16:34:33+08:00 ] 113.132.10.106 /cnconsum/index.php/Home/MerchantType/Protocol/protocolGet?store=%E5%B0%8F%E9%AA%86%E9%A9%BC&address=%E9%99%95%E8%A5%BF%E7%9C%81%E8%A5%BF%E5%AE%89%E5%B8%82%E9%9B%81%E5%A1%94%E5%8C%BA%E5%92%AF%E5%98%BB%E5%98%BB&phone=1234560
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000508s ]
+ERR: 无法加载控制器:MerchantType
+
+[ 2016-10-09T16:34:55+08:00 ] 113.132.10.106 /cnconsum/index.php/Home/MerchantType/Protocol/protocolGet?store=%E5%B0%8F%E9%AA%86%E9%A9%BC&address=%E9%99%95%E8%A5%BF%E7%9C%81%E8%A5%BF%E5%AE%89%E5%B8%82%E9%9B%81%E5%A1%94%E5%8C%BA%E5%92%AF%E5%98%BB%E5%98%BB&phone=1234560
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000550s ]
+ERR: 无法加载控制器:MerchantType
+
+[ 2016-10-09T16:35:24+08:00 ] 113.132.10.106 /cnconsum/index.php/Home/MerchantType/Protocol/protocolGet?store=%E5%B0%8F%E9%AA%86%E9%A9%BC&address=%E9%99%95%E8%A5%BF%E7%9C%81%E8%A5%BF%E5%AE%89%E5%B8%82%E9%9B%81%E5%A1%94%E5%8C%BA%E5%92%AF%E5%98%BB%E5%98%BB&phone=1234560
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000391s ]
+ERR: 无法加载控制器:MerchantType
+
+[ 2016-10-09T16:35:26+08:00 ] 113.132.10.106 /cnconsum/index.php/Home/MerchantType/Protocol/protocolGet?store=%E5%B0%8F%E9%AA%86%E9%A9%BC&address=%E9%99%95%E8%A5%BF%E7%9C%81%E8%A5%BF%E5%AE%89%E5%B8%82%E9%9B%81%E5%A1%94%E5%8C%BA%E5%92%AF%E5%98%BB%E5%98%BB&phone=1234560
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000409s ]
+ERR: 无法加载控制器:MerchantType
+
+[ 2016-10-09T16:35:28+08:00 ] 113.132.10.106 /cnconsum/index.php/Home/MerchantType/Protocol/protocolGet?store=%E5%B0%8F%E9%AA%86%E9%A9%BC&address=%E9%99%95%E8%A5%BF%E7%9C%81%E8%A5%BF%E5%AE%89%E5%B8%82%E9%9B%81%E5%A1%94%E5%8C%BA%E5%92%AF%E5%98%BB%E5%98%BB&phone=1234560
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000445s ]
+ERR: 无法加载控制器:MerchantType
+
+[ 2016-10-09T16:35:35+08:00 ] 113.132.10.106 /cnconsum/index.php/Home/MerchantType/Protocol/protocolGet?store=%E5%B0%8F%E9%AA%86%E9%A9%BC&address=%E9%99%95%E8%A5%BF%E7%9C%81%E8%A5%BF%E5%AE%89%E5%B8%82%E9%9B%81%E5%A1%94%E5%8C%BA%E5%92%AF%E5%98%BB%E5%98%BB&phone=1234560
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000415s ]
+ERR: 无法加载控制器:MerchantType
+
+[ 2016-10-09T16:35:48+08:00 ] 113.132.10.106 /cnconsum/index.php/Home/MerchantType/Protocol/protocolGet?store=%E5%B0%8F%E9%AA%86%E9%A9%BC&address=%E9%99%95%E8%A5%BF%E7%9C%81%E8%A5%BF%E5%AE%89%E5%B8%82%E9%9B%81%E5%A1%94%E5%8C%BA%E5%92%AF%E5%98%BB%E5%98%BB&phone=1234560
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000484s ]
+ERR: 无法加载控制器:MerchantType
+
+[ 2016-10-09T16:35:56+08:00 ] 113.132.10.106 /cnconsum/index.php/Home/MerchantType/Protocol/protocolGet?store=%E5%B0%8F%E9%AA%86%E9%A9%BC&address=%E9%99%95%E8%A5%BF%E7%9C%81%E8%A5%BF%E5%AE%89%E5%B8%82%E9%9B%81%E5%A1%94%E5%8C%BA%E5%92%AF%E5%98%BB%E5%98%BB&phone=1234560
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000423s ]
+ERR: 无法加载控制器:MerchantType
+
+[ 2016-10-09T16:40:49+08:00 ] 113.132.10.106 /cnconsum/Home/MerchantType/Protocol/protocolGet?store=%E5%BE%A1%E6%B8%A9%E6%B3%89&address=%E9%99%95%E8%A5%BF%E7%9C%81%E8%A5%BF%E5%AE%89%E5%B8%82%E9%9B%81%E5%A1%94%E5%8C%BA&phone=111
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000382s ]
+ERR: 无法加载控制器:MerchantType
+
+[ 2016-10-09T16:42:01+08:00 ] 113.132.10.106 /cnconsum/index.php/Home/MerchantType/Protocol/protocolGet?store=%E5%B0%8F%E9%AA%86%E9%A9%BC&address=%E9%99%95%E8%A5%BF%E7%9C%81%E8%A5%BF%E5%AE%89%E5%B8%82%E9%9B%81%E5%A1%94%E5%8C%BA%E5%92%AF%E5%98%BB%E5%98%BB&phone=1234560
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000429s ]
+ERR: 无法加载控制器:MerchantType
+
+[ 2016-10-09T16:42:13+08:00 ] 113.132.10.106 /cnconsum/index.php/Home/MerchantType/Protocol/protocolGet?store=%E5%B0%8F%E9%AA%86%E9%A9%BC&address=%E9%99%95%E8%A5%BF%E7%9C%81%E8%A5%BF%E5%AE%89%E5%B8%82%E9%9B%81%E5%A1%94%E5%8C%BA%E5%92%AF%E5%98%BB%E5%98%BB&phone=1234560
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000499s ]
+ERR: 无法加载控制器:MerchantType
+
+[ 2016-10-09T17:16:01+08:00 ] 113.132.10.106 /cnconsum/index.php/Home/MerchantType/Protocol/protocolGet?store=%E5%B0%8F%E9%AA%86%E9%A9%BC&address=%E9%99%95%E8%A5%BF%E7%9C%81%E8%A5%BF%E5%AE%89%E5%B8%82%E9%9B%81%E5%A1%94%E5%8C%BA%E5%92%AF%E5%98%BB%E5%98%BB&phone=1234560
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000383s ]
+ERR: 无法加载控制器:MerchantType
+
+[ 2016-10-09T17:57:19+08:00 ] 113.132.10.106 /cnconsum/index.php/Home/MerchantType/Protocol/protocolGet?store=%E5%B0%8F%E9%AA%86%E9%A9%BC&address=%E9%99%95%E8%A5%BF%E7%9C%81%E8%A5%BF%E5%AE%89%E5%B8%82%E9%9B%81%E5%A1%94%E5%8C%BA%E7%A7%91%E6%8A%80%E4%BA%8C%E8%B7%AF&phone=18710681974
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000408s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000532s ]
+ERR: 无法加载控制器:MerchantType
+

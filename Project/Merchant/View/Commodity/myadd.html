@@ -1,0 +1,66 @@
+<!--	页面头部	-->
+<include file = "Public/header" />
+<script>
+function subform(){
+	var code = $('input[name="code"]').val();
+	var name = $('input[name="name"]').val();
+	var remain = $('input[name="remain"]').val();
+	var price = $('input[name="price"]').val();
+	var url = 'add';
+	var subdata = {code:code,name:name,remain:remain,price:price};
+	formcheck(url, subdata, 'form-good');
+}
+</script>
+<link rel="stylesheet" href="__PUBLIC__/css/merchant/public.css" />
+<div class="container clearfix">
+	<!--	左侧菜单	-->     	
+    <include file = "Public/menu" />	
+	
+    <div class="con">
+    	<div class="navinfo"><img src="__PUBLIC__/image/merchant/ihy.png" id="ihy"/>&nbsp;&nbsp;我的商品</div>
+	    	<div class="frame">
+		    		<form action="{$action}" method="post" id="form-good">
+		    			<div>
+		    			<span class="bj">{$tip}</span>
+		    			</div>
+		    			
+		    			<div>
+		    				<span class="sb">商品编号：</span>
+		    				<input  class="bh" type="text" name="code" value="{$data.code}"/>
+						<input  class="bh" type="text" name="old_code" value="{$data.code}" style="display:none"/>
+		    			</div>
+		    			
+		    			<div>
+		    				<span class="uname">商品名称：</span>
+		    				<input class="bn" type="text"  name="name" value="{$data.name}"/>
+		    			</div>
+		    			
+		    			<div>
+		    				<span class="ck">商品库存：</span>
+		    				<input class="bh" type="text" name="remain" value="{$data.remain}"/>
+		    			</div>
+		    			
+		    			<div>
+		    				<span class="price">价格：</span>
+		    				<input class="jg" type="text" name="price" value="{$data.price}"/>
+		    			</div>
+		    			
+		    			<div class="submenu">
+		    				<button class="next_text" id="J_register" type="button" id="submit" onclick="subform()">
+				            	<a class="zd">确定</a>
+				            </button>
+				            <button class="next_text" id="cancel">
+				            	<a href="commodity" class="qx">取消</a>
+				            </button>	    				
+		    			</div>
+		    			
+		    			<div class="blank">
+		    				
+		    			</div>
+		    		</form>	
+		    </div>   		
+    </div>	
+</div>
+
+<!--	页面尾部	-->     
+<include file = "Public/footer" />

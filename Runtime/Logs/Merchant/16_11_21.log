@@ -1,0 +1,15 @@
+[ 2016-11-21T11:37:55+08:00 ] 101.226.68.215 /cnconsum/Merchant/merchant/completeView_01
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+
+[ 2016-11-21T11:38:14+08:00 ] 61.151.218.119 /cnconsum/Merchant/merchant/completeView_01
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+
+[ 2016-11-21T11:38:19+08:00 ] 101.226.51.226 /cnconsum/Merchant/merchant/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+

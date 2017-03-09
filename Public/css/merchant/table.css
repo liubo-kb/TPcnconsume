@@ -1,0 +1,75 @@
+/*-------------------------表格样式-----------------------------*/
+table.gridtable
+{
+       font-family: verdana,arial,sans-serif;
+       font-size:10px;
+       color:#333333;
+       border-width: 1px;
+       border-color: #666666;
+       border-collapse: collapse;
+}
+
+table.gridtable th
+{
+       border-width: 1px;
+       padding: 10px;
+       border-style: solid;
+       border-color: #666666;
+       background-color: #dedede;
+}
+
+table.gridtable td
+{
+       border-width: 1px;
+       padding: 10px;
+       border-style: solid;
+       border-color: #666666;
+       background-color: #ffffff;
+}
+
+
+/* ------------------------------分页------------------------------ */
+.page 
+{
+        clear: both;
+        padding: 15px 0 20px 0;
+        *padding: 5px 0 20px 0;
+        text-align: center;
+        background:url(bg_page.gif) repeat-x top; height:30px; padding:0; width:700px
+}
+
+a 
+{
+        margin-right: 5px;
+		color:#CCCCCC;
+		
+		background:#009966;
+		border:#009933 solid 2px;
+        display: inline-block;
+        height: 15px;
+		padding:5px 8px 5px 8px;
+        line-height: 15px;
+        vertical-align: middle;
+		text-decoration:none;
+}
+
+.current 
+{
+        margin-right: 5px;
+		color:#CCCCCC;
+		background:#0033FF;
+		border:#6600FF solid 2px;
+        display: inline-block;
+        height: 15px;
+		padding:5px 8px 5px 8px;
+        line-height: 15px;
+        vertical-align: middle;
+}
+
+a.disable 
+{
+        border: #CCC 1px solid;
+        background: #FAFAFA;
+        color: #999;
+}
+

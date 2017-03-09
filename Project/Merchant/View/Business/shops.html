@@ -1,0 +1,51 @@
+<!--    页面头部        -->
+<include file = "Public/header" />
+
+<!--	资源文件	-->
+<link rel="stylesheet" href="__PUBLIC__/css/merchant/workcenter.css">
+<script src="__PUBLIC__/js/merchant/pages.js"></script>
+<div class="container clearfix">
+	
+	<!--        左侧菜单        -->
+    <include file = "Public/menu" />
+	
+    <div class="con">
+    	<p class="navinfo"><img src="__PUBLIC__/image/merchant/idpgl.gif" />&nbsp;&nbsp;店铺管理</p>
+        <div class="cmain">
+        	<div class="cinfo" style="padding: 10px 50px;">
+    			<a href="shopAdd" class="btn-xlg-r">申请管理店铺</a>&nbsp;&nbsp;&nbsp;&nbsp;
+    			<a href="shopList" class="btn-xlg-r">申请列表({$num})</a>
+    		</div>
+    		<hr class="hr-grey-mg" />
+            <div class="cinfo" id="content" style="margin-top: 10px;">
+   
+				<volist name='table_data' id='data'>
+					<table class="tb-blend">
+						<tr>
+							<td rowspan="2" class="td-pic">
+								<img src="__PUBLIC__/Uploads/addImage/{$data.image_url}" class="img-shop" /><br>
+								{$data.name}
+							</td>
+							<td colspan="3" align="left" valign="bottom" class="shopname">
+								<span class="ftdt">店铺名称：{$data.store}</span>
+							</td>
+						</tr>
+						<tr>
+							<td align="left">密码：{$data.passwd}<br>电话：{$data.phone}</td>
+							<td align="left">营业总额：{$data.sum}<br>店铺余额：{$data.remain}</td>
+							<td align="left">会员数量：{$data.vip_num}<br>地址：{$data.address}</td>
+						</tr>
+					</table>
+				</volist>
+
+				<div class='page text-align-r margtop47'>
+				        {$page}
+				</div>
+            	
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--    页面尾部        -->
+<include file = "Public/footer" />

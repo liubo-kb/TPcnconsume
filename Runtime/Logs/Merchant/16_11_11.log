@@ -1,0 +1,22 @@
+[ 2016-11-11T10:49:14+08:00 ] 101.226.64.174 /cnconsum/Merchant/merchant/glysz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+ERR: 非法操作:glysz
+
+[ 2016-11-11T10:49:29+08:00 ] 101.226.33.226 /cnconsum/Merchant/merchant/glysz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+ERR: 非法操作:glysz
+
+[ 2016-11-11T14:37:29+08:00 ] 101.226.68.215 /cnconsum/Merchant/merchant/completeView_01
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+
+[ 2016-11-11T14:37:45+08:00 ] 180.153.214.191 /cnconsum/Merchant/merchant/completeView_01
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+

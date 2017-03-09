@@ -1,0 +1,197 @@
+/*\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+ luara
+ version 0.1  2014-8-21
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+/*左滑*/
+.luara-left{position:relative;
+	padding:0;
+	overflow: hidden;}
+.luara-left ul{position: relative;
+	padding: inherit;
+	margin: 0;}
+.luara-left ul li{float: left;
+	padding: inherit;
+	margin: inherit;
+	list-style: none;}
+.luara-left ul li img{width: inherit;
+	height: inherit;}
+	#register b{
+	color:#F00;margin-left: 335px;
+}
+.all{
+	width: 990px;
+    margin: 0 auto;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+	}
+.re_content{
+	width: 990px;
+	height:550px;
+	border: 1px #ddd solid;
+	margin-top:15px
+	}
+.re_information_top{
+	width:990px;
+	height:20px;
+	background-color:#e26666
+	}
+.top_name{
+	color:#FFF;
+	margin-left:20px;
+	margin-top:10px;
+}
+.re_information{
+	width:700px;
+	height:400px;
+	height: 529px; 
+	border: 1px #ddd solid;
+	text-align:center
+	}
+.In_register{
+	background-color:#FFF;
+	border:1px solid #ddd;
+	margin-left:-40px;
+	width: 113px;
+	margin-top: 25px;
+    height: 24px;
+	}
+.yanzhen{
+	background-color:#e26666;
+	border-radius: 3px;
+	margin-left: 10px;
+	border: 3px solid #e26666;
+	color: white;
+	cursor: pointer
+	}
+.click_yz{
+	background-color:#e26666;
+	border-radius: 3px;
+	margin-left: 10px;
+	border: 3px solid #e26666;
+	color: white;
+	cursor: pointer
+	}
+.text1_password{
+	margin-left:13px;
+	margin-top:10px
+	}
+.text2_possword{
+	margin-left:18px;
+	margin-top:10px
+	}
+.next_text{
+	background-color:#e26666;
+	border:10px solid #e26666;
+	width:110px;
+	margin-left:10px;
+	margin-top:30px
+	}
+.re_footer{
+	position: absolute;
+    width: 190px;
+    height: 335px;
+    no-repeat -1px -142px;
+    right: 235px;
+    top: 246px;
+	}
+.right_phone{
+	background-image:url(../image/logo-footer1.jpg);;
+	height:50px;
+	background-repeat:no-repeat;
+	}
+.right_qq{
+	background-image:url(../image/logo-footer2.jpg);;
+	height:50px;
+	margin-top: 20px;
+	background-repeat:no-repeat;
+	}
+.right_dowload{
+	background:url(../image/logo-footer3.jpg);;
+	height:90px;
+	margin-top: 20px;
+	margin-left: 0px;
+	background-repeat:no-repeat;
+	}
+.example2 ol{position:relative;
+	width: 80px;
+	height: 20px;
+	top:-30px;
+	left:650px;}
+.example2 ol li{float:left;
+	width: 10px;
+	height: 10px;
+	margin: 5px;
+	border-radius: 9999px;
+	background: #fff;}
+.example2 ol li.seleted{background: #1AA4CA;}
+
+
+.search-image{
+    width:300px;
+    height: 48px;
+    background-color:#FFFFFF;
+    margin: 0 auto;
+    
+}
+.search-ct{
+	box-shadow: none;
+	border: 2px solid #cdcdcd;
+	font-family: "Hiragino Sans GB","Microsoft YaHei","WenQuanYi Micro Hei",Arial,Helvetica,sans-serif;
+	width: 290px;
+	height: 40px;
+	background-color: #fff;
+}
+.search-btn{
+   position: absolute;
+	height: 44px;
+	line-height: 44px;
+	font-size: 18px;
+	color: #919191;
+	margin-left: -25px;
+	cursor: pointer;  
+}
+.getmessage{
+	width:130px;height:40px;
+	border: 2px solid #cdcdcd;
+	margin-left: 545px;
+    margin-top: 1px;
+	background-color: white;
+	cursor:pointer
+	}
+.search-imagez{
+		margin: 0 auto;
+		margin-left: 382px;
+
+		width:155px;
+		position:absolute;
+}
+.left_posstion{
+	position:absolute;
+	margin-left: 300px;
+	margin-top: 8px;
+	font-size: 16px;
+	color: #535353;
+}
+.msg_alet_phone{width:298px;
+	height:25px;
+	border:1px solid #FACCC6;
+	background-color:#FFEBEB;
+	line-height: 25px;
+	text-align: center;
+	color: red;
+	margin-top: 4px;
+	display:none}
+.msg_alet_error{width:298px;
+	height:25px;
+	border:1px solid #FACCC6;
+	background-color:#FFEBEB;
+	line-height: 25px;
+	text-align: center;
+	color: red;    
+	margin-left: 382px;
+	margin-top: 4px;
+	display:none}
+input:-webkit-autofill { 
+-webkit-box-shadow: 0 0 0px 1000px #FFFFFF inset; 

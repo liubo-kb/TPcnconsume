@@ -1,0 +1,2115 @@
+[ 2016-12-08T09:29:43+08:00 ] 1.80.216.60 /cnconsum/Merchant/merchant/loginView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+
+[ 2016-12-08T09:29:45+08:00 ] 1.80.216.60 /cnconsum/Merchant/merchant/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+
+[ 2016-12-08T09:29:49+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/hyzgl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+
+[ 2016-12-08T09:29:53+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+
+[ 2016-12-08T09:30:12+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=season
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+
+[ 2016-12-08T09:30:15+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=season
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000434s ]
+SQL: SHOW COLUMNS FROM `cn_record_buy` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_buy` WHERE `merchant` = 'm_6d4e76ca11' AND ( cn_record_buy.datetime >= '2016-10-01 00:00:00' AND cn_record_buy.datetime <= '2016-12-31 23:59:59'  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(sum) AS tp_sum FROM `cn_record_buy` WHERE `merchant` = 'm_6d4e76ca11' AND ( cn_record_buy.datetime >= '2016-10-01 00:00:00' AND cn_record_buy.datetime <= '2016-12-31 23:59:59'  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT cn_record_buy.*,cn_user.phone,`headImage` FROM `cn_record_buy` INNER JOIN cn_user ON cn_user.uuid = cn_record_buy.user   WHERE `merchant` = 'm_6d4e76ca11' AND ( cn_record_buy.datetime >= '2016-10-01 00:00:00' AND cn_record_buy.datetime <= '2016-12-31 23:59:59'  ) LIMIT 1,1   [ RunTime:0.0003s ]
+
+[ 2016-12-08T09:30:15+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=season
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000374s ]
+SQL: SHOW COLUMNS FROM `cn_record_buy` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_buy` WHERE `merchant` = 'm_6d4e76ca11' AND ( cn_record_buy.datetime >= '2016-10-01 00:00:00' AND cn_record_buy.datetime <= '2016-12-31 23:59:59'  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(sum) AS tp_sum FROM `cn_record_buy` WHERE `merchant` = 'm_6d4e76ca11' AND ( cn_record_buy.datetime >= '2016-10-01 00:00:00' AND cn_record_buy.datetime <= '2016-12-31 23:59:59'  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT cn_record_buy.*,cn_user.phone,`headImage` FROM `cn_record_buy` INNER JOIN cn_user ON cn_user.uuid = cn_record_buy.user   WHERE `merchant` = 'm_6d4e76ca11' AND ( cn_record_buy.datetime >= '2016-10-01 00:00:00' AND cn_record_buy.datetime <= '2016-12-31 23:59:59'  ) LIMIT 2,1   [ RunTime:0.0003s ]
+
+[ 2016-12-08T09:30:16+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=season
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000384s ]
+SQL: SHOW COLUMNS FROM `cn_record_buy` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_buy` WHERE `merchant` = 'm_6d4e76ca11' AND ( cn_record_buy.datetime >= '2016-10-01 00:00:00' AND cn_record_buy.datetime <= '2016-12-31 23:59:59'  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(sum) AS tp_sum FROM `cn_record_buy` WHERE `merchant` = 'm_6d4e76ca11' AND ( cn_record_buy.datetime >= '2016-10-01 00:00:00' AND cn_record_buy.datetime <= '2016-12-31 23:59:59'  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT cn_record_buy.*,cn_user.phone,`headImage` FROM `cn_record_buy` INNER JOIN cn_user ON cn_user.uuid = cn_record_buy.user   WHERE `merchant` = 'm_6d4e76ca11' AND ( cn_record_buy.datetime >= '2016-10-01 00:00:00' AND cn_record_buy.datetime <= '2016-12-31 23:59:59'  ) LIMIT 3,1   [ RunTime:0.0003s ]
+
+[ 2016-12-08T09:30:24+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/DataReport/data_detail?table=bk&user=u_eac19cca87&merchant=m_6d4e76ca11&datetime=2016-12-07%2015:16:30
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+
+[ 2016-12-08T09:30:30+08:00 ] 101.226.125.103 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=season
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+
+[ 2016-12-08T09:30:30+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=season
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000248s ]
+
+[ 2016-12-08T09:30:40+08:00 ] 101.226.51.227 /cnconsum/index.php/Merchant/DataReport/data_detail?table=bk&merchant=m_6d4e76ca11&datetime=2016-12-0715:16:30
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+
+[ 2016-12-08T09:31:37+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+
+[ 2016-12-08T09:33:10+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/glysz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+
+[ 2016-12-08T09:33:13+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+
+[ 2016-12-08T09:33:19+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Vip/vip
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+
+[ 2016-12-08T09:33:20+08:00 ] 101.226.65.104 /cnconsum/index.php/Merchant/Business/glysz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+
+[ 2016-12-08T09:33:37+08:00 ] 101.226.125.100 /cnconsum/index.php/Merchant/Vip/vip
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+
+[ 2016-12-08T09:33:38+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Commodity/commodity
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+
+[ 2016-12-08T09:33:47+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Vip/vip
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+
+[ 2016-12-08T09:33:49+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Commodity/commodity
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+
+[ 2016-12-08T09:34:00+08:00 ] 180.163.2.118 /cnconsum/index.php/Merchant/Commodity/commodity
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+
+[ 2016-12-08T09:34:04+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/hyzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+
+[ 2016-12-08T09:34:09+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/turnURL?url=../card/addView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+
+[ 2016-12-08T09:34:09+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/card/addView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+
+[ 2016-12-08T09:34:14+08:00 ] 180.153.201.79 /cnconsum/index.php/Merchant/Business/hyzgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+
+[ 2016-12-08T09:34:19+08:00 ] 101.226.33.216 /cnconsum/index.php/Merchant/card/addView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+
+[ 2016-12-08T09:34:19+08:00 ] 140.207.185.111 /cnconsum/index.php/Merchant/Business/turnURL?url=../card/addView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+
+[ 2016-12-08T09:34:19+08:00 ] 140.207.185.111 /cnconsum/index.php/Merchant/card/addView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+
+[ 2016-12-08T09:34:26+08:00 ] 101.226.51.226 /cnconsum/index.php/Merchant/Business/turnURL?url=../card/addView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+
+[ 2016-12-08T09:34:26+08:00 ] 101.226.51.226 /cnconsum/index.php/Merchant/card/addView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+
+[ 2016-12-08T09:34:27+08:00 ] 180.153.201.15 /cnconsum/index.php/Merchant/Business/turnURL?url=../card/addView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+
+[ 2016-12-08T09:34:27+08:00 ] 180.153.201.15 /cnconsum/index.php/Merchant/card/addView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+
+[ 2016-12-08T09:34:52+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/card/addView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+
+[ 2016-12-08T09:34:54+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/card/addView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000240s ]
+
+[ 2016-12-08T09:34:55+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/card/addView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+
+[ 2016-12-08T09:34:56+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/card/addView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+
+[ 2016-12-08T09:36:28+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Account/account
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+
+[ 2016-12-08T09:36:45+08:00 ] 180.153.214.188 /cnconsum/index.php/Merchant/Account/account
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+
+[ 2016-12-08T09:41:40+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/glysz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+
+[ 2016-12-08T09:41:42+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/image/dialog_cb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+
+[ 2016-12-08T09:41:42+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/image/window.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+
+[ 2016-12-08T09:41:57+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/image/dialog_cb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+
+[ 2016-12-08T09:41:57+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/image/window.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+
+[ 2016-12-08T09:42:34+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/glysz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000374s ]
+SQL: SHOW COLUMNS FROM `cn_admin` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_admin` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cn_admin` LIMIT 3,3   [ RunTime:0.0002s ]
+
+[ 2016-12-08T09:42:36+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/glysz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000360s ]
+SQL: SHOW COLUMNS FROM `cn_admin` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_admin` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cn_admin` LIMIT 0,3   [ RunTime:0.0002s ]
+
+[ 2016-12-08T09:42:44+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/glysz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+
+[ 2016-12-08T09:44:20+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/dpgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+
+[ 2016-12-08T09:44:23+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/zjtx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+
+[ 2016-12-08T09:44:25+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/glysz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001340s ]
+
+[ 2016-12-08T09:46:40+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+
+[ 2016-12-08T09:46:43+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+
+[ 2016-12-08T09:46:58+08:00 ] 101.226.65.107 /cnconsum/index.php/Merchant/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+
+[ 2016-12-08T09:47:13+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+
+[ 2016-12-08T09:47:16+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+
+[ 2016-12-08T09:47:24+08:00 ] 1.80.216.60 /cnconsum/Merchant/merchant/loginView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+
+[ 2016-12-08T09:47:27+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/hyzgl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+
+[ 2016-12-08T09:47:34+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/glysz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+
+[ 2016-12-08T09:48:18+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+
+[ 2016-12-08T09:55:57+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+
+[ 2016-12-08T10:17:27+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+
+[ 2016-12-08T10:17:37+08:00 ] 101.226.33.205 /cnconsum/index.php/Merchant
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+
+[ 2016-12-08T10:17:37+08:00 ] 1.80.216.60 /cnconsum/Merchant/merchant/loginView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+
+[ 2016-12-08T10:17:40+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/hyzgl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+
+[ 2016-12-08T10:17:43+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/glysz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+
+[ 2016-12-08T10:17:44+08:00 ] 101.226.125.105 /cnconsum/index.php/Merchant
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+
+[ 2016-12-08T10:17:45+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+
+[ 2016-12-08T10:17:45+08:00 ] 180.163.2.118 /cnconsum/index.php/Merchant
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+
+[ 2016-12-08T10:17:45+08:00 ] 101.226.33.224 /cnconsum/index.php/Merchant
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+
+[ 2016-12-08T10:17:56+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+
+[ 2016-12-08T10:18:02+08:00 ] 101.226.33.239 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+
+[ 2016-12-08T10:21:55+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/glysz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+
+[ 2016-12-08T10:21:57+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+
+[ 2016-12-08T10:22:04+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+
+[ 2016-12-08T10:23:37+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+
+[ 2016-12-08T10:23:51+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+
+[ 2016-12-08T10:23:53+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+
+[ 2016-12-08T10:25:10+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+
+[ 2016-12-08T10:25:11+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+
+[ 2016-12-08T10:26:03+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+
+[ 2016-12-08T10:26:04+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+
+[ 2016-12-08T10:26:28+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+
+[ 2016-12-08T10:26:30+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+
+[ 2016-12-08T10:27:20+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+
+[ 2016-12-08T10:27:21+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+
+[ 2016-12-08T10:29:11+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+
+[ 2016-12-08T10:29:12+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+
+[ 2016-12-08T10:29:45+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+
+[ 2016-12-08T10:29:47+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+
+[ 2016-12-08T10:30:10+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+
+[ 2016-12-08T10:30:11+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+
+[ 2016-12-08T10:30:34+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+
+[ 2016-12-08T10:30:35+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+
+[ 2016-12-08T10:30:57+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+
+[ 2016-12-08T10:30:59+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+
+[ 2016-12-08T10:31:20+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+
+[ 2016-12-08T10:31:21+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+
+[ 2016-12-08T10:33:47+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+
+[ 2016-12-08T10:33:48+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+
+[ 2016-12-08T10:34:44+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+
+[ 2016-12-08T10:34:46+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+
+[ 2016-12-08T10:34:58+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+
+[ 2016-12-08T10:34:59+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+
+[ 2016-12-08T10:36:02+08:00 ] 1.80.216.60 /cnconsum/Merchant/merchant/loginView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+
+[ 2016-12-08T10:36:05+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/hyzgl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+
+[ 2016-12-08T10:36:09+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/glysz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+
+[ 2016-12-08T10:36:10+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+
+[ 2016-12-08T10:36:12+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+
+[ 2016-12-08T10:36:13+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+
+[ 2016-12-08T10:37:12+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/glysz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+
+[ 2016-12-08T10:40:17+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+
+[ 2016-12-08T10:42:35+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+
+[ 2016-12-08T10:42:37+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+
+[ 2016-12-08T10:42:38+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+
+[ 2016-12-08T10:42:49+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+
+[ 2016-12-08T10:42:50+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+
+[ 2016-12-08T10:42:52+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+
+[ 2016-12-08T10:44:05+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+
+[ 2016-12-08T10:44:06+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+
+[ 2016-12-08T10:44:31+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+
+[ 2016-12-08T10:44:32+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+
+[ 2016-12-08T10:44:53+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+
+[ 2016-12-08T10:44:55+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+
+[ 2016-12-08T10:45:24+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+
+[ 2016-12-08T10:45:26+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+
+[ 2016-12-08T10:45:41+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+
+[ 2016-12-08T10:45:43+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+
+[ 2016-12-08T10:45:44+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+
+[ 2016-12-08T10:46:18+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+
+[ 2016-12-08T10:46:19+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+
+[ 2016-12-08T10:47:04+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+
+[ 2016-12-08T10:47:06+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+
+[ 2016-12-08T10:47:07+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+
+[ 2016-12-08T10:47:30+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+
+[ 2016-12-08T10:47:32+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+
+[ 2016-12-08T10:47:33+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+
+[ 2016-12-08T10:49:53+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+
+[ 2016-12-08T10:49:55+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000382s ]
+
+[ 2016-12-08T10:50:19+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+
+[ 2016-12-08T10:50:21+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+
+[ 2016-12-08T10:52:37+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+
+[ 2016-12-08T10:52:38+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+ERR: 非法操作:index
+
+[ 2016-12-08T10:52:55+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+
+[ 2016-12-08T10:52:57+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+
+[ 2016-12-08T10:52:57+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+
+[ 2016-12-08T10:52:58+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+ERR: 非法操作:index
+
+[ 2016-12-08T10:53:00+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+ERR: 非法操作:index
+
+[ 2016-12-08T10:53:02+08:00 ] 1.80.216.60 /cnconsum/Merchant/merchant/loginView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+
+[ 2016-12-08T10:53:04+08:00 ] 180.163.1.46 /cnconsum/index.php/Merchant/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+ERR: 非法操作:index
+
+[ 2016-12-08T10:53:05+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/hyzgl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+
+[ 2016-12-08T10:53:11+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/glysz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+
+[ 2016-12-08T10:53:12+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+
+[ 2016-12-08T10:53:14+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+
+[ 2016-12-08T10:53:15+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+
+[ 2016-12-08T10:53:18+08:00 ] 180.153.211.190 /cnconsum/Merchant/merchant/loginView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+
+[ 2016-12-08T10:53:18+08:00 ] 180.153.211.190 /cnconsum/Merchant/merchant/%20/cnconsum/Public/js/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+ERR: 非法操作: 
+
+[ 2016-12-08T10:53:18+08:00 ] 180.153.211.190 /cnconsum/Merchant/merchant/%20/cnconsum/Public/js/login.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000240s ]
+ERR: 非法操作: 
+
+[ 2016-12-08T10:53:18+08:00 ] 180.153.211.190 /cnconsum/Merchant/merchant/%20/cnconsum/Public/js/jquery.luara.0.0.1.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+ERR: 非法操作: 
+
+[ 2016-12-08T10:56:09+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+
+[ 2016-12-08T10:56:11+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+
+[ 2016-12-08T10:58:45+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+
+[ 2016-12-08T10:59:07+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+
+[ 2016-12-08T10:59:29+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+
+[ 2016-12-08T10:59:30+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+
+[ 2016-12-08T10:59:53+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+
+[ 2016-12-08T10:59:54+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+
+[ 2016-12-08T11:00:10+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+
+[ 2016-12-08T11:00:12+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+
+[ 2016-12-08T11:00:13+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+
+[ 2016-12-08T11:00:35+08:00 ] 1.80.216.60 /cnconsum/Merchant/merchant/loginView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+
+[ 2016-12-08T11:00:38+08:00 ] 1.80.216.60 /cnconsum/Merchant/merchant/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+
+[ 2016-12-08T11:00:41+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/hyzgl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+
+[ 2016-12-08T11:00:43+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/glysz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+
+[ 2016-12-08T11:00:45+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+
+[ 2016-12-08T11:00:46+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+
+[ 2016-12-08T11:00:48+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+
+[ 2016-12-08T11:01:09+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+
+[ 2016-12-08T11:01:11+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+
+[ 2016-12-08T11:01:12+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+
+[ 2016-12-08T11:01:29+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+
+[ 2016-12-08T11:01:30+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+
+[ 2016-12-08T11:02:01+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+
+[ 2016-12-08T11:02:02+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+
+[ 2016-12-08T11:02:03+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+
+[ 2016-12-08T11:02:37+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+
+[ 2016-12-08T11:02:39+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+
+[ 2016-12-08T11:02:40+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+
+[ 2016-12-08T11:02:52+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+
+[ 2016-12-08T11:02:53+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+
+[ 2016-12-08T11:03:03+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+
+[ 2016-12-08T11:03:23+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+
+[ 2016-12-08T11:03:26+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+
+[ 2016-12-08T11:04:51+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+
+[ 2016-12-08T11:04:52+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+ERR: 非法操作:index
+
+[ 2016-12-08T11:04:59+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+
+[ 2016-12-08T11:05:08+08:00 ] 101.226.51.226 /cnconsum/index.php/Merchant/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+ERR: 非法操作:index
+
+[ 2016-12-08T11:05:29+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+
+[ 2016-12-08T11:05:32+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+
+[ 2016-12-08T11:05:33+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+
+[ 2016-12-08T11:08:48+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+
+[ 2016-12-08T11:08:50+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+
+[ 2016-12-08T11:09:05+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+ERR: 非法操作:admin
+
+[ 2016-12-08T11:09:25+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+ERR: 非法操作:admin
+
+[ 2016-12-08T11:09:26+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+ERR: 非法操作:admin
+
+[ 2016-12-08T11:09:27+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+ERR: 非法操作:admin
+
+[ 2016-12-08T11:09:28+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+
+[ 2016-12-08T11:09:30+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+
+[ 2016-12-08T11:09:31+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+
+[ 2016-12-08T11:09:35+08:00 ] 101.226.65.108 /cnconsum/index.php/Merchant/Business/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+ERR: 非法操作:admin
+
+[ 2016-12-08T11:10:55+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+
+[ 2016-12-08T11:10:57+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+
+[ 2016-12-08T11:10:59+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+
+[ 2016-12-08T11:11:21+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+
+[ 2016-12-08T11:11:21+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/glysz.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+
+[ 2016-12-08T11:11:23+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/glysz.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+
+[ 2016-12-08T11:11:26+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+
+[ 2016-12-08T11:11:27+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+
+[ 2016-12-08T11:11:27+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/glysz.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000235s ]
+
+[ 2016-12-08T11:11:38+08:00 ] 101.226.33.225 /cnconsum/index.php/Merchant/Business/glysz.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+
+[ 2016-12-08T11:11:40+08:00 ] 101.226.33.238 /cnconsum/index.php/Merchant/Business/glysz.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+
+[ 2016-12-08T11:12:53+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+
+[ 2016-12-08T11:12:54+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+ERR: 非法操作:index
+
+[ 2016-12-08T11:12:57+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+
+[ 2016-12-08T11:12:57+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+ERR: 非法操作:index
+
+[ 2016-12-08T11:12:57+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+
+[ 2016-12-08T11:12:58+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+
+[ 2016-12-08T11:13:01+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+
+[ 2016-12-08T11:13:02+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+
+[ 2016-12-08T11:13:21+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+
+[ 2016-12-08T11:13:23+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+
+[ 2016-12-08T11:14:26+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+
+[ 2016-12-08T11:14:28+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+
+[ 2016-12-08T11:14:29+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+
+[ 2016-12-08T11:14:48+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/zjtx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+
+[ 2016-12-08T11:14:49+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/withdraw/txmx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+
+[ 2016-12-08T11:14:58+08:00 ] 117.185.27.115 /cnconsum/index.php/Merchant/Business/zjtx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+
+[ 2016-12-08T11:15:01+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/withdraw/withdraw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+
+[ 2016-12-08T11:15:04+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/zjtx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+
+[ 2016-12-08T11:15:04+08:00 ] 180.153.205.252 /cnconsum/index.php/Merchant/withdraw/txmx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+
+[ 2016-12-08T11:15:05+08:00 ] 101.226.33.203 /cnconsum/index.php/Merchant/Business/zjtx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+
+[ 2016-12-08T11:15:05+08:00 ] 101.226.89.122 /cnconsum/index.php/Merchant/Business/zjtx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+
+[ 2016-12-08T11:15:08+08:00 ] 101.226.89.120 /cnconsum/index.php/Merchant/Business/zjtx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+
+[ 2016-12-08T11:15:10+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/withdraw/txmx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+
+[ 2016-12-08T11:15:11+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/withdraw/txmx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000365s ]
+NOTIC: [8] Indirect modification of overloaded property Merchant\Controller\WithdrawController::$header has no effect /var/www/html/cnconsum/Project/Merchant/Controller/WithdrawController.class.php 第 68 行.
+SQL: SHOW COLUMNS FROM `cn_merchant_withdraw` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(sum) AS tp_sum FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `tradenu`,`sum`,`bank`,`account`,`datetime`,`state` FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 2,2   [ RunTime:0.0003s ]
+
+[ 2016-12-08T11:15:12+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/withdraw/txmx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000452s ]
+NOTIC: [8] Indirect modification of overloaded property Merchant\Controller\WithdrawController::$header has no effect /var/www/html/cnconsum/Project/Merchant/Controller/WithdrawController.class.php 第 68 行.
+SQL: SHOW COLUMNS FROM `cn_merchant_withdraw` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT SUM(sum) AS tp_sum FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `tradenu`,`sum`,`bank`,`account`,`datetime`,`state` FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 4,2   [ RunTime:0.0002s ]
+
+[ 2016-12-08T11:15:14+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/withdraw/txmx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000494s ]
+NOTIC: [8] Indirect modification of overloaded property Merchant\Controller\WithdrawController::$header has no effect /var/www/html/cnconsum/Project/Merchant/Controller/WithdrawController.class.php 第 68 行.
+SQL: SHOW COLUMNS FROM `cn_merchant_withdraw` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT SUM(sum) AS tp_sum FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `tradenu`,`sum`,`bank`,`account`,`datetime`,`state` FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 2,2   [ RunTime:0.0002s ]
+
+[ 2016-12-08T11:15:15+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/withdraw/txmx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000352s ]
+NOTIC: [8] Indirect modification of overloaded property Merchant\Controller\WithdrawController::$header has no effect /var/www/html/cnconsum/Project/Merchant/Controller/WithdrawController.class.php 第 68 行.
+SQL: SHOW COLUMNS FROM `cn_merchant_withdraw` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT SUM(sum) AS tp_sum FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `tradenu`,`sum`,`bank`,`account`,`datetime`,`state` FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 0,2   [ RunTime:0.0002s ]
+
+[ 2016-12-08T11:15:24+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/glysz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000382s ]
+
+[ 2016-12-08T11:15:29+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+
+[ 2016-12-08T11:16:27+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+
+[ 2016-12-08T11:16:28+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+
+[ 2016-12-08T11:16:29+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+
+[ 2016-12-08T11:16:38+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+
+[ 2016-12-08T11:16:39+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+ERR: 非法操作:index
+
+[ 2016-12-08T11:16:40+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+ERR: 非法操作:index
+
+[ 2016-12-08T11:16:41+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+
+[ 2016-12-08T11:16:42+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/withdraw/txmx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+
+[ 2016-12-08T11:16:43+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+
+[ 2016-12-08T11:16:47+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/glysz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+
+[ 2016-12-08T11:17:54+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/glysz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+
+[ 2016-12-08T11:17:55+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+
+[ 2016-12-08T11:17:56+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+
+[ 2016-12-08T11:20:51+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+
+[ 2016-12-08T11:20:53+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+
+[ 2016-12-08T11:20:55+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+
+[ 2016-12-08T11:20:58+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/glysz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+
+[ 2016-12-08T11:21:02+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+
+[ 2016-12-08T11:21:03+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+
+[ 2016-12-08T11:21:06+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/glysz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+
+[ 2016-12-08T11:22:03+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/glysz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+
+[ 2016-12-08T11:22:04+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000436s ]
+
+[ 2016-12-08T11:22:05+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+
+[ 2016-12-08T11:22:06+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+
+[ 2016-12-08T11:24:10+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+
+[ 2016-12-08T11:24:11+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+
+[ 2016-12-08T11:24:12+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+
+[ 2016-12-08T11:29:02+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+
+[ 2016-12-08T11:29:03+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+
+[ 2016-12-08T11:29:04+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+
+[ 2016-12-08T11:29:06+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+
+[ 2016-12-08T11:29:07+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+
+[ 2016-12-08T11:29:09+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+
+[ 2016-12-08T11:29:10+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+
+[ 2016-12-08T11:32:00+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+
+[ 2016-12-08T11:32:01+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+
+[ 2016-12-08T11:32:02+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+
+[ 2016-12-08T11:32:18+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+
+[ 2016-12-08T11:32:19+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+
+[ 2016-12-08T11:32:42+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+
+[ 2016-12-08T11:32:43+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+
+[ 2016-12-08T11:32:46+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Admin/%C3%A6%C2%81%C2%AD%C3%A5%C2%96%C2%9C%C3%A6%C2%82%C2%A8%C3%AF%C2%BC%C2%8C%C3%A6%C2%B7%C2%BB%C3%A5%C2%8A%C2%A0%C3%A6%C2%88%C2%90%C3%A5%C2%8A%C2%9F.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+ERR: 非法操作:æ­åæ¨ï¼æ·»å æå
+
+[ 2016-12-08T11:32:53+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Admin/%C3%A6%C2%81%C2%AD%C3%A5%C2%96%C2%9C%C3%A6%C2%82%C2%A8%C3%AF%C2%BC%C2%8C%C3%A6%C2%B7%C2%BB%C3%A5%C2%8A%C2%A0%C3%A6%C2%88%C2%90%C3%A5%C2%8A%C2%9F.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+ERR: 非法操作:æ­åæ¨ï¼æ·»å æå
+
+[ 2016-12-08T11:32:55+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Admin/%C3%A6%C2%81%C2%AD%C3%A5%C2%96%C2%9C%C3%A6%C2%82%C2%A8%C3%AF%C2%BC%C2%8C%C3%A6%C2%B7%C2%BB%C3%A5%C2%8A%C2%A0%C3%A6%C2%88%C2%90%C3%A5%C2%8A%C2%9F.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+ERR: 非法操作:æ­åæ¨ï¼æ·»å æå
+
+[ 2016-12-08T11:32:56+08:00 ] 101.226.79.182 /cnconsum/index.php/Merchant/Admin/?|???-?��?????|???��?��?????|?��???��?????|?????��????.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+ERR: 非法操作:index
+
+[ 2016-12-08T11:32:56+08:00 ] 140.207.124.105 /cnconsum/index.php/Merchant/Admin/?|???-?��?????|???��?��?????|?��???��?????|?????��????.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+ERR: 非法操作:index
+
+[ 2016-12-08T11:32:56+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Admin/%C3%A6%C2%81%C2%AD%C3%A5%C2%96%C2%9C%C3%A6%C2%82%C2%A8%C3%AF%C2%BC%C2%8C%C3%A6%C2%B7%C2%BB%C3%A5%C2%8A%C2%A0%C3%A6%C2%88%C2%90%C3%A5%C2%8A%C2%9F.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+ERR: 非法操作:æ­åæ¨ï¼æ·»å æå
+
+[ 2016-12-08T11:32:57+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Admin/%C3%A6%C2%81%C2%AD%C3%A5%C2%96%C2%9C%C3%A6%C2%82%C2%A8%C3%AF%C2%BC%C2%8C%C3%A6%C2%B7%C2%BB%C3%A5%C2%8A%C2%A0%C3%A6%C2%88%C2%90%C3%A5%C2%8A%C2%9F.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+ERR: 非法操作:æ­åæ¨ï¼æ·»å æå
+
+[ 2016-12-08T11:33:01+08:00 ] 101.226.33.218 /cnconsum/index.php/Merchant/Admin/?|???-?��?????|???��?��?????|?��???��?????|?????��????.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+ERR: 非法操作:index
+
+[ 2016-12-08T11:33:04+08:00 ] 180.153.211.172 /cnconsum/index.php/Merchant/Admin/?|???-?��?????|???��?��?????|?��???��?????|?????��????.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+ERR: 非法操作:index
+
+[ 2016-12-08T11:33:07+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+
+[ 2016-12-08T11:33:12+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+
+[ 2016-12-08T11:33:15+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Admin/%C3%A6%C2%81%C2%AD%C3%A5%C2%96%C2%9C%C3%A6%C2%82%C2%A8%C3%AF%C2%BC%C2%8C%C3%A6%C2%B7%C2%BB%C3%A5%C2%8A%C2%A0%C3%A6%C2%88%C2%90%C3%A5%C2%8A%C2%9F.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+ERR: 非法操作:æ­åæ¨ï¼æ·»å æå
+
+[ 2016-12-08T11:33:43+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+
+[ 2016-12-08T11:33:44+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+
+[ 2016-12-08T11:33:44+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Admin/test.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+
+[ 2016-12-08T11:34:01+08:00 ] 101.226.61.207 /cnconsum/index.php/Merchant/Admin/test.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+
+[ 2016-12-08T11:34:52+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Admin/test.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+
+[ 2016-12-08T11:34:54+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Admin/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+ERR: 非法操作:adminAdd
+
+[ 2016-12-08T11:35:12+08:00 ] 101.226.33.220 /cnconsum/index.php/Merchant/Admin/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+ERR: 非法操作:adminAdd
+
+[ 2016-12-08T11:36:09+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+
+[ 2016-12-08T11:36:11+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+
+[ 2016-12-08T11:36:25+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+
+[ 2016-12-08T11:37:51+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+
+[ 2016-12-08T11:37:54+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+
+[ 2016-12-08T11:37:55+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+
+[ 2016-12-08T11:39:04+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+
+[ 2016-12-08T11:39:05+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+
+[ 2016-12-08T11:39:06+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+
+[ 2016-12-08T11:39:07+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+
+[ 2016-12-08T11:39:08+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+
+[ 2016-12-08T11:39:09+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+
+[ 2016-12-08T11:39:12+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+
+[ 2016-12-08T11:39:13+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+
+[ 2016-12-08T11:40:22+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+
+[ 2016-12-08T11:40:23+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+
+[ 2016-12-08T11:40:24+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+
+[ 2016-12-08T11:40:25+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+
+[ 2016-12-08T11:40:27+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+
+[ 2016-12-08T11:40:28+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+
+[ 2016-12-08T11:40:50+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+
+[ 2016-12-08T11:40:51+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+
+[ 2016-12-08T11:40:52+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+
+[ 2016-12-08T11:40:53+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+
+[ 2016-12-08T11:40:54+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+
+[ 2016-12-08T11:40:55+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+
+[ 2016-12-08T11:40:56+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+
+[ 2016-12-08T11:40:57+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+
+[ 2016-12-08T11:40:58+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+
+[ 2016-12-08T11:41:20+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+
+[ 2016-12-08T11:41:21+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+
+[ 2016-12-08T11:41:22+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+
+[ 2016-12-08T11:41:23+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+
+[ 2016-12-08T11:41:24+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+
+[ 2016-12-08T11:41:25+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+
+[ 2016-12-08T11:41:26+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+
+[ 2016-12-08T11:41:27+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+
+[ 2016-12-08T11:41:29+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+
+[ 2016-12-08T11:41:30+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+
+[ 2016-12-08T11:41:31+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+
+[ 2016-12-08T11:41:32+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+
+[ 2016-12-08T11:41:33+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+
+[ 2016-12-08T11:43:45+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+
+[ 2016-12-08T11:43:47+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+
+[ 2016-12-08T11:43:50+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/glysz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+
+[ 2016-12-08T11:44:30+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+
+[ 2016-12-08T11:44:31+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+
+[ 2016-12-08T11:44:34+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Account/account
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+
+[ 2016-12-08T11:46:00+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/glysz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+
+[ 2016-12-08T11:46:01+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+
+[ 2016-12-08T11:46:02+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/withdraw/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+
+[ 2016-12-08T11:46:05+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/glysz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+
+[ 2016-12-08T11:46:58+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+
+[ 2016-12-08T11:47:00+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/adm/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+ERR: 无法加载控制器:Adm
+
+[ 2016-12-08T11:47:32+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/adm/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+
+[ 2016-12-08T11:47:34+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+
+[ 2016-12-08T11:50:02+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+
+[ 2016-12-08T11:50:05+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+
+[ 2016-12-08T11:50:08+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/glysz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+
+[ 2016-12-08T11:52:42+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+
+[ 2016-12-08T11:52:44+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/adm/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+
+[ 2016-12-08T11:52:47+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/glysz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+
+[ 2016-12-08T11:53:20+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/glysz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+
+[ 2016-12-08T11:53:21+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+
+[ 2016-12-08T11:53:26+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/adm/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+
+[ 2016-12-08T11:53:27+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+
+[ 2016-12-08T11:53:29+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/adm/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+
+[ 2016-12-08T11:53:30+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+
+[ 2016-12-08T11:53:56+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+
+[ 2016-12-08T11:53:57+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/adm/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+
+[ 2016-12-08T11:53:58+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+
+[ 2016-12-08T13:48:55+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+
+[ 2016-12-08T13:49:05+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+
+[ 2016-12-08T13:49:09+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+
+[ 2016-12-08T13:50:14+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+
+[ 2016-12-08T13:50:20+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+
+[ 2016-12-08T13:50:23+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+
+[ 2016-12-08T13:53:03+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+
+[ 2016-12-08T13:53:10+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+
+[ 2016-12-08T13:53:14+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+
+[ 2016-12-08T13:53:57+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+
+[ 2016-12-08T13:54:13+08:00 ] 1.80.216.60 /cnconsum/Merchant/merchant/loginView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+
+[ 2016-12-08T13:54:16+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/hyzgl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+
+[ 2016-12-08T13:54:20+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/turnURL?url=../card/addView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+
+[ 2016-12-08T13:54:20+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/card/addView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+
+[ 2016-12-08T13:54:39+08:00 ] 61.151.226.189 /cnconsum/index.php/Merchant/card/addView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+
+[ 2016-12-08T13:58:09+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/turnURL?url=../card/addView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+
+[ 2016-12-08T13:58:09+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/card/addView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+
+[ 2016-12-08T13:58:13+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/card/addView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+
+[ 2016-12-08T13:58:16+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/card/addView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+
+[ 2016-12-08T13:58:25+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/glysz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+
+[ 2016-12-08T13:59:06+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+
+[ 2016-12-08T14:03:35+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+
+[ 2016-12-08T14:05:39+08:00 ] 1.80.216.60 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+

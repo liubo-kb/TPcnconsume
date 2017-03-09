@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<link href="__PUBLIC__/css/page.css" rel="stylesheet" type="text/css"> 
+<link href="__PUBLIC__/css/nlogin.css" rel="stylesheet" type="text/css"> 
+<link href="__PUBLIC__/css/register.css" rel="stylesheet" type="text/css"> 
+</head>
+
+<body>
+
+<div class="all">
+
+        <div id="logo">
+                   <img src="__PUBLIC__/image/logo_header.jpg" alt="商城" width="170" height="60">
+                   <a style="margin-left:712px;cursor: pointer;color:#000">了解更多</a><b>|</b>
+                   <a style="color:#000;cursor: pointer">反馈意见</a>
+         </div>
+
+         <div class = "re_content">
+
+         	<div class = "re_information_top"><a class = "top_name">欢迎注册商消乐！</a>
+         	</div>
+
+         	<div class="re_information">
+		<form action ="register" method="post" id="register" name="register">
+    			<div id="register" style = "margin-top:30px; ">
+    				<p><span class="label" style="margin-right:24px"><b style="color:#F00">* </b>请输入您的手机号：</span></p>
+    				<div style="margin-left:90px;margin-top: 10px;">
+    					<input type="text" id="username" name="phone" class="text" tabindex="1" placeholder="请输入您的手机号">
+    					<input class="yanzhen" name="bnt1" type="button" value="获取验证码" />
+    				</div>
+    			</div>
+
+    			<div id="register_yanzhen" style = "margin-top:20px;">
+    				<p><span class="label"  style="margin-right:24px"><b style="color:#F00">* </b>请输入您的验证码：</span></p>
+    				<div style="margin-left:79px;margin-top:10px;">
+    					<input type="text" id="username" name="vert_code" class="text" tabindex="1" placeholder="请输入你的验证码">
+    					<input class="click_yz"  name="bnt1" type="button" value="点击验证" style="visibility:hidden"/>
+    				</div>
+    			</div>
+
+    			<div id="register_pw" style = "margin-top:20px">
+    				<p><span class="label"  style="margin-right:36px"><b style="color:#F00">* </b>请输入您的密码：</span></p>
+    				<input type="text" id="username" name="passwd" class="text1_password" tabindex="1" placeholder="6位以上字母数字组合">
+    			</div>
+
+    			<div id="register" style = "margin-top:20px">
+    				<p><span class="label"  style="margin-right:36px"><b style="color:#F00">* </b>请确认您的密码：</span></p>
+    				<input  type="text" id="username" name="passwd_again" class="text2_possword" tabindex="1" placeholder="6位以上字母数字组合">
+    			</div>
+
+    			<div id="register" style = "margin-top:20px">
+    				<p><span class="label"  style="margin-right:36px"><b style="color:#F00">* </b>推荐人手机号：</span></p>
+    				<input  type="text" id="username" name="referrer" class="text2_possword" tabindex="1" placeholder="推荐人手机号">
+    			</div>
+
+    			<div class="submit">
+                		<button type="submit" id="J_register" class="next_text" style="color:#fff">
+					立即注册
+                		</button>
+			</div>
+	 </form>
+         </div>
+</div>
+
+<div class="re_footer">
+      <div class="right_phone"></div>
+      <div class="right_qq" ></div>
+      <div class="right_dowload"></div> 
+</div>
+
+</body>
+</html>

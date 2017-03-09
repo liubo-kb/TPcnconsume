@@ -1,0 +1,1344 @@
+[ 2016-11-15T09:37:13+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/loginView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+
+[ 2016-11-15T09:37:16+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/registerView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+
+[ 2016-11-15T09:37:28+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+
+[ 2016-11-15T09:37:31+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/completeView_01
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000558s ]
+
+[ 2016-11-15T09:45:35+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/loginView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+
+[ 2016-11-15T09:45:38+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/completeView_01
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+
+[ 2016-11-15T09:46:18+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/loginView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+
+[ 2016-11-15T09:46:21+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/completeView_01
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+
+[ 2016-11-15T10:30:04+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/loginView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+
+[ 2016-11-15T10:30:11+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+
+[ 2016-11-15T10:30:14+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/completeView_01
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+
+[ 2016-11-15T10:32:58+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/loginView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000563s ]
+
+[ 2016-11-15T10:33:05+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+
+[ 2016-11-15T10:33:08+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/completeView_01
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+
+[ 2016-11-15T10:33:23+08:00 ] 101.226.89.117 /cnconsum/Merchant/merchant/completeView_01
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+
+[ 2016-11-15T10:34:23+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/loginView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+
+[ 2016-11-15T10:34:26+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/completeView_01
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+
+[ 2016-11-15T10:35:21+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/loginView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+
+[ 2016-11-15T10:35:24+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/completeView_01
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+
+[ 2016-11-15T10:38:47+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/completeView_01
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+
+[ 2016-11-15T10:39:38+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/loginView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+
+[ 2016-11-15T10:39:47+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+
+[ 2016-11-15T10:39:50+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/completeView_01
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+
+[ 2016-11-15T10:40:30+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/loginView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+
+[ 2016-11-15T10:40:36+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+
+[ 2016-11-15T10:40:39+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/completeView_01
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+
+[ 2016-11-15T10:41:01+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/loginView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+
+[ 2016-11-15T10:41:04+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/completeView_01
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+
+[ 2016-11-15T10:56:25+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/loginView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+
+[ 2016-11-15T10:56:31+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+
+[ 2016-11-15T10:56:34+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/completeView_01
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+
+[ 2016-11-15T11:14:31+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/loginView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+
+[ 2016-11-15T11:14:37+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+
+[ 2016-11-15T11:14:40+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/completeView_01
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+
+[ 2016-11-15T11:16:51+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/loginView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000449s ]
+
+[ 2016-11-15T11:16:56+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+
+[ 2016-11-15T11:16:59+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/completeView_01
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+
+[ 2016-11-15T11:18:28+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/loginView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+
+[ 2016-11-15T11:18:38+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+
+[ 2016-11-15T11:18:41+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/completeView_01
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+
+[ 2016-11-15T11:20:18+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/loginView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+
+[ 2016-11-15T11:20:21+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+
+[ 2016-11-15T11:20:24+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/completeView_01
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+
+[ 2016-11-15T11:29:01+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/loginView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+
+[ 2016-11-15T11:29:03+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+
+[ 2016-11-15T11:29:06+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/completeView_01
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+
+[ 2016-11-15T11:35:12+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/loginView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+
+[ 2016-11-15T11:35:14+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+
+[ 2016-11-15T11:35:17+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/completeView_01
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+
+[ 2016-11-15T11:38:30+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/loginView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+
+[ 2016-11-15T11:38:32+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+
+[ 2016-11-15T11:38:35+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/completeView_01
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+
+[ 2016-11-15T11:40:14+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/loginView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+
+[ 2016-11-15T11:40:16+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+
+[ 2016-11-15T11:40:19+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/completeView_01
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+
+[ 2016-11-15T11:40:33+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/%E6%B3%A8%E5%86%8C.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+
+[ 2016-11-15T14:18:16+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/loginView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+
+[ 2016-11-15T14:18:19+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/completeView_01
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+
+[ 2016-11-15T14:18:47+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+ERR: 非法操作:jpg
+
+[ 2016-11-15T14:19:07+08:00 ] 61.151.218.118 /cnconsum/Merchant/merchant/jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+ERR: 非法操作:jpg
+
+[ 2016-11-15T15:01:02+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/loginView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+
+[ 2016-11-15T15:01:05+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/completeView_01
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+
+[ 2016-11-15T15:02:22+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/loginView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+
+[ 2016-11-15T15:02:25+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/completeView_01
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+
+[ 2016-11-15T15:02:26+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+ERR: 非法操作:index
+
+[ 2016-11-15T15:04:12+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/loginView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+
+[ 2016-11-15T15:04:15+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/completeView_01
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+
+[ 2016-11-15T15:04:15+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/uploadify.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+ERR: 非法操作:uploadify.css
+
+[ 2016-11-15T15:04:16+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+ERR: 非法操作:index
+
+[ 2016-11-15T15:04:22+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/uploadify.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+ERR: 非法操作:uploadify.css
+
+[ 2016-11-15T15:04:58+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/completeView_01
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+
+[ 2016-11-15T15:04:58+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/uploadify.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+ERR: 非法操作:uploadify.css
+
+[ 2016-11-15T15:04:59+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+ERR: 非法操作:index
+
+[ 2016-11-15T15:05:03+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/uploadify.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+ERR: 非法操作:uploadify.css
+
+[ 2016-11-15T15:05:38+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/completeView_01
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+
+[ 2016-11-15T15:05:38+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+ERR: 非法操作:index
+
+[ 2016-11-15T15:06:02+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+ERR: 非法操作:index
+
+[ 2016-11-15T15:13:20+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/completeView_01
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+
+[ 2016-11-15T15:13:21+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+ERR: 非法操作:index
+
+[ 2016-11-15T15:14:01+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/loginView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+
+[ 2016-11-15T15:14:04+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/completeView_01
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+
+[ 2016-11-15T15:14:05+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+ERR: 非法操作:index
+
+[ 2016-11-15T15:15:28+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/completeView_01
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+
+[ 2016-11-15T15:16:10+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/completeView_01
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+
+[ 2016-11-15T15:16:47+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/completeView_01
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+
+[ 2016-11-15T15:16:48+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+ERR: 非法操作:index
+
+[ 2016-11-15T15:21:04+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+
+[ 2016-11-15T15:21:04+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+ERR: 非法操作:jquery.uploadify.min.js
+
+[ 2016-11-15T15:21:04+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/uploadify.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000382s ]
+ERR: 非法操作:uploadify.css
+
+[ 2016-11-15T15:21:14+08:00 ] 112.65.193.15 /cnconsum/Merchant/merchant/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+
+[ 2016-11-15T15:21:14+08:00 ] 180.163.2.117 /cnconsum/Merchant/merchant/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+
+[ 2016-11-15T15:21:17+08:00 ] 112.65.193.15 /cnconsum/Merchant/merchant/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+ERR: 非法操作:jquery.uploadify.min.js
+
+[ 2016-11-15T15:21:19+08:00 ] 180.163.2.117 /cnconsum/Merchant/merchant/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+ERR: 非法操作:jquery.uploadify.min.js
+
+[ 2016-11-15T15:21:21+08:00 ] 180.153.206.18 /cnconsum/Merchant/merchant/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+
+[ 2016-11-15T15:21:23+08:00 ] 180.153.206.18 /cnconsum/Merchant/merchant/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+ERR: 非法操作:jquery.uploadify.min.js
+
+[ 2016-11-15T15:21:25+08:00 ] 180.153.160.24 /cnconsum/Merchant/merchant/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+
+[ 2016-11-15T15:21:36+08:00 ] 180.153.160.24 /cnconsum/Merchant/merchant/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+ERR: 非法操作:jquery.uploadify.min.js
+
+[ 2016-11-15T15:22:31+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+
+[ 2016-11-15T15:22:31+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+ERR: 非法操作:jquery.uploadify.min.js
+
+[ 2016-11-15T15:25:43+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+
+[ 2016-11-15T15:25:43+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+ERR: 非法操作:jquery.uploadify.min.js
+
+[ 2016-11-15T15:27:25+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+
+[ 2016-11-15T15:27:25+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+ERR: 非法操作:index
+
+[ 2016-11-15T15:31:32+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+
+[ 2016-11-15T15:31:32+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+ERR: 非法操作:index
+
+[ 2016-11-15T15:33:16+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+
+[ 2016-11-15T15:33:17+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/uploadify.swf?preventswfcaching=1479195328842
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+ERR: 非法操作:uploadify.swf
+
+[ 2016-11-15T15:33:17+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/uploadify.swf?preventswfcaching=1479195328842
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+ERR: 非法操作:uploadify.swf
+
+[ 2016-11-15T15:33:33+08:00 ] 180.153.206.23 /cnconsum/Merchant/merchant/uploadify.swf?preventswfcaching=1479195328842
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+ERR: 非法操作:uploadify.swf
+
+[ 2016-11-15T15:33:33+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000350s ]
+
+[ 2016-11-15T15:33:33+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/uploadify.swf?preventswfcaching=1479195345225
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+ERR: 非法操作:uploadify.swf
+
+[ 2016-11-15T15:33:33+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/uploadify.swf?preventswfcaching=1479195345225
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+ERR: 非法操作:uploadify.swf
+
+[ 2016-11-15T15:33:34+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+
+[ 2016-11-15T15:33:34+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/uploadify.swf?preventswfcaching=1479195346585
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+ERR: 非法操作:uploadify.swf
+
+[ 2016-11-15T15:33:34+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/uploadify.swf?preventswfcaching=1479195346585
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+ERR: 非法操作:uploadify.swf
+
+[ 2016-11-15T15:33:51+08:00 ] 101.226.33.204 /cnconsum/Merchant/merchant/uploadify.swf?preventswfcaching=1479195346585
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+ERR: 非法操作:uploadify.swf
+
+[ 2016-11-15T15:33:52+08:00 ] 180.153.214.197 /cnconsum/Merchant/merchant/uploadify.swf?preventswfcaching=1479195345225
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+ERR: 非法操作:uploadify.swf
+
+[ 2016-11-15T15:34:17+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+
+[ 2016-11-15T15:34:17+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+ERR: 非法操作:index
+
+[ 2016-11-15T15:34:37+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+
+[ 2016-11-15T15:34:38+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/uploadify.swf?preventswfcaching=1479195410079
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+ERR: 非法操作:uploadify.swf
+
+[ 2016-11-15T15:34:38+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/uploadify.swf?preventswfcaching=1479195410079
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+ERR: 非法操作:uploadify.swf
+
+[ 2016-11-15T15:34:42+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+
+[ 2016-11-15T15:34:43+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/uploadify.swf?preventswfcaching=1479195414897
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+ERR: 非法操作:uploadify.swf
+
+[ 2016-11-15T15:34:43+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/uploadify.swf?preventswfcaching=1479195414897
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+ERR: 非法操作:uploadify.swf
+
+[ 2016-11-15T15:34:59+08:00 ] 180.153.163.190 /cnconsum/Merchant/merchant/uploadify.swf?preventswfcaching=1479195410079
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+ERR: 非法操作:uploadify.swf
+
+[ 2016-11-15T15:35:02+08:00 ] 101.226.66.174 /cnconsum/Merchant/merchant/uploadify.swf?preventswfcaching=1479195414897
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+ERR: 非法操作:uploadify.swf
+
+[ 2016-11-15T15:38:54+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+
+[ 2016-11-15T15:38:55+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+ERR: 非法操作:index
+
+[ 2016-11-15T15:40:09+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+
+[ 2016-11-15T15:40:09+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+ERR: 非法操作:index
+
+[ 2016-11-15T15:42:46+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+
+[ 2016-11-15T15:43:27+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+
+[ 2016-11-15T15:43:51+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+
+[ 2016-11-15T15:44:31+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+
+[ 2016-11-15T15:44:32+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+ERR: 非法操作:index
+
+[ 2016-11-15T15:46:18+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+
+[ 2016-11-15T15:46:18+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+ERR: 非法操作:index
+
+[ 2016-11-15T15:51:14+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+
+[ 2016-11-15T15:51:14+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+ERR: 非法操作:index
+
+[ 2016-11-15T15:56:23+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+
+[ 2016-11-15T15:56:24+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+ERR: 非法操作:index
+
+[ 2016-11-15T15:56:29+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/upload/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+ERR: 非法操作:upload
+
+[ 2016-11-15T15:57:14+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/upload/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000525s ]
+ERR: 非法操作:upload
+
+[ 2016-11-15T15:57:32+08:00 ] 180.153.201.66 /cnconsum/Merchant/merchant/upload/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+ERR: 非法操作:upload
+
+[ 2016-11-15T15:58:27+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/Upload/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+ERR: 非法操作:Upload
+
+[ 2016-11-15T15:58:38+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/upload/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+ERR: 非法操作:upload
+
+[ 2016-11-15T15:59:12+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+
+[ 2016-11-15T15:59:12+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+ERR: 非法操作:index
+
+[ 2016-11-15T15:59:17+08:00 ] 117.23.80.7 /cnconsum/Merchant/upload/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+
+[ 2016-11-15T15:59:39+08:00 ] 117.23.80.7 /cnconsum/Merchant/upload/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+
+[ 2016-11-15T15:59:55+08:00 ] 101.226.125.16 /cnconsum/Merchant/upload/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000382s ]
+
+[ 2016-11-15T16:00:03+08:00 ] 117.23.80.7 /cnconsum/Merchant/upload/upload
+INFO: 没有上传的文件！
+[ 2016-11-15T16:00:03+08:00 ] 117.23.80.7 /cnconsum/Merchant/upload/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+
+[ 2016-11-15T16:00:11+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000250s ]
+
+[ 2016-11-15T16:00:12+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+ERR: 非法操作:index
+
+[ 2016-11-15T16:00:17+08:00 ] 117.23.80.7 /cnconsum/Merchant/upload/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+
+[ 2016-11-15T16:00:31+08:00 ] 171.211.101.106 /cnconsum/Merchant/upload/upload
+INFO: 没有上传的文件！
+[ 2016-11-15T16:00:31+08:00 ] 171.211.101.106 /cnconsum/Merchant/upload/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+
+[ 2016-11-15T16:06:59+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+
+[ 2016-11-15T16:06:59+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+ERR: 非法操作:index
+
+[ 2016-11-15T16:07:06+08:00 ] 117.23.80.7 /cnconsum/Merchant/upload/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+
+[ 2016-11-15T16:10:09+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+
+[ 2016-11-15T16:10:10+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+ERR: 非法操作:index
+
+[ 2016-11-15T16:10:10+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+ERR: 非法操作:index
+
+[ 2016-11-15T16:10:18+08:00 ] 117.23.80.7 /cnconsum/Merchant/upload/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+
+[ 2016-11-15T16:30:42+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+
+[ 2016-11-15T16:30:42+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+ERR: 非法操作:index
+
+[ 2016-11-15T16:30:42+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+ERR: 非法操作:index
+
+[ 2016-11-15T16:30:59+08:00 ] 117.23.80.7 /cnconsum/Merchant/upload/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+
+[ 2016-11-15T16:31:30+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+
+[ 2016-11-15T16:31:31+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+ERR: 非法操作:index
+
+[ 2016-11-15T16:31:31+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+ERR: 非法操作:index
+
+[ 2016-11-15T16:31:39+08:00 ] 117.23.80.7 /cnconsum/Merchant/upload/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+
+[ 2016-11-15T16:45:46+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+
+[ 2016-11-15T16:45:46+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+ERR: 非法操作:index
+
+[ 2016-11-15T16:45:54+08:00 ] 117.23.80.7 /cnconsum/Merchant/upload/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+
+[ 2016-11-15T16:47:12+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+
+[ 2016-11-15T16:47:12+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+ERR: 非法操作:index
+
+[ 2016-11-15T16:47:18+08:00 ] 117.23.80.7 /cnconsum/Merchant/upload/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+
+[ 2016-11-15T16:48:58+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+
+[ 2016-11-15T16:48:59+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+ERR: 非法操作:index
+
+[ 2016-11-15T16:49:09+08:00 ] 117.23.80.7 /cnconsum/Merchant/upload/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+
+[ 2016-11-15T16:54:52+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+
+[ 2016-11-15T16:54:53+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+ERR: 非法操作:index
+
+[ 2016-11-15T16:55:00+08:00 ] 117.23.80.7 /cnconsum/Merchant/upload/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+
+[ 2016-11-15T16:57:44+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+
+[ 2016-11-15T16:58:56+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+
+[ 2016-11-15T16:58:56+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+ERR: 非法操作:index
+
+[ 2016-11-15T16:59:08+08:00 ] 117.23.80.7 /cnconsum/Merchant/upload/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+
+[ 2016-11-15T17:02:01+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+
+[ 2016-11-15T17:02:02+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+ERR: 非法操作:index
+
+[ 2016-11-15T17:02:10+08:00 ] 117.23.80.7 /cnconsum/Merchant/upload/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+
+[ 2016-11-15T17:09:44+08:00 ] 101.226.68.215 /cnconsum/Merchant/merchant/loginView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+
+[ 2016-11-15T17:09:49+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/loginView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+
+[ 2016-11-15T17:10:14+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+
+[ 2016-11-15T17:10:17+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/completeView_01
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+
+[ 2016-11-15T17:10:18+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+ERR: 非法操作:index
+
+[ 2016-11-15T17:10:30+08:00 ] 61.151.226.189 /cnconsum/merchant/merchant/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+
+[ 2016-11-15T17:13:33+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+
+[ 2016-11-15T17:13:34+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+ERR: 非法操作:index
+
+[ 2016-11-15T17:13:38+08:00 ] 117.23.80.7 /cnconsum/Merchant/upload/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+
+[ 2016-11-15T17:21:25+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+
+[ 2016-11-15T17:21:26+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+ERR: 非法操作:index
+
+[ 2016-11-15T17:21:31+08:00 ] 117.23.80.7 /cnconsum/Merchant/upload/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+
+[ 2016-11-15T17:22:15+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+
+[ 2016-11-15T17:22:16+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+ERR: 非法操作:index
+
+[ 2016-11-15T17:22:22+08:00 ] 117.23.80.7 /cnconsum/Merchant/upload/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+
+[ 2016-11-15T17:22:34+08:00 ] 117.23.80.7 /cnconsum/Merchant/upload/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+
+[ 2016-11-15T17:22:42+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+
+[ 2016-11-15T17:22:42+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+ERR: 非法操作:index
+
+[ 2016-11-15T17:22:49+08:00 ] 117.23.80.7 /cnconsum/Merchant/upload/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000382s ]
+
+[ 2016-11-15T17:23:07+08:00 ] 117.23.80.7 /cnconsum/Merchant/upload/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+
+[ 2016-11-15T17:23:18+08:00 ] 117.23.80.7 /cnconsum/Merchant/upload/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+
+[ 2016-11-15T17:29:05+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+
+[ 2016-11-15T17:29:06+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+ERR: 非法操作:index
+
+[ 2016-11-15T17:29:11+08:00 ] 117.23.80.7 /cnconsum/Merchant/upload/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+
+[ 2016-11-15T17:29:18+08:00 ] 117.23.80.7 /cnconsum/Merchant/upload/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+
+[ 2016-11-15T17:29:26+08:00 ] 117.23.80.7 /cnconsum/Merchant/upload/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+
+[ 2016-11-15T17:29:36+08:00 ] 117.23.80.7 /cnconsum/Merchant/upload/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+
+[ 2016-11-15T17:29:44+08:00 ] 117.23.80.7 /cnconsum/Merchant/upload/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+
+[ 2016-11-15T17:42:46+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+
+[ 2016-11-15T17:42:47+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+ERR: 非法操作:index
+
+[ 2016-11-15T17:42:51+08:00 ] 117.23.80.7 /cnconsum/Merchant/upload/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+
+[ 2016-11-15T18:01:00+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+
+[ 2016-11-15T18:02:21+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+
+[ 2016-11-15T18:04:22+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+
+[ 2016-11-15T18:05:22+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+
+[ 2016-11-15T18:06:02+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+
+[ 2016-11-15T18:07:11+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+
+[ 2016-11-15T18:08:21+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+
+[ 2016-11-15T18:16:03+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/loginView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+
+[ 2016-11-15T18:16:07+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/loginView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+
+[ 2016-11-15T18:16:12+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+
+[ 2016-11-15T18:17:13+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+
+[ 2016-11-15T18:17:40+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+
+[ 2016-11-15T18:20:15+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+
+[ 2016-11-15T18:20:16+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/__PUBLIC__/swf/uploadify.swf?preventswfcaching=1479205350053
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+ERR: 非法操作:__PUBLIC__
+
+[ 2016-11-15T18:20:16+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/__PUBLIC__/swf/uploadify.swf?preventswfcaching=1479205350053
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+ERR: 非法操作:__PUBLIC__
+
+[ 2016-11-15T18:20:34+08:00 ] 180.153.214.182 /cnconsum/Merchant/merchant/__PUBLIC__/swf/uploadify.swf?preventswfcaching=1479205350053
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+ERR: 非法操作:__PUBLIC__
+
+[ 2016-11-15T18:20:59+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+
+[ 2016-11-15T18:20:59+08:00 ] 117.23.80.7 /cnconsum/Merchant/swf/uploadify.swf?preventswfcaching=1479205393192
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+ERR: 无法加载控制器:Swf
+
+[ 2016-11-15T18:20:59+08:00 ] 117.23.80.7 /cnconsum/Merchant/swf/uploadify.swf?preventswfcaching=1479205393192
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+ERR: 无法加载控制器:Swf
+
+[ 2016-11-15T18:21:15+08:00 ] 101.226.33.219 /cnconsum/Merchant/swf/uploadify.swf?preventswfcaching=1479205393192
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+ERR: 无法加载控制器:Swf
+
+[ 2016-11-15T18:21:50+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/loginView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+
+[ 2016-11-15T18:22:00+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+
+[ 2016-11-15T18:22:00+08:00 ] 117.23.80.7 /cnconsum/Merchant/swf/uploadify.swf?preventswfcaching=1479205454622
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+ERR: 无法加载控制器:Swf
+
+[ 2016-11-15T18:22:00+08:00 ] 117.23.80.7 /cnconsum/Merchant/swf/uploadify.swf?preventswfcaching=1479205454622
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+ERR: 无法加载控制器:Swf
+
+[ 2016-11-15T18:22:19+08:00 ] 101.226.33.223 /cnconsum/Merchant/swf/uploadify.swf?preventswfcaching=1479205454622
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+ERR: 无法加载控制器:Swf
+
+[ 2016-11-15T18:22:39+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+
+[ 2016-11-15T18:22:40+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/__PUBLIC__/swf/uploadify.swf?preventswfcaching=1479205494012
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+ERR: 非法操作:__PUBLIC__
+
+[ 2016-11-15T18:22:40+08:00 ] 117.23.80.7 /cnconsum/Merchant/merchant/__PUBLIC__/swf/uploadify.swf?preventswfcaching=1479205494012
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+ERR: 非法操作:__PUBLIC__
+
+[ 2016-11-15T18:22:56+08:00 ] 61.151.226.16 /cnconsum/Merchant/merchant/__PUBLIC__/swf/uploadify.swf?preventswfcaching=1479205494012
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+ERR: 非法操作:__PUBLIC__
+

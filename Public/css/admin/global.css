@@ -1,0 +1,200 @@
+@charset "utf-8";
+* { 
+	margin: 0; 
+	padding: 0;
+}
+body {
+	margin: 0;
+	font: 12px/22px "Microsoft YaHei", Arial, Helvetica, sans-serif;
+	text-align: center;
+	color: #000;
+	background: #fff;
+}
+ol, ul ,li {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+} 
+img {
+	border: 0; 
+	vertical-align: middle;
+}
+a {
+	color: #000;
+	text-decoration: none; 
+}  
+a:hover {
+	text-decoration: none;
+}
+input[type=submit], input[type=reset], input[type=button] {
+	filter:chroma(color=#000000);
+}
+article,aside,details,dialog,footer,header,section,footer,nav,figure,menu{display:block}
+.clearfix{ *zoom: 1;  }
+.clearfix:before,.clearfix:after { display: table; line-height: 0; content: ""; } 
+.clearfix:after { clear: both; } 
+
+.header{
+	height: 80px;
+	text-align: left;
+	background: url(../../image/admin/bg-head.gif) repeat-x;
+	color: #fff;
+}
+.headbar{
+	height: 80px;
+	line-height: 80px;
+	padding-left: 35px;
+	background: url(../../image/admin/bg-head-left.gif) no-repeat left top;
+}
+.headbar img{
+	padding-right: 15px;
+}
+.timebar{
+	float: right;
+	margin-top: -80px;
+	padding: 20px 35px 0 0;
+}
+.menubar{
+	height: 36px;
+	background: url(../../image/admin/bg-menu.gif) repeat-x top #34b5eb;
+	border-bottom: 1px solid #337dc2;
+}
+.menu{
+	float: left;
+	height: 35px;
+	margin-left: 20px;
+	border-left: 1px solid #0092d7;
+	border-right: 1px solid #007fc7;
+}
+.menu li{
+	float: left;
+	height: 35px;
+	line-height: 35px;
+	padding: 0 15px;
+	color: #fff;
+	border-left: 1px solid #007fc7;
+	border-right: 1px solid #0092d7;
+	font-size: 14px;
+	cursor: pointer;
+}
+.menu li a{
+	display: block;
+	color: #fff;
+}
+.menu .on,.menu li:hover{
+	background-color: #0385c1;
+	border-right: 1px solid #0385c1;
+}
+.exitbar{
+	float: right;
+	line-height: 36px;
+	margin-right: 35px;
+}
+.exitbar a{
+	color: #fff;
+}
+.wrapper{
+	padding-right: 230px;
+}
+.container{
+	text-align: left;
+}
+.sidebar{
+	float: right;
+	width: 230px;
+	margin-right: -230px;
+	padding-bottom: 100px;
+	border-left: 1px solid #dfdfdf;
+	border-bottom: 2px solid #bfbfbf;
+}
+.footer{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 25px;
+	background-color: #f7f7f7;
+	text-align: left;
+}
+.font-user{
+	color: #9c9c9c;
+	padding-left: 20px;
+}
+.sb-tit{
+	padding: 7px;
+	border-bottom: 1px solid #c6c6c6;
+	text-align: left;
+}
+.font-sbt{
+	font-size: 18px;
+	color: #054491;
+	padding-left: 5px;
+	vertical-align: middle;
+}
+.tools li{
+	height: 35px;
+	line-height: 35px;
+	padding-left: 12px;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #d1d1d1;
+	*margin-bottom: -4px;
+	text-align: left;
+	font-size: 14px;
+	color: #010101;
+	FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#ececec,endColorStr=#dadada);
+	background: -ms-linear-gradient(top, #ececec,  #dadada);
+	background: linear-gradient(top, #ececec, #dadada);
+	background: -moz-linear-gradient(top, #ececec, #dadada);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%,from(#ececec), to(#dadada));
+	background: -webkit-linear-gradient(top, #ececec, #dadada);
+	background: -o-linear-gradient(top, #ececec, #dadada);
+}
+.tools li:hover{
+	FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#03a2e5,endColorStr=#015db4);
+	background: -ms-linear-gradient(top, #03a2e5,  #015db4);
+	background: linear-gradient(top, #03a2e5, #015db4);
+	background: -moz-linear-gradient(top, #03a2e5, #015db4);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%,from(#03a2e5), to(#015db4));
+	background: -webkit-linear-gradient(top, #03a2e5, #015db4);
+	background: -o-linear-gradient(top, #03a2e5, #015db4);
+}
+.tools a:hover, .tools li:hover a{
+	color: #fff;
+}
+.tools li a{
+	display: block;
+}
+.pagebar{
+	height: 50px;
+	margin-top: 50px;
+	text-align: right;
+}
+.pagewrap{
+	display: inline-block;
+	line-height: 30px;
+	text-align: center;
+}
+.pagenum{
+	margin-right: 10px;
+}
+.pagebar b{
+	float: left;
+	font-weight: 400;
+}
+.pagebar a{
+	float: left;
+	display: inline-block;
+	min-width: 30px;
+	min-height: 30px;
+	color: #fff;
+	cursor: pointer;
+}
+.first,.prev,.next,.end,.num{
+    background: url(../../image/admin/pg.png) no-repeat center center;
+}
+.first:hover,.prev:hover,.next:hover,.end:hover,.num:hover{
+    background: url(../../image/admin/pg-act.png) no-repeat center center;
+}
+.current{
+    background: url(../../image/admin/pg-act.png) no-repeat center center;
+}

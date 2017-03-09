@@ -1,0 +1,1351 @@
+[ 2016-12-02T09:41:48+08:00 ] 117.23.83.109 /cnconsum/Merchant/merchant/loginView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+
+[ 2016-12-02T09:41:51+08:00 ] 117.23.83.109 /cnconsum/Merchant/merchant/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+
+[ 2016-12-02T09:41:54+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/Business/hyzgl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+
+[ 2016-12-02T09:41:57+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/Business/dpgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+
+[ 2016-12-02T09:41:59+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/Business/dpgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000629s ]
+SQL: SHOW COLUMNS FROM `cn_store_manage` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_store_manage` WHERE cn_store_manage.state = 'access' AND cn_store_manage.merchant = 'm_6d4e76ca04' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `muid`,`name`,cn_merchant.store,`phone`,`address`,`passwd`,`remain`,`image_url`,cn_merchant_turnover.sum FROM `cn_store_manage` INNER JOIN cn_merchant ON cn_merchant.muid = cn_store_manage.store INNER JOIN cn_merchant_turnover ON cn_merchant_turnover.merchant = cn_store_manage.store  WHERE cn_store_manage.state = 'access' AND cn_store_manage.merchant = 'm_6d4e76ca04' LIMIT 1,1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `cn_user_card` [ RunTime:0.0004s ]
+SQL: SELECT DISTINCT  COUNT(*) AS tp_count FROM `cn_user_card` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-12-02T09:41:59+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/Business/dpgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000477s ]
+SQL: SHOW COLUMNS FROM `cn_store_manage` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_store_manage` WHERE cn_store_manage.state = 'access' AND cn_store_manage.merchant = 'm_6d4e76ca04' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `muid`,`name`,cn_merchant.store,`phone`,`address`,`passwd`,`remain`,`image_url`,cn_merchant_turnover.sum FROM `cn_store_manage` INNER JOIN cn_merchant ON cn_merchant.muid = cn_store_manage.store INNER JOIN cn_merchant_turnover ON cn_merchant_turnover.merchant = cn_store_manage.store  WHERE cn_store_manage.state = 'access' AND cn_store_manage.merchant = 'm_6d4e76ca04' LIMIT 2,1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `cn_user_card` [ RunTime:0.0004s ]
+SQL: SELECT DISTINCT  COUNT(*) AS tp_count FROM `cn_user_card` WHERE `merchant` = 'm_9ba5e2b48b' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-12-02T09:42:00+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/Business/dpgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000374s ]
+SQL: SHOW COLUMNS FROM `cn_store_manage` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_store_manage` WHERE cn_store_manage.state = 'access' AND cn_store_manage.merchant = 'm_6d4e76ca04' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `muid`,`name`,cn_merchant.store,`phone`,`address`,`passwd`,`remain`,`image_url`,cn_merchant_turnover.sum FROM `cn_store_manage` INNER JOIN cn_merchant ON cn_merchant.muid = cn_store_manage.store INNER JOIN cn_merchant_turnover ON cn_merchant_turnover.merchant = cn_store_manage.store  WHERE cn_store_manage.state = 'access' AND cn_store_manage.merchant = 'm_6d4e76ca04' LIMIT 1,1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `cn_user_card` [ RunTime:0.0005s ]
+SQL: SELECT DISTINCT  COUNT(*) AS tp_count FROM `cn_user_card` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-12-02T09:42:01+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/Business/shopAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+
+[ 2016-12-02T09:42:04+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/store/app
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+
+[ 2016-12-02T09:42:07+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/Business/shopAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+
+[ 2016-12-02T09:42:10+08:00 ] 180.153.214.199 /cnconsum/index.php/Merchant/Business/hyzgl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+
+[ 2016-12-02T09:42:12+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/Business/zjtx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+
+[ 2016-12-02T10:09:55+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/Business/glysz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+
+[ 2016-12-02T10:09:58+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/Business/zjtx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+ERR: Think\Model:filed方法不存在！
+
+[ 2016-12-02T10:10:21+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/Business/zjtx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+
+[ 2016-12-02T10:11:50+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/Business/zjtx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+
+[ 2016-12-02T10:12:44+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/Business/zjtx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+
+[ 2016-12-02T10:14:29+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/Business/zjtx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+
+[ 2016-12-02T10:14:48+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/Business/zjtx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+
+[ 2016-12-02T10:18:39+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/Business/zjtx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+
+[ 2016-12-02T10:19:37+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/Business/zjtx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+
+[ 2016-12-02T10:20:19+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/Business/zjtx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+
+[ 2016-12-02T10:21:19+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/Business/dpgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+
+[ 2016-12-02T10:21:23+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/Business/zjtx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+
+[ 2016-12-02T10:37:59+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/Business/zjtx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+
+[ 2016-12-02T10:38:06+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/withdraw/withdraw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+
+[ 2016-12-02T10:40:01+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/withdraw/withdraw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000736s ]
+
+[ 2016-12-02T10:40:39+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/withdraw/withdraw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+
+[ 2016-12-02T10:42:36+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/withdraw/withdraw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+
+[ 2016-12-02T10:42:39+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/Business/zjtx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+
+[ 2016-12-02T10:44:47+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/withdraw/withdraw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+
+[ 2016-12-02T10:44:50+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/Business/zjtx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+
+[ 2016-12-02T10:45:08+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/withdraw/withdraw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+
+[ 2016-12-02T10:45:12+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/Business/zjtx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+
+[ 2016-12-02T10:45:36+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/Business/txmx.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+
+[ 2016-12-02T10:45:53+08:00 ] 101.226.51.229 /cnconsum/index.php/Merchant/Business/txmx.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+
+[ 2016-12-02T10:50:47+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/Business/txmx.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+
+[ 2016-12-02T10:55:31+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/Business/txmx.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+
+[ 2016-12-02T11:05:34+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/Business/txmx.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+
+[ 2016-12-02T11:05:54+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/Business/txmx.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+
+[ 2016-12-02T11:06:03+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/Business/zjtx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+
+[ 2016-12-02T11:06:04+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/withdraw/detail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+
+[ 2016-12-02T11:06:20+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/withdraw/detail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+
+[ 2016-12-02T11:06:22+08:00 ] 180.153.206.23 /cnconsum/index.php/Merchant/withdraw/detail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+
+[ 2016-12-02T11:06:42+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/withdraw/detail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+
+[ 2016-12-02T11:09:46+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/withdraw/detail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+
+[ 2016-12-02T11:09:47+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/DataReport/data_xk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+
+[ 2016-12-02T11:09:57+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/Business/zjtx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+
+[ 2016-12-02T11:10:00+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/withdraw/detail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+
+[ 2016-12-02T11:10:04+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/DataReport/data_xk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+
+[ 2016-12-02T11:10:05+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/DataReport/data_xk?date_type=season
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+
+[ 2016-12-02T11:10:07+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/DataReport/data_xk?date_type=season
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000406s ]
+SQL: SHOW COLUMNS FROM `cn_record_renew` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_record_renew` WHERE `merchant` = 'm_6d4e76ca11' AND ( cn_record_renew.datetime >= '2016-10-01 00:00:00' AND cn_record_renew.datetime <= '2016-12-31 23:59:59'  ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT SUM(sum) AS tp_sum FROM `cn_record_renew` WHERE `merchant` = 'm_6d4e76ca11' AND ( cn_record_renew.datetime >= '2016-10-01 00:00:00' AND cn_record_renew.datetime <= '2016-12-31 23:59:59'  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT cn_record_renew.*,cn_user.phone,`headImage` FROM `cn_record_renew` INNER JOIN cn_user ON cn_user.uuid = cn_record_renew.user   WHERE `merchant` = 'm_6d4e76ca11' AND ( cn_record_renew.datetime >= '2016-10-01 00:00:00' AND cn_record_renew.datetime <= '2016-12-31 23:59:59'  ) LIMIT 1,1   [ RunTime:0.0003s ]
+
+[ 2016-12-02T11:10:09+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/DataReport/data_detail?table=xk&user=u_c87ea2bf57&merchant=m_6d4e76ca11&datetime=2016-11-30%2011:24:00
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+
+[ 2016-12-02T11:10:10+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/DataReport/data_xk?date_type=season
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+
+[ 2016-12-02T11:10:12+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/Business/zjtx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+
+[ 2016-12-02T11:10:14+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/withdraw/detail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+
+[ 2016-12-02T11:10:19+08:00 ] 101.226.66.193 /cnconsum/index.php/Merchant/DataReport/data_detail?table=xk&merchant=m_6d4e76ca11&datetime=2016-11-3011:24:00
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+
+[ 2016-12-02T11:21:56+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/withdraw/detail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+ERR: 非法操作:detail
+
+[ 2016-12-02T11:22:06+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/Business/zjtx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+
+[ 2016-12-02T11:22:07+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/withdraw/txmx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+
+[ 2016-12-02T11:22:26+08:00 ] 180.163.2.118 /cnconsum/index.php/Merchant/withdraw/txmx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+
+[ 2016-12-02T11:23:03+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/Business/zjtx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+
+[ 2016-12-02T11:23:05+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/withdraw/txmx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000350s ]
+
+[ 2016-12-02T11:23:05+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/Business/zjtx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+
+[ 2016-12-02T11:23:07+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/withdraw/txmx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+
+[ 2016-12-02T11:23:07+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/Business/zjtx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+
+[ 2016-12-02T11:23:09+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/withdraw/txmx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+
+[ 2016-12-02T11:23:10+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/Business/zjtx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+
+[ 2016-12-02T11:23:11+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/withdraw/txmx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+
+[ 2016-12-02T11:23:12+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/Business/zjtx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+
+[ 2016-12-02T11:23:16+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/withdraw/withdraw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+
+[ 2016-12-02T11:23:19+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/Business/zjtx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+
+[ 2016-12-02T11:23:22+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/withdraw/withdraw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+
+[ 2016-12-02T11:23:25+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/Business/zjtx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+
+[ 2016-12-02T11:23:28+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/withdraw/withdraw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+
+[ 2016-12-02T11:23:31+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/Business/zjtx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+
+[ 2016-12-02T11:23:33+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/withdraw/txmx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+
+[ 2016-12-02T11:26:02+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/Business/zjtx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+
+[ 2016-12-02T11:26:03+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/withdraw/txmx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+
+[ 2016-12-02T11:26:05+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/withdraw/txmx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000394s ]
+NOTIC: [8] Indirect modification of overloaded property Merchant\Controller\WithdrawController::$header has no effect /var/www/html/cnconsum/Project/Merchant/Controller/WithdrawController.class.php 第 68 行.
+SQL: SHOW COLUMNS FROM `cn_merchant_withdraw` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(sum) AS tp_sum FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `tradenu`,`sum`,`bank`,`account`,`datetime`,`state` FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 2,2   [ RunTime:0.0002s ]
+
+[ 2016-12-02T11:26:06+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/withdraw/txmx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000420s ]
+NOTIC: [8] Indirect modification of overloaded property Merchant\Controller\WithdrawController::$header has no effect /var/www/html/cnconsum/Project/Merchant/Controller/WithdrawController.class.php 第 68 行.
+SQL: SHOW COLUMNS FROM `cn_merchant_withdraw` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(sum) AS tp_sum FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `tradenu`,`sum`,`bank`,`account`,`datetime`,`state` FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 4,2   [ RunTime:0.0004s ]
+
+[ 2016-12-02T11:26:07+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/withdraw/txmx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000413s ]
+NOTIC: [8] Indirect modification of overloaded property Merchant\Controller\WithdrawController::$header has no effect /var/www/html/cnconsum/Project/Merchant/Controller/WithdrawController.class.php 第 68 行.
+SQL: SHOW COLUMNS FROM `cn_merchant_withdraw` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT SUM(sum) AS tp_sum FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `tradenu`,`sum`,`bank`,`account`,`datetime`,`state` FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 2,2   [ RunTime:0.0002s ]
+
+[ 2016-12-02T11:26:08+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/withdraw/txmx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000389s ]
+NOTIC: [8] Indirect modification of overloaded property Merchant\Controller\WithdrawController::$header has no effect /var/www/html/cnconsum/Project/Merchant/Controller/WithdrawController.class.php 第 68 行.
+SQL: SHOW COLUMNS FROM `cn_merchant_withdraw` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT SUM(sum) AS tp_sum FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `tradenu`,`sum`,`bank`,`account`,`datetime`,`state` FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 0,2   [ RunTime:0.0003s ]
+
+[ 2016-12-02T11:26:10+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/withdraw/txmx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000816s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000879s ]
+NOTIC: [8] Indirect modification of overloaded property Merchant\Controller\WithdrawController::$header has no effect /var/www/html/cnconsum/Project/Merchant/Controller/WithdrawController.class.php 第 68 行.
+SQL: SHOW COLUMNS FROM `cn_merchant_withdraw` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT SUM(sum) AS tp_sum FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `tradenu`,`sum`,`bank`,`account`,`datetime`,`state` FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 2,2   [ RunTime:0.0003s ]
+
+[ 2016-12-02T11:26:41+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/withdraw/txmx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000357s ]
+NOTIC: [8] Indirect modification of overloaded property Merchant\Controller\WithdrawController::$header has no effect /var/www/html/cnconsum/Project/Merchant/Controller/WithdrawController.class.php 第 68 行.
+SQL: SHOW COLUMNS FROM `cn_merchant_withdraw` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT SUM(sum) AS tp_sum FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `tradenu`,`sum`,`bank`,`account`,`datetime`,`state` FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 0,2   [ RunTime:0.0002s ]
+
+[ 2016-12-02T11:26:44+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/withdraw/txmx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000384s ]
+NOTIC: [8] Indirect modification of overloaded property Merchant\Controller\WithdrawController::$header has no effect /var/www/html/cnconsum/Project/Merchant/Controller/WithdrawController.class.php 第 68 行.
+SQL: SHOW COLUMNS FROM `cn_merchant_withdraw` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(sum) AS tp_sum FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `tradenu`,`sum`,`bank`,`account`,`datetime`,`state` FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 2,2   [ RunTime:0.0003s ]
+
+[ 2016-12-02T11:26:46+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/withdraw/txmx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+
+[ 2016-12-02T11:26:48+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/withdraw/txmx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000388s ]
+NOTIC: [8] Indirect modification of overloaded property Merchant\Controller\WithdrawController::$header has no effect /var/www/html/cnconsum/Project/Merchant/Controller/WithdrawController.class.php 第 68 行.
+SQL: SHOW COLUMNS FROM `cn_merchant_withdraw` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(sum) AS tp_sum FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `tradenu`,`sum`,`bank`,`account`,`datetime`,`state` FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 2,2   [ RunTime:0.0003s ]
+
+[ 2016-12-02T11:26:49+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/withdraw/txmx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000440s ]
+NOTIC: [8] Indirect modification of overloaded property Merchant\Controller\WithdrawController::$header has no effect /var/www/html/cnconsum/Project/Merchant/Controller/WithdrawController.class.php 第 68 行.
+SQL: SHOW COLUMNS FROM `cn_merchant_withdraw` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT SUM(sum) AS tp_sum FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `tradenu`,`sum`,`bank`,`account`,`datetime`,`state` FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 0,2   [ RunTime:0.0002s ]
+
+[ 2016-12-02T11:26:52+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/withdraw/txmx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+
+[ 2016-12-02T11:27:01+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/withdraw/txmx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000460s ]
+NOTIC: [8] Indirect modification of overloaded property Merchant\Controller\WithdrawController::$header has no effect /var/www/html/cnconsum/Project/Merchant/Controller/WithdrawController.class.php 第 68 行.
+SQL: SHOW COLUMNS FROM `cn_merchant_withdraw` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT SUM(sum) AS tp_sum FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `tradenu`,`sum`,`bank`,`account`,`datetime`,`state` FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 2,2   [ RunTime:0.0003s ]
+
+[ 2016-12-02T11:27:03+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/withdraw/txmx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000400s ]
+NOTIC: [8] Indirect modification of overloaded property Merchant\Controller\WithdrawController::$header has no effect /var/www/html/cnconsum/Project/Merchant/Controller/WithdrawController.class.php 第 68 行.
+SQL: SHOW COLUMNS FROM `cn_merchant_withdraw` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(sum) AS tp_sum FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `tradenu`,`sum`,`bank`,`account`,`datetime`,`state` FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 0,2   [ RunTime:0.0002s ]
+
+[ 2016-12-02T11:27:09+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/withdraw/txmx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000443s ]
+NOTIC: [8] Indirect modification of overloaded property Merchant\Controller\WithdrawController::$header has no effect /var/www/html/cnconsum/Project/Merchant/Controller/WithdrawController.class.php 第 68 行.
+SQL: SHOW COLUMNS FROM `cn_merchant_withdraw` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(sum) AS tp_sum FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `tradenu`,`sum`,`bank`,`account`,`datetime`,`state` FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 2,2   [ RunTime:0.0002s ]
+
+[ 2016-12-02T11:27:10+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/withdraw/txmx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000618s ]
+NOTIC: [8] Indirect modification of overloaded property Merchant\Controller\WithdrawController::$header has no effect /var/www/html/cnconsum/Project/Merchant/Controller/WithdrawController.class.php 第 68 行.
+SQL: SHOW COLUMNS FROM `cn_merchant_withdraw` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT SUM(sum) AS tp_sum FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `tradenu`,`sum`,`bank`,`account`,`datetime`,`state` FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 0,2   [ RunTime:0.0005s ]
+
+[ 2016-12-02T11:27:12+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/withdraw/txmx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000504s ]
+NOTIC: [8] Indirect modification of overloaded property Merchant\Controller\WithdrawController::$header has no effect /var/www/html/cnconsum/Project/Merchant/Controller/WithdrawController.class.php 第 68 行.
+SQL: SHOW COLUMNS FROM `cn_merchant_withdraw` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT SUM(sum) AS tp_sum FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `tradenu`,`sum`,`bank`,`account`,`datetime`,`state` FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 2,2   [ RunTime:0.0003s ]
+
+[ 2016-12-02T11:27:13+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/withdraw/txmx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+NOTIC: [8] Indirect modification of overloaded property Merchant\Controller\WithdrawController::$header has no effect /var/www/html/cnconsum/Project/Merchant/Controller/WithdrawController.class.php 第 68 行.
+SQL: SHOW COLUMNS FROM `cn_merchant_withdraw` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT SUM(sum) AS tp_sum FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `tradenu`,`sum`,`bank`,`account`,`datetime`,`state` FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 4,2   [ RunTime:0.0003s ]
+
+[ 2016-12-02T11:27:14+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/withdraw/txmx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000387s ]
+NOTIC: [8] Indirect modification of overloaded property Merchant\Controller\WithdrawController::$header has no effect /var/www/html/cnconsum/Project/Merchant/Controller/WithdrawController.class.php 第 68 行.
+SQL: SHOW COLUMNS FROM `cn_merchant_withdraw` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(sum) AS tp_sum FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `tradenu`,`sum`,`bank`,`account`,`datetime`,`state` FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 2,2   [ RunTime:0.0003s ]
+
+[ 2016-12-02T11:27:15+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/withdraw/txmx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000372s ]
+NOTIC: [8] Indirect modification of overloaded property Merchant\Controller\WithdrawController::$header has no effect /var/www/html/cnconsum/Project/Merchant/Controller/WithdrawController.class.php 第 68 行.
+SQL: SHOW COLUMNS FROM `cn_merchant_withdraw` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT SUM(sum) AS tp_sum FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `tradenu`,`sum`,`bank`,`account`,`datetime`,`state` FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 0,2   [ RunTime:0.0002s ]
+
+[ 2016-12-02T11:27:22+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/withdraw/txmx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+
+[ 2016-12-02T11:28:03+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/withdraw/txmx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+
+[ 2016-12-02T11:28:06+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/withdraw/txmx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000454s ]
+NOTIC: [8] Indirect modification of overloaded property Merchant\Controller\WithdrawController::$header has no effect /var/www/html/cnconsum/Project/Merchant/Controller/WithdrawController.class.php 第 68 行.
+SQL: SHOW COLUMNS FROM `cn_merchant_withdraw` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT SUM(sum) AS tp_sum FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `tradenu`,`sum`,`bank`,`account`,`datetime`,`state` FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 2,2   [ RunTime:0.0003s ]
+
+[ 2016-12-02T11:28:07+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/withdraw/txmx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000374s ]
+NOTIC: [8] Indirect modification of overloaded property Merchant\Controller\WithdrawController::$header has no effect /var/www/html/cnconsum/Project/Merchant/Controller/WithdrawController.class.php 第 68 行.
+SQL: SHOW COLUMNS FROM `cn_merchant_withdraw` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(sum) AS tp_sum FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `tradenu`,`sum`,`bank`,`account`,`datetime`,`state` FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 0,2   [ RunTime:0.0003s ]
+
+[ 2016-12-02T11:28:34+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/withdraw/txmx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+
+[ 2016-12-02T11:28:36+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/withdraw/txmx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000390s ]
+NOTIC: [8] Indirect modification of overloaded property Merchant\Controller\WithdrawController::$header has no effect /var/www/html/cnconsum/Project/Merchant/Controller/WithdrawController.class.php 第 68 行.
+SQL: SHOW COLUMNS FROM `cn_merchant_withdraw` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(sum) AS tp_sum FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `tradenu`,`sum`,`bank`,`account`,`datetime`,`state` FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 2,2   [ RunTime:0.0002s ]
+
+[ 2016-12-02T11:28:37+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/withdraw/txmx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000382s ]
+NOTIC: [8] Indirect modification of overloaded property Merchant\Controller\WithdrawController::$header has no effect /var/www/html/cnconsum/Project/Merchant/Controller/WithdrawController.class.php 第 68 行.
+SQL: SHOW COLUMNS FROM `cn_merchant_withdraw` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT SUM(sum) AS tp_sum FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `tradenu`,`sum`,`bank`,`account`,`datetime`,`state` FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 0,2   [ RunTime:0.0002s ]
+
+[ 2016-12-02T11:28:38+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/withdraw/txmx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000480s ]
+NOTIC: [8] Indirect modification of overloaded property Merchant\Controller\WithdrawController::$header has no effect /var/www/html/cnconsum/Project/Merchant/Controller/WithdrawController.class.php 第 68 行.
+SQL: SHOW COLUMNS FROM `cn_merchant_withdraw` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(sum) AS tp_sum FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `tradenu`,`sum`,`bank`,`account`,`datetime`,`state` FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 2,2   [ RunTime:0.0002s ]
+
+[ 2016-12-02T11:28:44+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/withdraw/txmx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000558s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000646s ]
+NOTIC: [8] Indirect modification of overloaded property Merchant\Controller\WithdrawController::$header has no effect /var/www/html/cnconsum/Project/Merchant/Controller/WithdrawController.class.php 第 68 行.
+SQL: SHOW COLUMNS FROM `cn_merchant_withdraw` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT SUM(sum) AS tp_sum FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `tradenu`,`sum`,`bank`,`account`,`datetime`,`state` FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 0,2   [ RunTime:0.0004s ]
+
+[ 2016-12-02T11:29:07+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/withdraw/txmx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+
+[ 2016-12-02T11:29:10+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/withdraw/txmx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000439s ]
+NOTIC: [8] Indirect modification of overloaded property Merchant\Controller\WithdrawController::$header has no effect /var/www/html/cnconsum/Project/Merchant/Controller/WithdrawController.class.php 第 68 行.
+SQL: SHOW COLUMNS FROM `cn_merchant_withdraw` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT SUM(sum) AS tp_sum FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `tradenu`,`sum`,`bank`,`account`,`datetime`,`state` FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 2,2   [ RunTime:0.0002s ]
+
+[ 2016-12-02T11:29:11+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/withdraw/txmx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000397s ]
+NOTIC: [8] Indirect modification of overloaded property Merchant\Controller\WithdrawController::$header has no effect /var/www/html/cnconsum/Project/Merchant/Controller/WithdrawController.class.php 第 68 行.
+SQL: SHOW COLUMNS FROM `cn_merchant_withdraw` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(sum) AS tp_sum FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `tradenu`,`sum`,`bank`,`account`,`datetime`,`state` FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 0,2   [ RunTime:0.0002s ]
+
+[ 2016-12-02T11:35:20+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/withdraw/txmx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+
+[ 2016-12-02T11:35:23+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/withdraw/txmx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000388s ]
+NOTIC: [8] Indirect modification of overloaded property Merchant\Controller\WithdrawController::$header has no effect /var/www/html/cnconsum/Project/Merchant/Controller/WithdrawController.class.php 第 68 行.
+SQL: SHOW COLUMNS FROM `cn_merchant_withdraw` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT SUM(sum) AS tp_sum FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `tradenu`,`sum`,`bank`,`account`,`datetime`,`state` FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 2,2   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant i - assumed 'i' /var/www/html/cnconsum/Project/Merchant/Controller/WithdrawController.class.php 第 119 行.
+NOTIC: [8] Undefined index: i /var/www/html/cnconsum/Project/Merchant/Controller/WithdrawController.class.php 第 119 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' /var/www/html/cnconsum/Project/Merchant/Controller/WithdrawController.class.php 第 125 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' /var/www/html/cnconsum/Project/Merchant/Controller/WithdrawController.class.php 第 119 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' /var/www/html/cnconsum/Project/Merchant/Controller/WithdrawController.class.php 第 125 行.
+
+[ 2016-12-02T11:35:24+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/withdraw/txmx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000398s ]
+NOTIC: [8] Indirect modification of overloaded property Merchant\Controller\WithdrawController::$header has no effect /var/www/html/cnconsum/Project/Merchant/Controller/WithdrawController.class.php 第 68 行.
+SQL: SHOW COLUMNS FROM `cn_merchant_withdraw` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT SUM(sum) AS tp_sum FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `tradenu`,`sum`,`bank`,`account`,`datetime`,`state` FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 0,2   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant i - assumed 'i' /var/www/html/cnconsum/Project/Merchant/Controller/WithdrawController.class.php 第 119 行.
+NOTIC: [8] Undefined index: i /var/www/html/cnconsum/Project/Merchant/Controller/WithdrawController.class.php 第 119 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' /var/www/html/cnconsum/Project/Merchant/Controller/WithdrawController.class.php 第 125 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' /var/www/html/cnconsum/Project/Merchant/Controller/WithdrawController.class.php 第 119 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' /var/www/html/cnconsum/Project/Merchant/Controller/WithdrawController.class.php 第 125 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' /var/www/html/cnconsum/Project/Merchant/Controller/WithdrawController.class.php 第 119 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' /var/www/html/cnconsum/Project/Merchant/Controller/WithdrawController.class.php 第 125 行.
+
+[ 2016-12-02T11:35:26+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/withdraw/txmx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000516s ]
+NOTIC: [8] Indirect modification of overloaded property Merchant\Controller\WithdrawController::$header has no effect /var/www/html/cnconsum/Project/Merchant/Controller/WithdrawController.class.php 第 68 行.
+SQL: SHOW COLUMNS FROM `cn_merchant_withdraw` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT SUM(sum) AS tp_sum FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `tradenu`,`sum`,`bank`,`account`,`datetime`,`state` FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 2,2   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant i - assumed 'i' /var/www/html/cnconsum/Project/Merchant/Controller/WithdrawController.class.php 第 119 行.
+NOTIC: [8] Undefined index: i /var/www/html/cnconsum/Project/Merchant/Controller/WithdrawController.class.php 第 119 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' /var/www/html/cnconsum/Project/Merchant/Controller/WithdrawController.class.php 第 125 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' /var/www/html/cnconsum/Project/Merchant/Controller/WithdrawController.class.php 第 119 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' /var/www/html/cnconsum/Project/Merchant/Controller/WithdrawController.class.php 第 125 行.
+
+[ 2016-12-02T11:35:57+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/withdraw/txmx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+
+[ 2016-12-02T11:35:59+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/withdraw/txmx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000364s ]
+NOTIC: [8] Indirect modification of overloaded property Merchant\Controller\WithdrawController::$header has no effect /var/www/html/cnconsum/Project/Merchant/Controller/WithdrawController.class.php 第 68 行.
+SQL: SHOW COLUMNS FROM `cn_merchant_withdraw` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(sum) AS tp_sum FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `tradenu`,`sum`,`bank`,`account`,`datetime`,`state` FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 2,2   [ RunTime:0.0003s ]
+
+[ 2016-12-02T11:36:00+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/withdraw/txmx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000453s ]
+NOTIC: [8] Indirect modification of overloaded property Merchant\Controller\WithdrawController::$header has no effect /var/www/html/cnconsum/Project/Merchant/Controller/WithdrawController.class.php 第 68 行.
+SQL: SHOW COLUMNS FROM `cn_merchant_withdraw` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(sum) AS tp_sum FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `tradenu`,`sum`,`bank`,`account`,`datetime`,`state` FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 0,2   [ RunTime:0.0002s ]
+
+[ 2016-12-02T11:36:14+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/withdraw/txmx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+
+[ 2016-12-02T11:36:19+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/withdraw/txmx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000380s ]
+NOTIC: [8] Indirect modification of overloaded property Merchant\Controller\WithdrawController::$header has no effect /var/www/html/cnconsum/Project/Merchant/Controller/WithdrawController.class.php 第 68 行.
+SQL: SHOW COLUMNS FROM `cn_merchant_withdraw` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(sum) AS tp_sum FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `tradenu`,`sum`,`bank`,`account`,`datetime`,`state` FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 2,2   [ RunTime:0.0003s ]
+
+[ 2016-12-02T11:36:20+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/withdraw/txmx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000534s ]
+NOTIC: [8] Indirect modification of overloaded property Merchant\Controller\WithdrawController::$header has no effect /var/www/html/cnconsum/Project/Merchant/Controller/WithdrawController.class.php 第 68 行.
+SQL: SHOW COLUMNS FROM `cn_merchant_withdraw` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT SUM(sum) AS tp_sum FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `tradenu`,`sum`,`bank`,`account`,`datetime`,`state` FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 0,2   [ RunTime:0.0002s ]
+
+[ 2016-12-02T11:36:26+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/Business/zjtx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+
+[ 2016-12-02T11:36:33+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/withdraw/withdraw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+
+[ 2016-12-02T11:36:37+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/Business/zjtx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+
+[ 2016-12-02T11:36:39+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/withdraw/txmx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+
+[ 2016-12-02T11:36:42+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/withdraw/txmx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000367s ]
+NOTIC: [8] Indirect modification of overloaded property Merchant\Controller\WithdrawController::$header has no effect /var/www/html/cnconsum/Project/Merchant/Controller/WithdrawController.class.php 第 68 行.
+SQL: SHOW COLUMNS FROM `cn_merchant_withdraw` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(sum) AS tp_sum FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `tradenu`,`sum`,`bank`,`account`,`datetime`,`state` FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 2,2   [ RunTime:0.0002s ]
+
+[ 2016-12-02T11:36:44+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/withdraw/txmx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000374s ]
+NOTIC: [8] Indirect modification of overloaded property Merchant\Controller\WithdrawController::$header has no effect /var/www/html/cnconsum/Project/Merchant/Controller/WithdrawController.class.php 第 68 行.
+SQL: SHOW COLUMNS FROM `cn_merchant_withdraw` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(sum) AS tp_sum FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `tradenu`,`sum`,`bank`,`account`,`datetime`,`state` FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 0,2   [ RunTime:0.0002s ]
+
+[ 2016-12-02T11:36:47+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/withdraw/txmx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000381s ]
+NOTIC: [8] Indirect modification of overloaded property Merchant\Controller\WithdrawController::$header has no effect /var/www/html/cnconsum/Project/Merchant/Controller/WithdrawController.class.php 第 68 行.
+SQL: SHOW COLUMNS FROM `cn_merchant_withdraw` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT SUM(sum) AS tp_sum FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `tradenu`,`sum`,`bank`,`account`,`datetime`,`state` FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 2,2   [ RunTime:0.0002s ]
+
+[ 2016-12-02T11:36:48+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/withdraw/txmx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000458s ]
+NOTIC: [8] Indirect modification of overloaded property Merchant\Controller\WithdrawController::$header has no effect /var/www/html/cnconsum/Project/Merchant/Controller/WithdrawController.class.php 第 68 行.
+SQL: SHOW COLUMNS FROM `cn_merchant_withdraw` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0023s ]
+SQL: SELECT SUM(sum) AS tp_sum FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `tradenu`,`sum`,`bank`,`account`,`datetime`,`state` FROM `cn_merchant_withdraw` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 0,2   [ RunTime:0.0004s ]
+
+[ 2016-12-02T11:41:33+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/Business/zjtx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+
+[ 2016-12-02T11:41:37+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/Business/glysz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+
+[ 2016-12-02T11:41:42+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/Business/glysz-xg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+
+[ 2016-12-02T11:41:51+08:00 ] 101.226.65.102 /cnconsum/index.php/Merchant/Business/glysz-xg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+
+[ 2016-12-02T11:42:13+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/Business/glysz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000411s ]
+SQL: SHOW COLUMNS FROM `cn_admin` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_admin` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cn_admin` LIMIT 3,3   [ RunTime:0.0002s ]
+
+[ 2016-12-02T11:42:14+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/Business/glysz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000426s ]
+SQL: SHOW COLUMNS FROM `cn_admin` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_admin` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cn_admin` LIMIT 0,3   [ RunTime:0.0002s ]
+
+[ 2016-12-02T11:42:15+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/Business/glysz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000391s ]
+SQL: SHOW COLUMNS FROM `cn_admin` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_admin` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cn_admin` LIMIT 3,3   [ RunTime:0.0002s ]
+
+[ 2016-12-02T11:42:18+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/Business/glysz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000368s ]
+SQL: SHOW COLUMNS FROM `cn_admin` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_admin` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cn_admin` LIMIT 0,3   [ RunTime:0.0002s ]
+
+[ 2016-12-02T11:42:19+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/Business/glysz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+
+[ 2016-12-02T11:42:22+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/Business/image/dialog_cb.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+
+[ 2016-12-02T11:42:22+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/Business/image/window.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+
+[ 2016-12-02T11:42:27+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/Business/glysz-xg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+
+[ 2016-12-02T11:42:40+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/Business/glysz-xg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+
+[ 2016-12-02T11:42:56+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/Business/glysz-xg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+
+[ 2016-12-02T15:33:07+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/Business/glysz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+
+[ 2016-12-02T15:33:08+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+
+[ 2016-12-02T15:33:23+08:00 ] 101.226.33.203 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+
+[ 2016-12-02T15:34:29+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+
+[ 2016-12-02T15:34:33+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+
+[ 2016-12-02T15:34:37+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/DataReport/data_sj
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+
+[ 2016-12-02T15:34:39+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/DataReport/data_sj?date_type=season
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+
+[ 2016-12-02T15:34:45+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/Business/glysz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+
+[ 2016-12-02T15:34:47+08:00 ] 101.226.65.104 /cnconsum/index.php/Merchant/DataReport/data_sj
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+
+[ 2016-12-02T15:34:47+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/Business/dpgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+
+[ 2016-12-02T15:34:50+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/Business/dpgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000491s ]
+SQL: SHOW COLUMNS FROM `cn_store_manage` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_store_manage` WHERE cn_store_manage.state = 'access' AND cn_store_manage.merchant = 'm_6d4e76ca04' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `muid`,`name`,cn_merchant.store,`phone`,`address`,`passwd`,`remain`,`image_url`,cn_merchant_turnover.sum FROM `cn_store_manage` INNER JOIN cn_merchant ON cn_merchant.muid = cn_store_manage.store INNER JOIN cn_merchant_turnover ON cn_merchant_turnover.merchant = cn_store_manage.store  WHERE cn_store_manage.state = 'access' AND cn_store_manage.merchant = 'm_6d4e76ca04' LIMIT 1,1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `cn_user_card` [ RunTime:0.0004s ]
+SQL: SELECT DISTINCT  COUNT(*) AS tp_count FROM `cn_user_card` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-12-02T15:34:50+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/Business/dpgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000475s ]
+SQL: SHOW COLUMNS FROM `cn_store_manage` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_store_manage` WHERE cn_store_manage.state = 'access' AND cn_store_manage.merchant = 'm_6d4e76ca04' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `muid`,`name`,cn_merchant.store,`phone`,`address`,`passwd`,`remain`,`image_url`,cn_merchant_turnover.sum FROM `cn_store_manage` INNER JOIN cn_merchant ON cn_merchant.muid = cn_store_manage.store INNER JOIN cn_merchant_turnover ON cn_merchant_turnover.merchant = cn_store_manage.store  WHERE cn_store_manage.state = 'access' AND cn_store_manage.merchant = 'm_6d4e76ca04' LIMIT 2,1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `cn_user_card` [ RunTime:0.0005s ]
+SQL: SELECT DISTINCT  COUNT(*) AS tp_count FROM `cn_user_card` WHERE `merchant` = 'm_9ba5e2b48b' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-12-02T15:34:51+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/Business/dpgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000374s ]
+SQL: SHOW COLUMNS FROM `cn_store_manage` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_store_manage` WHERE cn_store_manage.state = 'access' AND cn_store_manage.merchant = 'm_6d4e76ca04' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `muid`,`name`,cn_merchant.store,`phone`,`address`,`passwd`,`remain`,`image_url`,cn_merchant_turnover.sum FROM `cn_store_manage` INNER JOIN cn_merchant ON cn_merchant.muid = cn_store_manage.store INNER JOIN cn_merchant_turnover ON cn_merchant_turnover.merchant = cn_store_manage.store  WHERE cn_store_manage.state = 'access' AND cn_store_manage.merchant = 'm_6d4e76ca04' LIMIT 1,1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `cn_user_card` [ RunTime:0.0004s ]
+SQL: SELECT DISTINCT  COUNT(*) AS tp_count FROM `cn_user_card` WHERE `merchant` = 'm_6d4e76ca11' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-12-02T15:34:52+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/Business/dpgl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000384s ]
+SQL: SHOW COLUMNS FROM `cn_store_manage` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cn_store_manage` WHERE cn_store_manage.state = 'access' AND cn_store_manage.merchant = 'm_6d4e76ca04' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `muid`,`name`,cn_merchant.store,`phone`,`address`,`passwd`,`remain`,`image_url`,cn_merchant_turnover.sum FROM `cn_store_manage` INNER JOIN cn_merchant ON cn_merchant.muid = cn_store_manage.store INNER JOIN cn_merchant_turnover ON cn_merchant_turnover.merchant = cn_store_manage.store  WHERE cn_store_manage.state = 'access' AND cn_store_manage.merchant = 'm_6d4e76ca04' LIMIT 0,1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `cn_user_card` [ RunTime:0.0006s ]
+SQL: SELECT DISTINCT  COUNT(*) AS tp_count FROM `cn_user_card` WHERE `merchant` = 'm_0deb263d26' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-12-02T15:34:53+08:00 ] 101.226.33.240 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+
+[ 2016-12-02T15:34:56+08:00 ] 101.226.51.227 /cnconsum/index.php/Merchant/DataReport/data_sj?date_type=season
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+
+[ 2016-12-02T15:42:17+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/Business/glysz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+
+[ 2016-12-02T15:42:18+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+
+[ 2016-12-02T15:42:37+08:00 ] 180.153.206.22 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+
+[ 2016-12-02T15:43:23+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+
+[ 2016-12-02T15:43:54+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+
+[ 2016-12-02T15:47:34+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+
+[ 2016-12-02T15:48:45+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+
+[ 2016-12-02T15:51:18+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/Business/glysz.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+
+[ 2016-12-02T15:51:20+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+
+[ 2016-12-02T15:51:28+08:00 ] 180.153.214.198 /cnconsum/index.php/Merchant/Business/glysz.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+
+[ 2016-12-02T15:51:30+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+
+[ 2016-12-02T15:51:33+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/DataReport/data_bk?date_type=season
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+
+[ 2016-12-02T15:51:35+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/Business/zjtx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+
+[ 2016-12-02T15:51:38+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/Business/glysz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+
+[ 2016-12-02T15:51:47+08:00 ] 101.226.99.196 /cnconsum/index.php/Merchant/DataReport/data_bk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000445s ]
+
+[ 2016-12-02T15:52:18+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+
+[ 2016-12-02T15:56:09+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+
+[ 2016-12-02T15:59:45+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+
+[ 2016-12-02T15:59:46+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/Business/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+
+[ 2016-12-02T15:59:52+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/Business/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+
+[ 2016-12-02T15:59:55+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/Business/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+
+[ 2016-12-02T16:13:06+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+ERR: XML标签语法错误 : name='pri'id='pri'
+
+[ 2016-12-02T16:13:21+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+
+[ 2016-12-02T16:28:20+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/Business/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+
+[ 2016-12-02T16:36:40+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/Business/adminAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+
+[ 2016-12-02T16:36:43+08:00 ] 117.23.83.109 /cnconsum/index.php/Merchant/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+

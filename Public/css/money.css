@@ -1,0 +1,43 @@
+.navinfo{
+	height: 40px;
+	line-height: 40px;
+	padding: 0 0 0 45px;
+	background-color: #dbdbdb;
+	color: #535353;
+	font-size: 18px;
+}
+#ihy{margin-top: -7px;}
+.kl{
+	margin-left: 150px;
+    font-size: 18px;
+    line-height: 155px;
+    color: #535353;}
+.reference{
+	margin-top: -100px;
+	margin-left: 235px;
+	border-collapse: collapse;
+	text-align:center;
+	}
+.reference td{
+    width: 100px;
+	height:40px;
+    border: 1px solid #b4b4b4;
+	
+	}
+.zf{
+	width: 240px;
+	height: 40px;
+	margin-left: 10px;
+	}
+.sk{font-size: 15px;
+	color: #535353;
+	cursor: pointer;}
+.tj{width: 135px;
+	height: 40px; 
+	background-color: #E26666; 
+	color: #FFFFFF;
+	border: 1px solid #E26666;
+	margin-top: 20px;
+	font-size: 18px;
+	
+}

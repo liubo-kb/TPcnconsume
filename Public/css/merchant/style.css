@@ -1,0 +1,397 @@
+body{ background: #e5e5e5;}
+.margleft95{ margin-left: 95px;}
+.margtop100{ margin-top: 100px;}
+.wid60{ width: 60px;}
+.mcl{ color: #e26666;}
+.stepbar{
+	margin-top: 35px;
+	font-size: 0;
+}
+.stepbar label{
+	position: relative;
+	font-size: 16px;
+}
+.stepbar label span{
+	display: block;
+	position: absolute;
+	top: 35px;
+	right: -80px;
+	width: 200px;
+	text-align: center;
+}
+.con-step1{
+	margin-top: 80px;
+	margin-left: 330px;
+	*margin-left: 330px;
+	padding-bottom: 60px;
+}
+.tr-step1{
+	width: 100%;
+	margin-bottom: 5px;
+	padding-top: 1px;
+}
+.tr-step1 > label{
+	float: left;
+	width: 110px; 
+	padding-top: 10px;
+	font-size: 16px;
+	color: #535353;
+	text-align: right;
+}
+.tr-step1 > label > span{
+	color: #e26666;
+}
+.tr-step1 > div{
+	margin-left: 120px; 
+	text-align: left;
+}
+.tr-step1 .onlyrow{
+	width: 200px;
+	padding-top: 0;
+}
+.boxtxt{
+	padding-left: 10px;
+	width: 290px;
+	height: 40px;
+	line-height: 40px;
+	border: 2px solid #cdcdcd;
+	background-color: #fff;
+}
+.clearinput{
+	position: absolute;
+	height: 44px;
+	line-height: 44px;
+	font-size: 18px;
+	color: #919191;
+	margin-left: -25px;
+	cursor: pointer;
+}
+.msgbox{
+	height: 20px;
+	margin-top: 5px;
+	color: #e26666;
+}
+.box-select{
+	position: relative;
+	display: inline-block;
+	width: 95px;
+	height: 40px;
+	*height: auto;
+	border: 2px solid #cdcdcd;
+	background:#fff url(../../image/xiala.png) no-repeat right center;
+	*background: #fff;
+	margin: 0 auto;
+	*margin-right: 3px;
+	overflow: hidden;
+	cursor: pointer;
+	z-index: 10;
+}
+.box-select select{
+	display: block;
+	width: 120px;
+	width:/*\**/170px\9;
+	*width: 100px;
+	padding: 10px 35px 10px 0;
+	border: 0;
+	border: none;
+	background: none;
+	outline: none;
+	cursor: pointer;
+	*background: #fff;
+	*margin: -2px 0 0 -2px;
+	z-index: 3;
+}
+.box-sfz-f{
+	position: relative; 
+	height: 380px;
+}
+.box-upload{
+	margin-top: 15px;
+	padding: 10px;
+	border: 2px solid #cdcdcd;
+}
+.box-upload > p{
+	font-size: 14px;
+	color: #b4b4b4;
+}
+.box-sfz{
+	width: 510px;
+	position: absolute; 
+	left: 0; 
+	top: 0; 
+	margin-top: 5px;
+}
+.box-msg-sfz{
+	position: absolute;
+	left: 0;
+	top: 360px;
+}
+.box-card{
+	margin-top: 10px;
+}
+.box-card li{
+	float: left;
+	width: 155px;
+	padding-left: 2px;
+	margin-right: 10px;
+	color: #606060;
+}
+.box-sample{
+	margin-top: 25px;
+}
+.box-sample li{
+	float: left;
+	width: 107px;
+	margin-right: 20px;
+	color: #606060;
+}
+.box-sample li a{
+	float: right;
+	color: #e26666;
+}
+.picview{
+	margin-bottom: 5px;
+	width: 150px;
+	height: 100px;
+	border: 2px solid #cdcdcd;
+}
+.picview img{
+	display: block;
+	width: 150px;
+	height: 100px;
+}
+.btn-up{
+	width: 152px;
+}
+.up-txt{
+	margin-top: -20px;
+	width: 80px;
+	background-color: #e46062;
+	color: #fff;
+	text-align: center;
+}
+.input-upload{
+	position: absolute;
+	top: 0;
+	right: 0;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	font-size: 118px;
+	cursor: pointer;
+}
+.box-cardex{
+	height: 68px;
+	border: 1px solid #bfbfbf;
+	background-color: #b8b8b8;
+}
+.box-cardex img{
+	height: 68px;
+}
+.btn-sub{
+	width: 150px;
+	height: 45px;
+	border: 0;
+	background-color: #e46062;
+	color: #fff;
+	font-size: 20px;
+	cursor: pointer;
+}
+.btn-rs{
+	width: 150px;
+	height: 45px;
+	border: 0;
+	background-color: #969696;
+	color: #fff;
+	font-size: 20px;
+	cursor: pointer;
+}
+.box-info{
+	margin-bottom: 10px;
+	padding: 10px;
+	border: 2px solid #cdcdcd;
+}
+.tit-b4{
+	font-size: 14px;
+	color: #b4b4b4;
+}
+.box-upf{
+	margin: 10px 0 15px;
+}
+.box-upf > label{
+	float: left;
+	margin-right: 10px;
+	color: #606060;
+}
+.label-eg{
+	padding-top: 30px;
+}
+.img-eg{
+	max-height: 70px;
+	border: 1px solid #b8b8b8;
+}
+.wid390{
+	width: 390px;
+}
+.nav-up{
+	margin: -5px 0 0 15px;
+}
+.nav-up span{
+	margin-bottom: 5px;
+}
+.nav-up p{
+	margin: -63px 0 0 -15px;
+	color: #e26666;
+	text-align: left;
+}
+.btn-f-s{
+	display: block;
+	width: 95px;
+	height: 30px;
+	line-height: 26px;
+	color: #fff;
+	background-color: #e46062;
+	text-align: center;
+	cursor: pointer;
+}
+.btn-f{
+	display: block;
+	width: 95px;
+	height: 30px;
+	line-height: 26px;
+	color: #fff;
+	background-color: #969696;
+	text-align: center;
+	cursor: pointer;
+}
+.box-larg{
+	width: 570px;
+	margin-top: 0px;
+}
+.con-step3{
+	width: 390px;
+	margin-top: 80px;
+	margin-left: 390px;
+	*margin-left: 0px;
+	padding-bottom: 30px;
+}
+.tr-step3{
+	width: 100%;
+	margin-bottom: 10px;
+	padding-top: 1px;
+}
+.tr-step3 > label{
+	float: left;
+	width: 50px; 
+	padding-top: 10px;
+	font-size: 16px;
+	color: #535353;
+	text-align: right;
+}
+.tr-step3 > label span{
+	color: #e26666;
+}
+.tr-step3 > div{
+	margin-left: 65px; 
+	text-align: left;
+}
+.tr-step3 .onlyrow{
+	width: 300px;
+	padding-top: 0;
+	text-align: left;
+}
+.note-contact{
+	margin-left: -50px;
+    padding-top: 5px;
+	font-size: 14px;
+	color: #9f9f9f;
+}
+.agreement{
+	padding-top: 10px;
+	font-size: 14px;
+}
+.agreement a{
+	color: #3397d3;
+}
+.upqueue{
+	position: absolute;
+	margin-top: -49px;
+	width: 150px;
+}
+.uploadify-button{
+	width: 80px;
+	height: 20px;
+	background-color: #e46062;
+	color: #fff;
+	text-align: center;
+}
+.upqueue .uploadify-queue{
+	margin: -88px 1px 0;
+	margin-top: -88px;
+}
+.upqueue .uploadify-queue-item {
+	background-color: #F5F5F5;
+	font: 11px Verdana, Geneva, sans-serif;
+	padding: 10px;
+}
+.upqueue .uploadify-queue-item .fileName{
+	display: block;
+	width: 100px;
+	height: 14px;
+	overflow: hidden;
+}
+.sucsbar{
+	margin: 100px 0 0 0;
+}
+.box-sucs{
+	width: 390px;
+	height: 65px;
+	margin: 0 auto;
+	text-align: left;
+}
+.box-sucs img{
+	float: left;
+	padding-right: 10px;
+}
+.box-sucs p{
+	font-size: 18px;
+	color: #535353;
+	line-height: 30px;
+}
+.box-sucs p b{
+	font-size: 28px;
+}
+.ftip{
+	margin: 35px auto 0 auto;
+	width: 410px;
+	color: #535353;
+	font-size: 14px;
+	text-align: left;
+}
+.ftip label{
+	float: left;
+	width: 75px;
+}
+.ftip p{
+	margin: 0 0 0 75px;
+	text-align: left;
+}
+.ftip div{
+	margin: 0 0 5px 0;
+}
+.btp{
+	background:#fff url(../../image/jianhua.png) no-repeat center bottom;
+	min-height: 700px;
+}
+.linex{
+	width: 690px;
+	height: 1px;
+	border: none;
+	border-top: 1px dashed #b5b5b5;
+	margin: 45px auto;
+}
+.abtn-lg{
+	background-color: #e26666;
+	color: #fff;
+	font-size: 20px;
+	padding: 5px 40px;
+}

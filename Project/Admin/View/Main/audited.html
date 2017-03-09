@@ -1,0 +1,51 @@
+<!--header start-->
+<include file="Public/header"/>
+<!--header end-->
+
+<!--menu start-->
+<include file="Public/menu"/>
+<!--menu end-->
+
+<div class="wrapper clearfix">
+	<!--side start-->
+	<include file="Public/side"/>
+	<!--side end-->
+	<div class="container">
+		<!--content start-->
+		<div class="con" id="content">
+			<table class="table margt20">
+				<tr class="tb-tit">
+						<td style='width:10%'>序号</td>
+						<volist name='table_head' id='head'>
+							<td>{$head}</td>
+						</volist>
+				</tr>
+				<volist name='table_data' id='data'>
+					<tr>
+						<td>{$i++}.</td>
+						<volist name='data_index' id='index'>
+							<td>
+								{$data.$index}	
+							</td>
+						</volist>
+						<td><a class="abtn abtn-fc">审核通过</a></td>
+					</tr>
+				</volist>
+			</table>
+
+			
+			<div class="pagebar">
+                                <div class="pagewrap">
+                                       {$page}
+                                </div>
+                        </div>
+
+
+		</div>
+		<!--content end-->
+	</div>
+</div>
+<!--footer start-->
+<include file="Public/footer"/>
+<!--footer end-->
+

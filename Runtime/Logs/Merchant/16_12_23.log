@@ -1,0 +1,5 @@
+[ 2016-12-23T08:10:26+08:00 ] 183.136.203.37 /cnconsum/index.php/Merchant/merchant/loginView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+

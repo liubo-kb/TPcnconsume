@@ -1,0 +1,118 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<meta name="description"/>
+<title>商城入口登录</title>
+<link href="__PUBLIC__/css/page.css" rel="stylesheet" type="text/css"> 
+<link href="__PUBLIC__/css/nlogin.css" rel="stylesheet" type="text/css"> 
+</head>
+    
+    	
+    <!--header start-->
+<body class="chl-reg" data-spm="1">
+	<div id="page" class="">
+	<div class="w" style="width: 990px;
+		    margin: 0 auto;
+		    margin-top: 0px;
+		    margin-right: auto;
+		    margin-bottom: 0px;
+		    margin-left: auto;">
+        <div style="width: 990px;
+	height: 74px;
+	margin: 0 auto;
+	padding-top: 42px;
+	text-align: left;">
+			<img src="__PUBLIC__/image/logo.png" />
+		    <img src="__PUBLIC__/image/slogo.png" style="padding-left: 22px;"/>
+		</div>
+    </div>
+<div id="content">
+	<div style="background-image: url(__PUBLIC__/image/logo1.jpg); background-repeat:no-repeat; height:600px;margin: 10px 0 20px; z-index: 1;">
+        <input type="hidden" id="J_adUrl" name="adUrl" value="">
+        <input type="hidden" id="J_adImage" name="adImage" value="">
+        <input type="hidden" id="J_adText" name="adText" value="">
+        <input type="hidden" id="J_viewFd4PC"  name="viewFd4PC" value="">
+        <input type="hidden" id="J_viewFd4Mobile" name="viewFd4Mobile" value="">
+    
+    </div>
+<div class="content-layouts">
+			<div class="login-box-warp">
+ 				<div class="login-box no-longlogin " id="J_LoginBox">
+					<div class="hd">
+	
+					<div class="bd">
+		<div class="static-form " id="J_StaticForm">
+			<div class="login-title">
+			
+				账户登录
+			
+			</div>
+		
+	<form action="login"  method="post" id="login">
+		    <div id="J_Message" style="display:none;"class="login-msg error">
+				<i class="iconfont">&#xe604;</i>
+			<p class="error"></p>
+		    </div>
+			<div class="field ph-hide username-field">
+				<label for="TPL_username_1"> <i class="iconfont" style="background:url(__PUBLIC__/image/logo-body1.jpg) center" title="会员名">&#xe601;</i></label>
+				<span class="ph-label">手机号/会员名/邮箱</span>
+                <input type="text" name="phone" id="TPL_username_1" class="login-text J_UserName" value="" maxlength="32" tabindex="1" placeholder="手机号/会员名/邮箱" />
+			</div>
+
+			<div class="field pwd-field">
+				<label id="password-label" for="TPL_password_1"><i
+					class="icon iconfont" style="background:url(__PUBLIC__/image/password.jpg) center" title="登录密码">&#xe600;</i></label> 
+					<span id="J_StandardPwd">
+				   <input type="password" name="passwd"
+					id="TPL_password_1" class="login-text" maxlength="40" tabindex="2"
+					autocomplete="off" placeholder="密码"/>
+					</span> 
+			</div>
+            <div class="field ph-hide username-field">
+				<label for="TPL_username_1"> <i class="iconfont" style="background:url(__PUBLIC__/image/logo-yanzhen.jpg) center" title="会员名">&#xe601;</i></label>
+				<span class="ph-label">验证码</span> <input type="text" name="TPL_username" id="TPL_username_1" class="login-text J_UserName" value=""maxlength="32" tabindex="1" placeholder="验证码" />
+			</div>
+			<div id="appendchk"  style="margin-top:15px;" class="lg_remember">
+                <label><input type="checkbox" value="1" name="remember" class="check" ><span> 7天内免登陆</span></label>
+                <a class="findpwd" href="" data-ptp-cache-id="1.qzGDeb.0.0.DaNL6" style="margin-left:150px">忘记密码？</a>
+            </div>
+			<!-- use new slide checkcode -->
+		<div id="nocaptcha" class="nc-container tb-login"></div>
+			<div class="submit">
+				<button type="submit"  class="J_Submit" tabindex="3" id="J_SubmitStatic" >登 录</button>
+                <button type="submit" style="background-color:#FFF;border:1px solid #F00;margin-left:50px" class="J_register" tabindex="3" id="J_register" ><a href="registerView">去注册</a></button>
+			</div>
+			<div class="login-links">		
+			</div>
+	</form>
+	</div>
+	</div>    
+
+
+
+</div>
+<!--扫码登录结束-->
+<!--一键登录开始-->
+
+      <!--一键登录结束-->
+   	</div>
+   <!--快速登录结束-->
+	</div>
+	</div>
+    
+	<!--标准登录框结束-->
+</div>
+<div class="footer" data-spm="1997523009">
+  <div class="footer-hd">
+    <img src="__PUBLIC__/image/logo-footer1.jpg" />
+    <img style="margin-left:50px" src="__PUBLIC__/image/logo-footer2.jpg"/>
+    <img style="margin-left:50px" src="__PUBLIC__/image/logo-footer3.jpg"/>
+  </div>
+</div>
+		</div>
+	</div>
+</body>
+</html>

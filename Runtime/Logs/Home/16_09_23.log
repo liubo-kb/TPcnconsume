@@ -1,0 +1,5 @@
+[ 2016-09-23T11:36:25+08:00 ] 117.36.118.216 /cnconsum/index.php/Home/MerchantType/Protocol/protocolGet?store=%E5%B0%8F%E9%AA%86%E9%A9%BC&address=%E9%99%95%E8%A5%BF%E7%9C%81%E8%A5%BF%E5%AE%89%E5%B8%82%E9%9B%81%E5%A1%94%E5%8C%BA%E5%81%B7%E5%81%B7&phone=1234560
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+

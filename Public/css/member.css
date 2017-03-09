@@ -1,0 +1,50 @@
+.cable{
+	width: 90%;
+	margin: 30px 5%;
+	border: none;
+	border-collapse: collapse;
+	text-align: center;
+}
+.con th{
+	background-color: #dbdbdb;
+    font-size: 16px;
+    font-weight: 400;
+    height: 55px;
+    text-align: center;}
+   
+   
+.con tr{
+	 line-height: 40px;
+    padding: 0 0 0 45px;
+    color: #535353;
+    font-size: 16px;
+}
+
+.con td{ padding-left: 5px;
+	text-align: center;
+	font-size: 14px;
+	border-bottom: solid 1px #c4c4c4;}
+
+.abt{
+       padding: 5px 15px;
+    border: 2px solid #b4b4b4;
+    background-color: #fff;
+    color: #535353;
+    cursor: pointer;
+}
+.margtop47 {
+    margin-top: 47px;
+.current {
+    border: 1px solid #e46062;
+    color: #e46062;
+    text-decoration: none;
+.num {
+    color: #333;
+    border: 1px solid #e0e0e0;
+.edit{
+    padding: 2px 20px;
+	*padding: 0 20px 2px 20px;
+	border: 2px solid #b4b4b4;
+	background-color: #fff;
+	color: #535353;
+	cursor: pointer;}

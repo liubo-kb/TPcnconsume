@@ -1,0 +1,133 @@
+<!--    页面头部        -->
+<include file = "Public/header" />
+
+<!--	资源文件	-->
+<link rel="stylesheet" href="__PUBLIC__/css/merchant/global.css">
+<link rel="stylesheet" href="__PUBLIC__/css/merchant/workcenter.css">
+<link rel="stylesheet" href="__PUBLIC__/css/merchant/select2.min.css">
+<script src="__PUBLIC__/js/merchant/jquery-1.9.1.min.js"></script>
+<script src="__PUBLIC__/js/merchant/script.js"></script>
+<script src="__PUBLIC__/js/merchant/select2.min.js"></script>
+<script>
+$(function(){
+	$(".radio").click(function(){
+		$('.radio span').attr('class','rbd');
+		$(this).children('span').attr('class','rbd-c');
+	});
+	
+	$('#submit').click(function(){
+		var account = $('#account').val();
+		var pwd = $('#password').val();
+		var contact = $('#contact').val();
+		var power = $('#position').val();
+		var sex = $('input[name="sex"]:checked').val();
+		
+		if(account.trim().length == 0){
+			$('.form-msg').html('请填写管理员账号！');
+			return false;
+		}
+		if(pwd.trim().length == 0){
+			$('.form-msg').html('请填写密码！');
+			return false;
+		}
+		if(contact.trim().length == 0){
+			$('.form-msg').html('请填写联系方式！');
+			return false;
+		}
+		if(sex == undefined){
+			$('.form-msg').html('请填写选择性别！');
+			return false;
+		}
+		$('.form-msg').html('');
+		var url = '../admin/add';
+		var subdata = {account:account,passwd:pwd,phone:contact,position:power,sex:sex};
+		formcheck(url, subdata, 'form-manager');		
+	});
+	$('select').select2({
+		width: '90px',
+		minimumResultsForSearch: -1
+	});
+});
+</script>
+
+<div class="container clearfix">
+	<!--        左侧菜单        -->
+    <include file = "Public/menu" />
+	
+    <div class="con">
+    	<p class="navinfo"><img src="__PUBLIC__/image/merchant/glysz.png" />&nbsp;&nbsp;管理员设置</p>
+        <div class="cinfo">
+    		<form action="{$action}" method="post" id="form-manager">
+    		<div class="tbtit titpd1"><img src="__PUBLIC__/image/merchant/add-lg.png" width="22" height="22" />&nbsp;{$adminTip}</div>
+    		<div class="tr-add">
+		        <label>管理员账号：</label>
+		        <div>
+		            <input type="text" name="account" id="account" class="txtadd" style="width: 170px;" value="{$info.account}"/>
+			    <input type="text" name="account_old" value="{$info.account}" style="display:none"/>
+		        </div>
+		    </div>
+		    <div class="tr-add">
+		        <label>密码：</label>
+		        <div>
+		            <input type="text" name="passwd" id="password" class="txtadd" style="width: 170px;" value="{$info.passwd}"/>
+		        </div>
+		    </div>
+		    <div class="tr-add">
+		        <label>联系方式：</label>
+		        <div>
+		            <input type="text" name="phone" id="contact" class="txtadd" style="width: 170px;" value="{$info.phone}"/>
+		        </div>
+		    </div>
+		    <div class="tr-add">
+		        <label>权限：</label>
+		        <div>
+		            <select name="position" id="position">
+				<volist name='pri' id='pri'>
+					<if condition="$info.position eq $pri">
+					<option selected="true">{$pri}</option>
+					<else/>
+					<option>{$pri}</option>
+					</if>
+				</volist>
+		            </select>
+		        </div>
+		    </div>
+		    <div class="tr-add">
+		        <label>性别：</label>
+		        <div>
+		        	<label class="radio" for="sex1">
+					<if condition="$info.sex eq '男'">
+					<span class="rbd-c"><input type="radio" name="sex" value="男" id="sex1" checked="checked" /></span>&nbsp;&nbsp;男
+					<else/>
+					<span class="rbd"><input type="radio" name="sex" value="男" id="sex1"/></span>&nbsp;&nbsp;男
+					</if>
+				</label>
+				<label class="radio" for="sex2">
+					<if condition="$info.sex eq '女'">
+					<span class="rbd-c"><input type="radio" name="sex" value="女" id="sex2" checked="checked"/></span>&nbsp;&nbsp;女
+					<else/>
+					<span class="rbd"><input type="radio" name="sex" value="女" id="sex2" /></span>&nbsp;&nbsp;女
+					</if>
+				</label>
+		        </div>
+		    </div>
+		    <div class="tr-add fl">
+		        <label>&nbsp;</label>
+		        <div>
+		        	<p class="form-msg">&nbsp;</p>
+		        </div>
+		    </div>
+		    <div class="tr-add" style="margin-top: 40px;">
+		        <label>&nbsp;</label>
+		        <div>
+		        	<input type="button" id="submit" class="btn-fsub" value="确定" />&nbsp;&nbsp;&nbsp;&nbsp;
+    				<input type="button" class="btn-freset" value="取消" onclick="javascript:window.location='glysz.html'" />
+		        </div>
+		    </div>
+    		</form>
+        </div>
+    </div>
+</div>
+
+<!--    页面尾部        -->
+<include file = "Public/footer" />

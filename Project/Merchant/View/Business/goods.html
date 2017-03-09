@@ -1,0 +1,59 @@
+<!--	页面头部	-->
+<include file = "Public/header" />
+
+<link rel="stylesheet" href="__PUBLIC__/css/merchant/public.css" />
+<link rel="stylesheet" href="__PUBLIC__/css/merchant/alertdialog.css" />
+<link rel="stylesheet" href="__PUBLIC__/css/merchant/workcenter.css">
+<script src="__PUBLIC__/js/merchant/pages.js"></script>
+
+<div class="container clearfix">
+	<!--	左侧菜单	-->     	
+    <include file = "Public/menu" />	
+	
+    <div class="con">
+    	<div class="navinfo"><img src="__PUBLIC__/image/merchant/ihy.png" id="ihy" class="icon tititem igly"/>&nbsp;&nbsp;我的商品</div>
+		
+    		<div class="hang">
+                <form action="" method="post">
+                   	<a href="myadd.html" class="abtn">添加商品</a>
+	    				<label class="searchbar">
+				    		<input type="text" class="srctxt" name="search" value="" placeholder="搜索" />
+				    		<input type="submit" value=" " class="srcbtn" />
+	    				</label>
+    			</form>
+    		</div>
+    		
+			
+    		<div class="cmain">
+	            <div class="cinfo" id="content">
+	            	<table class ='ctable'>
+					<tr>
+							<volist name='table_head' id='head'>
+								<th style='width:120px'>{$head}</th>
+							</volist>
+					</tr>
+
+					<volist name='table_data' id='data'>
+						<tr>
+							<volist name='data_index' id='index'>
+								<td>
+									{$data.$index}
+								</td>
+							</volist>
+							<td><a class='abt' href="#">编辑</a></td>
+							<td><a class='abt' href="#">删除</a></td>
+						</tr>
+					</volist>
+				</table>
+		
+				<div class="page text-align-r margtop47">
+					{$page}
+				</div>
+            </div>
+    	</div>		
+	</div>
+</div>
+
+<!--	页面尾部	-->     
+<include file = "Public/footer" />
+	

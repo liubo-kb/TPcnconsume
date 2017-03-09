@@ -1,0 +1,25 @@
+[ 2016-09-26T10:03:51+08:00 ] 117.36.118.15 /cnconsum/Home/MerchantType/Protocol/protocolGet?store=%E5%9B%BD%E7%A7%91%E4%BA%91%E8%84%89&address=%E8%A5%BF%E5%AE%89%E5%B8%82%E9%9B%81%E5%A1%94%E5%8C%BA%E7%A7%91%E6%8A%80%E4%BA%8C%E8%B7%AF66%E5%8F%B7%20&phone=18629691107
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+
+[ 2016-09-26T11:10:16+08:00 ] 113.132.11.243 /cnconsum/Home/MerchantType/Protocol/protocolGet?store=%E5%9B%BD%E7%A7%91%E4%BA%91%E8%84%89&address=%E8%A5%BF%E5%AE%89%E5%B8%82%E9%9B%81%E5%A1%94%E5%8C%BA%E7%A7%91%E6%8A%80%E4%BA%8C%E8%B7%AF66%E5%8F%B7%20&phone=18629691107
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+
+[ 2016-09-26T16:16:40+08:00 ] 113.132.11.243 /cnconsum/Home/MerchantType/Protocol/protocolGet?store=%E5%9B%BD%E7%A7%91%E4%BA%91%E8%84%89&address=%E8%A5%BF%E5%AE%89%E5%B8%82%E9%9B%81%E5%A1%94%E5%8C%BA%E7%A7%91%E6%8A%80%E4%BA%8C%E8%B7%AF66%E5%8F%B7%20&phone=18629691107
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+
+[ 2016-09-26T16:16:40+08:00 ] 113.132.11.243 /cnconsum/Home/MerchantType/Protocol/protocolGet?store=%E5%9B%BD%E7%A7%91%E4%BA%91%E8%84%89&address=%E8%A5%BF%E5%AE%89%E5%B8%82%E9%9B%81%E5%A1%94%E5%8C%BA%E7%A7%91%E6%8A%80%E4%BA%8C%E8%B7%AF66%E5%8F%B7%20&phone=18629691107
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+
+[ 2016-09-26T17:41:46+08:00 ] 113.132.11.243 /cnconsum/Home/MerchantType/Protocol/protocolGet?store=%E5%9B%BD%E7%A7%91%E4%BA%91%E8%84%89&address=%E8%A5%BF%E5%AE%89%E5%B8%82%E9%9B%81%E5%A1%94%E5%8C%BA%E7%A7%91%E6%8A%80%E4%BA%8C%E8%B7%AF66%E5%8F%B7%20&phone=18629691107
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
+

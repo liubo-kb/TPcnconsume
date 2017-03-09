@@ -1,0 +1,48 @@
+M
+<!--	页面头部	-->
+<include file = "Public/header" />
+
+<!--	资源文件	-->
+<link rel="stylesheet" href="__PUBLIC__/css/merchant/member.css">
+<script src="__PUBLIC__/js/merchant/pages.js"></script>
+<style>
+body{
+	background-color: fff;
+}
+</style>
+
+<div class="container clearfix">
+	<!--	左侧菜单	-->     	
+    <include file = "Public/menu" />	
+	
+    <!--        页面内容        -->     
+    <div class="con" id="content">
+		
+    	<table class ='ctable'>
+				<tr>
+						<volist name='table_head' id='head'>
+							<th style='width:120px'>{$head}</th>
+						</volist>
+				</tr>
+
+				<volist name='table_data' id='data'>
+					<tr>
+						<volist name='data_index' id='index'>
+							<td>
+								{$data.$index}
+							</td>
+						</volist>
+						<td><a class='abt' href="#">编辑</a></td>
+						<td><a class='abt' href="#">删除</a></td>
+					</tr>
+				</volist>
+		</table>
+		
+		<div class="page text-align-r margtop47">
+			{$page}
+		</div>
+    </div>
+</div>
+
+<!--	页面尾部	-->     
+<include file = "Public/footer" />

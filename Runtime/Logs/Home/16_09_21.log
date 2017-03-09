@@ -1,0 +1,15 @@
+[ 2016-09-21T13:28:51+08:00 ] 113.132.10.196 /cnconsum/Home/MerchantType/Protocol/protocolGet?store=null&address=null&phone=13991301562
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+
+[ 2016-09-21T15:03:47+08:00 ] 113.132.10.123 /cnconsum/Home/MerchantType/Protocol/protocolGet?store=null&address=null&phone=111222333
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+
+[ 2016-09-21T15:08:14+08:00 ] 113.132.10.196 /cnconsum/index.php/Home/MerchantType/Protocol/protocolGet?store=%E5%9B%BD%E7%A7%91%E4%BA%91%E8%BF%88&address=%E9%99%95%E8%A5%BF%E7%9C%81%E8%A5%BF%E5%AE%89%E5%B8%82%E9%9B%81%E5%A1%94%E5%8C%BA%E8%8E%B2%E6%B9%96%E8%B7%AF&phone=13991301562
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+

@@ -1,0 +1,46 @@
+<!--    页面头部        -->
+<include file = "Public/header" />
+<!--	资源文件	-->
+<link rel="stylesheet" href="__PUBLIC__/css/merchant/workcenter.css">
+<script>
+function addshop(){
+	var html = '<div class="tr-add">'+
+	           '<label>输入店铺注册手机号：</label>'+
+	           '<div>'+
+	           '<input type="text" name="account[]" class="txtdb" style="width: 280px;vertical-align: middle;" />'+
+	           '</div>'+
+	    	   '</div>';
+	$('#box-sub').before(html);
+}
+</script>
+
+<div class="container clearfix">
+	<!--        左侧菜单        -->
+    <include file = "Public/menu" />
+	
+    <div class="con">
+    	<p class="navinfo"><img src="__PUBLIC__/image/merchant/idpgl.gif" />&nbsp;&nbsp;店铺管理</p>
+        <div class="cinfo">
+    		<form action="../store/app" method="post" id="form-join">
+    		<div class="tbtit titpd1"></div>
+    		<div class="tr-add">
+		        <label>输入店铺注册手机号：</label>
+		        <div>
+		            <input type="text" name="account[]" class="txtdb" style="width: 280px; vertical-align: middle;" />&nbsp;&nbsp;
+			    <img src="__PUBLIC__/image/merchant/add1.png" class="img-add" onclick="addshop()" />
+		        </div>
+		    </div>
+		    <div id="box-sub" class="tr-add" style="margin-top: 40px;">
+		        <label>&nbsp;</label>
+		        <div>
+		        	<input type="submit" class="btn-fsub" value="确定" />&nbsp;&nbsp;&nbsp;&nbsp;
+    				<input type="button" class="btn-freset" value="取消" onclick="javascript:window.location='shops.html'" />
+		        </div>
+		    </div>
+    		</form>
+        </div>
+    </div>
+</div>
+
+<!--    页面尾部        -->
+<include file = "Public/footer" />

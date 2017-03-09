@@ -1,0 +1,59 @@
+<!--	页面头部	-->
+<include file = "Public/header" />
+
+<!--	资源文件	-->
+<link rel="stylesheet" href="__PUBLIC__/css/merchant/global.css">
+<link rel="stylesheet" href="__PUBLIC__/css/merchant/member_01.css">
+<link rel="stylesheet" href="__PUBLIC__/css/merchant/member.css">
+<script src="__PUBLIC__/js/merchant/jquery-1.9.1.min.js"></script>
+<script src="__PUBLIC__/js/merchant/script.js"></script>
+<script src="__PUBLIC__/js/merchant/pages.js"></script>
+<style>
+body{
+	background-color: #fff;
+}
+</style>
+
+<div class="container clearfix">
+	
+	<!--	左侧菜单	-->     	
+    <include file = "Public/menu" />	
+
+    <div class="zh"><img src="__PUBLIC__/image/merchant/hy.png" id="ihy"/>&nbsp;&nbsp;我的会员</div>
+    
+	
+    <!--        页面内容        -->     
+    <div class="con" id='content'>
+	
+    	<table class ='cable'>
+				<tr>
+						<volist name='table_head' id='head'>
+							<th style='width:120px'>{$head}</th>
+						</volist>
+				</tr>
+
+				<volist name='table_data' id='data'>
+					<tr>
+						<volist name='data_index' id='index'>
+							<td>
+								<if condition="$index eq 'headimage' ">
+									<img style="width:55px;height:55px;margin:8px" src='__PUBLIC__/Uploads/headImage/{$data.$index}'/>
+								<else/>
+									{$data.$index}
+								</if>
+							</td>
+						</volist>
+						<td><a class='abt' href="#">联系用户</a></td>
+					</tr>
+				</volist>
+		</table>
+		
+		<div class="page text-align-r margtop47">
+			{$page}
+		</div>
+		
+    </div>
+</div>
+
+<!--	页面尾部	-->     
+<include file = "Public/footer" />

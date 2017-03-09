@@ -1,0 +1,95 @@
+﻿
+	body
+	{
+		/*background-attachment:fixed;*/
+		height:auto;
+		margin:0;
+		
+	}
+
+	.back_image
+	{
+		position:absolute; 
+		width:100%; 
+		height:100%; 
+		z-index:-1;
+	}
+
+
+	.download_box
+	{
+		position:absolute;
+		bottom:20%;
+		width:auto;
+		height:auto;
+		left:20%;
+		right:20%;
+	}
+	
+
+	
+	.button_style_apple
+	{
+		width:100%;
+		height:100px;
+		float:left;
+		background-color:#FFFFFF;
+		filter:alpha(opacity=80); 
+		-moz-opacity:0.8; 
+		opacity:0.8;
+		border:#e66666 solid 4px;
+		color:#333333;
+		font-family:Georgia, "Times New Roman", Times, serif;
+		font-weight:bold;
+		font-size:18px;
+		-moz-border-radius: 0px;
+		-webkit-border-radius: 0px;
+		border-radius:0px;
+	}
+	
+	.button_style_android
+	{
+		width:100%;
+		float:left;
+		height:100px;
+		margin-top:40px;
+		background-color:#FFFFFF;
+		filter:alpha(opacity=80); 
+		-moz-opacity:0.8; 
+		opacity:0.8;
+		border:#00CC33 solid 4px;
+		color:#333333;
+		font-family:Georgia, "Times New Roman", Times, serif;
+		font-weight:bold;
+		font-size:18px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		border-radius:5px;
+	}
+	
+	a
+	{
+		text-decoration:none;
+		line-height:120px;
+		text-align:center;
+	}
+	
+	span
+	{
+		font-family:"黑体";
+		font-size:34px;
+		color:#333333;
+		font-weight:bolder;
+		float:left;
+		margin-top:0px;
+		margin-left:20px;
+		
+	}
+	.icon_d
+	{
+		width:70px;
+		height:70px;
+		margin-top:15px;
+		margin-left:100px;
+		float:left;
+	}

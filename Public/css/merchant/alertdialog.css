@@ -1,0 +1,42 @@
+@charset "utf-8";
+.Div_Scroll { 
+position:absolute; 
+visibility:hidden; 
+margin:280px; 
+opacity:0.6; 
+z-index:99; 
+} 
+.Div_Scroll_Content { 
+position:relative; 
+margin-top:20%; 
+width:inherit; 
+height:inherit; 
+} 
+.Div_AlertWindow { 
+margin: 0 auto; 
+width:400px; 
+height:100px; 
+text-align:center;
+background-color:#b1b1b1;  
+}
+.title{
+padding-top: 20px;
+}
+.sure{
+width:75px;
+height:25px;
+background-color: red;
+border: none; 
+color: white;
+cursor: pointer
+}
+.no{
+width:75px;
+height:25px;
+background-color:#DADADA;
+border: none;   
+color:#000;
+cursor: pointer;
+margin-left: 15px;
+}
+
