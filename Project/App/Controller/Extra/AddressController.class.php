@@ -23,7 +23,7 @@ class AddressController extends Controller
 		$proId = post('pro_id');
 		if($proId != "null")
 		{
-			$where['parentid'] = $proId;
+			$where['parentId'] = $proId;
 		}
                 $where['level'] = '2';
                 $result = $table->where($where)->select();
@@ -35,22 +35,32 @@ class AddressController extends Controller
         {
                 $table = D('address');
 		$cityId = post('city_id');
-                $where['parentid'] = $cityId;
+                $where['parentId'] = $cityId;
                 $where['level'] = '3';
                 $result = $table->where($where)->select();
                 //dump($result);
                 echo json_encode($result);
         }
-
+	
 	public function getStreet()
         {
                 $table = D('address');
-		$districtId = post('district_id');
-                $where['parentid'] = $streetId;
+		$streetId = post('district_id');
+                $where['parentId'] = $streetId;
                 $where['level'] = '4';
                 $result = $table->where($where)->select();
                 //dump($result);
                 echo json_encode($result);
         }
+
+	public function getCodeByName()
+	{
+		$table = D('address');
+		$name = post('name');
+		//$name = '西安市';
+		$where['name'] = $name;
+		$result = $table->where($where)->select();
+		echo json_encode($result);
+	}
 	
 }
