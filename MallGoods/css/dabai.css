@@ -1,0 +1,30 @@
+.box{
+	width:100%;
+	height:100%;
+}
+
+.box header{
+	width:100%;
+	height:2rem;
+	padding:.16rem .26rem 0;
+}
+
+.box img{
+	width:45%;
+	height:100%;
+}
+
+.box section{
+	margin-top:.2rem;
+}
+
+.box section ul{
+	margin:0 .1rem;
+}
+
+.box section ul li{
+	line-height:.26rem;
+	font-size:.12rem;
+	background: #eee;
+	margin-bottom:.1rem;
+}

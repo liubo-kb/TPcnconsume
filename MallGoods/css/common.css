@@ -1,0 +1,484 @@
+html,body{
+	width:100%;
+	height:100%;
+}
+
+*{
+	box-sizing:border-box;
+}
+
+@media screen and (min-width: 320px) {
+    html {
+        font-size: 100px;
+    }
+}
+ 
+@media screen and (min-width: 360px) {
+    html {
+        font-size: 112.5px;
+    }
+}
+ 
+@media screen and (min-width: 400px) {
+    html {
+        font-size: 125px;
+    }
+}
+ 
+@media screen and (min-width: 440px) {
+    html {
+        font-size: 137.5px;
+    }
+}
+ 
+@media screen and (min-width: 480px) {
+    html {
+        font-size: 150px;
+    }
+}
+ 
+@media screen and (min-width: 640px) {
+    html {
+        font-size: 200px;
+    }
+}
+ 
+html {
+    font-size: 31.25vw;
+}
+
+body{
+	margin:0;
+	font-size:.14rem;
+	line-height:1.5;
+	-webkit-tap-highlight-color:transparent;
+	font-family:"微软雅黑",Helvetica Neue , Helvetica , STHeiTi , sans-serif;
+}
+
+ul , li , ol, h1 , h2 , h3 , h4 , h5 , h6 , p , figure , form , fieldset , input , legend , textarea , button ,dl,dt,dd, blockquote , th , tr , td ,xmp {
+	padding:0;
+	margin:0;
+}
+
+ul , ol , menu{
+	list-style:none;
+}
+
+
+.fl{
+	float:left;
+}
+
+.fr{
+	float:right;
+}
+
+.clear{
+	clear:both;
+}
+
+
+/*背景色*/
+
+.bg0{
+	background: #000;
+}
+
+.bgf{
+	background: #fff;
+}
+
+.bgc{
+	background:#fafafa;
+}
+
+.bgfb{
+	background: #fbfbfb;
+}
+
+.bgf3{
+	background: #f3f3f3;
+}
+
+
+.bgk{
+	background: #000;
+}
+
+.bgy{
+	background: #f7d30b;
+}
+
+.bgfc{
+	background: #fcf491;
+}
+
+.bga7{
+	background: #a7a7a7;
+}
+
+.bgdf{
+	background: #dfdfdf;
+}
+
+.bg6e{
+	background: #6e6e6e;
+}
+
+.bgf2{
+	background: #f2f2f2;
+}
+
+.bg302{
+	background: #302f34;
+}
+
+.bgcac{
+	background: #cacbcf;
+}
+
+.bg870{
+	background: #87090c;
+}
+
+.bg01{
+	background: #010101;
+}
+
+.bg3a{
+	background: #3a4450;
+}
+
+.bge5{
+	background: #e55c28;
+}
+
+.bg9d{
+	background: #9d0b0b;
+}
+
+
+/*字体颜色*/
+.corf{
+	color:#fff;
+}
+
+.corr{
+	color:#ec0103;
+}
+
+.corr2{
+	color:#ec181b;
+}
+
+.cor72{
+	color:#727272;
+}
+.cor96{
+	color:#969696;
+}
+
+.cor91{
+	color:#919191;
+}
+
+.cor67{
+	color:#676767;
+}
+.cor9d{
+	color:#9d9d9d;
+}
+
+.cor49c{
+	color:#49a9fc;
+}
+
+.cor64{
+	color:#646464;
+}
+
+.corb2{
+	color:#b2b2b2;
+} 
+
+.cor8f{
+	color:#8f1000;
+}
+
+.cor075{
+	color:#075ead;
+}
+
+.core6d{
+	color:#e6d385;
+}
+
+.cor616{
+	color:#616266;
+}
+
+.corbf0{
+	color:#bf0101;
+}
+
+.cord8{
+	color:#d82308;
+}
+
+.corf5{
+	color:#ff5065;
+}
+
+.corf6{
+	color:#f674e0;
+}
+
+.cor0e{
+	color:#0e5195;
+} 
+
+
+
+/*字体大小*/
+
+.fn12{
+	font-size:.12rem;
+}
+
+.fn14{
+	font-size:.14rem;
+}
+
+.fn16{
+	font-size:.16rem;
+}
+
+.fn18{
+	font-size:.18rem;
+}
+
+.fn20{
+	font-size:.2rem;
+}
+
+.fn24{
+	font-size:.24rem;
+}
+
+.fn36{
+	font-size:.36rem;
+}
+
+
+
+/*字体型号*/
+.fah{
+	font-family: '黑体';
+}
+
+.ffk{
+	font-family: kartika;
+}
+
+
+.fnw{
+	font-weight:bold;
+}
+
+
+
+
+
+
+
+/*盒模型*/
+
+/*margin-top*/
+.mtp1{
+	margin-top:.1rem;
+}
+
+.mtp2{
+	margin-top:.2rem;
+}
+
+.mtp3{
+	margin-top:.3rem;
+}
+
+.mtp5{
+	margin-top:5px;
+}
+
+
+/*margin-right*/
+.mrt8{
+	margin-right: 0.08rem;
+}
+
+.mrt12{
+	margin-right: .12rem;
+}
+
+.mrt16{
+	margin-right: .16rem;
+}
+
+/*margin-bottom*/
+
+.mbm1{
+	margin-bottom: .1rem;
+}
+.mbm2{
+	margin-bottom: .2rem;
+}
+
+.mbm4{
+	margin-bottom:.4rem;
+}
+
+.mbm6{
+	margin-bottom:.6rem;
+}
+
+/*margin-left*/
+
+.mlt12{
+	margin-left: .12rem;
+}
+
+
+
+
+/*paddint-top*/
+
+
+.ptp1{
+	padding-top:.1rem;
+}
+
+.ptp2{
+	padding-top:.2rem;
+}
+
+.ptp4{
+	padding-top:.4rem;
+}
+
+.ptp6{
+	padding-top:.6rem;
+}
+
+/*padding-right*/
+
+
+
+.prt05{
+	padding-right: 5px;
+} 
+
+.prt{
+	padding-right:.1rem;
+}
+
+.prt2{
+	padding-right:.2rem;
+}
+
+
+
+/*padding-bottom*/
+.pbm{
+	padding-bottom:.4rem;
+}
+
+.pbm1{
+	padding-bottom:.1rem;
+}
+
+/*padding-left*/
+
+
+.plt05{
+	padding-left:5px;
+}
+.plt{
+	padding-left:.1rem;
+}
+
+.plt2{
+	padding-left:.2rem;
+}
+
+.plt3{
+	padding-left:.3rem;
+}
+
+.plt4{
+	padding-left:.4rem;
+}
+
+.plt5{
+	padding-left:.5rem;
+}
+ 
+.plt6{
+	padding-left:.6rem;
+}
+
+a{
+	text-decoration: none;
+}
+
+.tce{
+	text-align: center;
+}
+
+.tft{
+	text-align: left;
+}
+
+.trt{
+	text-align: right;
+} 
+
+.tint{
+	text-indent: .2rem;
+}
+
+
+
+
+
+
+
+.imgWidth{
+	width:100%;
+}
+
+.dspb{
+	display:block;
+}
+
+.lineHeight{
+	line-height: 120%;
+}
+
+.lht100{
+	line-height: 100%;
+}
+.lht200{
+	line-height: 200%;
+}
+
+
+/*字间距*/
+
+
+.lesp{
+	letter-spacing:2px;
+}
+
+.lesp2{
+	letter-spacing:1px;
+}

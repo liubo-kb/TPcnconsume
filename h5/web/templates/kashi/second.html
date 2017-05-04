@@ -1,0 +1,25 @@
+<ion-view view-title='二手卡'>
+	<div ng-repeat='card in cardSeconds'>
+		<a class="kaBox" href='#/kashiInfo/{{card.muid}}'>
+			<div class='manInfo'>
+				<div class='manOne'>
+					<img ng-src="../../Public/Uploads/addImage/{{headimage}}/>
+					<span class='manDate plt1'>
+						<b class='sman'>{{card.nickname}}</b>
+						<b class='sdate'>{{card.datetime}}</b>
+					</span>
+				</div>
+				<div class='manTwo'>
+					<span class='price core6 prt2'>￥ {{card.card_remain}}</span>
+				</div>
+			</div>
+			<div class='store cor00 ptp1'>{{card.store}}</div>
+			<div class='share fn12 prt1 pbm1 ptp1'>
+			【分享】现有{{card.store}}{{card.card_remain}}元{{card.card_level}}{{card.card_type}}一张({{card.rate}}折卡)，需要的朋友尽快下手，手续费({{card.rule/10}}%)
+			</div>
+			<div class='sadd fn12 cor7c lht2'>
+				{{card.address}}
+			</div>
+		</a>
+	</div>
+</ion-view>

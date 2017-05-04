@@ -1,0 +1,83 @@
+.box{
+	width:100%;
+	height:100%;
+}
+
+img{
+	width:100%;
+	display:block;
+}
+
+.zhiwu1{
+	width:100%;
+	height:.3rem;
+	position:relative;
+}
+
+.zhiwu1 span{
+	position:absolute;
+	z-index:99;
+	left:35%;
+	background:#fff;
+	padding:0 .1rem;
+}
+
+.zhiwu1::after{
+	content:'';
+	position:absolute;
+	width:60%;
+	height:1px;
+	background:#ccc;
+	top:40%;
+	left:20%;
+}
+
+.zhiwu2{
+	width:60%;
+	height:2rem;
+}
+
+.zhiwu3{
+	width:40%;
+	height:2rem;
+}
+
+.zhiwu4{
+	width:80%;
+	height:1rem;
+	line-height:200%;
+	text-align: center;
+	font-size:.14rem;
+	margin:.1rem;
+	background: #595959;
+	border:1px solid #7d7d7d;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	color:#fff;
+}
+
+
+.imgShow{
+	width:10%;
+	margin-left:45%;
+	margin-bottom:.1rem;
+}
+
+.zhiwu5{
+	width:100%;
+	height:1rem;
+	margin:.1rem 0;
+	text-align: center;
+	border-top:3px dashed #6a6a6a;
+	border-bottom:3px dashed #6a6a6a;
+}
+
+
+.zhiwu6{
+	border-top:3px dashed #6a6a6a;
+}
+
+.zhiwu7{
+	border-bottom:3px dashed #6a6a6a;
+}

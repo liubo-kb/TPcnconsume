@@ -1,0 +1,29 @@
+<ion-view view-title='首页'>
+	<ion-header-bar class=" bar bar-header item-input-inset bge2 corf">
+      <label class="item-input-wrapper">
+        <i class="icon ion-ios-search placeholder-icon"></i>
+        <input type="search"  id='storeSearch' placeholder="请输入您要找的关键字" ng-model='keyword'>
+      </label>
+      <!--<button class="button button-clear corf" ng-click="search()">搜索</button>-->
+      <button class="button button-clear" style="color: #fff;" ng-click="search()">搜索</button>
+	</ion-header-bar>
+	<ion-content class='box'>
+		<div class='imgList'>
+			<div class='storeBox' ng-repeat='str in stores'>
+				<a href='#/facts/{{str.muid}}'>
+					<div class='imgSide'><img class='imgCun' ng-src="../../Public/Uploads/addImage/{{str.image_url}}"/></div>
+					<div class='fontSide'>
+						<h3 class='fn18 lht2'>{{str.store}}</h3>
+						<p class='ping'>
+							<img class='wuXing' src="img/sx2.jpg"/>
+							<span class='plt1'>已售{{str.sold}}笔</span>
+						</p>
+						<p class='bor lht2'>{{str.latitude|number:2}} km</p>
+						<p class='lht2'><span class='zhe'>折</span> {{str.discount*0.1 | number:1}} 折</p>
+						<p class='lht2'><span class='zeng'>赠</span> 暂无活动！</p>
+					</div>
+				</a>
+			</div>
+		</div>
+	</ion-content>
+</ion-view>

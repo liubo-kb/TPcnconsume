@@ -1,0 +1,59 @@
+.box{
+	width:100%;
+	height:100%;
+}
+
+img{
+	width:100%;
+}
+
+.hua1{
+	background: #f7efe4;
+}
+
+.hua1 .tside{
+	width:80%;
+}
+
+
+.hua1 .bside li{
+	width:100%;
+	height:1rem;
+	padding:5px;
+	background:#e4d3bf;
+	border-radius: 5px;
+	margin-bottom:.1rem;
+}
+
+
+.hua1 .bside li .imgSide{
+	width:24%;
+	height:100%;
+	padding-top:.1rem;
+}
+
+.hua1 .bside li .imgSide img{
+	vertical-align: middle;
+}
+
+.hua1 .bside li .fontSide{
+	width:72%;
+	height:100%;
+}
+
+
+.bot{
+	border-bottom:3px solid #fff;
+}
+
+.tab{
+	width:100%;
+	border:1px solid #d1ab7f;
+	border-collapse: collapse;
+}
+
+.tab td{
+	width:5%;
+	height:.26rem;
+	border:1px solid #d1ab7f;
+}

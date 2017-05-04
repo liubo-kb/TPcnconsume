@@ -1,0 +1,55 @@
+input, textarea {
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  outline: none;
+}
+.center { display: block; text-align: center; }
+
+/** modal window styles **/
+#lean_overlay {
+  position: fixed;
+  z-index:100;
+  top: 0px;
+  left: 0px;
+  height:100%;
+  width:100%;
+  background: #000;
+  display: none;
+}
+
+#loginmodal {
+  width: 440px;
+  height: 285px;
+  padding: 15px 20px;
+  background: #f3f6fa;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+}
+#loginform { /* no default styles */ }
+
+#loginform label { display: block; font-size: 1.1em; font-weight: bold; color: #7c8291; margin-bottom: 3px; }
+
+.usertxt{
+  padding: 6px 5px;width: 350px;height:45px; font-size: 1.4em;border-radius: 4px;border: 1px solid #DCDCDC;
+}
+.passwordtxt{
+  padding: 6px 5px;width: 350px;height:45px;  font-size: 1.4em;border-radius: 4px;border: 1px solid #DCDCDC;
+}
+.sure_btn{
+  width: 170px;height: 35px;background-color:#3162a2;border: 1px solid #3162a2;border-radius: 3px;cursor: pointer;color: #FFFFFF;font-size: 15px;
+}
+.back_btn{
+  width: 170px;height: 35px;background-color:#00aaf4;border: 1px solid #00aaf4;border-radius: 3px;cursor: pointer;color: #FFFFFF;font-size: 15px;
+}
+
+
+
+

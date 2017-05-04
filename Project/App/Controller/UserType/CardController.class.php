@@ -256,7 +256,7 @@ class CardController extends Controller
 		$wherem['merchant'] = $this->merchant;
                 $wherem['code'] = $this->code;
                 $wherem['level'] = $this->level;
-		$datam = $cardm->where($wherem)->field('price,rule')->select();
+		$datam = $cardm->where($wherem)->field('price,rule,display_state')->select();
 
 		//$data = array_merge($datau,$datam);
 		$data['card_remain'] = $datau[0]['card_remain'];

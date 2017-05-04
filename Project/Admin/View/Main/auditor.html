@@ -1,0 +1,72 @@
+<!--header start-->
+<include file="Public/header"/>
+<!--header end-->
+
+<!--menu start-->
+<include file="Public/menu"/>
+<!--menu end-->
+
+<div class="wrapper clearfix">
+	<!--side start-->
+	<include file="Public/side"/>
+	<!--side end-->
+	<div class="container">
+		<!--content start-->
+		<div class="con" id="content">
+		
+			<div class="put">
+				<a style="color: white;" href="#loginmodal" id="modaltrigger">添加</a>
+			</div>
+			
+			<table class="table margt20">
+				<tr class="tb-tit">
+						<td style='width:10%'>序号</td>
+						<volist name='table_head' id='head'>
+							<td>{$head}</td>
+						</volist>
+				</tr>
+				<volist name='table_data' id='data' key="k">
+					<tr>
+						<td>{$k}.</td>
+						<volist name='data_index' id='index'>
+							<if condition=" $index eq 'muid' ">
+							<else/>
+							<td>
+								{$data.$index}	
+							</td>
+							</if>
+						</volist>
+						<td><a class="abtn abtn-fc" href="removeAuditor?account={$data.account}">删除</a></td>
+					</tr>
+				</volist>
+			</table>
+
+			<div class="pagebar">
+				<div class="pagewrap">
+					   {$page}
+				</div>
+			</div>
+			
+		</div>
+		<!--content end-->
+	</div>
+</div>
+
+<form action="addAuditor" method="post">
+	<div id="loginmodal" style="display:none;">
+		<div style="margin-top: 50px;">
+			<span class="namenu">账户：</span><input id="user" name="account" class="usertxt" type="text" required/><br/><br/>
+			<span class="namenu">姓名：</span><input id="name" name="name" class="usertxt" type="text" required/><br/><br/>
+			<span class="namenu">密码：</span ><input  id="password" name="password" class="passwordtxt" type="text" required/><br/>
+				<div class="center">
+					<input  type="submit" name="surebtn" id="surebtn" class="sure_btn " value="确定" tabindex="3" >
+					<input  type="button" name="backbtn" id="backbtn" class="back_btn " value="取消" tabindex="3" >
+				</div>
+		</div>
+	</div>
+</form>
+
+<!--footer start-->
+<include file="Public/footer"/>
+<!--footer end-->
+

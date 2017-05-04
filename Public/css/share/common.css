@@ -1,0 +1,20 @@
+html,body{
+	height:100%;
+	width:100%;
+}
+
+*{
+	box-sizing:border-box;
+}
+
+html{
+	font-size:31.25vw;
+	background-color:#fff;
+}
+
+body{
+	margin:0;
+	line-height:1.2;
+	font-size:.14rem;
+}
+

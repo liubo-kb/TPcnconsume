@@ -1,0 +1,90 @@
+.box{
+	width:100%;
+	height:100%;
+}
+
+img{
+	width:100%;
+}
+
+.sanYuan{
+	width:100%;
+	height:3rem;
+}
+
+
+.sanYuan{
+	width:100%;
+	position:relative;
+}
+
+.sanYuan .list img{
+	width:100%;
+}
+
+.sanYuan .list{
+	width:20%;
+}
+
+.sanYuan .imgSideOne{
+	position:absolute;
+	top:10%;
+	left:40%;
+}
+
+.sanYuan .imgSideTwo{
+	position:absolute;
+	left:0;
+	top:30%;
+}
+
+.sanYuan .imgSideThree{
+	position:absolute;
+	right:0;
+	top:30%;
+}
+
+.sanYuan .imgSideFour{
+	width:100%;
+}
+
+.sanYuan .imgSideFour img{
+	width:20%;
+}
+
+ 
+.sanYuan .imgSideFour{
+	position:absolute;
+	top:50%;
+}
+
+
+.sanFang{
+	width:100%;
+}
+
+.sanFang img{
+	width:32%;
+}
+
+.show2 .last{
+	width:25%;
+}
+
+
+.show2 img{
+	width:30%;
+}
+
+.show3{
+	font-weight:normal;
+	line-height:.4rem;
+}
+
+.imgShow ul{
+	width:100%;
+}
+
+.imgShow ul li{
+	width:48%;
+}

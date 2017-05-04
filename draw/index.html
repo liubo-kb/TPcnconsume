@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<link rel="stylesheet" href="css/rotate.css" />
+		<title>抽奖活动</title>
+		</style>
+		<script type="text/javascript">
+			document.addEventListener('plusready', function() {
+				//console.log("所有plus api都应该在此事件发生后调用，否则会出现plus is undefined。"
+
+			});
+		</script>
+	</head>
+
+	<body>
+		<div class="box">
+			<div class='header'>积分换大奖,参与就有奖</div>
+			<div class='chou'>
+				<img src="img/中奖.png" class='imgInfo' />
+				<div class='getCount'>
+					<p class='reward'>恭喜您获得</p>
+					<p class='rewardInfo'></p>
+				</div>
+				<span class='btn'></span>
+			</div>
+			<div class='content ly-plate'>
+				<div class="lottery-star"><img src="img/指针.png" id="lotteryBtn"></div>
+				<div class='count ff'>您的剩余积分为:<span class='fc num'></span></div>
+
+			</div>
+			<div class='footer'>
+				<div class='oneSide'>
+					<h3 class='titleSide'>
+							<span>得奖名单</span>
+						</h3>
+					<ul class='bgc list'>
+					</ul>
+					<div class='clear'></div>
+				</div>
+				<div class='twoSide'>
+					<h3 class='titleSide'>
+						<span>活动说明</span>
+					</h3>
+					<div class='twoSideInfo bgc fc'>
+						<p>活动时间：2017.3.1——2017.5.1</p>
+						<p>每日可用积分抽奖3次，每次抽奖需使用20积分</p>
+						<p>邀请好友成功注册可以免积分抽奖3次，并获赠商消乐300积分。</p>
+						<p>活动中的幸运中奖者可以联系客服获取奖品</p>
+						<p>本次活动由商消乐支持。如有疑问可以致电客服咨询</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jQueryRotate.2.2.js"></script>
+	<script type="text/javascript" src="js/jquery.easing.min.js"></script>
+	<script type="text/javascript">
+		var uuid = 'u_5acdc55abe';
+		var remain = 30;
+
+		function setUuid(puuid, premain) {
+			uuid = puuid;
+			remain = premain;
+			$('.num').html(remain);
+
+		}
+
+		var check = 20;
+		$(function() {
+			$.ajax({
+				url: '../app/extra/draw/getList',
+				type: 'POST',
+				dataType: 'json',
+				success: function(re) {
+					console.log(re.win_list);
+					for(var i = 0; i < re.win_list.length; i++) {
+						var active = '<li>' +
+							'<img class="fl" src="../Public/Uploads/headImage/' + re.win_list[i].headimage + '"/>' +
+							'<div class="fr">' +
+							'<p class="info ff">' +
+							'<span class="fl">' + re.win_list[i].nickname + '</span>' +
+							'<span class="fr">' + re.win_list[i].datetime + '</span>' +
+							'</p>' +
+							'<p>' + re.win_list[i].prize + '</p>' +
+							'</div>' +
+							'</li>'
+
+						$('.list').append(active);
+					}
+
+				}
+			})
+
+			var rotateFunc = function(id, angle, text) { //awards:奖项，angle:奖项对应的角度
+				$('#lotteryBtn').stopRotate();
+				$("#lotteryBtn").rotate({
+					angle: 0,
+					duration: 3000,
+					animateTo: angle + 1440, //angle是图片上各奖项对应的角度，1440是我要让指针旋转4圈。所以最后的结束的角度就是这样子^^
+					callback: function() {
+						$('.chou').css('display', 'block');
+						$('.imgInfo').attr('src', 'img/中奖.png');
+						$('.reward').html('恭喜您获得');
+						$('.num').html(remain);
+						$('.rewardInfo').html(text);
+						$('.btn').click(function() {
+							$('.chou').hide();
+						})
+					}
+				});
+			};
+
+			$("#lotteryBtn").rotate({
+				bind: {
+					click: function() {
+						if(remain >= check) {
+							$.ajax({
+								url: '../app/extra/draw',
+								data: { uuid: uuid },
+								type: 'POST',
+								dataType: 'json',
+								success: function(re) {
+									remain = re.remain;
+									//console.log(re.win_list);
+									var num = parseInt(re.result.angle);
+									rotateFunc(re.result.id, num, re.result.prize);
+
+									for(var i = 0; i < re.win_list.length; i++) {
+
+										var active = '<li>' +
+											'<img class="fl" src="../Public/Uploads/headImage/' + re.win_list[i].headimage + '"/>' +
+											'<div class="fr">' +
+											'<p class="info ff">' +
+											'<span class="fl">' + re.win_list[i].nickname + '</span>' +
+											'<span class="fr">' + re.win_list[i].datetime + '</span>' +
+											'</p>' +
+											'<p>' + re.win_list[i].prize + '</p>' +
+											'</div>' +
+											'</li>'
+
+										$('.list').append(active);
+									}
+
+								}
+							})
+						} else {
+							timeOut();
+							return
+						}
+
+					}
+				}
+
+			});
+
+			function timeOut() {
+				$('.chou').css('display', 'block');
+				$('.imgInfo').attr('src', 'img/未抽中.png');
+				$('.reward').html('亲，您的积分不够用啦');
+				$('.rewardInfo').html('');
+				$('.btn').click(function() {
+					$('.chou').hide();
+				})
+			};
+
+		})
+	</script>
+</html>
