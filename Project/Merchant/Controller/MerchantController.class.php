@@ -217,13 +217,15 @@ class MerchantController extends Controller
                                 'recommend'=>$muid,
                                 'type'=>'m',
                                 'sum'=>'0.00元',
-                                'state'=>'ONLINE'
+                                'state'=>'AUDITING'
                         );
 
 	
                         $ref = M('referrer');
                         $ref->add($record_r);
 			
+			/*		
+	
 			//检测用户当前级别
 			checkUserLevel($referrer_uuid);
 
@@ -237,7 +239,11 @@ class MerchantController extends Controller
 			//设置推荐收入记录
 			$record = array('datetime'=>$datetime,'tip' => '推荐商户奖励', 'sum' => $sum,'type' => 'm', 'id' => $referrer_uuid);
 			setIncomeRecord($record);
-			
+
+			//处理送积分
+                        addIntegral($referrer_uuid,'推荐商户','ref_merchant');
+
+			*/
                 }
 		else
 		{

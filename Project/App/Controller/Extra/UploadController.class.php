@@ -92,7 +92,25 @@ class UploadController extends Controller
                                 $dir = '/advertImage/';
 				break;
                         }
-	
+
+			case 'advert_top_image':
+			{
+				$dir = '/advert/top/';
+				break;
+			}
+			
+			case 'advert_activity_image':
+			{
+				$dir = '/advert/activity/';
+				break;
+			}
+
+			case 'commodity':
+			{
+				$dir = '/commodity/';
+				break;
+			}
+
 			default:
 				break;
 		}
@@ -112,6 +130,7 @@ class UploadController extends Controller
 		if( !$info )
 		{
 			logInfo($upload->getError());
+			logIn("upload_error:".$upload->getError());
 		}
 		else
 		{
@@ -119,5 +138,48 @@ class UploadController extends Controller
 			echo json_encode($data);
 		}
 		
-	}	
+	}
+
+	function uploadVideo()
+	{
+
+		$muid = post('muid');
+		$name = $muid."_".time();
+
+		$upload = new \Think\Upload();
+                $upload->maxSixe = 3145782;
+                
+                $upload->rootPath = './Public/Uploads/';
+                $upload->saveName = $name;
+                $upload->savePath = '/video/';
+                //$upload->saveExt = 'png';
+                $upload->autoSub = false;
+                $upload->replace = true;
+
+                $info = $upload->upload();
+                if( !$info )
+                {
+                        logInfo($upload->getError());
+                        logIn("upload_error:".$upload->getError());
+                }
+                else
+                {
+			foreach($info as $file)
+			{
+        			$ext = $file['ext'];
+    			}
+
+			$table = D('merchant_video');
+			$record = array(
+				'merchant' => $muid, 'video' => $upload->saveName.".".$ext,
+				'state' => 'auditing'
+			);
+			addWithCheck($table,$record);
+
+                        $data['result_code'] = 'access';
+                        echo json_encode($data);
+                }
+	}
+
+	
 }

@@ -20,9 +20,9 @@
 							<td>{$head}</td>
 						</volist>
 				</tr>
-				<volist name='table_data' id='data'>
+				<volist name='table_data' id='data' key="k">
 					<tr>
-						<td>{$i++}.</td>
+						<td>{$k}.</td>
 						<volist name='data_index' id='index'>
 							<if condition=" $index eq 'muid' ">
 							<else/>

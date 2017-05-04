@@ -4,13 +4,16 @@
 
 <link rel="stylesheet" href="__PUBLIC__/css/admin/audit.css" />
 <link rel="stylesheet" href="__PUBLIC__/css/admin/lanrenzhijia.css" />
+
 <script src="__PUBLIC__/js/admin/audit.js"></script>
 <script src="__PUBLIC__/js/admin/ws.js"></script>
-<script src="__PUBLIC__/js/admin/jquery.min.js"></script>	
+<script src="__PUBLIC__/js/admin/jquery.min.js"></script>
 <script src="__PUBLIC__/js/admin/jquery.imgbox.pack.js"></script>
 <script src="__PUBLIC__/js/admin/show_image.js"></script>
 <script src="__PUBLIC__/js/admin/zDialog.js"></script>
 <script src="__PUBLIC__/js/admin/myDialog.js"></script>
+
+
 
 <!--menu start-->
 <include file="Public/menu"/>
@@ -86,47 +89,6 @@
 				<input type="button" id="tt" value="查看原图" onclick="window.location.href('#')" /></a>			
 		</div>
 		
-		<div id="alertParent" class="Div_Scroll"> 
-			<div class="Div_Scroll_Content"> 
-				<div style="text-align:center	" id="AlertWindow" class="Div_AlertWindow"> 
-					<div style="height:15px"></div>
-						<div class="wo" >
-							<div class="cont" >1.省份证有遮挡><br/>
-								2.住宅地址具体门牌号不清楚<br/>3.............<br/>4.............
-							</div>
-						</div>
-						<div style="padding-top: 40PX;">
-							<input  type="button" id="Suresh" value="确定" /> 
-							<input type="button" id="nosh" value="取消" /> 
-						</div>
-				</div> 
-			</div> 
-		</div> 
-        
-		<div id="alertParent_ws" class="Div_Scroll_ws"> 
-			<div class="Div_Scroll_Content_ws"> 
-				<div  style="text-align:center	" id="AlertWindow_ws" class="Div_AlertWindow_ws"> 
-					<div style="height:15px"></div>
-						<div class="nm">
-							<div class="wp">请选择外派人员：<br/>
-								<input id="name" type="button"  value="名字一	" /> 
-								<input id="name" type="button"  value="名字一	" /> 	
-								<input id="name" type="button"  value="名字一	" /> 
-							    <input id="name" type="button"  value="名字一	" /> 
-							    <input id="name" type="button"  value="名字一	" /> 
-							    <input id="name" type="button"  value="名字一	" /> 
-							     
-							</div>
-						</div>
-						
-					<div style="padding-top: 40PX;">
-						<input type="button" id="Surews" value="确定" /> 
-						<input type="button" id="nows" value="取消" /> 
-					</div>
-				</div> 
-			</div> 
-		</div> 
-		
 		
 		<div class="five">
 			<p id="xm">经营场地照片</p>
@@ -141,6 +103,28 @@
 			<a id="example9" href="__PUBLIC__/Uploads/wepImage/{$info.muid}.png">
 			<input type="button" id="tt" value="查看原图" onclick="window.location.href('#')" /></a>
 		</div>
+		
+		
+		
+		<div class="second">
+			<p id="store">紧急联系人</p>
+			<p id="xm">联系人一</p>
+			<p id="xm">
+				<span>【姓名】：{$info.frel_name}</span>&nbsp;&nbsp;&nbsp;&nbsp;
+				<span>【联系方式】：{$info.frel_phone}</span>
+			</p>
+			<p id="xm">联系人二</p>
+			<p id="xm">
+				<span>【姓名】：{$info.srel_name}</span>&nbsp;&nbsp;&nbsp;&nbsp;
+				<span>【联系方式】：{$info.srel_phone}</span>
+			</p>
+			<p id="xm">联系人三</p>
+			<p id="xm">
+				<span>【姓名】：{$info.trel_name}</span>&nbsp;&nbsp;&nbsp;&nbsp;
+				<span>【联系方式】：{$info.trel_phone}</span>
+			</p>
+		</div>
+		
 		
 		
 		

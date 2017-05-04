@@ -1,58 +1,62 @@
 <?php
-	function ajaxRe($status,$tip,$url)
+	//计算广告费用
+	function advertPay($type,$table,$para)
 	{
-		$result = array(
-			'status' => $status, 'tip' => $tip, 'url' => $url
-		);
-		echo json_encode($result);
+		return 20;
 	}
 
-	function getImageSrc( $type , $name )
-	{
-		$dir = "/var/www/html/cnconsum/Public/Uploads/";
-		$url = "http://101.201.100.191/cnconsum/Public/Uploads/";
 
-		$src = $dir.$type."/".$name.".png";
-		$curl = $url.$type."/".$name.".png";
-	
-                if( file_exists( $src ) )
-                {
-			return $curl."?".rand(0,10000);
-                }
-		else
+	//同步IM账号
+	function setImAccount($account,$type,$para)
+	{
+		$table = D('im_account');
+		$where['account'] = $account;
+		$set[$type] = $para;
+		saveWithCheck($table,$where,$set);
+	}
+
+	//处理送积分
+	function handleAward($uuid,$type)
+	{
+		$table = D('user');
+		$where['uuid'] = $uuid;
+		$check = $table->where($where)->select()[0][$type];
+
+		logIn($uuid.$type.$check);
+		if($check == '未设置')
 		{
-			return "http://101.201.100.191/cnconsum/Public/image/upbg.png";
+			addIntegral($uuid,'完善信息送积分','complete');
 		}
 	}
-	
-	function getFormatAdd( $address )
+
+	//送积分
+	function addIntegral($uuid,$tip,$type,$para = '1')
 	{
-		$str = '市辖区';
-                $check = strpos($address,$str);
+		$sum = D('integral_scale')->select()[0][$type];
+		$sum = multiAsInt($sum,$para);
 
-                if($check == false)
-                {
-                        $add['province'] = explode('省',$address)[0]."省";
-                        $extra = explode('省',$address)[1];
-                        $add['city'] = explode('市',$extra)[0]."市";
-                        $extra = explode('市',$extra)[1];
-                        $add['district'] = explode('区',$extra)[0]."区";
-                        $add['location'] = explode('区',$extra)[1];
-                }
-                else
-                {
-                        $add['province'] = explode('市辖区',$address)[0];
-                        $extra = explode('市辖区',$address)[1];
-                        $add['district'] = explode('区',$extra)[0]."区";
-                        $add['location'] = explode('区',$extra)[1];
-                        $add['city'] = '市辖区';
-                }
+		//增加积分
+		$user = M('user');
+                $where['uuid'] = $uuid;
+                $data = $user->where($where)->select();
+                $remain = $data[0]['integral'];
+
+                $newRemain = addAsInt($remain,$sum);
+
+                $set['integral'] = $newRemain;
+                $user->where($where)->save($set);
+
+
+		//添加积分记录
+                $datetime = currentTime();
+                $record = array(
+                        'uuid' => $uuid, 'type' => $tip, 'integral' => $sum, 'datetime' => $datetime
+                );
+                addWithCheck(D('mall_consume'),$record);
+
 		
-		return $add;
-
 	}
-
-
+	
 	//获取平台参数
         function getSystemPara($date,$type)
         {
@@ -179,7 +183,8 @@
 		$user = D("user");
 		$whereu["uuid"] = $uuid;
 		$datetime = $user->where($whereu)->select()[0]['datetime']; //用户注册时间
-		
+		$user_level = $user->where($whereu)->select()[0]['user_level']; //用户当前级别		
+
 		$ct = currentTime();//当前时间
 
 		$check = getUserClassifyPara($datetime);
@@ -203,7 +208,7 @@
 			
 		}
 		
-		if(  $mnum == intval($svip_mnum) )
+		if(  $mnum == intval($svip_mnum) and $user_level != "SVIP")
 		{
 			//设置用户级别
                         $set['user_level'] = 'SVIP';
@@ -219,6 +224,315 @@
 		
 
 	}
+	
+	
+
+	//添加代金券
+	function addVoucher($uuid)
+	{
+                $type = array(
+                        "10元",
+                        "20元",
+                        "50元",
+                        "100元",
+                        );
+                $deadline = array(
+                        date("Y-m-d",strtotime("+1 month")),
+                        date("Y-m-d",strtotime("+1 month +15 day")),
+                        date("Y-m-d",strtotime("+2 month")),
+                        date("Y-m-d",strtotime("+2 month")),
+                        );
+
+                $num = array(
+                        "5",
+                        "5",
+                        "5",
+                        "1",
+                        );
+
+                $voucher = M('user_voucher');
+                for($i = 0; $i < 4; $i++)
+                {
+                        $ptype = $type[$i];
+                        $pdeadline = $deadline[$i];
+                        $pnum = $num[$i];
+
+                        $record_v = array(
+                                'user' => $uuid,'type' => $ptype, 'deadline' => $pdeadline,
+                                'num' => $pnum
+                        );
+                        $voucher->add($record_v);
+
+                }
+	}	
+
+	//获取展示页店铺信息
+	function showDataGet($where,$page)
+	{
+		$merchant = D('merchant');
+		$data = $merchant
+		->field('muid,phone,store,image_url,longtitude,latitude')
+		->where($where)
+		->page($page)
+		->select();
+
+		for( $i = 0; $i < count($data); $i++)
+		{
+			$muid = $data[$i]['muid'];
+			
+			//获取评星
+			$evaluate = D('evaluate');
+			$where_s['merchant'] = $muid;
+			$data[$i]['stars'] = $evaluate->where($where_s)->avg('stars');
+			
+			//获取办卡数量
+			$card = D('user_card');
+			$where_c['merchant'] = $muid;
+			$data[$i]['sold'] = $card->where($where_c)->count();
+
+			//获取最低折扣率
+			$card = D('merchant_card');
+			$where_c['type'] = '储值卡';
+			$data[$i]['discount'] = $card->where($where_c)->min('rule');
+			
+			//获取最大赠送额
+			$data[$i]['add'] = $card->where($where_c)->max('addition_sum');
+
+			//是否包含优惠券
+			$table = D('merchant_coupon');
+			$where_cc['muid'] = $muid;
+			$where_cc['state'] = 'true';
+			$check = $table->where($where_cc)->count();
+			if($check > 0)
+			{
+				$data[$i]['coupon'] = 'yes';
+			}
+			else
+			{
+				$data[$i]['coupon'] = 'no';
+			}			
+		}
+
+		return $data;
+		
+	}
+
+		
+	function storeDataGet($muid)
+	{
+		$merchant = D('merchant');
+		$where['muid'] = $muid;
+                $result = $merchant
+                ->field('muid,phone,store,image_url,address,longtitude,latitude,store_number')
+                ->where($where)
+                ->select();
+
+		$data['muid'] = $result[0]['muid'];
+		$data['phone'] = $result[0]['phone'];
+ 		$data['image_url'] = $result[0]['image_url'];
+ 		$data['address'] = $result[0]['address'];
+ 		$data['longtitude'] = $result[0]['longtitude'];
+ 		$data['latitude'] = $result[0]['latitude'];
+ 		$data['store'] = $result[0]['store'];
+		$data['store_number'] = $result[0]['store_number'];
+
+		$where_s['merchant'] = $muid;
+
+                //获取评星
+                $evaluate = D('evaluate');
+                $data['stars'] = $evaluate->where($where_s)->avg('stars');
+
+		//获取评论数量
+		$data['evaluate_num'] = $evaluate->where($where_s)->count();
+
+		//获取评论数据
+                $data['evaluate_list'] = $evaluate
+		->join('cn_user on cn_user.uuid = cn_evaluate.user')
+		->field('cn_evaluate.*,nickname,headImage')
+		->where($where_s)
+		->page('1,2')
+		->select();
+
+                //获取办卡数量
+                $card = D('user_card');
+                $data['sold'] = $card->where($where_s)->count();
+		
+		//获取会员卡列表
+                $card = D('merchant_card');
+                $data['card_list'] = $card->where($where_s)->select();
+
+		//获取商品列表
+		$commodity = D('commodity');
+		$data['commodity_list'] = $commodity->where($where_s)->select();
+		
+		//获取商家详情
+		$info = D('merchant_info');
+		$result = $info->where($where_s)->select();
+		$data['intro'] = $result[0]['intro'];		
+		$data['time'] = $result[0]['time'];
+		$data['notice'] = $result[0]['notice'];
+		$data['server'] = $result[0]['server'];
+
+		return $data;
+		
+                
+	}
+
+	//处理推荐产生的费用
+	function handleReferrer($user,$merchant,$sum)
+        {
+                //处理用户的推荐费用
+		//setReferrer($user,'u',$sum);
+		//处理相关商户的推荐费用
+		setReferrer($merchant,'m',$sum);
+        }
 
 
-?>
+
+	//处理推荐人的费用
+	function setReferrer($recommend,$type,$sum)
+        {
+               	$referrer = M('referrer');
+	       	$where['recommend'] = $recommend;
+	       	$where['type'] = $type;
+		$check1 = $referrer->where($where)->count();
+		
+		//处理一级推荐人的费用
+		if($check1 > 0)
+		{
+			//设置推荐人列表的推荐费用
+			$data1 = $referrer->where($where)->field('sum,referrer')->select();
+			$remain1 = $data1[0]['sum'];
+			$referrer1 = $data1[0]['referrer'];
+			$newRemain = addAsDouble($remain1,$sum)."元";
+			$set1['sum'] = $newRemain;
+			$referrer->where($where)->save($set1);
+
+			//实时设置一级推荐人的余额
+			setRemain($referrer1,doubleval($sum)*0.01);
+				
+		}
+
+		$where2['recommend'] = $referrer1;
+                $where2['type'] = 'u';
+                $check2 = $referrer->where($where2)->count();
+
+		//设置二级推荐人费用
+		if($check2 > 0)
+		{
+			//设置二级推荐人列表的推荐费用
+                        $data1 = $referrer->where($where2)->field('sum')->select();
+                        $remain1 = $data1[0]['sum'];
+                        $newRemain = addAsDouble($remain1,doubleval($sum)*0.01)."元";
+                        $set1['sum'] = $newRemain;
+                        $referrer->where($where2)->save($set1);
+			
+
+			//实时设置二级推荐人的余额
+			$data2 = $referrer->where($where2)->field('referrer')->select();
+			$referrer2 = $data2[0]['referrer'];
+			setRemain($referrer2,doubleval($sum)*0.0005);
+		}
+		
+
+
+	
+      	}
+
+	
+
+	//实时设置推荐人余额
+	function setRemain($referrer,$sum)
+	{
+		$user = M('user');
+                $where['uuid'] = $referrer;
+                $data = $user->where($where)->field('remain')->select();
+                $remain = $data[0]['remain'];
+                $newRemain = addAsDouble($remain,$sum)."元";
+                $set['remain'] = $newRemain;
+                $user->where($where)->save($set);
+	
+	}
+
+	//更新商户的营业额
+	function setTurnover($merchant,$sum)
+	{
+		$turnover = M('merchant_turnover');
+		$where['merchant'] = $merchant;
+		$check = $turnover->where($where)->count();
+		if($check > 0)
+		{
+			$data = $turnover->where($where)->select();
+			$remain = $data[0]['sum'];
+			$newRemain = addAsDouble($remain,$sum);
+			$set['sum'] = $newRemain;
+			$turnover->where($where)->save($set);
+		}
+		else
+		{
+			$record = array(
+				'merchant' => $merchant,'sum' => $sum
+			);
+			$turnover->add($record);
+		}
+			
+		$merchant_info = M('merchant');
+		$where_i['muid'] = $merchant;
+		$data = $merchant_info->where($where_i)->select();
+		$remain = $data[0]['remain'];
+		$new_remain = addAsDouble($remain,$sum)."元";
+		$set['remain'] = $new_remain;
+		$merchant_info->where($where_i)->save($set);
+
+	}
+
+	//获取其他信息
+	function getExtra($merchant,$code,$level)
+	{
+		$card = M('merchant_card');
+		$where['merchant'] = $merchant;
+		$where['code'] = $code;
+		$where['level'] = $level;
+
+		$data = $card->where($where)->select();
+		return $data;
+	}
+	
+	//设置商户余额
+	function setMerchantRemain($muid,$sum)
+	{
+		$merchant = M('merchant');
+		$where['muid'] = $muid;
+		$data = $merchant->where($where)->select();
+		$remain = $data[0]['remain'];
+		
+		$newRemain = addAsDouble($remain,$sum)."元";
+		$set['remain'] = $newRemain;
+		$merchant->where($where)->save($set);
+		
+	}
+
+	//处理积分
+	function setIntegral($uuid,$sum)
+	{
+	
+		//logInfo('user:: '.$user);
+		//logInfo('sum:: '.$sum);
+		$user = M('user');
+		$where['uuid'] = $uuid;
+                $data = $user->where($where)->select();
+                $remain = $data[0]['integral'];
+		
+		$int_sum = intval($sum)/10;
+	
+		//logInfo('int_sum:: '.$int_sum);
+		
+		
+		$newRemain = addAsInt($remain,$int_sum);
+
+		//logInfo('newSum:: '.$newRemain);
+		$set['integral'] = $newRemain;
+		$user->where($where)->save($set);
+
+	}
+

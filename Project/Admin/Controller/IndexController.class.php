@@ -29,6 +29,7 @@ class IndexController extends Controller
 			}
 			else
 			{
+				session('account',$account);
 				echo "access";
 			}
 		}

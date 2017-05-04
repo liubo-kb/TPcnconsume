@@ -3,12 +3,19 @@
 <html>
 <head>
 <meta charset="utf-8" />
-<title>无标题文档</title>
+<title><?php echo ($title); ?></title>
 <link rel="stylesheet" href="/cnconsum/Public/css/admin/global.css">
 <link rel="stylesheet" href="/cnconsum/Public/css/admin/style.css">
+<link rel="stylesheet" href="/cnconsum/Public/css/admin/AD.css">
+<link rel="stylesheet" href="/cnconsum/Public/css/admin/addUserstyle.css">
+
+
 <script src="/cnconsum/Public/js/admin/jquery-1.9.1.min.js"></script>
 <script src="/cnconsum/Public/js/admin/script.js"></script>
 <script src="/cnconsum/Public/js/admin/pages.js"></script>
+<script src="/cnconsum/Public/js/admin/Ad.js"></script>
+<script src="/cnconsum/Public/js/admin/jquery.leanModal.min.js"></script>
+
 <script>
 $(function(){
 	setInterval('showtime(\'.timebar\')',1000);
@@ -28,12 +35,25 @@ $(function(){
 
 <!--header end-->
 
+<link rel="stylesheet" href="/cnconsum/Public/css/admin/audit.css" />
+
+<script src="/cnconsum/Public/js/admin/audit.js"></script>
+<script src="/cnconsum/Public/js/admin/ws.js"></script>
+<script src="/cnconsum/Public/js/admin/jquery.min.js"></script>
+<script src="/cnconsum/Public/js/admin/jquery.imgbox.pack.js"></script>
+<script src="/cnconsum/Public/js/admin/show_image.js"></script>
+<script src="/cnconsum/Public/js/admin/zDialog.js"></script>
+<script src="/cnconsum/Public/js/admin/myDialog.js"></script>
+
+
+
 <!--menu start-->
 <div class="menubar">
 	<ul class="menu">
 		<li class="<?php echo ($press_settle?'on':'off'); ?>"><a href="settle">新入驻商户</a></li>
 		<li class="<?php echo ($press_auditing?'on':'off'); ?>"><a href="auditing">外审中</a></li>
 		<li class="<?php echo ($press_audited?'on':'off'); ?>"><a href="audited">审核结果</a></li>
+		<li class="<?php echo ($press_auditor?'on':'off'); ?>"><a href="auditor">管理外派人员</li>
 		<li style="display:none"><a href="search">搜索商户</a></li>
 	</ul>
 	<div class="exitbar">
@@ -69,12 +89,16 @@ $(function(){
 						<td style='width:10%'>序号</td>
 						<?php if(is_array($table_head)): $i = 0; $__LIST__ = $table_head;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$head): $mod = ($i % 2 );++$i;?><td><?php echo ($head); ?></td><?php endforeach; endif; else: echo "" ;endif; ?>
 				</tr>
-				<?php if(is_array($table_data)): $i = 0; $__LIST__ = $table_data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?><tr>
-						<td><?php echo ($i++); ?>.</td>
-						<?php if(is_array($data_index)): $i = 0; $__LIST__ = $data_index;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$index): $mod = ($i % 2 );++$i;?><td>
-								<?php echo ($data["$index"]); ?>	
-							</td><?php endforeach; endif; else: echo "" ;endif; ?>
-						<td><a class="abtn abtn-fc">审核通过</a></td>
+				<?php if(is_array($table_data)): $k = 0; $__LIST__ = $table_data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($k % 2 );++$k;?><tr>
+						<td><?php echo ($k); ?>.</td>
+						<?php if(is_array($data_index)): $i = 0; $__LIST__ = $data_index;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$index): $mod = ($i % 2 );++$i; if($index == 'astate'): if($data["astate"] == 'true'): ?><td><a class="abtn abtn-fc">审核通过</a></td>
+                                                                <?php elseif($data["astate"] == 'false'): ?>
+                                                                        <td><a class="abtn abtn-fc" onclick="showDialog('fail_result','<?php echo ($account); ?>','<?php echo ($data["muid"]); ?>');">审核不通过</a></td>
+                                                                <?php else: ?>
+                                                                        <td>error</td><?php endif; ?>
+                                                        <?php elseif($index == 'muid'): ?>
+                                                        <?php else: ?>
+                                                                <td><?php echo ($data["$index"]); ?></td><?php endif; endforeach; endif; else: echo "" ;endif; ?>
 					</tr><?php endforeach; endif; else: echo "" ;endif; ?>
 			</table>
 
@@ -92,7 +116,7 @@ $(function(){
 </div>
 <!--footer start-->
 <div class="footer">
-	<p class="font-user">登录用户: 王一二 (wang_yier)</p>
+	<p class="font-user">登录用户: <?php echo ($account); ?></p>
 </div>
 </body>
 </html>

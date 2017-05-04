@@ -2,6 +2,13 @@
 
 ini_set('date.timezone','Asia/Shanghai');
 
+function logIn( $content )
+{
+	$table = D('log');
+	$record = array(
+	"datetime" => currentTime(), "content" => $content);
+	addWithCheck( $table,$record );
+}
 
 function getDbErrorCode( $table )
 {
@@ -24,6 +31,34 @@ function addWithCheck( $table,$record)
 	}
 }
 
+
+function saveWithCheck( $table,$where,$set)
+{
+        try
+        {
+                $data = $table->where($where)->save($set);
+                return $data;
+        }
+        catch(\Think\Exception $e)
+        {
+                return getDbErrorCode( $table );
+        }
+}
+
+
+
+function setWithCheck( $table,$where,$set)
+{
+        try
+        {
+                $data = $table->where($where)->save($set);
+                return $data;
+        }
+        catch(\Think\Exception $e)
+        {
+                return getDbErrorCode( $table );
+        }
+}
 
 
 
@@ -111,6 +146,12 @@ function redAsInt($para1,$para2)
 	return $para3;
 }
 
+//转为Int做乘法
+function multiAsInt($para1,$para2)
+{
+        $para3 = intval($para1) * intval($para2);
+        return $para3;
+}
 
 
 

@@ -1,7 +1,7 @@
 <?php
 return array(
 	//调试展示项
-	'SHOW_PAGE_TRACE' => true,
+	'SHOW_PAGE_TRACE' => false,
 
 	//数据库配置
 	'DB_TYPE' => 'mysql',

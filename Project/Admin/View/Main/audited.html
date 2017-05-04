@@ -2,6 +2,18 @@
 <include file="Public/header"/>
 <!--header end-->
 
+<link rel="stylesheet" href="__PUBLIC__/css/admin/audit.css" />
+
+<script src="__PUBLIC__/js/admin/audit.js"></script>
+<script src="__PUBLIC__/js/admin/ws.js"></script>
+<script src="__PUBLIC__/js/admin/jquery.min.js"></script>
+<script src="__PUBLIC__/js/admin/jquery.imgbox.pack.js"></script>
+<script src="__PUBLIC__/js/admin/show_image.js"></script>
+<script src="__PUBLIC__/js/admin/zDialog.js"></script>
+<script src="__PUBLIC__/js/admin/myDialog.js"></script>
+
+
+
 <!--menu start-->
 <include file="Public/menu"/>
 <!--menu end-->
@@ -20,15 +32,24 @@
 							<td>{$head}</td>
 						</volist>
 				</tr>
-				<volist name='table_data' id='data'>
+				<volist name='table_data' id='data' key="k">
 					<tr>
-						<td>{$i++}.</td>
+						<td>{$k}.</td>
 						<volist name='data_index' id='index'>
-							<td>
-								{$data.$index}	
-							</td>
+							<if condition="$index eq 'astate'">
+                                                                <if condition="$data.astate eq 'true'">
+                                                                        <td><a class="abtn abtn-fc">审核通过</a></td>
+                                                                <elseif condition="$data.astate eq 'false'"/>
+                                                                        <td><a class="abtn abtn-fc" onclick="showDialog('fail_result','{$account}','{$data.muid}');">审核不通过</a></td>
+                                                                <else/>
+                                                                        <td>error</td>
+                                                                </if>
+                                                        <elseif condition="$index eq 'muid'"/>
+                                                        <else/>
+                                                                <td>{$data.$index}</td>
+                                                        </if>
+
 						</volist>
-						<td><a class="abtn abtn-fc">审核通过</a></td>
 					</tr>
 				</volist>
 			</table>

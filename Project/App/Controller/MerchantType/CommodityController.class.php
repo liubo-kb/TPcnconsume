@@ -22,11 +22,12 @@ class CommodityController extends Controller
 		$code = post('code');
 		$price = post('price');
 		$remain = post('remain');
+		$image_url = post('image_url');
 
 		$record = array(
 			'merchant' => $merchant,'name' => $name,
 			'number' => $code,'price' => $price,
-			'remain' => $remain
+			'remain' => $remain,'image_url' => $image_url,
 		);		
 
 		$result['result_code'] = $commodity ->addWithCheck($record);
@@ -82,8 +83,8 @@ class CommodityController extends Controller
 		
 		$commodity = D('commodity');
 		$result = $commodity
-		->join("cn_merchant ON cn_merchant.muid = cn_commodity.merchant")
-		->field("cn_commodity.*,cn_merchant.image_url")
+		//->join("cn_merchant ON cn_merchant.muid = cn_commodity.merchant")
+		//->field("cn_commodity.*,cn_merchant.image_url")
 		->where($where)
 		->select();
 

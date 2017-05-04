@@ -5,15 +5,18 @@
 <head>
 	<meta charset="utf-8" />
 	<title><?php echo ($header["title"]); ?></title>
-	<link rel="stylesheet" href="/cnconsum/Public/css/global.css">
-	<script src="/cnconsum/Public/js/jquery-1.9.1.min.js"></script>
-	<script src="/cnconsum/Public/js/script.js"></script>
+	<link rel="stylesheet" href="/cnconsum/Public/css/merchant/global.css">
+	<script src="/cnconsum/Public/js/merchant/jquery-1.9.1.min.js"></script>
+	<script src="/cnconsum/Public/js/zDrag.js" type="text/javascript"></script>
+	<script src="/cnconsum/Public/js/zDialog.js" type="text/javascript"></script>
+	<script src="/cnconsum/Public/js/merchant/script.js"></script>
+	<script src="/cnconsum/Public/js/ajaxcheck.js"></script>
 </head>
 
 <body>
 
 <div class="header-f" style="border: 0;">
-    <img src="/cnconsum/Public/image/logo.png" width="119" height="48" />
+    <img src="/cnconsum/Public/image/merchant/logo.png" width="119" height="48" />
     <span class="font22kai">商户中心</span>
     <div class="accountbar">
         <span class="uname">您好，<?php echo ($header["account"]); ?></span>
@@ -24,25 +27,25 @@
 
 
 <!--	资源文件	-->
-<link rel="stylesheet" href="/cnconsum/Public/css/workcenter.css">
+<link rel="stylesheet" href="/cnconsum/Public/css/merchant/workcenter.css">
 
 <div class="container clearfix">
 	<!--	左侧菜单	-->     	
     <div class="menu">
         <h1 class="<?php echo ($press_vip?'msub':'no'); ?>">
 		<a href="<?php echo ($menu["vip_href"]); ?>">
-			<img src="/cnconsum/Public/image/huiyuan.png" class="icon-menu" />&nbsp;我的会员
+			<img src="/cnconsum/Public/image/merchant/huiyuan.png" class="icon-menu" />&nbsp;我的会员
 		</a>
 	</h1>
 
         <h1 class="<?php echo ($press_commodity?'msub':'no'); ?>">
 		<a href="<?php echo ($menu["commodity_href"]); ?>">
-			<img src="/cnconsum/Public/image/shangpin.png" class="icon-menu" />&nbsp;我的商品
+			<img src="/cnconsum/Public/image/merchant/shangpin.png" class="icon-menu" />&nbsp;我的商品
 		</a>
 	</h1>
 
         <h1 onClick="showsubmenu(this)" class="<?php echo ($press_jszx?'msub':'no'); ?>">
-		<img src="/cnconsum/Public/image/jiesuan.png" class="icon-menu" />&nbsp;结算中心
+		<img src="/cnconsum/Public/image/merchant/jiesuan.png" class="icon-menu" />&nbsp;结算中心
 		<span class="ic-v">&gt;</span>
 	</h1>
 
@@ -52,7 +55,7 @@
         </ul>
 
         <h1 onClick="showsubmenu(this)" class="<?php echo ($press_ywzx?'msub':'no'); ?>">
-		<img src="/cnconsum/Public/image/yewu.png" class="icon-menu" />&nbsp;业务中心
+		<img src="/cnconsum/Public/image/merchant/yewu.png" class="icon-menu" />&nbsp;业务中心
 		<span class="ic-v">&gt;</span>
 	</h1>
 	
@@ -70,7 +73,7 @@
         </ul>
 
         <h1 onClick="showsubmenu(this)" class="<?php echo ($press_sjbb?'msub':'no'); ?>">
-		<img src="/cnconsum/Public/image/idata.png" class="icon-menu" />&nbsp;数据报表
+		<img src="/cnconsum/Public/image/merchant/idata.png" class="icon-menu" />&nbsp;数据报表
 		<span class="ic-v">∨</span>
 	</h1>
 
@@ -79,12 +82,12 @@
             <li><a href="<?php echo ($menu["data_xk_href"]); ?>" class="<?php echo ($press_xk?'xz':'no'); ?>">续卡记录</a></li>
 	    <li><a href="<?php echo ($menu["data_sj_href"]); ?>" class="<?php echo ($press_xk?'xz':'no'); ?>">升级记录</a></li>
             <li><a href="<?php echo ($menu["data_xf_href"]); ?>" class="<?php echo ($press_xf?'xz':'no'); ?>">消费记录</a></li>
-	    <li><a href="<?php echo ($menu["data_xj_href"]); ?>" class="<?php echo ($press_xj?'xz':'no'); ?>">现金入账</a></li>
+	    <li><a href="<?php echo ($menu["data_xj_href"]); ?>" class="<?php echo ($press_xj?'xz':'no'); ?>">现金记录</a></li>
         </ul>
 
         <h1 class="<?php echo ($press_account?'msub':'no'); ?>">
 		<a href="<?php echo ($menu["account_href"]); ?>">
-			<img src="/cnconsum/Public/image/zhanghu.png" class="icon-menu" />&nbsp;我的账户
+			<img src="/cnconsum/Public/image/merchant/zhanghu.png" class="icon-menu" />&nbsp;我的账户
 		</a>
 	</h1>
 </div>
@@ -92,7 +95,7 @@
 	
     <!--        页面内容        -->     
     <div class="con">
-    	<p class="navinfo"><img src="/cnconsum/Public/image/isjbb.png" />&nbsp;&nbsp;数据报表</p>
+    	<p class="navinfo"><img src="/cnconsum/Public/image/merchant/isjbb.png" />&nbsp;&nbsp;数据报表</p>
         <div class="cmain">
         	<p class="cinfo1 ftdt"><b class="paddleft30">详细信息</b></p>
         	<hr class="hr-grey-mg" />
@@ -122,11 +125,11 @@
                 <li>客服邮箱<br><span class="color53">kf@cnconsum.com</span></li>
 		<li style="width: 170px;">
 			公众号&nbsp;
-			<img src="/cnconsum/Public/image/rqcode.png" width="70" height="70" />
+			<img src="/cnconsum/Public/image/merchant/rqcode.png" width="70" height="70" />
 		</li>
 		<li style="width: 170px;">
 			下载链接&nbsp;
-			<img src="/cnconsum/Public/image/download.jpg" width="70" height="70" />
+			<img src="/cnconsum/Public/image/merchant/download.jpg" width="70" height="70" />
 		</li>
         </ul>
         <p class="aboutbar">

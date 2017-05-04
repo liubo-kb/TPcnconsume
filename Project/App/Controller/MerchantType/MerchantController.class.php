@@ -140,9 +140,11 @@ class MerchantController extends Controller
                         $ref = M('referrer');
                         $ref->add($record_r);
 			
+			/*
 			//检测用户当前级别
 			checkUserLevel($referrer_uuid);
-
+			
+			
 			//处理推荐红包
                         $sum = getSystemPara($datetime,'reward_referrer')['merchant']; //获取系统推荐政策
                         setRedPacket($referrer_uuid,$sum);
@@ -153,7 +155,10 @@ class MerchantController extends Controller
                         //设置推荐收入记录
                         $record = array('datetime'=>$datetime,'tip' => '推荐商户奖励', 'sum' => $sum,'type' => 'm', 'id' => $referrer_uuid);
                         setIncomeRecord($record);
-			
+
+			//处理送积分
+			addIntegral($referrer_uuid,'推荐商户','ref_merchant');
+			*/
                 }
 		else
 		{
@@ -301,8 +306,21 @@ class MerchantController extends Controller
 				
 			}
 			default:
+			{
+				$para = post('para');
+                                $set[$type] = $para;
+                                $result['result_code'] = $merchant
+                                ->where($where)
+                                ->save($set);
+				
+				if($type == 'store')
+				{
+					setImAccount($muid,'nickname',$para);
+				}				
+
+                                echo json_encode($result);
 				break;
-			
+			}
 			
 		}
 	}
@@ -327,6 +345,9 @@ class MerchantController extends Controller
                 $index = post('index');
                 $page_num = '10';
 
+		LogIn($store.",".$index);
+		
+		$where['state'] = 'true';
                 $where['store'] = array("like","%$store%");
                 $page = $index.",".$page_num;
 
@@ -491,6 +512,7 @@ class MerchantController extends Controller
 	public function videoGet()
         {
                 $where['merchant'] = post('muid');
+		//$where['state'] = 'true';
                 $video = D('merchant_video');
 		$result = $video->where($where)->select();
                 echo json_encode($result);
@@ -544,6 +566,7 @@ class MerchantController extends Controller
 		//$index = '1';
 
 		$where['address'] = array("like","%$eare%");
+		$where['state'] = 'true';
 		$page = $index.",".$page_num;
 
 		$data = showDataGet($where,$page);
@@ -608,6 +631,12 @@ class MerchantController extends Controller
 				case 'incomplete' :
                                 {
                                         $result = $this->result('incomplete',$result_m,$result_a);
+                                        break;
+                                }
+
+				case 'auditing' :
+                                {
+                                        $result = $this->result('auditing',$result_m,$result_a);
                                         break;
                                 }
 

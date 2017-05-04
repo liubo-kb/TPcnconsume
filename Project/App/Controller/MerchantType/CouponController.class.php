@@ -119,8 +119,15 @@ class CouponController extends Controller
 	public function userGet()
 	{
 		$uuid = post('uuid');
+		$muid = post('muid');
+
 		$table = D('user_coupon');
 		$where['uuid'] = $uuid;
+		if( $muid != 'null' )
+		{
+			$where['cn_user_coupon.muid'] = post('muid');
+		}
+
 		$result = $table
 		->join('cn_merchant_coupon on cn_merchant_coupon.muid = cn_user_coupon.muid and cn_merchant_coupon.coupon_id = cn_user_coupon.coupon_id')
 		->join("cn_merchant on cn_merchant.muid = cn_merchant_coupon.muid")

@@ -95,6 +95,39 @@ class UserController extends Controller
 
 
 	}
+
+	//使用代金券
+	public function couponMod()
+	{
+		$where['uuid'] = post('uuid');
+		$where['coupon_id'] = post('content');
+		$table = D('user_coupon');
+		$table->where($where)->delete();
+	}
+
+
+	//使用红包
+	public function redPacketMod()
+	{
+		$uuid = post('uuid');
+		$where['user'] = $uuid;
+                $sum = post('content');
+		$red_packet = $sum;
+                $table = D('red_packet');
+		$remain = $table->where($where)->select()[0]['sum'];
+		$sum = redAsInt($remain,$sum);
+		$set['sum'] = $sum;
+		$table->where($where)->save($set);
+	
+		//logIn($table->getLastSql());
+	
+		$record = array(
+			'id' => $uuid, 'datetime' => currentTime(),tip => post('type'),
+			'type' => 'consume', sum => "-".$red_packet
+		);
+		
+		setIncomeRecord($record);
+	}
 	
 	public function login()
 	{
@@ -200,7 +233,9 @@ class UserController extends Controller
 			//设置推荐收入记录
 			$record = array('datetime'=>$datetime,'tip' => '推荐用户奖励', 'sum' => $sum,'type' => 'u', 'id' => $referrer_uuid);
 			setIncomeRecord($record);
-			
+		
+			//处理推荐送积分
+			addIntegral($referrer_uuid,'推荐用户','ref_user');	
                 }
 		else
 		{
@@ -276,8 +311,6 @@ class UserController extends Controller
 		$uuid = post('uuid');
 		$type = post('type');
 
-		//$uuid = 'u_de53e0c33f';
-		//$type = 'headImage';
 		$user = D('user');
 		$where['uuid'] = $uuid;
 		
@@ -331,16 +364,23 @@ class UserController extends Controller
 
 		else
 		{
+			//处理送积分
+			handleAward($uuid,$type);
+			if($type == 'nickname' || $type == 'headImage')
+			{
+				setImAccount($uuid,$type,$para);
+			}
+
 			$para = post('para');
-			
 			$set[$type] = $para;	
 	
-			$result['result_code'] = $user->where($where)->save($set);
+			$result['result_code'] = setWithCheck($user,$where,$set);
 			$im_account->where($where_im)->save($set);
 
 			$result['type'] = $type;
 			$result['para'] = $para;
 			echo json_encode($result);
+		
 		}
 	}
 

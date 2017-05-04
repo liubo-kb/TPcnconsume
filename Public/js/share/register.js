@@ -96,13 +96,13 @@
 		var vertcode = document.getElementById('vertcode').value;
 		if(phone == '111')
 		{
-			window.location.href='download';
+			window.location.href='download.html';
 		}
-		if(phone == '请输入您的手机号')
+		if(phone == '请输入手机号')
 		{
 			alert("请输入手机号！");
 		}
-		else if(vertcode == '请输入您的验证码')
+		else if(vertcode == '请输入验证码')
 		{
 			alert("请输入验证码！");
 		}

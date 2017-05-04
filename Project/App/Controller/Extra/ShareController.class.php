@@ -31,6 +31,10 @@ class ShareController extends Controller
 	public function register()
 	{
 		$phone = get('phone');
+		
+		LogIn("phone:".$phone);
+
+
 		$passwd = get('passwd');
 		$type = get('type');
 		$referrer = get('referrer');
@@ -80,6 +84,9 @@ class ShareController extends Controller
 		$merchant = D('merchant');
 		$where_ex['phone'] = $phone;
                 $check_ex = $merchant->where($where_ex)->count();
+
+		LogIn("check".$check_ex);
+
 		if($check_ex > 0)
 		{
 			return 'phone_duplicate';
@@ -101,13 +108,14 @@ class ShareController extends Controller
                                 'recommend'=>$muid,
                                 'type'=>'m',
                                 'sum'=>'0.00元',
-                                'state'=>'ONLINE'
+                                'state'=>'Auditing'
                         );
 
 	
                         $ref = M('referrer');
                         $ref->add($record_r);
-			
+		
+			/*	
 			//检测用户当前级别
 			checkUserLevel($referrer_uuid);
 
@@ -121,7 +129,11 @@ class ShareController extends Controller
                         //设置推荐收入记录
                         $record = array('datetime'=>$datetime,'tip' => '推荐商户奖励', 'sum' => $sum,'type' => 'm', 'id' => $referrer_uuid);
                         setIncomeRecord($record);
-			
+
+			//处理送积分
+                        addIntegral($referrer_uuid,'推荐商户','ref_merchant');
+
+			*/
                 }
 		else
 		{
@@ -203,6 +215,11 @@ class ShareController extends Controller
 			//设置推荐收入记录
 			$record = array('datetime'=>$datetime,'tip' => '推荐用户奖励', 'sum' => $sum,'type' => 'u', 'id' => $referrer_uuid);
 			setIncomeRecord($record);
+
+			//处理送积分
+			addIntegral($referrer_uuid,'推荐用户','ref_user');
+
+
 			
                 }
 		else

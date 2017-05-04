@@ -273,6 +273,7 @@ class CardController extends Controller
 		$data['merchant'] = $datau[0]['merchant'];
 		$data['price'] = $datam[0]['price'];
 		$data['rule'] = $datam[0]['rule'];
+		$data['display_state'] = $datam[0]['display_state'];
 
 		$table = D("merchant");
 		$where['muid'] = $this->merchant;
@@ -289,6 +290,9 @@ class CardController extends Controller
 		if( $indate == 0 )
 		{
 			$indate = "no";
+			$date_start = currentTime();
+			$operate = '+ '.($indate*100).' month';
+                        $date_end = getTime($date_start,$operate);
 		}
 		else
 		{
@@ -333,7 +337,8 @@ class CardController extends Controller
 		setTurnover($this->merchant,$this->sum);
 
 		//产生积分处理
-		setIntegral($this->user,$this->sum);
+		//setIntegral($this->user,$this->sum);
+		addIntegral($this->user,'办卡消费','consum',$this->sum);
 
 		
 	}
@@ -371,30 +376,36 @@ class CardController extends Controller
                 setTurnover($this->merchant,$this->sum);
 
                 //产生积分处理
-                setIntegral($this->user,$this->sum);
+                //setIntegral($this->user,$this->sum);
+		addIntegral($this->user,'续卡消费','consum',$this->sum);
+
 		
 		
 		
 
 	}
 
+
 	public function setLevel()
 	{
-		$card = D('UserCard');
-                $where['user'] = $this->user;
-                $where['merchant'] = $this->merchant;
-                $where['card_code'] = $this->code;
-                $where['card_level'] = $this->new_level;
-
-                $data = $card->where($where)->select();
+		//获取新卡的色值
+		$table = D('MerchantCard');
+		$where['merchant'] = $this->merchant;
+		$where['code'] = $this->code;
+		$where['level'] = $this->new_level;
+		$data = $table->where($where)->select();
                 $new_image_url = $data[0]['card_temp_color'];
 
-                $where['card_level'] = $this->level;
-                $data = $card->where($where)->select();
-         
+		//设置新卡的信息
+		$table = D('UserCard');
+                $where_n['user'] = $this->user;
+                $where_n['merchant'] = $this->merchant;
+                $where_n['card_code'] = $this->code;
+                $where_n['card_level'] = $this->level;
+
                 $set['card_level'] = $this->new_level;
                 $set['card_temp_color'] = $new_image_url;
-                $result['result_code'] = $card->where($where)->save($set);
+                $result['result_code'] = $table->where($where_n)->save($set);
 		echo json_encode($result);
 
 	}
@@ -444,7 +455,8 @@ class CardController extends Controller
                 setTurnover($this->merchant,$this->sum);
 
                 //产生积分处理
-                setIntegral($this->user,$this->sum);
+                //setIntegral($this->user,$this->sum);
+		addIntegral($this->user,'升级消费','consum',$this->sum);
 
 
         }
@@ -516,14 +528,20 @@ class CardController extends Controller
 			$newRemain = addAsDouble($remain,$this->sum);
 			$set_auth['sum'] = $newRemain;
 			$result['result_code'] = $auth->where($where_auth)->save($set_auth);
-			echo json_encode($result);
+			//echo json_encode($result);
 		}
 		else
 		{
 			$record = array('merchant' => $this->merchant,'sum' => $this->sum);
 			$result['result_code'] = $auth->add($record);
-			echo json_encode($result);
+			//echo json_encode($result);
 		}
+
+		//同步卡市的数据
+		$where_cm = array(
+			'uuid' => $this->user, 'muid' => $this->merchant, 'card_level' => $this->level
+		);
+		setCardMarket($where_cm,$this->sum);
 	}
 
 	public function stateGet()

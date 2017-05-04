@@ -1,4 +1,77 @@
 <?php
+	
+	//同步卡市的数据
+	function setCardMarket($where,$sum)
+	{
+		$table = D('card_market');
+		$check = $table->where($where)->count();
+		
+		if($check > 0)
+		{
+			$remain = $table->where($where)->select()[0]['card_remain'];
+			$set['card_remain'] = redAsDouble($remain,$sum);
+			saveWithCheck($table,$where,$set);
+		}
+	}
+
+	//计算广告费用
+	function advertPay($type,$table,$para)
+	{
+		return 20;
+	}
+
+
+	//同步IM账号
+	function setImAccount($account,$type,$para)
+	{
+		$table = D('im_account');
+		$where['account'] = $account;
+		$set[$type] = $para;
+		saveWithCheck($table,$where,$set);
+	}
+
+	//处理送积分
+	function handleAward($uuid,$type)
+	{
+		$table = D('user');
+		$where['uuid'] = $uuid;
+		$check = $table->where($where)->select()[0][$type];
+
+		logIn($uuid.$type.$check);
+		if($check == '未设置')
+		{
+			addIntegral($uuid,'完善信息送积分','complete');
+		}
+	}
+
+	//送积分
+	function addIntegral($uuid,$tip,$type,$para = '1')
+	{
+		$sum = D('integral_scale')->select()[0][$type];
+		$sum = multiAsInt($sum,$para);
+
+		//增加积分
+		$user = M('user');
+                $where['uuid'] = $uuid;
+                $data = $user->where($where)->select();
+                $remain = $data[0]['integral'];
+
+                $newRemain = addAsInt($remain,$sum);
+
+                $set['integral'] = $newRemain;
+                $user->where($where)->save($set);
+
+
+		//添加积分记录
+                $datetime = currentTime();
+                $record = array(
+                        'uuid' => $uuid, 'type' => $tip, 'integral' => $sum, 'datetime' => $datetime
+                );
+                addWithCheck(D('mall_consume'),$record);
+
+		
+	}
+	
 	//获取平台参数
         function getSystemPara($date,$type)
         {
@@ -238,7 +311,35 @@
 			$data[$i]['discount'] = $card->where($where_c)->min('rule');
 			
 			//获取最大赠送额
-			$data[$i]['add'] = $card->where($where_c)->max('addition_sum');			
+			$data[$i]['add'] = $card->where($where_c)->max('addition_sum');
+
+			//是否包含优惠券
+			$table = D('merchant_coupon');
+			$where_cc['muid'] = $muid;
+			$where_cc['state'] = 'true';
+			$check = $table->where($where_cc)->count();
+			if($check > 0)
+			{
+				$data[$i]['coupon'] = 'yes';
+			}
+			else
+			{
+				$data[$i]['coupon'] = 'no';
+			}
+			
+			//是否上传视频
+			$table = D('merchant_video');
+			$where_v['merchant'] = $muid;
+			$where_v['state'] = 'true';
+			$check = $table->where($where_v)->select();		
+			if(count($check) > 0)
+			{
+				$data[$i]['video'] = $check[0]['video'];
+			}
+			else
+			{
+				$data[$i]['video'] = 'null';
+			}
 		}
 
 		return $data;
@@ -287,7 +388,14 @@
 		
 		//获取会员卡列表
                 $card = D('merchant_card');
-                $data['card_list'] = $card->where($where_s)->select();
+		$where_mc['merchant'] = $muid;
+		$where_mc['state'] = 'true';
+		$where_mc['display_state'] = 'on';
+                $data['card_list'] = $card->where($where_mc)->select();
+
+		//获取商品列表
+		$commodity = D('commodity');
+		$data['commodity_list'] = $commodity->where($where_s)->select();
 		
 		//获取商家详情
 		$info = D('merchant_info');

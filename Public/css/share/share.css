@@ -1,30 +1,28 @@
-*, *:before, *:after{
+*,
+*:before,
+*:after {
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
 }
 
-.inner, .nav-panel ul .nav-btn:after{
+.inner,
+.nav-panel ul .nav-btn:after {
 	content: "";
 	position: absolute;
 	top: 50%;
 	left: 50%;
 }
 
-html, body{
+html,
+body {
 	width: 100%;
 	height: 100%;
 	overflow: hidden;
 }
 
-@media (max-width: 767px){
-	body{
-		font-size: 70%;
-	}
-}
-
-.wrapper{
+.wrapper {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -38,7 +36,7 @@ html, body{
 	transform-style: preserve-3d;
 }
 
-.wrapper .page{
+.wrapper .page {
 	position: relative;
 	width: 100%;
 	height: 100%;
@@ -51,7 +49,7 @@ html, body{
 	will-change: transform;
 }
 
-.wrapper .page h2{
+.wrapper .page h2 {
 	color: #fff;
 	position: absolute;
 	top: 50%;
@@ -63,76 +61,71 @@ html, body{
 	font-size: 3em;
 }
 
-.wrapper .page.page1{
+.wrapper .page.page1 {
 	background-color: #fff;
-
 }
 
-.wrapper .page.page2{
+.wrapper .page.page2 {
 	background-color: #fff;
-
 }
 
-.wrapper .page.page3{
+.wrapper .page.page3 {
 	background-color: #fff;
-
 }
 
-.wrapper .page.page4{
+.wrapper .page.page4 {
 	background-color: #fff;
-
 }
 
-.wrapper.active-page1{
+.wrapper.active-page1 {
 	-webkit-transform: translateY(0%);
 	-ms-transform: translateY(0%);
 	transform: translateY(0%);
 }
 
-.wrapper.active-page1 .page.page1{
+.wrapper.active-page1 .page.page1 {
 	-webkit-transform: scale(1);
 	-ms-transform: scale(1);
 	transform: scale(1);
 }
 
-.wrapper.active-page2{
+.wrapper.active-page2 {
 	-webkit-transform: translateY(-100%);
 	-ms-transform: translateY(-100%);
 	transform: translateY(-100%);
 }
 
-.wrapper.active-page2 .page.page2{
+.wrapper.active-page2 .page.page2 {
 	-webkit-transform: scale(1);
 	-ms-transform: scale(1);
 	transform: scale(1);
 }
 
-.wrapper.active-page3{
+.wrapper.active-page3 {
 	-webkit-transform: translateY(-200%);
 	-ms-transform: translateY(-200%);
 	transform: translateY(-200%);
 }
 
-.wrapper.active-page3 .page.page3{
+.wrapper.active-page3 .page.page3 {
 	-webkit-transform: scale(1);
 	-ms-transform: scale(1);
 	transform: scale(1);
 }
 
-.wrapper.active-page4{
+.wrapper.active-page4 {
 	-webkit-transform: translateY(-300%);
 	-ms-transform: translateY(-300%);
 	transform: translateY(-300%);
 }
 
-.wrapper.active-page4 .page.page4{
+.wrapper.active-page4 .page.page4 {
 	-webkit-transform: scale(1);
 	-ms-transform: scale(1);
 	transform: scale(1);
 }
 
-
-.nav-panel{
+.nav-panel {
 	position: fixed;
 	top: 50%;
 	right: 1em;
@@ -145,23 +138,23 @@ html, body{
 	will-change: transform, opacity;
 }
 
-.nav-panel.invisible{
+.nav-panel.invisible {
 	opacity: 0;
 	-webkit-transform: translateY(-50%) scale(0.5);
 	-ms-transform: translateY(-50%) scale(0.5);
 	transform: translateY(-50%) scale(0.5);
 }
 
-.nav-panel ul{
+.nav-panel ul {
 	list-style-type: none;
 }
 
-.nav-panel ul .nav-btn{
+.nav-panel ul .nav-btn {
 	position: relative;
 	overflow: hidden;
-	width: 20px;
-	height: 20px;
-	margin-bottom: 30px;
+	width:0.08rem;
+	height:0.08rem;
+	margin-bottom:.1rem;
 	border: 1px solid #29f;
 	border-radius: 50%;
 	cursor: pointer;
@@ -170,7 +163,7 @@ html, body{
 	will-change: border-color, transform;
 }
 
-.nav-panel ul .nav-btn:after{
+.nav-panel ul .nav-btn:after {
 	width: 100%;
 	height: 100%;
 	border-radius: 50%;
@@ -184,28 +177,29 @@ html, body{
 	will-change: transform, opacity;
 }
 
-.nav-panel ul .nav-btn.active:after, .nav-panel ul .nav-btn:hover:after{
+.nav-panel ul .nav-btn.active:after,
+.nav-panel ul .nav-btn:hover:after {
 	-webkit-transform: translateX(-50%) translateY(-50%) scale(0.7);
 	-ms-transform: translateX(-50%) translateY(-50%) scale(0.7);
 	transform: translateX(-50%) translateY(-50%) scale(0.7);
 	opacity: 1;
 }
 
-.nav-panel ul .nav-btn:hover{
+.nav-panel ul .nav-btn:hover {
 	border-color: yellow;
 	-webkit-transform: scale(1.2);
 	-ms-transform: scale(1.2);
 	transform: scale(1.2);
 }
 
-.nav-panel ul .nav-btn:hover:after{
+.nav-panel ul .nav-btn:hover:after {
 	background-color: yellow;
 }
 
-.nav-panel .scroll-btn{
+.nav-panel .scroll-btn {
 	position: absolute;
 	left: 0;
-	width:25px;
+	width: 25px;
 	height: 25px;
 	border: 3px solid #34e3ff;
 	border-left: none;
@@ -218,129 +212,133 @@ html, body{
 	transition: border-color 0.3s;
 }
 
-.nav-panel .scroll-btn.up{
+.nav-panel .scroll-btn.up {
 	top: -1.6em;
 	-webkit-transform: rotate(-45deg);
 	-ms-transform: rotate(-45deg);
 	transform: rotate(-45deg);
-	display:none;
+	display: none;
 }
 
-.nav-panel .scroll-btn.down{
+.nav-panel .scroll-btn.down {
 	bottom: -1.2em;
 	-webkit-transform: rotate(135deg);
 	-ms-transform: rotate(135deg);
 	transform: rotate(135deg);
-display:none;
+	display: none;
 }
 
-.nav-panel .scroll-btn:hover{
+.nav-panel .scroll-btn:hover {
 	border-color: yellow;
 }
 
-#img{
-width:100%;
-height:100%;
+#img {
+	width: 100%;
+	height: 100%;
 }
 
-
-#bottomNav { 
-z-index:1200; position:fixed; 
-bottom:0; 
-left:0; 
-width:100%;
-height:12%; 
-_position:absolute;
-_top: expression_r(documentElement.scrollTop + documentElement.clientHeight-this.offsetHeight); 
-overflow:visible; 
-background:-webkit-gradient(linear, 0% 0%, 100% 0%,from(#a234d5), to(#d74059));/*¹È¸è*/ 
-float:left;
-opacity: 0.8; 
+#bottomNav {
+	z-index: 1200;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 12%;
+	_position: absolute;
+	_top: expression_r(documentElement.scrollTop + documentElement.clientHeight-this.offsetHeight);
+	overflow: visible;
+	background: -webkit-gradient(linear, 0% 0%, 100% 0%, from(#a234d5), to(#d74059));
+	/*ï¿½È¸ï¿½*/
+	float: left;
+	opacity: 0.8;
 }
 
-#bottom-left{
-float:left;
-height:100%;
-width:50%;
+#bottom-left {
+	float: left;
+	height: 100%;
+	width: 50%;
 }
 
-#bottom-right{
-float:left;
-height:100%;
-		width:50%;
+#bottom-right {
+	float: left;
+	height: 100%;
+	width: 50%;
 }
 
-#logo{
-width:auto;
-height:55%;
-margin-left:12%;
-margin-top:8%;
+#logo {
+	width: auto;
+	height: 55%;
+	margin-left: 12%;
+	margin-top: 8%;
 }
 
-#btn{
-font-family:"¿¬Ìå"; 
-font-size:32px;
-color:#e26666;	
-font-weight:bold;
-border-radius:10px;
-width:40%;
-height:50%;
-float:right;
-margin-top:10%;
-margin-right:12%;
-border: 3px solid #ededed;
-background:-webkit-gradient(linear, 0% 0%, 100% 0%,from(#fff), to(#fdfdfd));/*¹È¸è*/
+#btn {
+	font-family: "ï¿½ï¿½ï¿½ï¿½";
+	font-size: .13rem;
+	color: #e26666;
+	font-weight: bold;
+	line-height:200%;
+	border-radius: 5px;
+	width: 40%;
+	height: 50%;
+	float: right;
+	margin-top: 10%;
+	margin-right: 12%;
+	border: 3px solid #ededed;
+	background: -webkit-gradient(linear, 0% 0%, 100% 0%, from(#fff), to(#fdfdfd));
+	/*ï¿½È¸ï¿½*/
 }
 
 #topNav {
-		z-index:9; position:fixed;
-		top:0;
-		left:0;
-		width:100%;
-		height:15%;
-		_position:absolute;
-		_top: expression_r(documentElement.scrollTop + documentElement.clientHeight-this.offsetHeight);
-		overflow:visible;
-		background:-webkit-gradient(linear, 0% 0%, 100% 0%,from(#eee), to(#fff));/*¹È¸è*/
-		float:left;
-		opacity: 0.6;
+	z-index: 9;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 15%;
+	_position: absolute;
+	_top: expression_r(documentElement.scrollTop + documentElement.clientHeight-this.offsetHeight);
+	overflow: visible;
+	background: -webkit-gradient(linear, 0% 0%, 100% 0%, from(#eee), to(#fff));
+	/*ï¿½È¸ï¿½*/
+	float: left;
+	opacity: 0.6;
 }
 
-#top-img{
-		float:left;
-		height:100%;
-		width:45%;
+#top-img {
+	float: left;
+	height: 100%;
+	width: 45%;
 }
 
-#top-txt{
-		float:left;
-		height:100%;
-		width:55%;
-padding-top:50px;
+#top-txt {
+	float: left;
+	height: 100%;
+	width: 55%;
+	padding-top: .2rem;
 }
 
-#head-img{
-		width:120px;
-		height:120px;
-		margin-right:20px;
-		margin-top:30px;
-float:right;
--moz-border-radius: 60px;
-		-webkit-border-radius: 60px;
-		border-radius:60px;
+#head-img {
+	width: .48rem;
+	height: .48rem;
+	margin-right: .1rem;
+	margin-top: .12rem;
+	float: right;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
 }
 
-#name{
-
-font-family:"¿¬Ìå";
-		font-size:42px;
-		color:#e26666;
-font-weight:bold;
+#name {
+	font-family: "ï¿½ï¿½ï¿½ï¿½";
+	font-size: .16rem;
+	color: #e26666;
+	font-weight: bold;
 }
 
-#tip{
-font-family:"¿¬Ìå";
-		font-size:30px;
-		color:#111;
-font-weight:bold;
+#tip {
+	font-family: "ï¿½ï¿½ï¿½ï¿½";
+	font-size: .12rem;
+	color: #111;
+	font-weight: bold;
 }

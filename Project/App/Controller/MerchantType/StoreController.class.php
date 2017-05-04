@@ -114,20 +114,22 @@ class StoreController extends Controller
 		$where['merchant'] = $this->store;
 		$where['store'] = $this->merchant;
 
-		logInfo('muid'.$this->merchant_id);
-		logInfo('phone'.$this->merchant);
-		logInfo('store'.$this->store);
+		logIn('muid'.$this->merchant_id);
+		//logIn('phone'.$this->merchant);
+		//logIn('store'.$this->store);
 
 		if($this->state == 'access')
 		{
 			$set['state'] = 'access';
 			$set['store'] = $this->merchant_id;
-			$result['result_code'] = $store->where($where)->save($set);
+			$result['result_code'] = saveWithCheck($store,$where,$set);
 		}
 		else
 		{
 			$result['result_code'] = $store->where($where)->delete();
 		}
+
+
 		echo json_encode($result);
 	}
 	

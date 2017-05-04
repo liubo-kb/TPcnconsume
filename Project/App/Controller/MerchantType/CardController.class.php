@@ -42,6 +42,71 @@ class CardController extends Controller
 		$this->state = post('state');
 
 	}
+
+	public function addSeries()
+	{
+		$table = D('card_series');
+		$record = array(
+			"merchant" => $this->merchant, "type" => $this->type,
+			"id" => get_uuid("vipc_"),"name" => post('name'), "state" => "access"
+		);
+		$result['result_code'] = addWithCheck($table,$record);
+		echo json_encode($result);
+	}
+
+	public function getSeries()
+	{
+		$table = D('card_series');
+		$where['merchant'] = $this->merchant;
+		$where['type'] = $this->type;
+		$data = $table->where($where)->select();
+		echo json_encode($data);
+
+	}
+
+
+	public function turn()
+	{
+		$table = D('merchant_card');
+		$where['merchant'] = $this->merchant;
+		$where['code'] = $this->code;
+		$set['display_state'] = post('display_state');
+		$result['result_code'] = saveWithCheck($table,$where,$set);
+		echo json_encode($result);
+	}
+
+	
+	public function mod()
+	{
+		$table = D('merchant_card');
+                $where['merchant'] = $this->merchant;
+                $where['code'] = $this->code;
+
+		$set['level'] = $this->level;
+		$set['type'] = $this->type;
+                $set['card_temp_color'] = $this->color;
+		$set['content'] = $this->content;
+		$set['price'] = $this->price;
+                $set['rule'] = $this->rule;
+		$set['state'] = 'true';
+		$set['addition_sum'] = $this->addition;
+		$set['indate'] = $this->indate;
+                $set['display_state'] = 'null';
+
+		$result['result_code'] = saveWithCheck($table,$where,$set);
+		echo json_encode($result);
+		
+	}
+
+	public function del()
+	{
+		$table = D('merchant_card');
+                $where['merchant'] = $this->merchant;
+                $where['code'] = $this->code;
+		$result['result_code'] = $table->where($where)->delete();
+		echo json_encode($result);
+	}
+
 	public function add()
 	{
 		$card = D('merchant_card');
@@ -50,6 +115,7 @@ class CardController extends Controller
 			 'merchant' => $this->merchant,'code' => $this->code,'level' => $this->level,'type' => $this->type,
                          'card_temp_color' => $this->color,'content' => $this->content,'price' => $this->price,
 			 'rule' => $this->rule,'state' => 'true','addition_sum'=>$this->addition,'indate' => $this->indate,
+			'display_state' => 'null'
 			);
 		$result['result_code'] = $card->addWithCheck($record);
 		echo json_encode($result);
@@ -60,7 +126,8 @@ class CardController extends Controller
 		$where['merchant'] = $this->merchant;
 		//$where['merchant'] = "m_6d4e76ca11";	
 		$where['state'] = 'true';
-		
+		//$where['display_state']	 = 'on';
+	
 		$card = D('merchant_card');
 		$result = $card
 		->where($where)

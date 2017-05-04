@@ -5,7 +5,7 @@ class CardMarketController extends Controller
 {
 	public function get()
 	{
-		$page = post("page").",1";
+		$page = post("page").",10";
 		$where = $this->getWhere();
 		$table = D('card_market');
 		$data = $table
