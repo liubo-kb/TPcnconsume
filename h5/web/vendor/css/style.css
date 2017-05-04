@@ -204,10 +204,11 @@
 .info .imgInfo .may .mayInfo li{
 	width:100%;
 	display:flex;
+	justify-content: space-between;
 }
 
 .info .imgInfo .may .mayInfo .useCard{
-	width:72%;
+	width:78%;
 	display:flex;
 }
 
@@ -240,18 +241,15 @@
 }
 
 .info .imgInfo .may .mayInfo li .useCard .useCardInfo{
-	width:60%;
+	width:65%;
 }
 
 .info .imgInfo .may .mayInfo li .useCard .useCardInfo p{
 	width:100%;
-	white-space: nowrap;
-	overflow: hidden;
-	text-overflow: ellipsis;
 }
 
 .info .imgInfo .may .mayInfo li .maySay{
-	width:26%;
+	width:22%;
 	display:flex;
 	flex-direction:column;
 	justify-content: space-around;
@@ -282,9 +280,6 @@
 .info .manSay{
 	width:100%;
 	padding:0 .1rem;
-	display:flex;
-	flex-direction: column;
-	align-items: center;
 	border-top:.1rem solid #f0f0f0;
 }
 
@@ -421,8 +416,6 @@
 .kaBox{
 	width:100%;
 	background: #fff;
-	position:relative;
-	top:1rem;
 	padding-left: .1rem;
 	display:flex;
 	flex-direction: column;
@@ -456,6 +449,41 @@
 
 .kaBox .share{
 	border-bottom:1px solid #eaeaea;
+}
+
+
+.tab_default {
+	border-bottom: solid 1px #F2F2F2;
+	padding: 6px 0;
+}
+
+.tab_select {
+	border-bottom: solid 1px #3E89F5;
+	box-shadow: 0 -3px 8px #C1D3F0 inset;
+}
+
+.arrow-top {
+	position: absolute;
+	width: 0;
+	height: 0;
+	top: 20px;
+	border: 6px solid #3E89F5;
+	border-right-color: transparent;
+	border-left-color: transparent;
+	border-top-color: transparent;
+}
+
+.arrow-top:after {
+	content: '';
+	position: absolute;
+	width: 0;
+	height: 0;
+	border: 12px solid #fff;
+	right: -12px;
+	bottom: -13px;
+	border-right-color: transparent;
+	border-left-color: transparent;
+	border-top-color: transparent;
 }
 
 /*****************************************卡市详情页***********************************************/

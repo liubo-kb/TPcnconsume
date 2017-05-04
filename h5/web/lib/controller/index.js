@@ -100,7 +100,7 @@ module.controller('usernameCtrl', ['$scope', '$ionicActionSheet', function($scop
 
 //商铺详情页
 
-module.controller('factsCtrl',function($scope,$http){
+module.controller('factsCtrl',['$scope','$http','$ionicActionSheet', function($scope,$http,$ionicActionSheet){
 	
 	var add = window.location.hash;
 	console.log(add);
@@ -126,8 +126,48 @@ module.controller('factsCtrl',function($scope,$http){
   
     	$http.post(url, data, postCfg).success(function (response) {
     			$scope.storeInfo=response;
+    			$scope.str=$scope.storeInfo.store_number;
     			console.log($scope.storeInfo)
 		});
+		
+		$scope.show=function(str){
+		var hideSheet = $ionicActionSheet.show({
+			cancelOnStateChange: true,
+			cssClass: 'action_s',
+			titleText: '拨打电话',
+			buttons: [
+				{
+					text: $scope.str
+				}
+			],
+			cancelText: '',
+			cancel: function() {
+				// add cancel code..
+				return true;
+			},
+
+			destructiveText: '取消',
+			destructiveButtonClicked: function() {
+
+				var x;
+				var r = confirm("去意已决吗？");
+				if(r == true) {
+					x = "你按下了\"确定\"按钮!";
+					return true;
+				} else {
+					x = "你按下了\"取消\"按钮!";
+				}
+				document.getElementById("demo").innerHTML = x;
+
+			},
+
+			buttonClicked: function() {
+				return true;
+			}
+		});
+	}
+		
+		
 	}
 	
 	init();
@@ -148,19 +188,20 @@ module.controller('factsCtrl',function($scope,$http){
 			
   
     	$http.post(url, data, postCfg).success(function (response) {
-    			$scope.must=response;
-    			console.log($scope.must)
+    			$scope.godMust=response;
+    			console.log($scope.godMust)
 		});
 	}
 	
 	init2();
-		
 	
-});
+	
+	
+}]);
 
 
 
-module.controller('kashiCtrl',function($scope,$location,$http){
+module.controller('kashiCtrl',function($scope,$location,$http,$ionicSlideBoxDelegate){
 	$scope.keyword='';
 	var data={
     			store:$scope.keyword,
@@ -198,6 +239,16 @@ module.controller('kashiCtrl',function($scope,$location,$http){
     			console.log($scope.cardCengs);
 		});
 		
+		$scope.tabNames=['二手卡','蹭卡'];
+		$scope.slectIndex=0;
+		$scope.activeSlide=function(index){//点击时候触发
+		 $scope.slectIndex=index;
+		 $ionicSlideBoxDelegate.slide(index);
+		};
+		$scope.slideChanged=function(index){//滑动时候触发
+		 $scope.slectIndex=index;
+		};
+		$scope.pages=["templates/kashi/second.html","templates/kashi/ceng.html"];
 		
 	
 });

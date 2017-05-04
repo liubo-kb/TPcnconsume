@@ -56,7 +56,7 @@
 				<ion-scroll class='allSide' direction='x'>
 					<div class='sideBox'>
 						<div class='sideShow' ng-repeat="goods in storeInfo.commodity_list">
-							<img ng-src="../../Public/Uploads/addImage/{{goods.image_url}}"/>
+							<img ng-src="../../Public/Uploads/addImage/{{goods.image_url}}" alt='头像'/>
 							<div class='fontShow tce fn12'>
 								<p>{{goods.name}}</p>
 								<p class='corfd'>￥{{goods.price}}</p>
@@ -67,46 +67,7 @@
 						<p>本店暂无商品</p>
 					</div>-->
 				</ion-scroll>
-			</div>		
-					
-					
-					
-			<!--	<ion-slide-box active-slide="myActiveSlide" class='imgLike bort ptp1'>
-				    <ion-slide class='imgBody'>
-				      <div class="box payGoods" ng-repeat="goods in storeInfo.commodity_list">
-				      	<dl>
-							<dt>
-								<img ng-src="../../Public/Uploads/addImage/{{goods.image_url}}"/>
-							</dt>
-							<dd class='tce fn12'>
-								<p>{{goods.name}}</p>
-								<p class='lht2'>
-									<span class='corfd'>￥{{goods.price}}</span>
-								</p>
-							</dd>
-						</dl>
-				      </div>
-				    </ion-slide>
-				    <ion-slide>
-					   <div class="box payGoods" ng-repeat="goods in storeInfo.commodity_list">
-					      	<dl>
-								<dt>
-									<img ng-src="../../Public/Uploads/addImage/{{goods.image_url}}"/>
-								</dt>
-								<dd class='tce fn12'>
-									<p>{{goods.name}}</p>
-									<p class='lht2'>
-										<span class='corfd'>￥{{goods.price}}</span>
-									</p>
-								</dd>
-							</dl>
-					     </div>
-				    </ion-slide>
-				    <ion-slide>
-				      <div class="box pink"><h1>PINK</h1></div>
-				    </ion-slide>
-			  </ion-slide-box>
-			</div>-->
+			</div>	
 			<div class='shopInfo'>
 				<h3 class='tce fn16 lht2'>商家详情</h3>
 				<p class='fontInfo fn12 ptp1 pbm1'>{{storeInfo.intro==null ? '暂无详情，敬请期待' : storeInfo.intro}}</p>
@@ -128,32 +89,24 @@
 			</div>
 			<div class='manSay'>
 				<h3 class='tce fn16 lht2'>会员口碑</h3>
-				<div class='bort borb fn12 ptp1 pbm1'>
+				<div class='bort borb fn12 ptp1 pbm1' ng-repeat='say in storeInfo.evaluate_list'>
 					<h3 class='fn14 lht2'>
-						<img class='manImg' src="img/sx8.jpg"/>
-						<span class='plt1'>胡萝卜丢了兔子</span>
+						<img class='manImg' ng-src="../../Public/Uploads/addImage/{{say.card_image_url}}" alt='头像'/>
+						<span class='plt1'>{{say.nickname}}</span>
 					</h3>
-					<p class='ptp1'>商家服务态度不错，水平超高，会员卡走的九折。离住的地方近方便，还有小礼品赠送。总体而言很nice!!</p>
-				</div>
-				<div class='fn12 ptp1 pbm1'>
-					<h3 class='fn14 lht2'>
-						<img class='manImg' src="img/sx8.jpg"/>
-						<span class='plt1'>胡萝卜丢了兔子</span>
-					</h3>
-					<p class='ptp1'>商家服务态度不错，水平超高，会员卡走的九折。离住的地方近方便，还有小礼品赠送。总体而言很nice!!</p>
+					<p class='ptp1'>{{say.content}}</p>
 				</div>
 			</div>
-			
 			<div class='mayMust'>
 				<h3 class='tce fn16 lht2'>购买须知</h3>
 				<div class='mayMustInfo bort ptp1 pbm1'>
 					<h4 class='topStyle fn14 plt05'>使用时间：</h4>
-					<p class='fontMust fn12 ptp05 pbm05'>{{godMust.time}}</p>
+					<p class='fontMust fn12 ptp05 pbm05 plt1'>{{storeInfo.time}}</p>
 					<h4 class='topStyle fn14 plt05'>注意事项：</h4>
-					<p class='fontMust fn12 ptp05 pbm05'>{{storeInfo.notice}}</p>
+					<p class='fontMust fn12 ptp05 pbm05 plt1'>{{storeInfo.notice}}</p>
 					<h4 class='topStyle fn14 plt05'>商家电话：</h4>
-					<p class='fontMust fn12 ptp05 pbm05'>{{storeInfo.store_number==""? '暂无' : storeInfo.store_number}} (工作日 10:00-18:00)</p>
-					<div class="telStore tce fn16 mtp15 mbm1">联系商家</div>
+					<p class='fontMust fn12 ptp05 pbm05 plt1'>{{storeInfo.store_number==""? '暂无' : storeInfo.store_number}} (工作日 10:00-18:00)</p>
+					<div class="telStore tce fn16 mtp15 mbm1" ng-click='show({{storeInfo.store_number}})'>联系商家</div>
 				</div>
 			</div>
 		</div>
