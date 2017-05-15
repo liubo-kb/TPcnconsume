@@ -29,7 +29,10 @@ class MallController extends Controller
 		$table = D('mall_consume');
 		$uuid = post('uuid');
 		$where['uuid'] = $uuid;
-		$result = $table->where($where)->select();
+		$result = $table
+		->order("datetime desc")
+		->where($where)
+		->select();
 		echo json_encode($result);
 	}
 
@@ -41,6 +44,7 @@ class MallController extends Controller
                 $result = $table
 		->join('cn_mall_goods on cn_mall_goods.id = cn_mall_exchange.goods_id')
 		->where($where)
+		->order("datetime desc")
 		->select();
                 echo json_encode($result);
         }

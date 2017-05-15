@@ -2,6 +2,32 @@
 
 ini_set('date.timezone','Asia/Shanghai');
 
+
+function dateComp( $date1 , $date2 )
+{
+	$month1 = date("m",strtotime($date1));
+        $month2 = date("m",strtotime($date2));
+
+	$day1 = date("d",strtotime($date1));
+	$day2 = date("d",strtotime($date2));
+
+	$year1 = date("Y",strtotime($date1));
+	$year2 = date("Y",strtotime($date2));
+
+	$operate1 = mktime(0,0,0,$month1,$day1,$year1);
+	$operate2 = mktime(0,0,0,$month2,$day2,$year2);
+
+	if( $operate1 >= $operate2 )
+	{
+		return true;
+	}
+	else
+	{
+		return false;
+	}
+}
+
+
 function logIn( $content )
 {
 	$table = D('log');

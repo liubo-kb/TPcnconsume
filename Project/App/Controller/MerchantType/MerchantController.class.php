@@ -133,7 +133,7 @@ class MerchantController extends Controller
                                 'recommend'=>$muid,
                                 'type'=>'m',
                                 'sum'=>'0.00元',
-                                'state'=>'ONLINE'
+                                'state'=>'Auditing'
                         );
 
 	
@@ -218,7 +218,8 @@ class MerchantController extends Controller
                 $image = post('image_url');
 
                 $set = array(
-                        'store'=>post('store'), 'address'=>post('address'),  'state'=>'incomplete',
+                        'store'=>post('store'), 'address'=>post('address'),  'state'=>'incomplete','full_add' =>post('full_add'),
+			'company_name'=>post('company_name'), 'company_nature'=>post('company_nature'),
                         'image_url'=>post('image_url'),  'trade'=>post('trade'),'explain_lic'=>post('explain_lic'),
                         'house_contact'=>post('house_contact'),'longtitude'=>post('longtitude'),'latitude'=>post('latitude'),
 			'store_number' => post('store_number')

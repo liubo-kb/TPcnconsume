@@ -54,14 +54,20 @@ class EvaluateController extends Controller
 
 	public function get()
 	{
+		$page = post('index').",20";
+		
 		$evaluate = D('evaluate');
-		$where['merchant'] = $this->merchant;		
-		$data['avg'] = $evaluate->where($where)->avg('stars');	
-		$data['info'] = $evaluate
+
+		$where['merchant'] = $this->merchant;			
+
+		$data = $evaluate
 		->join('cn_user ON cn_user.uuid = cn_evaluate.user')
-		->field('cn_evaluate.*,nickname')
+		->field('cn_evaluate.*,nickname,headImage')
 		->where($where)
+		->page($page)
+		->order('cn_evaluate.datetime desc')
 		->select();
+
 		echo json_encode($data);
 	}
 

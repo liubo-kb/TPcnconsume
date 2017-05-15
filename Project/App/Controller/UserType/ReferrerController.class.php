@@ -35,7 +35,7 @@ class ReferrerController extends Controller
 		$where['referrer'] = $this->uuid;
 		$data = $referrer
 		->where($where)
-		->field('recommend,type,sum')
+		->field('recommend,type,sum,cn_referrer.state')
 		->select();
 		
 		

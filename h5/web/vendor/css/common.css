@@ -70,6 +70,7 @@ ul , ol , menu{
 }
 
 
+
 /*字体尺寸*/
 
 .fn12{
@@ -110,6 +111,13 @@ ul , ol , menu{
 
 /*margin*/
 
+.mlt1{
+	margin-left:.1rem;
+}
+
+.mtp05{
+	margin-top:5px;
+}
 
 .mtp1{
 	margin-top:.1rem;
@@ -118,6 +126,15 @@ ul , ol , menu{
 .mtp15{
 	margin-top:.15rem;
 }
+
+.mtp2{
+	margin-top:.2rem;
+}
+
+.mtp5{
+	margin-top:.5rem;
+}
+
 
 .mbm1{
 	margin-bottom:.1rem;
@@ -159,7 +176,9 @@ ul , ol , menu{
 	background: #000;
 }
 
-
+.bg38{
+	background:#387ef5;
+}
 
 /*color*/
 
@@ -254,9 +273,6 @@ ul , ol , menu{
 
 
 
-
-
-
 /*padding*/
 
 .ptp05{
@@ -300,6 +316,10 @@ ul , ol , menu{
 	padding-left:.3rem;
 }
 
+.plt5{
+	padding-left:.5rem;
+}
+ 
 .prt1{
 	padding-right:.1rem;
 }

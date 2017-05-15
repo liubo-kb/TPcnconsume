@@ -125,6 +125,7 @@
 
 .info .imgInfo  .imgTop{
 	width:100%;
+	height:2rem;
 	padding:0 .1rem;
 	background: #f0f0f0;
 	
@@ -133,6 +134,7 @@
 .info .imgInfo .imgTop img{
 	display:block;
 	width:100%;
+	height:100%;
 }
 
 .info .imgInfo .one{
@@ -264,6 +266,19 @@
 	padding:0 .1rem;
 }
 
+.storeHead{
+	width:100%;
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.stor{
+	display:block;
+	width:100%;
+	text-align: center;
+}
+
 .info .shopInfo .fontInfo{
 	border-top:1px solid #eaeaea;
 	border-bottom:1px solid #eaeaea;
@@ -273,6 +288,7 @@
 	display:flex;
 	justify-content: space-between;
 }
+
 
 
 /*会员口碑*/
@@ -411,7 +427,162 @@
 	background:#e26666;
 }
 
+/*******************************************商家详情*************************************/
+.storeBox{
+	width:100%;
+}
+
+.storeBox .imgInfo{
+	width:100%;
+}
+
+.storeBox .imgInfo .imgOne{
+	width:100%;
+	height:2rem;
+	border-bottom:1px solid #ccc;
+	padding-bottom:5px;
+	position:relative;
+}
+
+.storeBox .imgInfo .imgOne img{
+	width:100%;
+	height:100%;
+}
+
+.bort5{
+	padding-top:5px;
+	
+}
+
+.imgOne .fontBef{
+	position:absolute;
+	padding-left:.1rem;
+	bottom:5px;
+	width:100%;
+	height:.2rem;
+	line-height:.2rem;
+	background:#000;
+	opacity: .6;
+	color:#fff;
+}
+
+.imgTwo{
+	width:100%;
+	height:1.5rem;
+	display:flex;
+	padding:5px;
+}
+
+.imgTwo .fontMessage{
+	flex:5;
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.imgTwo img{
+	flex:5;
+	height:100%;
+	margin-left: 5px;
+}
+/****************************************商铺购买*****************************************/
+
+.storeGoods{
+	border-top:.1rem solid #f0f0f0;
+	border-bottom:1px solid #ccc;
+	line-height:.44rem;
+}
+.cardList{
+	width:100%;
+	display:flex;
+	padding:.1rem .1rem .1rem 0;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom:1px solid #ccc;
+}
+
+.useCard{
+	display:flex;
+	
+}
+
+.checkUnit{
+	display:flex;
+	align-items: center;
+}
+
+.useCard .cardImg{
+	width:.8rem;
+	height:.5rem;
+	margin:0 .1rem;
+}
+
+.useCard .cardImg .cardShow{
+	width:100%;
+	height:80%;
+	border-radius:5px 5px 0 0;
+	text-align: center;
+	line-height:.4rem;
+}
+
+.useCard .cardImg .cardf{
+	width:100%;
+	height:20%;
+	border-radius:0 0 5px 5px;
+	background: #F0EFF5;
+	border-bottom:#ccc;
+}
+
+
+.valueStyle{
+	width:100%;
+	border-top:.1rem solid #f0f0f0;
+	line-height:.4rem;
+}
+
+
+
+.valueHead{
+	border-bottom:1px solid #ccc;
+}
+
+.pageStyle{
+	display:flex;
+	justify-content: space-between;
+	border-bottom:1px solid #ccc;
+}
+
+.payPage{
+	flex:3;
+	display:flex;
+	align-items: center;
+}
+
+.payCont{
+	flex:6;
+	display:flex;
+	justify-content:flex-end;
+	align-items: center;
+}
+
 /***************************************卡市*******************************************/
+
+.viewh{
+	width:100%;
+	height:100%;
+	overflow-y:auto;
+	padding-bottom:150px;
+}
+
+
+.boxShow{
+	width:100%;
+	background: #fff;
+	position:relative;
+	top:1rem;
+	display:flex;
+	flex-direction: column;
+}
 
 .kaBox{
 	width:100%;
@@ -421,6 +592,8 @@
 	flex-direction: column;
 	border-top:.1rem solid #f0f0f0;
 }
+
+
 
 .kaBox .manInfo{
 	padding-top:.1rem;
@@ -486,14 +659,6 @@
 	border-top-color: transparent;
 }
 
-/*****************************************卡市详情页***********************************************/
-
-.Kbox .has-header{
-	top:-56px;
-}
-
-
-
 
 
 /**********************************************我的页面********************************************/
@@ -513,7 +678,9 @@
 	line-height:.44rem;
 }
 
-
+.myShop .bar{
+	padding:0;
+}
 
 .myShop .has-header{
 	top:.8rem;
@@ -523,6 +690,9 @@
 	padding-right:0;
 }
 
+.newMain{
+	position:relative;
+}
 
 .main .myShow1{
 	width:100%;
@@ -578,14 +748,49 @@
 	line-height:.44rem;
 }
 
-
-.myBox .last{
-	border-top:.1rem solid #f0f0f0;
-	border-bottom:.1rem solid #f0f0f0;
+.itemName{
+	display:inline-block;
+	width:.8rem;
+	text-align:left;
 }
 .myChu{
 	line-height:.44rem;
+	display:block;
+	width:100%;
+	text-align:center;
 }
+
+/*********************************************设置资料*********************************************/
+
+.setItem{
+	width:100%;
+	height:.5rem;
+	padding:0 .1rem;
+	display:flex;
+	margin-top:5px;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.setLeft{
+	flex:3;
+	text-align: center;
+}
+
+.sideFont{
+	flex:6;
+}
+
+.setWork .item-radio .radio-icon{
+	color:#42AAFC;
+	padding:6px 20px;
+}
+
+.setWork  .item-radio .item-content {
+	padding:10px 49px 10px 16px;
+	font-size:.12rem;
+}
+
 /*****************************************我的会员卡*******************************************/
 
 .cardBox{
@@ -649,6 +854,10 @@
 
 /*********************************************我要续卡*************************************/
 
+/*.headh{
+	width:100%;
+	height:5rem;
+}*/
 
 .xuInfo{
 	width:100%;
@@ -821,4 +1030,156 @@
 
 .couPon .couPonInfo .couPonSide .couPonStyle{
 	font-size:1.5rem;
+}
+
+/********************************************登录页面**************************************/
+
+.info .setPhone{
+	width:100%;
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.setCode,.setPassWord,#checkCode,#passWord,#reWord{
+	width:100%;
+}
+
+.setPhone #phone{
+	flex:6;
+}
+
+.info .getCode{
+	flex:3;
+	background: #e26666;
+	color:#fff;
+	text-align:center;
+	padding:2px;
+	border-radius:.1rem;
+}
+
+.checkCode{
+	width:100%;
+}
+
+.passWord{
+	width:100%;
+}
+
+.entryBtn{
+	width:100%;
+	display:flex;
+	justify-content: center;
+}
+
+#entry{
+	width:65%;
+	color:#fff;
+	background: #e26666;
+	border-radius:.12rem;
+	border:none;
+	padding:5px;
+}
+
+.last{
+	width:100%;
+	display:flex;
+	justify-content:space-between;
+	align-items: center;
+	padding:0 .6rem;
+}
+
+.lastPass{
+	display:flex;
+	align-items: center;
+}
+
+.inputStyle{
+	width:100%;
+	border-radius:2px;
+	display:block;
+	text-indent:.1rem;
+	border-radius:5px;
+}
+
+.inputStyle [placeholder] { font-family: 'Microsoft yahei'; }
+::-moz-placeholder {
+    color: mediumvioletred;
+    text-indent: 5px; /* 没有用 */
+    opacity: 1!important;
+}
+:-ms-input-placeholder {
+    color: mediumvioletred;
+    text-indent: 5px;
+}
+::-webkit-input-placeholder {
+    color: mediumvioletred;
+    text-indent: 5px;
+}
+
+.lastInfo{
+	width:100%;
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.lastInfo .checkMess{
+	width:36%;
+	border-radius:5px;
+}
+
+.lastInfo .getMessCode{
+	width:60%;
+	color:#fff;
+	padding:5px;
+	border-radius:5px;
+	background: #009689;
+}
+
+.nextStep{
+	width:100%;
+	background: #404040;
+	color:#fff;
+	font-weight:bold;
+	margin-top:.1rem;
+	padding:5px;
+	text-align: center;
+}
+
+.fontPass{
+	display:block;
+	width:100%;
+}
+/*****************************************修改密码*************************************/
+
+.setPass .checkbox{
+	padding:.12rem 7px;
+}
+
+
+.setPass .checkbox-icon{
+	position: relative;
+	width:.16rem;
+	height:.16rem;
+}
+
+.setPass .checkbox-icon:after{
+	position:absolute;
+	top:16%;
+	left:15%;
+}
+
+.setPass .item{
+	display:block;
+	width:100%;
+	height:.4rem;
+	display:flex;
+	background: #f0eff5;
+	border:none;
+	align-items: center;
+}
+
+.setPass label.item{
+	padding:.1rem .5rem;
 }

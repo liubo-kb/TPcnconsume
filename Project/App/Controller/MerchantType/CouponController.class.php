@@ -41,6 +41,10 @@ class CouponController extends Controller
 		{
 			$where['cn_merchant_coupon.muid'] = $muid;
 		}
+		if($uuid != 'null')
+		{
+			$where['date_end'] = array("egt",currentDate());
+		}
 		$where['cn_merchant_coupon.state'] = 'true';
 		$table = D('merchant_coupon');
 		
@@ -63,7 +67,10 @@ class CouponController extends Controller
 				$where_tmp['muid'] = $muid_tmp;
 				$where_tmp['coupon_id'] = $coupon_id_tmp;
 				$where_tmp['uuid'] = $uuid;
-				$check = D('user_coupon')->where($where_tmp)->count();
+				$check = D('user_coupon')
+				->where($where_tmp)
+				->count();
+
 				if($check != 0 )
 				{
 					$result[$i]['received'] = 'true';
@@ -77,11 +84,20 @@ class CouponController extends Controller
 		else
 		{
 			for($i=0; $i<count($result); $i++)
-                        {    
-                           $result[$i]['received'] = 'false';       
-                        }
+                	{
+                        	if( dateComp( $result[$i]['date_end'], currentTime() ) )
+                        	{
+                                	$result[$i]['validate'] = "true";
+                        	}
+                        	else
+                        	{
+                                	$result[$i]['validate'] = "false";
+                        	}
+               	 	}
 
 		}
+
+
 
 		echo json_encode($result);
 		
@@ -134,6 +150,18 @@ class CouponController extends Controller
 		->where($where)
 		->field('cn_merchant_coupon.*,cn_user_coupon.uuid,store,image_url')
 		->select();
+
+		for($i=0; $i<count($result); $i++)
+		{
+			if( dateComp( $result[$i]['date_end'], currentTime() ) )
+			{
+				$result[$i]['validate'] = "true";
+			}
+			else
+			{
+				$result[$i]['validate'] = "false";
+			}
+		}
 
 		echo json_encode($result);
 	}	

@@ -24,33 +24,43 @@ class MainController extends Controller
 		$where['muid'] = $muid;
 		$set['state'] = 'true';
 		$result = setWithCheck($table,$where,$set);
-		echo $result;
+		//echo $result;
 		
 		$table = D("referrer");
 		$where_r['recommend'] = $muid;
 		$where_r['type'] = "m";
 		$set['state'] = "ONLINE";
 		$result = setWithCheck($table,$where_r,$set);
+
+
 		$referrer_uuid = $table->where($where_r)->select()[0]['referrer'];
+	
 		
 
 		//检测用户当前级别
                 checkUserLevel($referrer_uuid);
-                                  
+               
+		  
+		
+	                 
                //处理推荐红包
-               $sum = getSystemPara($datetime,'reward_referrer')['merchant']; //获取系统推荐政策
+               $sum = getSystemPara(currentTime(),'reward_referrer')['merchant']; //获取系统推荐政策
                setRedPacket($referrer_uuid,$sum);
-
+		
+	
+		
                //更新推荐收入
                setReferrerSum($referrer_uuid,'u',$sum);
-
+		
+			
                //设置推荐收入记录
-               $record = array('datetime'=>$datetime,'tip' => '推荐商户奖励', 'sum' => $sum,'type' => 'm', 'id' => $referrer_uuid);
+               $record = array('datetime'=>currentTime(),'tip' => '推荐商户奖励', 'sum' => $sum,'type' => 'm', 'id' => $referrer_uuid);
                setIncomeRecord($record);
 
                //处理送积分
                addIntegral($referrer_uuid,'推荐商户','ref_merchant');
-
+		
+		
 
 	}
 

@@ -69,7 +69,11 @@
 				</ion-scroll>
 			</div>	
 			<div class='shopInfo'>
-				<h3 class='tce fn16 lht2'>商家详情</h3>
+				<div class='storeHead tce'>
+					<a class='stor fn16 lht2' href='#/storeInfo'>商家详情</a>
+					<i class="icon ion-ios-arrow-right cord7 prt1"></i>
+				</div>
+				
 				<p class='fontInfo fn12 ptp1 pbm1'>{{storeInfo.intro==null ? '暂无详情，敬请期待' : storeInfo.intro}}</p>
 				<!--JY造型2008年4月在青岛成立，两位有相同梦想的人师从(VIDALL SAAAOONO)技术总监两年之久。经过不懈努力和敏锐的时尚理念。将JY打造成美发行业一线品牌。-->
 				<div class='shopBao fn12 lht36'>
@@ -112,7 +116,7 @@
 		</div>
 	</ion-content>
 	<ion-footer-bar class='shopCar'>
-			<a class='addCar tce fn16' href="####">立即收藏</a>
-			<a class='mayGoods tce fn16' href="###">立即购买</a>
+			<div class='addCar tce fn16' href="###" ng-click='showPopup()'>立即收藏</div>
+			<a class='mayGoods tce fn16' href="#/goods">立即购买</a>
 	</ion-footer-bar>
 </ion-view>

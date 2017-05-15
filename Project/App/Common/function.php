@@ -36,12 +36,18 @@
 		$table = D('user');
 		$where['uuid'] = $uuid;
 		$check = $table->where($where)->select()[0][$type];
+		$flag = "false";		
 
-		logIn($uuid.$type.$check);
+		//logIn($uuid.$type.$check);
 		if($check == '未设置')
 		{
+			$flag = "20";
 			addIntegral($uuid,'完善信息送积分','complete');
 		}
+
+		return $flag;
+
+	
 	}
 
 	//送积分
@@ -298,8 +304,15 @@
 			//获取评星
 			$evaluate = D('evaluate');
 			$where_s['merchant'] = $muid;
-			$data[$i]['stars'] = $evaluate->where($where_s)->avg('stars');
+
+			$count = $evaluate->where($where_s)->count();
+			$sum = $evaluate->where($where_s)->sum('stars');
+			$stars = addAsInt($sum,'5') / ($count + 1) ;
 			
+			//$data[$i]['stars'] = $evaluate->where($where_s)->avg('stars');
+
+			$data[$i]['stars'] = $stars;			
+
 			//获取办卡数量
 			$card = D('user_card');
 			$where_c['merchant'] = $muid;
@@ -368,8 +381,14 @@
 		$where_s['merchant'] = $muid;
 
                 //获取评星
-                $evaluate = D('evaluate');
-                $data['stars'] = $evaluate->where($where_s)->avg('stars');
+		$evaluate = D('evaluate');
+		$where_s['merchant'] = $muid;
+
+		$count = $evaluate->where($where_s)->count();
+		$sum = $evaluate->where($where_s)->sum('stars');
+		$stars = addAsInt($sum,'5') / ($count + 1) ;
+
+		$data['stars'] = $stars;
 
 		//获取评论数量
 		$data['evaluate_num'] = $evaluate->where($where_s)->count();
@@ -379,6 +398,7 @@
 		->join('cn_user on cn_user.uuid = cn_evaluate.user')
 		->field('cn_evaluate.*,nickname,headImage')
 		->where($where_s)
+		->order('cn_evaluate.datetime desc')
 		->page('1,2')
 		->select();
 

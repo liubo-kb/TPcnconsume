@@ -1,70 +1,25 @@
-<!--<ion-view view-title='二手卡'>
-	<div ng-repeat='card in cardSeconds'>
-		<a class="kaBox" href='#/kashiInfo/{{card.muid}}'>
+<ion-view view-title='二手卡'>
+	<div class='boxShow' ng-repeat='cards in cardSeconds'>
+		<a class="kaBox" href='#/kashiInfo/{{cards.muid}}'>
 			<div class='manInfo'>
 				<div class='manOne'>
-					<img ng-src="../../Public/Uploads/addImage/{{headimage}}/>
+					<img ng-src="../../Public/Uploads/headImage/{{cards.headimage}}"/>
 					<span class='manDate plt1'>
-						<b class='sman'>{{card.nickname}}</b>
-						<b class='sdate'>{{card.datetime}}</b>
+						<b class='sman'>{{cards.nickname}}</b>
+						<b class='sdate'>{{cards.datetime}}</b>
 					</span>
 				</div>
 				<div class='manTwo'>
-					<span class='price core6 prt2'>￥ {{card.card_remain}}</span>
+					<span class='price core6 prt2'>￥ {{cards.card_remain}}</span>
 				</div>
 			</div>
-			<div class='store cor00 ptp1'>{{card.store}}</div>
+			<div class='store cor00 ptp1'>{{cards.store}}</div>
 			<div class='share fn12 prt1 pbm1 ptp1'>
-			【分享】现有{{card.store}}{{card.card_remain}}元{{card.card_level}}{{card.card_type}}一张({{card.rate}}折卡)，需要的朋友尽快下手，手续费({{card.rule/10}}%)
+			【分享】现有{{cards.store}}{{cards.card_remain}}元{{cards.card_level}}{{cards.card_type}}一张({{cards.rate}}折卡)，需要的朋友尽快下手，手续费({{cards.rule/10}}%)
 			</div>
 			<div class='sadd fn12 cor7c lht2'>
-				{{card.address}}
+				{{cards.address}}
 			</div>
 		</a>
 	</div>
-</ion-view>-->
-	
-<ion-view>
-	<a class="kaBox" href='#/kashiInfo/1'>
-		<div class='manInfo'>
-			<div class='manOne'>
-				<img src="img/sx19.jpg"/>
-				<span class='manDate plt1'>
-					<b class='sman'>答案</b>
-					<b class='sdate'>2017-04-06</b>
-				</span>
-			</div>
-			<div class='manTwo'>
-				<span class='price core6 prt2'>￥91</span>
-			</div>
-		</div>
-		<div class='store cor00 ptp1'>商消乐</div>
-		<div class='share fn12 prt1 pbm1 ptp1'>
-			【分享】现有商消乐91元普卡储值卡一张(9折卡)，需要的朋友尽快下手，手续费(3%)
-		</div>
-		<div class='sadd fn12 cor7c lht2'>
-			来自陕西省西安市雁塔区鱼化寨街道
-		</div>
-	</a>
-	<a class="kaBox" href='#/kashiInfo/2'>
-		<div class='manInfo'>
-			<div class='manOne'>
-				<img src="img/sx20.jpg"/>
-				<span class='manDate plt1'>
-					<b class='sman'>张少雄</b>
-					<b class='sdate'>2017-04-06</b>
-				</span>
-			</div>
-			<div class='manTwo'>
-				<span class='price core6 prt2'>￥91</span>
-			</div>
-		</div>
-		<div class='store cor00 ptp1'>商消乐</div>
-		<div class='share fn12 prt1 pbm1 ptp1'>
-			【分享】现有商消乐91元普卡储值卡一张(9折卡)，需要的朋友尽快下手，手续费(3%)
-		</div>
-		<div class='sadd fn12 cor7c lht2'>
-			来自陕西省西安市雁塔区鱼化寨街道
-		</div>
-	</a>
 </ion-view>

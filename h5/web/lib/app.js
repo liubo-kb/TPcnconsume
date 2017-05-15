@@ -1,4 +1,4 @@
-var app=angular.module('ionicApp', ['ionic','app.controllers'])
+var app=angular.module('ionicApp', ['ionic','app.controllers','app.services'])
 
 	app.run(function($ionicPlatform) {
             $ionicPlatform.ready(function() {
@@ -39,42 +39,78 @@ var app=angular.module('ionicApp', ['ionic','app.controllers'])
             }
           }
         })
-       
-        .state('kashi.second',{
-        	url: "/second",
+        .state('tabs.myshow', {
+          url: "/myshow",
           views: {
-            'second': {
-              templateUrl: "templates/kashi/second.html"
+            'myshow-tab': {
+              templateUrl: "templates/myshow/index.html",
+              controller:'myshowCtrl'
             }
           }
         })
-        
-        .state('kashi.ceng',{
-        	url: "/ceng",
-          views: {
-            'ceng': {
-              templateUrl: "templates/kashi/ceng.html"
-            }
-          }
-        })
-        
         .state('facts', {
           url: "/facts/:id",
           templateUrl: "templates/home/facts.html",
           controller:'factsCtrl'
         })
         
+        .state('storeInfo', {
+          url: "/storeInfo",
+          templateUrl: "templates/home/storeInfo.html"
+        })
+        
+        .state('goods',{
+        	url:'/goods',
+        	templateUrl:'templates/home/goods.html'
+        	
+        })
+       
         .state('kashiInfo', {
           url: "/kashiInfo/:id",
           templateUrl: "templates/kashi/kashiInfo.html",
           controller:'kashiInfoCtrl'
         })
       	
-      	.state('username',{
-      		url:"/username",
-      		templateUrl:"templates/myshow/username.html",
-      		controller:'usernameCtrl'
+      	.state('user',{
+      		url:"/user",
+      		templateUrl:"templates/myshow/user/index.html",
+      		controller:'userCtrl'
       	})
+      	
+      	.state('setuser',{
+      		url:"/setuser",
+      		templateUrl:"templates/myshow/user/setuser.html",
+      		controller:'setUserCtrl'
+      	})
+      	
+      	.state('setphone',{
+      		url:"/setphone",
+      		templateUrl:"templates/myshow/user/setphone.html",
+      		controller:'setPhoneCtrl'
+      	})
+      	
+      	.state('work',{
+      		url:"/work",
+      		templateUrl:"templates/myshow/user/work.html",
+      		controller:'workCtrl'
+      	})
+      	
+      	.state('setpass',{
+      		url:"/setpass",
+      		templateUrl:"templates/myshow/user/setpass.html",
+      		controller:'setPassCtrl'
+      	})
+      	.state('denglu',{
+      		url:"/denglu",
+      		templateUrl:"templates/denglu/index.html",
+      		controller:'entryCtrl'
+      	})
+      	 
+        .state('zhuce',{
+        	url:'/zhuce',
+        	templateUrl:'templates/zhuce/index.html'
+        })
+               
        
        //我的会员卡
        	.state('huiyuanka',{
@@ -199,16 +235,8 @@ var app=angular.module('ionicApp', ['ionic','app.controllers'])
       	.state('myGood',{
        		url:"/myGood",
        		templateUrl:"templates/myshow/myGood.html"
-       	})
+       });
        
-        .state('tabs.myshow', {
-          url: "/myshow",
-          views: {
-            'myshow-tab': {
-              templateUrl: "templates/myshow/index.html"
-            }
-          }
-        });
        $urlRouterProvider.otherwise("/tab/home");
 
     })

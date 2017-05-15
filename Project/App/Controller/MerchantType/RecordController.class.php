@@ -210,6 +210,7 @@ class RecordController extends Controller
 		->join("cn_user ON cn_user.uuid = cn_$table.user ")
 		->field("cn_$table.*,cn_user.phone,headImage")
 		->page($page)
+		->order("cn_".$table.".datetime desc")
 		->where($where)	
 		->select();
 		

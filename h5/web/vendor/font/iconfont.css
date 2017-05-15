@@ -1,10 +1,10 @@
 
 @font-face {font-family: "iconfont";
-  src: url('iconfont.eot?t=1493277209009'); /* IE9*/
-  src: url('iconfont.eot?t=1493277209009#iefix') format('embedded-opentype'), /* IE6-IE8 */
-  url('iconfont.woff?t=1493277209009') format('woff'), /* chrome, firefox */
-  url('iconfont.ttf?t=1493277209009') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
-  url('iconfont.svg?t=1493277209009#iconfont') format('svg'); /* iOS 4.1- */
+  src: url('iconfont.eot?t=1494233632160'); /* IE9*/
+  src: url('iconfont.eot?t=1494233632160#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('iconfont.woff?t=1494233632160') format('woff'), /* chrome, firefox */
+  url('iconfont.ttf?t=1494233632160') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('iconfont.svg?t=1494233632160#iconfont') format('svg'); /* iOS 4.1- */
 }
 
 .iconfont {
@@ -56,6 +56,8 @@
 .icon-weibiaoti2:before { content: "\e622"; }
 
 .icon-icon-oc-wallet:before { content: "\e60f"; }
+
+.icon-dianpu:before { content: "\e602"; }
 
 .icon-shouyeshouye:before { content: "\e633"; }
 

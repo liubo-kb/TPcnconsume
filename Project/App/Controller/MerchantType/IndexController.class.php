@@ -5,8 +5,16 @@ class IndexController extends Controller
 {
 	public function index()
 	{
-		echo '商户端控制器--索引';
-		$year = date('Y',time());
-		$date_start = $year.""
-	}	
+		$date1 = "2017-05-01";
+                $date2 = "2017-05-02";
+	
+		if ( dateComp($date1,$date2) )
+		{
+			echo "true";
+		}
+		else
+		{
+			echo "false";
+		}
+	}
 }

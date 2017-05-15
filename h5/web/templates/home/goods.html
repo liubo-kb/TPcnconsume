@@ -1,0 +1,88 @@
+<ion-view>
+	<ion-header-bar class="bge2" align-title="center">
+	    <div class="buttons">
+	        <button class="button bge2 corf" ng-click="back()">
+	            <i class="icon ion-chevron-left"></i>
+	        </button>
+	    </div>
+    	<h1 class="title corf">结 算</h1>
+	</ion-header-bar>
+	<ion-content class='bgf0'>
+		<div class='bgff'>
+			<p class='storeGoods plt1'>
+				<i class="iconfont core7 fn12">&#xe602;</i>
+				<span class='fn16'>商消乐</span>
+			</p>
+			<ul>
+				<li class='cardList mlt1'>
+					<div class='useCard'>
+						<div class='checkUnit'><input type="radio"/></div>
+			   			<div class='cardImg'>
+			   				<p class='cardShow' style='background:#E6B500; color:#fff;'>
+			   					<span class='fn20'>VIP</span><span class='fn12'>普卡</span>
+			   				</p>
+			   				<p class='cardf'></p>
+			   			</div>
+			   			<div class='useCardInfo'>	
+				   			<p class='cor3a'>测试卡</p>
+			   			</div>
+			   		</div>
+			   		<div class='maySay plt3 prt1'>
+				   		<p class='fn14 corfd'>￥1000</p>
+			   		</div>	
+				</li>
+			</ul>
+			<div class='trt prt1 lht36'>
+				合计：￥1000
+			</div>
+		</div>
+		<div class='valueStyle bgff'>
+			<p class='valueHead plt1'>优惠方式</p>
+			<ul>
+				<li class='pageStyle prt1 mlt1'>
+					<div class='payPage'>
+						<input type="radio" />
+						<p class='plt1'>使用红包</p>
+					</div>
+					<div class='payCont'>
+						<p class='fn12'>可用红包抵用10.00元现金</p>
+						<i class="icon ion-ios-arrow-right cord7 plt1"></i>
+					</div>
+				</li>
+				<li class='pageStyle plt1 prt1'>
+					<div class='payPage'>
+						<input type="radio" />
+						<p class='plt1'>使用代金券</p>
+					</div>
+					<div class='payCont'>
+						<p class='fn12'>可用红包抵用10.00元现金</p>
+						<i class="icon ion-ios-arrow-right cord7 plt1"></i>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<div class='valueStyle bgff'>
+			<p class='valueHead plt1'>支付方式</p>
+				<ul class='myPay mtp1'>
+					<li class='payStyle  bgff plt2 prt2'>
+						<div>
+							<i class='iconfont icon-zhifubao'></i>
+							<span class='plt1'>支付宝支付</span>
+						</div>
+						<input type="radio" name='pay'/>
+					</li>
+					<li class='payStyle bgff plt2 prt2'>
+						<div>
+							<i class='iconfont icon-yinlianzhifu'></i>
+							<span class='plt1'>银联支付</span>
+						</div>
+						<input type="radio" name='pay'/>
+					</li>
+				</ul>
+		</div>
+	</ion-content>
+	<ion-footer-bar class='row'>
+		<div class='col-80 trt prt1 lht36'>实付款：1000.00</div>
+		<button class='button col-20 bge2 corf'>结 算</button>
+	</ion-footer-bar>
+</ion-view>

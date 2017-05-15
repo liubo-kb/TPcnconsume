@@ -40,7 +40,10 @@ class UserController extends Controller
 	public function getBill()
 	{
 		$where['uuid'] = post("uuid");
-		$result = D("record_package_income")->where($where)->select();
+		$result = D("record_package_income")
+		->order("datetime desc")
+		->where($where)
+		->select();
 		echo json_encode($result);
 	}
 
@@ -57,6 +60,7 @@ class UserController extends Controller
 		$where_r['id'] = $uuid;
 		$data['record'] = $table
 		->where($where_r)
+		 ->order("datetime desc")
 		->field("datetime,tip,sum,type")
 		->page($page)
 		->select();
@@ -146,7 +150,7 @@ class UserController extends Controller
 			$data = $user->where($where)->select();
 			if($data[0]['passwd'] == $passwd)
 			{
-				 if($data[0]['nickname'] == 'null')
+				 if($data[0]['nickname'] == $phone)
 				 {
 					$result['result_code'] = 'incomplete';	
 					$result['info'] = $data;
@@ -292,7 +296,9 @@ class UserController extends Controller
 		$set = array(
 			'nickname' => $nickname, 'address' => post('address'), 'mail' => '未设置',
 			'sex' => '未设置', 'age' => '未设置', 'remain' => '0.00元', 'protocol' => 'agree',
-			'headImage' => '未设置', 'name' => post('name'), 'id' => post('id'), 'integral' => '0'
+			'headImage' => '未设置', 'name' => post('name'), 'id' => post('id'), 'integral' => '0',
+			'occupation' => '未设置','education' => '未设置','mate' => '未设置','hobby' => '未设置',
+			'pay_passwd' => post('pay_passwd'),
 		);
 
 		$user = D('user');
@@ -365,7 +371,7 @@ class UserController extends Controller
 		else
 		{
 			//处理送积分
-			handleAward($uuid,$type);
+			$result['award'] = handleAward($uuid,$type);
 			if($type == 'nickname' || $type == 'headImage')
 			{
 				setImAccount($uuid,$type,$para);
@@ -523,7 +529,10 @@ class UserController extends Controller
 		$where['user'] = $user;
 		//$where['state'] = 'true';
 		$cnList = M('record_consum');
-                $result = $cnList->where($where)->select();
+                $result = $cnList
+		->order("datetime desc")
+		->where($where)
+		->select();
                 echo json_encode($result);
 
 	}

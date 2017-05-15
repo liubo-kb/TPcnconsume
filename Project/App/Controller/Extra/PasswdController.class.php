@@ -69,4 +69,35 @@ class PasswdController extends Controller
 		$data['result_code'] = $account->where($where)->save($set);
 		echo json_encode($data);
 	}	
+
+	public function setPayPasswd()
+	{
+		$uuid = post('uuid');
+		$pay_passwd = post('pay_passwd');
+		$where['uuid'] = $uuid;
+		$set['pay_passwd'] = $pay_passwd;
+		$table = D('user');
+		$result['result_code'] = setWithCheck($table,$where,$set);
+		echo json_encode($result);
+	}
+
+	public function checkPayPasswd()
+	{
+		$uuid = post('uuid');
+                $pay_passwd = post('pay_passwd');
+		$where['uuid'] = $uuid;
+		$table = D('user');
+		$passwd = $table->where($where)->select()[0]['pay_passwd'];
+		if($passwd == $pay_passwd)
+		{
+			$result['result_code'] = "access";
+		}
+		else
+		{
+			$result['result_code'] = "fail";
+		}
+		echo json_encode($result);
+		
+
+	}
 }
