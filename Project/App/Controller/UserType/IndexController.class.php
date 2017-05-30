@@ -5,7 +5,8 @@ class IndexController extends Controller
 {
 	public function index()
 	{
-		echo '用户端控制器索引';
+		$uuid = 'u_uuid042';
+		addSxlCoupon($uuid);
 	}	
 	
 	public function setMerchant()

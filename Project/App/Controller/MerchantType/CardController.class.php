@@ -70,6 +70,7 @@ class CardController extends Controller
 		$table = D('merchant_card');
 		$where['merchant'] = $this->merchant;
 		$where['code'] = $this->code;
+		$where['level'] = $this->level;
 		$set['display_state'] = post('display_state');
 		$result['result_code'] = saveWithCheck($table,$where,$set);
 		echo json_encode($result);

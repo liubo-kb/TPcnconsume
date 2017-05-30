@@ -110,6 +110,9 @@ class AdvertActivityController extends Controller
 		$muid = post('muid');
 		$state = post('state');
 		$advert_id = post('advert_id');
+
+		$page = post('index').",10";
+
 		if($muid != 'null')
 		{
 			$where['muid'] = $muid;
@@ -125,6 +128,7 @@ class AdvertActivityController extends Controller
 		$result = $table
 		->order('position')
 		->where($where)
+		->page($page)
 		->select();
 		echo json_encode($result);
 	}

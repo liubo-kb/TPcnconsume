@@ -136,7 +136,7 @@ class CardController extends Controller
 		$where_m['code'] = $this->code;
 		$where_m['level'] = $this->level;
 		$where_m['type'] = $this->cate;
-		$rule = D('merchant_card')->where($where)->select()[0]['rule'];
+		$rule = D('merchant_card')->where($where_m)->select()[0]['rule'];
 		
 
 		
@@ -287,6 +287,8 @@ class CardController extends Controller
 		$addPrice = getExtra($this->merchant,$this->code,$this->level)[0]['addition_sum'];
 		$color = getExtra($this->merchant,$this->code,$this->level)[0]['card_temp_color'];
 		$indate = doubleval( getExtra($this->merchant,$this->code,$this->level)[0]['indate'] );
+		$remain = getExtra($this->merchant,$this->code,$this->level)[0]['price'];
+
 		if( $indate == 0 )
 		{
 			$indate = "no";
@@ -304,7 +306,8 @@ class CardController extends Controller
 		}
 
 
-		$sum = addAsDouble($this->sum,$addPrice);
+
+		$sum = addAsDouble($remain,$addPrice);
 		//logInfo('sum:: '.$this->sum);
 		//logInfo('add:: '.$addPrice);
 		
@@ -331,7 +334,7 @@ class CardController extends Controller
 		
 
 		//更新商户的余额
-		setMerchantRemain($this->merchant,$this->sum);
+		//setMerchantRemain($this->merchant,$this->sum);
 
 		//更新商户的营业额
 		setTurnover($this->merchant,$this->sum);
@@ -370,7 +373,7 @@ class CardController extends Controller
                 setReferrerSum($this->merchant,"m",$this->sum);
 
 		//更新商户的余额
-                setMerchantRemain($this->merchant,$this->sum);
+                //setMerchantRemain($this->merchant,$this->sum);
 
                 //更新商户的营业额
                 setTurnover($this->merchant,$this->sum);
@@ -440,7 +443,7 @@ class CardController extends Controller
                 $record_upgrade = array(
                                         'user' => $this->user,'merchant' => $this->merchant,'card_code' => $this->code,
                                         'old_card_level' => $this->level,'new_card_level' => $this->new_level,
-					'sum' => $this->sum,'date' => currentTime()
+					'sum' => $this->sum,'datetime' => currentTime()
                                 );
                 $upgradeRecord = M('record_upgrade');
                 $upgradeRecord->add($record_upgrade);
@@ -449,7 +452,7 @@ class CardController extends Controller
                 setReferrerSum($this->merchant,"m",$this->sum);
 
 		//更新商户的余额
-                setMerchantRemain($this->merchant,$this->sum);
+                //setMerchantRemain($this->merchant,$this->sum);
 
                 //更新商户的营业额
                 setTurnover($this->merchant,$this->sum);

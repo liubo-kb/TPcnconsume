@@ -36,6 +36,39 @@ class UserController extends Controller
 		//echo "<br/>1";
 		checkUserLevel($uuid);
 	}
+	
+	public function sxlCouponMod()
+	{
+		$uuid = post('uuid');
+		$id = post('content');
+
+
+		$where['uuid'] = $uuid;
+		$where['id'] = $id;
+		$table = D('sxl_user_coupon');
+		$table->where($where)->delete();
+	}
+
+	public function getSxlCoupon()
+	{
+		$uuid = post('uuid');
+		$muid = post('muid');
+		if( $muid != 'null' )
+		{
+			$table = D('merchant');
+			$where_m['muid'] = $muid;
+			$trade = $table->where($where)->select()[0]['trade'];
+			$where['cn_sxl_coupon.coupon_type'] = array('in',$trade.',通用');
+		}
+		$where['uuid'] = $uuid;
+		$where['cn_sxl_coupon.date_end'] = array('egt',currentDate());
+		$table = D('sxl_user_coupon');
+		$data = $table
+		->where($where)
+		->join('cn_sxl_coupon on cn_sxl_coupon.coupon_id = cn_sxl_user_coupon.coupon_id')
+		->select();
+		echo json_encode($data);
+	}
 
 	public function getBill()
 	{
@@ -89,11 +122,19 @@ class UserController extends Controller
                 $set_u['remain'] = $remain;
                 $table->where($where_u)->save($set_u);
 
-		$record = array( 'user' => $uuid, 'sum' => $sum, 'datetime' => currentTime() );
-		$table = D('record_redpacket_withdraw');
+		$record = array( 'id' => $uuid, 'sum' => '-'.$sum, 'datetime' => currentTime(), 'tip' => '红包提现','type' => 'withdraw',);
+		$table = D('record_income');
+		$table->add($record);
+
+		$record = array(
+			'uuid' => $uuid, 'tip' => '红包提现', 'sum' => $sum,
+			'datetime' => currentTime(),
+		);
+		$table = D('record_package_income');
 		$table->add($record);
 		
 		$result['result_code'] = '1';
+
 		echo json_encode($result);
 
 
@@ -106,7 +147,8 @@ class UserController extends Controller
 		$where['uuid'] = post('uuid');
 		$where['coupon_id'] = post('content');
 		$table = D('user_coupon');
-		$table->where($where)->delete();
+		$set['state'] = 'used';
+		setWithCheck($table,$where,$set);
 	}
 
 
@@ -268,13 +310,15 @@ class UserController extends Controller
 
 		//注册送红包		
                 $sum = getSystemPara($datetime,'reward_referrer')['user']; //获取系统推荐政策
+		$sum = '10';
                 setRedPacket($uuid,$sum);
 		
 		//设置注册奖励记录
                 $record = array('datetime'=>$datetime,'tip' => '注册奖励', 'sum' => $sum,'type' => 'u', 'id' => $uuid);
                 setIncomeRecord($record);
 
-		
+		//送平台优惠卷
+		addSxlCoupon($uuid);	
 		
                 $result['result_code']= $data;
                 echo json_encode($result);
@@ -561,18 +605,32 @@ class UserController extends Controller
 		$name = post('name');
 		$bank = post('bank');
 		$account = post('account');
-
                 $datetime = currentTime();
 
                 
-
                 $record_w = array(
-                        'user'=>$uuid, 'nickname'=>$nickname, 'sum'=>$sum,
+                        'user'=>$uuid, 'nickname'=>$nickname, 'sum'=>$sum,'state' => 'wait',
                         'name'=>$name, 'bank'=>$bank,'account'=>$account,'datetime'=>$datetime,
                 );
 
+
                 $withdraw = M('user_withdraw');
                 $result['result_code'] = $withdraw->add($record_w);
+
+
+		$record = array(
+			'uuid'=>$uuid, 'tip'=>'提现','sum'=>"-".$sum,'datetime'=>$datetime,
+		);
+		$table = D('record_package_income');
+		addWithCheck($table,$record);
+
+		$table = D('user');
+		$where['uuid'] = $uuid;
+		$remain = $table->where($where)->select()[0]['remain'];
+		$newRemain = redAsDouble($remain,$sum);
+		$set['remain'] = $newRemain;
+		setWithCheck($table,$where,$set);
+
                 echo json_encode($result);
 
         }

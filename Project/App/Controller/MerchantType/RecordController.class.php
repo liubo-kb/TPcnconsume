@@ -208,7 +208,7 @@ class RecordController extends Controller
 		$data['sum'] = $record->where($where)->sum('sum');
 		$info = $record
 		->join("cn_user ON cn_user.uuid = cn_$table.user ")
-		->field("cn_$table.*,cn_user.phone,headImage")
+		->field("cn_$table.*,cn_user.phone,name,headImage")
 		->page($page)
 		->order("cn_".$table.".datetime desc")
 		->where($where)	

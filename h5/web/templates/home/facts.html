@@ -36,7 +36,7 @@
 				   				<p class='cardf'></p>
 				   			</div>
 				   			<div class='useCardInfo'>	
-					   			<p class='cor3a fn16'>{{ncard.content}}</p>
+					   			<p class='cor3a fn14'>{{ncard.content}}</p>
 					   			<p class='cor92 fn12'>有效期：无期限({{ncard.type}})</p>
 				   			</div>
 				   		</div>
@@ -56,7 +56,7 @@
 				<ion-scroll class='allSide' direction='x'>
 					<div class='sideBox'>
 						<div class='sideShow' ng-repeat="goods in storeInfo.commodity_list">
-							<img ng-src="../../Public/Uploads/addImage/{{goods.image_url}}" alt='头像'/>
+							<img ng-src="../../Public/Uploads/commodity/{{goods.image_url}}" alt='头像'/>
 							<div class='fontShow tce fn12'>
 								<p>{{goods.name}}</p>
 								<p class='corfd'>￥{{goods.price}}</p>
@@ -95,7 +95,7 @@
 				<h3 class='tce fn16 lht2'>会员口碑</h3>
 				<div class='bort borb fn12 ptp1 pbm1' ng-repeat='say in storeInfo.evaluate_list'>
 					<h3 class='fn14 lht2'>
-						<img class='manImg' ng-src="../../Public/Uploads/addImage/{{say.card_image_url}}" alt='头像'/>
+						<img class='manImg' ng-src="../../Public/Uploads/headImage/{{say.headimage}}" alt='头像'/>
 						<span class='plt1'>{{say.nickname}}</span>
 					</h3>
 					<p class='ptp1'>{{say.content}}</p>
@@ -116,7 +116,7 @@
 		</div>
 	</ion-content>
 	<ion-footer-bar class='shopCar'>
-			<div class='addCar tce fn16' href="###" ng-click='showPopup()'>立即收藏</div>
-			<a class='mayGoods tce fn16' href="#/goods">立即购买</a>
+			<ion-collect class='addCar tce fn16' toCollect='collect(str,btn)'></ion-collect>
+			<div class='mayGoods tce fn16' ng-click='shop()'>立即购买</div>
 	</ion-footer-bar>
 </ion-view>

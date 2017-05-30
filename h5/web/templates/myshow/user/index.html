@@ -7,86 +7,86 @@
 	    </div>
     	<h1 class="title corf">资 料</h1>
 	</ion-header-bar>
- 	<ion-content class='main'>
+ 	<ion-content class='main' ng-init='user'>
 		<div class='myShow1 plt2'>
-			<a class='myShowImg' ng-click='show()'>
-				<img src="http://www.runoob.com/try/demo_source/venkman.jpg">
+			<a class='myShowImg goItem' ng-click='show()'>
+				<img ng-src="../../Public/Uploads/headImage/{{user.headimage}}">
 				<span>
       				<b class='prt2'>修改头像</b>
       				<i class="icon ion-ios-arrow-right cord7"></i>
 				</span>
 			</a>
-			<a ng-click="goSet('昵称')">
+			<a href='#/setuser/昵称/nickname' class='goItem'>
 				<span>
 					<span class='itemName fn16'>昵称</span>
       				<b class='fn12'>{{user.nickname}}</b>
 				</span>
       			<i class="icon ion-ios-arrow-right cord7"></i>
 			</a>
-			<a ng-click="goSet('地址')">
+			<a href='#/setuser/地址/address' class='goItem'>
 				<span>
 					<span class='itemName fn16'>地址</span>
       				<b class='fn12'>{{user.address}}</b>
 				</span>
       			<i class="icon ion-ios-arrow-right cord7"></i>
 			</a>
-			<a href='#/setphone'>
+			<a href='#/setphone/phone' class='goItem'>
 				<span>
 					<span class='itemName fn16'>手机号码</span>
       				<b class='fn12'>{{user.phone}}</b>
 				</span>
       			<i class="icon ion-ios-arrow-right cord7"></i>
 			</a>
-			<a ng-click="goSet('邮箱')">
+			<a href='#/setuser/邮箱/mail' class='goItem'>
 				<span>
 					<span class='itemName fn16'>邮箱</span>
       				<b class='fn12'>{{user.mail}}</b>
 				</span>
       			<i class="icon ion-ios-arrow-right cord7"></i>
 			</a>
-			<a ng-click="goSet('性别')">
+			<a href='#/setother/0/性别/sex' class='goItem'>
 				<span>
 					<span class='itemName fn16'>性别</span>
       				<b class='fn12'>{{user.sex}}</b>
 				</span>
       			<i class="icon ion-ios-arrow-right cord7"></i>
 			</a>
-			<a ng-click="goSet('生日')">
+			<a href='#/setselect/生日/age' class='goItem'>
 				<span>
 					<span class='itemName fn16'>生日</span>
-      				<b class='fn12'></b>
+      				<b class='fn12'>{{user.age}}</b>
 				</span>
       			<i class="icon ion-ios-arrow-right cord7"></i>
 			</a>
-			<a href='#/work'>
+			<a href='#/work' class='goItem'>
 				<span>
 					<span class='itemName fn16'>职业</span>
       				<b class='fn12'>{{user.occupation}}</b>
 				</span>
       			<i class="icon ion-ios-arrow-right cord7"></i>
 			</a>
-			<a ng-click="goSet('教育')">
+			<a href='#/setother/1/教育/education' class='goItem'>
 				<span>
 					<span class='itemName fn16'>教育</span>
       				<b class='fn12'>{{user.education}}</b>
 				</span>
       			<i class="icon ion-ios-arrow-right cord7"></i>
 			</a>
-			<a ng-click="goSet('婚姻')">
+			<a href='#/setother/2/婚姻/mate' class='goItem'>
 				<span>
 					<span class='itemName fn16'>婚姻</span>
       				<b class='fn12'>{{user.mate}}</b>
 				</span>
       			<i class="icon ion-ios-arrow-right cord7"></i>
 			</a>
-			<a ng-click="goSet('爱好')">
+			<a href='#/setuser/爱好/hobby' class='goItem'>
 				<span>
 					<span class='itemName fn16'>爱好</span>
       				<b class='fn12'>{{user.hobby}}</b>
 				</span>
       			<i class="icon ion-ios-arrow-right cord7"></i>
 			</a>
-			<a href='#/setpass'>
+			<a href='#/setpass/passwd' class='goItem'>
 				<span>
 					<span class='itemName fn16'>修改密码</span>
       				<b class='fn12'></b>

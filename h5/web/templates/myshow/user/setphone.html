@@ -11,10 +11,10 @@
 		<div class='tce fn12 lht2 cor66'>请输入你需要更换的新手机号</div>
 		<div class='setItem bgff'>
 			<span class='sideLeft'>新手机号</span>
-			<input class='sideFont mlt1' type="text" placeholder="请输入手机号"/>
+			<input class='sideFont mlt1' type="text" placeholder="请输入手机号" ng-model='data.phone'/>
 		</div>
 		<div class='xuBtn'>
-			<a href="###" class='bg38 corf'>下 一 步</a>
+			<div class='nextGo bg38 corf' ng-click='setPhone(data.phone)'>下 一 步</div>
 		</div>
 	</ion-content>
 </ion-view>

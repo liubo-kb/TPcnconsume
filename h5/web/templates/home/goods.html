@@ -13,6 +13,28 @@
 				<i class="iconfont core7 fn12">&#xe602;</i>
 				<span class='fn16'>商消乐</span>
 			</p>
+			
+				<!--<ul class='mayInfo pbm1'>
+				   	<li class='ptp1 pbm1' ng-repeat='ncard in storeInfo.card_list'>
+				   		<div class='useCard'>
+				   			<div class='cardImg'>
+				   				<p class='cardShow' style='background:{{ncard.card_temp_color}}; color:#fff;'>
+				   					<span class='fn20'>VIP</span><span class='fn12'>{{ncard.level}}</span>
+				   				</p>
+				   				<p class='cardf'></p>
+				   			</div>
+				   			<div class='useCardInfo'>	
+					   			<p class='cor3a fn14'>{{ncard.content}}</p>
+				   			</div>
+				   		</div>
+				   		<div class='maySay'>
+					   		<p class='fn14 corfd'>￥{{ncard.price}}</p>
+					   		<p class='cor66 fn12'>{{ncard.type=="计次卡" ? ncard.rule+"次":ncard.rule/10+'折'}}</p>
+				   		</div>	
+				   	</li>
+			 	</ul>-->
+			
+			
 			<ul>
 				<li class='cardList mlt1'>
 					<div class='useCard'>
@@ -79,6 +101,17 @@
 						<input type="radio" name='pay'/>
 					</li>
 				</ul>
+				
+				<!--<ion-list class='myPay mtp1'>
+			        <ion-radio  ng-model='支付宝支付' ng-value="支付宝支付" name="side">
+			        	<i class='iconfont icon-zhifubao'></i>
+						<span class='plt1'>支付宝支付</span>
+			        </ion-radio>
+			        <ion-radio ng-model='支付宝支付' ng-value="银联支付" name="side">
+			        	<i class='iconfont icon-yinlianzhifu'></i>
+						<span class='plt1'>银联支付</span>
+			        </ion-radio>
+			   	</ion-list>-->
 		</div>
 	</ion-content>
 	<ion-footer-bar class='row'>

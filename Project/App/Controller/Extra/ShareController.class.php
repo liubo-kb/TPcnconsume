@@ -32,8 +32,6 @@ class ShareController extends Controller
 	{
 		$phone = get('phone');
 		
-		LogIn("phone:".$phone);
-
 
 		$passwd = get('passwd');
 		$type = get('type');
@@ -249,11 +247,15 @@ class ShareController extends Controller
 
 		//注册送红包		
                 $sum = getSystemPara($datetime,'reward_referrer')['user']; //获取系统推荐政策
+		$sum = '10';
                 setRedPacket($uuid,$sum);
 		
 		//设置注册奖励记录
                 $record = array('datetime'=>$datetime,'tip' => '注册奖励', 'sum' => $sum,'type' => 'u', 'id' => $uuid);
                 setIncomeRecord($record);
+
+		//送平台优惠卷
+                addSxlCoupon($uuid);
 
 		return "access";
 	}

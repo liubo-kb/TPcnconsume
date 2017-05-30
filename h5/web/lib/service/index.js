@@ -1,4 +1,4 @@
-var ser=angular.module('app.services',[])
+var ser=angular.module('app.services',['ionic'])
 
 ser.service('myService', function() {
 	var b = new person();
@@ -13,3 +13,9 @@ ser.service('setWorkService',function(){
 	 	workList:myWork
 	 }
 })
+
+ser.service("commonService", function () {
+    var _this=this;
+    _this.prePageSelect="";
+    return _this;
+});

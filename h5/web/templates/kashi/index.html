@@ -11,7 +11,7 @@
 				<ion-view view-title='二手卡' class='bgf0'>
 					<div class='viewh'>
 						<div class='boxShow' ng-repeat='cards in cardSeconds'>
-							<a class="kaBox" href='#/kashiInfo/{{cards.muid}}&{{cards.card_code}}'>
+							<a class="kaBox" href='#/kashiInfo/{{cards.muid}}/{{cards.nickname}}'>
 								<div class='manInfo'>
 									<div class='manOne'>
 										<img ng-src="../../Public/Uploads/headImage/{{cards.headimage}}"/>
@@ -40,7 +40,7 @@
 				<ion-view  view-title='蹭卡' class='bgf0'>
 					<div class='viewh'>
 						<div class='boxShow' ng-repeat='card in cardCengs'>
-							<a class="kaBox" href='#/kashiInfo/{{card.muid}}&{{card.card_code}}'>
+							<a class="kaBox" href='#/kashiInfo/{{card.muid}}/{{card.nickname}}'>
 								<div class='manInfo'>
 									<div class='manOne'>
 										<img ng-src="../../Public/Uploads/headImage/{{card.headimage}}"/>
@@ -66,62 +66,4 @@
 				</ion-view>
 			</ion-tab>
 	</ion-tabs>
-		<!--<ion-content class="has-header">
-    		<ion-slide-box class="has-header bgf0" delegate-handle="accountSlide" show-pager="false" on-slide-changed="accountSlideChanged($index)">
-				 <ion-slide>
-				 	<div class='boxShow' ng-repeat='cards in cardSeconds'>
-						<a class="kaBox" href='#/kashiInfo/{{cards.muid}}&{{cards.card_code}}'>
-							<div class='manInfo'>
-								<div class='manOne'>
-									<img ng-src="../../Public/Uploads/headImage/{{cards.headimage}}"/>
-									<span class='manDate plt1'>
-										<b class='sman'>{{cards.nickname}}</b>
-										<b class='sdate'>{{cards.datetime}}</b>
-									</span>
-								</div>
-								<div class='manTwo'>
-									<span class='price core6 prt2'>￥ {{cards.card_remain}}</span>
-								</div>
-							</div>
-							<div class='store cor00 ptp1'>{{cards.store}}</div>
-							<div class='share fn12 prt1 pbm1 ptp1'>
-							【分享】现有{{cards.store}}{{cards.card_remain}}元{{cards.card_level}}{{cards.card_type}}一张({{cards.rate}}折卡)，需要的朋友尽快下手，手续费({{cards.rule/10}}%)
-							</div>
-							<div class='sadd fn12 cor7c lht2'>
-								{{cards.address}}
-							</div>
-						</a>
-					</div>
-				 </ion-slide>
-				 <ion-slide>
-				 	<div class='boxShow' ng-repeat='card in cardCengs'>
-						<a class="kaBox" href='#/kashiInfo/{{card.muid}}&{{card.card_code}}'>
-							<div class='manInfo'>
-								<div class='manOne'>
-									<img ng-src="../../Public/Uploads/headImage/{{card.headimage}}"/>
-									<span class='manDate plt1'>
-										<b class='sman'>{{card.nickname}}</b>
-										<b class='sdate'>{{card.datetime}}</b>
-									</span>
-								</div>
-								<div class='manTwo'>
-									<span class='price core6 prt2'>￥ {{card.card_remain}}</span>
-								</div>
-							</div>
-							<div class='store cor00 ptp1'>{{card.store}}</div>
-							<div class='share fn12 prt1 pbm1 ptp1'>
-								【分享】现有{{card.store}}{{card.card_remain}}元{{card.card_level}}{{card.card_type}}一张({{card.rate}}折卡)，需要的朋友尽快下手，手续费({{card.rule/10}}%)
-							</div>
-							<div class='sadd fn12 cor7c lht2'>
-								{{card.address}}
-							</div>
-						</a>
-					</div>
-				 </ion-slide>
-			</ion-silde-box>
-		</ion-content>
-		<ion-tabs delegate-handle="accountTab"  class="tabs-striped tabs-top">
-		    <ion-tab on-select="accountSelectedTab(0)" title="二手卡"></ion-tab>
-		    <ion-tab on-select="accountSelectedTab(1)" title="蹭卡"></ion-tab>
-		</ion-tabs>-->
 </ion-view>

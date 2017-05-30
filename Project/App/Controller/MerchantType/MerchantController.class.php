@@ -241,6 +241,30 @@ class MerchantController extends Controller
 
         }
 
+	public function complete_not_auth()
+        {
+                $phone = post('phone');
+                $muid = post('muid');
+                $store = post('store');
+                $image = post('image_url');
+
+                $set = array(
+			'name'=>post('name'), 'id'=>post('id'), 'explain_lic'=>post('explain_lic'),'store_number' => post('store_number')
+                        ,'store'=>post('store'), 'address'=>post('address'),  'state'=>'null','full_add' =>post('full_add'),
+                        'image_url'=>post('image_url'),  'trade'=>post('trade'),'longtitude'=>post('longtitude'),'latitude'=>post('latitude'),
+                );
+
+                $merchant = D('merchant');
+                $where['phone'] = $phone;
+                $result['result_code'] = $merchant
+                ->where($where)
+                ->save($set);
+
+                echo json_encode($result);
+
+        }
+
+
 	public function complete_03()
         {
                 $phone = post('phone');
@@ -395,8 +419,10 @@ class MerchantController extends Controller
 		$where['merchant'] = $muid;
 		$result['num'] = $withdraw->where($where)->count();
 		$result['sum'] = $withdraw->where($where)->sum('sum');
-		$result['remain'] = '0.00';
-		$result['record'] = $withdraw->where($where)->field('sum,datetime,tradenu')->select();
+		$where['muid'] = $muid;
+
+		$result['remain'] = D('merchant')->where($where)->select()[0]['remain'];
+		$result['record'] = $withdraw->where($where)->field('sum,datetime,tradenu,state')->select();
 
 		//$result = $withdraw->where($where)->select();
 		echo json_encode($result);
@@ -578,8 +604,9 @@ class MerchantController extends Controller
 	public function infoGet()
 	{
 		$muid = post('muid');
+		$uuid = post('uuid');		
 		//$muid = 'm_6d4e76ca11';
-		$data = storeDataGet($muid);
+		$data = storeDataGet($muid,$uuid);
 		
 		//dump($data);
 		echo json_encode($data);
@@ -632,6 +659,12 @@ class MerchantController extends Controller
 				case 'incomplete' :
                                 {
                                         $result = $this->result('incomplete',$result_m,$result_a);
+                                        break;
+                                }
+
+				case 'complete_not_auth' :
+                                {
+                                        $result = $this->result('complete_not_auth',$result_m,$result_a);
                                         break;
                                 }
 

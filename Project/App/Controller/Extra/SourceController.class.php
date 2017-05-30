@@ -40,10 +40,25 @@ class SourceController extends Controller
 
 	}
 
+	public function superAccount()
+	{
+		$table = D('super_account');
+		$data = $table->field('phone,name')->select();
+		echo json_encode($data);
+	}
+
 	public function risk()
         {
                 $this->display('Source/risk_control');
         }
+
+	public  function insurance()
+	{
+		$table = D('insurance');
+		$merchant = post('muid');
+		$data = $table->field('image_url')->select();
+		echo json_encode($data);	
+	}
 
 
 	public function version()

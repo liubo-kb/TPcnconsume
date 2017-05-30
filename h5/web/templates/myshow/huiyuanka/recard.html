@@ -10,14 +10,14 @@
 	<ion-content class='myXu bgf0'>
 			<div class='bge2 corf'>
 				<p class='plt2'>卡内余额：(元)</p>
-				<h3 class='fn32 lht2 corf plt2'>997.00元</h3>
+				<h3 class='fn32 lht2 corf plt2'>{{id.card_remain | number:2}}</h3>
 			</div>
 			<div class='xuInfo mtp1 bgff'>
 				<span>金额</span>
-				<span>1000.00</span>	
+				<span>{{id.card_remain | number:2}}</span>	
 			</div>
 			<div class='xuBtn'>
-				<a href="#/pay" class='bge2 corf'>确 定</a>
+				<a class='nextGo bge2 corf' href="#/pay">确 定</a>
 			</div>
 	</ion-content>
 </ion-view>

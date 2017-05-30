@@ -210,9 +210,19 @@
 }
 
 .info .imgInfo .may .mayInfo .useCard{
-	width:78%;
+	width:85%;
 	display:flex;
 }
+
+.info .imgInfo .may .mayInfo li .maySay{
+	width:15%;
+	display:flex;
+	flex-direction:column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+
 
 .info .imgInfo .may .mayInfo .useCardInfo{
 	display:flex;
@@ -223,7 +233,8 @@
 .info .imgInfo .may .mayInfo li .cardImg{
 	width:.8rem;
 	height:.5rem;
-	margin-right:.1rem;
+	margin:0 .1rem 0 0;
+	
 }
 
 .info .imgInfo .may .mayInfo li .cardImg .cardShow{
@@ -248,15 +259,12 @@
 
 .info .imgInfo .may .mayInfo li .useCard .useCardInfo p{
 	width:100%;
+	overflow:hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
 }
 
-.info .imgInfo .may .mayInfo li .maySay{
-	width:22%;
-	display:flex;
-	flex-direction:column;
-	justify-content: space-around;
-	align-items: center;
-}
+
 
 
 /*商家详情*/
@@ -392,22 +400,7 @@
 	align-items: center;
 }
 
-/*.shopCar .imgCar{
-	display:flex;
-	justify-content: center;
-	align-items: center;
-	flex:2;
-	height:100%;
-	border-right:1px solid #dddddd;
-}
 
-.shopCar .imgCar img{
-	width:.14rem;
-	height:.14rem;
-	display:inline;
-	vertical-align: middle;
-}
-*/
 .shopCar .addCar{
 	display:flex;
 	align-items: center;
@@ -702,7 +695,7 @@
 	justify-content: center;
 }
 
-.main .myShow1 a{
+.main .myShow1 .goItem{
 	width:100%;
 	line-height: .4rem;
 	border-bottom:1px solid #e9e9e9;
@@ -711,15 +704,44 @@
 	align-items: center;
 }
 
-.main .myShow1 a span b{
+.main .myShow1 .goItem span b{
 	font-weight:normal;
 	color:#666;
 }
 
-.main .myShow1 a i{
+.main .myShow1 .goItem i{
 	font-size:.16rem;
 	padding-right:.1rem;
 }
+
+/*****************************************会员卡转让*************************************/
+
+.attor .attInfo{
+	width:100%;
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.attor .attInfo .itemMess{
+	width:100%;
+	line-height: .4rem;
+	border-bottom:1px solid #e9e9e9;
+	display:flex;
+	align-items: center;
+}
+
+.attor .attInfo .itemMess .attName{
+	display:inline-block;
+	width:1rem;
+}
+
+.fontNum{
+	flex:1;
+	margin-left:.1rem;
+	padding-left:.1rem;
+}
+
 
 /*******************************************我的资料***************************************/
 
@@ -769,7 +791,19 @@
 	display:flex;
 	margin-top:5px;
 	align-items: center;
-	justify-content: space-between;
+}
+
+
+.sideLeft{
+	flex:3;
+	font-size:16px;
+	color:#444;
+	text-align:center;
+}
+
+.sideRight{
+	flex:7;
+	text-align:center;
 }
 
 .setLeft{
@@ -806,6 +840,7 @@
 	display:flex;
 	flex-direction: column;
 	padding:.2rem .3rem 0; 
+	position:relative;
 }
 
 
@@ -840,7 +875,11 @@
 	border-radius:0 0 .1rem .1rem;
 }
 
-.cardCont .cardBtn .payMoney{
+.cardUnit .payMoney{
+	position:absolute;
+	display:block;
+	bottom:5px;
+	right:.4rem;
 	border-radius:.2rem;
 	padding:2px .1rem;
 	color:#fff;
@@ -854,11 +893,6 @@
 
 /*********************************************我要续卡*************************************/
 
-/*.headh{
-	width:100%;
-	height:5rem;
-}*/
-
 .xuInfo{
 	width:100%;
 	display:flex;
@@ -871,7 +905,7 @@
 	padding:.3rem .2rem 0;
 }
 
-.xuBtn a{
+.xuBtn .nextGo{
 	display:block;
 	width:100%;
 	height:.4rem;
@@ -879,6 +913,34 @@
 	text-align:center;
 	border-radius:5px;
 }
+
+/************************************************我的预约******************************************/
+
+.ordBox{
+	width:100%;
+	height:100%;
+	background: #f0eff5;
+}
+
+.ordBox .boxItem{
+	background: #fff;
+	margin-top:.1rem;
+	font-size:.14rem;
+}
+
+.ordBox .boxItem .boxTop{
+	border-bottom:1px solid #ccc;
+	padding-left:.1rem;
+	line-height:.4rem;
+}
+
+.ordBox .boxItem .boxInfo{
+	border-bottom:1px solid #ccc;
+	margin-left:.1rem;
+	line-height:.32rem;
+}
+
+
 
 /************************************************支付选择******************************************/
 
@@ -1032,6 +1094,46 @@
 	font-size:1.5rem;
 }
 
+/******************************************我的收藏*************************************/
+
+.myCollect{
+	width:100%;
+	height:.75rem;
+}
+
+.myCollect .goInfo{
+	display:flex;
+	width:100%;
+	height:100%;
+	padding:.1rem;
+	justify-content: space-between;
+}
+
+.myCollect .goInfo .leftSide{
+	flex:3;
+}
+
+.myCollect .goInfo .leftSide img{
+	width:100%;
+	height:100%;
+	padding-right: .1rem;
+} 
+
+
+.myCollect .goInfo .rightSide{
+	flex:7;
+	display:flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.myCollect .goInfo .rightSide .foSide{
+	width:100%;
+	display:flex;
+	justify-content: space-between;
+}
+
+
 /********************************************登录页面**************************************/
 
 .info .setPhone{
@@ -1153,33 +1255,61 @@
 }
 /*****************************************修改密码*************************************/
 
-.setPass .checkbox{
-	padding:.12rem 7px;
-}
+/*显示隐藏的例子*/
 
-
-.setPass .checkbox-icon{
+.passWordStyle{
 	position: relative;
-	width:.16rem;
-	height:.16rem;
 }
 
-.setPass .checkbox-icon:after{
-	position:absolute;
-	top:16%;
-	left:15%;
+
+#password {
+    background-color: transparent;
+    display: inline;
+    padding-top: 0;
+    padding-bottom: 0;
+    width: 80%;
+    height: .36rem;
+    box-sizing: border-box;
+    padding-left: 5px;
+    line-height: .36rem;
+    font-size: 14px;
+}
+.eye {
+    width: 27px;
+    height: 27px;
+    display: inline-block;
+    position: absolute;
+    right: 2px;
+    top: 5px;
+    background: url(../../img/eyehide.png) no-repeat center;
+    background-size: 60%;
+}
+.eyehideimage {
+    background-image: url(../../img/eyehide.png);
+}
+.eyeshowimage {
+    background-image: url(../../img/eyeshow.png);
 }
 
-.setPass .item{
-	display:block;
+/*******************************************会员卡--付款**************************************/
+
+.setPay{
 	width:100%;
-	height:.4rem;
+	margin:.2rem;
 	display:flex;
-	background: #f0eff5;
-	border:none;
 	align-items: center;
 }
 
-.setPass label.item{
-	padding:.1rem .5rem;
+.setPay .setBox{
+	margin-left:.1rem;
+	border:1px solid #ccc;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	padding:2px;
 }
+
+.setBox input{
+	padding-left:5px;
+}
+

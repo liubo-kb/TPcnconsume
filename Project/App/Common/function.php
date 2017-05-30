@@ -1,4 +1,18 @@
 <?php
+
+	function addSxlCoupon($uuid)
+	{
+		$table = D('sxl_user_coupon');
+		for($i=0;$i<3;$i++)
+                {
+                        $coupon_id = "000".rand(1,5);
+			$record = array(
+				'uuid' => $uuid, 'coupon_id' => $coupon_id,
+				'datetime' => currentTime(),id => get_uuid($uuid.'_')
+			);
+			addWithCheck($table,$record);
+                }
+	}
 	
 	//同步卡市的数据
 	function setCardMarket($where,$sum)
@@ -360,7 +374,7 @@
 	}
 
 		
-	function storeDataGet($muid)
+	function storeDataGet($muid,$uuid)
 	{
 		$merchant = D('merchant');
 		$where['muid'] = $muid;
@@ -425,10 +439,61 @@
 		$data['notice'] = $result[0]['notice'];
 		$data['server'] = $result[0]['server'];
 
+		//获取优惠券列表
+		$data['coupon_list'] = getCoupon($muid,$uuid);
+
 		return $data;
 		
                 
 	}
+
+	function getCoupon($muid,$uuid)
+	{
+                $page = post('page').',10';
+                if($muid != 'null')
+                {
+                        $where['cn_merchant_coupon.muid'] = $muid;
+                }
+
+		$where['date_end'] = array('egt',currentDate());
+                $where['cn_merchant_coupon.state'] = 'true';
+                $table = D('merchant_coupon');
+
+                $result = $table
+                        ->join("cn_merchant on cn_merchant.muid = cn_merchant_coupon.muid")
+                        ->field("cn_merchant_coupon.*,store,image_url,latitude,longtitude")
+                        ->where($where)
+                        ->page($page)
+                        ->select();
+
+                if($uuid != 'null')
+                {
+                        for($i=0; $i<count($result); $i++)
+                        {
+                                $muid_tmp = $result[$i]['muid'];
+                                $coupon_id_tmp = $result[$i]['coupon_id'];
+                                $where_tmp['muid'] = $muid_tmp;
+                                $where_tmp['coupon_id'] = $coupon_id_tmp;
+                                $where_tmp['uuid'] = $uuid;
+                                $check = D('user_coupon')
+                                ->where($where_tmp)
+                                ->count();
+
+                                if($check != 0 )
+                                {
+                                        $result[$i]['received'] = 'true';
+                                }
+                                else
+                                {
+                                        $result[$i]['received'] = 'false';
+                                }
+                        }
+                }
+
+		return $result;
+	}
+
+
 
 	//处理推荐产生的费用
 	function handleReferrer($user,$merchant,$sum)
@@ -557,8 +622,12 @@
 		$where['muid'] = $muid;
 		$data = $merchant->where($where)->select();
 		$remain = $data[0]['remain'];
-		
+	
+	
 		$newRemain = addAsDouble($remain,$sum)."元";
+
+		//logIn('muid:'.$muid.',sum:'.$sum.',remain:'.$remain.',newRemain:'.$newRemain);
+
 		$set['remain'] = $newRemain;
 		$merchant->where($where)->save($set);
 		

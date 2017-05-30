@@ -10,70 +10,70 @@
 	<ion-content class='main'>
 		<div class='cardUnit'>
 			<div class='cardCont'>
-				<div class='cardName bgcc'>
-					<p class='fn22'>储值卡(普卡)</p>
+				<div class='cardName' style="background:{{id.card_temp_color}}">
+					<p class='fn22'>{{id.card_type}}({{id.card_level}})</p>
 					<p class='cardInfo'>
 						<span>2017-04-18</span>
-						<span class='fn20'>余额：997</span>
+						<span class='fn20'>余额：{{id.card_remain}}</span>
 					</p>
 				    
 				</div>
 				<div class='cardBtn'>
-					<span class='cor0'>商消乐</span>
+					<span class='cor0'>{{id.store}}</span>
 				</div>
 			</div>
 		</div>
-		<div class="ptp1 pbm1 tce"><p>普卡(储值卡)</p></div>
+		<div class="ptp1 pbm1 tce"><p>{{id.card_level}}({{id.card_type}})</p></div>
 		<div class='myShow1 plt2'>
-			<a href='#/recard'>
+			<div class='goItem' ng-click="goPage('recard',{{id}})">
 				<span>
 					<i class="iconfont core8">&#xe64c;</i>
       				<b>我要续卡</b>
 				</span>
       			<i class="icon ion-ios-arrow-right cord7"></i>
-			</a>
-			<a href='#/upter'>
+			</div>
+			<div class='goItem' ng-click="goPage('upter',{{id}})">
 				<span>
 					<i class="iconfont cord5">&#xe635;</i>
       				<b>我要升级</b>
 				</span>
       			<i class="icon ion-ios-arrow-right cord7"></i>
-			</a>
-			<a href='#yuyue'>
+			</div>
+			<div class='goItem' ng-click="goPage('order',{{id}})">
 				<span>
 					<i class="iconfont cor10">&#xeab8;</i>
       				<b>我要预约</b>
 				</span>
       			<i class="icon ion-ios-arrow-right cord7"></i>
-			</a>
-			<a href='#fshare'>
+			</div>
+			<div class='goItem' ng-click="goPage('fshare',{{id}})">
 				<span>
 					<i class="iconfont core7">&#xe66f;</i>
       				<b>家庭共享</b>
 				</span>
       			<i class="icon ion-ios-arrow-right cord7"></i>
-			</a>
-			<a href='#/myGood'>
+			</div>
+			<div class='goItem' ng-click="goPage('attorn',{{id}})">
 				<span>
 					<i class="iconfont cordc">&#xe607;</i>
       				<b>卡片转让</b>
 				</span>
       			<i class="icon ion-ios-arrow-right cord7"></i>
-			</a>
-			<a href='#/share'>
+			</div>
+			<div class='goItem' ng-click="goPage('share',{{id}})">
 				<span>
 					<i class="iconfont corea">&#xea58;</i>
       				<b>我要分享</b>
 				</span>
       			<i class="icon ion-ios-arrow-right cord7"></i>
-			</a>
-			<a href='#/pei'>
+			</div>
+			<div class='goItem' ng-click="goPage('pei',{{id}})">
 				<span>
 					<i class="iconfont cor10">&#xe69b;</i>
       				<b>投诉理赔</b>
 				</span>
       			<i class="icon ion-ios-arrow-right cord7"></i>
-			</a>
+			</div>
 		</div>
 	</ion-content>
 </ion-view>

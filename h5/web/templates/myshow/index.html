@@ -1,34 +1,34 @@
 <ion-view class='myShop'>
 	<ion-header-bar class="bar-header myHead">
-		<a class="item item-avatar bge2 corf" href="" ng-click='page()'>
-          <img src="http://www.runoob.com/try/demo_source/venkman.jpg">
-          <h2 class='myName corf'>{{userInfo.nickname=''? '未登录':userInfo.nickname}}</h2>
+		<a class="item item-avatar bge2 corf" ng-click='page()'>
+          <img ng-src="../../Public/Uploads/headImage/{{userInfo.headimage}}">
+          <h2 class='myName corf'>{{userInfo.nickname=''?"未登录":userInfo.nickname}}</h2>
         </a>
 	</ion-header-bar>
-	<ion-content class='main newMain'>
+	<ion-content class='main newMain' overflow-scroll="true" style="overflow: hidden">
 		<div class='myShow1 plt2'>
-			<a href='#/huiyuanka'>
+			<a href='#/huiyuanka' class='goItem'>
 				<span>
 					<i class="iconfont cor43">&#xe6a4;</i>
       				<b>我的会员卡</b>
 				</span>
       			<i class="icon ion-ios-arrow-right cord7"></i>
 			</a>
-			<a href='#/myBao'>
+			<a href='#/myBao' class='goItem'>
 				<span>
 					<i class="iconfont cor43">&#xe64a;</i>
       				<b>我的钱包</b>
 				</span>
       			<i class="icon ion-ios-arrow-right cord7"></i>
 			</a>
-			<a href='#/myQuan'>
+			<a href='#/myQuan' class='goItem'>
 				<span>
 					<i class="iconfont cor43">&#xe680;</i>
       				<b>我的优惠券</b>
 				</span>
       			<i class="icon ion-ios-arrow-right cord7"></i>
 			</a>
-			<a href='#/myShop'>
+			<a href='#/myShop' class='goItem'>
 				<span>
 					<i class="iconfont cor43">&#xe60f;</i>
       				<b>我的消费</b>
@@ -37,7 +37,16 @@
 			</a>
 		</div>
 		<div class='myShow1 plt2'>
-			<a href='#/myGood'>
+			<a href='#/collect' class='goItem'>
+				<span>
+					<i class="iconfont corf1">&#xe621;</i>
+      				<b>我的收藏</b>
+				</span>
+      			<i class="icon ion-ios-arrow-right cord7"></i>
+			</a>
+		</div>
+		<div class='myShow1 plt2'>
+			<a href='#/myGood' class='goItem'>
 				<span>
 					<i class="iconfont corf1">&#xe639;</i>
       				<b>我的推荐</b>
