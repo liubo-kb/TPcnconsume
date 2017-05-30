@@ -1,0 +1,91 @@
+﻿<ion-view>
+    <ion-nav-buttons>
+        <button class="button button-icon button-clear ion-navicon" menu-toggle="left">
+        </button>
+        <div class="title">云查</div>
+    </ion-nav-buttons>
+    <ion-content class="has-header">
+
+        <!--教程例子    有疑问可加qq群 517568588    -->
+
+        <!--置顶：不管采取哪种方式配置  time-picker-result 参数都是需要配置的-->
+
+        <!--一般加载方式
+        title:设置控件名称
+        yearstart:设置开始年份
+        yearend:设置结束年份
+        format:设置返回结果的时间格式<默认返回时间戳>
+        time-picker-result:接收时间选择结果  在控制器中需要事先定义如下变量  scope.data={result:''}
+       -->
+        <time-picker title="一般加载方式" yearstart="1990" yearend="2017"
+                     time-picker-result="data.result" format="yyyy-MM-dd hh:mm"></time-picker>
+        <br/>
+
+        <!-- 隐藏指定选择栏  : 这里隐藏时间选择栏
+          hideyear:隐藏年份选择栏
+          hidemonth:隐藏月份选择栏
+          hidedate:隐藏日期选择栏,
+          hidetime:隐藏时间选择栏
+          -->
+        <time-picker title="隐藏指定的时间选择栏-这里隐藏时间" hidedate="true"
+                     yearstart="1990" yearend="2017"
+                     time-picker-result="data.result"></time-picker>
+        <br/>
+
+        <!--指定默认时间的加载方式 ：直接手动指定
+          datetime:指定一个默认的时间 ,也可以是时间戳
+          -->
+        <time-picker datetime="2015-10-10 17:30" title="指定时间加载方式" yearstart="1990" yearend="2017"
+                     hidetime="true" hidedate="true" time-picker-result="result" format="yyyy-MM-dd "></time-picker>
+        <br/>
+
+        <!--指定默认时间的加载方式 ：服务器端加载获取其他方式获取默认时间
+           loadLazy：需设置为true 标识默认时间不是立刻加载的(同步)
+           load-date-time:指定关联默认时间的变量 即从服务器或其他方式获取到的时间值
+           -->
+        <time-picker load-date-time="serverData.loadLazyTime" loadLazy="true" yearstart="1990" yearend="2017"
+                     title="从服务端加载默认时间" time-picker-result="result" format="yyyy-MM-dd"></time-picker>
+        <br/>
+
+
+        <!--定义回调函数获取选中结果
+          ok-handler：定义回调函数  callback(result)方法 在控制器中定义 如 $scope.callback=function(value){}
+         注意！！ 此处绑定的  callback(result) 参数名 result 不能修改为其他名称  没办法 angular 中这样定义了
+          -->
+        <time-picker ok-handler="callback(result)" load-date-time="serverData.loadLazyTime" loadLazy="true"
+                     yearstart="1990" yearend="2017"
+                     title="定义回调函数获取选中结果" time-picker-result="result" format="yyyy-MM-dd hh:mm"></time-picker>
+        <br/>
+
+        <!--在模态框中使用
+             inmodal：true 或者 false(默认) true 标识在选择器在模态框中使用
+             -->
+        <button ng-click="openModal()">模态框中使用</button>
+
+
+        <!--  其他参数设置
+             timeNum:        //可选时间数量         默认24
+             yearStart:      //开始年份             默认当前年份减去20年
+             yearEnd:        //结束年份             默认当前年份加上20年
+             monthStart:    //开始月份              默认 12月份
+             monthEnd:     //结束月份               默认1月份
+             timeSpan:    //时间间隔                默认15分钟一个间隔
+               -->
+
+    </ion-content>
+    <script id="my-modal.html" type="text/ng-template">
+        <div class="modal">
+            <ion-header-bar>
+                <h1 class="title">模态框中使用</h1>
+            </ion-header-bar>
+            <ion-content>
+                <!--在模态框中使用
+               inmodal：true 或者 false(默认) true 标识在选择器在模态框中使用
+               -->
+                <time-picker inmodal="true" title="一般加载方式" yearstart="1990" yearend="2017"
+                             time-picker-result="data.result" format="yyyy-MM-dd hh:mm"></time-picker>
+                <button ng-click="closeModal()">关闭</button>
+            </ion-content>
+        </div>
+    </script>
+</ion-view>

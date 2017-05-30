@@ -1,0 +1,30 @@
+﻿<ion-side-menus>
+    <!-- 中间内容 -->
+    <ion-side-menus>
+        <ion-side-menu-content  edge-drag-threshold="100"  drag-content="true">
+            <ion-nav-bar class="bar-stable" animation="nav-title-slide-ios" >
+                <ion-nav-back-button  class="button-clear">
+                    <i class="ion-ios-arrow-left" style=" font-size:25px"></i>&nbsp;&nbsp;返回
+                </ion-nav-back-button>
+
+            </ion-nav-bar>
+            <ion-nav-view name="menuContent" animation="slide-left-right">
+            </ion-nav-view>
+            <!-- <div class="{{isMenuOpened?'backdrop visible active':''}}"></div>-->
+        </ion-side-menu-content>
+        <!-- 左 menu -->
+        <ion-side-menu side="left">
+            <!--      </ion-nav-buttons>-->
+            <ion-header-bar class="bar-stable" style="background-color: #43536e">
+                <div class="title" style="color: white; text-align: center">云查</div>
+            </ion-header-bar>
+            <ion-content class="has-header" >
+                <ion-list >
+                    <a class="item item-icon-left" nav-clear menu-close href="#/app/main">
+                        <i class="icon ion-ios-search" style="font-size: 25px;"></i>
+                        <span style="margin-left: 20px">扫码</span>
+                    </a>
+                </ion-list>
+            </ion-content>
+        </ion-side-menu>
+    </ion-side-menus>
