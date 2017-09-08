@@ -1,0 +1,589 @@
+.bfb{
+	height: 100%;
+	width: 100%;
+}
+.guess{
+	height: 100%;
+	width: 100%;
+	background:#f6cf67 ;
+	position: relative;
+}
+.contenter{
+	position: absolute;
+	z-index: 10;
+	overflow-y: scroll;
+}
+.header{
+	width: 100%;
+	height: .55rem;
+	padding: .12rem 7px .14rem 7px;
+	background: url(../img/head.png) no-repeat;
+	background-size:100% ;
+	margin-bottom: .32rem;
+}
+.header-contoner{
+	overflow: hidden;
+	position: relative;
+}
+#return{
+	float: left;
+	background: url(../img/return.png) no-repeat;
+	background-size:100% 100%;
+	width: .28rem;
+	height: .28rem;
+	margin-right: .1rem;
+}
+#repeatGame{
+	float: left;
+	background: url(../img/repeatGame.png) no-repeat;
+	background-size:100% 100%;
+	width: .75rem;
+	height: .28rem;
+}
+#integral{
+	float: right;
+	width:.98rem;
+	height: .28rem;
+	background: url(../img/jf.png) no-repeat;
+	background-size:100% 100%;
+	line-height: .28rem;
+	color: #FEFEFE;
+	padding-left: .14rem;
+}
+#clip{
+	display: block;
+	position: absolute;
+	height: .28rem;
+	width: 20px;
+	left: 50%;
+	text-align: center;
+	color: #FEFEFE;
+	margin-left: -10px;
+	line-height: .28rem;
+	font-weight: 900;
+	font-size: .18rem;
+}
+
+.tipContoner{
+	width: 100%;
+	height: 2.6rem;
+	padding: 0 6px;
+	margin-bottom: .45rem;
+}
+.tipContoner .cNei{
+	background: url(../img/tip.png) no-repeat;
+	background-size:100% 100% ;
+	padding: .46rem .16rem .45rem .16rem;
+	position: relative;
+}
+.tipContoner .tip{
+	width: 100%;
+	height:100%;
+	
+}
+.tipContoner .tip .guanka{
+	width: .56rem;
+	height: 1.48rem;
+	background:url(../img/guessJrBg.png) ;
+	background-size:100% 100% ;
+	margin-top: .14rem;
+	margin-right: .2rem;
+	float: left;
+}
+
+.guanka .kaTxt{
+	width: 100%;
+	height: .42rem;
+	margin-top: .16rem;
+	padding: 0 .19rem;
+}
+.guanka .kaTxt img{
+	width: 100%;
+	height: 100%;
+}
+.guanka .kaImg{
+	width: .52rem;
+	padding: 0 5%;
+	margin: 0 auto;
+	margin-top: .2rem;
+	height: .58rem;
+}
+.guanka .kaImg img{
+	width: 100%;
+	height: 100%;
+}
+.tipContoner .imgTip{
+	width: 1.8rem;
+	height: 1.8rem;
+	background: #FDF9DE;
+	border-radius: 10px;
+	float: left;
+	padding: 8%;
+	background: url(../img/imgTipBg.png);
+}
+.tipContoner img{
+	width: 100%;
+	height: 100%;
+}
+.tipContoner .tipButton{
+	width: .56rem;
+	min-height: 50px;
+	float: right;
+	margin-top: .14rem;
+}
+.tipContoner .tButton{
+	width: 100%;
+	height: .27rem;
+	background:url(../img/ts.png) ;
+	background-size:100% 100% ;
+}
+.tipContoner .tAnswer{
+	width: 100%;
+	height: .27rem;
+	background:url(../img/da.png) ;
+	background-size:100% 100% ;
+	margin-top: .34rem;
+}
+.tipContoner .tHple{
+	width: 100%;
+	height: .27rem;
+	background:url(../img/qz.png) ;
+	background-size:100% 100% ;
+	margin-top: .34rem;
+}
+.leixing{
+	position: absolute;
+	top: .15rem;
+	left:23%;
+	width: 200px;
+	margin: 0 auto;
+	text-align: center;
+	font-size: .15rem;
+	color: #FEFEFE;
+}
+
+/****答案部分****/
+.answer{
+	width: 100%;
+	height: .35rem;
+	/*padding-left: 1.02rem;*/
+	margin-bottom: .28rem;
+}
+.answer ul{
+	height: .35rem;
+	display: flex;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	-webkit-justify-content: center;
+ 	 -moz-justify-content: center;
+  	-ms-justify-content: center;
+  	-o-justify-content: center;
+  	justify-content: center;
+}
+.answer li{
+	width: .35rem;
+	height: .35rem;
+	margin-right: 8px;
+	text-align: center;
+	line-height: .35rem;
+	float: left;
+	background: #FDD979;
+	color: #B76434;
+	border: 1px solid #7b3a15;
+	border-radius: 5px;
+	font-size: .16rem;
+	font-weight: bold;
+}
+.footer{
+	width: 100%;
+	overflow: hidden;
+	padding: 0 .1rem;
+}
+.footer li{
+	float: left;
+	width: .4rem;
+	height: .4rem;
+	background: url(../img/xuanbj.png);
+	background-size: 100% 100%;
+	margin-right: 0.05rem;
+	margin-bottom: 5px;
+	position:relative;
+}
+.footer li span{
+	display: inline-block;
+	width: 90%;
+	height: 90%;
+	background: url(../img/xuan.png);
+	background-size:100% 100% ;
+	line-height: .36rem;
+	text-align: center;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	font-weight: bold;
+}
+.disabled{pointer-events: none;}
+
+
+
+/***遮罩层样式开始***/
+/***回答问题正确遮罩层****/
+
+.MaskLayer{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	z-index: 100;
+	background:rgba(0,0,0,0.5);
+	display: none;
+	z-index: 100;
+}
+.mask{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	z-index: 100;
+	background:rgba(0,0,0,0.5);
+	display: none;
+	z-index: 100;
+}
+
+.okCon{
+	width: 2.92rem;
+	height: 3.5rem;
+	background: url(../img/jiangli.png);
+	background-size:100% 100%;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+}
+.okCon .da{
+	margin-top: .78rem;
+	height: .2rem;
+	font-size: .16rem;
+	text-align: center;
+	color: #B76434;
+}
+.okCon .reward{
+	width: .3rem;
+	height: .18rem;
+	line-height: .18rem;
+	color: #fff;
+	position: absolute;
+	bottom: 1.28rem;
+	left: 1.7rem;
+}
+.okCon .jd{
+	width: 100%;
+	padding-left: .38rem;
+	height: .18rem;
+	position: absolute;
+	bottom: .78rem;
+	font-size: .12rem;
+	color: #fcf0dc;	
+	padding-right: .36rem;
+	line-height: .18rem;
+}
+.okCon .jd .txt{
+	float: left;
+	width: .6rem;
+	height: .12rem;
+	background: url(../img/jdTxt.png) no-repeat;
+	background-size:100% ;
+	margin-top: 3px;
+}
+#pross{
+	width: 1.45rem;
+	height: .18rem;
+	background:url(../img/jindutiao.png) no-repeat;
+	background-size:100% 100%;
+	margin-bottom: 1%;
+	float: right;
+	overflow: hidden;
+	border-radius: 5px;
+	padding: 1px;
+	position: relative;
+}
+#pross .passJd{
+	width: 0;
+	height: .16rem;
+	background: url(../img/jdBg.png);
+	border-radius: 5px;
+}
+#pross .numFlag{
+	width: .3rem;
+	height: .16rem;
+	position: absolute;
+	top: 1px;
+	right: .3rem;
+}
+.okCon .btD{
+	position: absolute;
+	bottom: 8%;
+	width: 100%;
+	padding: 0 14%;
+}
+.btD .share{
+	width: .7rem;
+	height: .3rem;
+	background: url(../img/fenxiang.png);
+	background-size:100% 100% ;
+	float: left;
+}
+.btD .nextQ{
+	width: .7rem;
+	height: .3rem;
+	background: url(../img/xiayiti.png);
+	background-size:100% 100% ;
+	float: right;
+}
+
+/***点击答案按钮提示遮罩**/
+.answerCon{
+	width: 2.92rem;
+	height: 2.98rem;
+	position: absolute;
+	background: #F6C567;
+	left: .4rem;
+	top: 1.66rem;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+.answerCon .answerTipHead{
+	width: 100%;
+	height: .58rem;
+	background: url(../img/answerTipHead.png);
+	background-size:100% 100% ;
+	line-height: .58rem;
+	text-align: center;
+	font-size: .22rem;
+	color: #fff;
+}
+
+.answerCon .answerTipCon{
+	margin: .28rem 0 .38rem 0;
+	height: 100px;
+	width: 100%;
+}
+.answerCon .answerTipCon .amswerTxt{
+	width: 2.16rem;
+	height: 100%;
+	margin: 0 auto;
+	background: #F1A645;
+	border: 1px solid #CC7A11;
+	border-radius: 5px;
+	padding: 5%;
+	color: #fff;
+}
+.answerCon .answerTipFoot{
+	padding: 0 .38rem;
+	overflow: hidden;
+}
+.answerCon .answerBtnQx{
+	width: .74rem;
+	height: .3rem;
+	background: url(../img/quxiao.png);
+	background-size:100% 100% ;
+	float: left;
+	text-align: center;
+	line-height: .3rem;
+}
+.answerCon .answerBtnSure{
+	width: .74rem;
+	height: .3rem;
+	background: url(../img/queding.png);
+	background-size:100% 100% ;
+	float: right;
+	text-align: center;
+	line-height: .30rem;
+}
+/***答题按钮遮罩***/
+
+/***求助遮罩***/
+.helpMask .helpTipHead{
+	width: 100%;
+    height: .58rem;
+    background: url(../img/helpTipHead.png);
+    background-size: 100% 100%;
+}
+.helpMask .guideShare{
+    width: 3.3rem;
+    right: .22rem;
+    top: .15rem;
+    display: none;
+    position: absolute;
+}
+.helpMask .answerCon .helpPlatform{
+	padding: .2rem 6px .25rem 6px;
+}
+.helpMask .helpPlatform li{
+	float: left;
+	height: .52rem;
+	width: .37rem;
+	margin-right: .17rem;
+	background: #fff;
+}
+.helpMask .helpPlatform li:nth-child(1){
+	background: url(../img/pengyouquan.png);
+}
+.helpMask .helpPlatform li:nth-child(2){
+	background: url(../img/wenxin.png);
+}
+.helpMask .helpPlatform li:nth-child(3){
+	background: url(../img/QQ.png);
+}
+.helpMask .helpPlatform li:nth-child(4){
+	background: url(../img/weibo.png);
+	margin: 0;
+}
+/***提示遮罩****/
+.tipMask .tipHead{
+	width: 100%;
+    height: .58rem;
+    background: url(../img/tipHead.png);
+    background-size: 100% 100%;
+}
+/***升级遮罩弹窗****/
+.sjCon{
+	width: 2.92rem;
+	height: 3.2rem;
+	position: absolute;
+	top: 1.66rem;
+	left: .4rem;
+	background: #DD261B;
+	background-image: url(../img/guang.png);
+	background-size:100% 100% ;
+}
+.sjCon .sjHead{
+	width: 100%;
+	height: .58rem;
+	background: url(../img/sjTip.png);
+	background-size:100% 100% ;
+	line-height: .58rem;
+	color: #fff;
+	
+}
+.sjCon .sjTxt{
+	width: 1.28rem;
+	height: .38rem;
+	margin: 0 auto;
+	margin-top: .28rem;
+}
+.sjCon .sjImg{
+	width: .88rem;
+	height: .9rem;
+	margin: 0 auto;
+	background: url(../img/sjJr.png);
+}
+.sjcon .sjImg img{
+	width: 100%;
+	height: 100%;
+}
+.sjCon .sjHc{
+	height: .16rem;
+	width: 1.3rem;
+	background: url(../img/sjDs.png);
+	margin: 0 auto;
+	margin-top:6px ;
+	margin-bottom: .4rem;
+}
+.sjCon .line{
+	width: 2.38rem;
+	height: 2px;
+	background: #830700;
+	margin: 0 auto;
+}
+.sjCon .sjBtn{
+	width: 100%;
+	height: .3rem;
+	padding: 0 .36rem;
+	margin-top: .2rem;
+}
+.sjCon .sjBtn #sjShare{
+	height: .3rem;
+	width: .74rem;
+	float: left;
+	background: url(../img/guessFs.png);
+	background-size:100% 100% ;
+	color: #fff;
+	line-height: .3rem;
+}
+.sjCon .sjBtn #sjGo{
+	height: .3rem;
+	width: .74rem;
+	float: right;
+	background: url(../img/guessJx.png);
+	background-size:100% 100% ;
+	color: #fff;
+	line-height: .3rem;
+}
+
+
+/****闯关失败弹窗***/
+.failMask .failCon{
+	width: 3.1rem;
+	height: 3.2rem;
+	position: absolute;
+	top: 1.32rem;
+	left: .24rem;
+	background:url(../img/fail.png) ;
+}
+.failMask .onceMore{
+	display: block;
+	width: 1.86rem;
+	height: .5rem;
+	position: absolute;
+	top: 2.29rem;
+    left: .77rem;
+}
+
+
+/*****重新开始弹窗***/
+.reMask{
+	/*display: block !important;*/
+}
+.reMask .reHead{
+	width: 100%;
+    height: .58rem;
+    background: url(../img/tipHead.png);
+    background-size: 100% 100%;
+}
+.reMask .reTipFoot{
+	padding: 0 .38rem;
+    overflow: hidden;
+}
+.reMask .reTipFoot .reBtnQx{
+	width: .74rem;
+    height: .3rem;
+    background: url(../img/quxiao.png);
+    background-size: 100% 100%;
+    float: left;
+}
+.reMask .reTipFoot .reBtnSure{
+	width: .74rem;
+    height: .3rem;
+    background: url(../img/queding.png);
+    background-size: 100% 100%;
+    float: right;
+}
+
+
+.isTip .isTipOrAn{
+	margin: 0 auto;
+	width: .74rem;
+    height: .3rem;
+    background: url(../img/queding.png);
+    background-size: 100% 100%;
+}
+.isTip .tipHead {
+    width: 100%;
+    height: .58rem;
+    background: url(../img/tipHead.png);
+    background-size: 100% 100%;
+}

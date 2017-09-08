@@ -1,0 +1,54 @@
+<ion-view>
+	<ion-content class='cardNewBox'>
+		<div class="cardUnitBox" ng-repeat='card in cardShow.value' ng-click="goCard(card)">
+			<div class="cardNewUnit" style="background:{{card.card_temp_color}}">
+					<div class="cardNewInfo">
+							<span class="cardNewName">{{card.store}}</span>
+							<span class="cardNewStyle">{{card.card_type}}({{card.card_level}})</span>
+					</div>
+			</div>
+		</div>
+		<div class="cardUnitBox" ng-repeat='card in cardShow.count' ng-click="goCard(card)">
+			<div class="cardNewUnit" style="background:{{card.card_temp_color}}">
+					<div class="cardNewInfo">
+							<span class="cardNewName">{{card.store}}</span>
+							<span class="cardNewStyle">{{card.card_type}}({{card.card_level}})</span>
+					</div>
+			</div>
+		</div>
+		<div class="cardUnitBox" ng-repeat='card in cardShow.meal' ng-click="goNewClass(card)">
+			<div class="cardNewUnit" style="background:{{card.card_temp_color}}">
+					<div class="cardNewInfo">
+							<span class="cardNewName">{{card.store}}</span>
+							<span class="cardNewStyle">{{card.card_type}}({{card.card_level}})</span>
+					</div>
+			</div>
+		</div>
+		<div class="cardUnitBox" ng-repeat='card in cardShow.experience' ng-click="goNewClass(card)">
+			<div class="cardNewUnit" style="background:{{card.card_temp_color}}">
+					<div class="cardNewInfo">
+							<span class="cardNewName">{{card.store}}</span>
+							<span class="cardNewStyle">{{card.card_type}}({{card.card_level}})</span>
+					</div>
+			</div>
+		</div>
+		<div class="cardUnitBox" ng-repeat='card in cardShow.share' ng-click="goShareClass(card)">
+			<div class="cardNewUnit" style="background:{{card.card_temp_color}}">
+					<div class="cardNewInfo">
+							<span class="cardNewName">{{card.store}}</span>
+							<span class="cardNewStyle">{{card.card_type}}({{card.card_level}})</span>
+					</div>
+			</div>
+		</div>
+		<div class="noCards" ng-if="cardLength<=0">
+			<div class="noCardsUpter">
+				<i class="iconfont noCardsImg">&#xe611;</i>
+			</div>
+			<div class="noCardsUnder">
+				<p class="noCardsFont">您还没有属于自己的会员卡片哦！</p>
+				<p class="noCardsFont">快去添加一张吧！</p>
+			</div>
+		</div>
+		<div class="boteSide"></div>
+	</ion-content>
+</ion-view>

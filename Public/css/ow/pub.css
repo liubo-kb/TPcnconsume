@@ -1,0 +1,308 @@
+@charset "UTF-8";
+/**
+ *
+ * @authors Your Name (you@example.org)
+ * @date    2016-12-03 14:02:59
+ * @version $Id$
+ */
+body, form, ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, p, header, menu, footer, section, iframe, video, article, button {
+  margin: 0;
+  padding: 0; }
+
+html, body {
+  width: 100%;
+  height: 100%; }
+
+body {
+  min-width: 1140px;
+  font-size: 12px;
+  font-family: Microsoft Yahei, Avenir, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif;
+  background: #ffffff;
+  color: #666;
+  position: relative; }
+
+a {
+  outline: 0;
+  text-decoration: none; }
+
+img {
+  display: block;
+  width: 100%;
+  border: 0; }
+
+p {
+  word-break: break-all; }
+
+ul, li {
+  list-style: none; }
+
+.float_l {
+  position: relative;
+  float: left; }
+
+.float_r {
+  position: relative;
+  float: right; }
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table; }
+
+.clearfix:after {
+  clear: both; }
+
+#main {
+  width: 100%;
+  min-width: 1140px;
+  margin: 0 auto; }
+
+header {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  position: fixed;
+  top: 0;
+  z-index: 9; }
+
+.col-1140, .col-970, .col-912, .col-800, .col-684 {
+  width: 1140px;
+  margin: 0 auto;
+  position: relative; }
+
+.col-970 {
+  width: 970px; }
+
+.col-912 {
+  width: 912px; }
+
+.col-800 {
+  width: 800px; }
+
+.col-684 {
+  width: 684px; }
+
+#nav {
+  height: 100px; }
+  #nav .logo {
+    width: 216px;
+    height: 54px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -27px; }
+    #nav .logo a{
+      display: block;}
+  #nav .nav-item {
+    height: 26px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -13px; }
+    #nav .nav-item li {
+      width: auto;
+      height: 26px;
+      line-height: 26px;
+      position: relative;
+      display: inline-block;
+      margin-left: 94px;
+      font-size: 0;
+      }
+      #nav .nav-item li a {
+        display: block;
+        font-size: 16px;
+        color: #fff;
+        opacity: 0.8; }
+        #nav .nav-item li a.cur, #nav .nav-item li a:hover {
+          opacity: 1; }
+      #nav .nav-item li span {
+        width: 0;
+        height: 1px;
+        display: block;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background: #fff; }
+        #nav .nav-item li span.nav-in {
+          -webkit-animation:navin .5s 0s ease both;
+             -moz-animation:navin .5s 0s ease both;
+              -ms-animation:navin .5s 0s ease both;
+               -o-animation:navin .5s 0s ease both;
+                  animation:navin .5s 0s ease both; }
+        #nav .nav-item li span.nav-out {
+          -webkit-animation:navout .5s 0s ease both;
+             -moz-animation:navout .5s 0s ease both;
+              -ms-animation:navout .5s 0s ease both;
+               -o-animation:navout .5s 0s ease both;
+                  animation:navout .5s 0s ease both; }
+  #nav .nav-item-y li a.cur, #nav .nav-item-y li a:hover {
+    color: #ffd900; }
+  #nav .nav-item-y li span {
+    background: #ffd900; }
+  #nav .nav-item-w li a {
+    color: #414141; }
+    #nav .nav-item-w li a.cur, #nav .nav-item-w li a:hover {
+      color: #ffd900; }
+  #nav .nav-item-w li span {
+    background: #ffd900; }
+
+.bgc-w {
+  background: #fff; }
+
+footer {
+  width: 100%;
+      height: 310px;
+  background: #191919; }
+
+.fbar {
+    position: relative;
+    padding: 60px 0 26px; }
+  .fbar .fbar-num {
+    height: 70px;
+    border: 1px solid #303030;
+    border-radius: 10px; }
+  .fbar .fcnt {
+    /*width: 270px;*/
+    margin: 0 auto;
+    text-align: center; }
+    .fbar .fcnt .fcnt-social {
+      text-align: center; }
+      .fbar .fcnt .fcnt-social a {
+        display: inline-block;
+        width: 24px;
+        height: 22px;
+        background: url("../images/social_icon.png"); }
+        .fbar .fcnt .fcnt-social a#weibo {
+          margin-right: 22px;
+          background-position: 0 0; }
+        .fbar .fcnt .fcnt-social a#wechat {
+          background-position: -24px 0; }
+    .fbar .fcnt .fbar-logo {
+      width: 325px;
+      height: 72px;
+      margin: 0 auto; }
+  .fbar .qrcode-warp {
+    width: 72px; }
+
+.finfo {
+  padding: 12px 0 18px;
+  font-size: 12px;
+  color: #a3a3a3;
+  text-align: center; }
+ .finfo.text1 {    padding: 12px 0 6px;}
+.finfo.text2{
+      padding: 0px 0 18px;
+}
+.ficp {
+  border-top: 1px solid #2b2b2b; }
+  .ficp .finfo {
+    height: 50px;
+    line-height: 50px;
+    padding: 0; }
+
+.num, .mt-number-animate {
+  line-height: 70px;
+  height: 70px;
+  /*设置数字显示高度*/
+  font-size: 30px;
+  /*设置数字大小*/
+  overflow: hidden;
+  display: inline-block;
+  position: relative; }
+
+.num, .mt-number-animate .mt-number-animate-dot {
+  width: 28px;
+  /*设置分割符宽度*/
+  line-height: 70px;
+  float: left;
+  text-align: center; }
+
+.num, .mt-number-animate .mt-number-animate-dom {
+  width: 28px;
+  /*设置单个数字宽度*/
+  text-align: center;
+  float: left;
+  position: relative;
+  top: 0; }
+
+.mt-number-animate .mt-number-animate-dom .mt-number-animate-span {
+  width: 100%;
+  float: left; }
+
+.num, .mt-number-animate-span {
+  border-right: 1px solid #303030;
+  font-family: DINOffcPro-CondBold; }
+
+.wechat-qrcode{
+  position: absolute;
+  width: 140px;
+  height: 140px;
+  top: 24px;
+  left: 50%;
+  margin-left: -75px;
+  z-index: 9;
+  display: none;}
+@-webkit-keyframes navin{
+0%{width: 0;}
+100%{width: 100%;}
+}
+@-moz-keyframes navin{
+0%{width: 0;}
+100%{width: 100%;}
+}
+@-ms-keyframes navin{
+0%{width: 0;}
+100%{width: 100%;}
+}
+@-o-keyframes navin{
+0%{width: 0;}
+100%{width: 100%;}
+}
+@keyframes navin{
+0%{width: 0;}
+100%{width: 100%;}
+}
+@-webkit-keyframes navout{
+0%{width: 100%;}
+100%{width: 0;}
+}
+@-moz-keyframes navout{
+0%{width: 100%;}
+100%{width: 0;}
+}
+@-ms-keyframes navout{
+0%{width: 100%;}
+100%{width: 0;}
+}
+@-o-keyframes navout{
+0%{width: 100%;}
+100%{width: 0;}
+}
+@keyframes navout{
+0%{width: 100%;}
+100%{width: 0;}
+}
+.special-con {
+  width: 100%;
+  height: 1080px;
+  background: url(../images/special/img.jpg);
+  background-position: top center; }
+@-webkit-keyframes fadeIn{
+  0%{opacity:0}
+  100%{opacity:1}
+}
+@-moz-keyframes fadeIn{
+  0%{opacity:0}
+  100%{opacity:1}
+}
+@-ms-keyframes fadeIn{
+  0%{opacity:0}
+  100%{opacity:1}
+}
+@-o-keyframes fadeIn{
+  0%{opacity:0}
+  100%{opacity:1}
+}
+@keyframes fadeIn{
+  0%{opacity:0}
+  100%{opacity:1}
+}

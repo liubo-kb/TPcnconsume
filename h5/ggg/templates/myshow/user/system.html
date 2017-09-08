@@ -1,0 +1,28 @@
+<ion-view class="systemBox">
+	<ion-header-bar class="systemHead">
+		<div class="sysHeadBox">
+			<span class="sysHeadBack" ng-click="back()">
+				<i class="icon ion-chevron-left"></i>
+			</span>
+			<span class="sysHeadTitle">系 统 头 像</span>
+		</div>
+		<div class="sysCentBox">
+			<div class="sysImgBox">
+				<img class="sysImg" id="sysImg" ng-src="img/head_{{data.img}}.png" alt="头像"/>
+			</div>
+		</div>
+	</ion-header-bar>
+	<ion-content class="systemBody">
+		<div class="systemInfo">
+			<span class="sysImgSide" ng-repeat ="img in imgs" ng-click="getImg(img)">
+				<img class="sysHeadImg" ng-src="img/head_{{img}}.png"/>
+			</span>
+		</div>
+	</ion-content>
+	<ion-footer-bar class="systemFoot">
+		<div class="sysFootBox">
+			<span class="sysFootLef" ng-click="back()">取消</span>
+			<span class="sysFootRht" ng-click="main()">确认</span>
+		</div>
+	</ion-footer-bar>
+</ion-view>	

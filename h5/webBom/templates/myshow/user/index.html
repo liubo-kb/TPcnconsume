@@ -1,0 +1,99 @@
+<ion-view  class='myBox'>
+ 	<ion-header-bar align-title="center">
+	    <div class="buttons">
+	        <button class="button bgff" ng-click="goMyShow()">
+	            <i class="icon ion-chevron-left"></i>
+	        </button>
+	    </div>
+    	<h1 class="title">资 料</h1>
+	</ion-header-bar>
+ 	<ion-content class='main'>
+		<div class='myShow1 plt2'>
+			<a href='#/setuser/昵称/nickname' class='goItem'>
+				<span>
+					<i class="iconfont fn20 corff8">&#xe604;</i>
+					<span class='itemName fn16'>昵称</span>
+      				<b class='fn12'>{{userInfo.nickname}}</b>
+				</span>
+      			<i class="icon ion-ios-arrow-right cord7"></i>
+			</a>
+			<a href='#/setuser/地址/address' class='goItem'>
+				<span>
+					<i class="iconfont fn20 cor28">&#xe647;</i>
+					<span class='itemName fn16'>地址</span>
+      				<b class='fn12'>{{userInfo.address}}</b>
+				</span>
+      			<i class="icon ion-ios-arrow-right cord7"></i>
+			</a>
+			<a href='#/setuser/邮箱/mail' class='goItem'>
+				<span>
+					<i class="iconfont fn20 cor4b">&#xe60e;</i>
+					<span class='itemName fn16'>邮箱</span>
+      				<b class='fn12'>{{userInfo.mail}}</b>
+				</span>
+      			<i class="icon ion-ios-arrow-right cord7"></i>
+			</a>
+			<a href='#/setother/0/性别/sex' class='goItem'>
+				<span>
+					<i class="iconfont fn20 cor88">&#xe684;</i>
+					<span class='itemName fn16'>性别</span>
+      				<b class='fn12'>{{userInfo.sex}}</b>
+				</span>
+      			<i class="icon ion-ios-arrow-right cord7"></i>
+			</a>
+			<a href='#/setselect/生日/age' class='goItem'>
+				<span>
+					<i class="iconfont fn20 cora71">&#xe6b4;</i>
+					<span class='itemName fn16'>生日</span>
+      				<b class='fn12'>{{userInfo.age}}</b>
+				</span>
+      			<i class="icon ion-ios-arrow-right cord7"></i>
+			</a>
+			<a href='#/work' class='goItem'>
+				<span>
+					<i class="iconfont fn20 cor12">&#xe60a;</i>
+					<span class='itemName fn16'>职业</span>
+      				<b class='fn12'>{{userInfo.occupation}}</b>
+				</span>
+      			<i class="icon ion-ios-arrow-right cord7"></i>
+			</a>
+			<a href='#/setother/1/教育/education' class='goItem'>
+				<span>
+					<i class="iconfont fn20 cor42">&#xe615;</i>
+					<span class='itemName fn16'>教育</span>
+      				<b class='fn12'>{{userInfo.education}}</b>
+				</span>
+      			<i class="icon ion-ios-arrow-right cord7"></i>
+			</a>
+			<a href='#/setother/2/婚姻/mate' class='goItem'>
+				<span>
+					<i class="iconfont fn20 core8">&#xe6ce;</i>
+					<span class='itemName fn16'>婚姻</span>
+      				<b class='fn12'>{{userInfo.mate}}</b>
+				</span>
+      			<i class="icon ion-ios-arrow-right cord7"></i>
+			</a>
+			<a href='#/setuser/爱好/hobby' class='goItem'>
+				<span>
+					<i class="iconfont fn20 core2">&#xe62a;</i>
+					<span class='itemName fn16'>爱好</span>
+      				<b class='fn12'>{{userInfo.hobby}}</b>
+				</span>
+      			<i class="icon ion-ios-arrow-right cord7"></i>
+			</a>
+			<a href='#/lastPass' class='goItem'>
+				<span>
+					<i class="iconfont fn20 cord5">&#xe670;</i>
+					<span class='itemName fn16'>密码管理</span>
+      				<b class='fn12'></b>
+				</span>
+      			<i class="icon ion-ios-arrow-right cord7"></i>
+			</a>
+		</div>
+	</ion-content>
+	<ion-footer-bar>
+		<div class='last'>
+			<div class='myChu' ng-click="quit()">退 出 当 前 账 号</div>
+		</div>
+	</ion-footer-bar>
+</ion-view>

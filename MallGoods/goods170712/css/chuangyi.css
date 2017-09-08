@@ -1,0 +1,114 @@
+.box{
+	width:100%;
+	height:100%;
+}
+
+img{
+	width:100%;
+	display:block;
+}
+
+.twoSide{
+	width:100%;
+	
+}
+
+.twoSide .twoSideHead{
+	width:100%;
+	line-height:.36rem;
+	font-size:.2rem;
+	font-weight:bold;
+	text-align: center;
+}
+
+.twoSide .twoSideFont{
+	width:100%;
+	line-height:.24rem;
+	font-size:.16rem;
+	text-align: center;
+	color:#7b7b7b;
+}
+
+.twoSide .twoSideInfo{
+	width:100%;
+	text-align: center;
+	line-height:.2rem;
+	font-size:.12rem;
+	color:#939393;
+}
+
+.threeSide .threeSideHead{
+	width:100%;
+	line-height:.4rem;
+	font-size:.24rem;
+	text-align:center;
+	font-weight:bold;
+	letter-spacing: 1px;
+}
+
+.threeSide .threeSideFont{
+	width:100%;
+	line-height:.2rem;
+	text-align: center;
+	font-size:.12rem;
+	color:#b3b3b3;
+}
+
+.threeSide .threeSideFont .threeSideStyle{
+	font-size:.18rem;
+}
+
+.headSide{
+	width:100%;
+	height:.3rem;
+	line-height:.3rem;
+}
+
+.headSide .headSideFont{
+	width:2.4rem;
+	height:100%;
+	background: #e4e4e4;
+}
+
+.headSide .headSideFont .headSideInfo{
+	font-size:.16rem;
+	font-weight:bold;
+	padding-left:.3rem;
+}
+
+.headSide .headSideFont .headSideStyle{
+	font-size:.12rem;
+	color:#696969;
+}
+
+.fourSide{
+	width:100%;
+	height:2.68rem;
+	padding:.1rem;
+	display:flex;
+	display:-webkit-flex;
+	justify-content: space-between;
+	-webkit-justify-content: space-between;
+}
+
+.fourSide .fourLefSide{
+	width:48%;
+	height:2.48rem;
+}
+
+.fourSide .fourLefSide .fourSideImg{
+	width:100%;
+	height:100%;
+}
+
+
+.fourSide .fourRhtSide{
+	width:48%;
+	height:2.48rem;
+}
+
+
+.fourSide .fourRhtSide .fourSideFont{
+	font-size:.12rem;
+	border-bottom:1px solid #aaa;
+}

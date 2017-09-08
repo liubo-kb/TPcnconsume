@@ -1,0 +1,38 @@
+<ion-view  class='myBox'>
+ 	<ion-header-bar class="bge2" align-title="center">
+	    <div class="buttons">
+	        <button class="button bge2 corf" ng-click="back()">
+	            <i class="icon ion-chevron-left"></i>
+	        </button>
+	    </div>
+    	<h1 class="title corf">我的消费</h1>
+    	<div class="buttons">
+	        <button class="button button-icon corf"
+	          ng-click="data.showDelete = !data.showDelete; data.showReorder = false">
+	          		删除
+	        </button>
+     	 </div>
+	</ion-header-bar>
+	<ion-content class='shopBox'>
+			<ion-list show-delete="data.showDelete" show-reorder="data.showReorder">
+
+	        	<ion-item ng-repeat="item in getMyShop" 
+	                  item="item"
+	                  href="#/trade/{{item}}" class="item-remove-animate">
+	                <ion-delete-button class="ion-minus-circled" 
+		                             ng-click="onItemDelete(item)">
+		          	</ion-delete-button>
+		          	<div class='shopList'>
+		            	<div class='shInfo'>
+							<span class='shopName'>{{item.content | strSubName}}</span>
+							<span class='shopMoney'>{{item.content | strSubMon}}&nbsp;&nbsp;{{item.content | strSubUnit}}</span>
+						</div>
+						<div class='shopStude'>{{item.state | strSubState}}</div>
+						<div class="shopDate">{{item.datetime}}</div>
+					</div>
+	        	</ion-item>
+	
+	     </ion-list>
+	</ion-content>
+</ion-view>
+

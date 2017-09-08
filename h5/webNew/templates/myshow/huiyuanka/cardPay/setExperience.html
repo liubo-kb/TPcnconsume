@@ -1,0 +1,19 @@
+<ion-view class="experBox">
+	<ion-header-bar class="bge2" align-title="center">
+	    <div class="buttons">
+	        <button class="button bge2 corf" ng-click="back()">
+	            <i class="icon ion-chevron-left"></i>
+	        </button>
+	    </div>
+    	<h1 class="title corf">体验卡支付</h1>
+	</ion-header-bar>
+	<ion-content class='bgf0'>
+		<div class="experItem">
+			<span class="experLftSide">支付金额：</span>
+			<span class="experRhtSide">{{id.price}}元</span>
+		</div>
+	</ion-content>
+	<ion-footer-bar>
+		<div class="experBtn" ng-click="goExper(id)">支 付</div>
+	</ion-footer-bar>
+</ion-view>

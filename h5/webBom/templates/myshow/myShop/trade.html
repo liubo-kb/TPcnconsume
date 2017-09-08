@@ -1,0 +1,21 @@
+<ion-view  class='myBox'>
+ 	<ion-header-bar class="bge2" align-title="center">
+	    <div class="buttons">
+	        <button class="button bge2 corf" ng-click="back()">
+	            <i class="icon ion-chevron-left"></i>
+	        </button>
+	    </div>
+    	<h1 class="title corf">交易记录</h1>
+	</ion-header-bar>
+	<ion-content>
+		<div class="tradeBox">
+			<ul class="tradeList">
+				<li class='tradeInfo tradeHead'><span class='fn16'>{{trade.content | strSubSumName}}</span><b class='fn16'>{{trade.content | strSubMon}} {{trade.content | strSubUnit}}</b></li>
+				<li class='tradeInfo'><span class='fn14'>{{trade.content | strSubStyle}}</span><span class='fn12'>{{trade.content | strSubMon}}</span></li>
+				<li class='tradeInfo'><span class='fn14'>交易状态</span><span class='fn12'>已完成</span></li>
+				<li class='tradeInfo'><span class='fn14'>交易时间</span><span class='fn12'>{{trade.datetime}}</span></li>
+				<li class='tradeInfo'><span class='fn14'>支付方式</span><span class='fn12'>{{trade.content | strSubCard}}</span></li>
+			</ul>
+		</div>
+	</ion-content>
+</ion-view>

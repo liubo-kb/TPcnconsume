@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>玩游戏赢大奖</title>
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="../css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/guide.css"/>
+	</head>
+	<body>
+		<div class="guideBox">
+			<div class="img01">
+				<img src="../img/guide01.png"/>
+			</div>
+			<!--<div class="img02">
+				<img src="../img/guide02.jpg"/>
+			</div>-->
+			<div class="footer bs">
+				<div class="goGameBtn" id="btn_game"></div>
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript">
+		document.getElementById("btn_game").onclick=function(){
+			window.location="zhuceLg.php?re="+getUrl();
+		}
+		window.onload = function() {
+			var XHR = null;
+			if(window.XMLHttpRequest) {
+				// 非IE内核  
+				XHR = new XMLHttpRequest();
+			} else if(window.ActiveXObject) {
+				// IE内核,这里早期IE的版本写法不同,具体可以查询下  
+				XHR = new ActiveXObject("Microsoft.XMLHTTP");
+			} else {
+				XHR = null;
+			}
+		
+			if(XHR) {
+				XHR.open("GET", "../../../App/Extra/game/click");
+		
+				XHR.onreadystatechange = function() {
+					if(XHR.readyState == 4 && XHR.status == 200) {
+						console.log(XHR.responseText);
+						// 主动释放,JS本身也会回收的  
+						XHR = null;
+						localStorage.setItem("click","false");
+					}
+				};
+				XHR.send();
+			}
+		}
+		function getUrl(){
+			var tjr=location.href;
+			if(tjr.indexOf("?")==-1){
+				return " ";
+			}else{
+				var str=tjr.substr(tjr.indexOf("?")+1);
+				var num=str.indexOf("=");
+				var iph=str.substring(num+1);
+				return iph;
+			}
+		}
+	</script>
+</html>

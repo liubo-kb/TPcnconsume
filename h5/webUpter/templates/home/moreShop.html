@@ -1,0 +1,52 @@
+<ion-view  class='myBox'>
+ 	<ion-header-bar align-title="center">
+	    <div class="buttons">
+	        <button class="button" ng-click="back()">
+	            <i class="icon ion-chevron-left"></i>
+	        </button>
+	    </div>
+    	<h1 class="title">更多商品</h1>
+	</ion-header-bar>
+	<ion-content>
+			<div class="groom bgff">
+				<div class='groomContainer'>
+				<div class='groomBox' ng-repeat='str in sto'>
+					<div href="#/facts/{{str}}" class='groomList'>
+						<div class="groomLeft">
+							<img class='groomImg' ng-src="../../Public/Uploads/addImage/{{str.image_url}}"/>
+						</div>
+						<div class="groomRght">
+							<p class='groomNameBox'>
+								<span class="groomName">{{str.store}}</span>
+								<span class='groomRange'>距离{{str | numRang}}km</span>
+							</p>
+							<p class='groomCoupon'>
+								<span class='groomStore'>
+									<i class='break'>折</i>
+									<i class='present'>赠</i>
+									<i class='ticket'>券</i>
+								</span>
+							</p>
+							<p class='groomInfo'>
+							   <span star rating-value="str.stars" max="max" readonly="true"></span>&nbsp;|&nbsp;<span class='sale'>已售{{str.sold}}笔</span>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+	  		</div>
+			<div class="moreShopList">
+				<div class="goodsList" ng-repeat="goods in storeInfo.commodity_list">
+					<div class="goodsImgBox"><img class="goodsImg" ng-src="../../Public/Uploads/commodity/{{goods.image_url}}"/></div>
+					<div class="goodsFontBox">
+						<p class="goodsName">{{goods.name}}</p>
+						<p class="goodsInfoBox">
+							<span class="goodsPrice">￥{{goods.price}}/份</span>
+							<span class="goodsWeight">约300克</span>
+						</p>
+						<p class="goodsUsable"><span class="memberShip">会员卡可用</span><span class="couponAble">优惠券可用</span></p>
+					</div>
+				</div>
+			</div>
+	</ion-content>
+</ion-view>

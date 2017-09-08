@@ -1,0 +1,16 @@
+<ion-view class="newView">>
+	<ion-content class="bgf0">
+		<div class="myChange" ng-repeat="side in inteData">
+			<div class="myChangeImgBox">
+				<img class="myChangeImg" ng-src="../../Public/Uploads/mall/goodsImage/{{side.image_url}}"/>
+			</div>
+			<div class="myChangeFontBox">
+				<div class="myChangeFont">
+					<span class="myChangeCont">{{side.name}}</span>
+					<span class="myChangeBtn">{{side.tip}}</span>
+				</div>
+				<div class="myChangeDate">{{side.datetime}}</div>
+			</div>
+		</div>
+	</ion-content>
+</ion-view>

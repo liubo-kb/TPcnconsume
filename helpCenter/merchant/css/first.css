@@ -1,0 +1,117 @@
+html,body{
+	width:100%;
+	height:100%;
+}
+
+*{
+	box-sizing:border-box;
+}
+
+@media screen and (min-width: 320px) {
+    html {
+        font-size: 100px;
+    }
+}
+ 
+@media screen and (min-width: 360px) {
+    html {
+        font-size: 112.5px;
+    }
+}
+ 
+@media screen and (min-width: 400px) {
+    html {
+        font-size: 125px;
+    }
+}
+ 
+@media screen and (min-width: 440px) {
+    html {
+        font-size: 137.5px;
+    }
+}
+ 
+@media screen and (min-width: 480px) {
+    html {
+        font-size: 150px;
+    }
+}
+ 
+@media screen and (min-width: 640px) {
+    html {
+        font-size: 200px;
+    }
+}
+ 
+html {
+    font-size: 31.25vw;
+}
+
+body{
+	margin: 0;
+	font-size:.14rem;
+	line-height:2;
+	-webkit-tap-highlight-color:transparent;
+	font-family:"微软雅黑",Helvetica Neue , Helvetica , STHeiTi , sans-serif;
+}
+
+ul , li , ol, h1 , h2 , h3 , h4 , h5 , h6 , p , figure , form , fieldset , input , legend , textarea , button ,dl,dt,dd, blockquote , th , tr , td ,xmp {
+	padding:0;
+	margin:0;
+}
+
+
+.fn14{
+	font-size:.14rem;
+}
+
+.plt1{
+	padding-left:.1rem;
+}
+
+.prt1{
+	padding-right:.1rem;
+}
+
+
+
+@font-face {
+	font-family:"iconfont";
+	src: url("../font/iconfont.ttf") format("truetype"),url("../font/iconfont.woff") format("woff");
+}
+.bot{
+	flex: 2;
+	text-align: center;
+}
+.apa{
+	  display: inline-block;
+	  text-align: left;
+	  padding-left: .2rem;
+	  
+	  flex: 8;
+  }
+  .bs{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	text-decoration: none;
+	color: #000000;
+	line-height: .44rem;
+	border-bottom: 1px solid #CCCCCC;
+}
+.box{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.total p{
+	white-space:normal;
+}
+.pur{
+	font-size: .18rem;
+	font-weight: 600;
+}
+.word{
+	font-size: .12rem;
+}

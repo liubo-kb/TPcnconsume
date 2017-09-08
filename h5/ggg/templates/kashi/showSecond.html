@@ -1,0 +1,24 @@
+<ion-modal-view class="cardBackBox">
+    <ion-content>
+      	<div class="backShow">
+      		<div class="backShowHead">
+      			<span class="icon ion-ios-close-empty backHeadBtn" ng-click="second.hide()"></span>
+      			<span class="backHeadTitle">支付方式</span>
+      		</div>
+      		<div class="backShowBody">
+      			<div class="backPay">
+      				<div class="backPayLef">
+		  				<i class="iconfont backPayStyle">&#xe617;</i>
+		  				<span class="payMethod">微信支付</span>
+      				</div>
+      				<i class="icon ion-checkmark-circled backPayRht"></i>
+      			</div>
+      			<div class="backAmount">
+      				<span class="backAmountLef">支付金额:</span>
+      				<span class="backAmountRht">{{myCard.card_remain*rate | number:2}}元</span>
+      			</div>
+      			<div class="backPayBtn" ng-click="payMent(myCard,myCard.card_remain*rate)">付款</div>
+      		</div>
+      	</div>
+    </ion-content>
+</ion-modal-view>

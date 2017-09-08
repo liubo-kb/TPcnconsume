@@ -1,0 +1,66 @@
+<ion-view class='myQuanBox'>
+	<ion-header-bar align-title="center" class="myCouponHead">
+	    <div class="buttons">
+	        <button class="button bgff" ng-click="goGoods()">
+	            <i class="icon ion-chevron-left"></i>
+	        </button>
+	    </div>
+    	<h1 class="title">我的优惠券</h1>
+	</ion-header-bar>
+	<ion-content class='bgf0 myQuan'>
+		<div class='couPonSide tce corccc mtp5' ng-if='getMyQuan.length<=0'>
+			<i class="couponStyle iconfont">&#xe60c;</i>
+			<p>没有可用优惠券哦</p>
+		</div>
+		<div class="myCouponBox" ng-repeat="myQu in getMyQuan | filter:func">
+			<div class="myCouponList" ng-click="getMerQuan(myQu)">
+				<div class="myCouponUpter">
+					<div class="myUpterLft">
+						<div class="myCouponImgBox">
+							<img class="myCouponImg" ng-src="../../Public/Uploads/addImage/{{myQu.image_url}}"/>
+						</div>
+						<div class="myCouponFont">
+							<p class="myCouponName">{{myQu.store}}</p>
+							<p class="myCouponInfoBox">
+								<span class="myCouponStyle">满减券</span>
+								<span class="myCouponCondition">满{{myQu.pri_condition}}元可用</span>
+							</p>
+							<p class="myCouponDate">{{myQu.date_start}}~{{myQu.date_end}}</p>
+						</div>
+					</div>
+					<div class="myUpterRht">
+						<p class="myCouponSumBox">
+							<span class="myCouponSum">{{myQu.sum}}</span>
+							<span class="myCouponUnit">元</span>
+						</p>
+						<i class="icon ion-chevron-right myCouponRight"></i>
+					</div>
+					<div class="myLineBox">
+						<img class='myLineImg' ng-src="img/{{myQu.coupon_type}}.png" alt="线上/线下" />
+					</div>
+				</div>
+			</div>
+			<div class="myCouponUnder">
+				<div class="myCouponShow" ng-click="openInfo($index)">
+					<span class="myCouponBot">详情</span>
+					<span class="plt1">
+						<i class="icon ion-arrow-up-b" ng-if="getMyQuan[$index].showData"></i>
+						<i class="icon ion-arrow-down-b" ng-if="!getMyQuan[$index].showData"></i>
+					</span>
+				</div>
+				<div id="myCouponWordBox" ng-if="getMyQuan[$index].showData">
+					{{myQu.content}}
+				</div>
+			</div>
+		</div>
+	</ion-content>
+	<ion-footer-bar class="footSide">
+		<a class="footBtn" href="#/disQuan">
+			<span>查看不可用优惠券</span>
+			<span class="plt1">
+				<i class="icon ion-chevron-right"></i>
+				<i class="icon ion-chevron-right"></i>
+			</span>
+		</a>
+	</ion-footer-bar>
+</ion-view>

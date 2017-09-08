@@ -1,0 +1,45 @@
+<ion-view>
+ 	<ion-header-bar align-title="center">
+	    <div class="buttons">
+	        <button class="button bgff" ng-click="back()">
+	            <i class="icon ion-chevron-left"></i>
+	        </button>
+	    </div>
+    	<h1 class="title">支付成功</h1>
+	</ion-header-bar>
+	<ion-content class='paySuceBox'>
+		<div class="paySuce">
+			<div class="paySuceUpter">
+				<div class="paySuceHead">
+					<div class="payHeadSide">
+						<i class="icon ion-ios-checkmark payHeadMark"></i>
+						<span class="payHeadFont">支付成功</span>
+					</div>
+					<div class="payBotSide" ng-if="myCard.card_type == '储值卡'">
+						<span class="payBotUnit">￥</span>
+						<span class="payMoney">{{resultSum | number:2}}</span>
+					</div>
+				</div>
+				<div class="paySuceCenter">
+					<div class="payUpterSide">
+						<i class="iconfont payMarkStore">&#xe602;</i>
+						<span class="paySuceName">{{myCard.store}}</span>
+						<i class="icon ion-chevron-right payStoreMark"></i>
+					</div>
+					<div class="payUnderSide">
+						<div class="payShop fn14">消费卡种：{{myCard.card_type}}</div>
+						<div class='payShop payRhtShop fn14'>支付方式：会员卡</div>
+					</div>
+					<div class="payUnderSide">
+						<span class='payShop fn12'>{{beforePrice}}</span>
+						<span class="payShop payRhtShop fn12" ng-if="myCard.card_type == '储值卡'">优惠价：{{resultSum | number:2}}</span>
+					</div>
+				</div>
+			</div>
+			<div class="paySuceUnder">
+				<a href="#/myShop" class="paySuceBtn">查看消费</a>
+				<div class="paySuceBtn" ng-click="goBack()">返回首页</div>
+			</div>
+		</div>
+	</ion-content>
+</ion-view>

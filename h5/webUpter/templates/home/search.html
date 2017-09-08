@@ -1,0 +1,56 @@
+<ion-view>
+	<ion-header-bar class="bar addHeadBox">
+      	<span class="icon ion-ios-close-empty addBtn" ng-click="back()"></span>
+        <span class="addFont">商铺搜索</span>
+   </ion-header-bar>
+	<ion-content class='seaContBox'>
+		<div class="seaHeadBox">
+		  <label class="item-input-wrapper seaBox">
+	        <i ng-hide="data.shops" class="icon ion-ios-search placeholder-icon seaImg"></i>
+	        <input type="search" class='sea'  placeholder="请输入商铺" ng-model='data.shops'>
+	      </label>
+	      <button class="button button-clear"  ng-click='getStore(data.shops)'>
+	    	 搜索
+	  	  </button>
+		</div>
+		<div ng-if="flag==0">
+			<div class='serList'>
+				<span>浏览历史</span>
+				<div ng-click="detHis()"><i class="icon ion-trash-a serImg"></i></div>
+			</div>
+			<div class='hisBox delete history'>
+				<a class='addSer' ng-repeat="item in hisSer | unique:'muid'" href='#/facts/{{item.muid}}'>{{item.store}}</a>
+			</div>
+		</div>
+		<div class="groom bgff" ng-if="flag==1">
+			<div class='groomContainer'>
+				<div class='groomBox' ng-repeat='str in stores'>
+					<div class='groomList' ng-click="goFacts(str)">
+						<div class="groomLeft">
+							<img class='groomImg' ng-src="../../Public/Uploads/addImage/{{str.image_url}}"/>
+						</div>
+						<div class="groomRght">
+							<p class='groomNameBox'>
+								<span class="groomName">{{str.store}}</span>
+								<span class='groomRange'>距离{{str | numRang}}km</span>
+							</p>
+							<p class='groomCoupon'>
+								<span class='groomStore'>
+									<i class='fontInfo disColor' ng-if="str.pri.discount=='yes'">折</i>
+									<i class='fontInfo addColor' ng-if="str.pri.add=='yes'">赠</i>
+									<i class='fontInfo couColor' ng-if="str.pri.coupon=='yes'">券</i>
+									<i class="fontInfo insColor" ng-if="str.pri.insure=='yes'">保</i>
+								</span>
+							</p>
+							<p class='groomInfo'>
+							   <span star rating-value="str.stars" max="max" readonly="true"></span>&nbsp;|&nbsp;<span class='sale'>已售{{str.sold}}笔</span>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+  		</div>
+  		<div class="serBotSide" ng-if="flag=='2'">搜索结果为空</div>
+	</ion-content>
+</ion-view>
+

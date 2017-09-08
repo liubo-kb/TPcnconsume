@@ -1,0 +1,31 @@
+<ion-modal-view class="cardBackBox">
+    <ion-content>
+      	<div class="backShow">
+      		<div class="backShowHead">
+      			<span class="icon ion-ios-close-empty backHeadBtn" ng-click="ceng.hide()"></span>
+      			<span class="backHeadTitle">支付方式</span>
+      		</div>
+      		<div class="backShowBody">
+      			<div class="backPay">
+      				<div class="backPayLef">
+		  				<i class="iconfont backPayStyle">&#xe617;</i>
+		  				<span class="payMethod">微信支付</span>
+      				</div>
+      				<i class="icon ion-checkmark-circled backPayRht"></i>
+      			</div>
+      			<div class="backSum">
+      				<span class="backSumFont">输入支付金额：</span>
+      				<div class="backSumBox"><input type="number" ng-model="data.sum" class="backSumInfo" placeholder="请输入消费金额"/></div>
+      			</div>
+      			<div class="backPrice">
+      				<div class="backPriceLef">
+      					<span class="backPriceInfo">折后价格：{{data.sum*rule | number:2}}</span>
+      					<span class="backPriceInfo">手续费({{rate}}%):{{data.sum*rate*0.01 | number:2}}</span>
+      				</div>
+      				<div class="backPriceRht">实际支付：{{data.sum*rule+data.sum*rate*0.01 | number:2}}</div>
+      			</div>
+      			<div class="backPayBtn" ng-click="payMent(data.sum,data.sum*rule,data.sum*rate*0.01)">付款</div>
+      		</div>
+      	</div>
+    </ion-content>
+</ion-modal-view>

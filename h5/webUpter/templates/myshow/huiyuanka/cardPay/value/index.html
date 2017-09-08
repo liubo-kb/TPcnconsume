@@ -1,0 +1,41 @@
+<ion-view class="amountBox">
+ 	<ion-header-bar align-title="center">
+	    <div class="buttons">
+	        <button class="button bgff" ng-click="back()">
+	            <i class="icon ion-chevron-left"></i>
+	        </button>
+	    </div>
+    	<h1 class="title">储值卡支付</h1>
+	</ion-header-bar>
+	<ion-content class="amount" scroll="false"> 
+		<div class="amountHead">
+			<span class="amountHeadItem">输入金额</span>
+			<div class="amountHeadFont">
+				<div class="amountHeadMark">￥:</div>
+				<div class="amountHeadEntry">
+					<input type="number" class="amountHeadSum" ng-model="data.sum"/>
+				</div>
+			</div>
+			<span class="amountHeadInfo">请按商铺原价输入消费金额</span>
+		</div>
+		<div class="amountBody">
+			<div class="amountBodyItem">
+				<span class="amountBodyFont">折扣力度:</span>
+				<span class="amountBodyFont">{{myCard.rule}}%</span>
+			</div>
+			<div class="amountBodyItem">
+				<span class="amountBodyFont">优惠金额:</span>
+				<span class="amountBodyFont">￥:{{data.sum-myCard.rule*data.sum/100 | number:2}}元</span>
+			</div>
+			<div class="amountBodyItem">
+				<span class="amountBodyFont">实际消费金额:</span>
+				<span class="amountBodyFont">
+					￥:<b class="amountBodySum">{{myCard.rule*data.sum/100 | number:2}}</b>元
+				</span>
+			</div>
+		</div>
+	</ion-content>
+	<ion-footer-bar>
+		<div class="amountBtn" ng-click="goAmount(data.sum)">支 付</div>
+	</ion-footer-bar>
+</ion-view>

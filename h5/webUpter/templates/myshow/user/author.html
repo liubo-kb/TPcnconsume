@@ -1,0 +1,24 @@
+<ion-view>
+	<ion-header-bar align-title="center">
+	    <div class="buttons">
+	        <button class="button bgff" ng-click="back()">
+	            <i class="icon ion-chevron-left"></i>
+	        </button>
+	    </div>
+    	<h1 class="title">实 名 认 证</h1>
+	</ion-header-bar>
+	<ion-content class="authBox" scroll="false">
+		<div class="authSide">
+			<div class="auth">
+				<span class="authName"><i class="iconfont authMark">&#xe648;</i></span>
+				<input class="authInfo" type="text" placeholder="请输入您的真实姓名" ng-model='data.name'/>
+			</div>
+			<div class="auth">
+				<span class="authName"><i class="iconfont authMark">&#xe62c;</i></span>
+				<input class="authInfo" type="text" placeholder="请输入18位身份证号码" ng-model='data.id'/>
+			</div>
+			<div class="authFont">认证成功后,才能在商消乐平台购买会员卡</div>
+			<div class="authBtn" ng-click="subAuth(data.name,data.id)">提交认证</div>
+		</div>
+	</ion-content>
+</ion-view>	

@@ -1,0 +1,109 @@
+<ion-view class="myCoupon">
+ 	<ion-header-bar align-title="center" class="myCouponHead">
+	    <div class="buttons">
+	        <button class="button bgff" ng-click="goShow()">
+	            <i class="icon ion-chevron-left"></i>
+	        </button>
+	    </div>
+    	<h1 class="title">我的优惠券</h1>
+	</ion-header-bar>
+	<ion-tabs class="tabs-top tabs-light tabs-color-assertive tabs-striped">
+		<ion-tab title="商户优惠券">
+			<ion-view class='myQuanBox'>
+				<ion-content class='bgf0 myQuan'>
+					<ion-refresher pulling-text="下拉刷新" on-refresh="doRefresh()"></ion-refresher>
+					<div class='couPonSide tce corccc mtp5' ng-if='getMyQuan.length<=0'>
+						<i class="couponStyle iconfont">&#xe60c;</i>
+						<p>没有可用优惠券哦</p>
+					</div>
+					<div class="myCouponBox" ng-repeat="myQu in getMyQuan">
+						<a class="myCouponList" href='#/cash/{{myQu}}'>
+							<div class="myCouponUpter">
+								<div class="myUpterLft">
+									<div class="myCouponImgBox">
+										<img class="myCouponImg" ng-src="../../Public/Uploads/addImage/{{myQu.image_url}}"/>
+									</div>
+									<div class="myCouponFont">
+										<p class="myCouponName">{{myQu.store}}</p>
+										<p class="myCouponInfoBox">
+											<span class="myCouponStyle">满减券</span>
+											<span class="myCouponCondition">满{{myQu.pri_condition}}元可用</span>
+										</p>
+										<p class="myCouponDate">{{myQu.date_start}}~{{myQu.date_end}}</p>
+									</div>
+								</div>
+								<div class="myUpterRht">
+									<p class="myCouponSumBox">
+										<span class="myCouponSum">{{myQu.sum}}</span>
+										<span class="myCouponUnit">元</span>
+									</p>
+									<i class="icon ion-chevron-right myCouponRight"></i>
+								</div>
+								<div class="myLineBox">
+									<img class='myLineImg' ng-src="img/{{myQu.coupon_type}}.png" alt="线上/线下" />
+								</div>
+							</div>
+						</a>
+						<div class="myCouponUnder">
+							<div class="myCouponShow" ng-click="openInfo($index)">
+								<span class="myCouponBot">详情</span>
+								<span class="plt1">
+									<i class="icon ion-arrow-up-b" ng-if="getMyQuan[$index].showData"></i>
+									<i class="icon ion-arrow-down-b" ng-if="!getMyQuan[$index].showData"></i>
+								</span>
+							</div>
+							<div id="myCouponWordBox" ng-if="getMyQuan[$index].showData">
+								{{myQu.content}}
+							</div>
+						</div>
+					</div>
+						<ion-infinite-scroll ng-if="!hasmore" on-infinite="loadMore()" distance="1%"></ion-infinite-scroll>
+				</ion-content>
+				<ion-footer-bar class="footSide">
+					<a class="footBtn" href="#/disQuan">
+						<span>查看不可用优惠券</span>
+						<span class="plt1">
+							<i class="icon ion-chevron-right"></i>
+							<i class="icon ion-chevron-right"></i>
+						</span>
+					</a>
+				</ion-footer-bar>
+			</ion-view>
+		</ion-tab>
+		<ion-tab title="商消乐优惠券">
+			<ion-view>
+				<ion-content class='shangCouponBox'>
+					<div class='couPonSide tce corccc mtp5' ng-if='getCoupon.length<=0'>
+						<i class="couponStyle iconfont">&#xe60c;</i>
+						<p>没有可用优惠券哦</p>
+					</div>
+					<div class="shangCouponSide">
+						<div class="shangCoupon" ng-repeat="unit in getCoupon">
+							<div class="shangCouponUpter">
+								<div class="shangLef">
+									<div class="shangImgBox">
+										<img class="shangImg" src="img/coupon.png"/>
+									</div>
+								</div>
+								<div class="shangCenter">
+									<span class="shangName">{{unit.coupon_type}}券</span>
+									<span class="shangDate">{{unit.date_start}}~{{unit.date_end}}</span>
+								</div>
+								<div class="shangMoneyBox">
+									<span class="shangMoney">{{unit.sum}}</span>
+									<span class="shangMoneyUnit">元</span>
+								</div>
+							</div>
+							<div class="shangCouponUnder">
+								满{{unit.pri_condition}}元{{unit.content}}
+							</div>
+							<div class="shangMarkBox">
+								<img class='shangMarkImg' src="img/ONLINE.png" alt="线上" />
+							</div>
+						</div>
+					</div>
+				</ion-content>
+			</ion-view>
+		</ion-tab>
+	</ion-tabs>
+</ion-view>

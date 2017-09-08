@@ -1,0 +1,36 @@
+<ion-view class="tradeBox">
+ 	<ion-header-bar align-title="center" class="tradeHeaderBot">
+	    <div class="buttons">
+	        <button class="button bgff" ng-click="back()">
+	            <i class="icon ion-chevron-left"></i>
+	        </button>
+	    </div>
+    	<h1 class="title">交易详情</h1>
+	</ion-header-bar>
+	<ion-content>
+		<div class="trade">
+			<div class="tradeHead">
+				<span class="tradeHeadItem">付款金额</span>
+				<span class="tradeHeadItem">{{trade.sum}}元</span>
+			</div>
+			<div class="tradeBody">
+				<div class="tradeItem" ng-repeat="unit in tradeCont">
+					<span class="tradeItemInfo">{{unit.item}}</span>
+					<span class="tradeItemInfo">{{unit.value}}</span>
+				</div>
+				<div class="tradeItem">
+					<span class="tradeItemInfo">交易状态</span>
+					<span class="tradeItemInfo">已完成</span>
+				</div>
+				<div class="tradeItem">
+					<span class="tradeItemInfo">交易时间</span>
+					<span class="tradeItemInfo">{{trade.datetime}}</span>
+				</div>
+				<div class="tradeItem">
+					<span class="tradeItemInfo">支付方式</span>
+					<span class="tradeItemInfo">会员卡支付</span>
+				</div>
+			</div>
+		</div>
+	</ion-content>
+</ion-view>

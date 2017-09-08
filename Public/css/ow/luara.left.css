@@ -1,0 +1,103 @@
+/*\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+ luara
+ version 0.1  2014-8-21
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+/*左滑*/
+.example2 {position:relative;
+	padding:0;
+	overflow: hidden;}
+.example2  ul{position: relative;
+	padding: inherit;
+	margin: 0;}
+.example2  ul li{
+	float: left;
+	padding: inherit;
+	margin: inherit;
+	list-style: none;}
+.example2  ul li img{
+	width: 100%;
+	height: 100%;}
+	#register b{
+	color:#F00;
+	margin-left: 335px;
+}
+
+
+.example2 ol{
+	position:relative;
+	width: 80px;
+	height: 20px;
+	top:-30px;
+	left:650px;}
+.example2 ol li{
+	float:left;
+	width: 10px;
+	height: 10px;
+	margin: 5px;
+	border-radius: 9999px;
+	background: #fff;}
+@charset "utf-8";
+*{ margin: 0; padding: 0;}
+body {
+	margin: 0;
+	font: 12px/22px "Microsoft YaHei", 
+	Arial, Helvetica, sans-serif;
+	text-align: center;
+	color: #000;
+	background: #fff;
+}
+ol, ul ,li {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+} 
+img {
+	border: 0; 
+	vertical-align: middle;
+}
+a {
+	color: #000;
+	text-decoration: none; 
+}  
+a:hover {
+	text-decoration: underline;
+}
+
+
+.header{
+	width: 100%;
+	height: 74px;
+	margin: 0 auto;
+	padding-top: 42px;
+	text-align: left;
+}
+.header-f{
+	height: 80px;
+	line-height: 80px;
+	border-bottom: 1px solid #969696;
+	background-color: #fff;
+	text-align: left;
+	padding-left: 35px;
+}
+.dot{
+	color: #535353;
+	padding: 0 5px 0 20px;
+	font-size: 12px;
+}
+
+.headbar{
+	height: 45px;
+	line-height: 45px;
+	border-bottom: 1px solid #969696;
+	text-align: right;
+	padding: 0 55px;
+}
+.headbar p{
+	float: left;
+	font-size: 16px;
+	color: #383838;
+}
+.headbar a{
+	font-size: 14px;
+	color: #757575;
+}

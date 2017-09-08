@@ -1,0 +1,30 @@
+<ion-view>
+ 	<ion-header-bar class="bge2" align-title="center">
+	    <div class="buttons">
+	        <button class="button bge2 corf" ng-click="back()">
+	            <i class="icon ion-chevron-left"></i>
+	        </button>
+	    </div>
+    	<h1 class="title corf">我的红包</h1>
+    	<div class='corf button bge2' ng-click="deposit(getRed.sum)">提现</div>
+	</ion-header-bar>
+	<ion-content class='redPage'>
+			<div class='myPage bgf0f corf tce'>
+				<img class='useImg' ng-src="../../Public/Uploads/headImage/{{headimage | strSubImg}}"/>
+				<p class='core3'>{{getRed.sum}}元</p>
+			</div>
+			<ion-scroll>
+				<ul class='pageInfo'>
+					<li class='pageList' ng-repeat="redPage in getRed.record">
+						<p class='pageOne'>
+							<span class='pageZhu'>{{redPage.tip}}</span>
+							<span class='pageCount'>{{redPage.sum}}</span>
+						</p>
+						<p class='pageTwo'>
+							<span class='pageDate'>{{redPage.datetime}}</span>
+						</p>
+					</li>
+				</ul>
+			</ion-scroll>
+	</ion-content>
+</ion-view>

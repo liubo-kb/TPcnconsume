@@ -1,0 +1,52 @@
+<ion-view>
+	<ion-header-bar class="bge2" align-title="center">
+	    <div class="buttons">
+	        <button class="button bge2 corf" ng-click="setBank(data.bank)">
+	            <i class="icon ion-chevron-left"></i>
+	        </button>
+	    </div>
+    	<h1 class="title corf">选择银行卡</h1>
+    	<div class="buttons">
+	        <button class="button button-icon corf"
+	          ng-click="data.showDelete = !data.showDelete; data.showReorder = false">
+	          		删除
+	        </button>
+     	 </div>
+	</ion-header-bar>
+	<ion-content class='ionic-pseudo chooseBank'>
+      <ion-list show-delete="data.showDelete" show-reorder="data.showReorder">
+        <div class="item item-divider fn14">
+        	到账银行
+        </div>
+        <ion-item ng-repeat="item in bankCard"
+	                 class="item-remove-animate">
+            <ion-delete-button class="ion-minus-circled"
+                             ng-click="onItemDelete(item)">
+          	</ion-delete-button>
+      		<ion-radio
+        	ng-model="data.bank"
+        	ng-checked="data.bank"
+        	ng-value="item"
+        	name="side">
+        	{{item.bank}}({{item.number | numStr}})
+        	</ion-radio>
+	    </ion-item>
+
+        <!--<ion-radio
+        	ng-repeat="item in bankCard"
+        	ng-model="data.bank"
+        	ng-value="item"
+        	name="side"
+        	ng-click="setBank(data.bank)">
+        	{{item.bank}}({{item.number | numStr}})
+        </ion-radio>-->
+		<ion-radio
+        	ng-model="data.bank"
+        	ng-value="item"
+        	name="side"
+        	ng-click="setBank(data.bank)">
+        	{{item}}
+        </ion-radio>
+      </ion-list>
+	</ion-content>
+</ion-view>

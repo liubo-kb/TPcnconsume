@@ -1,0 +1,47 @@
+<ion-view class="orderBox">
+ 	<ion-header-bar align-title="center">
+	    <div class="buttons">
+	        <button class="button bgff" ng-click="back()">
+	            <i class="icon ion-chevron-left"></i>
+	        </button>
+	    </div>
+    	<h1 class="title">我要预约</h1>
+    	<a class='button bgff' href="#/bespeak/{{muid}}/{{uuid}}">查看</a>
+	</ion-header-bar>
+	<ion-content class='order' scroll="false">
+		<div class="list">
+			<div class="item item-input item-select">
+				<div class="input-label orderName">
+					预约项目
+				</div>
+				<select ng-model='data.secet'>
+					<option class="orderName">选择预约项目</option>
+					<option ng-repeat='unit in getItem'>{{unit.name}}</option>
+				</select>
+			</div>
+			<div class="item orderItem">
+				<span class='orderName'>预约日期</span>
+	        	<time-picker  class='sideRight orderDate' hidetime="true" yearstart="2017" yearend="2019" time-picker-result="data.result" format="yyyy-MM-dd ">
+			</div>
+			<div class="item item-input item-select">
+				<div class="input-label orderName">
+					预约时间
+				</div>
+				<select ng-model='data.sectime'>
+					<option selected class="orderName">选择预约时间</option>
+					<option>09:00-10:00</option>
+					<option>10:00-11:00</option>
+					<option>11:00-12:00</option>
+					<option>12:00-13:00</option>
+					<option>13:00-14:00</option>
+					<option>14:00-15:00</option>
+					<option>16:00-17:00</option>
+					<option>17:00-18:00</option>
+				</select>
+			</div>
+		</div>
+		<div class="orderBtnBox">
+			<div class="orderBtn" ng-click="setSubmit(data.secet,data.result,data.sectime)">提交预约</div>
+		</div>
+	</ion-content>
+</ion-view>

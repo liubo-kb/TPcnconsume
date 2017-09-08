@@ -1,0 +1,123 @@
+<ion-view class="personBox">
+ 	<ion-header-bar align-title="center">
+	    <div class="buttons">
+	        <button class="button bgff" ng-click="goMyShow()">
+	            <i class="icon ion-chevron-left"></i>
+	        </button>
+	    </div>
+    	<h1 class="title">个人信息</h1>
+	</ion-header-bar>
+ 	<ion-content class='user'>
+		<div class='userBox'>
+			<div class="userHead">
+				<input type="file" id="choose" accept="image/*" class="userUpload" ng-click="show()">
+				<div class="userImgBox">
+					<img class="userImg" ng-src="../../Public/Uploads/headImage/{{userInfo.headimage | strSubImg}}"/>
+				</div>
+				<a href="#/system" class="userHeadFont">系统推荐</a>
+			</div>
+			<div class="userList">
+				<div class="userItem" ng-click="goAuthor(userInfo.state)">
+					<span class="userName">实名认证</span>
+					<div class="userSide">
+						<span class="userInfo">{{userInfo.state | userState}}</span>
+						<i class="icon ion-ios-arrow-right userRht"></i>
+					</div>
+				</div>
+				<a class="userItem" href="#/setuser/昵称/nickname">
+					<span class="userName">昵称</span>
+					<div class="userSide">
+						<span class="userInfo">{{userInfo.nickname}}</span>
+						<i class="icon ion-ios-arrow-right userRht"></i>
+					</div>
+				</a>
+				<div class="userItem">
+					<span class="userName">性别</span>
+					<div class="userSexSide">
+						<div class="userSexBox" ng-click="setSex('男')">
+							<i class="userMark icon ion-ios-checkmark" ng-if="sex == '男'"></i>
+	    					<i class="userNotMark icon ion-ios-circle-outline" ng-if="sex != '男'"></i>
+	    					<span class="userSex">男</span>
+						</div>
+						<div class="userSexBox" ng-click="setSex('女')">
+							<i class="userMark icon ion-ios-checkmark" ng-if="sex == '女'"></i>
+	    					<i class="userNotMark icon ion-ios-circle-outline" ng-if="sex != '女'"></i>
+	    					<span class="userSex">女</span>
+						</div>
+					</div>
+				</div>
+				<a class="userItem" href="###">
+					<span class="userName">手机号</span>
+					<div class="userSide">
+						<span class="userInfo">15129025534</span>
+						<i class="icon ion-ios-arrow-right userRht"></i>
+					</div>
+				</a>
+				<a class="userItem" href="#/setuser/邮箱/mail">
+					<span class="userName">邮箱</span>
+					<div class="userSide">
+						<span class="userInfo">{{userInfo.mail}}</span>
+						<i class="icon ion-ios-arrow-right userRht"></i>
+					</div>
+				</a>
+			</div>
+			<div class="userList">
+				<a class="userItem" href="#/setuser/地址/address">
+					<span class="userName">地址</span>
+					<div class="userSide">
+						<span class="userInfo">{{userInfo.address}}</span>
+						<i class="icon ion-ios-arrow-right userRht"></i>
+					</div>
+				</a>
+				<a class="userItem" href="#/setselect/生日/age">
+					<span class="userName">生日</span>
+					<div class="userSide">
+						<span class="userInfo">{{userInfo.age}}</span>
+						<i class="icon ion-ios-arrow-right userRht"></i>
+					</div>
+				</a>
+				<a class="userItem" href="#/work">
+					<span class="userName">职业</span>
+					<div class="userSide">
+						<span class="userInfo">{{userInfo.occupation}}</span>
+						<i class="icon ion-ios-arrow-right userRht"></i>
+					</div>
+				</a>
+				<a class="userItem" href="#/setother/1/教育/education">
+					<span class="userName">教育</span>
+					<div class="userSide">
+						<span class="userInfo">{{userInfo.education}}</span>
+						<i class="icon ion-ios-arrow-right userRht"></i>
+					</div>
+				</a>
+				<a class="userItem" href="#/setother/2/婚姻/mate">
+					<span class="userName">婚姻</span>
+					<div class="userSide">
+						<span class="userInfo">{{userInfo.mate}}</span>
+						<i class="icon ion-ios-arrow-right userRht"></i>
+					</div>
+				</a>
+				<a class="userItem" href="#/lover">
+					<span class="userName">爱好</span>
+					<div class="userSide">
+						<span class="userInfo">{{userInfo.hobby}}</span>
+						<i class="icon ion-ios-arrow-right userRht"></i>
+					</div>
+				</a>
+				<a class="userItem" href="#/lastPass">
+					<span class="userName">密码管理</span>
+					<div class="userSide">
+						<span class="userInfo"></span>
+						<i class="icon ion-ios-arrow-right userRht"></i>
+					</div>
+				</a>
+			</div>
+		</div>
+		<div class="boteSide"></div>
+	</ion-content>
+	<ion-footer-bar>
+		<div class='userBtnBox'>
+			<div class='userBtnBox' ng-click="quit()">退 出 当 前 账 号</div>
+		</div>
+	</ion-footer-bar>
+</ion-view>

@@ -1,0 +1,31 @@
+<ion-view class="newView">
+	<ion-content>
+		<ion-refresher pulling-text="下拉刷新" on-refresh="doRefresh()"></ion-refresher>
+		<div class="ticketBox" ng-repeat="market in getMarket">
+			<div class="ticketImgBox">
+				<img class="ticketImg" ng-src="../../Public/Uploads/addImage/{{market.image_url}}"/>
+				<span class="ticketMark">
+					<img class="ticketMarkImg" ng-src="img/{{market.coupon_type}}.png"/>
+				</span>
+			</div>
+			<div class="ticketFontBox">
+				<div class="ticketUpter">
+					<div class="tickHead">
+						<div class="ticketName">{{market.store}}</div>
+						<div class="ticketInfo">减{{market.sum}}元代金券</div>
+					</div>
+					<div ng-class="market.received=='true' ? 'whiteMark' : 'redMark'" ng-click="draw(market)">{{market.received | markFont}}</div>
+				</div>
+				<div class="ticketCenter">
+					<span class="tickPrice">{{market.sum}}元</span>
+					<span class="tickCont">满{{market.pri_condition}}元可用</span>
+				</div>
+				<div class="ticketUnder">
+					<span class="tickName">{{market.store}}</span>
+					<span class="tickDist">{{market | numRang}}km</span>
+				</div>
+			</div>
+		</div>
+		<ion-infinite-scroll ng-if="!hasmore" on-infinite="loadMore()" distance="1%"></ion-infinite-scroll>
+	</ion-content>
+</ion-view>

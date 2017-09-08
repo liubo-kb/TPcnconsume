@@ -1,0 +1,37 @@
+<ion-view view-title='用户评价'>
+	<ion-header-bar align-title="center">
+	    <div class="buttons">
+	        <button class="button" ng-click="back()">
+	            <i class="icon ion-chevron-left"></i>
+	        </button>
+	    </div>
+    	<h1 class="title">用户评价</h1>
+	</ion-header-bar>
+	<ion-content class='info'>
+		<div class='manSay'>
+			<ul class="manSaySide">
+				<li class="manSayList" ng-repeat='say in moreAssess'>
+					<div class="manSayTop">
+						<div class="manSayLft">
+							<div class="manImgBox">
+								<img class="manImgSide" ng-src="../../Public/Uploads/headImage/{{say.headimage | strSubImg}}"/>
+							</div>
+							<div class="manFontSide">
+								<p class="manName">{{say.nickname}}</p>
+								<p class="manDateSide">{{say.datetime}}</p>
+							</div>
+						</div>
+						<div class="manSayRht">
+							<div class="manStartBox">
+								<span star rating-value="say.stars" max="max" readonly="true"></span>
+							</div>
+						</div>
+					</div>
+					<div class="manSayBot">
+						<p class="manSayInfo">{{say.content}}</p>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</ion-content>
+</ion-view>

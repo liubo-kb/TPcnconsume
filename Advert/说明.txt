@@ -1,0 +1,5 @@
+1.jiankang : 健康养生；
+2.meiye    : 美业丽人；
+3.muying   : 母婴亲子；
+4.shenghuo : 生活服务；
+5.xiuxian  : 休闲娱乐；

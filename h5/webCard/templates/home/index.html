@@ -1,0 +1,81 @@
+<ion-view view-title='首页' class='home'>
+	<ion-header-bar class="bar item-input-inset headBox">
+	  <div class='locationSide' ng-click="modal.show()">
+	  	<span class='locationImg'></span>
+	  	<span id='demo'>{{newAdd}}</span>
+	  	<span class='locationMore'></span>
+	  	<span id="allMap"></span>
+	  </div>
+	 <a class='searchSide'  href="#/search">
+	      <label class="item-input-wrapper">
+	        <i class="icon ion-ios-search placeholder-icon"></i>
+	        <input type="search" readonly="readonly" placeholder="搜索附近店铺">
+	      </label>
+      </a>
+	</ion-header-bar>
+	<ion-content class="contBox">
+		 <!--下拉刷新-->  
+		<!--<ion-refresher pulling-text="下拉刷新" on-refresh="vm.doRefresh()"></ion-refresher>-->
+		<ion-refresher pulling-text="下拉刷新" on-refresh="doRefresh()"></ion-refresher>
+		<div class='hotSide'>
+			<ul class='hotList'>
+				<ion-hot class='hotContainer active'>热门</ion-hot>
+				<ion-hot class='hotContainer'>美容</ion-hot>
+				<ion-hot class='hotContainer'>美发</ion-hot>
+				<ion-hot class='hotContainer'>养发</ion-hot>
+				<ion-hot class='hotContainer'>美甲美瞳</ion-hot>
+				<ion-hot class='hotContainer'>洗衣</ion-hot>
+				<ion-hot class='hotContainer'>医药</ion-hot>
+				<ion-hot class='hotContainer'>皮革养护</ion-hot>
+			</ul>
+		</div>
+		<div class='banner'>
+			<ion-slide-box on-slide-changed="slideHasChanged($index)">
+			  <ion-slide>
+			    <a class="playSide" href="#/integral">
+			    	<img src="img/banner1.jpg"/>
+			    </a>
+			  </ion-slide>
+			  <ion-slide>
+			    <a class="playSide" href="#/integral">
+			    	<img src="img/banner2.jpg"/>
+			    </a>
+			  </ion-slide>
+			</ion-slide-box>
+		</div>
+		<div class='groom'>
+			<div class='groomHead'>
+			   <span class='groomFont'>优店推荐</span>
+			</div>
+			<div class='groomContainer'>
+				<div class='groomBox' ng-repeat='str in storeList'>
+					<div class='groomList' ng-click="goFacts(str)">
+						<div class="groomLeft">
+							<img class='groomImg' ng-src="../../Public/Uploads/addImage/{{str.image_url}}"/>
+						</div>
+						<div class="groomRght">
+							<p class='groomNameBox'>
+								<span class="groomName">{{str.store}}</span>
+								<span class='groomRange'>距离{{str.distance | strRang}}</span>
+							</p>
+							<p class='groomCoupon'>
+								<span class='groomStore'>
+									<i class='fontInfo disColor' ng-if="str.pri.discount=='yes'">折</i>
+									<i class='fontInfo addColor' ng-if="str.pri.add=='yes'">赠</i>
+									<i class='fontInfo couColor' ng-if="str.pri.coupon=='yes'">券</i>
+									<i class="fontInfo insColor" ng-if="str.pri.insure=='yes'">保</i>
+								</span>
+							</p>
+							<p class='groomInfo'>
+							   <span star rating-value="str.stars" max="max" readonly="true"></span>&nbsp;|&nbsp;<span class='sale'>已售{{str.sold}}笔</span>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="boteSide" ng-if="storeList.length<=0">暂时没有数据哦！</div>
+			</div>
+		</div>
+      <!-- ion-infinite-scroll 上拉加载数据指令 distance默认1% nf-if的值为false时，就禁止执行on-infinite  -->
+    <ion-infinite-scroll ng-if="!hasmore" on-infinite="loadMore()" distance="10%"></ion-infinite-scroll>
+	</ion-content>
+</ion-view>

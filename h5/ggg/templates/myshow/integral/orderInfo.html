@@ -1,0 +1,50 @@
+<ion-view class="orderInfo">
+ 	<ion-header-bar align-title="center">
+	    <div class="buttons">
+	        <button class="button bgff" ng-click="back()">
+	            <i class="icon ion-chevron-left"></i>
+	        </button>
+	    </div>
+    	<h1 class="title">订单详情</h1>
+	</ion-header-bar>
+	<ion-content class="bgf0">
+		  <div class="orderHead">
+		  	<div class="orderHeadImgBox">
+		  		<img class="orderHeadImg" ng-src="../../Public/Uploads/mall/goodsImage/{{side.image_url}}"/>
+		  	</div>
+		  	<div class="orderHeadFont">
+		  		<div class="orderHeadName">
+		  			{{side.name}}
+		  		</div>
+		  		<div class="orderHeadInfo">
+		  			<span class="orderSum">{{side.price}}</span>
+		  			<span class="orderUnit">积分</span>
+		  		</div>
+		  	</div>
+		  </div>
+		  <div class="orderCenter">
+		  	<span class="orderCenterLef">数量</span>
+		  	<span class="orderCenterRht">x1</span>
+		  </div>
+		  <a class="orderUnder" href="#/chooseAdd" ng-if="getAddData != null">
+		  	<div class="orderUnderSide">收货人：{{getAddData.name}}</div>
+		  	<div class="orderUnderWay">
+		  		<span class="orderUnderPhone">联系方式：{{getAddData.phone}}</span> 
+		  		<i class="icon ion-chevron-right"></i>
+		  	</div>
+		  	<div class="orderUnderSide">收货地址:{{getAddData.address}}</div>
+		  </a>
+		  <a class="orderLast" href="#/chooseAdd" ng-if="getAddData == null">
+		  	<span>添加收货地址</span>
+		  	<i class="icon ion-chevron-right"></i>
+		  </a>
+	</ion-content>
+	<ion-footer-bar class="orderFoot">
+		<div class="orderFootLef">
+			<span class="orderFootName">实际支付：</span>
+			<span class="orderFootSum">{{side.price}}</span>
+			<span class="orderFootUnit">积分</span>
+		</div>
+		<div class="orderFootRht" ng-click="imPay(side,getAddData)">立即支付</div>
+	</ion-footer-bar>
+</ion-view>

@@ -1,0 +1,55 @@
+ <ion-view view-title="卡市" class='cengBox'>
+ 	<ion-header-bar align-title="center">
+	    <div class="buttons">
+	        <button class="button bgff" ng-click="back()">
+	            <i class="icon ion-chevron-left"></i>
+	        </button>
+	    </div>
+    	<h1 class="title">蹭卡详情页</h1>
+	</ion-header-bar>
+ 	<ion-content class='secondCard'>
+  	  <div class="seCardBox">
+  	  	<div class="cardUpter">
+  	  		<div class="cardInfoHead">
+  	  			<div class="cardInfoImgBox">
+  	  				<img class="cardInfoImg" ng-src="../../Public/Uploads/headImage/{{myCard.headimage | strSubImg}}"/>
+  	  			</div>
+  	  			<div class="cardInfoFontBox">
+  	  				<div class="cardInfoFont">
+  	  					<span class="cardNickName">{{myCard.nickname}}</span>
+  	  					<span class="cardFontPrice">￥{{myCard.card_remain}}</span>
+  	  				</div>
+  	  				<div class="cardFontDate">{{myCard.datetime | dateStr}}&nbsp;发布</div>
+  	  			</div>
+  	  		</div>
+  	  		<div class="cardInfoBody">
+  	  			<span class="cardRedOpear">【分享】</span>
+  	  			<span class="cardContainer">现有{{myCard.store}}{{myCard.card_remain}}元{{myCard.card_level}}{{myCard.card_type}}一张({{myCard.rule/10}}折卡),需要的朋友尽快下手,手续费仅({{myCard.rate}}%)</span>
+  	  		</div>
+  	  		<div class="cardInfoFoot">
+  	  			<div class="cardStyleBox" style="background:{{myCard.card_temp_color}};">
+  	  				<span class='cardInfoVip'>VIP</span>
+  	  				<span class="cardInfoLevel">{{myCard.card_level}}</span>
+  	  			</div>
+  	  			<div class="cardWhite"></div>
+  	  		</div>
+  	  	</div>
+  	  	<div class="cardUnder" ng-click="goFacts(myCard)">
+  	  		<div class="cardLefSide">
+  	  			<i class="iconfont cardRedMark">&#xe602;</i>
+  	  			<span class="cardInfoStore">{{myCard.store}}</span>
+  	  			<span class="cardInfoClass">{{myCard.trade}}</span>
+  	  		</div>
+  	  		<div class="cardRhtSide">
+  	  			<i class="icon ion-chevron-right"></i>
+  	  		</div>
+  	  	</div>
+  	  </div>
+ 	</ion-content>
+ 	<ion-footer-bar class='payInfo'>
+		<div class='showSide trt prt1 lht36'></div>
+		<div class='btnSide bge2 corf' ng-click="show()">我 想 要</div>
+ 	</ion-footer-bar>
+ </ion-view>
+ 
+ 

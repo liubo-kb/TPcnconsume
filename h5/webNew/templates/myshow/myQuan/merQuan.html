@@ -1,0 +1,61 @@
+<!--<ion-view  class='myQuanBox'>
+	<ion-content class='bgf0 myQuan'>
+		<ion-refresher pulling-text="下拉刷新" on-refresh="doRefresh()"></ion-refresher>
+		<div class='couPonSide tce corccc mtp5' ng-if='getMyQuan.length<=0'>
+			<i class="couponStyle iconfont">&#xe60c;</i>
+			<p>没有可用优惠券哦</p>
+		</div>
+		<div class="myCouponBox" ng-repeat="myQu in getMyQuan">
+			<a class="myCouponList" href='#/cash/{{myQu}}'>
+				<div class="myCouponUpter">
+					<div class="myUpterLft">
+						<div class="myCouponImgBox">
+							<img class="myCouponImg" ng-src="../../Public/Uploads/addImage/{{myQu.image_url}}"/>
+						</div>
+						<div class="myCouponFont">
+							<p class="myCouponName">{{myQu.store}}</p>
+							<p class="myCouponInfoBox">
+								<span class="myCouponStyle">满减券</span>
+								<span class="myCouponCondition">满{{myQu.pri_condition}}元可用</span>
+							</p>
+							<p class="myCouponDate">{{myQu.date_start}}~{{myQu.date_end}}</p>
+						</div>
+					</div>
+					<div class="myUpterRht">
+						<p class="myCouponSumBox">
+							<span class="myCouponSum">{{myQu.sum}}</span>
+							<span class="myCouponUnit">元</span>
+						</p>
+						<i class="icon ion-chevron-right myCouponRight"></i>
+					</div>
+					<div class="myLineBox">
+						<img class='myLineImg' ng-src="img/{{myQu.coupon_type}}.png" alt="线上/线下" />
+					</div>
+				</div>
+				<div class="myCouponUnder">
+					<span class="myCouponDetails">详情:{{myQu.content}}</span>
+				</div>
+				<div class="myCouponWordBox">
+					<p class="myCouponWord">1.仅支持线下使用;</p>
+					<p class="myCouponword">2.可参与店内任何商品支付时使用;</p>
+				</div>
+			</a>
+		</div>
+			<ion-infinite-scroll ng-if="!hasmore" on-infinite="loadMore()" distance="1%"></ion-infinite-scroll>
+	</ion-content>
+	<ion-footer-bar class="footSide">
+		<a class="footBtn" href="#/disabled">
+			<span>查看不可用优惠券</span>
+			<span class="plt1">
+				<i class="icon ion-chevron-right"></i>
+				<i class="icon ion-chevron-right"></i>
+			</span>
+		</a>
+	</ion-footer-bar>
+</ion-view>-->
+	
+<ion-view>
+	<ion-content>
+		商户优惠券
+	</ion-content>
+</ion-view>

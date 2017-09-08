@@ -1,0 +1,28 @@
+<ion-modal-view class="payPassBox">
+	<ion-content class="passWordBox">
+		<div class="payShow">
+			<div class="payShowHead">
+      			<span class="icon ion-ios-close-empty payHeadBtn" ng-click="payPass.hide()"></span>
+      			<span class="payHeadTitle">请输入支付密码</span>
+	      	</div>
+	      	<div class="payShowBody">
+	      		<div class="wrap">
+				  <div class="inputBoxContainer" id="payPassInput">
+				    <input type="text" class="realInput"/>
+				    <div class="bogusInput">
+				      <input type="password" maxlength="6" disabled/>
+				      <input type="password" maxlength="6" disabled/>
+				      <input type="password" maxlength="6" disabled/>
+				      <input type="password" maxlength="6" disabled/>
+				      <input type="password" maxlength="6" disabled/>
+				      <input type="password" maxlength="6" disabled/>
+				    </div>
+				  </div>
+				</div>
+				<div class='payForgetBox'>
+					<a href="#/forget" class='payForget'>忘记密码？</a>
+				</div>
+	      	</div>
+		</div>
+	</ion-content>
+</ion-modal-view>

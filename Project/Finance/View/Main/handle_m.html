@@ -1,0 +1,45 @@
+<!--	页面头部	-->
+<include file = "Public/header" />
+
+<!--	资源文件	-->
+<link rel="stylesheet" href="__PUBLIC__/css/merchant/member.css"/>
+<link rel="stylesheet" href="__PUBLIC__/css/finance/table_01.css"/>
+<link rel="stylesheet" href="__PUBLIC__/css/finance/button.css"/>
+<script src="__PUBLIC__/js/finance/pages.js"></script>
+<script src="__PUBLIC__/js/finance/handle.js"></script>
+<style>
+body{
+	background-color: fff;
+}
+</style>
+
+<div class="container clearfix">
+	
+	<!--	左侧菜单	-->     	
+    <include file = "Public/menu" />	
+	
+    <!--        页面内容        -->     
+    <div class="con" id="content">
+		<button type="button" class="button blue" onclick="goback()">返回</button>
+		<button type="button" class="button green rarrow" onclick = "handle_m('{$date}')">提交数据</button>
+		
+    	<table class ='gridtable'>
+				<tr>
+						<volist name='table_head' id='head'>
+							<th style='width:180px'>{$head}</th>
+						</volist>
+				</tr>
+
+				<volist name='table_data' id='data'>
+					<tr>
+						<volist name='data_index' id='index'>
+							<td>{$data.$index}</td>
+						</volist>
+					</tr>
+				</volist>
+		</table>
+	
+		
+    </div>
+</div>
+

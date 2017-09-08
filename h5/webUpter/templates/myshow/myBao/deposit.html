@@ -1,0 +1,39 @@
+<ion-view class='depositBox'>
+ 	<ion-header-bar align-title="center">
+	    <div class="buttons">
+	        <button class="button bgff" ng-click="goPage()">
+	            <i class="icon ion-chevron-left"></i>
+	        </button>
+	    </div>
+    	<h1 class="title">提 现</h1>
+	</ion-header-bar>
+	<ion-content class="deposit">
+		<div class="depHead" ng-click='goBankCard()'>
+			<div class="depBank">
+				<span class="depBankName">{{bankCard.bank}}</span>
+				<span class="depBankNum">尾号({{bankCard.number | numStr}})</span>
+			</div>
+			<i class="icon ion-ios-arrow-right depBankMark"></i>
+		</div>
+		<div class="depBody">
+			<div class="depBodyAbove">
+				<span class="depAboveLef">可提金额</span>
+				<div class="depAboveRht">
+					<span class="depRhtNum">￥{{newSum}},</span>
+					<span class="depRhtBtn" ng-click="getSum(newSum)">全部提现</span>
+				</div>
+			</div>
+			<div class="depBodyCent">
+				<span class="depCentHead">提现金额</span>
+				<div class="depCentBox">
+					<span class="depCentFont">￥</span>
+					<input class="depCentNum" type="number" ng-model="data.num"/>
+				</div>
+			</div>
+			<div class="depBodyBelow">
+				<div class="depBelowBtn" ng-click="depState(data.num,bankCard)">立即提现</div>
+				<span class="depBelowFont">3至5个工作日内到账</span>
+			</div>
+		</div>
+	</ion-content>
+</ion-view>

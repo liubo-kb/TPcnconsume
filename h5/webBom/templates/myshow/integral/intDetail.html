@@ -1,0 +1,11 @@
+<ion-view class="newView">
+	<ion-content>
+		<div class="detaSide" ng-repeat="item in getConsume">
+			<div class="detaLef">
+				<span class="detaName">{{item.type}}</span>
+				<span class="detaDate">{{item.datetime}}</span>
+			</div>
+			<div class="detaRht">{{item.integral}}</div>
+		</div>
+	</ion-content>
+</ion-view>

@@ -1,0 +1,96 @@
+<ion-view class="myShopBox">
+	<ion-header-bar align-title="center">
+	    <div class="buttons">
+	        <button class="button bgff" ng-click="goShow()">
+	            <i class="icon ion-chevron-left cor73"></i>
+	        </button>
+	    </div>
+    	<h1 class="title cor33">我的消费</h1>
+	</ion-header-bar>
+	<ion-tabs class="tabs-top tabs-light tabs-color-positive tabs-striped">
+		<ion-tab title="刷卡消费">
+			<ion-view>
+				<ion-content class="bgf0">
+					<div class="swingSide">
+						<div class="swingSideBox" ng-repeat="item in getMyShop">
+							<div class="swHead">
+								<div class="swHeadLef">
+									<i class="iconfont swIconLef">&#xe602;</i>
+									<span class="swStore">{{item.content | strSubName}}</span>
+									<i class="icon ion-chevron-right swIconRht"></i>
+								</div>
+								<div class="swHeadRht">{{item.state | strSubState}}</div>
+							</div>
+							<div class="swBody">
+								<div class="swBodySide">
+									<div class="swBodyLef">
+										<div class="swImgBox">
+											<img class="swImg" ng-src="../../Public/Uploads/addImage/{{item.image_url}}"/>
+										</div>
+										<div class="swFontBox">
+											<div class="swCardStyle">消费卡种:{{item.content | dataCardStyle}}</div>
+											<div class="swBeforePrice">{{item | dataCardInfo}}</div>
+										</div>
+									</div>
+									<div class="swBodyRht">
+										<div clas="swPayStyle">支付方式:会员卡</div>
+										<div class="swNowPrice">{{item | dataNowPrice}}</div>
+									</div>
+								</div>
+								<div class="swFoot">
+									<div class="swUpter">
+										<span class="swDate">{{item.datetime}}</span>
+										<span class="swShop">消费:{{item.content | dataResult}}</span>
+									</div>
+									<div class="swUnder">
+										<span class="swDet" ng-click="deteItem(item,$index)">删除</span>
+										<span class="swSay" ng-class="(item.evaluate_state == 'true')?'setColor':(item.evaluate_state == 'false'?'notColor':'')">{{item.evaluate_state | dataState}}</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</ion-content>
+			</ion-view>
+		</ion-tab>
+		<ion-tab title="办卡记录">
+			<ion-view>
+				<ion-content>
+					<div class="handleSide">
+						<div class="handleBox" ng-repeat="card in getCard">
+							<div class="handleUpter">
+								<div class="haUpLef">
+									<i class="iconfont haIonLef">&#xe602;</i>
+									<span class="haStore">{{card.store}}&nbsp;</span>
+									<i class="icon ion-chevron-right haIonRht"></i>
+								</div>
+								<div class="haUpRht">
+									交易成功
+								</div>
+							</div>
+							<div class="handleUnder">
+								<div class="haUnLef">
+									<div class="haCard">
+										<div class="haCardUpter" style="background:{{card.card_temp_color}};">
+											<span class="haCardRed">ViP</span>
+											<span class="haCardLevel">{{card.card_type}}</span>
+										</div>
+										<div class="haCardUnder"></div>
+									</div>
+									<div class="haFontBox">
+										<div class="haFont">级别：&nbsp;{{card.card_level}}</div>
+										<div class="haFont">类型：&nbsp;{{card.card_type}}</div>
+										<div class="haDate">{{card.datetime}}</div>
+									</div>
+								</div>
+								<div class="haUnRht">
+									消费：{{card.sum}}元
+								</div>
+							</div>
+						</div>
+					</div>
+				</ion-content>
+			</ion-view>
+		</ion-tab>
+	</ion-tabs>
+</ion-view>

@@ -1,0 +1,28 @@
+<ion-view class='tiXian'>
+ 	<ion-header-bar class="bge2" align-title="center">
+	    <div class="buttons">
+	        <button class="button bge2 corf" ng-click="back()">
+	            <i class="icon ion-chevron-left"></i>
+	        </button>
+	    </div>
+    	<h1 class="title corf">红 包 提 现</h1>
+	</ion-header-bar>
+	<ion-content class='bgf0'>
+		<div class='hint'>
+			提现金额将存入您的钱包，提现成功后可到我的钱包首页进行查看
+		</div>
+		<div class='cashSide'>
+			<div class='cashTop'>
+				<span class='lftSide'>可提金额</span>
+				<span class='rhtSide cor66'>{{sum}}</span>
+			</div>
+			<div class='cashBot'>
+				<span class='lftSide'>提现金额</span>
+				<input class='rhtSide cor66' ng-model='data.num' type="number" placeholder="提现金额(100的整数倍)"/>
+			</div>
+		</div>
+		<div class='xuBtn'>
+			<div class='nextGo bge2 corf' ng-click='getMon(data.num)'>立即提现</div>
+		</div>
+	</ion-content>
+</ion-view>

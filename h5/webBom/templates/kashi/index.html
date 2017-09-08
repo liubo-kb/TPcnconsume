@@ -1,0 +1,144 @@
+<ion-view class='cardShopBox'>
+	<ion-header-bar class="bar bar-header item-input-inset cardShop">
+	<a class='searchSide'  href="#/searchCard">
+	  <label class="item-input-wrapper">
+	    <i class="icon ion-ios-search placeholder-icon searchMark"></i>
+	    <input type="search" readonly="readonly" placeholder="总有一款适合你">
+	  </label>
+	</a>
+	</ion-header-bar>
+	<ion-tabs class="tabs-light tabs-striped tabs-top">
+			<ion-tab title='二手卡'>
+				<ion-view>
+					<ion-content class="kaShiBox">
+						<ion-refresher pulling-text="下拉刷新" on-refresh="doRefreshSecond()"></ion-refresher>
+						<div class="myCardBox">
+							<div class="cardBoxList" ng-repeat='cards in cardSeconds'>
+								<a class="cardStyleShow" href='#/secondInfo/{{cards.muid}}/{{cards.nickname}}{{cards.card_code}}{{cards.card_level}}'>
+									<div class="cardStyleUpter">
+										<div class="cardUpHead">
+											<div class="cardUpLef">
+												<div class="cardShowUpter" style="background:{{cards.card_temp_color}};">
+													<span class="cardVip">VIP</span>
+													<span class="cardLevel">{{cards.card_level}}</span>
+												</div>
+												<div class="cardShowUnder"></div>
+											</div>
+											<div class="cardUpRht">
+												<div class="cardFontBox">
+													<span class="cardClass">{{cards.trade}}</span>
+													<span class="cardPrice">￥{{cards.card_remain}}</span>
+												</div>
+												<div class="cardStoreName">{{cards.store}}</div>
+												<div class="cardContent">
+													<span class="cardOper">【转让】</span>
+													<span class="cardOperInfo">现有{{cards.store}}{{cards.card_remain}}元{{cards.card_level}}{{cards.card_type}}一张({{cards.rule/10}}折卡)，{{cards.rate/10}}折转让，需要的朋友尽快下手。</span>
+												</div>
+											</div>
+										</div>
+										<div class="cardUpFoot">
+											<div class="cardAddBox">
+												<i class="icon ion-ios-location cardRed"></i>
+												<span class='cardAddress'>来自{{cards.address}}</span>
+											</div>
+											<div class="cardDate">{{cards.datetime | dateStr}}</div>
+										</div>
+									</div>
+									<div class="cardStyleUnder">
+										<div class="cardUnLef">
+											<div class="cardImgSide">
+												<img class="cardImgShow" ng-src="../../Public/Uploads/headImage/{{cards.headimage | strSubImg}}"/>
+											</div>
+											<div class="cardHaver">{{cards.nickname}}</div>
+										</div>
+										<div class="cardUnRht">
+											<i class="iconfont cardConMark">&#xe681;</i>
+											<span class="cardConsult">咨询</span>
+										</div>
+									</div>
+								</a>
+							</div>
+							<ion-infinite-scroll ng-if="!hasmore" on-infinite="loadMoreSecond()" distance="1%"></ion-infinite-scroll>
+							<div class="cardNot" ng-if="cardSeconds.length<=0">
+								<div class="centerUpter">
+									<i class="iconfont centerImg">&#xe61c;</i>
+								</div>
+								<div class="centerUnder">
+									<p class="cenFont">sorry!</p>
+									<p class="cenFont">此地暂无会员卡信息哦!</p>
+									<p class="cenFont">去别处看看吧!</p>
+								</div>
+							</div>
+							<div class="myCardBoxBottom"></div>
+						</div>
+					</ion-content>
+				</ion-view>
+			</ion-tab>
+			<ion-tab title='蹭卡'>
+				<ion-view>
+					<ion-content class="kaShiBox">
+						<ion-refresher pulling-text="下拉刷新" on-refresh="doRefreshCeng()"></ion-refresher>
+						<div class="myCardBox">
+							<div class="cardBoxList" ng-repeat='cards in cardCengs'>
+								<a class="cardStyleShow" href='#/cengInfo/{{cards.muid}}/{{cards.nickname}}{{cards.card_code}}{{cards.card_level}}'>
+									<div class="cardStyleUpter">
+										<div class="cardUpHead">
+											<div class="cardUpLef">
+												<div class="cardShowUpter" style="background:{{cards.card_temp_color}};">
+													<span class="cardVip">VIP</span>
+													<span class="cardLevel">{{cards.card_level}}</span>
+												</div>
+												<div class="cardShowUnder"></div>
+											</div>
+											<div class="cardUpRht">
+												<div class="cardFontBox">
+													<span class="cardClass">{{cards.trade}}</span>
+													<span class="cardPrice">￥{{cards.card_remain}}</span>
+												</div>
+												<div class="cardStoreName">{{cards.store}}</div>
+												<div class="cardContent">
+													<span class="cardOper">【分享】</span>
+													<span class="cardOperInfo">现有{{cards.store}}{{cards.card_remain}}元{{cards.card_level}}{{cards.card_type}}一张({{cards.rule/10}}折卡),需要的朋友尽快下手，手续费仅({{cards.rate}}%).</span>
+												</div>
+											</div>
+										</div>
+										<div class="cardUpFoot">
+											<div class="cardAddBox">
+												<i class="icon ion-ios-location cardRed"></i>
+												<span class='cardAddress'>来自{{cards.address}}</span>
+											</div>
+											<div class="cardDate">{{cards.datetime | dateStr}}</div>
+										</div>
+									</div>
+									<div class="cardStyleUnder">
+										<div class="cardUnLef">
+											<div class="cardImgSide">
+												<img class="cardImgShow" ng-src="../../Public/Uploads/headImage/{{cards.headimage | strSubImg}}"/>
+											</div>
+											<div class="cardHaver">{{cards.nickname}}</div>
+										</div>
+										<div class="cardUnRht">
+											<i class="iconfont cardConMark">&#xe681;</i>
+											<span class="cardConsult">咨询</span>
+										</div>
+									</div>
+								</a>
+							</div>
+							<ion-infinite-scroll ng-if="!hasmore" on-infinite="loadMoreCeng()" distance="1%"></ion-infinite-scroll>
+							<div class="cardNot" ng-if="cardCengs.length<=0">
+								<div class="centerUpter">
+									<i class="iconfont centerImg">&#xe61c;</i>
+								</div>
+								<div class="centerUnder">
+									<p class="cenFont">sorry!</p>
+									<p class="cenFont">此地暂无会员卡信息哦!</p>
+									<p class="cenFont">去别处看看吧!</p>
+								</div>
+							</div>
+							<div class="myCardBoxBottom"></div>
+						</div>
+					</ion-content>
+				</ion-view>
+			</ion-tab>
+	</ion-tabs>
+</ion-view>

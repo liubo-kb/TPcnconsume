@@ -1,0 +1,136 @@
+.box{
+	width:100%;
+	height:100%;
+}
+
+img{
+	width:100%;
+	display:block;
+}
+
+
+.twoSide{
+	width:100%;
+	background: #efefef;
+}
+
+.twoSideHead{
+	width:100%;
+	display:flex;
+	display:-webkit-flex;
+	flex-direction: column;
+	-webkit-flex-direction: column;
+	justify-content: center;
+	-webkit-justify-content: center;
+	align-items: center;
+	-webkit-align-items: center;
+}
+
+.twoSideHead .twoSideFont{
+	font-size:.24rem;
+	text-align:center;
+}
+
+.twoSideHead .twoSideDay{
+	font-size:.14rem;
+	text-align:center;
+}
+
+.twoSideList{
+	width:100%;
+	display:flex;
+	display:-webkit-flex;
+	justify-content: space-around;
+	-webkit-justify-content: space-around;
+}
+
+.twoSideList .twoSideUnit{
+	width:.6rem;
+	height:1rem;
+	display:flex;
+	display:-webkit-flex;
+	flex-direction: column;
+	-webkit-flex-direction: column;
+	justify-content: space-between;
+	-webkit-justify-content: space-between;
+	align-items: center;
+	-webkit-align-items: center;
+}
+
+.twoSideList .twoSideUnit .twoSideImg{
+	width:100%;
+	height:.6rem;
+}
+
+.twoSideList .twoSideUnit .twoSideInfo{
+	font-size:.14rem;
+	line-height:.4rem;
+}
+
+.threeSide{
+	width:100%;
+	text-align:center;
+}
+
+.threeSide .threeHead{
+	font-size:.24rem;
+	line-height:.5rem;
+}
+
+.threeSide .threeFont{
+	font-size:.14rem;
+	line-height:.22rem;
+}
+
+.fourSide .fourSideFont{
+	text-align:center;
+	background: #f5f5f5;
+	font-size:.2rem;
+	line-height:.6rem;
+}
+
+.fiveSide .fiveSideFont{
+	text-align:center;
+	background: #fff;
+	line-height:.6rem;
+}
+
+.sixSide .sixHead{
+	font-size:.3rem;
+	text-align:center;
+	line-height:.5rem;
+}
+
+.sixSide .sixFont{
+	text-align: center;
+	font-size:.14rem;
+	line-height:.24rem;
+}
+
+.sevenSide{
+	background: #010101;
+	padding:.1rem 0;
+}
+
+.sevenSide .sevenHead{
+	font-size:.16rem;
+	text-align: center;
+	color:#fff;
+	line-height:.3rem;
+}
+
+.sevenSide .sevenFont{
+	font-size:.3rem;
+	text-align: center;
+	color:#fff;
+	line-height:.5rem;
+}
+
+.entSide .entSideFont{
+	width:100%;
+	text-align: center;
+	font-size:.3rem;
+	color:#fff;
+	line-height:.6rem;
+	background: #010101;
+}

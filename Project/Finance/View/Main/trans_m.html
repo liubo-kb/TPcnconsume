@@ -1,0 +1,59 @@
+<!--	页面头部	-->
+<include file = "Public/header" />
+
+<!--	资源文件	-->
+<link rel="stylesheet" href="__PUBLIC__/css/merchant/member.css"/>
+<link rel="stylesheet" href="__PUBLIC__/css/finance/table_01.css"/>
+<script src="__PUBLIC__/js/finance/pages.js"></script>
+<style>
+body{
+	background-color: fff;
+}
+</style>
+
+<div class="container clearfix">
+	
+	<!--	左侧菜单	-->     	
+    <include file = "Public/menu" />	
+	
+    <!--        页面内容        -->     
+    <div class="con" id="content">
+
+    	<table class ='gridtable'>
+				<tr>
+						<volist name='table_head' id='head'>
+							<th style='width:180px'>{$head}</th>
+						</volist>
+				</tr>
+
+				<volist name='table_data' id='data'>
+					<tr>
+						<volist name='data_index' id='index'>
+						<if condition="$index eq 'state' ">
+						<else/>
+							<td>{$data.$index}</td>
+						</if>
+						</volist>
+						<if condition="$data.state eq 'not_handle'">
+							<td><a class='font-red'>未转账</a></td>
+							<td><a class='abtn abtn-red' href="handle_m?date={$data.date}">点击处理</a></td>
+							<td><a class='abtn abtn-red' href="download_m?date={$data.date}">下载账单</a></td>
+						<elseif condition="$data.state eq 'downloaded'"/>
+							<td><a class='font-orange'>待转账</a></td>
+							<td><a class='abtn abtn-orange' href="handle_m?date={$data.date}">待处理</a></td>
+							<td><a class='font-green'>已下载</a></td>
+						<else/>
+							<td><a class='font-green'>已转账</a></td>
+							<td><a class='font-green'>已处理</a></td>
+							<td><a class='font-green'>已下载</a></td>
+						</if>
+					</tr>
+				</volist>
+		</table>
+		
+		<div class="page text-align-r margtop47">
+			{$page}
+		</div>
+    </div>
+</div>
+

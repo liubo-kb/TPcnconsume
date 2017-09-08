@@ -1,0 +1,35 @@
+<ion-view class='depStateBox'>
+ 	<ion-header-bar align-title="center">
+	    <div class="buttons">
+	        <button class="button bgff" ng-click="back()">
+	            <i class="icon ion-chevron-left"></i>
+	        </button>
+	    </div>
+    	<h1 class="title">提 现</h1>
+	</ion-header-bar>
+	<ion-content class="depState">
+		<div class="depStateSide">
+			<div class="depStateHead">
+				<i class="iconfont depStateMark">&#xe638;</i>
+				<span class="depStateFont">已进行提现申请</span>
+			</div>
+			<div class="depStateCent">
+				<div class="depStateItem">
+					<span class="depStateName">预计到账时间</span>
+					<span class="depStateInfo">{{newDate}}</span>
+				</div>
+				<div class="depStateItem">
+					<span class="depStateName">银行卡</span>
+					<span class="depStateInfo">{{cardBank.bank}}&nbsp;尾号({{cardBank.number | numStr}})</span>
+				</div>
+				<div class="depStateItem">
+					<span class="depStateName">提现金额</span>
+					<span class="depStateInfo">￥{{sum | number:2}}</span>
+				</div>
+			</div>
+			<div class="depBelowBox">
+				<div class="depStateBtn" ng-click="back()">完成</div>
+			</div>
+		</div>
+	</ion-content>
+</ion-view>

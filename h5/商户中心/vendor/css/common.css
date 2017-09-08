@@ -1,0 +1,72 @@
+
+html,body,ul , li , ol, h1 , h2 , h3 , h4 , h5 , h6 , p , figure , form , fieldset , input , legend , textarea , button ,dl,dt,dd, blockquote , th , tr , td ,xmp {
+	padding:0;
+	margin:0;
+}
+
+ul,ol{
+	list-style: none;
+}
+body{
+	background: #fff;
+	font-size:.14px;
+	line-height:1.5;
+	-webkit-tap-highlight-color:transparent;
+	font-family: "Microsoft YaHei","微软雅黑";
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+/*字体尺寸*/
+
+.fn12{
+	font-size:12px;
+}
+
+.fn14{
+	font-size:14px;
+}
+
+.fn16{
+	font-size:16px;
+}
+
+.fn18{
+	font-size:18px;
+}
+
+
+.fn20{
+	font-size:20px;
+}
+
+.fn22{
+	font-size:22px;
+}
+
+.fn26{
+	font-size:26px;
+}
+
+.fn32{
+	font-size:32px;
+}
+
+
+.wrap{
+	width: 1190px;
+	margin: 0 auto;
+}
+
+.display{
+	display: block;
+}
+.display_inline{
+	display: inline-block;
+}
+
+.tac{
+	text-align: center;
+}
+.disabled{pointer-events: none;}

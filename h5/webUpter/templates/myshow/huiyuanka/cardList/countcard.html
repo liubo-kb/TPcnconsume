@@ -1,0 +1,15 @@
+<ion-view>
+	<ion-content class='cardNewBox'>
+		<div class="cardUnitBox" ng-repeat='card in cardShow.count' ng-click="goCard(card)">
+			<div class="cardNewUnit" style="background:{{card.card_temp_color}}">
+					<div class="cardNewInfo">
+							<span class="cardNewName">{{card.store}}</span>
+							<span class="cardNewStyle">{{card.card_type}}({{card.card_level}})</span>
+					</div>
+			</div>
+		</div>
+		<div class="noUnitCards" ng-if="cardShow.count.length<=0">
+			您暂时还没有计次卡哦！
+		</div>
+	</ion-content>
+</ion-view>

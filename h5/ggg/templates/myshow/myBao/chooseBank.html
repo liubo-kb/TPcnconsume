@@ -1,0 +1,36 @@
+<ion-view class="chooseBankBox">
+	<ion-header-bar align-title="center">
+	    <div class="buttons">
+	        <button class="button bgff" ng-click="setBankCard(bankData)">
+	            <i class="icon ion-chevron-left"></i>
+	        </button>
+	    </div>
+    	<h1 class="title">选择银行卡</h1>
+    	<div class="buttons">
+	        <button class="button button-icon corf"
+	          ng-click="data.showDelete = !data.showDelete; data.showReorder = false">
+	          		删除
+	        </button>
+     	 </div>
+	</ion-header-bar>
+	<ion-content class='chooseBank'>
+        <ion-list class="choseBox" show-delete="data.showDelete" show-reorder="data.showReorder">
+      		<div class="item item-divider choseHead">
+        	         到账银行
+       	    </div>
+		    <ion-item class="choseBody" ng-repeat="item in bankCard" ng-click="setBank(item)">
+		      <span class="choseName">{{item.bank}}({{item.number | numStr}})</span>
+		      <i class="choseMark icon ion-ios-checkmark" ng-if="item.state == 'true'"></i>
+		      <i class="choseNotMark icon ion-ios-circle-outline" ng-if="item.state != 'true'"></i>
+		      <ion-option-button class="button-assertive deteBox" ng-click="edit(item)">
+		      	   <i class="icon ion-ios-trash-outline light choseBtn"></i>
+		      </ion-option-button>
+		    </ion-item>
+      	</ion-list>
+      	<div class="useNewCard" ng-click="goAddBank()">
+      		<span class="useNewCardInfo">使用新卡提现</span>
+      		<i class="choseMark icon ion-ios-checkmark" ng-if="data.btn == 'true'"></i>
+		    <i class="choseNotMark icon ion-ios-circle-outline" ng-if="data.btn == 'false'"></i>
+      	</div>
+	</ion-content>
+</ion-view>

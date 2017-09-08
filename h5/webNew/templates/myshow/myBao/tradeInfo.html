@@ -1,0 +1,24 @@
+<ion-view class='addCard'>
+ 	<ion-header-bar class="bge2" align-title="center">
+	    <div class="buttons">
+	        <button class="button bge2 corf" ng-click="goPage()">
+	            <i class="icon ion-chevron-left"></i>
+	        </button>
+	    </div>
+    	<h1 class="title corf">交易详情</h1>
+	</ion-header-bar>
+	<ion-content class='addCardInfo bgf0'>
+		<div class='traHead'>
+			<p class='traOne'>
+				<i class="icon ion-checkmark-circled balanced imgFont"></i>
+				<span class='stude'>交易成功</span>
+			</p>
+			<p class='traWo'>三到五个工作日内，将转入您的银行账户</p>
+		</div>
+		<div class='traBot'>
+			<p class='lht2'><span class='cor66'>提现金额：</span><span>{{sum}}</span></p>
+			<p class='lht2'><span class='cor66'>提现时间：</span><span>{{date}}</span></p>
+			<p class='lht2'><span class='cor66'>到账银行：</span><span>{{bank}}</span></p>
+		</div>
+	</ion-content>
+</ion-view>

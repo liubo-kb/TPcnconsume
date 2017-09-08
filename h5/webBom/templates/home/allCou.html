@@ -1,0 +1,89 @@
+
+<ion-view class="allCoupon">
+	<ion-header-bar align-title="center">
+	    <div class="buttons">
+	        <button class="button" ng-click="back()">
+	            <i class="icon ion-chevron-left"></i>
+	        </button>
+	    </div>
+    	<h1 class="title">优惠大全</h1>
+    	<div class='button' ng-click="getCou(data.unit)">完成</div>
+	</ion-header-bar>
+	<ion-content class='ionic-pseudo godsQu'>
+      <ion-list>
+      	<div class="item item-divider tce fn14">
+                               红包
+        </div>
+		<ion-radio class='boxQuan' 
+        	ng-model="data.unit" 
+        	ng-value="unit"
+			name='side'>
+        	<div class="couponList">
+				<div class="couponListLeft">
+					<div class="couponLeftSide">{{unit}}元</div>
+					<div class="couponRhtSide">
+						<p class="couponName">优惠券</p>
+						<p class="couponCont">可抵用{{unit > price*0.9 ? price*0.9 : unit}}元现金</p>
+					</div>
+				</div>
+				<div class="couponListRight">
+					<p class="couponDate">仅单次</p>
+					<p class="couponDate">使用有效</p>
+				</div>
+			</div>
+       </ion-radio>
+       <p class='plt2 lht36 core2' ng-if='record.length<=0'>*无可用红包</p>
+        <div class="item item-divider">
+          	商家优惠券
+        </div>
+        <!--ng-value="unit.value"-->
+		<ion-radio class='boxQuan'
+        	ng-repeat="unit in getMyQuan | filter:func" 
+        	ng-model="data.unit" 
+        	ng-value="unit"
+        	name="side">
+        	<div class="couponList">
+				<div class="couponListLeft">
+					<div class="couponLeftSide">{{unit.sum}}元</div>
+					<div class="couponRhtSide">
+						<p class="couponName">优惠券</p>
+						<p class="couponCont">满{{unit.pri_condition}}元可抵用</p>
+					</div>
+				</div>
+				<div class="couponListRight">
+					<p class="couponDate">{{unit.date_start}}</p>
+					<p class="couponDate">{{unit.date_end}}</p>
+				</div>
+				<div class="lineImgBox">
+					<img class="lineImg" ng-src="img/{{unit.coupon_type}}.png"/>
+				</div>
+			</div>
+        </ion-radio>
+        <p class='plt2 lht36 core2' ng-if='getMyQuan.length<=0'>*无可用商家优惠券</p>
+        <div class="item item-divider">
+        	商消乐优惠券
+        </div>
+        <ion-radio class='boxQuan'
+        	ng-repeat="unit in getCoupon | filter:func" 
+        	ng-model="data.unit" 
+        	ng-value="unit"
+        	name="side">
+        	
+			<div class="couponList">
+				<div class="couponListLeft">
+					<div class="couponLeftSide">{{unit.sum}}元</div>
+					<div class="couponRhtSide">
+						<p class="couponName">优惠券</p>
+						<p class="couponCont">满{{unit.pri_condition}}元可抵用</p>
+					</div>
+				</div>
+				<div class="couponListRight">
+					<p class="couponDate">{{unit.date_start}}</p>
+					<p class="couponDate">{{unit.date_end}}</p>
+				</div>
+			</div>
+        </ion-radio>
+        <p class='plt2 lht36 core2' ng-if='getCoupon.length<=0'>*无可用商消乐优惠券</p>
+      </ion-list>
+	</ion-content>
+</ion-view>

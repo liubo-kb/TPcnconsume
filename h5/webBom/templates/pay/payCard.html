@@ -1,0 +1,60 @@
+<ion-view  class='myBox'>
+ 	<ion-header-bar class="bge2" align-title="center">
+	    <div class="buttons">
+	        <button class="button bge2 corf" ng-click="back()">
+	            <i class="icon ion-chevron-left"></i>
+	        </button>
+	    </div>
+    	<h1 class="title corf">支付详情页</h1>
+	</ion-header-bar>
+	<ion-content>
+	<div id="main">
+		 <form name=alipayment action='http://www.cnconsum.com/webAlipay/wappay/pay.php' method=post target="_blank">
+            <div id="body" style="clear:left">
+                <dl class="content">
+                    <dt>商户订单号：</dt>
+                    <dd>
+                        <input id="WIDout_trade_no" name="WIDout_trade_no" value="{{payNum}}" class='tce' readonly="readonly"/>
+                    </dd>
+                </dl>
+                    <hr class="one_line">
+                <dl class="content">
+                    <dt>订单名称：</dt>
+                    <dd>
+                        <input id="WIDsubject" name="WIDsubject" value="办卡" class='tce' readonly="readonly"/>
+                    </dd>
+                    <hr class="one_line">
+                </dl>
+                <dl class="content">
+                    <dt>实付金额：</dt>
+                    <dd>
+                        <input id="WIDtotal_amount" name="WIDtotal_amount"  value="{{price | number:2}}" class='tce' readonly="readonly"/>
+                    </dd>
+                </dl>
+                    <hr class="one_line">
+                <dl class="content">
+                    <dt>商品描述：</dt>
+                    <dd>
+                        <input type="text" name="WIDbody" value="{{myCard}}" id="a" class='tce' readonly="readonly"/>
+                    </dd>
+                </dl>
+                    <dt></dt>
+                    <dd id="btn-dd">
+                        <span class="new-btn-login-sp">
+                            <button class="new-btn-login bge2 tce" type="submit" >确 认</button>
+                        </span>
+                        <p class="note-help tce">如果您点击“确认”按钮，<br />即表示您同意该次的执行操作。</p>
+                    </dd>
+                
+            </div>
+		</form>
+        <div class="mtp1">
+			<ul class="foot-ul">
+				<li>
+					* 本次支付方式为支付宝手机网站支付
+				</li>
+			</ul>
+		</div>
+	</div>
+	</ion-content>
+</ion-view>

@@ -1,0 +1,33 @@
+<ion-view>
+ 	<ion-header-bar class="bge2" align-title="center">
+	    <div class="buttons">
+	        <button class="button bge2 corf" ng-click="back()">
+	            <i class="icon ion-chevron-left"></i>
+	        </button>
+	    </div>
+    	<h1 class="title corf">升 级</h1>
+	</ion-header-bar>
+	<ion-content class='bgf0'>
+		<ul class='mtp1'>
+			<li class="list">
+				<label class="item item-input item-select">
+					<div class="input-label tce">
+						卡片升级
+					</div>
+					<select ng-model="mySelect"  ng-options='unit.level for unit in upterData' ng-change="getData(mySelect)">
+						<option value="">{{level}}</option>
+					</select>
+				</label>
+			</li>
+			<li class='payStyle bgff plt2 prt2'>
+				<div class="newItem">
+					<span class='plt1'>充值金额(￥)</span>
+					<span class='plt1 reMan'>{{sum | number:2}}</span>
+				</div>
+			</li>
+		</ul>
+		<div class='xuBtn'>
+			<ion-upter class='nextGo bge2 corf' ng-click="upCard(mySelect,sum)">立 即 升 级</ion-upter>
+		</div>
+	</ion-content>
+</ion-view>

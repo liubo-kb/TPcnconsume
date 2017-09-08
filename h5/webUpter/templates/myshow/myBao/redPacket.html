@@ -1,0 +1,27 @@
+<ion-view class='myQuanBox'>
+	<ion-header-bar align-title="center" class="myCouponHead">
+	    <div class="buttons">
+	        <button class="button bgff" ng-click="goGoods()">
+	            <i class="icon ion-chevron-left"></i>
+	        </button>
+	    </div>
+    	<h1 class="title">红包</h1>
+	</ion-header-bar>
+	<ion-content class='bgf0'>
+		<div class="redBox" ng-click="shopRed(unit)">
+			<div class="redImgBox">
+				<img class="redImg" ng-src="../../Public/Uploads/headImage/{{headimage | strSubImg}}" alt="头像" />
+			</div>
+			<div class="redFontBox">
+				<div class="redNumBox">
+					<span class="redNum">{{resultPrice}}</span>
+					<span class="redUnit">元</span>
+				</div>
+				<div class="redCont">可抵用{{resultPrice}}元现金券</div>
+			</div>
+			<div class="redPacketMark" ng-if="markShow">
+				<img class="redPackImg" src="img/gou.png" alt="选中" />
+			</div>
+		</div>
+	</ion-content>	
+</ion-view>

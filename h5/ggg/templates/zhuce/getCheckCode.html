@@ -1,0 +1,21 @@
+<ion-view>
+	<ion-header-bar class="bge2" align-title="center">
+	    <div class="buttons">
+	        <button class="button bge2 corf" ng-click="back()">
+	            <i class="icon ion-chevron-left"></i>
+	        </button>
+	    </div>
+    	<h1 class="title corf">获取验证码</h1>
+	</ion-header-bar>
+	<ion-content class='bgf0 plt2 prt2'>
+		<div class='codeHead cor66'>为了安全，我们会向您的手机发送短信验证码</div>
+		<div class='codeBox bort borb'>
+			<span class='beSide'><i class='iconfont fontImg'>&#xe603;</i></span>
+			<input type="tel" id='setCode' ng-model='data.code' placeholder="请输入验证码"/>
+			<span class='dateSide'>{{second}}</span>
+		</div>
+		<div class='phoneBtn mtp5'>
+			<input type="button" id='nextStep' ng-click='goSet(data.code)' value="下一步"/>
+		</div>
+	</ion-content>
+</ion-view>

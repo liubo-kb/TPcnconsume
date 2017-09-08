@@ -1,0 +1,29 @@
+<ion-view>
+ 	<ion-header-bar class="bge2" align-title="center">
+	    <div class="buttons">
+	        <button class="button bge2 corf" ng-click="back()">
+	            <i class="icon ion-chevron-left"></i>
+	        </button>
+	    </div>
+    	<h1 class="title corf">金额结算</h1>
+	</ion-header-bar>
+	<ion-content>
+		<div class='setPay'>
+			<label>输入金额：</label><div class='setBox'><input type="text" placeholder="请输入消费金额" ng-model="data.sum"/></div>
+		</div>
+		<div class='xuBtn mtp1'>
+			<div class='nextGo bge2 corf' ng-click='payPass(data.sum)'>确 认 支 付</div>
+		</div>
+	</ion-content>
+</ion-view>
+
+<script id="my-modal.html" type="text/ng-template">
+  <div class="modal">
+    <ion-header-bar>
+      <h1 class="title">我的模型标题</h1>
+    </ion-header-bar>
+    <ion-content>
+      Hello!
+    </ion-content>
+  </div>
+</script>

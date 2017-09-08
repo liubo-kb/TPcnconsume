@@ -1,0 +1,95 @@
+<ion-view class="setTlement">
+	<ion-header-bar align-title="center">
+	    <div class="buttons">
+	        <button class="button bgff" ng-click="backCard()">
+	            <i class="icon ion-chevron-left"></i>
+	        </button>
+	    </div>
+    	<h1 class="title">理赔处理中</h1>
+	</ion-header-bar>
+	<ion-content class='allpaySide'>
+		<div class="claimBox">
+			<div class="claimHead">
+				<span class="claimFont">理赔理由</span>
+				<span class="claimSide">(仅以下两种情况可申请理赔)</span>
+			</div>
+			<!--<ion-list>
+				<ion-item ng-repeat="item in lodgeList">
+		      		<ion-radio
+		        	ng-model="data.cause"
+		        	ng-checked="data.cause"
+		        	ng-value="item"
+		        	name="side">
+		        	{{item.cause}}
+		        	</ion-radio>
+		    	</ion-item>
+	    	</ion-list>-->
+	    	<div class="claimBody">
+	    		<div class="claimItem" ng-repeat="item in lodgeList">
+	    			<span class="claimInfo">{{item.cause}}</span>
+	    			<i class="claimMark icon ion-ios-checkmark" ng-if="item.state == 'true'"></i>
+	    			<i class="claimNotMark icon ion-ios-circle-outline" ng-if="item.state == 'false'"></i>
+	    		</div>
+	    	</div>
+		</div>
+		<div class="setMentBox" ng-if="cardType =='储值卡'">
+			<div class="setMentHead">理赔金额</div>
+			<div class="setMentBody">
+				<div class="setBodyFont">购卡金额：￥{{price | number:2}}</div>
+				<div class="setBodyFont">剩余金额：￥{{cardRem | number:2}}</div>
+			</div>
+			<div class="setMentFont">
+				<div class="setFontHead">理赔金额：￥{{cardRem | number:2}}</div>
+				<div class="setFontSay" ng-if="getSpeed[0].state != 'ACCESS'">温馨提醒：理赔成功后，理赔金额将打入商消乐钱包中。</div>
+				<div class="setFontSay" ng-if="getSpeed[0].state == 'ACCESS'">温馨提醒：您申请的理赔金额:{{getSpeed[0].sum | number:2}}元已赔付到商消乐钱包中,请注意查看。</div>
+			</div>
+		</div>
+		<div class="setMentBox" ng-if="cardType!='储值卡'">
+			<div class="setMentHead">理赔金额</div>
+			<div class="setMentBody" ng-if="getSpeed[0].state != 'ACCESS'">
+				鉴于卡种原因，商消乐平台会根据专业计算，您的理赔金额将会在理赔申请成功后显示。
+			</div>
+			<div class="setMentBody" ng-if="getSpeed[0].state == 'ACCESS'">
+				商消乐平台根据专业计算，您申请理赔的卡赔付{{getSpeed[0].sum | number:2}}元。
+			</div>
+			<div class="setMentFont">
+				<div class="setFontSay" ng-if="getSpeed[0].state == 'ACCESS'">温馨提醒：理赔成功后，理赔金额将打入商消乐钱包中。</div>
+				<div class="setFontSay" ng-if="getSpeed[0].state != 'ACCESS'">温馨提醒：您申请的理赔金额:{{getSpeed[0].sum | number:2}}元已赔付到商消乐钱包中,请注意查看。</div>
+			</div>
+		</div>
+		<div class="manage" ng-if="getSpeed.length != '0'">
+			<div class="manageHead">
+				处理进度
+			</div>
+			<div class="manageBody">
+				<div class="speedThree">
+					<span>用户提交信息</span>
+					<span>平台已收到投诉信息</span>
+					<span>平台信息核查中</span>
+				</div>
+				<div class="speedImg">
+					<div class="speedRedLine">
+						<span class="redLefPoint"></span>
+						<span class="redRhtPoint"></span>
+					</div>
+					<div ng-class="getSpeed[0].state=='COMMITTED' ? 'speedBgLine' : 'speedRedLine'">
+						<span ng-class="getSpeed[0].state=='COMMITTED' ? 'speedPoint' : 'redRhtPoint'"></span>
+					</div>
+				</div>
+				<div class="speedTwo">
+					<span class="speedSide">平台处理中</span>
+					<span>理赔成功</span>
+				</div>
+				<div class="speedImg">
+					<div ng-class="getSpeed[0].state=='ACCESS' ? 'speedRedLine' : 'speedBgLine'">
+						<span ng-class="(getSpeed[0].state=='HANDLE' || getSpeed[0].state=='ACCESS') ? 'redLefPoint' : 'grayPoint'"></span>
+						<span ng-class="getSpeed[0].state=='ACCESS' ? 'redRhtPoint' : 'speedPoint'"></span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</ion-content>
+	<ion-footer-bar class="claimFootBox">
+		<div class="claimFoot" ng-click="revoke(getSpeed)">撤销理赔</div>
+	</ion-footer-bar>
+</ion-view>

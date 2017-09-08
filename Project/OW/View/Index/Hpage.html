@@ -1,0 +1,107 @@
+<!--	页面头部	-->
+<include file = "Public/header" />
+	
+<!--轮播图-->
+<div class="slides-box">
+<ul class="slides">
+	<li style="background: url('__PUBLIC__/image/ow/imgHpage/sh.png') center"></li>
+	<li style="background: url('__PUBLIC__/image/ow/imgHpage/user.png') center"></li>
+</ul>
+</div>
+		
+<!--优势-->
+<div class="icon">
+		<p class="ss"><strong>我们的优势</strong></p>
+		<div class="icon_bottom">
+			<ul>
+				<li>
+					<a class="home"></a>
+					<a class="ax">安心的</a>
+					<a class="ms">消费模式</a>
+				</li>
+				<li>
+					<a class="bome"></a>
+					<a class="ax">安全的</a>
+					<a class="ms">资金模式</a>
+				</li>
+				<li>
+					<a class="aome"></a>
+					<a class="ax">方便的</a>
+					<a class="ms">消费卡管理</a>
+				</li>
+				<li>
+					<a class="come"></a>
+					<a class="ax">便利的</a>
+					<a class="ms">生活服务</a>
+				</li>
+			</ul>
+		</div>
+ </div>
+     
+<!--新闻动态 -->
+<div class="mve">
+	<div class="hang">
+		<span>新闻动态</span>
+	</div>
+	
+	<div class="join in">
+		<ul class="rav">
+			<li class="active"><label class="in">【店铺加盟】</label><span>2016年10月 “爱车吧”加盟商消乐</span></li>
+			<li><label class="in">【店铺加盟】</label><span>2016年10月 “爱车吧”加盟商消乐</span></li>
+			<li><label class="in">【店铺加盟】</label><span>2016年10月 “爱车吧”加盟商消乐</span></li>
+			<li><label class="in">【店铺加盟】</label><span>2016年10月 “爱车吧”加盟商消乐</span></li>
+			<li><label class="in">【店铺加盟】</label><span>2016年10月 “爱车吧”加盟商消乐</span></li>
+		</ul>
+	</div>    	
+</div>
+    
+<!--为什么选择我们-->
+<div class="photo">
+	<img src="__PUBLIC__/image/ow/change.jpg" />
+</div>
+	
+	
+<!--他们的说法-->
+<div id="panda-show">
+	<p class="sf" ><strong>他们的说法</strong></p>
+	<div class="full">
+		<div class="content">
+		
+			<a class="arrow-left" href="#"></a>
+			<a class="arrow-right" href="#"></a>
+			
+			<div class="cover-left"></div>
+			<div class="swiper-container">
+				<div class="swiper-wrapper">
+					<volist name="stores" id="data">
+						<div class="swiper-slide">
+							<a href="#">
+								<img src="__PUBLIC__/image/ow/imgHpage/{$data['image']}" />
+								<div class="shuffer-line"></div>
+								<div class="stars-info">
+									<div class="name">
+										<p>{$data['name']}</p>
+									</div>
+									<div class="intro">
+										<label>{$data['intro']}</label>
+									</div>
+									<div class="icon-shuffer-live"></div>
+								</div>
+							</a>
+						</div>
+					</volist>
+				</div>
+			</div>
+			<div class="cover-right"></div>
+			
+			
+		</div>
+	</div>
+</div>
+
+<script>
+	$(".slides").poposlides();
+</script>
+
+<!--	页面尾部	-->
+<include file = "Public/footer" />

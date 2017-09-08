@@ -1,0 +1,125 @@
+<ion-view class='kbox'>
+	<ion-header-bar align-title="center">
+	    <div class="buttons">
+	        <button class="button bgff" ng-click="back()">
+	            <i class="icon ion-chevron-left"></i>
+	        </button>
+	    </div>
+    	<h1 class="title">结 算</h1>
+	</ion-header-bar>
+	<ion-content class='bgf0'>
+		<div class='bgff'>
+			<p class='storeGoods plt1'>
+				<i class="iconfont core7 fn12">&#xe602;</i>
+				<span class='fn16'>{{storeName}}</span>
+			</p>
+			<div class="shopCardSide" ng-repeat="side in cardList" ng-click="getCard(side,$index)">
+				<div class="shopLeftSide">
+					<i class="icon ion-checkmark-circled shopMark" ng-if="cardType=='side' || $index==index"></i>
+	  				<i class="icon ion-ios-circle-outline shopNotMark" ng-if="$index!=index && cardType!='side'"></i>
+					<div class="shopCardBox">
+						<div class="cardUpSide" style='background:{{side.template}};'>
+							<span class="cardVery">ViP</span>
+							<span class="ShopCardStyle">{{side.level}}</span>
+						</div>
+						<span class="spaceSide"></span>
+					</div>
+					<div class="shopCardInfo">{{side.des}}</div>
+				</div>
+				<div class="shopRightSide">￥{{side.price}}</div>
+			</div>
+			<div class='trt prt1 lht36'>
+				合计：￥{{cardList[index].price | number:2}}
+			</div>
+		</div>
+		<div class='valueStyle bgff'>
+			<p class='valueHead plt1'>购买提示</p>
+			<div class='pouBox plt1 prt1'>
+				<span class='pouName cor66'>{{cardList[index].des}}</span>
+			</div>
+		</div>
+		<div class='valueStyle bgff' ng-if="cardList[index].type=='套餐卡' && packageData.length>0">
+			<p class='valueHead plt1'>包含项目</p>
+			<div class="valueBody" ng-repeat="package in packageData">
+				<div class="valueImgBox">
+					<img class="valueImg" ng-src="../../Public/Uploads/optionImage/{{package.image}}"/>
+				</div>
+				<div class="valueFont">
+					<p class="valueItemBox">
+						<span class="valueName">{{package.name}}</span>
+						<span class="valuePrice">{{package.price}}元</span>
+					</p>
+					<p class="valueCount">可用{{package.option_count}}次(长期有效)</p>
+				</div>
+			</div>
+		</div>
+		<div class="favourBox">
+			<div class="favourHead">优惠方式</div>
+			<div class="favourList" ng-click="goRedPacket(mark,index)">
+				<div class="favourLef">
+					<span class="favourMarkBox">
+						<i class="icon ion-checkmark-circled favourMark" ng-if="mark=='markRed'"></i>
+					</span>
+					<div class="favourStyleBox">
+						<span class="favourStyle">使用红包</span>
+					</div>
+				</div>
+				<div class="favourRht">
+					<span class="favourCont" ng-if="mark=='markRed'">已抵用{{cardType > cardList[index].price*0.9 ? cardList[index].price*0.9 : cardType}}元</span>
+					<i class="icon ion-chevron-right"></i>
+				</div>
+			</div>
+			<div class="favourList" ng-click="goMerQuan(mark,index)">
+				<div class="favourLef">
+					<span class="favourMarkBox">
+						<i class="icon ion-checkmark-circled favourMark" ng-if="mark=='markMer'"></i>
+					</span>
+					<div class="favourStyleBox">
+						<span class="favourStyle">使用商家优惠券</span>
+					</div>
+				</div>
+				<div class="favourRht">
+					<span class="favourCont" ng-if="mark=='markMer'">已优惠{{cardType.sum}}元</span>
+					<i class="icon ion-chevron-right"></i>
+				</div>
+			</div>
+			<div class="favourList" ng-click="goPlatQuan(mark,index)">
+				<div class="favourLef">
+					<span class="favourMarkBox">
+						<i class="icon ion-checkmark-circled favourMark" ng-if="mark=='markPlat'"></i>
+					</span>
+					<div class="favourStyleBox">
+						<span class="favourStyle">使用商消乐优惠券</span>
+					</div>
+				</div>
+				<div class="favourRht">
+					<span class="favourCont" ng-if="mark=='markPlat'">已优惠{{cardType.sum}}元</span>
+					<i class="icon ion-chevron-right"></i>
+				</div>
+			</div>
+		</div>
+		<div class='valueStyle bgff mbm5'>
+				<p class='valueHead plt1'>支付方式</p>
+				<div class='mayPay'>
+					<i class='iconfont icon-zhifubao plt2 cor12 mayPayStyle'></i>
+					<span class='plt2 fn16'>支付宝支付</span>
+				</div>
+		</div>
+	</ion-content>
+	<ion-footer-bar class='payInfo' ng-if="mark==''">
+		<div class='showSide trt prt1 lht36'>实付款：{{cardList[index].price | number:2}}</div>
+		<div class='btnSide bge2 corf' ng-click="alipay(mark,cardList[index],cardType)">结 算</div>
+ 	</ion-footer-bar>
+ 	<ion-footer-bar class='payInfo' ng-if="mark=='markRed'">
+		<div class='showSide trt prt1 lht36'>实付款：{{cardList[index].price-(cardType > cardList[index].price*0.9 ? cardList[index].price*0.9 : cardType) | number:2}}</div>
+		<div class='btnSide bge2 corf' ng-click="alipay(mark,cardList[index],cardType)">结 算</div>
+ 	</ion-footer-bar>
+	<ion-footer-bar class='payInfo' ng-if="mark=='markMer'">
+		<div class='showSide trt prt1 lht36'>实付款：{{cardList[index].price-cardType.sum  | number:2}}</div>
+		<div class='btnSide bge2 corf' ng-click="alipay(mark,cardList[index],cardType)">结 算</div>
+ 	</ion-footer-bar>
+ 	<ion-footer-bar class='payInfo' ng-if="mark=='markPlat'">
+		<div class='showSide trt prt1 lht36'>实付款：{{cardList[index].price-cardType.sum  | number:2}}</div>
+		<div class='btnSide bge2 corf' ng-click="alipay(mark,cardList[index],cardType)">结 算</div>
+ 	</ion-footer-bar>
+</ion-view>

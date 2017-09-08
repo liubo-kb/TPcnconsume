@@ -1,0 +1,19 @@
+<ion-view>
+	<ion-header-bar class="bge2" align-title="center">
+	    <div class="buttons">
+	        <button class="button bge2 corf" ng-click="back()">
+	            <i class="icon ion-chevron-left"></i>
+	        </button>
+	    </div>
+    	<h1 class="title corf">爱好选择</h1>
+    	<div class='corf button bge2' ng-click='setHobby()'>保存</div>
+	</ion-header-bar>
+	<ion-content class='bgf0'>
+		<div class="loveBox">
+			<div class="loveHead">最多选择十项爱好哦！</div>
+			<div class="loveBody">
+				<span class="loveItem" ng-click="setItem(item,$index)" ng-repeat="item in loveData" ng-class="{true:'like', false:'dislike'}[item.state]">{{item.text}}</span>
+			</div>
+		</div>
+	</ion-content>
+</ion-view>

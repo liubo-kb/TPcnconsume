@@ -1,0 +1,172 @@
+<ion-view view-title='商铺信息' class='shopPuInfo'>
+	<ion-header-bar align-title="center" class="header">
+	    <div class="backBtn">
+	        <button class="button" ng-click="back()">
+	            <i class="icon ion-chevron-left"></i>
+	        </button>
+	    </div>
+    	<h1 class="title">商铺信息</h1>
+	</ion-header-bar>
+	<ion-content class='info'  has-bouncing="false">
+		<div class='imgInfo'>
+			<div class='imgHead'>
+				<div class='imgTop'>
+					<img ng-src="../../Public/Uploads/addImage/{{storeInfo.image_url}}"/>
+					<span class='imgCoupon'>优惠券</span>
+					<span class='imgMember'>会员卡</span>
+				</div>
+				<div class='one' ng-repeat = 'str in sto'>
+					<p class='storeNameBox'>
+						<span class="storeName">{{str.store}}</span>
+					</p>
+					<p class='storeInfo'>
+						<span star rating-value="str.stars" max="max" readonly="true"></span>
+						<span class='plt1 prt1'>|</span>
+						<span class='fn12'>已售{{str.sold}}笔</span>
+					</p>
+					<div class='storeAdd'>
+						<div class='lineLft'>
+							<i class="icon ion-location imgCun"></i>
+							<a class='addInfo' href="#/map/{{str.longtitude}}/{{str.latitude}}">{{str.address}}</a>
+						</div>
+						<div class='lineRht'>
+							<i class="icon ion-ios-arrow-forward rhtImg"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class='may' ng-if="newCardList.length>0">
+			   <h3 class="mayTop">
+			   	<span class='mayTopFont'>会员卡</span>
+			   </h3>
+			   <ul class='mayInfo'>
+				   	<li class="mayInfoSide" ng-repeat='ncard in newCardList |  limitTo:badTimes' ng-click="goods(ncard)">
+				   		<div class="mayLftSide">
+				   			<div class="mayImg">
+				   				<p class="mayCardSide" style="background:{{ncard.template}};">
+				   					<span class="mayCardVery">ViP</span>
+				   					<span class="mayCardStyle">{{ncard.level}}</span>
+				   				</p>
+				   				<span class="maySpace"></span>
+				   			</div>
+				   			<div class='mayFont'>
+				   				<div class="mayUpSide">
+				   					<span class='mayUpLft'>{{ncard.des}}</span>
+				   					<span class='mayUpRht'>￥{{ncard.price}}</span>
+				   				</div>
+				   				<div class="mayBotSide">
+				   					<span class='mayRateSide'>{{ncard | cardTypeStr}}</span>
+				   					<span class='mayDateSide'>有效期:{{ncard.indate | cardDateStr}}({{ncard.type}})</span>
+				   				</div>
+				   			</div>
+				   		</div>
+				   		<div class="mayRhtSide">
+				   			<span class="goShop">购买</span>
+				   		</div>
+				   	</li>
+				   	<li class="mayBtn" ng-if="newCardList.length>4" ng-click="retract(badTimes)"><span>收起卡片</span><i class="icon ion-ios-arrow-down mayBtnImg"></i></li>
+			   </ul>
+			</div>
+			<div class="myCoupon" ng-if="storeInfo.coupon_list.length>0">
+			   <h3 class="mayTop">
+			   	<span class='mayTopFont'>优惠券</span>
+			   </h3>
+			   <ul class="myCouponInfo">
+			   	<li class="myCouponSide" ng-repeat="coupon in storeInfo.coupon_list">
+			   		<div class="myCouponLft">
+			   			<div class="myLftSide">
+			   				{{coupon.sum}}元
+			   			</div>
+			   			<div class="myRhtSide">
+			   				<p class="myFull">满{{coupon.pri_condition}}元可用</p>
+			   				<p class="myDate">{{coupon.date_start}}至{{Coupon.date_end}}</p>
+			   			</div>
+			   		</div>
+			   		<div class="myCouponRht" ng-click="getCoupon(coupon.coupon_id,$index)">
+			   			<span class="myMark" ng-style="{'background-color':(coupon.received=='true')?'gray':(coupon.received=='false'?'red':'')}">{{coupon.received | stateShow}}</span>
+			   			<span class="markImgBox" ng-style="{'display':(coupon.received=='true')?'block':(coupon.received=='false'?'none':'')}"><img class="markImg" ng-src="img/iconCoupon.png"/></span>
+			   		</div>
+			   		<div class="lineImgBox">
+			   			<img class="lineImg" ng-src="img/{{coupon.coupon_type}}.png" alt="线上/线下" />
+			   		</div>
+			   	</li>
+			   </ul>
+			</div>
+			<div class='allShop' ng-if="storeInfo.commodity_list.length>0">
+				<h3 class='shopHead'>
+					<span class="shopFont">全部商品</span>
+					<a href="#/moreShop/{{storeInfo.muid}}" class="shopMore">更多商品&nbsp;&gt;</a>
+				</h3>
+				<ul class="shopSide">
+					<li class="shopList" ng-repeat="goods in storeInfo.commodity_list">
+						<div class="shopImgBox">
+							<img class="shopImgSide" ng-src="../../Public/Uploads/commodity/{{goods.image_url}}"/>
+						</div>
+						<div class="shopFontSide">
+							<p class='shopNameSide'>{{goods.name}}</p>
+							<p class="shopUnit">￥{{goods.price}}/份</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="tabBox">
+				<div style="display:flex;width:100%;">
+					  <div style="flex:1;text-align: center;" class="tab_default" ng-repeat="d in tabNames" ng-click="activeSlide($index)" ng-class="slectIndex==$index ? 'tab_select' : '' ">
+					   {{d}}
+					   <div class="arrow-top" style="left:{{15+$index*33}}%" ng-show="slectIndex==$index"></div>
+					  </div> 
+				 </div>
+				 <ion-slide-box on-slide-changed="slideChanged(index)" active-slide="slideIndex" does-continue="false" show-pager="false">
+				  <ion-slide ng-repeat="p in pages">
+				   <div ng-include="p"></div>
+				  </ion-slide>
+				 </ion-slide-box>
+			</div>
+			<div class='manSay' ng-if="storeInfo.evaluate_list.length>0">
+				<h3 class='manHead'>
+					<span class="manFont">会员口碑</span>
+					<a class="manSayMore" href="#/assess/{{muid}}">更多评价<i class="icon ion-ios-arrow-right manSayImg"></i></a>
+				</h3>
+				<ul class="manSaySide">
+					<li class="manSayList" ng-repeat='say in storeInfo.evaluate_list'>
+						<div class="manSayTop">
+							<div class="manSayLft">
+								<div class="manImgBox">
+									<img class="manImgSide" ng-src="../../Public/Uploads/headImage/{{say.headimage | strSubImg}}"/>
+								</div>
+								<div class="manFontSide">
+									<p class="manName">{{say.nickname}}</p>
+									<p class="manDateSide">{{say.datetime}}</p>
+								</div>
+							</div>
+							<div class="manSayRht">
+								<div class="manStartBox">
+									<span star rating-value="say.stars" max="max" readonly="true"></span>
+								</div>
+							</div>
+						</div>
+						<div class="manSayBot">
+							<p class="manSayInfo">{{say.content}}</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</ion-content>
+	<ion-footer-bar class='shopCar'>
+			<ul class="shopCarBox">
+				<ion-show class="shopCarSide shopActive" ng-click="show()">
+					<i class="iconfont sideImg">&#xe631;</i>
+					<span class="fontStyle">联系商家</span>
+				</ion-show>
+				<ion-show class="shopCarSide" ng-click="shop()">
+					<i class="iconfont sideImg sideImgShop">&#xe65a;</i>
+					<span class="fontStyle">立即购买</span>
+				</ion-show>
+				<ion-show class="shopCarSide" ng-click='collect(flag)'>
+					<i class="iconfont sideImg">&#xe623;</i>
+					<span class="fontStyle">{{stateBtn}}</span>
+				</ion-show>
+			</ul>
+	</ion-footer-bar>
+</ion-view>

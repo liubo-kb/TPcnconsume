@@ -1,0 +1,24 @@
+<ion-view>
+ 	<ion-header-bar align-title="center">
+	    <div class="buttons">
+	        <button class="button bgff" ng-click="back()">
+	            <i class="icon ion-chevron-left"></i>
+	        </button>
+	    </div>
+    	<h1 class="title">支 付</h1>
+	</ion-header-bar>
+	<ion-content class="payUpterBox">
+		<div class="payUpter">
+			<div class="payUpterMethod">
+				<div class="payUpterCont">
+	  				<i class="iconfont payUpterStyle">&#xe617;</i>
+	  				<span class="payUpterFont">微信支付</span>
+  				</div>
+  				<i class="icon ion-checkmark-circled payUpterRht"></i>
+			</div>
+		</div>
+		<div class="payUpterBtnBox">
+			<div class="payUpterBtn" ng-click="payMent(id,sum)">确定</div>
+		</div>
+	</ion-content>
+</ion-view>

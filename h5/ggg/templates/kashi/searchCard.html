@@ -1,0 +1,117 @@
+<ion-view class="searchCard">
+	<ion-header-bar align-title="center">
+		<div class="bar bar-header has-tabs-top">
+		    <div class="buttons">
+		        <button class="button bgff" ng-click="back()">
+		            <i class="icon ion-chevron-left"></i>
+		        </button>
+		    </div>
+		    <div class="serRhtSide">搜索</div>
+	    </div>
+    	<div class="cardSearchHead">
+		  <label class="item-input-wrapper serBox">
+	        <i ng-hide="data.shops" class="icon ion-ios-search placeholder-icon seaImg"></i>
+	        <input type="search" class='ser' id="cardSearch" placeholder="输入商铺" ng-model='data.shops'>
+	      </label>
+	      <button class="button button-clear"  ng-click='getStore(data.shops)'>
+	    	 搜索
+	  	  </button>
+		</div>
+	</ion-header-bar>
+	<ion-content class='cardSearchBox'>
+		<div class="myCardBox">
+			<div class="cardBoxList" ng-repeat='cards in cardList | filter:{method:"transfer"}'>
+				<div class="cardStyleShow" ng-click="goSecond(cards)">
+					<div class="cardStyleUpter">
+						<div class="cardUpHead">
+							<div class="cardUpLef">
+								<div class="cardShowUpter" style="background:{{cards.card_temp_color}};">
+									<span class="cardVip">VIP</span>
+									<span class="cardLevel">{{cards.card_level}}</span>
+								</div>
+								<div class="cardShowUnder"></div>
+							</div>
+							<div class="cardUpRht">
+								<div class="cardFontBox">
+									<span class="cardClass">{{cards.trade}}</span>
+									<span class="cardPrice">￥{{cards.card_remain}}</span>
+								</div>
+								<div class="cardStoreName">{{cards.store}}</div>
+								<div class="cardContent">
+									<span class="cardOper">【转让】</span>
+									<span class="cardOperInfo">现有{{cards.store}}{{cards.card_remain}}元{{cards.card_level}}{{cards.card_type}}一张({{cards.rule/10}}折卡)，{{cards.rate/10}}折转让，需要的朋友尽快下手。</span>
+								</div>
+							</div>
+						</div>
+						<div class="cardUpFoot">
+							<div class="cardAddBox">
+								<i class="icon ion-ios-location cardRed"></i>
+								<span class='cardAddress'>来自{{cards.address}}</span>
+							</div>
+							<div class="cardDate">{{cards.datetime | dateStr}}</div>
+						</div>
+					</div>
+					<div class="cardStyleUnder">
+						<div class="cardUnLef">
+							<div class="cardImgSide">
+								<img class="cardImgShow" ng-src="../../Public/Uploads/headImage/{{cards.headimage | strSubImg}}"/>
+							</div>
+							<div class="cardHaver">{{cards.nickname}}</div>
+						</div>
+						<!--<div class="cardUnRht">
+							<i class="iconfont cardConMark">&#xe681;</i>
+							<span class="cardConsult">咨询</span>
+						</div>-->
+					</div>
+				</div>
+			</div>
+			<div class="cardBoxList" ng-repeat='cards in cardList | filter:{method:"share"}'>
+				<div class="cardStyleShow" ng-click="goCeng(cards)">
+					<div class="cardStyleUpter">
+						<div class="cardUpHead">
+							<div class="cardUpLef">
+								<div class="cardShowUpter" style="background:{{cards.card_temp_color}};">
+									<span class="cardVip">VIP</span>
+									<span class="cardLevel">{{cards.card_level}}</span>
+								</div>
+								<div class="cardShowUnder"></div>
+							</div>
+							<div class="cardUpRht">
+								<div class="cardFontBox">
+									<span class="cardClass">{{cards.trade}}</span>
+									<span class="cardPrice">￥{{cards.card_remain}}</span>
+								</div>
+								<div class="cardStoreName">{{cards.store}}</div>
+								<div class="cardContent">
+									<span class="cardOper">【分享】</span>
+									<span class="cardOperInfo">现有{{cards.store}}{{cards.card_remain}}元{{cards.card_level}}{{cards.card_type}}一张({{cards.rule/10}}折卡),需要的朋友尽快下手，手续费仅({{cards.rate}}%).</span>
+								</div>
+							</div>
+						</div>
+						<div class="cardUpFoot">
+							<div class="cardAddBox">
+								<i class="icon ion-ios-location cardRed"></i>
+								<span class='cardAddress'>来自{{cards.address}}</span>
+							</div>
+							<div class="cardDate">{{cards.datetime | dateStr}}</div>
+						</div>
+					</div>
+					<div class="cardStyleUnder">
+						<div class="cardUnLef">
+							<div class="cardImgSide">
+								<img class="cardImgShow" ng-src="../../Public/Uploads/headImage/{{cards.headimage | strSubImg}}"/>
+							</div>
+							<div class="cardHaver">{{cards.nickname}}</div>
+						</div>
+						<!--<div class="cardUnRht">
+							<i class="iconfont cardConMark">&#xe681;</i>
+							<span class="cardConsult">咨询</span>
+						</div>-->
+					</div>
+				</div>
+			</div>
+			<div class="myCardBoxBottom"></div>
+		</div>
+	</ion-content>
+</ion-view>
+

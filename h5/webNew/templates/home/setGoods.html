@@ -1,0 +1,113 @@
+<ion-view class='info'>
+	<ion-header-bar align-title="center">
+	    <div class="buttons">
+	        <button class="button" ng-click="back()">
+	            <i class="icon ion-chevron-left"></i>
+	        </button>
+	    </div>
+    	<h1 class="title">选择购买</h1>
+	</ion-header-bar>
+	<ion-content class='bgf0'>
+		<div class='may'>
+			   <ul class='mayInfo'>
+				   	<li class="mayInfoSide" ng-repeat='ncard in cardList.count'>
+				   		<div class="mayLftSide">
+				   			<div class="mayImg">
+				   				<p class="mayCardSide" style="background:{{ncard.card_temp_color}};">
+				   					<span class="mayCardVery">ViP</span>
+				   					<span class="mayCardStyle">{{ncard.level}}</span>
+				   				</p>
+				   				<span class="maySpace"></span>
+				   			</div>
+				   			<div class='mayFont'>
+				   				<div class="mayUpSide">
+				   					<span class='mayUpLft'>{{ncard.content}}</span>
+				   					<span class='mayUpRht'>￥{{ncard.price}}</span>
+				   				</div>
+				   				<div class="mayBotSide">
+				   					<span class='mayRateSide'>{{ncard.type=="计次卡" ? ncard.rule+"次":ncard.rule/10+'折'}}</span>
+				   					<span class='mayDateSide'>有效期:一年(储值卡)</span>
+				   				</div>
+				   			</div>
+				   		</div>
+				   		<div class="mayRhtSide" ng-click="send(ncard)">
+				   			<span class="goShop">购买</span>
+				   		</div>
+				   	</li>
+				   	<li class="mayInfoSide" ng-repeat='ecard in cardList.experience'>
+				   		<div class="mayLftSide">
+				   			<div class="mayImg">
+				   				<p class="mayCardSide" style="background:{{ecard.template}};">
+				   					<span class="mayCardVery">ViP</span>
+				   					<span class="mayCardStyle">{{ecard.level}}</span>
+				   				</p>
+				   				<span class="maySpace"></span>
+				   			</div>
+				   			<div class='mayFont'>
+				   				<div class="mayUpSide">
+				   					<span class='mayUpLft'>{{ecard.des}}</span>
+				   					<span class='mayUpRht'>￥{{ecard.price}}</span>
+				   				</div>
+				   				<div class="mayBotSide">
+				   					<!--<span class='mayRateSide'></span>-->
+				   					<span class='mayDateSide'>有效期:一年(储值卡)</span>
+				   				</div>
+				   			</div>
+				   		</div>
+				   		<div class="mayRhtSide" ng-click="send(ecard)">
+				   			<span class="goShop">购买</span>
+				   		</div>
+				   	</li>
+				   	<li class="mayInfoSide" ng-repeat='mcard in cardList.meal'>
+				   		<div class="mayLftSide">
+				   			<div class="mayImg">
+				   				<p class="mayCardSide" style="background:{{mcard.template}};">
+				   					<span class="mayCardVery">ViP</span>
+				   					<span class="mayCardStyle">{{mcard.level}}</span>
+				   				</p>
+				   				<span class="maySpace"></span>
+				   			</div>
+				   			<div class='mayFont'>
+				   				<div class="mayUpSide">
+				   					<span class='mayUpLft'>{{mcard.des}}</span>
+				   					<span class='mayUpRht'>￥{{mcard.price}}</span>
+				   				</div>
+				   				<div class="mayBotSide">
+				   					<!--<span class='mayRateSide'></span>-->
+				   					<span class='mayDateSide'>有效期:一年(储值卡)</span>
+				   				</div>
+				   			</div>
+				   		</div>
+				   		<div class="mayRhtSide" ng-click="send(mcard)">
+				   			<span class="goShop">购买</span>
+				   		</div>
+				   	</li>
+				   	<li class="mayInfoSide" ng-repeat='vcard in cardList.value'>
+				   		<div class="mayLftSide">
+				   			<div class="mayImg">
+				   				<p class="mayCardSide" style="background:{{vcard.card_temp_color}};">
+				   					<span class="mayCardVery">ViP</span>
+				   					<span class="mayCardStyle">{{vcard.level}}</span>
+				   				</p>
+				   				<span class="maySpace"></span>
+				   			</div>
+				   			<div class='mayFont'>
+				   				<div class="mayUpSide">
+				   					<span class='mayUpLft'>{{vcard.content}}</span>
+				   					<span class='mayUpRht'>￥{{vcard.price}}</span>
+				   				</div>
+				   				<div class="mayBotSide">
+				   					<span class='mayRateSide'>{{vcard.type=="计次卡" ? vcard.rule+"次":vcard.rule/10+'折'}}</span>
+				   					<span class='mayDateSide'>有效期:一年(储值卡)</span>
+				   				</div>
+				   			</div>
+				   		</div>
+				   		<div class="mayRhtSide" ng-click="send(vcard)">
+				   			<span class="goShop">购买</span>
+				   		</div>
+				   	</li>
+				   	<!--<li class="mayBtn" ng-if="storeInfo.card_list.length>4"><span>收起卡片</span><i class="icon ion-ios-arrow-down mayBtnImg"></i></li>-->
+			   </ul>
+			</div>
+	</ion-content>
+</ion-view>

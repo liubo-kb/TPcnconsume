@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>找回密码</title>
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="../css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/register.css"/>
+	</head>
+	<body>
+		<div class="register">
+			<div class="registerBox">
+					<!----手机状态栏目---->
+					<!--<div class="statue"></div>-->
+					<!----手机头部信息和返回按钮---->
+					<div class="registerHeader tac fn16">
+						重置密码
+						<i class="returnPage bs"></i>
+						<div class="login fn16 tac" onclick="lo()">登录</div>
+					</div>
+				<div class="registerCon">
+					
+					<div class="iphoneNum">
+						<input type="number" name="" id="phone" value="" placeholder="手机号码" class="iNum fn14"/>
+						<div class="verificationCode fn14 tac" id="button_vertify" onclick="getValidationCode()">获取验证码</div>
+					</div>
+					<input type="number" name="" id="vertcode" value="" class="srVerificationCode fn14" placeholder="验证码"  />
+					<input type="password" name="" id="passwd_set" value="" class="passWord fn14" placeholder="新密码"  />
+					<div class="tipTxt fn12 tac">为了确保红包的正确使用，请输入正确的信息</div>
+					<div class="registerBtn fn18 tac" onclick="reSetPassword()">重置密码</div>
+					<div class="agreement fn12">
+						<i class="icon"></i>
+						<span class="txtBox">我已阅读并同意商消乐的</span>
+						<span id="rulePage">[&nbsp;活动规则&nbsp;]</span>
+					</div>
+				</div>
+			</div>
+			<!--活动规则弹窗--->
+			<div class="ruleMask">
+				<div class="ruleMaskCon">
+					<div class="zhuceRuleSureBtn bs	"></div>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript" src="../js/jquery-1.8.3.min.js"></script>
+	<script src="../js/forget.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../js/register.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		var HEIGHT = document.documentElement.clientHeight || document.body.clientHeight;
+       $('input').focus(function(){
+       		$('.register').height(HEIGHT);
+       })
+	</script>
+</html>

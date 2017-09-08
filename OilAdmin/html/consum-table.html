@@ -1,0 +1,604 @@
+﻿<div class="row" onmouseover="loadPicker()">
+<div class="col-xs-12">
+<!-- PAGE CONTENT BEGINS -->
+<div class="row">
+	<div class="col-xs-12">
+		
+		<!-- 表头 -->
+		<div class="table-header">
+			加油记录-统计表
+		</div>
+		
+		<!--数据筛选栏-->
+		<div class="row table-tool">
+				<div class="col-xs-6">
+					<span>期限：</span>
+					<label>
+						<select>
+							<option value="10">本日</option>
+							<option value="25">本月</option>
+							<option value="50">本年</option>
+						</select> 
+					</label>
+					<span style="margin-left:20px">分站：</span>
+					<label>
+						<select>
+							<option value="10">沣惠南路站</option>
+							<option value="25">太白南路站</option>
+							<option value="50">科技二路站</option>
+							<option value="100">小寨路站</option>
+						</select> 
+					</label>
+					<span style="margin-left:20px">油号：</span>
+					<label>
+						<select>
+							<option value="10">95#（汽油）</option>
+							<option value="25">92#（汽油）</option>
+							<option value="50">0#（柴油）</option>
+							<option value="100">-10#（柴油）</option>
+							<option value="100">润滑油</option>
+						</select> 
+					</label>
+				</div>
+				<div class="col-xs-6">
+					<div class="dataTables_filter">
+						时间：
+						<label>
+							<input type="text" id="datepicker" placeholder="请选择具体日期">
+						</label>
+					</div>
+				</div>
+		</div>
+		
+		<table id="sample-table-1" class="table table-striped table-bordered table-hover">
+			
+			<!--  数据表头部  -->
+			<thead>
+				<tr>
+					<th>加油站点</th>
+					<th>油枪号</th>
+					<th class="hidden-480">车牌号</th>
+					<th>
+						加油金额
+					</th>
+					<th class="hidden-480">加油时间</th>
+
+					<th>操作</th>
+				</tr>
+			</thead>
+			<!--  /数据表头部  -->
+
+			<!--  数据表内容  -->
+			<tbody>
+				
+				
+				
+				
+				
+				
+				
+				<!--  第一行数据  -->
+				<tr>
+					<td>
+						<a href="#">沣惠南路站</a>
+					</td>
+					<td>10号枪（95#）</td>
+					<td class="hidden-480">陕A637234</td>
+					<td>500</td>
+
+					<td class="hidden-480">
+						<span class="">2017-8-15 15:16</span>
+					</td>
+
+					<td>
+						<div class="hidden-sm hidden-xs btn-group">
+							<button class="btn btn-xs btn-success">
+								<i class="ace-icon fa fa-check bigger-120"></i>
+							</button>
+
+							<button class="btn btn-xs btn-info">
+								<i class="ace-icon fa fa-pencil bigger-120"></i>
+							</button>
+
+							<button class="btn btn-xs btn-danger">
+								<i class="ace-icon fa fa-trash-o bigger-120"></i>
+							</button>
+
+							<button class="btn btn-xs btn-warning">
+								<i class="ace-icon fa fa-flag bigger-120"></i>
+							</button>
+						</div>
+
+						<div class="hidden-md hidden-lg">
+							<div class="inline position-relative">
+								<button class="btn btn-minier btn-primary dropdown-toggle" data-toggle="dropdown" data-position="auto">
+									<i class="ace-icon fa fa-cog icon-only bigger-110"></i>
+								</button>
+
+								<ul class="dropdown-menu dropdown-only-icon dropdown-yellow dropdown-menu-right dropdown-caret dropdown-close">
+									<li>
+										<a href="#" class="tooltip-info" data-rel="tooltip" title="View">
+											<span class="blue">
+												<i class="ace-icon fa fa-search-plus bigger-120"></i>
+											</span>
+										</a>
+									</li>
+
+									<li>
+										<a href="#" class="tooltip-success" data-rel="tooltip" title="Edit">
+											<span class="green">
+												<i class="ace-icon fa fa-pencil-square-o bigger-120"></i>
+											</span>
+										</a>
+									</li>
+
+									<li>
+										<a href="#" class="tooltip-error" data-rel="tooltip" title="Delete">
+											<span class="red">
+												<i class="ace-icon fa fa-trash-o bigger-120"></i>
+											</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</td>
+				</tr>
+				<!--  /第一行数据  -->
+				
+				
+				<!--  第一行数据  -->
+				<tr>
+					<td>
+						<a href="#">沣惠南路站</a>
+					</td>
+					<td>10号枪（95#）</td>
+					<td class="hidden-480">陕A637234</td>
+					<td>500</td>
+
+					<td class="hidden-480">
+						<span class="">2017-8-15 15:16</span>
+					</td>
+
+					<td>
+						<div class="hidden-sm hidden-xs btn-group">
+							<button class="btn btn-xs btn-success">
+								<i class="ace-icon fa fa-check bigger-120"></i>
+							</button>
+
+							<button class="btn btn-xs btn-info">
+								<i class="ace-icon fa fa-pencil bigger-120"></i>
+							</button>
+
+							<button class="btn btn-xs btn-danger">
+								<i class="ace-icon fa fa-trash-o bigger-120"></i>
+							</button>
+
+							<button class="btn btn-xs btn-warning">
+								<i class="ace-icon fa fa-flag bigger-120"></i>
+							</button>
+						</div>
+
+						<div class="hidden-md hidden-lg">
+							<div class="inline position-relative">
+								<button class="btn btn-minier btn-primary dropdown-toggle" data-toggle="dropdown" data-position="auto">
+									<i class="ace-icon fa fa-cog icon-only bigger-110"></i>
+								</button>
+
+								<ul class="dropdown-menu dropdown-only-icon dropdown-yellow dropdown-menu-right dropdown-caret dropdown-close">
+									<li>
+										<a href="#" class="tooltip-info" data-rel="tooltip" title="View">
+											<span class="blue">
+												<i class="ace-icon fa fa-search-plus bigger-120"></i>
+											</span>
+										</a>
+									</li>
+
+									<li>
+										<a href="#" class="tooltip-success" data-rel="tooltip" title="Edit">
+											<span class="green">
+												<i class="ace-icon fa fa-pencil-square-o bigger-120"></i>
+											</span>
+										</a>
+									</li>
+
+									<li>
+										<a href="#" class="tooltip-error" data-rel="tooltip" title="Delete">
+											<span class="red">
+												<i class="ace-icon fa fa-trash-o bigger-120"></i>
+											</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</td>
+				</tr>
+				<!--  /第一行数据  -->
+				
+				
+				<!--  第一行数据  -->
+				<tr>
+					<td>
+						<a href="#">沣惠南路站</a>
+					</td>
+					<td>10号枪（95#）</td>
+					<td class="hidden-480">陕A637234</td>
+					<td>500</td>
+
+					<td class="hidden-480">
+						<span class="">2017-8-15 15:16</span>
+					</td>
+
+					<td>
+						<div class="hidden-sm hidden-xs btn-group">
+							<button class="btn btn-xs btn-success">
+								<i class="ace-icon fa fa-check bigger-120"></i>
+							</button>
+
+							<button class="btn btn-xs btn-info">
+								<i class="ace-icon fa fa-pencil bigger-120"></i>
+							</button>
+
+							<button class="btn btn-xs btn-danger">
+								<i class="ace-icon fa fa-trash-o bigger-120"></i>
+							</button>
+
+							<button class="btn btn-xs btn-warning">
+								<i class="ace-icon fa fa-flag bigger-120"></i>
+							</button>
+						</div>
+
+						<div class="hidden-md hidden-lg">
+							<div class="inline position-relative">
+								<button class="btn btn-minier btn-primary dropdown-toggle" data-toggle="dropdown" data-position="auto">
+									<i class="ace-icon fa fa-cog icon-only bigger-110"></i>
+								</button>
+
+								<ul class="dropdown-menu dropdown-only-icon dropdown-yellow dropdown-menu-right dropdown-caret dropdown-close">
+									<li>
+										<a href="#" class="tooltip-info" data-rel="tooltip" title="View">
+											<span class="blue">
+												<i class="ace-icon fa fa-search-plus bigger-120"></i>
+											</span>
+										</a>
+									</li>
+
+									<li>
+										<a href="#" class="tooltip-success" data-rel="tooltip" title="Edit">
+											<span class="green">
+												<i class="ace-icon fa fa-pencil-square-o bigger-120"></i>
+											</span>
+										</a>
+									</li>
+
+									<li>
+										<a href="#" class="tooltip-error" data-rel="tooltip" title="Delete">
+											<span class="red">
+												<i class="ace-icon fa fa-trash-o bigger-120"></i>
+											</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</td>
+				</tr>
+				<!--  /第一行数据  -->
+				
+				
+				<!--  第一行数据  -->
+				<tr>
+					<td>
+						<a href="#">沣惠南路站</a>
+					</td>
+					<td>10号枪（95#）</td>
+					<td class="hidden-480">陕A637234</td>
+					<td>500</td>
+
+					<td class="hidden-480">
+						<span class="">2017-8-15 15:16</span>
+					</td>
+
+					<td>
+						<div class="hidden-sm hidden-xs btn-group">
+							<button class="btn btn-xs btn-success">
+								<i class="ace-icon fa fa-check bigger-120"></i>
+							</button>
+
+							<button class="btn btn-xs btn-info">
+								<i class="ace-icon fa fa-pencil bigger-120"></i>
+							</button>
+
+							<button class="btn btn-xs btn-danger">
+								<i class="ace-icon fa fa-trash-o bigger-120"></i>
+							</button>
+
+							<button class="btn btn-xs btn-warning">
+								<i class="ace-icon fa fa-flag bigger-120"></i>
+							</button>
+						</div>
+
+						<div class="hidden-md hidden-lg">
+							<div class="inline position-relative">
+								<button class="btn btn-minier btn-primary dropdown-toggle" data-toggle="dropdown" data-position="auto">
+									<i class="ace-icon fa fa-cog icon-only bigger-110"></i>
+								</button>
+
+								<ul class="dropdown-menu dropdown-only-icon dropdown-yellow dropdown-menu-right dropdown-caret dropdown-close">
+									<li>
+										<a href="#" class="tooltip-info" data-rel="tooltip" title="View">
+											<span class="blue">
+												<i class="ace-icon fa fa-search-plus bigger-120"></i>
+											</span>
+										</a>
+									</li>
+
+									<li>
+										<a href="#" class="tooltip-success" data-rel="tooltip" title="Edit">
+											<span class="green">
+												<i class="ace-icon fa fa-pencil-square-o bigger-120"></i>
+											</span>
+										</a>
+									</li>
+
+									<li>
+										<a href="#" class="tooltip-error" data-rel="tooltip" title="Delete">
+											<span class="red">
+												<i class="ace-icon fa fa-trash-o bigger-120"></i>
+											</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</td>
+				</tr>
+				<!--  /第一行数据  -->
+				
+				
+				<!--  第一行数据  -->
+				<tr>
+					<td>
+						<a href="#">沣惠南路站</a>
+					</td>
+					<td>10号枪（95#）</td>
+					<td class="hidden-480">陕A637234</td>
+					<td>500</td>
+
+					<td class="hidden-480">
+						<span class="">2017-8-15 15:16</span>
+					</td>
+
+					<td>
+						<div class="hidden-sm hidden-xs btn-group">
+							<button class="btn btn-xs btn-success">
+								<i class="ace-icon fa fa-check bigger-120"></i>
+							</button>
+
+							<button class="btn btn-xs btn-info">
+								<i class="ace-icon fa fa-pencil bigger-120"></i>
+							</button>
+
+							<button class="btn btn-xs btn-danger">
+								<i class="ace-icon fa fa-trash-o bigger-120"></i>
+							</button>
+
+							<button class="btn btn-xs btn-warning">
+								<i class="ace-icon fa fa-flag bigger-120"></i>
+							</button>
+						</div>
+
+						<div class="hidden-md hidden-lg">
+							<div class="inline position-relative">
+								<button class="btn btn-minier btn-primary dropdown-toggle" data-toggle="dropdown" data-position="auto">
+									<i class="ace-icon fa fa-cog icon-only bigger-110"></i>
+								</button>
+
+								<ul class="dropdown-menu dropdown-only-icon dropdown-yellow dropdown-menu-right dropdown-caret dropdown-close">
+									<li>
+										<a href="#" class="tooltip-info" data-rel="tooltip" title="View">
+											<span class="blue">
+												<i class="ace-icon fa fa-search-plus bigger-120"></i>
+											</span>
+										</a>
+									</li>
+
+									<li>
+										<a href="#" class="tooltip-success" data-rel="tooltip" title="Edit">
+											<span class="green">
+												<i class="ace-icon fa fa-pencil-square-o bigger-120"></i>
+											</span>
+										</a>
+									</li>
+
+									<li>
+										<a href="#" class="tooltip-error" data-rel="tooltip" title="Delete">
+											<span class="red">
+												<i class="ace-icon fa fa-trash-o bigger-120"></i>
+											</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</td>
+				</tr>
+				<!--  /第一行数据  -->
+				
+				<!--  第一行数据  -->
+				<tr>
+					<td>
+						<a href="#">沣惠南路站</a>
+					</td>
+					<td>10号枪（95#）</td>
+					<td class="hidden-480">陕A637234</td>
+					<td>500</td>
+
+					<td class="hidden-480">
+						<span class="">2017-8-15 15:16</span>
+					</td>
+
+					<td>
+						<div class="hidden-sm hidden-xs btn-group">
+							<button class="btn btn-xs btn-success">
+								<i class="ace-icon fa fa-check bigger-120"></i>
+							</button>
+
+							<button class="btn btn-xs btn-info">
+								<i class="ace-icon fa fa-pencil bigger-120"></i>
+							</button>
+
+							<button class="btn btn-xs btn-danger">
+								<i class="ace-icon fa fa-trash-o bigger-120"></i>
+							</button>
+
+							<button class="btn btn-xs btn-warning">
+								<i class="ace-icon fa fa-flag bigger-120"></i>
+							</button>
+						</div>
+
+						<div class="hidden-md hidden-lg">
+							<div class="inline position-relative">
+								<button class="btn btn-minier btn-primary dropdown-toggle" data-toggle="dropdown" data-position="auto">
+									<i class="ace-icon fa fa-cog icon-only bigger-110"></i>
+								</button>
+
+								<ul class="dropdown-menu dropdown-only-icon dropdown-yellow dropdown-menu-right dropdown-caret dropdown-close">
+									<li>
+										<a href="#" class="tooltip-info" data-rel="tooltip" title="View">
+											<span class="blue">
+												<i class="ace-icon fa fa-search-plus bigger-120"></i>
+											</span>
+										</a>
+									</li>
+
+									<li>
+										<a href="#" class="tooltip-success" data-rel="tooltip" title="Edit">
+											<span class="green">
+												<i class="ace-icon fa fa-pencil-square-o bigger-120"></i>
+											</span>
+										</a>
+									</li>
+
+									<li>
+										<a href="#" class="tooltip-error" data-rel="tooltip" title="Delete">
+											<span class="red">
+												<i class="ace-icon fa fa-trash-o bigger-120"></i>
+											</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</td>
+				</tr>
+				<!--  /第一行数据  -->
+				
+				<!--  第一行数据  -->
+				<tr>
+					<td>
+						<a href="#">沣惠南路站</a>
+					</td>
+					<td>10号枪（95#）</td>
+					<td class="hidden-480">陕A637234</td>
+					<td>500</td>
+
+					<td class="hidden-480">
+						<span class="">2017-8-15 15:16</span>
+					</td>
+
+					<td>
+						<div class="hidden-sm hidden-xs btn-group">
+							<button class="btn btn-xs btn-success">
+								<i class="ace-icon fa fa-check bigger-120"></i>
+							</button>
+
+							<button class="btn btn-xs btn-info">
+								<i class="ace-icon fa fa-pencil bigger-120"></i>
+							</button>
+
+							<button class="btn btn-xs btn-danger">
+								<i class="ace-icon fa fa-trash-o bigger-120"></i>
+							</button>
+
+							<button class="btn btn-xs btn-warning">
+								<i class="ace-icon fa fa-flag bigger-120"></i>
+							</button>
+						</div>
+
+						<div class="hidden-md hidden-lg">
+							<div class="inline position-relative">
+								<button class="btn btn-minier btn-primary dropdown-toggle" data-toggle="dropdown" data-position="auto">
+									<i class="ace-icon fa fa-cog icon-only bigger-110"></i>
+								</button>
+
+								<ul class="dropdown-menu dropdown-only-icon dropdown-yellow dropdown-menu-right dropdown-caret dropdown-close">
+									<li>
+										<a href="#" class="tooltip-info" data-rel="tooltip" title="View">
+											<span class="blue">
+												<i class="ace-icon fa fa-search-plus bigger-120"></i>
+											</span>
+										</a>
+									</li>
+
+									<li>
+										<a href="#" class="tooltip-success" data-rel="tooltip" title="Edit">
+											<span class="green">
+												<i class="ace-icon fa fa-pencil-square-o bigger-120"></i>
+											</span>
+										</a>
+									</li>
+
+									<li>
+										<a href="#" class="tooltip-error" data-rel="tooltip" title="Delete">
+											<span class="red">
+												<i class="ace-icon fa fa-trash-o bigger-120"></i>
+											</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</td>
+				</tr>
+				<!--  /第一行数据  -->
+				
+				
+				
+				
+				
+			</tbody>
+			<!--  /数据表内容  -->
+		</table>
+		
+		<!--  分页样式  -->
+		<ul class="pagination pull-right no-margin">
+			<li class="prev disabled">
+				<a href="#">
+					<i class="ace-icon fa fa-angle-double-left"></i>
+				</a>
+			</li>
+
+			<li class="active">
+				<a href="#">1</a>
+			</li>
+
+			<li>
+				<a href="#">2</a>
+			</li>
+
+			<li>
+				<a href="#">3</a>
+			</li>
+
+			<li class="next">
+				<a href="#">
+					<i class="ace-icon fa fa-angle-double-right"></i>
+				</a>
+			</li>
+		</ul>
+		<!--  /分页样式  -->
+		
+	</div><!-- /.span -->
+</div><!-- /.row -->

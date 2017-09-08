@@ -1,0 +1,23 @@
+.box{
+	width:100%;
+	height:auto;
+	padding:.1rem .13rem;
+}
+
+.boxImg{
+	width:100%;
+	height:100%;
+}
+
+.box .boxHead{
+	width:100%;
+	height:1.2rem;
+	margin-bottom:.15rem;
+}
+
+
+.box .boxBody{
+	width:100%;
+	height:1.75rem;
+	margin-bottom:.1rem;
+}

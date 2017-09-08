@@ -1,0 +1,67 @@
+<ion-view class="inteShop">
+	<ion-header-bar class="inteShopHead">
+	 	<div class="inteHeadBox">
+	 		<div class="inteHeadUpter">
+			    <a class="inteHeadLef" href="#/tab/myshow">
+			        <i class="icon ion-chevron-left inteHeadMark"></i>
+			    </a>
+		    	<h1 class="inteHeadMiddle">积分商城</h1>
+		    	<div class="inteHeadRht" ng-click="goKnow()">
+		    		积分知识
+			    </div>
+		    </div>
+		    <div class="inteHeadCenter">
+		    	<!--<ion-slide-box auto-play="true"   slide-interval=2000  does-continue="true" delegate-handle="slideimgs"  
+                   class="slidebox"  on-slide-changed="slideHasChanged($index)" style="margin-top: -1px;">  
+			      <ion-slide ng-repeat="img in getImg" >  
+			        <div class="box banner"><img  ng-src="../../Public/Uploads/mall/advertImage/{{img.image_url}}" /></div>  
+			      </ion-slide>  
+			    </ion-slide-box> -->
+		    	<ion-slide-box class="inteHeadCenterSide" auto-play="true" active-slide="myActiveSlide" does-continue="true" slide-interval=1000>
+				  <ion-slide>
+				    <div class="box">
+				    	<img ng-src="../../Public/Uploads/mall/advertImage/{{imgOne.image_url}}"/>
+				    </div>
+				  </ion-slide>
+				  <ion-slide>
+				    <div class="box">
+				    	<img ng-src="../../Public/Uploads/mall/advertImage/{{imgTwo.image_url}}"/>
+				    </div>
+				  </ion-slide>
+				  <ion-slide>
+				    <div class="box">
+				    	<img ng-src="../../Public/Uploads/mall/advertImage/{{imgThree.image_url}}"/>
+				    </div>
+				  </ion-slide>
+				</ion-slide-box>
+		    </div>
+		    <div class="inteHeadUnder">
+		    	<div class="inteHeadUnderLef">
+					<span class="inteHeadUnderImgBox">
+						<img class="inteHeadUnderImg" ng-src="../../Public/Uploads/headImage/{{headimage | strSubImg}}" />
+					</span>
+					<span class="inteHeadUnderSum">积分:{{signState.integral | inteState}}</span>
+				</div>
+				<div ng-class="signState.integral==null ? 'inteNotState' : 'inteState'" ng-click="doSign()">{{signStateFont}}</div>
+		    </div>
+		</div>
+	</ion-header-bar>
+	<ion-tabs class="tabs-top tabs-light tabs-color-assertive tabs-striped">
+		<ion-tab title="积分兑换区" ui-sref="integral.intExchange">
+			<ion-nav-view name="intExchange">
+			</ion-nav-view>
+		</ion-tab>
+		<ion-tab title="优惠券" ui-sref="integral.intCoupon">
+			<ion-nav-view name="intCoupon">
+			</ion-nav-view>
+		</ion-tab>
+		<ion-tab title="积分明细" ui-sref="integral.intDetail">
+			<ion-nav-view name="intDetail">
+			</ion-nav-view>
+		</ion-tab>
+		<ion-tab title="我的兑换" ui-sref="integral.myExchange">
+			<ion-nav-view name="myExchange">
+			</ion-nav-view>
+		</ion-tab>
+	</ion-tabs>
+</ion-view>

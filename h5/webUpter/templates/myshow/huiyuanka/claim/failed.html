@@ -1,0 +1,56 @@
+<ion-view class="setTlement">
+	<ion-header-bar align-title="center">
+	    <div class="buttons">
+	        <button class="button bgff" ng-click="back()">
+	            <i class="icon ion-chevron-left"></i>
+	        </button>
+	    </div>
+    	<h1 class="title">理赔处理失败</h1>
+	</ion-header-bar>
+	<ion-content class='allpaySide'>
+		<div class="claimBox">
+			<div class="claimHead">
+				<span class="claimFont">理赔理由</span>
+				<span class="claimSide">(仅以下两种情况可申请理赔)</span>
+			</div>
+			<ion-list>
+				<ion-item ng-repeat="item in lodgeList">
+		      		<ion-radio
+		        	ng-model="data.cause"
+		        	ng-value="item"
+		        	ng-checked="data.cause"
+		        	name="side">
+		        	{{item.cause}}
+		        	</ion-radio>
+		    	</ion-item>
+	    	</ion-list>
+		</div>
+		<div class="setMentBox">
+			<div class="setMentHead">理赔结果</div>
+			<div class="setMentFailed">
+				sorry!您申请的会员卡理赔失败了！经我平台核实查证，您所在的会员卡消费商家真实存在，您申请的理赔信息有误！如有疑问请拨打电话：<span class="teleMark">400-876-5213</span>
+			</div>
+		</div>
+		<div class="manage">
+			<div class="manageHead">
+				处理进度
+			</div>
+			<div class="manageBody">
+				<div class="speedThree">
+					<span>用户提交信息</span>
+					<span>平台已收到投诉信息</span>
+					<span>信息核查失败</span>
+				</div>
+				<div class="speedImg">
+					<div class="speedRedLine">
+						<span class="redLefPoint"></span>
+						<span class="redRhtPoint"></span>
+					</div>
+					<div class="speedRedLine">
+						<span class="redRhtPoint"></span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</ion-content>
+</ion-view>

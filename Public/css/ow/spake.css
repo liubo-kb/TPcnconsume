@@ -1,0 +1,207 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#panda-show {
+	font: 12px/1.5 "STHeiti","Microsoft YaHei","Helvetica Neue","Helvetica","SimSun","STSong","Arial","sans-serif";
+	/*background: url(../../image/ow/bg.jpg) no-repeat center top;*/
+	background-size: 100% auto;
+}
+
+#panda-show .shuffer-title {
+	height: 70px;
+	padding-top: 12px;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+#panda-show  .full {
+	width: 100%;
+	overflow: hidden;
+	min-width: 1000px;
+}
+
+#panda-show  .content {
+	width: 980px;
+	margin: 0 auto;
+	position: relative;
+}
+
+@media screen and (min-width:1400px) {
+	#panda-show	.content {
+		width: 1200px;
+	}
+}
+
+@media screen and (min-width:1660px) {
+	#panda-show	.content {
+		width: 1460px;
+	}
+}
+
+#panda-show  .cover-left {
+	width: 2000px;
+	position: absolute;
+	left: -2000px;
+	top: 0;
+	background: #FFFFFF;
+	height: 326px;
+	z-index: 10;
+}
+
+#panda-show  .cover-right {
+	width: 2000px;
+	position: absolute;
+	right: -2000px;
+	top: 0;
+	background: #FFF;
+	height: 326px;
+	z-index: 10;
+}
+
+#panda-show  .swiper-container {
+	overflow: visible;
+	height: 330px;
+}
+
+#panda-show  .swiper-slide {
+	height: 240px;
+	position: relative;
+}
+
+#panda-show  .swiper-slide img {
+	width: 95%;
+	-webkit-transition: all linear 300ms;
+	transition: all linear 300ms;
+}
+
+#panda-show  .swiper-slide  a:hover img {
+	opacity: 1;
+}
+
+#panda-show  .arrow-left {
+	background: url(../../image/ow/imgHpage/arr.png) no-repeat left top;
+	position: absolute;
+	left: -40px;
+	top: 50%;
+	margin-top: -40px;
+	width: 35px;
+	height: 80px;
+	z-index: 15;
+}
+
+#panda-show .arrow-right {
+	background: url(../../image/ow/imgHpage/arrg.png) no-repeat right top;
+	position: absolute;
+	right: -40px;
+	top: 50%;
+	margin-top: -40px;
+	width: 35px;
+	height: 80px;
+	z-index: 15;
+}
+/**/
+#panda-show .shuffer-line {
+	height: 4px;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	opacity: 1;
+	-webkit-transition: all linear 300ms;
+	transition: all linear 300ms;
+	background-color: #DCDCDC;
+}
+
+#panda-show a:hover .shuffer-line {
+	height: 180px;
+	width: 95%;
+	background-color: #e46062;
+	opacity: .8;
+}
+
+#panda-show .stars-info {
+	height: 125px;
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+	width: 100%;
+	-webkit-transition: all linear 250ms;
+	transition: all linear 250ms;
+	color: #fff;
+}
+
+#panda-show a:hover .stars-info {
+	height: 95px;
+	border-bottom: 0 none;
+}
+
+#panda-show .stars-info .name {
+	font-size: 17px;
+	height: 60px;
+	margin-top: -45px;
+	line-height: 30px;
+	overflow: hidden;
+	/*text-overflow: ellipsis;
+	white-space: nowrap;*/
+}
+
+#panda-show a:hover .stars-info .name p, {
+	height: 95px;
+	line-height: 70px;
+	margin: 1px 0 0;
+	
+}
+
+#panda-show .stars-info .intro {
+	padding: 0 10px;
+	font-size: 14px;
+	height: 70px;
+	line-height: 18px;
+	margin: -20px 10px 30px;
+	color: rgba(255,255,255,.7);
+	overflow: hidden;
+	/*text-overflow: ellipsis;
+	white-space: nowrap;*/
+}
+
+#panda-show .stars-info .icon-shuffer-live {
+	position: absolute;
+	left: 50%;
+	bottom: 38px;
+	width: 29px;
+	height: 9px;
+	margin-left: -15px;
+	/*background: url(../../image/ow/live.png) no-repeat;*/
+	opacity: 1;
+	-webkit-transition: all linear 250ms;
+	transition: all linear 250ms;
+}
+
+#panda-show a:hover .stars-info .icon-shuffer-live {
+	opacity: 0;
+}
+
+#panda-show .stars-info .number {
+	display: inline-block;
+	overflow: hidden;
+	-webkit-transition: all linear 250ms;
+	transition: all linear 250ms;
+	height: 20px;
+	line-height: 20px;
+	width: 100%;
+	position: absolute;
+	bottom: 8px;
+	left: 0;
+}
+
+#panda-show .stars-info .number i {
+	width: 16px;
+	height: 12px;
+	display: inline-block;
+	/*background: url(../../image/ow/eye.png) no-repeat center;*/
+	margin-right: 8px;
+}

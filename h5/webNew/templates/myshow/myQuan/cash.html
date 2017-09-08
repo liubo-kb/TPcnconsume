@@ -1,0 +1,46 @@
+<ion-view  class='myBox'>
+ 	<ion-header-bar align-title="center">
+	    <div class="buttons">
+	        <button class="button bgff" ng-click="back()">
+	            <i class="icon ion-chevron-left"></i>
+	        </button>
+	    </div>
+    	<h1 class="title">优惠券二维码</h1>
+	</ion-header-bar>
+	<ion-content class="bgf0">
+		<div class="qrCodeBox">
+			<div class="qrCodeUpter">
+				<div class="storeImgBox">
+					<img class="storeImg" ng-src="../../Public/Uploads/addImage/{{myCash.image_url}}" />
+				</div>
+				<div id="qrcode">
+					<img class="qrCodeImg" src="img/logo.png"/>
+				</div>
+				<div class="codeHint">
+					商户扫描此码
+				</div>
+			</div>
+			<div class="qrCodeUnder">
+				<div class="Instructions" ng-click="openInfo()">
+				     <span>使用说明</span>
+				     <span class="plt1">
+						<i class="icon ion-arrow-up-b" ng-if="showData"></i>
+						<i class="icon ion-arrow-down-b" ng-if="!showData"></i>
+					</span>
+				</div>
+				<div class="storeCont" ng-if="showData">
+					该二维码仅供用户进店消费时,提供给商户扫描,商户扫描成功后,可抵扣对应面额的现金优惠。
+				</div>
+				<div class="goStoreBox">
+					<a class="goStore">
+						<p class="shopsBox">
+							<i class="iconfont core7 fn12">&#xe602;</i>
+							<span class="shopsName">{{myCash.store}}</span>
+						</p>
+						<i class="icon ion-chevron-right myCouponRight"></i>
+					</a>
+				</div>
+			</div>
+		</div>
+	</ion-content>
+</ion-view>

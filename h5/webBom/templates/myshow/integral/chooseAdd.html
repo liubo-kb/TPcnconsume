@@ -1,0 +1,33 @@
+<ion-view class="chooseAdd">
+ 	<ion-header-bar align-title="center">
+	    <div class="buttons">
+	        <button class="button bgff" ng-click="back()">
+	            <i class="icon ion-chevron-left"></i>
+	        </button>
+	    </div>
+    	<h1 class="title">选择收货地址</h1>
+    	<a class="buttons" href="#/addAddress">
+	        <button class="button bgff">
+	                              添加
+	        </button>
+	    </a>
+	</ion-header-bar>
+	<ion-content class="bgf0">
+		  <div class="addSideBox" ng-repeat="add in addList" ng-click="setDef(add)">
+		  	<div class="addHeadSide">
+		  		<div class="addHeadInfo">
+		  			<span class="addHeadName">{{add.name}}</span>
+		  			<span class="addHeadPhone">{{add.phone}}</span>
+		  		</div>
+		  		<div class="addHeadaddress">
+		  			{{add.address}}
+		  		</div>
+		  	</div>
+		  	<div class="addBotSide">
+		  		<i class="icon ion-checkmark-circled addBotMark" ng-if="add.state=='default'"></i>
+		  		<i class="icon ion-ios-circle-outline addBotNot" ng-if="add.state=='usual'"></i>
+		  		<span class="addBotset">设为默认地址</span>
+		  	</div>
+		  </div>
+	</ion-content>
+</ion-view>

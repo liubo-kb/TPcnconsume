@@ -1,0 +1,35 @@
+<ion-modal-view>
+    <ion-header-bar class="bar addHeadBox">
+      	<span class="icon ion-ios-close-empty addBtn" ng-click="modal.hide()"></span>
+        <span class="addFont">地址定位</span>
+    </ion-header-bar>
+    <ion-content class="addContBox">
+      	<div class='addSearchSide'>
+  		  <label class="addSearchBox">
+	        <i ng-hide="data.add" class="icon ion-ios-search placeholder-icon addSearchImg"></i>
+	        <input type="search" class='addSearch' placeholder="请输入地址" ng-model='data.add'>
+	      </label>
+	      <span class='serBtn' ng-click="serBtn(data.add)">搜索</span>
+      	</div>
+      	<div ng-if="flag=='0'">
+	      	<div class="addListBox">当前地址</div>
+	      	<div class="addLocation" ng-click='modal.hide()'>
+	  			<span class='addressInfo'>{{newAdd}}</span>
+	  			<div class='addressMark'>
+	  				<i class='addressImg'></i>
+	  				<span class='addressMark'>确定定位</span>
+	  			</div>
+	      	</div>
+	      	<div class='addListBox'>附近地址</div>
+	      	<ul class='NearbyList'>
+	  			<li class='addNearby' ng-repeat='item in addList' ng-click='getAddress(item)'>{{item}}</li>
+	  		</ul>
+  		</div>
+  		<div ng-if="flag=='1'">
+  			<div class="addListBox">相关地址</div>
+  			<ul class='NearbyList'>
+	  			<li class='addNearby' ng-repeat='item in addList' ng-click='getAddress(item)'>{{item}}</li>
+	  		</ul>
+  		</div>
+    </ion-content>
+</ion-modal-view>

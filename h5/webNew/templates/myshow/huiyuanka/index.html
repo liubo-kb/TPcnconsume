@@ -1,0 +1,36 @@
+<ion-view class="cardClassBox">
+ 	<ion-header-bar align-title="center">
+	    <div class="buttons">
+	        <button class="button bgff" ng-click="goShow()">
+	            <i class="icon ion-chevron-left cor73"></i>
+	        </button>
+	    </div>
+    	<h1 class="title cor33">我的会员卡</h1>
+	</ion-header-bar>
+	<ion-tabs class="tabs-top tabs-light tabs-color-positive tabs-striped">
+		<ion-tab title="全部"  ui-sref="huiyuanka.allcard">
+			<ion-nav-view name="all-tab"></ion-nav-view>
+		</ion-tab>
+	
+		<ion-tab title="储值卡" ui-sref="huiyuanka.storagecard">
+			<ion-nav-view name="storage-tab"></ion-nav-view>
+		</ion-tab>
+	
+		<ion-tab title="计次卡" ui-sref="huiyuanka.countcard">
+			<ion-nav-view name="count-tab"></ion-nav-view>
+		</ion-tab>
+		
+		<ion-tab title="套餐卡" ui-sref="huiyuanka.package">
+			<ion-nav-view name="package-tab"></ion-nav-view>
+		</ion-tab>
+		
+		<ion-tab title="体验卡" ui-sref="huiyuanka.experience">
+			<ion-nav-view name="experience-tab"></ion-nav-view>
+		</ion-tab>
+		
+		<ion-tab title="分享卡"  ui-sref="huiyuanka.sharecard">
+			<ion-nav-view name="share-tab"></ion-nav-view>
+		</ion-tab>
+	</ion-tabs>
+</ion-view>	
+	

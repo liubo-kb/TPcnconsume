@@ -1,0 +1,45 @@
+<ion-view  class='myBox'>
+ 	<ion-header-bar class="bge2" align-title="center">
+	    <div class="buttons">
+	        <button class="button bge2 corf" ng-click="back()">
+	            <i class="icon ion-chevron-left"></i>
+	        </button>
+	    </div>
+    	<h1 class="title corf">我的推荐</h1>
+	</ion-header-bar>
+	<ion-tabs class="tabs-top tabs-light tabs-color-active-assertive tabs-striped">
+		<ion-tab title="已推荐商户({{merNum}})">
+			<ion-view>
+				<ion-content class='bgf0'>
+					<div class='merBoxSide'>
+						<div class="merBox" ng-repeat='mer in getResult | filter:{type:"m"}'>
+							<div class='merLeft'>
+								<span class='merSide'>{{mer.name | merName}}</span>
+								<span class='merSide cor66 fn12'>营业总额&nbsp;{{mer.income}}</span>
+							</div>
+							<div class='merRght'>
+								<span class='merSide cora71'>{{mer.state | merState}}</span>
+								<span class='merSide cor66 fn12'>推荐奖励&nbsp;{{mer.sum}}</span>
+							</div>
+						</div>
+					</div>
+				</ion-content>
+			</ion-view>
+		</ion-tab>
+		<ion-tab title="已推荐用户({{parNum}})">
+			<ion-view>
+				<ion-content class='bgf0'>
+					<div class='parBoxSide'>
+						<div class="parBox" ng-repeat='par in getResult | filter:{type:"u"}'>
+							<div class='parHead'>{{par.name | merName}}</div>
+							<div class='parFoot'>
+								<span class='parSide cor66'>收入总额&nbsp;{{par.income}}</span>
+								<span class='parSide cor66'>推荐奖励&nbsp;{{par.sum}}</span>
+							</div>
+						</div>
+					</div>
+				</ion-content>
+			</ion-view>
+		</ion-tab>
+	</ion-tabs>
+</ion-view>

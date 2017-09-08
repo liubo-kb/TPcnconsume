@@ -1,0 +1,41 @@
+<ion-view  class='gradeBox'>
+ 	<ion-header-bar align-title="center" class="gradeHeadrBot">
+	    <div class="buttons">
+	        <button class="button bgff" ng-click="back()">
+	            <i class="icon ion-chevron-left"></i>
+	        </button>
+	    </div>
+    	<h1 class="title">评 价</h1>
+	</ion-header-bar>
+	<ion-content class='gradeSide' scroll="false">
+		<div class="gradeFont">
+			<textarea name="grade" ng-model="data.cont" class="gradeCont" placeholder="请输入您对店铺的评价"></textarea>
+		</div>
+		<div class="grade">
+			<div class="storeMarkBox">
+				<i class="iconfont storeMark">&#xe602;</i>
+				<span class="storeGrade">店铺评分</span>
+			</div>
+			<div class="starBox">
+				<span class="icon ion-ios-star" ng-class="{true:'starMark',false:'starNotMark'}[index>=1]" ng-click="setStar(1)" ></span>
+				<span class="icon ion-ios-star" ng-class="{true:'starMark',false:'starNotMark'}[index>=2]" ng-click="setStar(2)"></span>
+				<span class="icon ion-ios-star" ng-class="{true:'starMark',false:'starNotMark'}[index>=3]" ng-click="setStar(3)"></span>
+				<span class="icon ion-ios-star" ng-class="{true:'starMark',false:'starNotMark'}[index>=4]" ng-click="setStar(4)"></span>
+				<span class="icon ion-ios-star" ng-class="{true:'starMark',false:'starNotMark'}[index>=5]" ng-click="setStar(5)"></span>
+			</div>
+		</div>
+	</ion-content>
+	<ion-footer-bar>
+		<div class="gradeBot">
+			<div class="gradeBotLef" ng-click="setAnonym(btn)">
+				<i class="gradeMark icon ion-ios-checkmark" ng-if="btn == true"></i>
+	    		<i class="gradeNotMark icon ion-ios-circle-outline" ng-if="btn == false"></i>
+				<span class="anonym">匿名</span>
+			</div>
+			<div class="gradeBotRht" ng-click="release(data.cont,index)">
+				发布评价
+			</div>
+		</div>
+	</ion-footer-bar>
+</ion-view>
+

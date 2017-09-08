@@ -1,0 +1,31 @@
+<ion-view class="passWordBox">
+	<ion-header-bar align-title="center">
+	    <div class="buttons">
+	        <button class="button bgff" ng-click="back()">
+	            <i class="icon ion-chevron-left"></i>
+	        </button>
+	    </div>
+    	<h1 class="title">密码确认</h1>
+	</ion-header-bar>
+	<ion-content class='depPass'>
+		<div class='depPassHead'>请输入支付密码</div>
+		<div class="depPassInfo">
+			<span class="depPassFont">提 现</span>
+			<span class="depPassNum">￥{{sum | number:2}}</span>
+		</div>
+		<div class="wrap">
+		  <div class="inputBoxContainer" id="depInput">
+		    <input type="text" class="realInput"/>
+		    <div class="bogusInput">
+		      <input type="password" maxlength="6" disabled/>
+		      <input type="password" maxlength="6" disabled/>
+		      <input type="password" maxlength="6" disabled/>
+		      <input type="password" maxlength="6" disabled/>
+		      <input type="password" maxlength="6" disabled/>
+		      <input type="password" maxlength="6" disabled/>
+		    </div>
+		  </div>
+		</div>
+		<div class='mtp2 trt prt6'><a href="#/forget" class='tce fn16 cor6b'>忘记密码？</a></div>
+	</ion-content>
+</ion-view>

@@ -1,0 +1,40 @@
+.abtn{
+	padding: 2px 15px;
+	border-top: 1px solid #a8a8a8;
+	border-radius: 15px;
+	color: #fff;
+	cursor: pointer;
+}
+.abtn-fc{
+	background-color: #e60012;
+}
+.abtn-red{
+        background-color: #FF0000;
+}
+.abtn-green{
+        background-color: #3CB371;
+}
+.abtn-orange{
+        background-color: #FFA500;
+}
+
+
+.abtn-org{
+	background-color: #eb6304;
+}
+
+.font-red{
+	color:#FF0000;
+	font-family: verdana,arial,sans-serif;  
+    font-size:16px;   
+}
+.font-green{
+    color: #3CB371;
+	font-family: verdana,arial,sans-serif;  
+    font-size:16px;  
+}
+.font-orange{
+    color: #FFA500;
+	font-family: verdana,arial,sans-serif;  
+    font-size:16px;  
+}

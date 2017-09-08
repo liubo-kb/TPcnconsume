@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>登录</title>
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="../css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/register.css"/>
+	</head>
+	<body>
+		<div class="register">
+			<div class="registerBox">
+					<!----手机状态栏目---->
+					<!--<div class="statue"></div>-->
+					<!----手机头部信息和返回按钮---->
+					<div class="registerHeader tac fn16">
+						登录
+						<i class="returnPage bs"></i>
+						<div class="login fn16 tac" id="ri">注册</div>
+					</div>
+				<div class="registerCon">
+					<div class="iphoneNum">
+						<input type="number" name="" id="phone" value="" placeholder="手机号码" class="iNum fn14"/>
+					</div>
+					<input type="password" name="" id="passwd_set" value="" class="passWord fn14" placeholder="密码(数字与字母组合不小于6位)"  />
+					<div class="forgot_password tac fn12" onclick="re()">忘记密码</div>
+					<div class="tipTxt fn12 tac">为了确保红包的正确使用，请输入正确的信息</div>
+					<div class="registerBtn fn18 tac" onclick="login()">登录</div>
+					<div class="agreement  fn12">
+						<i class="icon"></i>
+						<span class="txtBox">我已阅读并同意商消乐的</span>
+						<span id="rulePage">[&nbsp;游戏规则&nbsp;]</span>
+					</div>
+				</div>
+			</div>
+			<!--活动规则弹窗--->
+			<div class="ruleMask">
+				<div class="ruleMaskCon">
+					<div class="zhuceRuleSureBtn bs"></div>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript" src="../js/jquery-1.8.3.min.js"></script>
+	<script type="text/javascript">
+		//var uuid;
+		var HEIGHT = document.documentElement.clientHeight || document.body.clientHeight;
+       $('input').focus(function(){
+       		$('.register').height(HEIGHT);
+       })
+       
+       document.getElementById('ri').onclick=function(){
+       		window.location="zhuceLg.php";
+       }
+       
+       $('.returnPage').click(function(){
+			window.location="zhuceLg.php";
+			
+		});
+       
+       function re(){
+       		window.location="forgoMM.html"
+       }
+       
+       
+       $("#rulePage").click(function(){
+			$('.ruleMask').show();
+		});
+		
+		$('.zhuceRuleSureBtn').click(function(){
+			$('.ruleMask').hide();
+		});
+		
+		
+		/***获取地址栏信息***/
+		function getUrl(){
+			var tjr=location.href;
+			if(tjr.indexOf("?")==-1){
+				return " ";
+			}else{
+				var str=tjr.substr(tjr.indexOf("?")+1);
+				var num=str.indexOf("=");
+				var iph=str.substring(num+1);
+				return iph;
+			}
+		}
+		
+		
+		/***登录请求***/
+		function login(){
+			var phoneNum=$("#phone").val();
+			localStorage.setItem("phoneNum",phoneNum);
+			var userPassword=$("#passwd_set").val();
+			var referrer=getUrl();
+			$.post(
+				"../../../App/Extra/game/login",
+				{
+					"phone":phoneNum,
+					"passwd":userPassword,
+					"referrer":referrer
+				},
+				function(data){
+					var result=eval("("+data+")");
+					if(result.result_code=="user_not_found"){
+						alert("用户不存在！");
+					}else if(result.result_code=="passwd_wrong"){
+						alert("密码为空或错误！");
+					}else if(result.result_code=="login_access"){
+						var uuid=result.info[0].uuid;
+						localStorage.setItem('uuid',uuid);
+						window.location="../index.html";
+					}
+				}
+			);
+		}
+		
+		if(localStorage.getItem("phoneNum")){
+			$("#phone").val(localStorage.getItem("phoneNum"));
+		}
+	</script>
+</html>

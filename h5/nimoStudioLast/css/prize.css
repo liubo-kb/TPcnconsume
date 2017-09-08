@@ -1,0 +1,264 @@
+.prizeCon{
+	overflow-y:scroll ;
+	position: absolute;
+}
+.prizeHeader{
+	height: .44rem;
+	width: 100%;
+	background: #EE2D45;
+	line-height: .44rem;
+	position: relative;
+	color: #fff;
+	border-bottom: 1px solid #fff;
+}
+.prizeHeader .returnPage{
+	display: inline-block;
+	width: .1rem;
+	height: 0.16rem;
+	position: absolute;
+	left: .12rem;
+	top: .14rem;
+	background: url(../img/prizeReturn.png);
+}
+.imgbox{
+	width: 100%;
+	height: 1.8rem;
+	background:url(../img/prize01.png) no-repeat;
+	margin-bottom: .22rem;	
+
+}
+.prizeZhuan {
+	height: 3.32rem;
+	width: 100%;
+}
+.prizeZhuan .zhuanPanCon{
+	width: 2.54rem;
+	height: 2.54rem;
+	margin: 0 auto;
+	padding: 5px;
+	position: relative;
+	margin-bottom: .22rem;
+}
+.prizeZhuan .zhuanPanCon img{
+	width: 100%;
+	height: 100%;
+}
+.prizeZhuan .zhuanPanCon .pointer{
+	width: .76rem;
+	height: .92rem;
+	position: absolute;
+	bottom: .88rem;
+	left: .89rem;
+	background: url(../img/prizepointer.png);
+	background-size:100% 100% ;
+}
+.prizeZhuan .prizeButton{
+	width: 1.04rem;
+	height: .34rem;
+	margin: 0 auto;
+	background: #ccc;
+	line-height: 0.34rem;
+	color: #fff;
+	border-radius: 5px;
+}
+.prizeList{
+	width: 100%;
+	height: .42rem;
+	line-height: .42rem;
+	background: #EE2D45;
+	color: #fff;
+	position: relative;
+}
+.prizeList::after{
+	content: "";
+	width: .51rem;
+	height: 1px;
+	border-bottom: 1px solid #fff;
+	transform: scaleY(.5);
+	position: absolute;
+	left: .95rem;
+	top: .21rem;
+}
+.prizeList::before{
+	content: "";
+	width: .51rem;
+	height: 1px;
+	border-bottom: 1px solid #fff;
+	transform: scaleY(.5);
+	position: absolute;
+	right: .95rem;
+	top: .21rem;
+}
+.prizeGoods{
+	width: 100%;
+	min-height: .30rem;
+	padding: 5px .12rem;
+}
+.prizeGoods ul{
+	overflow: hidden;
+}
+.prizeGoods ul li{
+	float: left;
+	width: 1.15rem;
+	height: 1.59rem;
+	margin-right:2px ;
+	margin-bottom: 2px;
+}
+.prizeGoods dl{
+	overflow: hidden;
+}
+.prizeGoods dl dt{
+	float: left;
+	width: 1.15rem;
+	height: 1.16rem;
+}
+.prizeGoods dl dt img{
+	width: 100%;
+	height: 100%;
+}
+.prizeGoods dl dd{
+	float: left;
+	width: 1.15rem;
+	height: .42rem;
+	background: #B4B4B4;
+	color: #fff;
+	padding-top: 0.05rem;
+	font-size: 0.12rem;
+	text-align: center;
+	line-height: .16rem;
+}
+.prizeNameList{
+	width: 100%;
+	min-height: .82rem;
+	padding: 0 .12rem;
+}
+.prizeNameList .name{
+	padding: .15rem 0;
+	overflow: hidden;
+}
+.prizeNameList .name .nameImg{
+	width: .52rem;
+	height: .52rem;
+	float: left;
+	
+}
+.prizeNameList .name .nameImg img{
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+.prizeNameList .name .nameTime{
+	width: 1.4rem;
+	height: .52rem;
+	float: left;
+	margin-left: .16rem;
+	line-height: .2rem;
+}
+.prizeNameList .name .nameTime #time{
+	display: inline-block;
+	width: 1.5rem;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.prizeNameList .name #nicheng{
+	display: block;
+	margin-top: .16rem;
+	color: #333333;
+}
+.prizeNameList .name .namePrize{
+	height: .52rem;
+	width: .5rem;
+	float: right;
+}
+.prizeNameList .namePrize .prizeTxt{
+	color: #333;
+	line-height: .15rem;
+}
+.prizeNameList .namePrize img{
+	display: block;
+	width: .4rem;
+	height: .4rem;
+}
+
+
+
+/*****抽到奖励弹窗****/
+.mask{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	display: none;
+	z-index: 100;
+}
+.mask .mask_con{
+	height: 100%;
+	width: 100%;
+	background: url(../img/prizeJiangBg.jpg);
+}
+.mask .mask_con .parize_tw {
+	position: absolute;
+	top: 3.52rem;
+}
+.mask .mask_con .parize_tw .prize_txt{
+	width: 2.28rem;
+	height: .54rem;
+	margin-left: .18rem;
+	margin-right: .03rem;
+}
+.mask .mask_con .parize_tw .prize_img{
+	width: 1.02rem;
+	height: 1.02rem;
+}
+.mask .prize_btn{
+	position: absolute;
+	top: 85%;
+    left: .94rem;
+}
+.mask .prize_btn .shareBtn{
+	display: block;
+	text-decoration: none;
+	color: #FFF;
+	width: 1.88rem;
+	height: .38rem;
+	margin-bottom: .03rem;
+	line-height: .38rem;
+	background: #52C63B;
+	border-radius: 8px;
+	border: 1px solid #fff;
+}
+.mask .prize_btn .downLoadApp{
+	display: block;
+	text-decoration: none;
+	color: #FFF;
+	width: 1.88rem;
+	height: .38rem;
+	line-height: .38rem;
+	background: #46ACD6;
+	border-radius: 8px;
+	border: 1px solid #fff;
+}
+
+.mask .mask_con .prizeClose{
+	width: .22rem;
+	height: .22rem;
+	position: absolute;
+	right: .2rem;
+	top: .19rem;
+}
+
+.mask .shareMask{
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.5);
+	position: absolute;
+	z-index: 120;
+	display: none;
+}
+.mask .shareMask img{
+	position: absolute;
+	right: .22rem;
+    top: .15rem;
+    width: 3.3rem;
+}
+.disabled{pointer-events: none;}

@@ -1,0 +1,57 @@
+<ion-view  class='myQuanBox'>
+ 	<ion-header-bar  align-title="center">
+	    <div class="buttons">
+	        <button class="button bgff" ng-click="back()">
+	            <i class="icon ion-chevron-left"></i>
+	        </button>
+	    </div>
+    	<h1 class="title">不可用优惠券</h1>
+	</ion-header-bar>
+	<ion-content class='bgf0 myQuan'>
+		<ion-refresher pulling-text="下拉刷新" on-refresh="doRefresh()"></ion-refresher>
+		<div class='couPonSide tce corccc mtp5' ng-if='disQuan.length<=0'>
+			<i class="couponStyle iconfont">&#xe60c;</i>
+			<p>没有不可用优惠券哦</p>
+		</div>
+		<div class="disCouponBox" ng-repeat="myQu in disQuan">
+			<div class="myCouponList">
+				<div class="myCouponUpter">
+					<div class="myUpterLft">
+						<div class="myCouponImgBox">
+							<img class="myCouponImg" ng-src="../../Public/Uploads/addImage/{{myQu.image_url}}"/>
+						</div>
+						<div class="myCouponFont">
+							<p class="myCouponName">{{myQu.store}}</p>
+							<p class="myCouponInfoBox">
+								<span class="myCouponStyle">满减券</span>
+								<span class="myCouponCondition">满{{myQu.pri_condition}}元可用</span>
+							</p>
+							<p class="myCouponDate">{{myQu.date_start}}~{{myQu.date_end}}</p>
+						</div>
+					</div>
+					<div class="myUpterRht">
+						<div class="myCouponSumBox">
+							<img class="myDisImg" src="img/disCoupon.png" alt="已过期" />
+						</div>
+					</div>
+					<div class="myLineBox">
+						<img class='myLineImg' ng-src="img/DIS{{myQu.coupon_type}}.png" alt="线上/线下" />
+					</div>
+				</div>
+				<div class="myCouponUnder">
+					<div class="myCouponShow" ng-click="openInfo($index)">
+						<span class="myCouponBot">详情</span>
+						<span class="plt1">
+							<i class="icon ion-arrow-up-b" ng-if="disQuan[$index].showData"></i>
+							<i class="icon ion-arrow-down-b" ng-if="!disQuan[$index].showData"></i>
+						</span>
+					</div>
+					<div id="myCouponWordBox" ng-if="disQuan[$index].showData">
+						{{myQu.content}}
+					</div>
+				</div>
+			</div>
+		</div>
+		<ion-infinite-scroll ng-if="!hasmore" on-infinite="loadMore()" distance="1%"></ion-infinite-scroll>
+	</ion-content>
+</ion-view>

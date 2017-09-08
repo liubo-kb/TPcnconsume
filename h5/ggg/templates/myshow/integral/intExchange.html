@@ -1,0 +1,24 @@
+<ion-view class="newView">>
+	<ion-content class="bgf0">
+		<div class="intChange">
+			<div class="intChangeSide" ng-repeat="side in intChangeData" ng-click="goBar(side)">
+				<div class="intChangeImgBox">
+					<img class="intChangeImg" ng-src="../../Public/Uploads/mall/goodsImage/{{side.image_url}}"/>
+				</div>
+				<div class="intChangeFontBox">
+					<div class="intChangeFont">{{side.name}}</div>
+					<div class="intChangeShow">
+						<div class="intChangeBgSide">
+							<span class="intChangeProcess" style="width:{{side.remain/side.sum*0.69}}rem;"></span>
+						</div>
+						<span class="intChangeSum">剩余{{side.remain/side.sum*100}}%</span>
+					</div>
+					<div class="intChangeBot">
+						<i class="iconfont intChangeMark">&#xe62b;</i>
+						<span class="intChangeNum">{{side.price}}</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</ion-content>
+</ion-view>

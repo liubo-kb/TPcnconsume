@@ -1,0 +1,15 @@
+.tform,.mission,.value{
+	font-family: "微软雅黑";
+	font-size:14px;
+	text-align: center;
+	margin-top: 60px;
+    line-height: 35px;
+    letter-spacing: 2px;
+}
+.wbar{
+	font-family: "微软雅黑";
+	font-size: 16px;
+}
+.value{
+	margin-bottom: 60px;
+}

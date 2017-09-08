@@ -1,0 +1,91 @@
+<?php if (!defined('THINK_PATH')) exit();?><!--	页面头部	-->
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<title>财务中心</title>
+	<link rel="stylesheet" href="/cnconsum/Public/css/finance/global.css">
+	<link rel="stylesheet" href="/cnconsum/Public/css/finance/style.css">
+	<script src="/cnconsum/Public/js/merchant/jquery-1.9.1.min.js"></script>
+	<script src="/cnconsum/Public/js/zDrag.js" type="text/javascript"></script>
+	<script src="/cnconsum/Public/js/zDialog.js" type="text/javascript"></script>
+	<script src="/cnconsum/Public/js/merchant/script.js"></script>
+	<script src="/cnconsum/Public/js/ajaxcheck.js"></script>
+</head>
+
+<body>
+
+<div class="header-f" style="border: 0;">
+    <img src="/cnconsum/Public/image/merchant/logo.png" width="119" height="48" />
+    <span class="font22kai">财务中心</span>
+    <div class="accountbar">
+        <span class="uname">您好，张晓芳</span>
+        <a href="" class="maincolor" style="display:none">账户设置</a>&nbsp;&nbsp;
+        <a href="../login/logout" class="maincolor">退出</a>
+    </div>
+</div>
+
+
+<!--	资源文件	-->
+<link rel="stylesheet" href="/cnconsum/Public/css/merchant/member.css"/>
+<link rel="stylesheet" href="/cnconsum/Public/css/finance/table_01.css"/>
+<script src="/cnconsum/Public/js/finance/pages.js"></script>
+<style>
+body{
+	background-color: fff;
+}
+</style>
+
+<div class="container clearfix">
+	
+	<!--	左侧菜单	-->     	
+    <div class="menu">
+     
+	
+	 <h1 class="<?php echo ($press_vip?'msub':'no'); ?>">
+		<a href="trans_m">
+			<img src="/cnconsum/Public/image/merchant/huiyuan.png" class="icon-menu" />&nbsp;商户转账
+		</a>
+	</h1>
+
+    <h1 class="<?php echo ($press_commodity?'msub':'no'); ?>">
+		<a href="<?php echo ($menu["commodity_href"]); ?>">
+			<img src="/cnconsum/Public/image/merchant/shangpin.png" class="icon-menu" />&nbsp;用户转账
+		</a>
+	</h1>
+	
+
+</div>
+	
+	
+    <!--        页面内容        -->     
+    <div class="con" id="content">
+
+    	<table class ='gridtable'>
+				<tr>
+						<?php if(is_array($table_head)): $i = 0; $__LIST__ = $table_head;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$head): $mod = ($i % 2 );++$i;?><th style='width:180px'><?php echo ($head); ?></th><?php endforeach; endif; else: echo "" ;endif; ?>
+				</tr>
+
+				<?php if(is_array($table_data)): $i = 0; $__LIST__ = $table_data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?><tr>
+						<?php if(is_array($data_index)): $i = 0; $__LIST__ = $data_index;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$index): $mod = ($i % 2 );++$i; if($index == 'state' ): else: ?>
+							<td><?php echo ($data["$index"]); ?></td><?php endif; endforeach; endif; else: echo "" ;endif; ?>
+						<?php if($data["state"] == 'not_handle'): ?><td><a class='font-red'>未转账</a></td>
+							<td><a class='abtn abtn-red' href="handle_m?date=<?php echo ($data["date"]); ?>">点击处理</a></td>
+							<td><a class='abtn abtn-red' href="download_m?date=<?php echo ($data["date"]); ?>">下载账单</a></td>
+						<?php elseif($data["state"] == 'downloaded'): ?>
+							<td><a class='font-orange'>待转账</a></td>
+							<td><a class='abtn abtn-orange' href="handle_m?date=<?php echo ($data["date"]); ?>">待处理</a></td>
+							<td><a class='font-green'>已下载</a></td>
+						<?php else: ?>
+							<td><a class='font-green'>已转账</a></td>
+							<td><a class='font-green'>已处理</a></td>
+							<td><a class='font-green'>已下载</a></td><?php endif; ?>
+					</tr><?php endforeach; endif; else: echo "" ;endif; ?>
+		</table>
+		
+		<div class="page text-align-r margtop47">
+			<?php echo ($page); ?>
+		</div>
+    </div>
+</div>

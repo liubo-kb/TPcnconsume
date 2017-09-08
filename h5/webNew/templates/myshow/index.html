@@ -1,0 +1,59 @@
+<ion-view class="myShowBox">
+	<ion-header-bar class="myShowHeadSide">
+		<div class="myShowHead">
+			<div class="myShowUpter">
+				<div class="myShowLefSide">
+					<div class="myShowLef">
+					</div>
+				</div>
+				<div class="myShowImgSide">
+					<span class="myShowImgBox" ng-click="goPage('user')">
+						<img class="myShowImg" ng-src="../../Public/Uploads/headImage/{{headimage | strSubImg}}"/>
+					</span>
+				</div>
+				<div class="myShowRhtSide">
+					<span class="myShowRht" ng-if="state == 'login_access'" ng-click="doSign()">
+						{{signStateFont}}
+					</span>
+				</div>
+			</div>
+			<div class="myShowUnder">
+				<span class="myNickName">{{nickname | strSubNickName}}</span>
+			</div>
+		</div>
+	</ion-header-bar>
+	<ion-content class="myShowContainer">
+		<div class="myShowSide">
+			<div class="myCardList" ng-click="goPage('huiyuanka')">
+				<i class="iconfont cor43">&#xe6a4;</i>
+      			<span class="myShowFont">我的会员卡</span>
+			</div>
+			<div class="myCardList" ng-click="goPage('myQuan')">
+				<i class="iconfont cor43">&#xe680;</i>
+				<span class="myShowFont">我的优惠券</span>
+			</div>
+			<div class="myCardList" ng-click="goPage('myBao')">
+				<i class="iconfont cor43">&#xe64a;</i>
+				<span class="myShowFont">我的钱包</span>
+			</div>
+			<div class="myCardList" ng-click="goPage('myShop')">
+				<i class="iconfont cor43">&#xe60f;</i>
+      			<span class="myShowFont">我的消费</span>
+			</div>
+			<div class="myCardList" ng-click="goPage('integral')">
+				<i class="iconfont cor43">&#xe671;</i>
+      			<span class="myShowFont">积分商城</span>
+			</div>
+		</div>
+		<div class="myShowSide">
+			<div class="myCardList" ng-click="goPage('collect')">
+				<i class="iconfont corf1">&#xe621;</i>
+      			<span class="myShowFont">我的收藏</span>
+			</div>
+			<div class="myCardList" ng-click="goPage('recommend')">
+				<i class="iconfont corf1">&#xe639;</i>
+      			<span class="myShowFont">我的推荐</span>
+			</div>
+		</div>
+	</ion-content>
+</ion-view>

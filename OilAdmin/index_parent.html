@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<meta charset="utf-8" />
+		<title>商消乐 - 油企后台（总站）</title>
+		<meta name="description" content="overview &amp; stats" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+		<link rel="stylesheet" href="css/bootstrap.css" />
+		<link rel="stylesheet" href="css/font-awesome.css" />
+		<link rel="stylesheet" href="css/ace-fonts.css" />
+		<link rel="stylesheet" href="css/ace.css" class="ace-main-stylesheet" id="main-ace-style" />
+		<link rel="stylesheet" href="css/jquery-ui.css" />
+		<link rel="stylesheet" href="css/chart.css" />
+		<link rel="stylesheet" href="css/table.css" />
+	</head>
+
+	<body class="no-skin">
+		<!-- 导航栏 -->
+		<div id="navbar" class="navbar navbar-default navbar-fixed-top">
+
+			<div class="navbar-container" id="navbar-container">
+			
+				<!-- 收缩按钮 -->
+				<button type="button" class="navbar-toggle menu-toggler pull-left" id="menu-toggler" data-target="#sidebar">
+					<span class="sr-only">Toggle sidebar</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+
+				<!-- 项目名称 -->
+				<div class="navbar-header pull-left">
+					<a href="#" class="navbar-brand">
+						<small>
+							<i class="fa fa-leaf"></i>
+							商消乐 - 油企后台（总站）
+						</small>
+					</a>
+				</div>
+
+				<!-- 右侧分类项 -->
+				<div class="navbar-buttons navbar-header pull-right" role="navigation">
+					<ul class="nav ace-nav">
+					
+						<!-- 图标一 -->
+						<li class="grey">
+							<a data-toggle="dropdown" class="dropdown-toggle" href="#">
+								<i class="ace-icon fa fa-tasks"></i>
+								<span class="badge badge-grey">0</span>
+							</a>
+						</li>
+
+						<!-- 图标二 -->
+						<li class="purple">
+							<a data-toggle="dropdown" class="dropdown-toggle" href="#">
+								<i class="ace-icon fa fa-bell icon-animated-bell"></i>
+								<span class="badge badge-important">0</span>
+							</a>
+						</li>
+
+						<!-- 图标三 -->
+						<li class="green">
+							<a data-toggle="dropdown" class="dropdown-toggle" href="#">
+								<i class="ace-icon fa fa-envelope icon-animated-vertical"></i>
+								<span class="badge badge-success">0</span>
+							</a>
+						</li>
+
+						<!-- 图标四 -->
+						<li class="light-blue">
+							<a data-toggle="dropdown" href="#" class="dropdown-toggle">
+								<img class="nav-user-photo" src="image/avatar4.png" alt="Jason's Photo" />
+								<span class="user-info">
+									<small>账户</small>
+									刘波
+								</span>
+								<i class="ace-icon fa fa-caret-down"></i>
+							</a>
+						</li>
+						
+					</ul>
+				</div>
+				<!-- /右侧分类项 -->
+			
+			</div>
+		</div>
+		<!-- /导航栏 -->
+
+		<!-- 主界面 -->
+		<div class="main-container" id="main-container">
+
+			<!-- 左侧菜单 -->
+			<div id="sidebar" class="sidebar responsive">
+
+				<!--顶部图标-->
+				<div class="sidebar-shortcuts" id="sidebar-shortcuts">
+				
+					<!-- 大图标 -->
+					<div class="sidebar-shortcuts-large" id="sidebar-shortcuts-large">
+						<button class="btn btn-success">
+							<i class="ace-icon fa fa-signal"></i>
+						</button>
+
+						<button class="btn btn-info">
+							<i class="ace-icon fa fa-pencil"></i>
+						</button>
+
+						<button class="btn btn-warning">
+							<i class="ace-icon fa fa-users"></i>
+						</button>
+
+						<button class="btn btn-danger">
+							<i class="ace-icon fa fa-cogs"></i>
+						</button>
+					</div>
+					
+					<!-- 小图标 -->
+					<div class="sidebar-shortcuts-mini" id="sidebar-shortcuts-mini">
+						<span class="btn btn-success"></span>
+
+						<span class="btn btn-info"></span>
+
+						<span class="btn btn-warning"></span>
+
+						<span class="btn btn-danger"></span>
+					</div>
+				</div>
+				<!-- /顶部图标 -->
+				
+				<!-- 下拉菜单 -->
+				<ul class="nav nav-list">
+				
+					<li class="">
+						<a href="#" class="dropdown-toggle">
+							<i class="menu-icon fa fa-list"></i>
+							<span class="menu-text"> 会员管理 </span>
+							<b class="arrow fa fa-angle-down"></b>
+						</a>
+						<b class="arrow"></b>
+					</li>
+				
+					<li class="">
+						<a href="#" class="dropdown-toggle">
+							<i class="menu-icon fa fa-list"></i>
+							<span class="menu-text"> 数据统计 </span>
+							<b class="arrow fa fa-angle-down"></b>
+						</a>
+
+						<b class="arrow"></b>
+
+						<ul class="submenu">
+							<li class="" id="card_buy">
+								<a href="#" class="dropdown-toggle">
+									<i class="menu-icon fa fa-caret-right"></i>
+									办卡记录
+								</a>
+								<b class="arrow"></b>
+								
+								<ul class="submenu">
+									<li class="" id="buy-table">
+										<a href="#">
+											<i class="menu-icon fa fa-caret-right"></i>
+											记录详情
+										</a>
+										<b class="arrow"></b>
+									</li>
+
+									<li class="" id="buy-chart">
+										<a href="#">
+											<i class="menu-icon fa fa-caret-right"></i>
+											统计图表
+										</a>
+										<b class="arrow"></b>
+									</li>
+								</ul>
+								
+								
+							</li>
+
+							<li class="" id="card_reg">
+								<a href="#" class="dropdown-toggle">
+									<i class="menu-icon fa fa-caret-right"></i>
+									充值记录
+								</a>
+								<b class="arrow"></b>
+								
+								<ul class="submenu">
+									<li class="" id="reg-table">
+										<a href="#">
+											<i class="menu-icon fa fa-caret-right"></i>
+											记录详情
+										</a>
+										<b class="arrow"></b>
+									</li>
+
+									<li class="" id="reg-chart">
+										<a href="#">
+											<i class="menu-icon fa fa-caret-right"></i>
+											统计图表
+										</a>
+										<b class="arrow"></b>
+									</li>
+								</ul>
+								
+								
+							</li>
+							
+							<li class="">
+								<a href="#" class="dropdown-toggle">
+									<i class="menu-icon fa fa-caret-right"></i>
+									加油记录
+								</a>
+								<b class="arrow"></b>
+								
+								<ul class="submenu">
+									<li class="" id="consum-table">
+										<a href="#">
+											<i class="menu-icon fa fa-caret-right"></i>
+											记录详情
+										</a>
+										<b class="arrow"></b>
+									</li>
+
+									<li class="" id="consum-chart">
+										<a href="#">
+											<i class="menu-icon fa fa-caret-right"></i>
+											统计图表
+										</a>
+										<b class="arrow"></b>
+									</li>
+								</ul>
+
+								
+								
+							</li>
+							
+							<li class="" id="member">
+								<a href="#">
+									<i class="menu-icon fa fa-caret-right"></i>
+									客户分析
+								</a>
+								<b class="arrow"></b>
+							</li>
+							
+						</ul>
+					</li>
+
+					<li class="">
+						<a href="#" class="dropdown-toggle">
+							<i class="menu-icon fa fa-pencil-square-o"></i>
+							<span class="menu-text">油卡管理</span>
+
+							<b class="arrow fa fa-angle-down"></b>
+						</a>
+
+						<b class="arrow"></b>
+
+						<ul class="submenu">
+							<li class="" id="card-create">
+								<a href="#">
+									<i class="menu-icon fa fa-caret-right"></i>
+									创建油卡
+								</a>
+								<b class="arrow"></b>
+							</li>
+
+							<li class="" id="card-show">
+								<a href="#">
+									<i class="menu-icon fa fa-caret-right"></i>
+									查看油卡
+								</a>
+								<b class="arrow"></b>
+							</li>
+
+							<li class="" id="card-edit">
+								<a href="#">
+									<i class="menu-icon fa fa-caret-right"></i>
+									编辑油卡
+								</a>
+								<b class="arrow"></b>
+							</li>
+
+							<li class="" id="card-off">
+								<a href="#">
+									<i class="menu-icon fa fa-caret-right"></i>
+									下线油卡
+								</a>
+								<b class="arrow"></b>
+							</li>
+
+						</ul>
+					</li>
+					
+					
+					<li class="">
+						<a href="#" class="dropdown-toggle">
+							<i class="menu-icon fa fa-pencil-square-o"></i>
+							<span class="menu-text">加油券管理</span>
+
+							<b class="arrow fa fa-angle-down"></b>
+						</a>
+
+						<b class="arrow"></b>
+
+						<ul class="submenu">
+							<li class="" id="card-create">
+								<a href="#">
+									<i class="menu-icon fa fa-caret-right"></i>
+									发布加油券
+								</a>
+								<b class="arrow"></b>
+							</li>
+
+							<li class="" id="card-show">
+								<a href="#">
+									<i class="menu-icon fa fa-caret-right"></i>
+									查看加油券
+								</a>
+								<b class="arrow"></b>
+							</li>
+
+							<li class="" id="card-edit">
+								<a href="#">
+									<i class="menu-icon fa fa-caret-right"></i>
+									编辑加油券
+								</a>
+								<b class="arrow"></b>
+							</li>
+
+							<li class="" id="card-off">
+								<a href="#">
+									<i class="menu-icon fa fa-caret-right"></i>
+									删除加油券
+								</a>
+								<b class="arrow"></b>
+							</li>
+
+						</ul>
+					</li>
+					
+					
+
+				</ul>
+				<!-- /下拉菜单 -->
+
+				<!--收缩按钮-->
+				<div class="sidebar-toggle sidebar-collapse" id="sidebar-collapse">
+					<i class="ace-icon fa fa-angle-double-left" data-icon1="ace-icon fa fa-angle-double-left" data-icon2="ace-icon fa fa-angle-double-right"></i>
+				</div>
+
+			</div>
+			<!-- /左侧菜单 -->
+
+			<!-- 页面内容 -->
+			<div class="main-content">
+				<div class="main-content-inner">
+				
+					<!-- 操作导航条 -->
+					<div class="breadcrumbs" id="breadcrumbs">
+						<script type="text/javascript">
+							try{ace.settings.check('breadcrumbs' , 'fixed')}catch(e){}
+						</script>
+
+						<ul class="breadcrumb">
+							<li>
+								<i class="ace-icon fa fa-home home-icon"></i>
+								<a href="#" id="title">首页</a>
+							</li>
+							<li class="active" id="sub-title">油企信息</li>
+						</ul>
+						
+					</div>
+					<!-- /操作导航条 -->
+
+					<!-- 内容展示区 -->
+					<div class="page-content">
+						<!-- 内容标题 -->
+						<div class="page-header">
+							<!--<h1>
+								<span id="tip">油企信息</span>
+								<small>
+									<i class="ace-icon fa fa-angle-double-right"></i>
+									<span id="sub-tip">中国石油</span>
+								</small>
+								<span id='date-select'>
+								<span>
+							</h1>-->
+							<h1>
+								<span id='header-tip'>
+								<span/>
+							</h1>
+							
+						</div>
+						
+						
+						<!-- 内容 -->
+						<div id="content">
+						
+						
+						</div>
+						<!-- 内容 -->
+						
+					</div>
+					<!-- /内容展示区 -->
+					
+				</div>
+			</div>
+			<!-- 页面内容 -->
+		</div>
+		<!-- /主界面 -->
+
+		<!-- 页脚 -->
+		<div class="footer">
+			<div class="footer-inner">
+				<div class="footer-content">
+				
+			
+				
+				</div>
+			</div>
+		</div>
+	</body>
+	
+	
+	<!-- 脚本 -->
+	<div>
+	<script type="text/javascript">
+		window.jQuery || document.write("<script src='js/plugin/jquery.js'>"+"<"+"/script>");
+	</script>
+
+	<script type="text/javascript">
+		if('ontouchstart' in document.documentElement) document.write("<script src='js/plugin/jquery.mobile.custom.js'>"+"<"+"/script>");
+	</script>
+	
+	<script src="js/plugin/bootstrap.js"></script>
+	<script src="js/plugin/ace.js"></script>
+	<script src="js/plugin/ace.sidebar.js"></script>
+	
+	<script src="js/plugin/ie10-viewport-bug-workaround.js"></script>
+	<script src="js/plugin/ie-emulation-modes-warning.js"></script>
+	<script src="js/chart.js"></script>
+	<script src="js/sidebar.js"></script>
+	
+	<script src="js/plugin/jquery-ui.js"></script>
+	<script src="js/plugin/jquery.ui.touch-punch.js"></script>
+	
+	<!-- ECharts单文件引入 -->
+    <script src="js/plugin/echarts-all.js"></script>
+
+	</div>
+	<!-- /脚本 -->
+</html>

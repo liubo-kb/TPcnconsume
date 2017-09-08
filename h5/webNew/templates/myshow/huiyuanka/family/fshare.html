@@ -1,0 +1,40 @@
+<ion-view class='fshare'>
+ 	<ion-header-bar class="bge2" align-title="center">
+	    <div class="buttons">
+	        <button class="button bge2 corf" ng-click="back()">
+	            <i class="icon ion-chevron-left"></i>
+	        </button>
+	    </div>
+    	<h1 class="title corf">共享会员卡</h1>
+    	<button class='corf button bge2' ng-click="modal.show()">添加</button>
+	</ion-header-bar>
+	<ion-content class='bgf0'>
+      <div class="list">
+        <div class="item item-avatar item-icon-right" ng-repeat="share in getShare">
+          <img ng-src="../../Public/Uploads/headImage/{{share.headimage}}">
+          <h2>{{share.name}}</h2>
+          <p>{{share.phone}}</p>
+          <i class="icon ion-ios-trash" ng-click="detItem(share)"></i>
+        </div>
+      </div>
+	</ion-content>
+</ion-view>
+	<script id="templates/modal.html" type="text/ng-template">
+      <ion-modal-view>
+        <ion-header-bar class="bar bar-header bge2 ">
+          <h1 class="title corf">设置共享人</h1>
+          <button class="button bge2 corf" ng-click="modal.hide()">取消</button>
+        </ion-header-bar>
+        <ion-content class="padding">
+          <div class="list">
+            <label class="item item-input">
+              <input ng-model="newUser.name" type="text" placeholder="请输入共享人姓名">
+            </label>
+            <label class="item item-input">
+              <input ng-model="newUser.phone" type="text" placeholder="请输入共享人手机号">
+            </label>
+            <button class="button button-full bge2 corf" ng-click="createContact(newUser)">确 认</button>
+          </div>
+        </ion-content>
+      </ion-modal-view>
+    </script>

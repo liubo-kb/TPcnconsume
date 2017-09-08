@@ -1,0 +1,99 @@
+<ion-view class='kbox'>
+	<ion-header-bar class="bge2" align-title="center">
+	    <div class="buttons">
+	        <button class="button bge2 corf" ng-click="goGods()">
+	            <i class="icon ion-chevron-left"></i>
+	        </button>
+	    </div>
+    	<h1 class="title corf">结 算</h1>
+	</ion-header-bar>
+	<ion-content class='bgf0'>
+		<div class='bgff'>
+			<p class='storeGoods plt1'>
+				<i class="iconfont core7 fn12">&#xe602;</i>
+				<span class='fn16'>{{storeName}}</span>
+			</p>
+			<div class="shopCardSide">
+				<div class="shopLeftSide">
+					<div class="shopCardBox">
+						<div class="cardUpSide" style='background:{{unit.template}};'>
+							<span class="cardVery">ViP</span>
+							<span class="ShopCardStyle">{{unit.level}}</span>
+						</div>
+						<span class="spaceSide"></span>
+					</div>
+					<div class="shopCardInfo">{{unit.des}}</div>
+				</div>
+				<div class="shopRightSide">￥{{unit.price}}</div>
+			</div>
+			<div class='trt prt1 lht36'>
+				合计：￥{{unit.price | number:2}}
+			</div>
+		</div>
+		<div class='valueStyle bgff'>
+			<p class='valueHead plt1'>购买提示</p>
+			<div class='pouBox plt1 prt1'>
+				<span class='pouName cor66'>{{unit.des}}</span>
+			</div>
+		</div>
+		<div class='valueStyle bgff' ng-if="packageData.length>0">
+			<p class='valueHead plt1'>包含项目</p>
+			<div class="valueBody" ng-repeat="package in packageData">
+				<div class="valueImgBox">
+					<img class="valueImg" ng-src="../../Public/Uploads/optionImage/{{package.image}}"/>
+				</div>
+				<div class="valueFont">
+					<p class="valueItemBox">
+						<span class="valueName">{{package.name}}</span>
+						<span class="valuePrice">{{package.price}}元</span>
+					</p>
+					<p class="valueCount">可用{{package.option_count}}次(长期有效)</p>
+				</div>
+			</div>
+		</div>
+		<div class='valueStyle bgff'>
+			<p class='valueHead plt1'>优惠方式</p>
+			<div class='couBox plt1 prt1' ng-click="goCou(unit)">
+				<div class='zuoSide'>
+					<span class='couName'>使用</span>
+					<span class='couCount mlt1'>{{hint}}</span>
+				</div>
+				<div class='youSide'>
+					<span class='couInfo prt1' ng-if="flag=='0'">{{sent}}{{coupon.sum | number:2}}</span>
+					<span class='couInfo prt1' ng-if="flag=='1'">{{sent}}{{coupon.sum | number:2}}</span>
+					<span class='couInfo prt1' ng-if="flag=='2'">{{sent}}{{redPag | number:2}}</span>
+      				<i class="icon ion-ios-arrow-right cor66"></i>
+      		</div>
+			</div>
+			<div class='pouBox plt1 prt1'>
+				<span class='pouName cor66'>{{type}}</span>
+				<span class='pouSum cor66 fn12' ng-if="flag=='0'">{{info}}{{coupon.sum | number:2}}</span>
+				<span class='pouSum cor66 fn12' ng-if="flag=='1'">{{info}}{{coupon.sum | number:2}}</span>
+				<span class='pouSum cor66 fn12' ng-if="flag=='2'">{{info}}{{redPag | number:2}}</span>
+			</div>
+		</div>
+		<div class='valueStyle bgff mbm5'>
+				<p class='valueHead plt1'>支付方式</p>
+				<div class='mayPay'>
+					<i class='iconfont icon-zhifubao plt2 cor12 mayPayStyle'></i>
+					<span class='plt2 fn16'>支付宝支付</span>
+				</div>
+		</div>
+	</ion-content>
+	<ion-footer-bar class='payInfo' ng-if="flag=='0'">
+		<div class='showSide trt prt1 lht36'>实付款：{{unit.price-coupon.sum  | number:2}}</div>
+		<div class='btnSide bge2 corf' ng-click="alipay(delog,unit.price-coupon.sum)">结 算</div>
+ 	</ion-footer-bar>
+ 	<ion-footer-bar class='payInfo' ng-if="flag=='1'">
+		<div class='showSide trt prt1 lht36'>实付款：{{unit.price-coupon.sum  | number:2}}</div>
+		<div class='btnSide bge2 corf' ng-click="alipay(delog,unit.price-coupon.sum)">结 算</div>
+ 	</ion-footer-bar>
+ 	<ion-footer-bar class='payInfo' ng-if="flag=='2'">
+		<div class='showSide trt prt1 lht36'>实付款：{{unit.price-redPag  | number:2}}</div>
+		<div class='btnSide bge2 corf' ng-click="alipay(delog,unit.price-redPag)">结 算</div>
+ 	</ion-footer-bar>
+ 	<ion-footer-bar class='payInfo' ng-if="flag=='5'">
+		<div class='showSide trt prt1 lht36'>实付款：{{unit.price| number:2}}</div>
+		<div class='btnSide bge2 corf' ng-click="alipay(delog,unit.price)">结 算</div>
+ 	</ion-footer-bar>
+</ion-view>

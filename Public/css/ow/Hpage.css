@@ -1,0 +1,118 @@
+﻿.ss,.sf{
+    letter-spacing: 5px;
+	margin-bottom: 35PX;
+	/*margin-top: 60px;*/
+	font-size: 18px;
+    font-family: "微软雅黑";
+    text-align: center;
+}
+.sf{
+    margin-top: 45px;
+}
+.icon{
+	width: 100%;
+	height: 300px;
+	line-height: 135px;
+}
+.icon_bottom{
+	margin-top:-50px;
+}
+/*.icon_bottom img{
+	width: 130px;
+	height: 130px;
+}*/
+.icon_bottom ul{
+	text-align: center;
+	width: 100%;
+}
+.icon_bottom li{
+	width: 20%;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+}
+.ax,.ms{
+	margin-top: -105px;
+	display: block;
+	font-size: 14px;
+	font-family: "微软雅黑";
+	color: #000000;
+}
+a.home,a.bome,a.come,a.aome{
+	width:70px; 
+	height:70px;
+	display: inline-block;
+	}
+a.home{
+	background:url(../../image/ow/imgHpage/xf.png) no-repeat; 
+}
+a.home:hover,a.bome:hover,a.come:hover,a.aome:hover{
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+}
+a.home:hover {
+	background:url(../../image/ow/imgHpage/djxf.png) no-repeat;
+	}
+a.bome{
+	background: url(../../image/ow/imgHpage/zj.png) no-repeat;
+}
+a.bome:hover{
+	background: url(../../image/ow/imgHpage/djzj.png) no-repeat;
+}
+a.come{
+	background: url(../../image/ow/imgHpage/xfk.png) no-repeat;
+}
+a.come:hover{
+	background: url(../../image/ow/imgHpage/djxfk.png) no-repeat;
+}
+a.aome{
+	background: url(../../image/ow/imgHpage/shfw.png) no-repeat;
+}
+a.aome:hover{
+	background: url(../../image/ow/imgHpage/djshfw.png) no-repeat;
+}
+.mve{
+	width: 100%;
+	height: 400px;
+}
+.hang{
+	text-align: center;
+	width: 100%;
+	line-height: 50px;
+	background-color: #E46062;
+}
+.hang span{	
+	font-family: "微软雅黑";
+	font-size: 16px;
+	color: #FFFFFF;
+}
+.join{
+	width: 370px;
+	margin-left: 150px;
+}
+.in{
+	color: #E46062;
+}
+.rav span{
+	color: #000000;
+}
+.rav li a.active,.rav li a.active:hover{
+    border-left: 0.25em solid #E46062;
+}
+.rav li{
+	/*letter-spacing: 3px;*/
+	font-family: "微软雅黑";
+	font-size: 16px;
+	/*line-height: 25px;*/
+	padding: 10px 10px 4px 10px;
+	border: 1px solid #dcdcdc;
+	/*border-left: 1px solid #DCDCDC;*/
+	cursor: pointer;
+}
+.rav li:hover{
+    border-left: 0.1rem solid #E46062;
+}
+.photo img{
+	height: 180px;
+}

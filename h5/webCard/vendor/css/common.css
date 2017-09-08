@@ -1,0 +1,446 @@
+html,body{
+	width:100%;
+	height:100%;
+}
+
+*{
+	box-sizing:border-box;
+}
+
+@media screen and (min-width: 320px) {
+    html {
+        font-size: 100px;
+    }
+}
+ 
+@media screen and (min-width: 360px) {
+    html {
+        font-size: 112.5px;
+    }
+}
+ 
+@media screen and (min-width: 400px) {
+    html {
+        font-size: 125px;
+    }
+}
+ 
+@media screen and (min-width: 440px) {
+    html {
+        font-size: 137.5px;
+    }
+}
+ 
+@media screen and (min-width: 480px) {
+    html {
+        font-size: 150px;
+    }
+}
+ 
+@media screen and (min-width: 640px) {
+    html {
+        font-size: 200px;
+    }
+}
+ 
+html {
+    font-size: 26.67vw;
+}
+
+body{
+	margin:0;
+	font-size:.14rem;
+	line-height:1.5;
+	-webkit-tap-highlight-color:transparent;
+	font-family: "Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+}
+
+ul , li , ol, h1 , h2 , h3 , h4 , h5 , h6 , p , figure , form , fieldset , input , legend , textarea , button ,dl,dt,dd, blockquote , th , tr , td ,xmp {
+	padding:0;
+	margin:0;
+}
+
+ul , ol , menu{
+	list-style:none;
+}
+
+@font-face {
+	font-family:"iconfont";
+	src: url("../font/iconfont.ttf") format("truetype"),url("../font/iconfont.woff") format("woff");
+}
+
+
+
+/*字体尺寸*/
+
+.fn12{
+	font-size:.12rem;
+}
+
+.fn14{
+	font-size:.14rem;
+}
+
+.fn16{
+	font-size:.16rem;
+}
+
+.fn18{
+	font-size:.18rem;
+}
+
+
+.fn20{
+	font-size:.2rem;
+}
+
+.fn22{
+	font-size:.22rem;
+}
+
+.fn26{
+	font-size:.26rem;
+}
+
+.fn32{
+	font-size:.32rem;
+}
+
+
+/*line-height*/
+
+.lht2{
+	line-height:200%;
+}
+
+/*margin*/
+
+.mlt1{
+	margin-left:.1rem;
+}
+
+.mrt1{
+	margin-right:.1rem;
+}
+
+.mtp05{
+	margin-top:5px;
+}
+
+.mtp1{
+	margin-top:.1rem;
+}
+
+.mtp15{
+	margin-top:.15rem;
+}
+
+.mtp2{
+	margin-top:.2rem;
+}
+
+.mtp5{
+	margin-top:.5rem;
+}
+
+
+.mbm1{
+	margin-bottom:.1rem;
+}
+
+.mbm2{
+	margin-bottom:.2rem;
+}
+
+.mbm5{
+	margin-bottom:.5rem;
+}
+
+/*background*/
+.bge2{
+	background: #f3494e;
+}
+
+.bgf0{
+	background: #f0eff5;
+}
+
+.bgf0f{
+	background: #f0f0f0;
+}
+
+
+.bgff{
+	background: #fff;
+}
+
+
+.bgdc{
+	background:#dcd6c0;
+}
+
+.bgffc{
+	background: #ffC900;
+}
+
+
+.bgcc{
+	background: #cccdcf;
+}
+
+.bg0{
+	background: #000;
+}
+
+.bg38{
+	background:#387ef5;
+}
+
+/*color*/
+
+.cor0{
+	color:#000;
+}
+
+.cor73{
+	color:#737373;
+}
+
+.cor33{
+	color:#333;
+}
+
+.corff8{
+	color:#FF8C00;
+}
+
+.cor28{
+	color:#28A54C;
+}
+
+.cor4b{
+	color:#4B8BF4;
+}
+
+.cor42{
+	color:#42AAFC;
+}
+
+.cor88{
+	color:#886AEA;
+}
+
+.cor12{
+	color:#1296DB;
+}
+
+.cor3e{
+	color:#3E89F5;
+}
+
+
+.cora71{
+	color:#a71d5d;
+}
+
+.corfe3{
+	color:#FFEE33;
+}
+
+
+.corc3{
+	color:#c3c2c8;
+}
+
+.cor3a{
+	color:#3a3a3a;
+}
+
+
+.cor92{
+	color:#929292;
+}
+
+.cord7{
+	color:#d7d7d9;
+}
+
+.core6{
+	color:#e64e0d;
+}
+
+.cor00{
+	color:#00a0fb;
+}
+
+.cor66{
+	color:#666;
+}
+
+.cor7c{
+	color:#7c7c7c;
+}
+
+.corf{
+	color:#fff;
+}
+
+.cor43{
+	color:#43a9fe;
+}
+
+.corf1{
+	color:#f18c44;
+}
+
+.core2{
+	color:#e26666;
+}
+
+
+.core8{
+	color:#e85766;
+}
+
+.cord5{
+	color:#d57bec;
+}
+
+.corf2{
+	color:#f26223;
+}
+
+.cor10{
+	color:#1095e0;
+}
+
+.core7{
+	color:#e7642e;
+}
+
+.cor6b{
+	color:#6B46E5;
+}
+
+.corccc{
+	color:#ccc;
+}
+
+.cordc{
+	color:#dc79f0;
+}
+
+.corea{
+	color:#ea5364;
+}
+
+.core3{
+	color:#e32d2d;
+}
+
+.cor12{
+	color:#1296db;
+}
+
+.cor58{
+	color:#585858;
+}
+
+/*padding*/
+
+.ptp05{
+	padding-top:5px;
+}
+
+.ptp1{
+	padding-top:.1rem;
+}
+
+
+.pbm05{
+	padding-bottom:5px;
+}
+.pbm1{
+	padding-bottom:.1rem;
+}
+
+
+
+.ptp2{
+	padding-top:.2rem;
+}
+
+
+.plt05{
+	padding-left:5px;
+}
+.plt1{
+	padding-left:.1rem;
+}
+
+.plt15{
+	padding-left:.15rem;
+}
+.plt2{
+	padding-left:.2rem;
+}
+
+.plt3{
+	padding-left:.3rem;
+}
+
+.plt5{
+	padding-left:.5rem;
+}
+ 
+.plt8{
+	padding-left:.8rem;
+}
+
+
+.prt1{
+	padding-right:.1rem;
+}
+
+.prt2{
+	padding-right:.2rem;
+}
+
+.prt3{
+	padding-right:.3rem;
+}
+
+.prt6{
+	padding-right:.6rem;
+}
+
+.prt8{
+	padding-right:.8rem;
+}
+
+
+
+a{
+	text-decoration: none;
+	color:#666666;
+}
+
+
+/*text-align*/
+
+.tce{
+	text-align:center;
+}
+
+.trt{
+	text-align:right;
+}
+
+.tab .item{
+	font-size:12px;
+	height:24px;
+}
+
+.button{
+	top:-1px;
+}

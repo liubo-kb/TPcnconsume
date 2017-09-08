@@ -1,0 +1,32 @@
+<ion-view class='tiXian'>
+ 	<ion-header-bar class="bge2" align-title="center">
+	    <div class="buttons">
+	        <button class="button bge2 corf" ng-click="goPage()">
+	            <i class="icon ion-chevron-left"></i>
+	        </button>
+	    </div>
+    	<h1 class="title corf">提 现</h1>
+	</ion-header-bar>
+	<ion-content class='bgf0'>
+		<div class='deposit' ng-click='goBankCard()'>
+			<div class='bank'>
+				<span class='bankName'>{{bankCard.bank}}</span>
+				<span class='cor66 fn12'>尾号({{bankCard.number | numStr}})</span>
+			</div>
+			<i class="icon ion-ios-arrow-right cord7 goBank"></i>
+		</div>
+		<div class='cashSide'>
+			<div class='cashTop'>
+				<span class='lftSide'>可提金额</span>
+				<span class='rhtSide cor66'>{{newSum}}</span>
+			</div>
+			<div class='cashBot'>
+				<span class='lftSide'>提现金额</span>
+				<input class='rhtSide cor66' ng-model='data.num' type="number" placeholder="输入提现金额"/>
+			</div>
+		</div>
+		<div class='xuBtn'>
+			<div class='nextGo bge2 corf' ng-click='getMon(data.num)'>立即提现</div>
+		</div>
+	</ion-content>
+</ion-view>

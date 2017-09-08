@@ -1,0 +1,37 @@
+<ion-view class='addCard'>
+ 	<ion-header-bar align-title="center">
+	    <div class="buttons">
+	        <button class="button bgff" ng-click="goBack(page)">
+	            <i class="icon ion-chevron-left"></i>
+	        </button>
+	    </div>
+    	<h1 class="title">添加银行卡</h1>
+	</ion-header-bar>
+	<ion-content class='addCardInfo bgf0'>
+		<ul class='addBox mtp1'>
+			<li class='addList'>
+				<span>银行</span>
+				<input type="text" placeholder="请输入开户行" ng-model='data.bank'/>
+			</li>
+			<li class='addList'>
+				<span>卡号</span>
+				<input type="text" placeholder="请输入卡号" ng-model='data.cardCode'/>
+			</li>
+			<li class='addList mtp1'>
+				<span>姓名</span>
+				<input type="text" placeholder="请输入您的真实姓名" ng-model='data.name'/>
+			</li>
+			<li class='addList'>
+				<span>身份证</span>
+				<input type="text" placeholder="请输入您的证件号" ng-model='data.idCard'/>
+			</li>
+			<li class='addList mtp1'>
+				<span>手机号</span>
+				<input type="number" placeholder="银行预留手机号" ng-model='data.phone'/>
+			</li>
+		</ul>
+		<div class="addCardBtnBox">
+			<div class="addCardBtn" ng-click='bind(data.bank,data.cardCode,data.name,data.idCard,data.phone)'>确 定</div>
+		</div>
+	</ion-content>
+</ion-view>

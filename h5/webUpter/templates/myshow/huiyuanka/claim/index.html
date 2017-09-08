@@ -1,0 +1,50 @@
+<ion-view class="setTlement">
+	<ion-header-bar align-title="center">
+	    <div class="buttons">
+	        <button class="button bgff" ng-click="back()">
+	            <i class="icon ion-chevron-left"></i>
+	        </button>
+	    </div>
+    	<h1 class="title">理赔申请</h1>
+	</ion-header-bar>
+	<ion-content class='allpaySide'>
+		<div class="claimBox">
+			<div class="claimHead">
+				<span class="claimFont">理赔理由</span>
+				<span class="claimSide">(仅以下两种情况可申请理赔)</span>
+			</div>
+	    	<div class="claimBody">
+	    		<div class="claimItem" ng-repeat="item in lodgeList" ng-click="getItem($index,item.cause)">
+	    			<span class="claimInfo">{{item.cause}}</span>
+	    			<i class="claimMark icon ion-ios-checkmark" ng-if="item.state == 'true'"></i>
+	    			<i class="claimNotMark icon ion-ios-circle-outline" ng-if="item.state == 'false'"></i>
+	    		</div>
+	    	</div>
+		</div>
+		<div class="setMentBox" ng-if="cardType=='储值卡'">
+			<div class="setMentHead">理赔金额</div>
+			<div class="setMentBody">
+				<div class="setBodyFont">购卡金额：￥{{price | number:2}}</div>
+				<div class="setBodyFont">剩余金额：￥{{cardRem | number:2}}</div>
+			</div>
+			<div class="setMentFont">
+				<div class="setFontHead">理赔金额：￥{{cardRem | number:2}}</div>
+				<div class="setFontSay">温馨提醒：理赔成功后，理赔金额将打入商消乐钱包中。</div>
+			</div>
+		</div>
+		<div class="setMentBox" ng-if="cardType!='储值卡'">
+			<div class="setMentHead">理赔金额</div>
+			<div class="setMentBody">
+				鉴于卡种原因，商消乐平台会根据专业计算，您的理赔金额将会在理赔申请成功后显示。
+			</div>
+			<div class="setMentFont">
+				<div class="setFontSay">温馨提醒：理赔成功后，理赔金额将打入商消乐钱包中。</div>
+			</div>
+		</div>
+	</ion-content>
+	<ion-footer-bar class="claimFootBox">
+		<div class="claimFoot" ng-click="setDge(data.cause)">提 交</div>
+		<div class="hintBox">您的理赔申请需要等待三个工作日哦</div>
+	</ion-footer-bar>
+</ion-view>
+

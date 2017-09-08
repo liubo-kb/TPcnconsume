@@ -1,0 +1,26 @@
+<ion-view>
+ 	<ion-header-bar class="bge2" align-title="center">
+	    <div class="buttons">
+	        <button class="button bge2 corf" ng-click="back()">
+	            <i class="icon ion-chevron-left"></i>
+	        </button>
+	    </div>
+    	<h1 class="title corf">充 值</h1>
+	</ion-header-bar>
+	<ion-content class='bgf0'>
+		<ul class='mtp1'>
+			<li class='mypay bgff  plt2 prt2'>
+				<span class='mypay1'>金额(￥):</span><input id="mypay2" ng-model="data.reChan" type="text" placeholder="请输入充值金额"/>
+			</li>
+			<li class='payStyle  bgff plt2 prt2'>
+				<div class='mayPay'>
+					<i class='iconfont icon-zhifubao plt2 fn20 cor12'></i>
+					<span class='plt2 fn16'>支付宝支付</span>
+				</div>
+			</li>
+		</ul>
+		<div class='xuBtn'>
+			<div ng-click="reChanPay(data.reChan)" class='nextGo bge2 corf'>确 认</div>
+		</div>
+	</ion-content>
+</ion-view>
