@@ -31,8 +31,6 @@ class ShareController extends Controller
 	public function register()
 	{
 		$phone = get('phone');
-		
-
 		$passwd = get('passwd');
 		$type = get('type');
 		$referrer = get('referrer');
@@ -72,6 +70,29 @@ class ShareController extends Controller
 		}
 
 	}
+	
+	public function game_reg()
+        {
+                $phone = post('phone');
+                $passwd = post('passwd');
+                $type = post('type');
+                $referrer = post('referrer');
+		if($referrer == 'no_data')
+		{
+			$referrer = '无人推荐';
+		}
+                if( $type == 'user' )
+                {
+                        $result['result_code'] = $this->user($phone,$passwd,$referrer);
+                }
+                else
+                {
+                        $result['result_code'] = $this->merchant($phone,$passwd,$referrer);
+                }
+		echo json_encode($result);
+
+        }
+	
 
 	public function merchant($phone,$passwd,$referrer)
 	{
@@ -228,7 +249,7 @@ class ShareController extends Controller
 		
 		//写入注册信息
 		$record_u = array(
-			'uuid'=>$uuid,'phone' => $phone, 'nickname' => $phone, 'passwd' => $passwd, 'referrer' => $referrer_uuid,'datetime' => $datetime,'user_level' => 'ORD'
+			'uuid'=>$uuid,'phone' => $phone, 'state' => 'not_auth', 'nickname' => $phone, 'passwd' => $passwd, 'referrer' => $referrer_uuid,'datetime' => $datetime,'user_level' => 'ORD'
 		);
 
 		$data = $user->addWithCheck($record_u);
@@ -236,7 +257,7 @@ class ShareController extends Controller
 		{
 			 $uuid = get_uuid('u_');
                          $record_u = array(
-                         	'muid'=>$muid, 'phone'=>$phone,  'nickname' => $phone, 'passwd'=>$passwd,  'referrer'=>$referrer_uuid,'datetime'=>$datetime);
+                         	'muid'=>$muid, 'phone'=>$phone,  'state' => 'not_auth','nickname' => $phone, 'passwd'=>$passwd,  'referrer'=>$referrer_uuid,'datetime'=>$datetime);
                          $data = $user->addWithCheck($record_u);
 		}
 		

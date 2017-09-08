@@ -2,7 +2,7 @@
 <html>
 	<head>
 <meta charset="utf-8" />
-<title>无标题文档</title>
+<title>登陆商户中心</title>
 <script src="/cnconsum/Public/js/jquery-1.9.1.min.js"></script>
 <script src=" /cnconsum/Public/js/jquery.min.js"></script>
 <script src=" /cnconsum/Public/js/login.js"></script>

@@ -8,25 +8,35 @@ class IndexController extends Controller
 		echo '其它控制器索引';
 	}
 	
-	public function add()
-        {
-                $tab = D('activity');
-                $theme = array(
-                        '新店入驻','美发专区','节日活动','会员大放送'
-                );
-
-		$content = array(
-                        '优惠停不下来','办卡永享8折优惠','万圣节够胆你就来','豪礼享不停'
-                );
-
-                for( $i = 0 ;$i < count($theme) ; $i++ )
-                {
-                        $record = array(
-                                'id' => $i,'theme' => $theme[$i],'image_url' => 'activity_'.$i.'.png',
-				'content' => $content[$i],'eare' => '西安市雁塔区','state' => 'true'
-                        );
-                        $tab->add($record);
-                }
-        }
+    function signTest()
+    {
+        /*  验证第三方  */
+		import("Org.Util.Sign.SignUtils");
+        $options = array(
+            "timestap" => post("timestap"), "randCode" => post("randCode"), "sign" => post("sign")
+        );
+        $signUtils = new \SignUtils($options);
+        //echo "验签状态:".$signUtils->checkSign()."<br/>";
+        $result['sign_check_state'] = $signUtils->checkSign();
+        echo json_encode($result);
+    }
+    
+	function loadData()
+	{
+		$dir = "http://101.201.100.191/cnconsum/Public/Uploads/gameImage/question/";
+		$record = array(
+			"id" => post('id'),
+			"image" => $dir.post('image'),
+			"answer" => post('answer'),
+			"type" => post('type')
+		);
+		$table = D("game_question_bank");
+		
+		if( addWithCheck($table,$record) == 1)
+		{
+				echo "上传成功!";
+		}
+		
+	}
 	
 }

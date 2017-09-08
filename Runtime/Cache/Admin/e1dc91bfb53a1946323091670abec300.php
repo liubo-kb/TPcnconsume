@@ -119,7 +119,7 @@ $(function(){
 
 <!--footer start-->
 <div class="footer">
-	<p class="font-user">登录用户: <?php echo ($account); ?></p>
+	<p class="font-user"> 审核人员： <?php echo ($name); ?></p>
 </div>
 </body>
 </html>

@@ -37,19 +37,23 @@
 						<td>{$k}.</td>
 						<volist name='data_index' id='index'>
 							<if condition="$index eq 'astate'">
-                                                                <if condition="$data.astate eq 'true'">
-                                                                        <td><a class="abtn abtn-fc">审核通过</a></td>
-                                                                <elseif condition="$data.astate eq 'false'"/>
-                                                                        <td><a class="abtn abtn-fc" onclick="showDialog('fail_result','{$account}','{$data.muid}');">审核不通过</a></td>
-                                                                <else/>
-                                                                        <td>error</td>
-                                                                </if>
-                                                        <elseif condition="$index eq 'muid'"/>
-                                                        <else/>
-                                                                <td>{$data.$index}</td>
-                                                        </if>
-
+									<if condition="$data.astate eq 'true'">
+											<td><a class="abtn abtn-green">保险认证通过</a></td>
+									<elseif condition="$data.astate eq 'complete_not_auth'"/>
+											<td><a class="abtn abtn-orange">快速认证通过</a></td>
+									<elseif condition="$data.astate eq 'false'"/>
+											<td><a class="abtn abtn-red" onclick="showDialog('fail_result','{$account}','{$data.muid}');">审核不通过</a></td>
+									<else/>
+											<td>error</td>
+									</if>
+							<elseif condition="$index eq 'muid'"/>
+							<else/>
+									<td>{$data.$index}</td>
+							</if>
 						</volist>
+						<td><a class="abtn abtn-green" href="">上传店铺资料</a></td>
+						
+						
 					</tr>
 				</volist>
 			</table>

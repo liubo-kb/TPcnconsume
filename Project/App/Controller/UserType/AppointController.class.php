@@ -48,7 +48,7 @@ class AppointController extends Controller
 		{
 			$where['state'] = array('neq','null');
 		}
-		$data = $appoint->where($where)->select();
+		$data = $appoint->where($where)->order("datetime desc")->select();
 		
 		echo json_encode($data);
 	}
@@ -82,6 +82,15 @@ class AppointController extends Controller
 		$where['merchant'] = $this->merchant;
 		$where['date'] = $this->date;
 		$where['time'] = $this->time;
+		
+		if( $this->state == 'access' )
+		{
+			$set['reason'] = '预约成功';
+		}
+		else
+		{
+			$set['reason'] = post('reason');
+		}
 
 		$result['result_code'] = $appoint->where($where)->save($set);
 		echo json_encode($result);

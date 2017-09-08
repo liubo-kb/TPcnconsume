@@ -26,7 +26,7 @@ class SearchController extends Controller
 
 		$where['address'] = array("like","%$eare%");
 		$where['trade'] = array("like","%$trade%");
-		$where['state'] = 'true';
+		$where['state'] = array("in","true,complete_not_auth");
 
 		$data = showDataGet($where,$page);
 		
@@ -80,7 +80,7 @@ class SearchController extends Controller
 
                 $where_m['address'] = array("like","%$eare%");
                 $where_m['trade'] = array("like","%$trade%");
-		$where_m['state'] = 'true';
+		$where_m['state'] = array("in","true,complete_not_auth");
 		//$where_m['muid'] = array("not in",$muidArray);
                 $result['merchant'] = showDataGet($where_m,"1,10");
 	

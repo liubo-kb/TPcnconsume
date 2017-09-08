@@ -118,7 +118,7 @@ $(function(){
 		
 		<div class="second">
 			<p id="store">店铺信息</p>
-			<p id="xm">店铺地址：<?php echo ($info["address"]); ?></p>
+			<p id="xm">店铺地址：<?php echo ($info["address"]); echo ($info["full_add"]); ?></p>
 			<p id="xm">联系方式：<?php echo ($info["store_number"]); ?></p>
 			<p id="xm">单位名称：<?php echo ($info["store"]); ?></p>
 			<p id="xm">所属行业：<?php echo ($info["trade"]); ?></p>
@@ -190,13 +190,15 @@ $(function(){
 		<div class="nn" style="height: 150px;">
 			<input type="button" id="wt" value="未通过" onclick="showDialog('failReason','<?php echo ($account); ?>','<?php echo ($info["muid"]); ?>');" />
 			<input type="button" value="进入外审" id="ws" onclick="showDialog('auditor','<?php echo ($account); ?>','<?php echo ($info["muid"]); ?>');" />
+			<input type="button" value="快速认证" id="ws" onclick="showDialog('inner','<?php echo ($account); ?>','<?php echo ($info["muid"]); ?>');" />
+			<input type="button" value="预付保险认证" id="ws" onclick="showDialog('insure','<?php echo ($account); ?>','<?php echo ($info["muid"]); ?>');" />
 		</div>
 	</div>
 </div>
 
 <!--footer start-->
 <div class="footer">
-	<p class="font-user">登录用户: <?php echo ($account); ?></p>
+	<p class="font-user"> 审核人员： <?php echo ($name); ?></p>
 </div>
 </body>
 </html>

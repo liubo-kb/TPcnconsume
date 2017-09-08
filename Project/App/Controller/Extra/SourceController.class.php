@@ -70,6 +70,7 @@ class SourceController extends Controller
 			$data['version_name'] = C('ANDROID_VERSION_NAME');
 			$data['add'] = C('DOWNLOAD_ADD');
 			$data['update_content'] = C('ANDROID_UPDATE_CONTENT');
+			$data['forced'] = C('FORCED');
 			echo json_encode($data);
 		}
 
@@ -77,6 +78,7 @@ class SourceController extends Controller
 		{
 			$data['version'] = C('IOS_VERSION');
 			$data['update_content'] = C('IOS_UPDATE_CONTENT');
+			$data['forced'] = C('FORCED');
 			echo json_encode($data);
 		}
 	}

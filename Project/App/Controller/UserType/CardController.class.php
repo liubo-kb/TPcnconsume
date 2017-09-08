@@ -68,6 +68,154 @@ class CardController extends Controller
 		
 	}
 
+	
+	public function multiFilter()
+	{
+		//获取储值卡
+		$data['value'] = $this->getValueCard();
+
+		//获取计次卡
+		$data['count'] = $this->getCountCard();
+		
+		//获取套餐卡
+		$data['meal'] = $this->getMealCard();
+		
+		//获取体验卡
+		$data['experience'] = $this->getExperienceCard();
+		
+		//获取分享卡
+		$data['share'] = $this->getShareCard();
+		
+		$data['num'] = count($data['value'])+count($data['count'])+count($data['meal'])+count($data['experience'])+count($data['share']);
+		
+		echo json_encode($data);
+	}
+
+	
+	public function multiGet()
+	{
+		//获取储值卡
+		$data['value'] = $this->getValueCard();
+
+		//获取计次卡
+		$data['count'] = $this->getCountCard();
+		
+		//获取套餐卡
+		$data['meal'] = $this->getMealCard();
+		
+		//获取体验卡
+		$data['experience'] = $this->getExperienceCard();
+		
+		//获取分享卡
+		$data['share'] = $this->getShareCard();
+		
+		echo json_encode($data);
+	}
+	
+	//获取储值卡
+	function getValueCard()
+	{
+		$table = D('UserCard');
+		$user = $this->user;
+		if( $this->merchant != "null")
+		{
+			$where['cn_user_card.merchant'] = $this->merchant;
+		}
+		$type = '储值卡';
+		$join = "cn_merchant_card.merchant = cn_user_card.merchant and type = card_type and code = card_code and level = card_level";
+		$where['user'] = $user;
+		$where['card_type'] = $type;
+		$data = $table
+		->join("cn_merchant_card ON $join ")
+		->field('cn_user_card.*,price,rule,addition_sum')
+		->where($where)
+		->select();
+		$data = $this->setExtra($data);
+		return $data;
+	}
+	
+	//获取计次卡
+	function getCountCard()
+	{
+		$table = D('UserCard');
+		$user = $this->user;
+		if( $this->merchant != "null")
+                {
+                        $where['cn_user_card.merchant'] = $this->merchant;
+                }
+		$type = '计次卡';
+		$join = "cn_merchant_card.merchant = cn_user_card.merchant and type = card_type and code = card_code and level = card_level";
+		$where['user'] = $user;
+		$where['card_type'] = $type;
+		$data = $table
+		->join("cn_merchant_card ON $join ")
+		->field('cn_user_card.*,price,rule,addition_sum')
+		->where($where)
+		->select();
+		$data = $this->setExtra($data);
+		return $data;
+	}
+	
+	//获取分享卡
+	function getShareCard()
+	{
+		$table = D('card_share');
+		$where_s['share_id'] = $this->user;
+		if( $this->merchant != "null")
+                {
+                        $where_s['cn_user_card.merchant'] = $this->merchant;
+                }
+
+		$join1 = "cn_merchant_card.merchant = cn_card_share.merchant and cn_merchant_card.code = cn_card_share.card_code and cn_merchant_card.level = cn_card_share.card_level";
+		$join2 = "cn_user_card.user = cn_card_share.posit_id and cn_user_card.merchant = cn_card_share.merchant and cn_user_card.card_code = cn_card_share.card_code and cn_user_card.card_level = cn_card_share.card_level";
+		$data = $table
+		->join("cn_merchant_card ON $join1")
+		->join("cn_user_card ON $join2")
+		->field('cn_user_card.*,price,rule,addition_sum')
+		->where($where_s)
+		->select();
+		$data = $this->setExtra($data);
+		return $data;
+	}
+	
+	//获取套餐卡
+	function getMealCard()
+	{
+		$table = D('UserCard');
+		$where['user'] = $this->user;
+		if( $this->merchant != "null")
+                {
+                        $where['cn_user_card.merchant'] = $this->merchant;
+                }
+		$data = $table
+		->join('cn_merchant_card_meal on muid = merchant and code = card_code')
+		->field('cn_user_card.*,price,option_num,option_sum')
+		->where($where)
+		->select();
+		$data = $this->setExtra($data);
+		return $data;
+	}
+	
+	//获取体验卡
+	function getExperienceCard()
+	{
+		$table = D('UserCard');
+		$where['user'] = $this->user;
+		if( $this->merchant != "null")
+                {
+                        $where['cn_user_card.merchant'] = $this->merchant;
+                }
+		$data = $table
+		->join('cn_merchant_card_experience on muid = merchant and code = card_code')
+		->field('cn_user_card.*,price,des')
+		->where($where)
+		->select();
+		$data = $this->setExtra($data);
+		return $data;
+	}
+	
+	
+	
 	public function marketGet()
 	{
 	}
@@ -183,6 +331,8 @@ class CardController extends Controller
 		
 	}
 
+
+	
 	public function get()
 	{
 		//setIntegral('u_4a48e91e08','100');
@@ -190,34 +340,34 @@ class CardController extends Controller
 		//setMerchantRemain('m_6d4e76ca11','100');
 		//$addSum =  getAddPrice('m_6d4e76ca11','card_068','金卡');
 		//$sum = addAsInt('0.01元')
+		
+		//储值计次卡
 		$card = D('UserCard');
-                $user = $this->user;
-                $join = "cn_merchant_card.merchant = cn_user_card.merchant and type = card_type and code = card_code and level = card_level";
-                $where['user'] = $user;
-
-
-                $data['self'] = $card
-                ->join("cn_merchant_card ON $join ")
-                ->field('cn_user_card.*,price,rule,addition_sum')
-                ->where($where)
-                ->select();
-
+		$user = $this->user;
+		$join = "cn_merchant_card.merchant = cn_user_card.merchant and type = card_type and code = card_code and level = card_level";
+		$where['user'] = $user;
+		$data['self'] = $card
+		->join("cn_merchant_card ON $join ")
+		->field('cn_user_card.*,price,rule,addition_sum')
+		->where($where)
+		->select();
 		$data['self'] = $this->setExtra( $data['self'] );
 
+		//分享卡
 		$share = D('card_share');
 		$where_s['share_id'] = $user;
 		$join1 = "cn_merchant_card.merchant = cn_card_share.merchant and cn_merchant_card.code = cn_card_share.card_code and cn_merchant_card.level = cn_card_share.card_level";
-                $join2 = "cn_user_card.user = cn_card_share.posit_id and cn_user_card.merchant = cn_card_share.merchant and cn_user_card.card_code = cn_card_share.card_code and cn_user_card.card_level = cn_card_share.card_level";
-                $data['share'] = $share
-                ->join("cn_merchant_card ON $join1")
-                ->join("cn_user_card ON $join2")
-                ->field('cn_user_card.*,price,rule,addition_sum')
-                ->where($where_s)
-                ->select();
-
+		$join2 = "cn_user_card.user = cn_card_share.posit_id and cn_user_card.merchant = cn_card_share.merchant and cn_user_card.card_code = cn_card_share.card_code and cn_user_card.card_level = cn_card_share.card_level";
+		$data['share'] = $share
+		->join("cn_merchant_card ON $join1")
+		->join("cn_user_card ON $join2")
+		->field('cn_user_card.*,price,rule,addition_sum')
+		->where($where_s)
+		->select();
 		$data['share'] = $this->setExtra($data['share']);
-                echo json_encode($data);
-                //dump($data);
+				
+		echo json_encode($data);
+		//dump($data);
 
 	}
 
@@ -268,6 +418,7 @@ class CardController extends Controller
 		$data['date_start'] = $datau[0]['date_start'];
 		$data['date_end'] = $datau[0]['date_end'];
 		$data['state'] = $datau[0]['state'];
+		$data['claim_state'] = $datau[0]['claim_state'];
 
 		$data['card_temp_color'] = $datau[0]['card_temp_color'];
 		$data['merchant'] = $datau[0]['merchant'];
@@ -314,7 +465,7 @@ class CardController extends Controller
 		$record	= array(
 					'user' => $this->user,'merchant' => $this->merchant,'card_code' => $this->code,
 					'card_level' => $this->level,'card_type'=>$this->cate,'card_remain' => $sum,
-					'card_temp_color' => $color,'evaluate' => 'false','indate' => $indate, 'date_start' => $date_start,'date_end' => $date_end,'state' => 'null'
+					'card_temp_color' => $color,'evaluate' => 'false','indate' => $indate, 'date_start' => $date_start,'date_end' => $date_end,'state' => 'null','claim_state' => 'null'
 				);
 		$card = D('UserCard');
 		$card->addWithCheck($record);
@@ -324,7 +475,7 @@ class CardController extends Controller
 		$record_buy = array(
                                         'user' => $this->user,'merchant' => $this->merchant,'card_code' => $this->code,
                                         'card_level' => $this->level,'card_type'=>$this->cate,'sum' => $this->sum,
-                                        'card_temp_color' => $color,'datetime' => currentTime()
+                                        'card_temp_color' => $color,'datetime' => currentTime(),'w_state' => 'false','check_state' => 'false'
                                 );
 		$buyRecord = M('record_buy');
 		$buyRecord->add($record_buy);
@@ -414,7 +565,7 @@ class CardController extends Controller
 	}
 
 	public function upgrade()
-        {
+    {
                 //设置会员卡余额，级别，和图像
                 $cardm = D('MerchantCard');
                
@@ -495,27 +646,23 @@ class CardController extends Controller
 			$card = D('MerchantCard');
 			$wherem['merchant'] = $this->merchant;
 			$wherem['code'] = $this->code;
-                	$wherem['level'] = $this->level;
-                	$wherem['type'] = $this->cate;
+            $wherem['level'] = $this->level;
+            $wherem['type'] = $this->cate;
 			$data = $card->where($wherem)->select();
-
 			$price = intval( $data[0]['price'] ) / intval( $data[0]['rule'] ) ;
-			
-			
 			$sum = intval( $this->sum ) / $price ;
-			
 			$content = $store.'■■结算次数♥♥'.$sum;
 			
 		}
 
 		$record = array(
-                                'user' => $this->user,'content' => $content, 'datetime' => currentTime(),
-                                'merchant' => $this->merchant,'sum' => $this->sum,'state' => 'false'
-                );
+						'user' => $this->user,'content' => $content, 'datetime' => currentTime(),
+						'merchant' => $this->merchant,'sum' => $this->sum,'state' => 'false','evaluate_state' => 'false','check_state' => 'false'
+		);
 
-                $cnList = M('record_consum');
-                $result['result_code'] = $cnList->add($record);
-                echo json_encode($result);
+		$cnList = M('record_consum');
+		$result['result_code'] = $cnList->add($record);
+		echo json_encode($result);
 		
 
 		/*更新商户的消费额(计算授信剩余额度)*/
@@ -546,7 +693,103 @@ class CardController extends Controller
 		);
 		setCardMarket($where_cm,$this->sum);
 	}
-
+	
+	//储值卡消费
+	public function value_pay()
+	{
+		/*减少会员卡余额*/
+		$this->redCardRemain();
+		
+		/*记录消费数据*/
+		
+		//获取店铺名
+		$table = D('merchant');
+		$where_m['muid'] = $this->merchant;
+		$data = $table->where($where_m)->select();
+		$store = $data[0]['store'];
+		
+		//设置记录详情
+		$content = array(
+			array( "item" => "商户", "value" => $store ),
+			array( "item" => "会员卡类型", "value" => "储值卡" ),
+			array( "item" => "会员卡级别", "value" => $this->level ),
+			array( "item" => "结算金额", "value" => $this->sum ),
+		);
+		$record = array(
+			'user' => $this->user,'content' => json_encode( $content ), 'datetime' => currentTime(),
+			'merchant' => $this->merchant,'card_type' => '储值卡','sum' => $this->sum,'state' => 'false','show_state' => 'true','evaluate_state' => 'false','check_state' => 'false'
+		);
+		$cnList = M('record_consum');
+		$result['result_code'] = $cnList->add($record);
+		echo json_encode($result);
+		
+		/*同步卡市的数据*/
+		$where_cm = array(
+			'uuid' => $this->user, 'muid' => $this->merchant, 'card_level' => $this->level
+		);
+		setCardMarket($where_cm,$this->sum);
+	}
+	
+	//计次卡消费
+	public function count_pay()
+	{
+		/*减少会员卡余额*/
+		$this->redCardRemain();
+		
+		/*记录消费数据*/
+		
+		//获取店铺名
+		$table = D('merchant');
+		$where_m['muid'] = $this->merchant;
+		$data = $table->where($where_m)->select();
+		$store = $data[0]['store'];
+		
+		//获取消费次数
+		$card = D('MerchantCard');
+		$wherem['merchant'] = $this->merchant;
+		$wherem['code'] = $this->code;
+		$wherem['level'] = $this->level;
+		$wherem['type'] = $this->cate;
+		$data = $card->where($wherem)->select();
+		$price = intval( $data[0]['price'] ) / intval( $data[0]['rule'] ) ;
+		$num = round( intval( $this->sum ) / $price ) ;
+		
+		//设置记录详情
+		$content = array(
+			array( "item" => "商户", "value" => $store ),
+			array( "item" => "会员卡类型", "value" => "计次卡" ),
+			array( "item" => "会员卡级别", "value" => $this->level ),
+			array( "item" => "结算次数", "value" => $num ),
+		);
+		
+		$record = array(
+			'user' => $this->user,'content' => json_encode( $content ), 'datetime' => currentTime(),
+			'merchant' => $this->merchant,'sum' => $this->sum,'card_type' => '计次卡','state' => 'false','show_state' => 'true','evaluate_state' => 'false','check_state' => 'false'
+		);
+		$table = M('record_consum');
+		$result['result_code'] = $table->add($record);
+		echo json_encode($result);
+	}
+	
+	//减少会员卡余额
+	function redCardRemain()
+	{
+		$card = D('UserCard');
+		$where['user'] = $this->user;
+		$where['merchant'] = $this->merchant;
+		$where['card_code'] = $this->code;
+		$where['card_level'] = $this->level;
+		$where['card_type'] = $this->cate;
+		
+		$data = $card->where($where)->select();
+		$remain = $data[0]['card_remain'];
+		$newRemain = redAsDouble($remain,$this->sum);
+		
+		$set['card_remain'] = $newRemain;
+		$card->where($where)->save($set);
+	}
+	
+	
 	public function stateGet()
 	{
 		$card = D('UserCard');
@@ -568,7 +811,7 @@ class CardController extends Controller
 	}
 
 	public function share()
-        {
+    {
                 $user = D('user');
                 $where['phone'] = post('phone');
 		//$where['phone'] = '13488199837';

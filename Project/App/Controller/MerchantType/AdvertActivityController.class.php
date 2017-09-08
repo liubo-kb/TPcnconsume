@@ -64,9 +64,9 @@ class AdvertActivityController extends Controller
 		}
 
 		for($i = 0; $i < count($tmp); $i++)
-                {
-                        $arr = $this->remove($arr,$tmp[$i]);
-                }
+		{
+				$arr = $this->remove($arr,$tmp[$i]);
+		}
 		
 		$arr = array_values($arr);
 			
@@ -89,9 +89,9 @@ class AdvertActivityController extends Controller
 		$state = "COMMITTED";
 
 		$para = array(
-                        'id' => $id,'position' => $position,'pay_content' => $pay_content
-                );
-                $sum = advertPay($pay_type,'activity',$para);
+            'id' => $id,'position' => $position,'pay_content' => $pay_content
+		);
+		$sum = advertPay($pay_type,'activity',$para);
 
 
 		$record = array(
@@ -111,7 +111,7 @@ class AdvertActivityController extends Controller
 		$state = post('state');
 		$advert_id = post('advert_id');
 
-		$page = post('index').",10";
+		$page = post('index').",20";
 
 		if($muid != 'null')
 		{
@@ -125,32 +125,42 @@ class AdvertActivityController extends Controller
 		{
 			$where['id'] = $advert_id;
 		}
+		
+		
 		$result = $table
 		->order('position')
 		->where($where)
 		->page($page)
 		->select();
+		
+		for($i = 0; $i < count($result); $i++)
+		{
+			$table = D('merchant');
+			$where_m['muid'] = $result[$i]['muid'];
+			$result[$i]['trade'] = $table->where($where_m)->select()[0]['trade'];
+		}
+		
 		echo json_encode($result);
 	}
 
 	public function set()
-        {
-                $where['id'] = post('id');
-                $where['muid'] = post('muid');
-                $where['position'] = post('position');
-                $set['datetime'] = currentTime();
-                $set['state'] = "ONLINE";
-                D('advert_activity_list')->where($where)->save($set);
-        }
+	{
+			$where['id'] = post('id');
+			$where['muid'] = post('muid');
+			$where['position'] = post('position');
+			$set['datetime'] = currentTime();
+			$set['state'] = "ONLINE";
+			D('advert_activity_list')->where($where)->save($set);
+	}
 
-        public function del()
-        {
-                $where['id'] = post('id');
-                $where['muid'] = post('muid');
-                $where['position'] = post('position');
-                $result['result_code'] = D('advert_activity_list')->where($where)->delete();
-                echo json_encode($result);
+	public function del()
+	{
+			$where['id'] = post('id');
+			$where['muid'] = post('muid');
+			$where['position'] = post('position');
+			$result['result_code'] = D('advert_activity_list')->where($where)->delete();
+			echo json_encode($result);
 
-        }
+	}
 	
 }

@@ -78,7 +78,8 @@ class MallController extends Controller
 		$table = D('mall_exchange');
 		$record = array(
 			'uuid' => $uuid, 'goods_id' => $goods_id, 'address' => $address, 'datetime' => $datetime,
-			'phone' => $phone, 'name' => $name
+			'phone' => $phone, 'name' => $name,'trackcom' => 'null','trackno' => 'null', 'track_state' => 'wait',
+			'tip' => '待出货'
 		);
 		addwithCheck($table,$record);
 	

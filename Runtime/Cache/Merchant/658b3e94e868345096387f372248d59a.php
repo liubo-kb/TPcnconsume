@@ -7,7 +7,10 @@
 	<title><?php echo ($header["title"]); ?></title>
 	<link rel="stylesheet" href="/cnconsum/Public/css/merchant/global.css">
 	<script src="/cnconsum/Public/js/merchant/jquery-1.9.1.min.js"></script>
+	<script src="/cnconsum/Public/js/zDrag.js" type="text/javascript"></script>
+	<script src="/cnconsum/Public/js/zDialog.js" type="text/javascript"></script>
 	<script src="/cnconsum/Public/js/merchant/script.js"></script>
+	<script src="/cnconsum/Public/js/ajaxcheck.js"></script>
 </head>
 
 <body>
@@ -18,7 +21,7 @@
     <div class="accountbar">
         <span class="uname">您好，<?php echo ($header["account"]); ?></span>
         <a href="" class="maincolor" style="display:none">账户设置</a>&nbsp;&nbsp;
-        <a href="../merchant/logout" class="maincolor">退出</a>
+        <a href="../login/logout" class="maincolor">退出</a>
     </div>
 </div>
 

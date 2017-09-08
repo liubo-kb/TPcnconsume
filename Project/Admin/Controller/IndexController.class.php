@@ -30,6 +30,7 @@ class IndexController extends Controller
 			else
 			{
 				session('account',$account);
+				session('name',$info['name']);
 				echo "access";
 			}
 		}

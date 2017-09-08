@@ -9,7 +9,7 @@
 .box .list{
 	width:100%;
 	position:absolute;
-	top:41%;
+	top:39%;
 	padding:0 .4rem;
 }
 
@@ -23,10 +23,50 @@
 	height:100%;
 }
 
+.box .point{
+	position:absolute;
+	width:.5rem;
+	height:.7rem;
+	bottom:2%;
+	right:5%;
+	z-index:99;
+}
+
+
+
+
 .imgShow{
 	width:100%;
 	height:100%;
 }
+
+.imgShow2{
+	width:100%;
+	height:100%;
+	position:relative;
+}
+
+.imgShow2 .goPage{
+	position:absolute;
+	display:block;
+	width:1.6rem;
+	height:.4rem;
+	bottom:.2rem;
+	left:26%;
+}
+
+.imgShow2 .bgImg{
+	display:block;
+	width:100%;
+	height:100%;
+}
+
+.imgShow2 .goPage img{
+	display:block;
+	width:100%;
+	height:100%;
+}
+
 
 .imgShow img{
 	display:block;

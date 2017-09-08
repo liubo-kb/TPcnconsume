@@ -94,12 +94,12 @@ body{
 	     		</div>
 	     	</div>	
 	     	
-	    	<div style="margin-top:37px"> 
+	    	<div style="margin-top:37px;display:none"> 
 			    <div class="left_posstion"><b style="color:#F00"></b>推荐人
 			    </div>
 			    
 			    <div class="search-image">
-			    	<input id="recommend" class="search-ct"  type="text" placeholder="请输入推荐人的手机号，可不填" name="referrer"> 
+			    	<input id="recommend" class="search-ct"  type="text" value="null" placeholder="请输入推荐人的手机号，可不填" name="referrer"> 
 			     	<a id="clear_recommend" class="search-btn" type="submit" style="text-decoration: none">X</a>  
 			    </div>
 			    

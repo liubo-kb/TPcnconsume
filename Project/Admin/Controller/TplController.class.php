@@ -44,10 +44,13 @@ class TplController extends Controller
 
 	public function failReason()
 	{
-		$reason = array(
-			"身份证正面图片不清楚","身份证背面图片不清楚","身份证手持图片不清楚",
-			"营业执照图片不清楚","租赁合同图片不清楚","水电票图片不清楚",
-		);
+		$table = D('fail_reason');
+		$data = $table->select();
+	
+		for($i=0;$i<count($data);$i++)
+		{
+			$reason[$i] = $data[$i]['content'];
+		}
 
 		$this->assign('reason',$reason);
 		$this->display('failReasonSelect');

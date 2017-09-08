@@ -1,4 +1,59 @@
 <?php
+
+	function getImageSrc( $type , $name )
+	{
+		$dir = "/var/www/html/cnconsum/Public/Uploads/";
+		$url = "http://101.201.100.191/cnconsum/Public/Uploads/";
+		
+		$src = $dir.$type."/".$name.".png";
+		$curl = $url.$type."/".$name.".png";
+		
+		if( file_exists($src) )
+		{
+			return $curl."?".rand(0,10000);
+		}
+		else
+		{
+			return "http://101.201.100.191/cnconsum/Public/image/upbg.png";
+		}
+	}
+	
+	function getFormatAdd( $address )
+	{
+		$str = "市辖区";
+		$check = strpos($address,$str);
+		if( $check == false )
+		{
+			$add['province'] = explode('省',$address)[0]."省";
+			$extra = explode('省',$address)[1];
+			$add['city'] = explode('市',$extra)[0]."市";
+			$extra = explode('市',$extra)[1];
+			$add['district'] = explode('区',$extra)[0]."区";
+			$add['location'] = explode('区',$extra)[1];
+			
+		}
+		else
+		{
+			$add['province'] = explode('市辖区',$address)[0];
+			$extra = explode('市辖区',$address)[1];
+			$add['district'] = explode('区',$extra)[0]."区";
+			$add['location'] = explode('区',$extra)[1];
+			$add['city'] = '市辖区';
+		}
+		
+		return $add;
+	}
+	
+	//ajax返回
+	function ajaxRe($status,$tip,$url)
+	{
+		$data['status'] = $status;
+		$data['tip'] = $tip;
+		$data['url'] = $url;
+		echo json_encode($data);
+		//$this->ajaxReturn($data);
+	}
+
 	//计算广告费用
 	function advertPay($type,$table,$para)
 	{

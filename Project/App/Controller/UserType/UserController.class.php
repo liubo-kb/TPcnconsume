@@ -190,9 +190,10 @@ class UserController extends Controller
 		else
 		{
 			$data = $user->where($where)->select();
+			$data[0]['state'] = $data[0]['auth_state'];
 			if($data[0]['passwd'] == $passwd)
 			{
-				 if($data[0]['nickname'] == $phone)
+				 /*if($data[0]['state'] == 'not_auth')
 				 {
 					$result['result_code'] = 'incomplete';	
 					$result['info'] = $data;
@@ -201,7 +202,11 @@ class UserController extends Controller
 				 {
 					$result['result_code'] = 'login_access';
                                         $result['info'] = $data;
-				 }
+				 }*/
+				
+				 $result['result_code'] = 'login_access';
+                                 $result['info'] = $data;
+
 			}			
 			else
 			{
@@ -230,44 +235,44 @@ class UserController extends Controller
 		$datetime = currentTime();
 
 		
-                $where_ex['phone'] = $phone;
-                $check_ex = $user->where($where_ex)->count();
+		$where_ex['phone'] = $phone;
+		$check_ex = $user->where($where_ex)->count();
 
 		if($check_ex > 0)
-                {
-                        $result['result_code']= 'phone_duplicate';
-                        echo json_encode($result);
+		{
+			$result['result_code']= 'phone_duplicate';
+			echo json_encode($result);
 			return;
-                }
+		}
 	
 		
 		if($referrer != '无人推荐')
-                {
+		{
 			$where_ex['phone'] = $referrer;
-                	$check_ex = $user->where($where_ex)->count();
+			$check_ex = $user->where($where_ex)->count();
 
-                	if($check_ex <= 0)
-                	{
-                        	$result['result_code']= 'referrer_not_exist';
-                        	echo json_encode($result);
-                        	return;
-                	}
+			if($check_ex <= 0)
+			{
+					$result['result_code']= 'referrer_not_exist';
+					echo json_encode($result);
+					return;
+			}
 
 			//写入推荐关系信息
 			$data = $user->where($where_ex)->select();
 			$referrer_uuid = $data[0]['uuid'];
-                        $record_r = array(
-                                'referrer' => $referrer_uuid,
-                                'recommend'=>$uuid,
-                                'type'=>'u',
-                                'sum'=>'0',
-                                'state'=>'ONLINE'
-                        );
-                        $ref = M('referrer');
-                        $ref->add($record_r);
+			$record_r = array(
+					'referrer' => $referrer_uuid,
+					'recommend'=>$uuid,
+					'type'=>'u',
+					'sum'=>'0',
+					'state'=>'ONLINE'
+			);
+			$ref = M('referrer');
+			$ref->add($record_r);
 
 			//检测用户当前级别
-                        checkUserLevel($referrer_uuid);
+            		//checkUserLevel($referrer_uuid);
 
 			//处理推荐红包
 			$sum = getSystemPara($datetime,'reward_referrer')['user']; //获取系统推荐政策
@@ -282,7 +287,7 @@ class UserController extends Controller
 		
 			//处理推荐送积分
 			addIntegral($referrer_uuid,'推荐用户','ref_user');	
-                }
+        }
 		else
 		{
 			$referrer_uuid = '无人推荐';
@@ -291,37 +296,50 @@ class UserController extends Controller
 		
 		//写入注册信息
 		$record_u = array(
-			'uuid'=>$uuid,'phone' => $phone, 'nickname' => $phone, 'passwd' => $passwd, 'referrer' => $referrer_uuid,'datetime' => $datetime,'user_level' => 'ORD'
+			'uuid'=>$uuid,'phone' => $phone, 'auth_state' => 'not_auth', 'nickname' => $phone, 'passwd' => $passwd,'remain' => '0.00', 
+			'referrer' => $referrer_uuid,'datetime' => $datetime,'user_level' => 'ORD','address' => '未设置','mail' => '未设置',
+			'sex' => '未设置','age' => '未设置','occupation' => '未设置','education' => '未设置','mate' => '未设置','hobby' => '未设置',
+			'pay_passwd' => '未设置'
 		);
 
 		$data = $user->addWithCheck($record_u);
 		while($data == '1062')
 		{
-			 $uuid = get_uuid('u_');
-                         $record_u = array(
-                         	'muid'=>$muid, 'phone'=>$phone,  'nickname' => $phone, 'passwd'=>$passwd,  'referrer'=>$referrer_uuid,'datetime'=>$datetime);
-                         $data = $user->addWithCheck($record_u);
+			$uuid = get_uuid('u_');
+			$record_u = array(
+				'uuid'=>$uuid,'phone' => $phone, 'auth_state' => 'not_auth', 'nickname' => $phone, 'passwd' => $passwd,'remain' => '0.00', 
+				'referrer' => $referrer_uuid,'datetime' => $datetime,'user_level' => 'ORD','address' => '未设置','mail' => '未设置',
+				'sex' => '未设置','age' => '未设置','occupation' => '未设置','education' => '未设置','mate' => '未设置','hobby' => '未设置',
+				'pay_passwd' => '未设置'
+			);
+			$data = $user->addWithCheck($record_u);
 		}
 		
 
 		//添加环信账号	
 		$im = new \Org\IM\ImConnect();
-                $im->createUser($uuid,'000000');
+        	$im->createUser($uuid,'000000');
 
 		//注册送红包		
-                $sum = getSystemPara($datetime,'reward_referrer')['user']; //获取系统推荐政策
+        	$sum = getSystemPara($datetime,'reward_referrer')['user']; //获取系统推荐政策
 		$sum = '10';
-                setRedPacket($uuid,$sum);
+        	setRedPacket($uuid,$sum);
 		
 		//设置注册奖励记录
-                $record = array('datetime'=>$datetime,'tip' => '注册奖励', 'sum' => $sum,'type' => 'u', 'id' => $uuid);
-                setIncomeRecord($record);
+		$record = array('datetime'=>$datetime,'tip' => '注册奖励', 'sum' => $sum,'type' => 'u', 'id' => $uuid);
+		setIncomeRecord($record);
 
 		//送平台优惠卷
-		addSxlCoupon($uuid);	
+		addSxlCoupon($uuid);
+
+		//记录IM账号
+		 $imAccount = D('im_account');
+                $record = array( 'account' => $uuid, 'passwd' => '000000', 'phone' => $phone, 'name' => $nickname, 'headImage' => $phone);
+                $imAccount->add($record);
+	
 		
-                $result['result_code']= $data;
-                echo json_encode($result);
+		$result['result_code']= $data;
+		echo json_encode($result);
 
 
 	}
@@ -371,28 +389,28 @@ class UserController extends Controller
 		if($type == 'passwd')
 		{
 			$passwd_old = post('pwd_old');
-                        $passwd_new = post('pwd_new');
+            $passwd_new = post('pwd_new');
 			//$passwd_old = '111111';
 			//$passwd_new = '111';			
 
-                        $check = $user->where($where)->select();
-                        if($passwd_old == $check[0]['passwd'])
-                        {
-                        	$set['passwd'] = $passwd_new;
-                                $result['result_code'] = $user
-                                ->where($where)
-                                ->save($set);
+			$check = $user->where($where)->select();
+			if($passwd_old == $check[0]['passwd'])
+			{
+				$set['passwd'] = $passwd_new;
+				$result['result_code'] = $user
+				->where($where)
+				->save($set);
 				$result['type'] = $type;
-                        	$result['para'] = $passwd_new;
-                                echo json_encode($result);
-                                
-                        }
-                        else
-                        {
+				$result['para'] = $passwd_new;
+				echo json_encode($result);
+					
+			}
+			else
+			{
 				$result['result_code'] = 'old_passwd_wrong';
-                                echo json_encode($result);
-                         
-                        }
+				echo json_encode($result);
+			 
+			}
 
 		}
 
@@ -400,14 +418,14 @@ class UserController extends Controller
 		{
 			$sum = post('sum');
 			$user = D('user');
-                	$data = $user->where($where)->select();
-                	$remain = $data[0]['integral'];
+			$data = $user->where($where)->select();
+			$remain = $data[0]['integral'];
 
-                	$newRemain = addAsDouble($remain,$sum);
+			$newRemain = addAsDouble($remain,$sum);
 
-                	$set['integral'] = $newRemain;
+			$set['integral'] = $newRemain;
 
-                	$result['result_code'] = $user->where($where)->save($set);			
+			$result['result_code'] = $user->where($where)->save($set);			
 			echo json_encode($result);
 			
 		}		
@@ -483,7 +501,6 @@ class UserController extends Controller
 		$uuid = post('uuid');
 		$where['user'] = $uuid;
 		$voucher = M('user_voucher');
-		
 		$data = $voucher
 			->where($where)
 			->field('type,deadline,num')
@@ -496,8 +513,6 @@ class UserController extends Controller
 		$user = post('uuid');
 		$type = post('sum');
 		
-		//logInfo('user: '.$user);
-		//logInfo('type: '.$type);
 
 		$voucher = M('user_voucher');
 		$where['user'] = $user;
@@ -542,10 +557,6 @@ class UserController extends Controller
 		$datetime = currentTime();
 		$sum = post('sum');
 
-		/*$user = "u_28105ef406";
-                $content = "m_6d4e76ca11■■结算金额♥♥16";
-                $sum = '16';
-		*/
 		
 		$merchant = explode('■■',$content)[0];
 		$where['muid'] = $merchant;
@@ -571,13 +582,13 @@ class UserController extends Controller
 		$user = post('uuid');
 		//$user = "u_28105ef406";
 		$where['user'] = $user;
-		//$where['state'] = 'true';
+		$where['state'] = array('in',array('true','false'));
 		$cnList = M('record_consum');
-                $result = $cnList
+        	$result = $cnList
 		->order("datetime desc")
 		->where($where)
 		->select();
-                echo json_encode($result);
+        	echo json_encode($result);
 
 	}
 
@@ -585,37 +596,35 @@ class UserController extends Controller
 	{
 		$user = post('uuid');
 		$datetime = post('datetime');
-		//$user = "u_28105ef406";
-		//$datetime ="2016-10-14 14:33:56";
-                $where['user'] = $user;
+        $where['user'] = $user;
 		$where['datetime'] = $datetime;
-		$set['state'] = 'false';
-                $cnList = M('record_consum');
-                $result['result_code'] = $cnList->where($where)->save($set);
-                echo json_encode($result);
+		$set['state'] = 'del';
+		$cnList = M('record_consum');
+		$result['result_code'] = $cnList->where($where)->save($set);
+        echo json_encode($result);
 
 	}
 
 	public function withdraw()
-        {
-                $uuid = post('uuid');
+    {
+        $uuid = post('uuid');
 		$nickname = post('nickname');
-                $sum = post('sum');
+        $sum = post('sum');
 
 		$name = post('name');
 		$bank = post('bank');
 		$account = post('account');
-                $datetime = currentTime();
+		$datetime = currentTime();
 
-                
-                $record_w = array(
-                        'user'=>$uuid, 'nickname'=>$nickname, 'sum'=>$sum,'state' => 'wait',
-                        'name'=>$name, 'bank'=>$bank,'account'=>$account,'datetime'=>$datetime,
-                );
+		
+		$record_w = array(
+				'user'=>$uuid, 'nickname'=>$nickname, 'sum'=>$sum,'state' => 'wait',
+				'name'=>$name, 'bank'=>$bank,'account'=>$account,'datetime'=>$datetime,
+		);
 
 
-                $withdraw = M('user_withdraw');
-                $result['result_code'] = $withdraw->add($record_w);
+		$withdraw = M('user_withdraw');
+		$result['result_code'] = $withdraw->add($record_w);
 
 
 		$record = array(
@@ -631,9 +640,9 @@ class UserController extends Controller
 		$set['remain'] = $newRemain;
 		setWithCheck($table,$where,$set);
 
-                echo json_encode($result);
+        echo json_encode($result);
 
-        }
+    }
 
 
 	public function cardGet()

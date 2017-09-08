@@ -94,6 +94,7 @@
 		var passwd_set = document.getElementById('passwd_set').value;
 		var passwd = document.getElementById('passwd_conf').value;
 		var vertcode = document.getElementById('vertcode').value;
+		
 		if(phone == '111')
 		{
 			window.location.href='download.html';
@@ -102,7 +103,7 @@
 		{
 			alert("请输入手机号！");
 		}
-		else if(vertcode == '请输入验证码')
+		if(vertcode == '请输入验证码')
 		{
 			alert("请输入验证码！");
 		}
@@ -137,14 +138,14 @@
 		
 		var phone = document.getElementById('phone').value;
 		
-		var url = 'http://www.cnconsum.com/smsVertify/Demo/sendMSG.php';	
+		var url = '../../../Sms/SendWebMsg.php';	
 		
 		/*$.post( url,{phone:phon},function(data,status){
 			//var obj = eval(data);
 			alert(data);
 		});*/
 		
-		var postParas = 'phone=' + phone;
+		var postParas = 'phone=' + phone + "&token=from_web_server";
 		//alert(postParas);
 		var xmlHttp = createXmlHttp();
 		if(!xmlHttp)

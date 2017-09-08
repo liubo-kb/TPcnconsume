@@ -59,7 +59,7 @@
 		
 		<div class="second">
 			<p id="store">店铺信息</p>
-			<p id="xm">店铺地址：{$info.address}</p>
+			<p id="xm">店铺地址：{$info.address}{$info.full_add}</p>
 			<p id="xm">联系方式：{$info.store_number}</p>
 			<p id="xm">单位名称：{$info.store}</p>
 			<p id="xm">所属行业：{$info.trade}</p>
@@ -131,6 +131,8 @@
 		<div class="nn" style="height: 150px;">
 			<input type="button" id="wt" value="未通过" onclick="showDialog('failReason','{$account}','{$info.muid}');" />
 			<input type="button" value="进入外审" id="ws" onclick="showDialog('auditor','{$account}','{$info.muid}');" />
+			<input type="button" value="快速认证" id="ws" onclick="showDialog('inner','{$account}','{$info.muid}');" />
+			<input type="button" value="预付保险认证" id="ws" onclick="showDialog('insure','{$account}','{$info.muid}');" />
 		</div>
 	</div>
 </div>

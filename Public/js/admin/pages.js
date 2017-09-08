@@ -191,7 +191,9 @@ function auditing(data)
 
 function audited(data)
 {
+	data = eval(data);
 	var table_head = data[0];
+	console.log('数据：',data[0]);  
 	var table_data = data[1];
 	var data_index = data[2];
 	var table_show = "<table class='table margt20'>";
@@ -219,18 +221,47 @@ function audited(data)
 		table_show += "<tr>";
 		table_show += "<td>";
 		var index = i+1;
-                table_show += index+".";
-                table_show += "</td>";
+		table_show += index+".";
+		table_show += "</td>";
 		for( var j = 0; j < data_index.length; j++)
 		{
-			table_show += "<td>";
-			table_show += table_data[i][data_index[j]];
-			table_show += "</td>";
+			if(data_index[j] != 'muid' && data_index[j] != 'astate' )
+			{
+				table_show += "<td>";
+				table_show += table_data[i][data_index[j]];
+				table_show += "</td>";
+			}
 		}
 
 		table_show += "<td>";
-                table_show += "<a class='abtn abtn-fc' >审核通过</a>";
-                table_show += "</td>";
+		switch(table_data[i]['astate'])
+		{
+			case "true":
+			{
+				table_show += "<a class='abtn abtn-green' >预付认证通过</a>";
+				break;
+			}
+			case "complete_not_auth":
+			{
+				table_show += "<a class='abtn abtn-orange' >快速认证通过</a>";
+				break;
+			}
+			case "false":
+			{
+				table_show += "<a class='abtn abtn-red' >审核未通过</a>";
+				break;
+			}
+			default:
+			{
+				table_show += "<a class='abtn abtn-red' >error</a>";
+				break;
+			}
+		}
+		table_show += "</td>";
+		
+		table_show += "<td>";
+		table_show += "<a class='abtn abtn-green' >上传店铺资料</a>";
+		table_show += "</td>";
 		
 		
 		table_show += "</tr>";

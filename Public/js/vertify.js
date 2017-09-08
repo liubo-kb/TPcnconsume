@@ -72,8 +72,8 @@ function vertify(btn)
 	$.post( url,{phone:phon},function(data,status){
 		var obj = eval(data);
 		setCookie('vertifyCode',obj[0],1);
-		alert("本次验证码:"+obj[0]);
-		c=10
+		//alert("本次验证码:"+obj[0]);
+		c=60
 		document.getElementById(btn).disabled=true
 		document.getElementById(btn).style.background="#e26666"
 		document.getElementById(btn).style.color="#fff"

@@ -544,7 +544,7 @@ Dialog.alert = function (msg, func, w, h) {
     diag.show();
     diag.okButton.parentNode.style.textAlign = "center";
     diag.okButton.style.display = "none";
-    diag.cancelButton.value = "确 定";
+    diag.cancelButton.value = "确 定11";
     diag.cancelButton.focus();
 };
 Dialog.confirm = function (msg, funcOK, funcCal, w, h) {

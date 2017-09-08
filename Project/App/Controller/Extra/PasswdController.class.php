@@ -51,7 +51,7 @@ class PasswdController extends Controller
 	{
 		$phone = post('phone');
                 $type = post('type');
-                $passwd = post('name');
+                $passwd = post('passwd');
                 
 
                 if($type == 'u')

@@ -9,7 +9,7 @@ class CardMarketController extends Controller
 		$where = $this->getWhere();
 		$table = D('card_market');
 		$data = $table
-		->field("rule,card_code,headimage,cn_merchant.muid,cn_user.uuid,method,nickname,cn_card_market.datetime,store,card_remain,card_level,card_type,rate,cn_merchant.address")
+		->field("trade,rule,card_code,headimage,cn_merchant.muid,cn_user.uuid,method,nickname,card_temp_color,cn_card_market.datetime,store,card_remain,card_level,card_type,rate,cn_merchant.address")
 		->join("cn_user ON cn_user.uuid = cn_card_market.uuid")
 		->join("cn_merchant ON cn_merchant.muid = cn_card_market.muid")
 		->page($page)
@@ -121,7 +121,7 @@ class CardMarketController extends Controller
 		//改变钱包余额
                 $where_p['uuid'] = $s_uuid;
                 $remain = D('user')->where($where_p)->select()[0]['remain'];
-                $set['remain'] = addAsDouble($remain,$s_sum);
+                $set['remain'] = addAsDouble($remain,$b_sum);
                 $result['result_code'] = D('user')->where($where_p)->save($set);
                 
 		//会员卡支付的操作

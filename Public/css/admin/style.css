@@ -36,6 +36,17 @@
 .abtn-fc{
 	background-color: #e60012;
 }
+.abtn-red{
+        background-color: #FF0000;
+}
+.abtn-green{
+        background-color: #3CB371;
+}
+.abtn-orange{
+        background-color: #FFA500;
+}
+
+
 .abtn-org{
 	background-color: #eb6304;
 }

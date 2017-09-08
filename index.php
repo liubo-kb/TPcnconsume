@@ -21,7 +21,7 @@ define('APP_DEBUG',True);
 define('APP_PATH','./Project/');
 
 //增加后台模块
-//define('BIND_MODULE','H5');
+//define('BIND_MODULE','OW');
 
 //定义运行时目录
 define('RUNTIME_PATH','./Runtime/');

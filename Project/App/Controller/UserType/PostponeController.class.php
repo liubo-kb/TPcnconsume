@@ -39,14 +39,15 @@ class PostponeController extends Controller
 		$where['merchant'] = $this->merchant;
 		if($this->state =='null')
 		{
-			$where['state'] = 'null';
+			$where['cn_postpone.state'] = 'null';
 		}
 		else
 		{
-			$where['state'] = array('neq','null');
+			$where['cn_postpone.state'] = array('neq','null');
 		}
 		$data = $postpone
 		->where($where)
+		->order("cn_postpone.datetime desc")
 		->join("cn_user on cn_postpone.user = cn_user.uuid ")
 		->select();
 	
@@ -87,14 +88,17 @@ class PostponeController extends Controller
 		if( $this->state == 'access')
 		{
 			$table = D("user_card");
-
 			$date_start = $table->where($where)->select()[0]['date_end'];
-                        $operate = '+ '.( doubleval($this->postpone) *12 ).' month';
+            $operate = '+ '.( doubleval($this->postpone) *12 ).' month';
 			$result['flag'] = $operate;
-                        $date_end = getTime($date_start,$operate);
-		
+            $date_end = getTime($date_start,$operate);
 			$set_c["date_end"] = $date_end;
 			$table->where($where)->save($set_c);
+			$set['reason'] = "延期成功";
+		}
+		else
+		{
+			$set['reason'] = post('reason');
 		}
 
 		$result['result_code'] = $postpone->where($where)->save($set);

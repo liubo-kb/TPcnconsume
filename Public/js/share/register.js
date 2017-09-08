@@ -132,28 +132,19 @@
 	
 	function vertify()
 	{
-		//alert("1");
-		//alert("当前验证码:"+getCookie('vertifyCode'));
-		
+			
 		var phone = document.getElementById('phone').value;
 		
-		var url = 'http://www.cnconsum.com/smsVertify/Demo/sendMSG.php';	
+		var url = '../../../../Sms/SendWebMSG.php';	
 		
-		/*$.post( url,{phone:phon},function(data,status){
-			//var obj = eval(data);
-			alert(data);
-		});*/
+		var postParas = 'phone=' + phone + '&token=from_web_server';
 		
-		var postParas = 'phone=' + phone;
-		//alert(postParas);
 		var xmlHttp = createXmlHttp();
 		if(!xmlHttp)
 		{
 			alert("您的浏览器不支持AJAX!");
 			return;
 		}
-		
-		//tipsWindown("1","text:lb","250","150","true","","true","msg");
 		
 		xmlHttp.open("POST",url,true);
 		xmlHttp.setRequestHeader("Content-Type","application/x-www-form-urlencoded");

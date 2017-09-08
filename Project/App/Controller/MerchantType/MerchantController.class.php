@@ -25,7 +25,15 @@ use App\Model\MerchantModel;
 ini_set('dare.timezone','Asia/Shanghai');
 class MerchantController extends Controller 
 {
-		
+
+	public function test()
+	{
+		if(!copy('a.txt','b.txt'))
+		{
+			echo "fail\n";	
+		}
+	}	
+	
 	public function login()
 	{
 		$account = post('phone');
@@ -182,7 +190,6 @@ class MerchantController extends Controller
 		//添加环信账号	
 		$im = new \Org\IM\ImConnect();
                 $im->createUser($muid,'000000');
-
 		
 
 		$result['result_code']= '1';
@@ -370,9 +377,9 @@ class MerchantController extends Controller
                 $index = post('index');
                 $page_num = '10';
 
-		LogIn($store.",".$index);
+		//LogIn($store.",".$index);
 		
-		$where['state'] = 'true';
+		$where['state'] = array('in','true,complete_not_auth');
                 $where['store'] = array("like","%$store%");
                 $page = $index.",".$page_num;
 
@@ -422,7 +429,11 @@ class MerchantController extends Controller
 		$where['muid'] = $muid;
 
 		$result['remain'] = D('merchant')->where($where)->select()[0]['remain'];
-		$result['record'] = $withdraw->where($where)->field('sum,datetime,tradenu,state')->select();
+		$result['record'] = $withdraw
+		->where($where)
+		->order('datetime desc')
+		->field('sum,datetime,tradenu,state')
+		->select();
 
 		//$result = $withdraw->where($where)->select();
 		echo json_encode($result);
@@ -579,6 +590,7 @@ class MerchantController extends Controller
 		$turnover_sum = $info[0]['sum'];
 		
 		$remain['remain'] = redAsDouble($auth_sum,$turnover_sum)."元";
+		$remain['remain'] = "1000000元";
 		echo json_encode($remain);
 
 	}
@@ -593,7 +605,7 @@ class MerchantController extends Controller
 		//$index = '1';
 
 		$where['address'] = array("like","%$eare%");
-		$where['state'] = 'true';
+		$where['state'] = array("in","true,complete_not_auth");
 		$page = $index.",".$page_num;
 
 		$data = showDataGet($where,$page);
@@ -601,14 +613,21 @@ class MerchantController extends Controller
 		echo json_encode($data);
 	}
 	
+	//旧版本店铺详情
 	public function infoGet()
 	{
 		$muid = post('muid');
 		$uuid = post('uuid');		
-		//$muid = 'm_6d4e76ca11';
 		$data = storeDataGet($muid,$uuid);
-		
-		//dump($data);
+		echo json_encode($data);
+	}
+	
+	//新版本店铺详情
+	public function contentGet()
+	{
+		$muid = post('muid');
+		$uuid = post('uuid');		
+		$data = storeContentGet($muid,$uuid);
 		echo json_encode($data);
 	}
 	

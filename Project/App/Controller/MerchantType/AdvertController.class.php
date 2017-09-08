@@ -136,7 +136,7 @@ class AdvertController extends Controller
 		$where_a['cn_advert_activity_list.state'] = $state;
 		$result['activity'] = $table
 		->join("cn_advert_activity on cn_advert_activity.id = cn_advert_activity_list.id")
-		 ->field(" '活动区广告' as advert_cate,cn_advert_activity.title as advert_type,cn_advert_activity.address,cn_advert_activity_list.*")
+		 ->field(" '活动区广告' as advert_cate,cn_advert_activity.theme as advert_type,cn_advert_activity.eare,cn_advert_activity_list.*")
 		->where($where_a)
 		->select();
 
@@ -192,9 +192,16 @@ class AdvertController extends Controller
 	public function leadGet()
 	{
 		$eare = post('eare');
+		$type = post('type');
+		if( $type != 'merchant' )
+		{
+			$type = 'user';
+		}
+		
 		$advert = D('advert_lead');	
-		$where['area'] = $eare;
+		//$where['area'] = $eare;
                 $where['state'] = 'ONLINE';
+		$where['type'] = $type;
 		$result = $advert
 		->where($where)
 		->order('start_time asc')
@@ -350,6 +357,16 @@ class AdvertController extends Controller
 			$result[0][0] = 'no_data';
 		}
 		echo json_encode($result[0]);
+	}
+	
+	public function settleGet()
+	{
+		$table = D('advert_settle');
+		$result = $table
+		->field('image_url')
+		->order('id')
+		->select();
+		echo json_encode($result);
 	}
 
 }

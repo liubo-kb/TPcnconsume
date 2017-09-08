@@ -14,6 +14,14 @@ use Think\Controller;
 use App\Model\MerchantImgtxtModel;
 class ImgtxtController extends Controller 
 {
+	
+	public function getTemp()
+	{
+		$table = D('imgtxt_temp');
+		$data = $table->select();
+		echo json_encode($data);
+	}
+	
 	public function add()
 	{
 		$imgTxt = D('merchant_imgtxt');
@@ -82,5 +90,38 @@ class ImgtxtController extends Controller
 		->select();
 
 		echo json_encode($result);
+	}
+	
+	function modStoreImage()
+	{
+		//上传图片
+		$muid = post('muid');
+		$rand = get_uuid('_');
+		$image = $muid.$rand;
+		$upload = new \Think\Upload();
+		$upload->maxSixe = 3145782;
+		$upload->rootPath = './Public/Uploads/';
+		$upload->saveName = $image;
+		$upload->savePath = '/addImage/';;
+		$upload->saveExt = 'png';
+		$upload->autoSub = false;
+		$upload->replace = true;
+		
+		$info = $upload->upload();
+		if( !$info )
+		{
+			$result['result_code'] = "image_upload_fail";
+			echo json_encode($result);
+		}
+		else
+		{
+			$table = D('merchant');
+			$where['muid'] = $muid;
+			$set['image_url'] = $image.".png";
+			$result['result_code'] = saveWithCheck($table,$where,$set);
+			$result['image'] = $image.".png";
+			echo json_encode($result);
+			
+		}
 	}
 }

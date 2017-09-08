@@ -36,7 +36,7 @@ class CouponController extends Controller
 	public function merchantGet()
 	{
 		$muid = post('muid');
-		$page = post('page').',10';
+		$page = post('index').',12';
 		$where['cn_merchant_coupon.muid'] = $muid;
 		$where['cn_merchant_coupon.state'] = 'true';
 		$table = D('merchant_coupon');
@@ -66,7 +66,7 @@ class CouponController extends Controller
 	public function marketGet()
 	{
 		$uuid = post('uuid');
-		$page = post('page').',10';
+		$page = post('index').',12';
 		
 		$where['date_end'] = array("egt",currentDate());
 		$where['cn_merchant_coupon.state'] = 'true';
@@ -119,6 +119,7 @@ class CouponController extends Controller
 	{
 		$uuid = post('uuid');
 		$muid = post('muid');
+		$page = post('index').',12';
 		$table = D('user_coupon');
 		if($muid != 'null')
 		{
@@ -132,6 +133,7 @@ class CouponController extends Controller
 		->join('cn_merchant_coupon on cn_merchant_coupon.muid = cn_user_coupon.muid and cn_merchant_coupon.coupon_id = cn_user_coupon.coupon_id')
 		->join("cn_merchant on cn_merchant.muid = cn_merchant_coupon.muid")
 		->where($where)
+		->page($page)
 		->field('cn_merchant_coupon.*,cn_user_coupon.uuid,store,image_url')
 		->select();
 
@@ -155,7 +157,7 @@ class CouponController extends Controller
 	{
 		$muid = post('muid');
 		$uuid = post('uuid');
-		$page = post('page').',10';
+		$page = post('page').',12';
 		if($muid != 'null')
 		{
 			$where['cn_merchant_coupon.muid'] = $muid;

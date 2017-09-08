@@ -198,7 +198,7 @@ class MerchantController extends Controller
                         echo json_encode($result);
 			return;
 		}
-		if($referrer != '无人推荐')
+		if($referrer != 'null')
                 {
 			$user = D('user');
                         $where_ex['phone'] = $referrer;
@@ -276,7 +276,7 @@ class MerchantController extends Controller
 
 	public function completeView_01()
 	{
-		$phone = get('phone');
+	/*	$phone = get('phone');
 		if( $phone != 'null' )
 		{
 			cookie('account',$phone);
@@ -311,13 +311,13 @@ class MerchantController extends Controller
 
 		$this->assign('account',$account);
 		$this->assign('info',$info);
-		$this->assign('default_src','http://101.201.100.191/cnconsum/Public/image/upbg.png');
+		$this->assign('default_src','http://101.201.100.191/cnconsum/Public/image/upbg.png');*/
 		$this->display('info1');
 	}
 
 	public function completeView_02()
         {
-		$phone = cookie('account');
+		/*$phone = cookie('account');
 		if( $phone == null )
 		{
 			$phone = session('account');
@@ -357,12 +357,13 @@ class MerchantController extends Controller
 		$this->assign('trade_list',$trade);
                 $this->assign('account',$account);
                 $this->assign('info',$info);
-		$this->assign('default_src','http://101.201.100.191/cnconsum/Public/image/upbg.png');
+		$this->assign('default_src','http://101.201.100.191/cnconsum/Public/image/upbg.png');*/
                 $this->display('info2');
         }
 	
 	public function completeView_03()
         {
+		/*
 		$phone = cookie('account');
 		if( $phone == null )
 		{
@@ -381,7 +382,7 @@ class MerchantController extends Controller
                         'phone3' => $data[0]['trel_phone'],
                 );
 
-                $this->assign('info',$info);
+                $this->assign('info',$info);*/
                 $this->display('info3');
         }
 
@@ -707,7 +708,7 @@ class MerchantController extends Controller
 		{
 			$real_passwd = $result_a[0]['admin_passwd'];
 		}
-		if( $real_passwd == $passwd )
+		if( $real_passwd = $passwd )
 		{
 			switch($result_m[0]['state'])
 			{

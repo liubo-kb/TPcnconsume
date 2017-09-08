@@ -6,7 +6,7 @@
 </head>
 <body>
 <div>
-	<a style='background:#ccc;border:1px #fff solid;padding:50 50 50 50;' href='excel'> 导出EXCEL </a>
+	<a style='background:#ccc;border:1px #fff solid;padding:200 200 200 200;' href='excel'> 导出店铺入驻情况表 </a>
 </div>
 </body>
 </html>

@@ -33,12 +33,16 @@
 				<a href="registerView?referrer=<?php echo ($phone); ?>"><img src="/cnconsum/Public/image/shareNew/5.png"/></a>
 			</li>
 		</ul>
+		<img class="point" src="/cnconsum/Public/image/shareNew/tu.png"/>
 	</div>
 	<div class='imgShow'>
 		<img src="/cnconsum/Public/image/shareNew/bg4.png"/>
 	</div>
-	<div class='imgShow'>
-		<img src="/cnconsum/Public/image/shareNew/bg2.png"/>
+	<div class='imgShow2'>
+		<img class='bgImg' src="/cnconsum/Public/image/shareNew/bg2.png"/>
+		<a class='goPage' href="registerView?referrer=<?php echo ($phone); ?>">
+			<img src="/cnconsum/Public/image/shareNew/btn.png"/>
+		</a>
 	</div>
 </body>
 </html>

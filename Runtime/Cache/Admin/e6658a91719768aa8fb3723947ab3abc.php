@@ -91,14 +91,19 @@ $(function(){
 				</tr>
 				<?php if(is_array($table_data)): $k = 0; $__LIST__ = $table_data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($k % 2 );++$k;?><tr>
 						<td><?php echo ($k); ?>.</td>
-						<?php if(is_array($data_index)): $i = 0; $__LIST__ = $data_index;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$index): $mod = ($i % 2 );++$i; if($index == 'astate'): if($data["astate"] == 'true'): ?><td><a class="abtn abtn-fc">审核通过</a></td>
-                                                                <?php elseif($data["astate"] == 'false'): ?>
-                                                                        <td><a class="abtn abtn-fc" onclick="showDialog('fail_result','<?php echo ($account); ?>','<?php echo ($data["muid"]); ?>');">审核不通过</a></td>
-                                                                <?php else: ?>
-                                                                        <td>error</td><?php endif; ?>
-                                                        <?php elseif($index == 'muid'): ?>
-                                                        <?php else: ?>
-                                                                <td><?php echo ($data["$index"]); ?></td><?php endif; endforeach; endif; else: echo "" ;endif; ?>
+						<?php if(is_array($data_index)): $i = 0; $__LIST__ = $data_index;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$index): $mod = ($i % 2 );++$i; if($index == 'astate'): if($data["astate"] == 'true'): ?><td><a class="abtn abtn-green">保险认证通过</a></td>
+									<?php elseif($data["astate"] == 'complete_not_auth'): ?>
+											<td><a class="abtn abtn-orange">快速认证通过</a></td>
+									<?php elseif($data["astate"] == 'false'): ?>
+											<td><a class="abtn abtn-red" onclick="showDialog('fail_result','<?php echo ($account); ?>','<?php echo ($data["muid"]); ?>');">审核不通过</a></td>
+									<?php else: ?>
+											<td>error</td><?php endif; ?>
+							<?php elseif($index == 'muid'): ?>
+							<?php else: ?>
+									<td><?php echo ($data["$index"]); ?></td><?php endif; endforeach; endif; else: echo "" ;endif; ?>
+						<td><a class="abtn abtn-green" href="">上传店铺资料</a></td>
+						
+						
 					</tr><?php endforeach; endif; else: echo "" ;endif; ?>
 			</table>
 
@@ -116,7 +121,7 @@ $(function(){
 </div>
 <!--footer start-->
 <div class="footer">
-	<p class="font-user">登录用户: <?php echo ($account); ?></p>
+	<p class="font-user"> 审核人员： <?php echo ($name); ?></p>
 </div>
 </body>
 </html>

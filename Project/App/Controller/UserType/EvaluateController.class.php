@@ -22,10 +22,10 @@ class EvaluateController extends Controller
 	private $stars;
 	private $datetime;
 	private $code;
-        private $level;
-        private $type;
-        private $price;
-        private $card_temp_color;
+	private $level;
+	private $type;
+	private $price;
+	private $card_temp_color;
 
 	function _initialize()
 	{
@@ -35,18 +35,18 @@ class EvaluateController extends Controller
 		$this->stars = post('stars');
 		$this->datetime = currentTime();
 		$this->code = post('cardCode');
-                $this->level = post('cardLevel');
-                $this->type = post('cardType');
-                $this->price = post('price');
-                $this->card_temp_color = post('card_temp_color');
+		$this->level = post('cardLevel');
+		$this->type = post('cardType');
+		$this->price = post('price');
+		$this->card_temp_color = post('card_temp_color');
 
 		/*$this->merchant = "m_6d4e76ca11";
-                $this->user = "u_4a48e91e08";
-                $this->code = "card001";
-                $this->level = "金卡";
-                $this->type = "储值卡";
-                $this->price = "100元";
-                */
+		$this->user = "u_4a48e91e08";
+		$this->code = "card001";
+		$this->level = "金卡";
+		$this->type = "储值卡";
+		$this->price = "100元";
+		*/
 
 		//$this->merchant = 'm_6d4e76ca11';
 
@@ -71,6 +71,19 @@ class EvaluateController extends Controller
 		echo json_encode($data);
 	}
 
+	public function userGet()
+	{
+		$table = D('evaluate');
+		$where['user'] = $this->user;
+		$data = $table
+		->join("cn_user on cn_user.uuid = cn_evaluate.user")
+		->join("cn_merchant on cn_merchant.muid = cn_evaluate.merchant")
+		->field("cn_evaluate.*,nickname,headImage,store")
+		->where($where)
+		->select();
+		echo json_encode($data);
+	}
+	
 	public function listGet()
 	{
 		$merchant = D('merchant');
@@ -89,19 +102,17 @@ class EvaluateController extends Controller
 		$evaluate = D('evaluate');
 		$record = array(
 			'merchant' => $this->merchant, 'user' => $this->user,'content' => $this->content,'stars' => $this->stars,
-			'datetime' => $this->datetime, 'card_code' => $this->code, 'card_level' => $this->level,'card_type' => $this->type,
-			'card_price' => $this->price,'card_temp_color' => $this->card_temp_color
+			'datetime' => currentTime(), 'card_code' => $this->code, 'card_level' => $this->level,'card_type' => $this->type,
+			'card_price' => $this->price,'card_image_url' => $this->card_temp_color
 		);
 
-		$evaluate->addWithCheck($record);
+		$result['result_code'] = addWithCheck($evaluate,$record);
 
-		$card = D('user_card');
-
-                $where['user'] = $this->user;
-                $where['merchant'] = $this->merchant;
-                $where['card_code'] = $this->code;
-                $where['card_level'] = $this->level;
-                $set['evaluate'] = "true";
+		$card = D('record_consum');
+		$where['user'] = $this->user;
+		$where['datetime'] = post('datetime');
+		$set['evaluate_state'] = "true";
+		
 		$result['result_code'] = $card->where($where)->save($set);
 
 

@@ -221,7 +221,7 @@ class ShareNewController extends Controller
 		
 		//写入注册信息
 		$record_u = array(
-			'uuid'=>$uuid,'phone' => $phone, 'nickname' => $phone, 'passwd' => $passwd, 'referrer' => $referrer_uuid,'datetime' => $datetime,'user_level' => 'ORD'
+			'uuid'=>$uuid,'phone' => $phone, 'auth_state' => 'not_auth','nickname' => $phone, 'passwd' => $passwd, 'referrer' => $referrer_uuid,'datetime' => $datetime,'user_level' => 'ORD'
 		);
 
 		$data = $user->addWithCheck($record_u);
@@ -229,7 +229,7 @@ class ShareNewController extends Controller
 		{
 			 $uuid = get_uuid('u_');
                          $record_u = array(
-                         	'muid'=>$muid, 'phone'=>$phone,  'nickname' => $phone, 'passwd'=>$passwd,  'referrer'=>$referrer_uuid,'datetime'=>$datetime);
+                         	'muid'=>$muid, 'phone'=>$phone,  'auth_state' => 'not_auth', 'nickname' => $phone, 'passwd'=>$passwd,  'referrer'=>$referrer_uuid,'datetime'=>$datetime);
                          $data = $user->addWithCheck($record_u);
 		}
 		

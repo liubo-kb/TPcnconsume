@@ -168,21 +168,26 @@ class Verify {
         }
        
         // 保存验证码
-        $key        =   $this->authcode($this->seKey);
-        $code       =   $this->authcode(strtoupper(implode('', $code)));
-        $secode     =   array();
-        $secode['verify_code'] = $code; // 把校验码保存到session
+        //$key        =   $this->authcode($this->seKey);
+        //$code       =   $this->authcode(strtoupper(implode('', $code)));
+        //$secode     =   array();
+		$info['code'] = $code;
+		$info['image'] = $this->_image;
+		return $info;
+        /*$secode['verify_code'] = $code; // 把校验码保存到session
         $secode['verify_time'] = NOW_TIME;  // 验证码创建时间
-        session($key.$id, $secode);
+        session($key.$id, $secode);*/
                         
-        header('Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate');
-        header('Cache-Control: post-check=0, pre-check=0', false);		
-        header('Pragma: no-cache');
-        header("content-type: image/png");
+        //header('Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate');
+        //header('Cache-Control: post-check=0, pre-check=0', false);		
+        //header('Pragma: no-cache');
+        //header("content-type: image/png");
 
         // 输出图像
-        imagepng($this->_image);
-        imagedestroy($this->_image);
+        //imagepng($this->_image);
+        //imagedestroy($this->_image);
+		
+		
     }
 
     /** 

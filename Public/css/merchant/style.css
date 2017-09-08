@@ -196,6 +196,18 @@ body{ background: #e5e5e5;}
 	font-size: 20px;
 	cursor: pointer;
 }
+
+.btn-quick{
+	margin-left: 55px;
+	width: 250px;
+	height: 60px;
+	border: 2px solid #e46062;
+	background-color: #FFFFFF;
+	color: #e46062;
+	font-size: 20px;
+	cursor: pointer;
+}
+
 .btn-rs{
 	width: 150px;
 	height: 45px;
